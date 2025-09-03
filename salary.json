@@ -1,0 +1,338 @@
+ [
+        {
+            "name": "Google",
+            "logo": "🔍",
+            "type": "Product",
+            "tier": "tier-1",
+            "salaries": {
+                "fresher": { "range": "₹18-28L", "base": "₹22L", "bonus": "₹3L", "stocks": "₹5L" },
+                "junior": { "range": "₹28-45L", "base": "₹35L", "bonus": "₹5L", "stocks": "₹8L" },
+                "mid": { "range": "₹45-75L", "base": "₹58L", "bonus": "₹8L", "stocks": "₹15L" },
+                "senior": { "range": "₹70-120L", "base": "₹90L", "bonus": "₹12L", "stocks": "₹25L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "data"],
+            "location": "Bangalore, Hyderabad"
+        },
+        {
+            "name": "Microsoft",
+            "logo": "🪟",
+            "type": "Product",
+            "tier": "tier-1",
+            "salaries": {
+                "fresher": { "range": "₹16-25L", "base": "₹20L", "bonus": "₹2L", "stocks": "₹4L" },
+                "junior": { "range": "₹25-40L", "base": "₹32L", "bonus": "₹4L", "stocks": "₹7L" },
+                "mid": { "range": "₹40-65L", "base": "₹50L", "bonus": "₹6L", "stocks": "₹12L" },
+                "senior": { "range": "₹60-100L", "base": "₹75L", "bonus": "₹10L", "stocks": "₹20L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops"],
+            "location": "Bangalore, Hyderabad"
+        },
+        {
+            "name": "Amazon",
+            "logo": "📦",
+            "type": "Product",
+            "tier": "tier-1",
+            "salaries": {
+                "fresher": { "range": "₹15-22L", "base": "₹18L", "bonus": "₹2L", "stocks": "₹3L" },
+                "junior": { "range": "₹22-35L", "base": "₹28L", "bonus": "₹3L", "stocks": "₹5L" },
+                "mid": { "range": "₹35-55L", "base": "₹42L", "bonus": "₹5L", "stocks": "₹8L" },
+                "senior": { "range": "₹50-85L", "base": "₹65L", "bonus": "₹8L", "stocks": "₹15L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "data"],
+            "location": "Bangalore, Chennai"
+        },
+        {
+            "name": "Meta",
+            "logo": "👥",
+            "type": "Product",
+            "tier": "tier-1",
+            "salaries": {
+                "fresher": { "range": "₹20-30L", "base": "₹24L", "bonus": "₹3L", "stocks": "₹6L" },
+                "junior": { "range": "₹30-48L", "base": "₹38L", "bonus": "₹5L", "stocks": "₹10L" },
+                "mid": { "range": "₹48-80L", "base": "₹60L", "bonus": "₹8L", "stocks": "₹18L" },
+                "senior": { "range": "₹75-130L", "base": "₹95L", "bonus": "₹12L", "stocks": "₹30L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack"],
+            "location": "Bangalore"
+        },
+        {
+            "name": "Flipkart",
+            "logo": "🛒",
+            "type": "Product",
+            "tier": "tier-2",
+            "salaries": {
+                "fresher": { "range": "₹10-18L", "base": "₹13L", "bonus": "₹2L", "stocks": "₹2L" },
+                "junior": { "range": "₹15-25L", "base": "₹19L", "bonus": "₹3L", "stocks": "₹4L" },
+                "mid": { "range": "₹25-40L", "base": "₹30L", "bonus": "₹5L", "stocks": "₹8L" },
+                "senior": { "range": "₹40-65L", "base": "₹50L", "bonus": "₹8L", "stocks": "₹15L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "data"],
+            "location": "Bangalore"
+        },
+        {
+            "name": "Swiggy",
+            "logo": "🍔",
+            "type": "Product",
+            "tier": "tier-2",
+            "salaries": {
+                "fresher": { "range": "₹8-15L", "base": "₹11L", "bonus": "₹1L", "stocks": "₹2L" },
+                "junior": { "range": "₹12-22L", "base": "₹16L", "bonus": "₹2L", "stocks": "₹3L" },
+                "mid": { "range": "₹20-35L", "base": "₹26L", "bonus": "₹3L", "stocks": "₹5L" },
+                "senior": { "range": "₹32-55L", "base": "₹42L", "bonus": "₹5L", "stocks": "₹10L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops"],
+            "location": "Bangalore"
+        },
+        {
+            "name": "Zomato",
+            "logo": "🍕",
+            "type": "Product",
+            "tier": "tier-2",
+            "salaries": {
+                "fresher": { "range": "₹7-14L", "base": "₹10L", "bonus": "₹1L", "stocks": "₹1L" },
+                "junior": { "range": "₹11-20L", "base": "₹14L", "bonus": "₹2L", "stocks": "₹2L" },
+                "mid": { "range": "₹18-32L", "base": "₹23L", "bonus": "₹3L", "stocks": "₹4L" },
+                "senior": { "range": "₹28-48L", "base": "₹36L", "bonus": "₹5L", "stocks": "₹8L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack"],
+            "location": "Gurgaon"
+        },
+        {
+            "name": "Paytm",
+            "logo": "💳",
+            "type": "Product",
+            "tier": "tier-2",
+            "salaries": {
+                "fresher": { "range": "₹6-12L", "base": "₹8L", "bonus": "₹1L", "stocks": "₹1L" },
+                "junior": { "range": "₹10-18L", "base": "₹13L", "bonus": "₹2L", "stocks": "₹2L" },
+                "mid": { "range": "₹16-28L", "base": "₹20L", "bonus": "₹3L", "stocks": "₹3L" },
+                "senior": { "range": "₹25-42L", "base": "₹32L", "bonus": "₹4L", "stocks": "₹6L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops"],
+            "location": "Noida"
+        },
+        {
+            "name": "Razorpay",
+            "logo": "💰",
+            "type": "Product",
+            "tier": "tier-2",
+            "salaries": {
+                "fresher": { "range": "₹9-16L", "base": "₹12L", "bonus": "₹1L", "stocks": "₹2L" },
+                "junior": { "range": "₹14-24L", "base": "₹18L", "bonus": "₹2L", "stocks": "₹3L" },
+                "mid": { "range": "₹22-38L", "base": "₹28L", "bonus": "₹4L", "stocks": "₹6L" },
+                "senior": { "range": "₹35-60L", "base": "₹45L", "bonus": "₹6L", "stocks": "₹12L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops"],
+            "location": "Bangalore"
+        },
+        {
+            "name": "Ola",
+            "logo": "🚗",
+            "type": "Product",
+            "tier": "tier-2",
+            "salaries": {
+                "fresher": { "range": "₹6-11L", "base": "₹8L", "bonus": "₹0.5L", "stocks": "₹1L" },
+                "junior": { "range": "₹9-16L", "base": "₹12L", "bonus": "₹1L", "stocks": "₹2L" },
+                "mid": { "range": "₹15-26L", "base": "₹19L", "bonus": "₹2L", "stocks": "₹3L" },
+                "senior": { "range": "₹23-40L", "base": "₹30L", "bonus": "₹3L", "stocks": "₹5L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops"],
+            "location": "Bangalore"
+        },
+        {
+            "name": "TCS",
+            "logo": "🏢",
+            "type": "Service",
+            "tier": "tier-3",
+            "salaries": {
+                "fresher": { "range": "₹3.6-4.2L", "base": "₹3.8L", "bonus": "₹0.2L", "stocks": "₹0" },
+                "junior": { "range": "₹4.5-7L", "base": "₹5.5L", "bonus": "₹0.5L", "stocks": "₹0" },
+                "mid": { "range": "₹7-12L", "base": "₹9L", "bonus": "₹1L", "stocks": "₹0" },
+                "senior": { "range": "₹12-22L", "base": "₹16L", "bonus": "₹2L", "stocks": "₹0" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "qa"],
+            "location": "Pan India"
+        },
+        {
+            "name": "Infosys",
+            "logo": "ℹ️",
+            "type": "Service",
+            "tier": "tier-3",
+            "salaries": {
+                "fresher": { "range": "₹4.0-4.8L", "base": "₹4.3L", "bonus": "₹0.3L", "stocks": "₹0" },
+                "junior": { "range": "₹5-8L", "base": "₹6L", "bonus": "₹0.5L", "stocks": "₹0" },
+                "mid": { "range": "₹8-14L", "base": "₹10L", "bonus": "₹1L", "stocks": "₹0" },
+                "senior": { "range": "₹14-25L", "base": "₹18L", "bonus": "₹2L", "stocks": "₹0" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "qa"],
+            "location": "Bangalore, Mysore"
+        },
+        {
+            "name": "Wipro",
+            "logo": "🌐",
+            "type": "Service",
+            "tier": "tier-3",
+            "salaries": {
+                "fresher": { "range": "₹3.5-4.5L", "base": "₹4L", "bonus": "₹0.2L", "stocks": "₹0" },
+                "junior": { "range": "₹4.5-7.5L", "base": "₹5.8L", "bonus": "₹0.4L", "stocks": "₹0" },
+                "mid": { "range": "₹7.5-13L", "base": "₹9.5L", "bonus": "₹1L", "stocks": "₹0" },
+                "senior": { "range": "₹13-24L", "base": "₹17L", "bonus": "₹2L", "stocks": "₹0" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "qa"],
+            "location": "Bangalore, Pune"
+        },
+        {
+            "name": "Accenture",
+            "logo": "🔷",
+            "type": "Service",
+            "tier": "tier-3",
+            "salaries": {
+                "fresher": { "range": "₹4.5-5.5L", "base": "₹5L", "bonus": "₹0.3L", "stocks": "₹0" },
+                "junior": { "range": "₹6-9L", "base": "₹7L", "bonus": "₹0.5L", "stocks": "₹0" },
+                "mid": { "range": "₹9-16L", "base": "₹12L", "bonus": "₹1L", "stocks": "₹0" },
+                "senior": { "range": "₹16-28L", "base": "₹20L", "bonus": "₹2L", "stocks": "₹0" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "qa"],
+            "location": "Bangalore, Chennai"
+        },
+        {
+            "name": "Cognizant",
+            "logo": "🧠",
+            "type": "Service",
+            "tier": "tier-3",
+            "salaries": {
+                "fresher": { "range": "₹4.1-4.8L", "base": "₹4.4L", "bonus": "₹0.2L", "stocks": "₹0" },
+                "junior": { "range": "₹5.5-8L", "base": "₹6.5L", "bonus": "₹0.4L", "stocks": "₹0" },
+                "mid": { "range": "₹8-14L", "base": "₹10.5L", "bonus": "₹1L", "stocks": "₹0" },
+                "senior": { "range": "₹14-26L", "base": "₹18L", "bonus": "₹2L", "stocks": "₹0" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "qa"],
+            "location": "Chennai, Pune"
+        },
+        {
+            "name": "HCL",
+            "logo": "🏗️",
+            "type": "Service",
+            "tier": "tier-3",
+            "salaries": {
+                "fresher": { "range": "₹3.2-4L", "base": "₹3.6L", "bonus": "₹0.2L", "stocks": "₹0" },
+                "junior": { "range": "₹4.5-7L", "base": "₹5.5L", "bonus": "₹0.3L", "stocks": "₹0" },
+                "mid": { "range": "₹7-12L", "base": "₹9L", "bonus": "₹0.8L", "stocks": "₹0" },
+                "senior": { "range": "₹12-20L", "base": "₹15L", "bonus": "₹1.5L", "stocks": "₹0" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "qa"],
+            "location": "Noida, Chennai"
+        },
+        {
+            "name": "Tech Mahindra",
+            "logo": "⚙️",
+            "type": "Service",
+            "tier": "tier-3",
+            "salaries": {
+                "fresher": { "range": "₹3.8-4.5L", "base": "₹4.1L", "bonus": "₹0.2L", "stocks": "₹0" },
+                "junior": { "range": "₹5-7.5L", "base": "₹6L", "bonus": "₹0.4L", "stocks": "₹0" },
+                "mid": { "range": "₹7.5-13L", "base": "₹10L", "bonus": "₹1L", "stocks": "₹0" },
+                "senior": { "range": "₹13-23L", "base": "₹17L", "bonus": "₹2L", "stocks": "₹0" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "qa"],
+            "location": "Pune, Hyderabad"
+        },
+        {
+            "name": "Capgemini",
+            "logo": "🎯",
+            "type": "Service",
+            "tier": "tier-3",
+            "salaries": {
+                "fresher": { "range": "₹4.2-5L", "base": "₹4.6L", "bonus": "₹0.3L", "stocks": "₹0" },
+                "junior": { "range": "₹6-8.5L", "base": "₹7L", "bonus": "₹0.5L", "stocks": "₹0" },
+                "mid": { "range": "₹8.5-15L", "base": "₹11L", "bonus": "₹1L", "stocks": "₹0" },
+                "senior": { "range": "₹15-27L", "base": "₹19L", "bonus": "₹2L", "stocks": "₹0" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "qa"],
+            "location": "Mumbai, Pune"
+        },
+        {
+            "name": "Deloitte",
+            "logo": "💼",
+            "type": "Service",
+            "tier": "tier-2",
+            "salaries": {
+                "fresher": { "range": "₹6-9L", "base": "₹7.5L", "bonus": "₹0.5L", "stocks": "₹0" },
+                "junior": { "range": "₹8-13L", "base": "₹10L", "bonus": "₹1L", "stocks": "₹0" },
+                "mid": { "range": "₹13-22L", "base": "₹16L", "bonus": "₹2L", "stocks": "₹0" },
+                "senior": { "range": "₹22-38L", "base": "₹28L", "bonus": "₹3L", "stocks": "₹0" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "data"],
+            "location": "Bangalore, Hyderabad"
+        },
+        {
+            "name": "IBM",
+            "logo": "🔵",
+            "type": "Service",
+            "tier": "tier-2",
+            "salaries": {
+                "fresher": { "range": "₹5-8L", "base": "₹6.5L", "bonus": "₹0.5L", "stocks": "₹0" },
+                "junior": { "range": "₹7-12L", "base": "₹9L", "bonus": "₹1L", "stocks": "₹0" },
+                "mid": { "range": "₹12-20L", "base": "₹15L", "bonus": "₹2L", "stocks": "₹0" },
+                "senior": { "range": "₹20-35L", "base": "₹26L", "bonus": "₹3L", "stocks": "₹0" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops", "data"],
+            "location": "Bangalore, Pune"
+        },
+        {
+            "name": "Oracle",
+            "logo": "🔴",
+            "type": "Product",
+            "tier": "tier-2",
+            "salaries": {
+                "fresher": { "range": "₹7-12L", "base": "₹9L", "bonus": "₹1L", "stocks": "₹1L" },
+                "junior": { "range": "₹10-17L", "base": "₹13L", "bonus": "₹2L", "stocks": "₹2L" },
+                "mid": { "range": "₹17-28L", "base": "₹21L", "bonus": "₹3L", "stocks": "₹4L" },
+                "senior": { "range": "₹28-45L", "base": "₹35L", "bonus": "₹5L", "stocks": "₹8L" }
+            },
+            "roles": ["sde", "backend", "fullstack", "devops", "data"],
+            "location": "Bangalore, Hyderabad"
+        },
+        {
+            "name": "VMware",
+            "logo": "☁️",
+            "type": "Product",
+            "tier": "tier-2",
+            "salaries": {
+                "fresher": { "range": "₹8-14L", "base": "₹11L", "bonus": "₹1L", "stocks": "₹2L" },
+                "junior": { "range": "₹12-20L", "base": "₹15L", "bonus": "₹2L", "stocks": "₹3L" },
+                "mid": { "range": "₹20-32L", "base": "₹25L", "bonus": "₹3L", "stocks": "₹5L" },
+                "senior": { "range": "₹32-52L", "base": "₹40L", "bonus": "₹5L", "stocks": "₹10L" }
+            },
+            "roles": ["sde", "backend", "fullstack", "devops"],
+            "location": "Bangalore"
+        },
+        {
+            "name": "Adobe",
+            "logo": "🎨",
+            "type": "Product",
+            "tier": "tier-1",
+            "salaries": {
+                "fresher": { "range": "₹12-20L", "base": "₹15L", "bonus": "₹2L", "stocks": "₹3L" },
+                "junior": { "range": "₹18-30L", "base": "₹23L", "bonus": "₹3L", "stocks": "₹5L" },
+                "mid": { "range": "₹30-50L", "base": "₹38L", "bonus": "₹5L", "stocks": "₹10L" },
+                "senior": { "range": "₹50-80L", "base": "₹62L", "bonus": "₹8L", "stocks": "₹18L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack"],
+            "location": "Bangalore, Noida"
+        },
+        {
+            "name": "Salesforce",
+            "logo": "☁️",
+            "type": "Product",
+            "tier": "tier-1",
+            "salaries": {
+                "fresher": { "range": "₹14-22L", "base": "₹17L", "bonus": "₹2L", "stocks": "₹4L" },
+                "junior": { "range": "₹20-32L", "base": "₹25L", "bonus": "₹3L", "stocks": "₹6L" },
+                "mid": { "range": "₹32-52L", "base": "₹40L", "bonus": "₹5L", "stocks": "₹12L" },
+                "senior": { "range": "₹52-85L", "base": "₹65L", "bonus": "₹8L", "stocks": "₹20L" }
+            },
+            "roles": ["sde", "frontend", "backend", "fullstack", "devops"],
+            "location": "Bangalore, Hyderabad"
+        }
+    ]
