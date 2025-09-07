@@ -2499,5 +2499,1255 @@
         ],
         "correct": "D",
         "explanation": "Thread is not a property of an object; state, behavior, and identity are."
+    },
+        {
+        "title": "Inheritance - Q0001",
+        "text": "[Inheritance] What is inheritance in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A way to create new classes from existing ones"
+            },
+            {
+                "letter": "B",
+                "text": "A way to hide data"
+            },
+            {
+                "letter": "C",
+                "text": "A way to overload methods"
+            },
+            {
+                "letter": "D",
+                "text": "A way to create interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Inheritance allows new classes to be created based on existing classes."
+    },
+    {
+        "title": "Inheritance - Q0002",
+        "text": "[Inheritance] Which keyword is used to inherit a class in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "implements"
+            },
+            {
+                "letter": "B",
+                "text": "extends"
+            },
+            {
+                "letter": "C",
+                "text": "inherits"
+            },
+            {
+                "letter": "D",
+                "text": "super"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'extends' keyword is used to inherit a class."
+    },
+    {
+        "title": "Inheritance - Q0003",
+        "text": "[Inheritance] Which of the following is NOT a type of inheritance in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Single"
+            },
+            {
+                "letter": "B",
+                "text": "Multiple (with classes)"
+            },
+            {
+                "letter": "C",
+                "text": "Multilevel"
+            },
+            {
+                "letter": "D",
+                "text": "Hierarchical"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Java does not support multiple inheritance with classes."
+    },
+    {
+        "title": "Inheritance - Q0004",
+        "text": "[Inheritance] Which keyword is used to access members of the superclass?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "this"
+            },
+            {
+                "letter": "B",
+                "text": "super"
+            },
+            {
+                "letter": "C",
+                "text": "base"
+            },
+            {
+                "letter": "D",
+                "text": "parent"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'super' keyword is used to access superclass members."
+    },
+    {
+        "title": "Inheritance - Q0005",
+        "text": "[Inheritance] What is the output of the following code?",
+        "code": "class A { int x = 5; }\nclass B extends A { }\nB b = new B();\nSystem.out.println(b.x);",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "5"
+            },
+            {
+                "letter": "C",
+                "text": "null"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation error"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Class B inherits variable x from class A."
+    },
+    {
+        "title": "Inheritance - Q0006",
+        "text": "[Inheritance] Which of the following is true about constructors and inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Constructors are inherited"
+            },
+            {
+                "letter": "B",
+                "text": "Constructors are not inherited"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors must be static"
+            },
+            {
+                "letter": "D",
+                "text": "Constructors can be overridden"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Constructors are not inherited in Java."
+    },
+    {
+        "title": "Inheritance - Q0007",
+        "text": "[Inheritance] Which of the following is true about method overriding?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The method must have the same name and parameters"
+            },
+            {
+                "letter": "B",
+                "text": "The method must be static"
+            },
+            {
+                "letter": "C",
+                "text": "The method must be private"
+            },
+            {
+                "letter": "D",
+                "text": "The method must be final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Overriding requires the same method name and parameters."
+    },
+    {
+        "title": "Inheritance - Q0008",
+        "text": "[Inheritance] Which of the following is NOT inherited by subclasses?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Public methods"
+            },
+            {
+                "letter": "B",
+                "text": "Protected variables"
+            },
+            {
+                "letter": "C",
+                "text": "Private members"
+            },
+            {
+                "letter": "D",
+                "text": "Default members in the same package"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Private members are not inherited by subclasses."
+    },
+    {
+        "title": "Inheritance - Q0009",
+        "text": "[Inheritance] What is the output of the following code?",
+        "code": "class A { void show() { System.out.println(\"A\"); } }\nclass B extends A { void show() { System.out.println(\"B\"); } }\nA obj = new B();\nobj.show();",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A"
+            },
+            {
+                "letter": "B",
+                "text": "B"
+            },
+            {
+                "letter": "C",
+                "text": "Compilation error"
+            },
+            {
+                "letter": "D",
+                "text": "No output"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The overridden method in B is called due to dynamic binding."
+    },
+    {
+        "title": "Inheritance - Q0010",
+        "text": "[Inheritance] Which of the following is true about the 'final' class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can be inherited"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot be inherited"
+            },
+            {
+                "letter": "C",
+                "text": "It must be abstract"
+            },
+            {
+                "letter": "D",
+                "text": "It must be static"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A final class cannot be inherited."
+    },
+    {
+        "title": "Inheritance - Q0011",
+        "text": "[Inheritance] Which of the following is NOT a benefit of inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Code reusability"
+            },
+            {
+                "letter": "B",
+                "text": "Improved maintainability"
+            },
+            {
+                "letter": "C",
+                "text": "Multiple inheritance with classes"
+            },
+            {
+                "letter": "D",
+                "text": "Polymorphism"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Java does not support multiple inheritance with classes."
+    },
+    {
+        "title": "Inheritance - Q0012",
+        "text": "[Inheritance] Which of the following is true about the 'super' keyword?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It refers to the current object"
+            },
+            {
+                "letter": "B",
+                "text": "It refers to the superclass object"
+            },
+            {
+                "letter": "C",
+                "text": "It refers to a static variable"
+            },
+            {
+                "letter": "D",
+                "text": "It refers to the subclass"
+            }
+        ],
+        "correct": "B",
+        "explanation": "'super' refers to the superclass object."
+    },
+    {
+        "title": "Inheritance - Q0013",
+        "text": "[Inheritance] Which of the following is NOT a valid use of the 'super' keyword?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Accessing superclass methods"
+            },
+            {
+                "letter": "B",
+                "text": "Accessing superclass variables"
+            },
+            {
+                "letter": "C",
+                "text": "Calling superclass constructor"
+            },
+            {
+                "letter": "D",
+                "text": "Accessing subclass private members"
+            }
+        ],
+        "correct": "D",
+        "explanation": "'super' cannot access subclass private members."
+    },
+    {
+        "title": "Inheritance - Q0014",
+        "text": "[Inheritance] What is multilevel inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class inherits from multiple classes"
+            },
+            {
+                "letter": "B",
+                "text": "A class inherits from another class, which in turn inherits from another class"
+            },
+            {
+                "letter": "C",
+                "text": "A class implements multiple interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "A class has multiple constructors"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Multilevel inheritance is when a class inherits from a class that is itself a subclass."
+    },
+    {
+        "title": "Inheritance - Q0015",
+        "text": "[Inheritance] Which of the following is true about hierarchical inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multiple classes inherit from a single superclass"
+            },
+            {
+                "letter": "B",
+                "text": "A class inherits from multiple classes"
+            },
+            {
+                "letter": "C",
+                "text": "A class inherits from itself"
+            },
+            {
+                "letter": "D",
+                "text": "A class has multiple constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Hierarchical inheritance is when multiple classes inherit from a single superclass."
+    },
+    {
+        "title": "Inheritance - Q0016",
+        "text": "[Inheritance] Which of the following is NOT allowed in Java inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Single inheritance"
+            },
+            {
+                "letter": "B",
+                "text": "Multilevel inheritance"
+            },
+            {
+                "letter": "C",
+                "text": "Multiple inheritance with interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "Multiple inheritance with classes"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Java does not allow multiple inheritance with classes."
+    },
+    {
+        "title": "Inheritance - Q0017",
+        "text": "[Inheritance] Which of the following is true about method overriding?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The return type must be the same or a subtype"
+            },
+            {
+                "letter": "B",
+                "text": "The method must be static"
+            },
+            {
+                "letter": "C",
+                "text": "The method must be private"
+            },
+            {
+                "letter": "D",
+                "text": "The method must be final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The return type must be the same or a subtype (covariant return type)."
+    },
+    {
+        "title": "Inheritance - Q0018",
+        "text": "[Inheritance] Which of the following is NOT inherited by a subclass?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Public fields"
+            },
+            {
+                "letter": "B",
+                "text": "Protected methods"
+            },
+            {
+                "letter": "C",
+                "text": "Private constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Default methods in the same package"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Private constructors are not inherited."
+    },
+    {
+        "title": "Inheritance - Q0019",
+        "text": "[Inheritance] What is the output of the following code?",
+        "code": "class A { void show() { System.out.println(\"A\"); } }\nclass B extends A { }\nB b = new B();\nb.show();",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A"
+            },
+            {
+                "letter": "B",
+                "text": "B"
+            },
+            {
+                "letter": "C",
+                "text": "Compilation error"
+            },
+            {
+                "letter": "D",
+                "text": "No output"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Class B inherits the show() method from class A."
+    },
+    {
+        "title": "Inheritance - Q0020",
+        "text": "[Inheritance] Which of the following is true about the 'instanceof' operator?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It checks if an object is an instance of a class or its subclass"
+            },
+            {
+                "letter": "B",
+                "text": "It creates a new object"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes an object"
+            },
+            {
+                "letter": "D",
+                "text": "It compares object contents"
+            }
+        ],
+        "correct": "A",
+        "explanation": "'instanceof' checks if an object is an instance of a class or its subclass."
+    },
+    {
+        "title": "Inheritance - Q0021",
+        "text": "[Inheritance] Which of the following is true about abstract classes and inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract classes cannot be inherited"
+            },
+            {
+                "letter": "B",
+                "text": "Abstract classes can be inherited"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes must be final"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract classes cannot have methods"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Abstract classes can be inherited."
+    },
+    {
+        "title": "Inheritance - Q0022",
+        "text": "[Inheritance] Which of the following is NOT true about inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows code reuse"
+            },
+            {
+                "letter": "B",
+                "text": "It supports polymorphism"
+            },
+            {
+                "letter": "C",
+                "text": "It allows multiple inheritance with classes"
+            },
+            {
+                "letter": "D",
+                "text": "It allows hierarchical relationships"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Java does not support multiple inheritance with classes."
+    },
+    {
+        "title": "Inheritance - Q0023",
+        "text": "[Inheritance] Which of the following is true about the 'protected' access modifier?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Protected members are accessible only within the same class"
+            },
+            {
+                "letter": "B",
+                "text": "Protected members are accessible in subclasses and same package"
+            },
+            {
+                "letter": "C",
+                "text": "Protected members are accessible everywhere"
+            },
+            {
+                "letter": "D",
+                "text": "Protected members are not inherited"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Protected members are accessible in subclasses and within the same package."
+    },
+    {
+        "title": "Inheritance - Q0024",
+        "text": "[Inheritance] Which of the following is NOT a valid reason to use inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To reuse code"
+            },
+            {
+                "letter": "B",
+                "text": "To implement polymorphism"
+            },
+            {
+                "letter": "C",
+                "text": "To increase code duplication"
+            },
+            {
+                "letter": "D",
+                "text": "To create hierarchical relationships"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Inheritance reduces code duplication."
+    },
+    {
+        "title": "Inheritance - Q0025",
+        "text": "[Inheritance] Which of the following is true about the 'super()' call in a subclass constructor?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It must be the first statement"
+            },
+            {
+                "letter": "B",
+                "text": "It can be anywhere in the constructor"
+            },
+            {
+                "letter": "C",
+                "text": "It is optional"
+            },
+            {
+                "letter": "D",
+                "text": "It is not allowed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "'super()' must be the first statement in a subclass constructor."
+    },
+    {
+        "title": "Inheritance - Q0026",
+        "text": "[Inheritance] Which of the following is NOT true about method overriding?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The method must have the same signature"
+            },
+            {
+                "letter": "B",
+                "text": "The method can have a different return type"
+            },
+            {
+                "letter": "C",
+                "text": "The method must be in a subclass"
+            },
+            {
+                "letter": "D",
+                "text": "The method can be called using a superclass reference"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The return type must be the same or a subtype (covariant)."
+    },
+    {
+        "title": "Inheritance - Q0027",
+        "text": "[Inheritance] Which of the following is true about the 'final' method?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "It must be static"
+            },
+            {
+                "letter": "D",
+                "text": "It must be private"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A final method cannot be overridden."
+    },
+    {
+        "title": "Inheritance - Q0028",
+        "text": "[Inheritance] Which of the following is NOT a valid superclass constructor call?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "super();"
+            },
+            {
+                "letter": "B",
+                "text": "super(5);"
+            },
+            {
+                "letter": "C",
+                "text": "super(\"abc\");"
+            },
+            {
+                "letter": "D",
+                "text": "super.method();"
+            }
+        ],
+        "correct": "D",
+        "explanation": "'super.method();' calls a method, not a constructor."
+    },
+    {
+        "title": "Inheritance - Q0029",
+        "text": "[Inheritance] Which of the following is true about upcasting?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Subclass reference is assigned to superclass object"
+            },
+            {
+                "letter": "B",
+                "text": "Superclass reference is assigned to subclass object"
+            },
+            {
+                "letter": "C",
+                "text": "It is not allowed in Java"
+            },
+            {
+                "letter": "D",
+                "text": "It causes a compilation error"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Upcasting is assigning a subclass object to a superclass reference."
+    },
+    {
+        "title": "Inheritance - Q0030",
+        "text": "[Inheritance] Which of the following is NOT true about downcasting?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It requires explicit casting"
+            },
+            {
+                "letter": "B",
+                "text": "It can cause a ClassCastException"
+            },
+            {
+                "letter": "C",
+                "text": "It is always safe"
+            },
+            {
+                "letter": "D",
+                "text": "It is assigning a superclass reference to a subclass reference"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Downcasting is not always safe and can cause exceptions."
+    },
+    {
+        "title": "Inheritance - Q0031",
+        "text": "[Inheritance] Which of the following is true about the 'Object' class in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is the root of the class hierarchy"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot be inherited"
+            },
+            {
+                "letter": "C",
+                "text": "It is an abstract class"
+            },
+            {
+                "letter": "D",
+                "text": "It is an interface"
+            }
+        ],
+        "correct": "A",
+        "explanation": "All classes in Java inherit from Object."
+    },
+    {
+        "title": "Inheritance - Q0032",
+        "text": "[Inheritance] Which of the following is NOT a method of the Object class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toString()"
+            },
+            {
+                "letter": "B",
+                "text": "equals()"
+            },
+            {
+                "letter": "C",
+                "text": "clone()"
+            },
+            {
+                "letter": "D",
+                "text": "compareTo()"
+            }
+        ],
+        "correct": "D",
+        "explanation": "'compareTo()' is not a method of Object."
+    },
+    {
+        "title": "Inheritance - Q0033",
+        "text": "[Inheritance] Which of the following is true about interface inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class can implement multiple interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "A class can extend multiple interfaces"
+            },
+            {
+                "letter": "C",
+                "text": "An interface can implement a class"
+            },
+            {
+                "letter": "D",
+                "text": "A class can extend multiple classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class can implement multiple interfaces."
+    },
+    {
+        "title": "Inheritance - Q0034",
+        "text": "[Inheritance] Which of the following is NOT a valid reason to use inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To reuse code"
+            },
+            {
+                "letter": "B",
+                "text": "To implement polymorphism"
+            },
+            {
+                "letter": "C",
+                "text": "To increase code duplication"
+            },
+            {
+                "letter": "D",
+                "text": "To create hierarchical relationships"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Inheritance reduces code duplication."
+    },
+    {
+        "title": "Inheritance - Q0035",
+        "text": "[Inheritance] Which of the following is true about the 'abstract' method?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It must be implemented in the subclass"
+            },
+            {
+                "letter": "B",
+                "text": "It can be static"
+            },
+            {
+                "letter": "C",
+                "text": "It can be final"
+            },
+            {
+                "letter": "D",
+                "text": "It must have a body"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract methods must be implemented in the subclass."
+    },
+    {
+        "title": "Inheritance - Q0036",
+        "text": "[Inheritance] Which of the following is NOT true about inheritance and constructors?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Superclass constructor is called before subclass constructor"
+            },
+            {
+                "letter": "B",
+                "text": "Subclass constructor can call superclass constructor using super()"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors are inherited"
+            },
+            {
+                "letter": "D",
+                "text": "Default constructor is called if no constructor is defined"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Constructors are not inherited."
+    },
+    {
+        "title": "Inheritance - Q0037",
+        "text": "[Inheritance] Which of the following is true about the 'protected' keyword?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Protected members are accessible only in the same class"
+            },
+            {
+                "letter": "B",
+                "text": "Protected members are accessible in subclasses and same package"
+            },
+            {
+                "letter": "C",
+                "text": "Protected members are not inherited"
+            },
+            {
+                "letter": "D",
+                "text": "Protected members are accessible everywhere"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Protected members are accessible in subclasses and within the same package."
+    },
+    {
+        "title": "Inheritance - Q0038",
+        "text": "[Inheritance] Which of the following is NOT a valid inheritance relationship?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "class B extends A"
+            },
+            {
+                "letter": "B",
+                "text": "class B implements A"
+            },
+            {
+                "letter": "C",
+                "text": "interface B extends A"
+            },
+            {
+                "letter": "D",
+                "text": "class B extends Object"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A class implements an interface, not another class."
+    },
+    {
+        "title": "Inheritance - Q0039",
+        "text": "[Inheritance] Which of the following is true about the 'super' constructor call?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It must be the first statement in the subclass constructor"
+            },
+            {
+                "letter": "B",
+                "text": "It can be anywhere in the constructor"
+            },
+            {
+                "letter": "C",
+                "text": "It is optional"
+            },
+            {
+                "letter": "D",
+                "text": "It is not allowed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "'super()' must be the first statement in a subclass constructor."
+    },
+    {
+        "title": "Inheritance - Q0040",
+        "text": "[Inheritance] Which of the following is NOT a valid use of inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To create a new class based on an existing class"
+            },
+            {
+                "letter": "B",
+                "text": "To implement code reuse"
+            },
+            {
+                "letter": "C",
+                "text": "To increase code duplication"
+            },
+            {
+                "letter": "D",
+                "text": "To implement polymorphism"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Inheritance reduces code duplication."
+    },
+    {
+        "title": "Inheritance - Q0041",
+        "text": "[Inheritance] Which of the following is true about the 'final' variable in inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot be changed once assigned"
+            },
+            {
+                "letter": "C",
+                "text": "It must be static"
+            },
+            {
+                "letter": "D",
+                "text": "It must be private"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A final variable cannot be changed once assigned."
+    },
+    {
+        "title": "Inheritance - Q0042",
+        "text": "[Inheritance] Which of the following is NOT true about the 'Object' class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is the root of the class hierarchy"
+            },
+            {
+                "letter": "B",
+                "text": "All classes inherit from Object"
+            },
+            {
+                "letter": "C",
+                "text": "Object is an interface"
+            },
+            {
+                "letter": "D",
+                "text": "Object has methods like toString() and equals()"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Object is a class, not an interface."
+    },
+    {
+        "title": "Inheritance - Q0043",
+        "text": "[Inheritance] Which of the following is true about the 'abstract' class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can be instantiated"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot be instantiated"
+            },
+            {
+                "letter": "C",
+                "text": "It must have only abstract methods"
+            },
+            {
+                "letter": "D",
+                "text": "It must be final"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Abstract classes cannot be instantiated."
+    },
+    {
+        "title": "Inheritance - Q0044",
+        "text": "[Inheritance] Which of the following is NOT a valid method override?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changing the method name"
+            },
+            {
+                "letter": "B",
+                "text": "Changing the method body"
+            },
+            {
+                "letter": "C",
+                "text": "Keeping the same method signature"
+            },
+            {
+                "letter": "D",
+                "text": "Using the same return type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Overriding requires the same method name."
+    },
+    {
+        "title": "Inheritance - Q0045",
+        "text": "[Inheritance] Which of the following is true about the 'default' access modifier in inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Members are accessible everywhere"
+            },
+            {
+                "letter": "B",
+                "text": "Members are accessible only within the same package"
+            },
+            {
+                "letter": "C",
+                "text": "Members are accessible in subclasses outside the package"
+            },
+            {
+                "letter": "D",
+                "text": "Members are not inherited"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Default members are accessible only within the same package."
+    },
+    {
+        "title": "Inheritance - Q0046",
+        "text": "[Inheritance] Which of the following is NOT a valid reason to use the 'super' keyword?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To call a superclass constructor"
+            },
+            {
+                "letter": "B",
+                "text": "To access superclass methods"
+            },
+            {
+                "letter": "C",
+                "text": "To access superclass variables"
+            },
+            {
+                "letter": "D",
+                "text": "To access subclass private members"
+            }
+        ],
+        "correct": "D",
+        "explanation": "'super' cannot access subclass private members."
+    },
+    {
+        "title": "Inheritance - Q0047",
+        "text": "[Inheritance] Which of the following is true about the 'final' class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can be inherited"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot be inherited"
+            },
+            {
+                "letter": "C",
+                "text": "It must be abstract"
+            },
+            {
+                "letter": "D",
+                "text": "It must be static"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A final class cannot be inherited."
+    },
+    {
+        "title": "Inheritance - Q0048",
+        "text": "[Inheritance] Which of the following is NOT a valid use of inheritance?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To create a new class based on an existing class"
+            },
+            {
+                "letter": "B",
+                "text": "To implement code reuse"
+            },
+            {
+                "letter": "C",
+                "text": "To increase code duplication"
+            },
+            {
+                "letter": "D",
+                "text": "To implement polymorphism"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Inheritance reduces code duplication."
+    },
+    {
+        "title": "Inheritance - Q0049",
+        "text": "[Inheritance] Which of the following is true about the 'super' keyword?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It refers to the current object"
+            },
+            {
+                "letter": "B",
+                "text": "It refers to the superclass object"
+            },
+            {
+                "letter": "C",
+                "text": "It refers to a static variable"
+            },
+            {
+                "letter": "D",
+                "text": "It refers to the subclass"
+            }
+        ],
+        "correct": "B",
+        "explanation": "'super' refers to the superclass object."
+    },
+    {
+        "title": "Inheritance - Q0050",
+        "text": "[Inheritance] Which of the following is NOT a type of inheritance supported by Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Single inheritance"
+            },
+            {
+                "letter": "B",
+                "text": "Multilevel inheritance"
+            },
+            {
+                "letter": "C",
+                "text": "Multiple inheritance with classes"
+            },
+            {
+                "letter": "D",
+                "text": "Hierarchical inheritance"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Java does not support multiple inheritance with classes."
     }
 ]
