@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Question 001",
+    "text": "What will be the output of this Java code?",
+    "code": "public class Main {\n    public static void main(String[] args) {\n        int x = 5;\n        System.out.println(x);\n    }\n}",
+    "options": [
+      { "letter": "A", "text": "5" },
+      { "letter": "B", "text": "0" },
+      { "letter": "C", "text": "Compilation Error" },
+      { "letter": "D", "text": "Runtime Error" }
+    ],
+    "correct": "A",
+    "explanation": "The code prints the value of x, which is 5."
+  }
+]
