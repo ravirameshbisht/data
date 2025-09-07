@@ -1,0 +1,2503 @@
+[
+    {
+        "title": "Classes - Q0001",
+        "text": "[Classes] Which of the following correctly defines a class in Java?",
+        "code": "class Animal { }",
+        "options": [
+            {
+                "letter": "A",
+                "text": "class Animal { }"
+            },
+            {
+                "letter": "B",
+                "text": "class Animal()"
+            },
+            {
+                "letter": "C",
+                "text": "class Animal[]"
+            },
+            {
+                "letter": "D",
+                "text": "class Animal;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax for defining a class is class ClassName { }."
+    },
+    {
+        "title": "Classes - Q0002",
+        "text": "[Classes] What is the default access modifier for a class in Java if none is specified?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "public"
+            },
+            {
+                "letter": "B",
+                "text": "private"
+            },
+            {
+                "letter": "C",
+                "text": "protected"
+            },
+            {
+                "letter": "D",
+                "text": "package-private (default)"
+            }
+        ],
+        "correct": "D",
+        "explanation": "If no access modifier is specified, the class has package-private access."
+    },
+    {
+        "title": "Classes - Q0003",
+        "text": "[Classes] Which keyword is used to create an object of a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "class"
+            },
+            {
+                "letter": "B",
+                "text": "new"
+            },
+            {
+                "letter": "C",
+                "text": "object"
+            },
+            {
+                "letter": "D",
+                "text": "create"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The new keyword is used to instantiate objects."
+    },
+    {
+        "title": "Classes - Q0004",
+        "text": "[Classes] What is the output of the following code?",
+        "code": "class Test { int x = 5; }\nTest t = new Test();\nSystem.out.println(t.x);",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "5"
+            },
+            {
+                "letter": "C",
+                "text": "null"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation error"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The value of x is initialized to 5."
+    },
+    {
+        "title": "Classes - Q0005",
+        "text": "[Classes] Which of the following is NOT a valid class name in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "MyClass"
+            },
+            {
+                "letter": "B",
+                "text": "MyClass"
+            },
+            {
+                "letter": "C",
+                "text": "2MyClass"
+            },
+            {
+                "letter": "D",
+                "text": "My_Class"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Class names cannot start with a digit."
+    },
+    {
+        "title": "Classes - Q0006",
+        "text": "[Classes] Which statement creates an object of the Car class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Car car = Car();"
+            },
+            {
+                "letter": "B",
+                "text": "Car car = new Car();"
+            },
+            {
+                "letter": "C",
+                "text": "Car car();"
+            },
+            {
+                "letter": "D",
+                "text": "Car = new car();"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The correct syntax is Car car = new Car();."
+    },
+    {
+        "title": "Classes - Q0007",
+        "text": "[Classes] What is the purpose of a constructor in a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To destroy objects"
+            },
+            {
+                "letter": "B",
+                "text": "To initialize objects"
+            },
+            {
+                "letter": "C",
+                "text": "To inherit from another class"
+            },
+            {
+                "letter": "D",
+                "text": "To define static methods"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Constructors initialize new objects."
+    },
+    {
+        "title": "Classes - Q0008",
+        "text": "[Classes] Which of the following is a valid constructor for the class Book?",
+        "code": "class Book {\n Book() { }\n}",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Book() { }"
+            },
+            {
+                "letter": "B",
+                "text": "void Book() { }"
+            },
+            {
+                "letter": "C",
+                "text": "public void Book() { }"
+            },
+            {
+                "letter": "D",
+                "text": "Book(void) { }"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors have no return type and must match the class name."
+    },
+    {
+        "title": "Classes - Q0009",
+        "text": "[Classes] What happens if no constructor is defined in a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Compilation error"
+            },
+            {
+                "letter": "B",
+                "text": "Java provides a default constructor"
+            },
+            {
+                "letter": "C",
+                "text": "The class cannot be instantiated"
+            },
+            {
+                "letter": "D",
+                "text": "The class becomes abstract"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Java provides a default no-argument constructor."
+    },
+    {
+        "title": "Classes - Q0010",
+        "text": "[Classes] Which keyword is used to refer to the current object in a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "super"
+            },
+            {
+                "letter": "B",
+                "text": "this"
+            },
+            {
+                "letter": "C",
+                "text": "self"
+            },
+            {
+                "letter": "D",
+                "text": "current"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The this keyword refers to the current object."
+    },
+    {
+        "title": "Classes - Q0011",
+        "text": "[Classes] Which of the following is true about class variables?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are declared with the static keyword"
+            },
+            {
+                "letter": "B",
+                "text": "They are unique to each object"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be accessed by static methods"
+            },
+            {
+                "letter": "D",
+                "text": "They are always private"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Class variables are declared static and shared among all instances."
+    },
+    {
+        "title": "Classes - Q0012",
+        "text": "[Classes] What is the output of the following code?",
+        "code": "class Demo {\n static int count = 0;\n Demo() { count++; }\n}\nDemo d1 = new Demo();\nDemo d2 = new Demo();\nSystem.out.println(Demo.count);",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "1"
+            },
+            {
+                "letter": "C",
+                "text": "2"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation error"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The static variable count is incremented for each object created."
+    },
+    {
+        "title": "Classes - Q0013",
+        "text": "[Classes] Which of the following is NOT a feature of a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulation"
+            },
+            {
+                "letter": "B",
+                "text": "Inheritance"
+            },
+            {
+                "letter": "C",
+                "text": "Polymorphism"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Compilation is not a feature of a class; it's a process."
+    },
+    {
+        "title": "Classes - Q0014",
+        "text": "[Classes] Which method is called automatically when an object is created?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "finalize()"
+            },
+            {
+                "letter": "B",
+                "text": "main()"
+            },
+            {
+                "letter": "C",
+                "text": "constructor"
+            },
+            {
+                "letter": "D",
+                "text": "static block"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The constructor is called when an object is created."
+    },
+    {
+        "title": "Classes - Q0015",
+        "text": "[Classes] Which of the following can be overloaded in a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Constructors"
+            },
+            {
+                "letter": "B",
+                "text": "Static blocks"
+            },
+            {
+                "letter": "C",
+                "text": "Class name"
+            },
+            {
+                "letter": "D",
+                "text": "Packages"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors can be overloaded with different parameter lists."
+    },
+    {
+        "title": "Classes - Q0016",
+        "text": "[Classes] What is the access level of a class member if no modifier is specified?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "public"
+            },
+            {
+                "letter": "B",
+                "text": "private"
+            },
+            {
+                "letter": "C",
+                "text": "protected"
+            },
+            {
+                "letter": "D",
+                "text": "package-private (default)"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The default access level is package-private."
+    },
+    {
+        "title": "Classes - Q0017",
+        "text": "[Classes] Which of the following is used to inherit a class in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "implements"
+            },
+            {
+                "letter": "B",
+                "text": "extends"
+            },
+            {
+                "letter": "C",
+                "text": "inherits"
+            },
+            {
+                "letter": "D",
+                "text": "super"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The extends keyword is used for inheritance."
+    },
+    {
+        "title": "Classes - Q0018",
+        "text": "[Classes] Which of the following statements about classes is false?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class can have multiple constructors"
+            },
+            {
+                "letter": "B",
+                "text": "A class can have only one destructor"
+            },
+            {
+                "letter": "C",
+                "text": "A class can have static methods"
+            },
+            {
+                "letter": "D",
+                "text": "A class can have instance variables"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Java does not have destructors; it uses garbage collection."
+    },
+    {
+        "title": "Classes - Q0019",
+        "text": "[Classes] Which of the following is a correct way to declare a class variable?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int count;"
+            },
+            {
+                "letter": "B",
+                "text": "static int count;"
+            },
+            {
+                "letter": "C",
+                "text": "public count;"
+            },
+            {
+                "letter": "D",
+                "text": "count static int;"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Class variables are declared with the static keyword."
+    },
+    {
+        "title": "Classes - Q0020",
+        "text": "[Classes] What is the output of the following code?",
+        "code": "class Test {\n static int x = 10;\n}\nSystem.out.println(Test.x);",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "10"
+            },
+            {
+                "letter": "C",
+                "text": "null"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation error"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Static variables can be accessed using the class name."
+    },
+    {
+        "title": "Classes - Q0021",
+        "text": "[Classes] Which of the following is NOT allowed in a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Methods"
+            },
+            {
+                "letter": "B",
+                "text": "Variables"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Multiple public classes in one file"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Only one public class is allowed per file."
+    },
+    {
+        "title": "Classes - Q0022",
+        "text": "[Classes] Which of the following is true about instance variables?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Shared among all objects"
+            },
+            {
+                "letter": "B",
+                "text": "Unique to each object"
+            },
+            {
+                "letter": "C",
+                "text": "Must be static"
+            },
+            {
+                "letter": "D",
+                "text": "Cannot be private"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Instance variables are unique to each object."
+    },
+    {
+        "title": "Classes - Q0023",
+        "text": "[Classes] Which keyword is used to prevent a class from being subclassed?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "static"
+            },
+            {
+                "letter": "B",
+                "text": "final"
+            },
+            {
+                "letter": "C",
+                "text": "abstract"
+            },
+            {
+                "letter": "D",
+                "text": "private"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The final keyword prevents inheritance."
+    },
+    {
+        "title": "Classes - Q0024",
+        "text": "[Classes] Which of the following is a valid way to access a static variable?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "objectName.variable"
+            },
+            {
+                "letter": "B",
+                "text": "ClassName.variable"
+            },
+            {
+                "letter": "C",
+                "text": "variable"
+            },
+            {
+                "letter": "D",
+                "text": "static.variable"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Static variables are accessed using the class name."
+    },
+    {
+        "title": "Classes - Q0025",
+        "text": "[Classes] Which of the following is NOT a valid member of a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method"
+            },
+            {
+                "letter": "B",
+                "text": "Variable"
+            },
+            {
+                "letter": "C",
+                "text": "Interface"
+            },
+            {
+                "letter": "D",
+                "text": "Constructor"
+            }
+        ],
+        "correct": "C",
+        "explanation": "An interface cannot be a member of a class; it is a separate type."
+    },
+    {
+        "title": "Classes - Q0026",
+        "text": "[Classes] What is the output of the following code?",
+        "code": "class A {\n int x = 10;\n void print() { System.out.println(x); }\n}\nA a = new A();\na.print();",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "10"
+            },
+            {
+                "letter": "C",
+                "text": "null"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation error"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The method prints the value of x, which is 10."
+    },
+    {
+        "title": "Classes - Q0027",
+        "text": "[Classes] Which of the following is true about the main method in a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It must be static"
+            },
+            {
+                "letter": "B",
+                "text": "It must be private"
+            },
+            {
+                "letter": "C",
+                "text": "It must return int"
+            },
+            {
+                "letter": "D",
+                "text": "It must have no parameters"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The main method must be static."
+    },
+    {
+        "title": "Classes - Q0028",
+        "text": "[Classes] Which of the following is NOT a valid constructor declaration?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "MyClass() { }"
+            },
+            {
+                "letter": "B",
+                "text": "public MyClass() { }"
+            },
+            {
+                "letter": "C",
+                "text": "void MyClass() { }"
+            },
+            {
+                "letter": "D",
+                "text": "MyClass(int x) { }"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Constructors do not have a return type."
+    },
+    {
+        "title": "Classes - Q0029",
+        "text": "[Classes] Which of the following can access private members of a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Any class"
+            },
+            {
+                "letter": "B",
+                "text": "Only the same class"
+            },
+            {
+                "letter": "C",
+                "text": "Subclasses"
+            },
+            {
+                "letter": "D",
+                "text": "Classes in the same package"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Private members are accessible only within the same class."
+    },
+    {
+        "title": "Classes - Q0030",
+        "text": "[Classes] Which of the following is used to define a constant in a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "static"
+            },
+            {
+                "letter": "B",
+                "text": "final"
+            },
+            {
+                "letter": "C",
+                "text": "const"
+            },
+            {
+                "letter": "D",
+                "text": "immutable"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The final keyword is used to define constants."
+    },
+    {
+        "title": "Classes - Q0031",
+        "text": "[Classes] Which of the following is true about static methods?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can access instance variables directly"
+            },
+            {
+                "letter": "B",
+                "text": "They can be called without creating an object"
+            },
+            {
+                "letter": "C",
+                "text": "They must be private"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot return a value"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Static methods can be called using the class name."
+    },
+    {
+        "title": "Classes - Q0032",
+        "text": "[Classes] Which of the following is NOT a valid way to create an object?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "MyClass obj = new MyClass();"
+            },
+            {
+                "letter": "B",
+                "text": "MyClass obj();"
+            },
+            {
+                "letter": "C",
+                "text": "MyClass obj = MyClass();"
+            },
+            {
+                "letter": "D",
+                "text": "Both B and C"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Only option A is correct; B and C are invalid."
+    },
+    {
+        "title": "Classes - Q0033",
+        "text": "[Classes] Which of the following is true about abstract classes?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot have any methods"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be instantiated"
+            },
+            {
+                "letter": "C",
+                "text": "They must be final"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot have constructors"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Abstract classes cannot be instantiated."
+    },
+    {
+        "title": "Classes - Q0034",
+        "text": "[Classes] Which of the following is NOT a valid access modifier for a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "public"
+            },
+            {
+                "letter": "B",
+                "text": "private"
+            },
+            {
+                "letter": "C",
+                "text": "protected"
+            },
+            {
+                "letter": "D",
+                "text": "default (package-private)"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Top-level classes cannot be private."
+    },
+    {
+        "title": "Classes - Q0035",
+        "text": "[Classes] Which of the following is true about the this keyword?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It refers to the superclass"
+            },
+            {
+                "letter": "B",
+                "text": "It refers to the current object"
+            },
+            {
+                "letter": "C",
+                "text": "It refers to a static variable"
+            },
+            {
+                "letter": "D",
+                "text": "It refers to the class itself"
+            }
+        ],
+        "correct": "B",
+        "explanation": "this refers to the current object."
+    },
+    {
+        "title": "Classes - Q0036",
+        "text": "[Classes] Which of the following is NOT a characteristic of a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Blueprint for objects"
+            },
+            {
+                "letter": "B",
+                "text": "Can contain methods"
+            },
+            {
+                "letter": "C",
+                "text": "Can contain variables"
+            },
+            {
+                "letter": "D",
+                "text": "Can be instantiated directly if abstract"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Abstract classes cannot be instantiated."
+    },
+    {
+        "title": "Classes - Q0037",
+        "text": "[Classes] Which of the following is true about method overloading in a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Methods must have the same name and parameters"
+            },
+            {
+                "letter": "B",
+                "text": "Methods must have different names"
+            },
+            {
+                "letter": "C",
+                "text": "Methods must have the same name but different parameters"
+            },
+            {
+                "letter": "D",
+                "text": "Methods must be static"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Overloaded methods have the same name but different parameter lists."
+    },
+    {
+        "title": "Classes - Q0038",
+        "text": "[Classes] Which of the following is NOT allowed in a class declaration?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "public class MyClass { }"
+            },
+            {
+                "letter": "B",
+                "text": "private class MyClass { }"
+            },
+            {
+                "letter": "C",
+                "text": "class MyClass { }"
+            },
+            {
+                "letter": "D",
+                "text": "final class MyClass { }"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Top-level classes cannot be private."
+    },
+    {
+        "title": "Classes - Q0039",
+        "text": "[Classes] Which of the following is true about the super keyword?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Refers to the current object"
+            },
+            {
+                "letter": "B",
+                "text": "Refers to the superclass"
+            },
+            {
+                "letter": "C",
+                "text": "Refers to a static variable"
+            },
+            {
+                "letter": "D",
+                "text": "Refers to the class itself"
+            }
+        ],
+        "correct": "B",
+        "explanation": "super refers to the superclass."
+    },
+    {
+        "title": "Classes - Q0040",
+        "text": "[Classes] Which of the following is NOT a valid member of a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method"
+            },
+            {
+                "letter": "B",
+                "text": "Variable"
+            },
+            {
+                "letter": "C",
+                "text": "Interface"
+            },
+            {
+                "letter": "D",
+                "text": "Constructor"
+            }
+        ],
+        "correct": "C",
+        "explanation": "An interface is not a member of a class."
+    },
+    {
+        "title": "Classes - Q0041",
+        "text": "[Classes] Which of the following is true about inner classes?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot access outer class members"
+            },
+            {
+                "letter": "B",
+                "text": "They can be static or non-static"
+            },
+            {
+                "letter": "C",
+                "text": "They must be public"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot have constructors"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Inner classes can be static or non-static."
+    },
+    {
+        "title": "Classes - Q0042",
+        "text": "[Classes] Which of the following is NOT a valid way to declare a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "public class MyClass { }"
+            },
+            {
+                "letter": "B",
+                "text": "class MyClass { }"
+            },
+            {
+                "letter": "C",
+                "text": "private class MyClass { }"
+            },
+            {
+                "letter": "D",
+                "text": "final class MyClass { }"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Top-level classes cannot be private."
+    },
+    {
+        "title": "Classes - Q0043",
+        "text": "[Classes] Which of the following is true about class methods?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They must be static"
+            },
+            {
+                "letter": "B",
+                "text": "They can access instance variables directly"
+            },
+            {
+                "letter": "C",
+                "text": "They can be overloaded"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot return a value"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Methods can be overloaded in a class."
+    },
+    {
+        "title": "Classes - Q0044",
+        "text": "[Classes] Which of the following is NOT a valid class member?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Variable"
+            },
+            {
+                "letter": "B",
+                "text": "Method"
+            },
+            {
+                "letter": "C",
+                "text": "Interface"
+            },
+            {
+                "letter": "D",
+                "text": "Constructor"
+            }
+        ],
+        "correct": "C",
+        "explanation": "An interface is not a class member."
+    },
+    {
+        "title": "Classes - Q0045",
+        "text": "[Classes] Which of the following is true about the final keyword in a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The class can be subclassed"
+            },
+            {
+                "letter": "B",
+                "text": "The class cannot be subclassed"
+            },
+            {
+                "letter": "C",
+                "text": "The class must be abstract"
+            },
+            {
+                "letter": "D",
+                "text": "The class cannot have methods"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A final class cannot be subclassed."
+    },
+    {
+        "title": "Classes - Q0046",
+        "text": "[Classes] Which of the following is NOT a valid way to access a class variable?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ClassName.variable"
+            },
+            {
+                "letter": "B",
+                "text": "objectName.variable"
+            },
+            {
+                "letter": "C",
+                "text": "variable"
+            },
+            {
+                "letter": "D",
+                "text": "Both B and C"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Class variables should be accessed using the class name."
+    },
+    {
+        "title": "Classes - Q0047",
+        "text": "[Classes] Which of the following is true about static blocks in a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are executed when an object is created"
+            },
+            {
+                "letter": "B",
+                "text": "They are executed when the class is loaded"
+            },
+            {
+                "letter": "C",
+                "text": "They can access instance variables"
+            },
+            {
+                "letter": "D",
+                "text": "They must be public"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Static blocks are executed when the class is loaded."
+    },
+    {
+        "title": "Classes - Q0048",
+        "text": "[Classes] Which of the following is NOT a valid class declaration?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "public class MyClass { }"
+            },
+            {
+                "letter": "B",
+                "text": "class MyClass { }"
+            },
+            {
+                "letter": "C",
+                "text": "abstract class MyClass { }"
+            },
+            {
+                "letter": "D",
+                "text": "private class MyClass { }"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Top-level classes cannot be private."
+    },
+    {
+        "title": "Classes - Q0049",
+        "text": "[Classes] Which of the following is true about the abstract keyword in a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The class can be instantiated"
+            },
+            {
+                "letter": "B",
+                "text": "The class cannot be instantiated"
+            },
+            {
+                "letter": "C",
+                "text": "The class must have only abstract methods"
+            },
+            {
+                "letter": "D",
+                "text": "The class cannot have constructors"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Abstract classes cannot be instantiated."
+    },
+    {
+        "title": "Classes - Q0050",
+        "text": "[Classes] Which of the following is NOT a valid way to define a class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "public class MyClass { }"
+            },
+            {
+                "letter": "B",
+                "text": "class MyClass { }"
+            },
+            {
+                "letter": "C",
+                "text": "abstract class MyClass { }"
+            },
+            {
+                "letter": "D",
+                "text": "private class MyClass { }"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Top-level classes cannot be private."
+    },
+    
+    {
+        "title": "Objects - Q0001",
+        "text": "[Objects] What is an object in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A variable"
+            },
+            {
+                "letter": "B",
+                "text": "An instance of a class"
+            },
+            {
+                "letter": "C",
+                "text": "A method"
+            },
+            {
+                "letter": "D",
+                "text": "A package"
+            }
+        ],
+        "correct": "B",
+        "explanation": "An object is an instance of a class."
+    },
+    {
+        "title": "Objects - Q0002",
+        "text": "[Objects] Which keyword is used to create an object in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "object"
+            },
+            {
+                "letter": "B",
+                "text": "new"
+            },
+            {
+                "letter": "C",
+                "text": "create"
+            },
+            {
+                "letter": "D",
+                "text": "instance"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'new' keyword is used to instantiate objects."
+    },
+    {
+        "title": "Objects - Q0003",
+        "text": "[Objects] What is the output of the following code?",
+        "code": "class Dog { int age = 3; }\nDog d = new Dog();\nSystem.out.println(d.age);",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "3"
+            },
+            {
+                "letter": "C",
+                "text": "null"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation error"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The object 'd' has its 'age' field initialized to 3."
+    },
+    {
+        "title": "Objects - Q0004",
+        "text": "[Objects] Which of the following statements correctly creates an object of class Student?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Student s = new Student();"
+            },
+            {
+                "letter": "B",
+                "text": "Student s = Student();"
+            },
+            {
+                "letter": "C",
+                "text": "Student s();"
+            },
+            {
+                "letter": "D",
+                "text": "Student = new Student();"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax is 'Student s = new Student();'."
+    },
+    {
+        "title": "Objects - Q0005",
+        "text": "[Objects] What happens if an object reference is set to null?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The object is deleted immediately"
+            },
+            {
+                "letter": "B",
+                "text": "The object becomes eligible for garbage collection"
+            },
+            {
+                "letter": "C",
+                "text": "The object is locked"
+            },
+            {
+                "letter": "D",
+                "text": "Nothing happens"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Setting an object reference to null makes it eligible for garbage collection."
+    },
+    {
+        "title": "Objects - Q0006",
+        "text": "[Objects] Which of the following is NOT a property of an object?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "State"
+            },
+            {
+                "letter": "B",
+                "text": "Behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Identity"
+            },
+            {
+                "letter": "D",
+                "text": "Package"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Package is not a property of an object."
+    },
+    {
+        "title": "Objects - Q0007",
+        "text": "[Objects] How can two objects of the same class have different states?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "By having different values for their instance variables"
+            },
+            {
+                "letter": "B",
+                "text": "By having different methods"
+            },
+            {
+                "letter": "C",
+                "text": "By being in different packages"
+            },
+            {
+                "letter": "D",
+                "text": "By being static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Objects have different states if their instance variables have different values."
+    },
+    {
+        "title": "Objects - Q0008",
+        "text": "[Objects] What does the 'equals()' method compare by default?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Object references"
+            },
+            {
+                "letter": "B",
+                "text": "Object contents"
+            },
+            {
+                "letter": "C",
+                "text": "Class names"
+            },
+            {
+                "letter": "D",
+                "text": "Package names"
+            }
+        ],
+        "correct": "A",
+        "explanation": "By default, 'equals()' compares object references unless overridden."
+    },
+    {
+        "title": "Objects - Q0009",
+        "text": "[Objects] Which method is called when an object is garbage collected?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "finalize()"
+            },
+            {
+                "letter": "B",
+                "text": "main()"
+            },
+            {
+                "letter": "C",
+                "text": "destroy()"
+            },
+            {
+                "letter": "D",
+                "text": "delete()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'finalize()' method is called before an object is garbage collected."
+    },
+    {
+        "title": "Objects - Q0010",
+        "text": "[Objects] Which of the following is true about object references?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They store the actual object"
+            },
+            {
+                "letter": "B",
+                "text": "They store the memory address of the object"
+            },
+            {
+                "letter": "C",
+                "text": "They store the class name"
+            },
+            {
+                "letter": "D",
+                "text": "They store the package name"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Object references store the memory address of the object."
+    },
+    {
+        "title": "Objects - Q0011",
+        "text": "[Objects] What is the result of comparing two different object references with '=='?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "True if their contents are equal"
+            },
+            {
+                "letter": "B",
+                "text": "True if they refer to the same object"
+            },
+            {
+                "letter": "C",
+                "text": "Always true"
+            },
+            {
+                "letter": "D",
+                "text": "Always false"
+            }
+        ],
+        "correct": "B",
+        "explanation": "'==' compares references, so it is true only if both refer to the same object."
+    },
+    {
+        "title": "Objects - Q0012",
+        "text": "[Objects] Which of the following is NOT a way to create an object in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Using the 'new' keyword"
+            },
+            {
+                "letter": "B",
+                "text": "Using reflection"
+            },
+            {
+                "letter": "C",
+                "text": "Using object cloning"
+            },
+            {
+                "letter": "D",
+                "text": "Using a primitive type"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Primitive types are not objects."
+    },
+    {
+        "title": "Objects - Q0013",
+        "text": "[Objects] What is the default value of an object reference variable in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "null"
+            },
+            {
+                "letter": "C",
+                "text": "undefined"
+            },
+            {
+                "letter": "D",
+                "text": "empty"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Object reference variables are initialized to null by default."
+    },
+    {
+        "title": "Objects - Q0014",
+        "text": "[Objects] Which method is used to get a string representation of an object?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toString()"
+            },
+            {
+                "letter": "B",
+                "text": "print()"
+            },
+            {
+                "letter": "C",
+                "text": "display()"
+            },
+            {
+                "letter": "D",
+                "text": "show()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'toString()' method returns a string representation of the object."
+    },
+    {
+        "title": "Objects - Q0015",
+        "text": "[Objects] What happens if two references point to the same object and one is modified?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Only one reference sees the change"
+            },
+            {
+                "letter": "B",
+                "text": "Both references see the change"
+            },
+            {
+                "letter": "C",
+                "text": "Neither sees the change"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation error"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Both references point to the same object, so both see the change."
+    },
+    {
+        "title": "Objects - Q0016",
+        "text": "[Objects] Which of the following is true about object cloning?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It creates a new object with the same reference"
+            },
+            {
+                "letter": "B",
+                "text": "It creates a new object with the same state"
+            },
+            {
+                "letter": "C",
+                "text": "It creates a new class"
+            },
+            {
+                "letter": "D",
+                "text": "It deletes the original object"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Cloning creates a new object with the same state as the original."
+    },
+    {
+        "title": "Objects - Q0017",
+        "text": "[Objects] Which interface must a class implement to allow its objects to be cloned?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Serializable"
+            },
+            {
+                "letter": "B",
+                "text": "Cloneable"
+            },
+            {
+                "letter": "C",
+                "text": "Comparable"
+            },
+            {
+                "letter": "D",
+                "text": "Runnable"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A class must implement Cloneable to allow its objects to be cloned."
+    },
+    {
+        "title": "Objects - Q0018",
+        "text": "[Objects] What is the result of calling 'hashCode()' on an object?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Returns the object's memory address"
+            },
+            {
+                "letter": "B",
+                "text": "Returns an integer hash code"
+            },
+            {
+                "letter": "C",
+                "text": "Returns the object's class name"
+            },
+            {
+                "letter": "D",
+                "text": "Returns the object's state"
+            }
+        ],
+        "correct": "B",
+        "explanation": "'hashCode()' returns an integer hash code for the object."
+    },
+    {
+        "title": "Objects - Q0019",
+        "text": "[Objects] Which of the following is true about object identity?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is determined by the object's state"
+            },
+            {
+                "letter": "B",
+                "text": "It is determined by the object's reference"
+            },
+            {
+                "letter": "C",
+                "text": "It is determined by the object's class"
+            },
+            {
+                "letter": "D",
+                "text": "It is determined by the object's package"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Object identity is determined by its reference."
+    },
+    {
+        "title": "Objects - Q0020",
+        "text": "[Objects] Which of the following is NOT a valid way to assign one object reference to another?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "obj1 = obj2;"
+            },
+            {
+                "letter": "B",
+                "text": "obj1 == obj2;"
+            },
+            {
+                "letter": "C",
+                "text": "obj1 = new MyClass();"
+            },
+            {
+                "letter": "D",
+                "text": "obj1 = null;"
+            }
+        ],
+        "correct": "B",
+        "explanation": "'==' compares references; it does not assign them."
+    },
+    {
+        "title": "Objects - Q0021",
+        "text": "[Objects] What is the output of the following code?",
+        "code": "String s1 = new String(\"hello\");\nString s2 = new String(\"hello\");\nSystem.out.println(s1 == s2);",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "hello"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation error"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The '==' operator compares references, not contents."
+    },
+    {
+        "title": "Objects - Q0022",
+        "text": "[Objects] Which of the following is true about object methods?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can only be called from static context"
+            },
+            {
+                "letter": "B",
+                "text": "They can access instance variables"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot return values"
+            },
+            {
+                "letter": "D",
+                "text": "They must be static"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Object methods can access instance variables."
+    },
+    {
+        "title": "Objects - Q0023",
+        "text": "[Objects] What is the result of passing an object to a method in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A copy of the object is passed"
+            },
+            {
+                "letter": "B",
+                "text": "A reference to the object is passed"
+            },
+            {
+                "letter": "C",
+                "text": "The object is destroyed"
+            },
+            {
+                "letter": "D",
+                "text": "The object is locked"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A reference to the object is passed to the method."
+    },
+    {
+        "title": "Objects - Q0024",
+        "text": "[Objects] Which of the following is NOT true about objects?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Objects can have methods"
+            },
+            {
+                "letter": "B",
+                "text": "Objects can have state"
+            },
+            {
+                "letter": "C",
+                "text": "Objects can be created without a class"
+            },
+            {
+                "letter": "D",
+                "text": "Objects can be assigned to null"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Objects must be created from a class."
+    },
+    {
+        "title": "Objects - Q0025",
+        "text": "[Objects] Which of the following statements is true about object arrays?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can store primitive types"
+            },
+            {
+                "letter": "B",
+                "text": "They can store objects of different classes"
+            },
+            {
+                "letter": "C",
+                "text": "They can store only objects of the declared type"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be null"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Object arrays can only store objects of the declared type or its subclasses."
+    },
+    {
+        "title": "Objects - Q0026",
+        "text": "[Objects] What is the output of the following code?",
+        "code": "Object obj = null;\nSystem.out.println(obj);",
+        "options": [
+            {
+                "letter": "A",
+                "text": "null"
+            },
+            {
+                "letter": "B",
+                "text": "0"
+            },
+            {
+                "letter": "C",
+                "text": "Compilation error"
+            },
+            {
+                "letter": "D",
+                "text": "Object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Printing a null object reference outputs 'null'."
+    },
+    {
+        "title": "Objects - Q0027",
+        "text": "[Objects] Which of the following is NOT a valid object reference assignment?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "MyClass obj1 = new MyClass();"
+            },
+            {
+                "letter": "B",
+                "text": "MyClass obj2 = obj1;"
+            },
+            {
+                "letter": "C",
+                "text": "obj1 = null;"
+            },
+            {
+                "letter": "D",
+                "text": "MyClass obj3 = 5;"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Cannot assign a primitive value to an object reference."
+    },
+    {
+        "title": "Objects - Q0028",
+        "text": "[Objects] Which of the following is true about the 'instanceof' operator?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It checks if an object is an instance of a class"
+            },
+            {
+                "letter": "B",
+                "text": "It creates a new object"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes an object"
+            },
+            {
+                "letter": "D",
+                "text": "It compares object contents"
+            }
+        ],
+        "correct": "A",
+        "explanation": "'instanceof' checks if an object is an instance of a class or interface."
+    },
+    {
+        "title": "Objects - Q0029",
+        "text": "[Objects] What is the output of the following code?",
+        "code": "String s = null;\nSystem.out.println(s == null);",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "null"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The reference 's' is null, so the comparison is true."
+    },
+    {
+        "title": "Objects - Q0030",
+        "text": "[Objects] Which of the following is NOT a valid way to check if an object is null?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "if(obj == null)"
+            },
+            {
+                "letter": "B",
+                "text": "if(obj.equals(null))"
+            },
+            {
+                "letter": "C",
+                "text": "if(null == obj)"
+            },
+            {
+                "letter": "D",
+                "text": "if(obj != null)"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Calling 'equals' on a null reference causes a NullPointerException."
+    },
+    {
+        "title": "Objects - Q0031",
+        "text": "[Objects] Which of the following is true about object serialization?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It converts an object into a byte stream"
+            },
+            {
+                "letter": "B",
+                "text": "It destroys the object"
+            },
+            {
+                "letter": "C",
+                "text": "It creates a new object"
+            },
+            {
+                "letter": "D",
+                "text": "It changes the object's class"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serialization converts an object into a byte stream."
+    },
+    {
+        "title": "Objects - Q0032",
+        "text": "[Objects] Which interface must a class implement to allow its objects to be serialized?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cloneable"
+            },
+            {
+                "letter": "B",
+                "text": "Serializable"
+            },
+            {
+                "letter": "C",
+                "text": "Comparable"
+            },
+            {
+                "letter": "D",
+                "text": "Runnable"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A class must implement Serializable to allow its objects to be serialized."
+    },
+    {
+        "title": "Objects - Q0033",
+        "text": "[Objects] Which of the following is NOT a valid object method?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toString()"
+            },
+            {
+                "letter": "B",
+                "text": "equals()"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode()"
+            },
+            {
+                "letter": "D",
+                "text": "main()"
+            }
+        ],
+        "correct": "D",
+        "explanation": "'main()' is not an object method; it's the entry point of the program."
+    },
+    {
+        "title": "Objects - Q0034",
+        "text": "[Objects] What is the output of the following code?",
+        "code": "Object obj = new Object();\nSystem.out.println(obj.getClass().getName());",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Object"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang.Object"
+            },
+            {
+                "letter": "C",
+                "text": "object"
+            },
+            {
+                "letter": "D",
+                "text": "java.Object"
+            }
+        ],
+        "correct": "B",
+        "explanation": "'getClass().getName()' returns the fully qualified class name."
+    },
+    {
+        "title": "Objects - Q0035",
+        "text": "[Objects] Which of the following is true about object equality?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "'==' compares object contents"
+            },
+            {
+                "letter": "B",
+                "text": "'equals()' can be overridden to compare contents"
+            },
+            {
+                "letter": "C",
+                "text": "'equals()' always compares references"
+            },
+            {
+                "letter": "D",
+                "text": "'==' can be overridden"
+            }
+        ],
+        "correct": "B",
+        "explanation": "'equals()' can be overridden to compare object contents."
+    },
+    {
+        "title": "Objects - Q0036",
+        "text": "[Objects] Which of the following is NOT a valid way to create an object?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "MyClass obj = new MyClass();"
+            },
+            {
+                "letter": "B",
+                "text": "MyClass obj = null;"
+            },
+            {
+                "letter": "C",
+                "text": "MyClass obj;"
+            },
+            {
+                "letter": "D",
+                "text": "MyClass obj = 10;"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Cannot assign a primitive value to an object reference."
+    },
+    {
+        "title": "Objects - Q0037",
+        "text": "[Objects] Which of the following is true about object casting?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Objects can be cast to any type"
+            },
+            {
+                "letter": "B",
+                "text": "Objects can be cast to their superclass"
+            },
+            {
+                "letter": "C",
+                "text": "Objects can be cast to unrelated classes"
+            },
+            {
+                "letter": "D",
+                "text": "Objects cannot be cast"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Objects can be cast to their superclass or implemented interfaces."
+    },
+    {
+        "title": "Objects - Q0038",
+        "text": "[Objects] What is the output of the following code?",
+        "code": "Object obj = new String(\"abc\");\nSystem.out.println(obj instanceof String);",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "abc"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The object is an instance of String."
+    },
+    {
+        "title": "Objects - Q0039",
+        "text": "[Objects] Which of the following is NOT a valid object field access?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "obj.field"
+            },
+            {
+                "letter": "B",
+                "text": "obj->field"
+            },
+            {
+                "letter": "C",
+                "text": "obj.method()"
+            },
+            {
+                "letter": "D",
+                "text": "obj.field = 5;"
+            }
+        ],
+        "correct": "B",
+        "explanation": "'->' is not used for field access in Java."
+    },
+    {
+        "title": "Objects - Q0040",
+        "text": "[Objects] Which of the following is true about object arrays?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be resized after creation"
+            },
+            {
+                "letter": "B",
+                "text": "They have a fixed length"
+            },
+            {
+                "letter": "C",
+                "text": "They can only store primitive types"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be null"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Arrays in Java have a fixed length after creation."
+    },
+    {
+        "title": "Objects - Q0041",
+        "text": "[Objects] Which of the following is NOT a valid way to check object type?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "obj instanceof MyClass"
+            },
+            {
+                "letter": "B",
+                "text": "obj.getClass() == MyClass.class"
+            },
+            {
+                "letter": "C",
+                "text": "obj.class == MyClass"
+            },
+            {
+                "letter": "D",
+                "text": "obj.getClass().getName().equals(\"MyClass\")"
+            }
+        ],
+        "correct": "C",
+        "explanation": "'obj.class' is not valid Java syntax."
+    },
+    {
+        "title": "Objects - Q0042",
+        "text": "[Objects] What is the output of the following code?",
+        "code": "Object obj = new Object();\nSystem.out.println(obj.toString().contains(\"@\"));",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "Compilation error"
+            },
+            {
+                "letter": "D",
+                "text": "Object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The default toString() includes '@' in its output."
+    },
+    {
+        "title": "Objects - Q0043",
+        "text": "[Objects] Which of the following is true about object references in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can refer to multiple objects at once"
+            },
+            {
+                "letter": "B",
+                "text": "They can refer to only one object at a time"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be null"
+            },
+            {
+                "letter": "D",
+                "text": "They are always final"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A reference can point to only one object at a time."
+    },
+    {
+        "title": "Objects - Q0044",
+        "text": "[Objects] Which of the following is NOT a valid object method in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals()"
+            },
+            {
+                "letter": "B",
+                "text": "clone()"
+            },
+            {
+                "letter": "C",
+                "text": "compareTo()"
+            },
+            {
+                "letter": "D",
+                "text": "malloc()"
+            }
+        ],
+        "correct": "D",
+        "explanation": "'malloc()' is not a Java method."
+    },
+    {
+        "title": "Objects - Q0045",
+        "text": "[Objects] Which of the following is true about object fields?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be static or instance variables"
+            },
+            {
+                "letter": "B",
+                "text": "They must be static"
+            },
+            {
+                "letter": "C",
+                "text": "They must be final"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be private"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Object fields can be static or instance variables."
+    },
+    {
+        "title": "Objects - Q0046",
+        "text": "[Objects] Which of the following is NOT a valid way to create an object?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "MyClass obj = new MyClass();"
+            },
+            {
+                "letter": "B",
+                "text": "MyClass obj = null;"
+            },
+            {
+                "letter": "C",
+                "text": "MyClass obj;"
+            },
+            {
+                "letter": "D",
+                "text": "MyClass obj = MyClass;"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Cannot assign a class name to an object reference."
+    },
+    {
+        "title": "Objects - Q0047",
+        "text": "[Objects] Which of the following is true about object methods?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be overloaded"
+            },
+            {
+                "letter": "B",
+                "text": "They must be static"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot return values"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be private"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Object methods can be overloaded."
+    },
+    {
+        "title": "Objects - Q0048",
+        "text": "[Objects] Which of the following is NOT a valid object comparison?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "obj1 == obj2"
+            },
+            {
+                "letter": "B",
+                "text": "obj1.equals(obj2)"
+            },
+            {
+                "letter": "C",
+                "text": "obj1 > obj2"
+            },
+            {
+                "letter": "D",
+                "text": "obj1 != obj2"
+            }
+        ],
+        "correct": "C",
+        "explanation": "'>' is not valid for object comparison in Java."
+    },
+    {
+        "title": "Objects - Q0049",
+        "text": "[Objects] Which of the following is true about object references and garbage collection?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Objects are garbage collected as soon as they are created"
+            },
+            {
+                "letter": "B",
+                "text": "Objects are garbage collected when no references point to them"
+            },
+            {
+                "letter": "C",
+                "text": "Objects are never garbage collected"
+            },
+            {
+                "letter": "D",
+                "text": "Objects are garbage collected when assigned to null"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Objects are eligible for garbage collection when no references point to them."
+    },
+    {
+        "title": "Objects - Q0050",
+        "text": "[Objects] Which of the following is NOT a property of an object in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "State"
+            },
+            {
+                "letter": "B",
+                "text": "Behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Identity"
+            },
+            {
+                "letter": "D",
+                "text": "Thread"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Thread is not a property of an object; state, behavior, and identity are."
+    }
+]
