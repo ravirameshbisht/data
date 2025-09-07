@@ -1,4 +1,4 @@
-[
+{[
                     {
                         title: "Question 1",
                         text: "What will be the output of this Java code?",
@@ -209,4 +209,4 @@ public class Main {
                         correct: "B",
                         explanation: "Arrays are passed by reference in Java. The change() method modifies the original array, so arr[0] becomes 100."
                     }
-                ]
+]}
