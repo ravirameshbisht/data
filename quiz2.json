@@ -1,0 +1,212 @@
+[
+                    {
+                        title: "Question 1",
+                        text: "What will be the output of this Java code?",
+                        code: `public class Main {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = ++x + x++;
+        System.out.println("x = " + x + ", y = " + y);
+    }
+}`,
+                        options: [
+                            { letter: "A", text: "x = 6, y = 11" },
+                            { letter: "B", text: "x = 7, y = 12" },
+                            { letter: "C", text: "x = 7, y = 11" },
+                            { letter: "D", text: "x = 6, y = 12" }
+                        ],
+                        correct: "B",
+                        explanation: "++x increments x to 6 first, then x++ uses 6 but increments to 7. So y = 6 + 6 = 12, and final x = 7."
+                    },
+                    {
+                        title: "Question 2",
+                        text: "What is the result of this string operation?",
+                        code: `public class Main {
+    public static void main(String[] args) {
+        String str = "Java";
+        str.concat(" Programming");
+        System.out.println(str);
+    }
+}`,
+                        options: [
+                            { letter: "A", text: "Java Programming" },
+                            { letter: "B", text: "Java" },
+                            { letter: "C", text: "Programming" },
+                            { letter: "D", text: "Compilation Error" }
+                        ],
+                        correct: "B",
+                        explanation: "Strings are immutable in Java. concat() returns a new string but doesn't modify the original. The result isn't assigned back to str."
+                    },
+                    {
+                        title: "Question 3",
+                        text: "What will this array operation print?",
+                        code: `public class Main {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
+        System.out.println(arr[arr.length]);
+    }
+}`,
+                        options: [
+                            { letter: "A", text: "5" },
+                            { letter: "B", text: "4" },
+                            { letter: "C", text: "ArrayIndexOutOfBoundsException" },
+                            { letter: "D", text: "0" }
+                        ],
+                        correct: "C",
+                        explanation: "Array indices go from 0 to length-1. arr.length is 5, but valid indices are 0-4. Accessing arr[5] throws ArrayIndexOutOfBoundsException."
+                    },
+                    {
+                        title: "Question 4",
+                        text: "What is the output of this loop?",
+                        code: `public class Main {
+    public static void main(String[] args) {
+        for(int i = 0; i < 3; i++) {
+            if(i == 1) continue;
+            System.out.print(i + " ");
+        }
+    }
+}`,
+                        options: [
+                            { letter: "A", text: "0 1 2" },
+                            { letter: "B", text: "0 2" },
+                            { letter: "C", text: "1 2" },
+                            { letter: "D", text: "0 1" }
+                        ],
+                        correct: "B",
+                        explanation: "The loop runs for i = 0, 1, 2. When i = 1, continue skips the print statement. So only 0 and 2 are printed."
+                    },
+                    {
+                        title: "Question 5",
+                        text: "What will this method return?",
+                        code: `public class Main {
+    static int mystery(int n) {
+        if(n <= 1) return 1;
+        return n * mystery(n - 1);
+    }
+    
+    public static void main(String[] args) {
+        System.out.println(mystery(4));
+    }
+}`,
+                        options: [
+                            { letter: "A", text: "10" },
+                            { letter: "B", text: "24" },
+                            { letter: "C", text: "4" },
+                            { letter: "D", text: "1" }
+                        ],
+                        correct: "B",
+                        explanation: "This is a factorial function. mystery(4) = 4 * 3 * 2 * 1 = 24."
+                    },
+                    {
+                        title: "Question 6",
+                        text: "What happens with this variable declaration?",
+                        code: `public class Main {
+    public static void main(String[] args) {
+        int x = 10;
+        {
+            int x = 20;
+            System.out.println(x);
+        }
+        System.out.println(x);
+    }
+}`,
+                        options: [
+                            { letter: "A", text: "20 10" },
+                            { letter: "B", text: "20 20" },
+                            { letter: "C", text: "10 10" },
+                            { letter: "D", text: "Compilation Error" }
+                        ],
+                        correct: "D",
+                        explanation: "You cannot declare a variable with the same name in the same scope or nested scope in Java. This causes a compilation error."
+                    },
+                    {
+                        title: "Question 7",
+                        text: "What is the result of this comparison?",
+                        code: `public class Main {
+    public static void main(String[] args) {
+        String s1 = new String("Hello");
+        String s2 = new String("Hello");
+        System.out.println(s1 == s2);
+        System.out.println(s1.equals(s2));
+    }
+}`,
+                        options: [
+                            { letter: "A", text: "true true" },
+                            { letter: "B", text: "false true" },
+                            { letter: "C", text: "true false" },
+                            { letter: "D", text: "false false" }
+                        ],
+                        correct: "B",
+                        explanation: "== compares references (different objects), so false. equals() compares content (same string), so true."
+                    },
+                    {
+                        title: "Question 8",
+                        text: "What will this switch statement output?",
+                        code: `public class Main {
+    public static void main(String[] args) {
+        int day = 2;
+        switch(day) {
+            case 1: System.out.print("Mon ");
+            case 2: System.out.print("Tue ");
+            case 3: System.out.print("Wed ");
+            default: System.out.print("Other");
+        }
+    }
+}`,
+                        options: [
+                            { letter: "A", text: "Tue" },
+                            { letter: "B", text: "Tue Wed Other" },
+                            { letter: "C", text: "Mon Tue Wed Other" },
+                            { letter: "D", text: "Other" }
+                        ],
+                        correct: "B",
+                        explanation: "No break statements, so execution falls through from case 2 to case 3 to default, printing 'Tue Wed Other'."
+                    },
+                    {
+                        title: "Question 9",
+                        text: "What is the output of this inheritance example?",
+                        code: `class Parent {
+    void show() { System.out.print("Parent "); }
+}
+class Child extends Parent {
+    void show() { System.out.print("Child "); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Parent p = new Child();
+        p.show();
+    }
+}`,
+                        options: [
+                            { letter: "A", text: "Parent" },
+                            { letter: "B", text: "Child" },
+                            { letter: "C", text: "Parent Child" },
+                            { letter: "D", text: "Compilation Error" }
+                        ],
+                        correct: "B",
+                        explanation: "This demonstrates polymorphism. Even though p is declared as Parent, it refers to a Child object, so Child's overridden method is called."
+                    },
+                    {
+                        title: "Question 10",
+                        text: "What will this final question output?",
+                        code: `public class Main {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3};
+        change(arr);
+        System.out.println(arr[0]);
+    }
+    
+    static void change(int[] a) {
+        a[0] = 100;
+    }
+}`,
+                        options: [
+                            { letter: "A", text: "1" },
+                            { letter: "B", text: "100" },
+                            { letter: "C", text: "0" },
+                            { letter: "D", text: "Compilation Error" }
+                        ],
+                        correct: "B",
+                        explanation: "Arrays are passed by reference in Java. The change() method modifies the original array, so arr[0] becomes 100."
+                    }
+                ]
