@@ -3749,5 +3749,1380 @@
         ],
         "correct": "C",
         "explanation": "Java does not support multiple inheritance with classes."
+    },
+        {
+        "title": "Polymorphism - Q0001",
+        "text": "[Polymorphism] What is polymorphism in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ability of a variable, function or object to take multiple forms"
+            },
+            {
+                "letter": "B",
+                "text": "Ability to inherit from multiple classes"
+            },
+            {
+                "letter": "C",
+                "text": "Ability to hide data"
+            },
+            {
+                "letter": "D",
+                "text": "Ability to create objects"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Polymorphism allows variables, functions, or objects to take multiple forms."
+    },
+    {
+        "title": "Polymorphism - Q0002",
+        "text": "[Polymorphism] Which of the following is NOT a type of polymorphism in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Compile-time polymorphism"
+            },
+            {
+                "letter": "B",
+                "text": "Run-time polymorphism"
+            },
+            {
+                "letter": "C",
+                "text": "Static polymorphism"
+            },
+            {
+                "letter": "D",
+                "text": "Multiple inheritance polymorphism"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Java does not support multiple inheritance with classes."
+    },
+    {
+        "title": "Polymorphism - Q0003",
+        "text": "[Polymorphism] Which of the following implements compile-time polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "B",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "C",
+                "text": "Dynamic binding"
+            },
+            {
+                "letter": "D",
+                "text": "Interface implementation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Method overloading is an example of compile-time (static) polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0004",
+        "text": "[Polymorphism] Which of the following implements run-time polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "B",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "C",
+                "text": "Constructor overloading"
+            },
+            {
+                "letter": "D",
+                "text": "Variable hiding"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Method overriding is an example of run-time (dynamic) polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0005",
+        "text": "[Polymorphism] What is method overloading?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Defining multiple methods with the same name but different parameters"
+            },
+            {
+                "letter": "B",
+                "text": "Defining multiple methods with the same name and same parameters"
+            },
+            {
+                "letter": "C",
+                "text": "Defining methods in different classes"
+            },
+            {
+                "letter": "D",
+                "text": "Defining static methods only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Method overloading means same method name, different parameter lists."
+    },
+    {
+        "title": "Polymorphism - Q0006",
+        "text": "[Polymorphism] What is method overriding?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Defining a method in a subclass with the same signature as in the superclass"
+            },
+            {
+                "letter": "B",
+                "text": "Defining multiple methods with the same name but different parameters"
+            },
+            {
+                "letter": "C",
+                "text": "Defining static methods only"
+            },
+            {
+                "letter": "D",
+                "text": "Defining private methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Method overriding means redefining a superclass method in a subclass."
+    },
+    {
+        "title": "Polymorphism - Q0007",
+        "text": "[Polymorphism] Which of the following is NOT required for method overriding?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Same method name"
+            },
+            {
+                "letter": "B",
+                "text": "Same parameter list"
+            },
+            {
+                "letter": "C",
+                "text": "Same return type or subtype"
+            },
+            {
+                "letter": "D",
+                "text": "Method must be static"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Static methods cannot be overridden."
+    },
+    {
+        "title": "Polymorphism - Q0008",
+        "text": "[Polymorphism] Which of the following is true about dynamic method dispatch?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is used to resolve overloaded methods"
+            },
+            {
+                "letter": "B",
+                "text": "It is used to resolve overridden methods at runtime"
+            },
+            {
+                "letter": "C",
+                "text": "It is used for static methods"
+            },
+            {
+                "letter": "D",
+                "text": "It is used for constructors"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Dynamic method dispatch resolves overridden methods at runtime."
+    },
+    {
+        "title": "Polymorphism - Q0009",
+        "text": "[Polymorphism] What is the output of the following code?",
+        "code": "class A { void show() { System.out.println(\"A\"); } }\nclass B extends A { void show() { System.out.println(\"B\"); } }\nA obj = new B();\nobj.show();",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A"
+            },
+            {
+                "letter": "B",
+                "text": "B"
+            },
+            {
+                "letter": "C",
+                "text": "Compilation error"
+            },
+            {
+                "letter": "D",
+                "text": "No output"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The overridden method in B is called due to dynamic binding."
+    },
+    {
+        "title": "Polymorphism - Q0010",
+        "text": "[Polymorphism] Which of the following is NOT a benefit of polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Code reusability"
+            },
+            {
+                "letter": "B",
+                "text": "Code maintainability"
+            },
+            {
+                "letter": "C",
+                "text": "Multiple inheritance with classes"
+            },
+            {
+                "letter": "D",
+                "text": "Flexibility in code"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Java does not support multiple inheritance with classes."
+    },
+    {
+        "title": "Polymorphism - Q0011",
+        "text": "[Polymorphism] Which of the following is true about upcasting?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Subclass reference is assigned to superclass object"
+            },
+            {
+                "letter": "B",
+                "text": "Superclass reference is assigned to subclass object"
+            },
+            {
+                "letter": "C",
+                "text": "It is not allowed in Java"
+            },
+            {
+                "letter": "D",
+                "text": "It causes a compilation error"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Upcasting is assigning a subclass object to a superclass reference."
+    },
+    {
+        "title": "Polymorphism - Q0012",
+        "text": "[Polymorphism] Which of the following is NOT true about method overloading?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Methods must have the same name"
+            },
+            {
+                "letter": "B",
+                "text": "Methods must have different parameter lists"
+            },
+            {
+                "letter": "C",
+                "text": "Methods must have the same return type"
+            },
+            {
+                "letter": "D",
+                "text": "Methods can have different access modifiers"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Return type can be different in overloaded methods."
+    },
+    {
+        "title": "Polymorphism - Q0013",
+        "text": "[Polymorphism] Which of the following is true about interfaces and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces cannot be used for polymorphism"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces enable run-time polymorphism"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces can only be used for static methods"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces cannot be implemented by classes"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Interfaces enable run-time polymorphism through implementation."
+    },
+    {
+        "title": "Polymorphism - Q0014",
+        "text": "[Polymorphism] Which of the following is NOT a valid example of polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "B",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "C",
+                "text": "Constructor overloading"
+            },
+            {
+                "letter": "D",
+                "text": "Variable hiding"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Variable hiding is not considered polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0015",
+        "text": "[Polymorphism] Which of the following is true about the 'instanceof' operator?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It checks if an object is an instance of a class or interface"
+            },
+            {
+                "letter": "B",
+                "text": "It creates a new object"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes an object"
+            },
+            {
+                "letter": "D",
+                "text": "It compares object contents"
+            }
+        ],
+        "correct": "A",
+        "explanation": "'instanceof' checks if an object is an instance of a class or interface."
+    },
+    {
+        "title": "Polymorphism - Q0016",
+        "text": "[Polymorphism] Which of the following is NOT true about run-time polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is achieved by method overriding"
+            },
+            {
+                "letter": "B",
+                "text": "It is resolved at compile time"
+            },
+            {
+                "letter": "C",
+                "text": "It is resolved at runtime"
+            },
+            {
+                "letter": "D",
+                "text": "It allows dynamic method dispatch"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Run-time polymorphism is resolved at runtime, not compile time."
+    },
+    {
+        "title": "Polymorphism - Q0017",
+        "text": "[Polymorphism] Which of the following is true about static methods and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static methods can be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods cannot be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods support run-time polymorphism"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods can be abstract"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Static methods cannot be overridden."
+    },
+    {
+        "title": "Polymorphism - Q0018",
+        "text": "[Polymorphism] What is the output of the following code?",
+        "code": "class Animal { void sound() { System.out.println(\"Animal\"); } }\nclass Dog extends Animal { void sound() { System.out.println(\"Dog\"); } }\nAnimal a = new Dog();\na.sound();",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Animal"
+            },
+            {
+                "letter": "B",
+                "text": "Dog"
+            },
+            {
+                "letter": "C",
+                "text": "Compilation error"
+            },
+            {
+                "letter": "D",
+                "text": "No output"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The overridden method in Dog is called due to dynamic binding."
+    },
+    {
+        "title": "Polymorphism - Q0019",
+        "text": "[Polymorphism] Which of the following is NOT a valid reason to use polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To write flexible and reusable code"
+            },
+            {
+                "letter": "B",
+                "text": "To implement dynamic method dispatch"
+            },
+            {
+                "letter": "C",
+                "text": "To increase code duplication"
+            },
+            {
+                "letter": "D",
+                "text": "To support interface-based programming"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Polymorphism reduces code duplication."
+    },
+    {
+        "title": "Polymorphism - Q0020",
+        "text": "[Polymorphism] Which of the following is true about abstract classes and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract classes cannot be used for polymorphism"
+            },
+            {
+                "letter": "B",
+                "text": "Abstract classes enable run-time polymorphism"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes must be final"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract classes cannot have methods"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Abstract classes enable run-time polymorphism through method overriding."
+    },
+    {
+        "title": "Polymorphism - Q0021",
+        "text": "[Polymorphism] Which of the following is NOT a valid method signature for overloading?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "void print(int a)"
+            },
+            {
+                "letter": "B",
+                "text": "void print(double a)"
+            },
+            {
+                "letter": "C",
+                "text": "void print(int a, int b)"
+            },
+            {
+                "letter": "D",
+                "text": "void print(int a); void print(int a)"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Overloaded methods must have different parameter lists."
+    },
+    {
+        "title": "Polymorphism - Q0022",
+        "text": "[Polymorphism] Which of the following is true about reference variables and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A superclass reference can refer to a subclass object"
+            },
+            {
+                "letter": "B",
+                "text": "A subclass reference can refer to a superclass object"
+            },
+            {
+                "letter": "C",
+                "text": "References cannot be polymorphic"
+            },
+            {
+                "letter": "D",
+                "text": "Only interfaces support polymorphic references"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A superclass reference can refer to a subclass object."
+    },
+    {
+        "title": "Polymorphism - Q0023",
+        "text": "[Polymorphism] Which of the following is NOT true about method overriding?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The method must have the same name"
+            },
+            {
+                "letter": "B",
+                "text": "The method must have the same parameter list"
+            },
+            {
+                "letter": "C",
+                "text": "The method can have a different return type"
+            },
+            {
+                "letter": "D",
+                "text": "The method must be in a subclass"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Return type must be the same or a subtype (covariant)."
+    },
+    {
+        "title": "Polymorphism - Q0024",
+        "text": "[Polymorphism] Which of the following is true about the 'final' method and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Final methods can be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "Final methods cannot be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "Final methods must be abstract"
+            },
+            {
+                "letter": "D",
+                "text": "Final methods must be static"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Final methods cannot be overridden."
+    },
+    {
+        "title": "Polymorphism - Q0025",
+        "text": "[Polymorphism] Which of the following is NOT a valid example of compile-time polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "B",
+                "text": "Operator overloading"
+            },
+            {
+                "letter": "C",
+                "text": "Constructor overloading"
+            },
+            {
+                "letter": "D",
+                "text": "Method overriding"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Method overriding is run-time polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0026",
+        "text": "[Polymorphism] Which of the following is true about polymorphic arrays?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can store objects of different unrelated types"
+            },
+            {
+                "letter": "B",
+                "text": "They can store objects of the same superclass or interface"
+            },
+            {
+                "letter": "C",
+                "text": "They can only store primitive types"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be null"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Polymorphic arrays can store objects of the same superclass or interface."
+    },
+    {
+        "title": "Polymorphism - Q0027",
+        "text": "[Polymorphism] Which of the following is NOT a valid use of polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To implement dynamic method dispatch"
+            },
+            {
+                "letter": "B",
+                "text": "To write flexible code"
+            },
+            {
+                "letter": "C",
+                "text": "To increase code duplication"
+            },
+            {
+                "letter": "D",
+                "text": "To support interface-based programming"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Polymorphism reduces code duplication."
+    },
+    {
+        "title": "Polymorphism - Q0028",
+        "text": "[Polymorphism] Which of the following is true about the 'Object' class and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "All classes in Java inherit from Object"
+            },
+            {
+                "letter": "B",
+                "text": "Object is an interface"
+            },
+            {
+                "letter": "C",
+                "text": "Object cannot be used for polymorphism"
+            },
+            {
+                "letter": "D",
+                "text": "Object is a final class"
+            }
+        ],
+        "correct": "A",
+        "explanation": "All classes in Java inherit from Object, enabling polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0029",
+        "text": "[Polymorphism] Which of the following is NOT a valid way to achieve polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "B",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "C",
+                "text": "Variable hiding"
+            },
+            {
+                "letter": "D",
+                "text": "Interface implementation"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Variable hiding is not considered polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0030",
+        "text": "[Polymorphism] Which of the following is true about the 'instanceof' operator and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It checks if an object is an instance of a class or interface"
+            },
+            {
+                "letter": "B",
+                "text": "It creates a new object"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes an object"
+            },
+            {
+                "letter": "D",
+                "text": "It compares object contents"
+            }
+        ],
+        "correct": "A",
+        "explanation": "'instanceof' checks if an object is an instance of a class or interface."
+    },
+    {
+        "title": "Polymorphism - Q0031",
+        "text": "[Polymorphism] Which of the following is NOT true about method overloading?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Methods must have the same name"
+            },
+            {
+                "letter": "B",
+                "text": "Methods must have different parameter lists"
+            },
+            {
+                "letter": "C",
+                "text": "Methods must have the same return type"
+            },
+            {
+                "letter": "D",
+                "text": "Methods can have different access modifiers"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Return type can be different in overloaded methods."
+    },
+    {
+        "title": "Polymorphism - Q0032",
+        "text": "[Polymorphism] Which of the following is true about the 'abstract' method and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract methods must be implemented in the subclass"
+            },
+            {
+                "letter": "B",
+                "text": "Abstract methods can be static"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract methods can be final"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract methods must have a body"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract methods must be implemented in the subclass."
+    },
+    {
+        "title": "Polymorphism - Q0033",
+        "text": "[Polymorphism] Which of the following is NOT a valid example of run-time polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "B",
+                "text": "Dynamic method dispatch"
+            },
+            {
+                "letter": "C",
+                "text": "Interface implementation"
+            },
+            {
+                "letter": "D",
+                "text": "Method overloading"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Method overloading is compile-time polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0034",
+        "text": "[Polymorphism] Which of the following is true about polymorphic references?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A reference variable can refer to objects of different types at different times"
+            },
+            {
+                "letter": "B",
+                "text": "A reference variable can only refer to one type"
+            },
+            {
+                "letter": "C",
+                "text": "References cannot be polymorphic"
+            },
+            {
+                "letter": "D",
+                "text": "Only interfaces support polymorphic references"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Polymorphic references can refer to objects of different types at different times."
+    },
+    {
+        "title": "Polymorphism - Q0035",
+        "text": "[Polymorphism] Which of the following is NOT a valid use of polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To implement dynamic method dispatch"
+            },
+            {
+                "letter": "B",
+                "text": "To write flexible code"
+            },
+            {
+                "letter": "C",
+                "text": "To increase code duplication"
+            },
+            {
+                "letter": "D",
+                "text": "To support interface-based programming"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Polymorphism reduces code duplication."
+    },
+    {
+        "title": "Polymorphism - Q0036",
+        "text": "[Polymorphism] Which of the following is true about the 'super' keyword and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is used to call superclass methods"
+            },
+            {
+                "letter": "B",
+                "text": "It is used to create polymorphic references"
+            },
+            {
+                "letter": "C",
+                "text": "It is used for method overloading"
+            },
+            {
+                "letter": "D",
+                "text": "It is used for variable hiding"
+            }
+        ],
+        "correct": "A",
+        "explanation": "'super' is used to call superclass methods."
+    },
+    {
+        "title": "Polymorphism - Q0037",
+        "text": "[Polymorphism] Which of the following is NOT a valid way to achieve polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "B",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "C",
+                "text": "Interface implementation"
+            },
+            {
+                "letter": "D",
+                "text": "Variable hiding"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Variable hiding is not considered polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0038",
+        "text": "[Polymorphism] Which of the following is true about the 'final' class and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Final classes can be used for polymorphism"
+            },
+            {
+                "letter": "B",
+                "text": "Final classes cannot be subclassed"
+            },
+            {
+                "letter": "C",
+                "text": "Final classes must be abstract"
+            },
+            {
+                "letter": "D",
+                "text": "Final classes must be static"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Final classes cannot be subclassed, so they limit polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0039",
+        "text": "[Polymorphism] Which of the following is NOT a valid use of the 'instanceof' operator?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To check if an object is an instance of a class"
+            },
+            {
+                "letter": "B",
+                "text": "To check if an object is an instance of an interface"
+            },
+            {
+                "letter": "C",
+                "text": "To create a new object"
+            },
+            {
+                "letter": "D",
+                "text": "To check for null references"
+            }
+        ],
+        "correct": "C",
+        "explanation": "'instanceof' does not create objects."
+    },
+    {
+        "title": "Polymorphism - Q0040",
+        "text": "[Polymorphism] Which of the following is true about the 'abstract' class and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract classes can be instantiated"
+            },
+            {
+                "letter": "B",
+                "text": "Abstract classes cannot be instantiated"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes must have only abstract methods"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract classes must be final"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Abstract classes cannot be instantiated."
+    },
+    {
+        "title": "Polymorphism - Q0041",
+        "text": "[Polymorphism] Which of the following is NOT a valid example of run-time polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "B",
+                "text": "Dynamic method dispatch"
+            },
+            {
+                "letter": "C",
+                "text": "Interface implementation"
+            },
+            {
+                "letter": "D",
+                "text": "Method overloading"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Method overloading is compile-time polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0042",
+        "text": "[Polymorphism] Which of the following is true about the 'Object' class and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "All classes in Java inherit from Object"
+            },
+            {
+                "letter": "B",
+                "text": "Object is an interface"
+            },
+            {
+                "letter": "C",
+                "text": "Object cannot be used for polymorphism"
+            },
+            {
+                "letter": "D",
+                "text": "Object is a final class"
+            }
+        ],
+        "correct": "A",
+        "explanation": "All classes in Java inherit from Object, enabling polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0043",
+        "text": "[Polymorphism] Which of the following is NOT a valid way to achieve polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "B",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "C",
+                "text": "Interface implementation"
+            },
+            {
+                "letter": "D",
+                "text": "Variable hiding"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Variable hiding is not considered polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0044",
+        "text": "[Polymorphism] Which of the following is true about the 'final' method and polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Final methods can be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "Final methods cannot be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "Final methods must be abstract"
+            },
+            {
+                "letter": "D",
+                "text": "Final methods must be static"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Final methods cannot be overridden."
+    },
+    {
+        "title": "Polymorphism - Q0045",
+        "text": "[Polymorphism] Which of the following is NOT a valid example of compile-time polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "B",
+                "text": "Operator overloading"
+            },
+            {
+                "letter": "C",
+                "text": "Constructor overloading"
+            },
+            {
+                "letter": "D",
+                "text": "Method overriding"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Method overriding is run-time polymorphism."
+    },
+        {
+        "title": "Polymorphism - Q0051",
+        "text": "[Polymorphism] Which of the following is NOT a requirement for method overriding in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Same method name"
+            },
+            {
+                "letter": "B",
+                "text": "Same parameter list"
+            },
+            {
+                "letter": "C",
+                "text": "Same or covariant return type"
+            },
+            {
+                "letter": "D",
+                "text": "Method must be static"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Static methods cannot be overridden."
+    },
+    {
+        "title": "Polymorphism - Q0052",
+        "text": "[Polymorphism] Which of the following is an example of run-time polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "B",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "C",
+                "text": "Constructor overloading"
+            },
+            {
+                "letter": "D",
+                "text": "Operator overloading"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Method overriding is resolved at runtime."
+    },
+    {
+        "title": "Polymorphism - Q0053",
+        "text": "[Polymorphism] Which of the following statements about polymorphism is false?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Polymorphism allows objects to be treated as instances of their parent class"
+            },
+            {
+                "letter": "B",
+                "text": "Polymorphism enables dynamic method dispatch"
+            },
+            {
+                "letter": "C",
+                "text": "Polymorphism increases code duplication"
+            },
+            {
+                "letter": "D",
+                "text": "Polymorphism supports flexible code"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Polymorphism reduces, not increases, code duplication."
+    },
+    {
+        "title": "Polymorphism - Q0054",
+        "text": "[Polymorphism] Which of the following is NOT a valid reason to use polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To support interface-based programming"
+            },
+            {
+                "letter": "B",
+                "text": "To write flexible code"
+            },
+            {
+                "letter": "C",
+                "text": "To increase code duplication"
+            },
+            {
+                "letter": "D",
+                "text": "To implement dynamic method dispatch"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Polymorphism reduces code duplication."
+    },
+    {
+        "title": "Polymorphism - Q0055",
+        "text": "[Polymorphism] Which of the following is true about method overloading?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is resolved at compile time"
+            },
+            {
+                "letter": "B",
+                "text": "It is resolved at runtime"
+            },
+            {
+                "letter": "C",
+                "text": "It requires the same parameter list"
+            },
+            {
+                "letter": "D",
+                "text": "It requires the same return type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Method overloading is resolved at compile time."
+    },
+    {
+        "title": "Polymorphism - Q0056",
+        "text": "[Polymorphism] Which of the following is NOT a valid example of polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "B",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "C",
+                "text": "Variable hiding"
+            },
+            {
+                "letter": "D",
+                "text": "Interface implementation"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Variable hiding is not considered polymorphism."
+    },
+    {
+        "title": "Polymorphism - Q0057",
+        "text": "[Polymorphism] Which of the following is true about dynamic binding?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It occurs at compile time"
+            },
+            {
+                "letter": "B",
+                "text": "It occurs at runtime"
+            },
+            {
+                "letter": "C",
+                "text": "It is used for static methods"
+            },
+            {
+                "letter": "D",
+                "text": "It is used for constructors"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Dynamic binding occurs at runtime."
+    },
+    {
+        "title": "Polymorphism - Q0058",
+        "text": "[Polymorphism] Which of the following is NOT a feature of polymorphism?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Code flexibility"
+            },
+            {
+                "letter": "B",
+                "text": "Code reusability"
+            },
+            {
+                "letter": "C",
+                "text": "Code duplication"
+            },
+            {
+                "letter": "D",
+                "text": "Dynamic method dispatch"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Polymorphism reduces code duplication."
+    },
+    {
+        "title": "Polymorphism - Q0059",
+        "text": "[Polymorphism] Which of the following is true about interface references?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can refer to any object that implements the interface"
+            },
+            {
+                "letter": "B",
+                "text": "They can only refer to interface objects"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be polymorphic"
+            },
+            {
+                "letter": "D",
+                "text": "They must be final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interface references can refer to any object that implements the interface."
+    },
+    {
+        "title": "Polymorphism - Q0060",
+        "text": "[Polymorphism] Which of the following is NOT a valid way to achieve polymorphism in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "B",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "C",
+                "text": "Interface implementation"
+            },
+            {
+                "letter": "D",
+                "text": "Variable hiding"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Variable hiding is not considered polymorphism."
     }
 ]
