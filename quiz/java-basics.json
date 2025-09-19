@@ -1,7 +1,7 @@
 [
   {
     "title": "Syntax - Q0001",
-    "text": "[Syntax] Which of the following is a valid Java identifier?",
+    "text": "Which of the following is a valid Java identifier",
     "code": "",
     "options": [
       {
@@ -26,7 +26,7 @@
   },
   {
     "title": "Syntax - Q0002",
-    "text": "[Syntax] What is wrong with the code snippet above?",
+    "text": "What is wrong with the code snippet above",
     "code": "int x = 5\nint y = 6;",
     "options": [
       {
@@ -51,7 +51,7 @@
   },
   {
     "title": "Syntax - Q0003",
-    "text": "[Syntax] Which keyword is used to create a new object in Java?",
+    "text": "Which keyword is used to create a new object in Java",
     "code": "",
     "options": [
       {
@@ -76,7 +76,7 @@
   },
   {
     "title": "Syntax - Q0004",
-    "text": "[Syntax] Which access modifier allows visibility only within the same package?",
+    "text": "Which access modifier allows visibility only within the same package",
     "code": "",
     "options": [
       {
@@ -101,7 +101,7 @@
   },
   {
     "title": "Syntax - Q0005",
-    "text": "[Syntax] Which method is the entry point of a standard Java application?",
+    "text": "Which method is the entry point of a standard Java application",
     "code": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World\");\n    }\n}",
     "options": [
       {
@@ -123,110 +123,10 @@
     ],
     "correct": "C",
     "explanation": "The JVM looks for the 'public static void main(String[] args)' method as the program entry point."
-  },
-  {
-    "title": "Syntax - Q0006",
-    "text": "[Syntax] Which of the following is a valid Java identifier?",
-    "code": "",
-    "options": [
-      {
-        "letter": "A",
-        "text": "2ndVar"
-      },
-      {
-        "letter": "B",
-        "text": "myVar2"
-      },
-      {
-        "letter": "C",
-        "text": "class"
-      },
-      {
-        "letter": "D",
-        "text": "my-var"
-      }
-    ],
-    "correct": "B",
-    "explanation": "Identifiers must not start with a digit and cannot contain hyphens or be Java keywords."
-  },
-  {
-    "title": "Syntax - Q0007",
-    "text": "[Syntax] What is wrong with the code snippet above?",
-    "code": "int x = 5\nint y = 6;",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Missing semicolon after first declaration"
-      },
-      {
-        "letter": "B",
-        "text": "Using int instead of Integer"
-      },
-      {
-        "letter": "C",
-        "text": "Too many semicolons"
-      },
-      {
-        "letter": "D",
-        "text": "Wrong variable names"
-      }
-    ],
-    "correct": "A",
-    "explanation": "Java statements must end with a semicolon; the first line is missing it."
-  },
-  {
-    "title": "Syntax - Q0008",
-    "text": "[Syntax] Which keyword is used to create a new object in Java?",
-    "code": "",
-    "options": [
-      {
-        "letter": "A",
-        "text": "instantiate"
-      },
-      {
-        "letter": "B",
-        "text": "create"
-      },
-      {
-        "letter": "C",
-        "text": "make"
-      },
-      {
-        "letter": "D",
-        "text": "new"
-      }
-    ],
-    "correct": "D",
-    "explanation": "The 'new' keyword allocates a new object and calls its constructor."
-  },
-  {
-    "title": "Syntax - Q0009",
-    "text": "[Syntax] Which access modifier allows visibility only within the same package?",
-    "code": "",
-    "options": [
-      {
-        "letter": "A",
-        "text": "private"
-      },
-      {
-        "letter": "B",
-        "text": "default (no modifier)"
-      },
-      {
-        "letter": "C",
-        "text": "protected"
-      },
-      {
-        "letter": "D",
-        "text": "public"
-      }
-    ],
-    "correct": "B",
-    "explanation": "When no access modifier is specified, the member has package-private (default) access."
   },
   {
     "title": "Syntax - Q0010",
-    "text": "[Syntax] Which method is the entry point of a standard Java application?",
+    "text": "Which method is the entry point of a standard Java application",
     "code": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World\");\n    }\n}",
     "options": [
       {
@@ -248,85 +148,10 @@
     ],
     "correct": "A",
     "explanation": "The JVM looks for the 'public static void main(String[] args)' method as the program entry point."
-  },
-  {
-    "title": "Syntax - Q0011",
-    "text": "[Syntax] Which of the following is a valid Java identifier?",
-    "code": "",
-    "options": [
-      {
-        "letter": "A",
-        "text": "class"
-      },
-      {
-        "letter": "B",
-        "text": "my-var"
-      },
-      {
-        "letter": "C",
-        "text": "2ndVar"
-      },
-      {
-        "letter": "D",
-        "text": "myVar2"
-      }
-    ],
-    "correct": "D",
-    "explanation": "Identifiers must not start with a digit and cannot contain hyphens or be Java keywords."
-  },
-  {
-    "title": "Syntax - Q0012",
-    "text": "[Syntax] What is wrong with the code snippet above?",
-    "code": "int x = 5\nint y = 6;",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Too many semicolons"
-      },
-      {
-        "letter": "B",
-        "text": "Wrong variable names"
-      },
-      {
-        "letter": "C",
-        "text": "Using int instead of Integer"
-      },
-      {
-        "letter": "D",
-        "text": "Missing semicolon after first declaration"
-      }
-    ],
-    "correct": "D",
-    "explanation": "Java statements must end with a semicolon; the first line is missing it."
-  },
-  {
-    "title": "Syntax - Q0014",
-    "text": "[Syntax] Which access modifier allows visibility only within the same package?",
-    "code": "",
-    "options": [
-      {
-        "letter": "A",
-        "text": "protected"
-      },
-      {
-        "letter": "B",
-        "text": "private"
-      },
-      {
-        "letter": "C",
-        "text": "public"
-      },
-      {
-        "letter": "D",
-        "text": "default (no modifier)"
-      }
-    ],
-    "correct": "D",
-    "explanation": "When no access modifier is specified, the member has package-private (default) access."
   },
   {
     "title": "Syntax - Q0015",
-    "text": "[Syntax] Which method is the entry point of a standard Java application?",
+    "text": "Which method is the entry point of a standard Java application",
     "code": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World\");\n    }\n}",
     "options": [
       {
@@ -350,133 +175,8 @@
     "explanation": "The JVM looks for the 'public static void main(String[] args)' method as the program entry point."
   },
   {
-    "title": "Syntax - Q0018",
-    "text": "[Syntax] Which keyword is used to create a new object in Java?",
-    "code": "",
-    "options": [
-      {
-        "letter": "A",
-        "text": "new"
-      },
-      {
-        "letter": "B",
-        "text": "make"
-      },
-      {
-        "letter": "C",
-        "text": "create"
-      },
-      {
-        "letter": "D",
-        "text": "instantiate"
-      }
-    ],
-    "correct": "A",
-    "explanation": "The 'new' keyword allocates a new object and calls its constructor."
-  },
-  {
-    "title": "Syntax - Q0019",
-    "text": "[Syntax] Which access modifier allows visibility only within the same package?",
-    "code": "",
-    "options": [
-      {
-        "letter": "A",
-        "text": "protected"
-      },
-      {
-        "letter": "B",
-        "text": "private"
-      },
-      {
-        "letter": "C",
-        "text": "default (no modifier)"
-      },
-      {
-        "letter": "D",
-        "text": "public"
-      }
-    ],
-    "correct": "C",
-    "explanation": "When no access modifier is specified, the member has package-private (default) access."
-  },
-  {
-    "title": "Syntax - Q0021",
-    "text": "[Syntax] Which of the following is a valid Java identifier?",
-    "code": "",
-    "options": [
-      {
-        "letter": "A",
-        "text": "2ndVar"
-      },
-      {
-        "letter": "B",
-        "text": "class"
-      },
-      {
-        "letter": "C",
-        "text": "myVar2"
-      },
-      {
-        "letter": "D",
-        "text": "my-var"
-      }
-    ],
-    "correct": "C",
-    "explanation": "Identifiers must not start with a digit and cannot contain hyphens or be Java keywords."
-  },
-  {
-    "title": "Syntax - Q0038",
-    "text": "[Syntax] Which keyword is used to create a new object in Java?",
-    "code": "",
-    "options": [
-      {
-        "letter": "A",
-        "text": "create"
-      },
-      {
-        "letter": "B",
-        "text": "new"
-      },
-      {
-        "letter": "C",
-        "text": "instantiate"
-      },
-      {
-        "letter": "D",
-        "text": "make"
-      }
-    ],
-    "correct": "B",
-    "explanation": "The 'new' keyword allocates a new object and calls its constructor."
-  },
-  {
-    "title": "Syntax - Q0042",
-    "text": "[Syntax] What is wrong with the code snippet above?",
-    "code": "int x = 5\nint y = 6;",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Wrong variable names"
-      },
-      {
-        "letter": "B",
-        "text": "Using int instead of Integer"
-      },
-      {
-        "letter": "C",
-        "text": "Missing semicolon after first declaration"
-      },
-      {
-        "letter": "D",
-        "text": "Too many semicolons"
-      }
-    ],
-    "correct": "C",
-    "explanation": "Java statements must end with a semicolon; the first line is missing it."
-  },
-  {
     "title": "Syntax - Q0050",
-    "text": "[Syntax] Which method is the entry point of a standard Java application?",
+    "text": "Which method is the entry point of a standard Java application",
     "code": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World\");\n    }\n}",
     "options": [
       {
@@ -501,7 +201,7 @@
   },
   {
     "title": "Data Types - Q0144",
-    "text": "[Data Types] What is the size of an int in Java (in bits)?",
+    "text": "What is the size of an int in Java (in bits)",
     "code": "",
     "options": [
       {
@@ -526,7 +226,7 @@
   },
   {
     "title": "Data Types - Q0145",
-    "text": "[Data Types] Which type would you use to store single characters?",
+    "text": "Which type would you use to store single characters",
     "code": "",
     "options": [
       {
@@ -551,7 +251,7 @@
   },
   {
     "title": "Data Types - Q0146",
-    "text": "[Data Types] Which of these is a floating-point type?",
+    "text": "Which of these is a floating-point type",
     "code": "",
     "options": [
       {
@@ -576,7 +276,7 @@
   },
   {
     "title": "Data Types - Q0147",
-    "text": "[Data Types] Which literal denotes a long integer in Java?",
+    "text": "Which literal denotes a long integer in Java",
     "code": "long n = 1000L;",
     "options": [
       {
@@ -601,7 +301,7 @@
   },
   {
     "title": "Data Types - Q0148",
-    "text": "[Data Types] What is the boolean default value for instance variables?",
+    "text": "What is the boolean default value for instance variables",
     "code": "class A { boolean flag; }",
     "options": [
       {
@@ -626,7 +326,7 @@
   },
   {
     "title": "Data Types - Q0149",
-    "text": "[Data Types] Which type can hold decimal numbers with highest precision (useful for currency)?",
+    "text": "Which type can hold decimal numbers with highest precision (useful for currency)",
     "code": "",
     "options": [
       {
@@ -651,7 +351,7 @@
   },
   {
     "title": "Data Types - Q0150",
-    "text": "[Data Types] What is the size of an int in Java (in bits)?",
+    "text": "What is the size of an int in Java (in bits)",
     "code": "",
     "options": [
       {
@@ -676,7 +376,7 @@
   },
   {
     "title": "Data Types - Q0151",
-    "text": "[Data Types] Which type would you use to store single characters?",
+    "text": "Which type would you use to store single characters",
     "code": "",
     "options": [
       {
@@ -701,7 +401,7 @@
   },
   {
     "title": "Data Types - Q0152",
-    "text": "[Data Types] Which of these is a floating-point type?",
+    "text": "Which of these is a floating-point type",
     "code": "",
     "options": [
       {
@@ -726,7 +426,7 @@
   },
   {
     "title": "Data Types - Q0154",
-    "text": "[Data Types] What is the boolean default value for instance variables?",
+    "text": "What is the boolean default value for instance variables",
     "code": "class A { boolean flag; }",
     "options": [
       {
@@ -751,7 +451,7 @@
   },
   {
     "title": "Data Types - Q0155",
-    "text": "[Data Types] Which type can hold decimal numbers with highest precision (useful for currency)?",
+    "text": "Which type can hold decimal numbers with highest precision (useful for currency)",
     "code": "",
     "options": [
       {
@@ -776,7 +476,7 @@
   },
   {
     "title": "Data Types - Q0156",
-    "text": "[Data Types] What is the size of an int in Java (in bits)?",
+    "text": "What is the size of an int in Java (in bits)",
     "code": "",
     "options": [
       {
@@ -800,8 +500,8 @@
     "explanation": "Java's int is a 32-bit signed two's complement integer."
   },
   {
-    "title": "Data Types - Q0158",
-    "text": "[Data Types] Which of these is a floating-point type?",
+    "title": "Data Types",
+    "text": "Which of these is a floating-point type",
     "code": "",
     "options": [
       {
@@ -825,8 +525,8 @@
     "explanation": "double and float are floating-point types; double is 64-bit."
   },
   {
-    "title": "Data Types - Q0166",
-    "text": "[Data Types] What is the boolean default value for instance variables?",
+    "title": "Data Types",
+    "text": "What is the boolean default value for instance variables",
     "code": "class A { boolean flag; }",
     "options": [
       {
@@ -850,8 +550,8 @@
     "explanation": "Instance boolean variables default to false."
   },
   {
-    "title": "Data Types - Q0168",
-    "text": "[Data Types] What is the size of an int in Java (in bits)?",
+    "title": "Data Types",
+    "text": "What is the size of an int in Java (in bits)",
     "code": "",
     "options": [
       {
@@ -875,8 +575,8 @@
     "explanation": "Java's int is a 32-bit signed two's complement integer."
   },
   {
-    "title": "Data Types - Q0169",
-    "text": "[Data Types] Which type would you use to store single characters?",
+    "title": "Data Types",
+    "text": "Which type would you use to store single characters",
     "code": "",
     "options": [
       {
@@ -900,8 +600,8 @@
     "explanation": "The 'char' type stores a single 16-bit Unicode character."
   },
   {
-    "title": "Data Types - Q0171",
-    "text": "[Data Types] Which literal denotes a long integer in Java?",
+    "title": "Data Types",
+    "text": "Which literal denotes a long integer in Java",
     "code": "long n = 1000L;",
     "options": [
       {
@@ -925,8 +625,8 @@
     "explanation": "Use L or l to denote long literals; uppercase L avoids confusion with digit '1'."
   },
   {
-    "title": "Data Types - Q0173",
-    "text": "[Data Types] Which type can hold decimal numbers with highest precision (useful for currency)?",
+    "title": "Data Types",
+    "text": "Which type can hold decimal numbers with highest precision (useful for currency)",
     "code": "",
     "options": [
       {
@@ -950,8 +650,8 @@
     "explanation": "BigDecimal provides arbitrary-precision decimal numbers, preferred for currency."
   },
   {
-    "title": "Data Types - Q0176",
-    "text": "[Data Types] Which of these is a floating-point type?",
+    "title": "Data Types",
+    "text": "Which of these is a floating-point type",
     "code": "",
     "options": [
       {
@@ -975,8 +675,8 @@
     "explanation": "double and float are floating-point types; double is 64-bit."
   },
   {
-    "title": "Data Types - Q0179",
-    "text": "[Data Types] Which type can hold decimal numbers with highest precision (useful for currency)?",
+    "title": "Data Types",
+    "text": "Which type can hold decimal numbers with highest precision (useful for currency)",
     "code": "",
     "options": [
       {
@@ -1000,8 +700,8 @@
     "explanation": "BigDecimal provides arbitrary-precision decimal numbers, preferred for currency."
   },
   {
-    "title": "Data Types - Q0181",
-    "text": "[Data Types] Which type would you use to store single characters?",
+    "title": "Data Types",
+    "text": "Which type would you use to store single characters",
     "code": "",
     "options": [
       {
@@ -1025,8 +725,8 @@
     "explanation": "The 'char' type stores a single 16-bit Unicode character."
   },
   {
-    "title": "Data Types - Q0183",
-    "text": "[Data Types] Which literal denotes a long integer in Java?",
+    "title": "Data Types",
+    "text": "Which literal denotes a long integer in Java",
     "code": "long n = 1000L;",
     "options": [
       {
@@ -1050,8 +750,8 @@
     "explanation": "Use L or l to denote long literals; uppercase L avoids confusion with digit '1'."
   },
   {
-    "title": "Data Types - Q0196",
-    "text": "[Data Types] What is the boolean default value for instance variables?",
+    "title": "Data Types",
+    "text": "What is the boolean default value for instance variables",
     "code": "class A { boolean flag; }",
     "options": [
       {
@@ -1075,8 +775,8 @@
     "explanation": "Instance boolean variables default to false."
   },
   {
-    "title": "Data Types - Q0207",
-    "text": "[Data Types] Which literal denotes a long integer in Java?",
+    "title": "Data Types",
+    "text": "Which literal denotes a long integer in Java",
     "code": "long n = 1000L;",
     "options": [
       {
@@ -1100,8 +800,8 @@
     "explanation": "Use L or l to denote long literals; uppercase L avoids confusion with digit '1'."
   },
   {
-    "title": "Variables - Q0287",
-    "text": "[Variables] Which of these describes shadowing in Java?",
+    "title": "Variables",
+    "text": "Which of these describes shadowing in Java",
     "code": "",
     "options": [
       {
@@ -1125,8 +825,8 @@
     "explanation": "Shadowing occurs when a local variable masks a field with the same name."
   },
   {
-    "title": "Variables - Q0288",
-    "text": "[Variables] What is the scope of a local variable declared inside a method?",
+    "title": "Variables",
+    "text": "What is the scope of a local variable declared inside a method",
     "code": "void foo() { int x = 0; }",
     "options": [
       {
@@ -1150,8 +850,8 @@
     "explanation": "Local variables are accessible only within the block or method they are declared in."
   },
   {
-    "title": "Variables - Q0289",
-    "text": "[Variables] Which of the following is a valid way to initialize a variable?",
+    "title": "Variables",
+    "text": "Which of the following is a valid way to initialize a variable",
     "code": "",
     "options": [
       {
@@ -1175,8 +875,8 @@
     "explanation": "Declaration with type and initialization is 'int a = 10;'."
   },
   {
-    "title": "Variables - Q0290",
-    "text": "[Variables] What will be printed for a static variable if not initialized explicitly?",
+    "title": "Variables",
+    "text": "What will be printed for a static variable if not initialized explicitly",
     "code": "static int count; public static void main(String[] args){ System.out.println(count); }",
     "options": [
       {
@@ -1200,8 +900,8 @@
     "explanation": "Static (class) int variables default to 0."
   },
   {
-    "title": "Variables - Q0291",
-    "text": "[Variables] Which keyword makes a variable constant (cannot be reassigned)?",
+    "title": "Variables",
+    "text": "Which keyword makes a variable constant (cannot be reassigned)",
     "code": "",
     "options": [
       {
@@ -1225,8 +925,8 @@
     "explanation": "final prevents reassignment of the variable after initialization."
   },
   {
-    "title": "Variables - Q0292",
-    "text": "[Variables] Which variable lives as long as the program runs and belongs to the class?",
+    "title": "Variables",
+    "text": "Which variable lives as long as the program runs and belongs to the class",
     "code": "",
     "options": [
       {
@@ -1250,8 +950,8 @@
     "explanation": "Static variables are class-level and persist for the application's lifetime (class unloading aside)."
   },
   {
-    "title": "Variables - Q0293",
-    "text": "[Variables] Which of these describes shadowing in Java?",
+    "title": "Variables",
+    "text": "Which of these describes shadowing in Java",
     "code": "",
     "options": [
       {
@@ -1275,8 +975,8 @@
     "explanation": "Shadowing occurs when a local variable masks a field with the same name."
   },
   {
-    "title": "Variables - Q0294",
-    "text": "[Variables] What is the scope of a local variable declared inside a method?",
+    "title": "Variables",
+    "text": "What is the scope of a local variable declared inside a method",
     "code": "void foo() { int x = 0; }",
     "options": [
       {
@@ -1300,8 +1000,8 @@
     "explanation": "Local variables are accessible only within the block or method they are declared in."
   },
   {
-    "title": "Variables - Q0295",
-    "text": "[Variables] Which of the following is a valid way to initialize a variable?",
+    "title": "Variables",
+    "text": "Which of the following is a valid way to initialize a variable",
     "code": "",
     "options": [
       {
@@ -1325,8 +1025,8 @@
     "explanation": "Declaration with type and initialization is 'int a = 10;'."
   },
   {
-    "title": "Variables - Q0296",
-    "text": "[Variables] What will be printed for a static variable if not initialized explicitly?",
+    "title": "Variables",
+    "text": "What will be printed for a static variable if not initialized explicitly",
     "code": "static int count; public static void main(String[] args){ System.out.println(count); }",
     "options": [
       {
@@ -1350,8 +1050,8 @@
     "explanation": "Static (class) int variables default to 0."
   },
   {
-    "title": "Variables - Q0297",
-    "text": "[Variables] Which keyword makes a variable constant (cannot be reassigned)?",
+    "title": "Variables",
+    "text": "Which keyword makes a variable constant (cannot be reassigned)",
     "code": "",
     "options": [
       {
@@ -1375,8 +1075,8 @@
     "explanation": "final prevents reassignment of the variable after initialization."
   },
   {
-    "title": "Variables - Q0298",
-    "text": "[Variables] Which variable lives as long as the program runs and belongs to the class?",
+    "title": "Variables",
+    "text": "Which variable lives as long as the program runs and belongs to the class",
     "code": "",
     "options": [
       {
@@ -1400,8 +1100,8 @@
     "explanation": "Static variables are class-level and persist for the application's lifetime (class unloading aside)."
   },
   {
-    "title": "Variables - Q0300",
-    "text": "[Variables] What is the scope of a local variable declared inside a method?",
+    "title": "Variables",
+    "text": "What is the scope of a local variable declared inside a method",
     "code": "void foo() { int x = 0; }",
     "options": [
       {
@@ -1425,8 +1125,8 @@
     "explanation": "Local variables are accessible only within the block or method they are declared in."
   },
   {
-    "title": "Variables - Q0301",
-    "text": "[Variables] Which of the following is a valid way to initialize a variable?",
+    "title": "Variables",
+    "text": "Which of the following is a valid way to initialize a variable",
     "code": "",
     "options": [
       {
@@ -1450,8 +1150,8 @@
     "explanation": "Declaration with type and initialization is 'int a = 10;'."
   },
   {
-    "title": "Variables - Q0304",
-    "text": "[Variables] Which variable lives as long as the program runs and belongs to the class?",
+    "title": "Variables",
+    "text": "Which variable lives as long as the program runs and belongs to the class",
     "code": "",
     "options": [
       {
@@ -1475,8 +1175,8 @@
     "explanation": "Static variables are class-level and persist for the application's lifetime (class unloading aside)."
   },
   {
-    "title": "Variables - Q0312",
-    "text": "[Variables] What is the scope of a local variable declared inside a method?",
+    "title": "Variables",
+    "text": "What is the scope of a local variable declared inside a method",
     "code": "void foo() { int x = 0; }",
     "options": [
       {
@@ -1500,8 +1200,8 @@
     "explanation": "Local variables are accessible only within the block or method they are declared in."
   },
   {
-    "title": "Variables - Q0315",
-    "text": "[Variables] Which keyword makes a variable constant (cannot be reassigned)?",
+    "title": "Variables",
+    "text": "Which keyword makes a variable constant (cannot be reassigned)",
     "code": "",
     "options": [
       {
@@ -1525,8 +1225,8 @@
     "explanation": "final prevents reassignment of the variable after initialization."
   },
   {
-    "title": "Variables - Q0317",
-    "text": "[Variables] Which of these describes shadowing in Java?",
+    "title": "Variables",
+    "text": "Which of these describes shadowing in Java",
     "code": "",
     "options": [
       {
@@ -1550,8 +1250,8 @@
     "explanation": "Shadowing occurs when a local variable masks a field with the same name."
   },
   {
-    "title": "Variables - Q0320",
-    "text": "[Variables] What will be printed for a static variable if not initialized explicitly?",
+    "title": "Variables",
+    "text": "What will be printed for a static variable if not initialized explicitly",
     "code": "static int count; public static void main(String[] args){ System.out.println(count); }",
     "options": [
       {
@@ -1575,8 +1275,8 @@
     "explanation": "Static (class) int variables default to 0."
   },
   {
-    "title": "Variables - Q0328",
-    "text": "[Variables] Which variable lives as long as the program runs and belongs to the class?",
+    "title": "Variables",
+    "text": "Which variable lives as long as the program runs and belongs to the class",
     "code": "",
     "options": [
       {
@@ -1600,8 +1300,8 @@
     "explanation": "Static variables are class-level and persist for the application's lifetime (class unloading aside)."
   },
   {
-    "title": "Variables - Q0339",
-    "text": "[Variables] Which keyword makes a variable constant (cannot be reassigned)?",
+    "title": "Variables",
+    "text": "Which keyword makes a variable constant (cannot be reassigned)",
     "code": "",
     "options": [
       {
@@ -1625,8 +1325,8 @@
     "explanation": "final prevents reassignment of the variable after initialization."
   },
   {
-    "title": "Variables - Q0341",
-    "text": "[Variables] Which of these describes shadowing in Java?",
+    "title": "Variables",
+    "text": "Which of these describes shadowing in Java",
     "code": "",
     "options": [
       {
@@ -1650,8 +1350,8 @@
     "explanation": "Shadowing occurs when a local variable masks a field with the same name."
   },
   {
-    "title": "Variables - Q0355",
-    "text": "[Variables] Which of the following is a valid way to initialize a variable?",
+    "title": "Variables",
+    "text": "Which of the following is a valid way to initialize a variable",
     "code": "",
     "options": [
       {
@@ -1675,8 +1375,8 @@
     "explanation": "Declaration with type and initialization is 'int a = 10;'."
   },
   {
-    "title": "Variables - Q0368",
-    "text": "[Variables] What will be printed for a static variable if not initialized explicitly?",
+    "title": "Variables",
+    "text": "What will be printed for a static variable if not initialized explicitly",
     "code": "static int count; public static void main(String[] args){ System.out.println(count); }",
     "options": [
       {
@@ -1700,8 +1400,8 @@
     "explanation": "Static (class) int variables default to 0."
   },
   {
-    "title": "Operators - Q0430",
-    "text": "[Operators] Which operator is used to assign a value?",
+    "title": "Operators",
+    "text": "Which operator is used to assign a value",
     "code": "",
     "options": [
       {
@@ -1725,8 +1425,8 @@
     "explanation": "'=' is the assignment operator in Java."
   },
   {
-    "title": "Operators - Q0431",
-    "text": "[Operators] What is the result of (5 & 3) where & is bitwise AND?",
+    "title": "Operators",
+    "text": "What is the result of (5 & 3) where & is bitwise AND",
     "code": "int r = 5 & 3; // binary 0101 & 0011",
     "options": [
       {
@@ -1750,8 +1450,8 @@
     "explanation": "0101 & 0011 = 0001 which is 1."
   },
   {
-    "title": "Operators - Q0432",
-    "text": "[Operators] What is the result of 7 / 2 in Java when using int operands?",
+    "title": "Operators",
+    "text": "What is the result of 7 / 2 in Java when using int operands",
     "code": "int a = 7/2;",
     "options": [
       {
@@ -1775,8 +1475,8 @@
     "explanation": "Integer division truncates the decimal part; 7/2 = 3."
   },
   {
-    "title": "Operators - Q0433",
-    "text": "[Operators] Which operator is used for equality comparison between primitives?",
+    "title": "Operators",
+    "text": "Which operator is used for equality comparison between primitives",
     "code": "",
     "options": [
       {
@@ -1800,8 +1500,8 @@
     "explanation": "Use '==' to compare primitive values; .equals() is for object equality."
   },
   {
-    "title": "Operators - Q0434",
-    "text": "[Operators] What does '&&' operator do?",
+    "title": "Operators",
+    "text": "What does '&&' operator do",
     "code": "",
     "options": [
       {
@@ -1825,8 +1525,8 @@
     "explanation": "'&&' performs logical AND and short-circuits if the left operand is false."
   },
   {
-    "title": "Operators - Q0435",
-    "text": "[Operators] What is the value of x after int x = 5; x++; ?",
+    "title": "Operators",
+    "text": "What is the value of x after int x = 5; x++; ",
     "code": "int x = 5; x++;",
     "options": [
       {
@@ -1850,8 +1550,8 @@
     "explanation": "Post-increment increases the variable by 1, so x becomes 6."
   },
   {
-    "title": "Operators - Q0436",
-    "text": "[Operators] Which operator concatenates strings?",
+    "title": "Operators",
+    "text": "Which operator concatenates strings",
     "code": "String s = \"Hi\" + \"There\";",
     "options": [
       {
@@ -1876,7 +1576,7 @@
   },
   {
     "title": "Operators - Q0437",
-    "text": "[Operators] What does the ternary operator return: (5>3) ? 10 : 20 ?",
+    "text": "What does the ternary operator return: (5>3) ? 10 : 20 ",
     "code": "",
     "options": [
       {
@@ -1901,7 +1601,7 @@
   },
   {
     "title": "Operators - Q0439",
-    "text": "[Operators] What is the result of (5 & 3) where & is bitwise AND?",
+    "text": "What is the result of (5 & 3) where & is bitwise AND",
     "code": "int r = 5 & 3; // binary 0101 & 0011",
     "options": [
       {
@@ -1926,7 +1626,7 @@
   },
   {
     "title": "Operators - Q0440",
-    "text": "[Operators] What is the result of 7 / 2 in Java when using int operands?",
+    "text": "What is the result of 7 / 2 in Java when using int operands",
     "code": "int a = 7/2;",
     "options": [
       {
@@ -1951,7 +1651,7 @@
   },
   {
     "title": "Operators - Q0442",
-    "text": "[Operators] What does '&&' operator do?",
+    "text": "What does '&&' operator do",
     "code": "",
     "options": [
       {
@@ -1976,7 +1676,7 @@
   },
   {
     "title": "Operators - Q0443",
-    "text": "[Operators] What is the value of x after int x = 5; x++; ?",
+    "text": "What is the value of x after int x = 5; x++; ",
     "code": "int x = 5; x++;",
     "options": [
       {
@@ -2001,7 +1701,7 @@
   },
   {
     "title": "Operators - Q0445",
-    "text": "[Operators] What does the ternary operator return: (5>3) ? 10 : 20 ?",
+    "text": "What does the ternary operator return: (5>3) ? 10 : 20 ",
     "code": "",
     "options": [
       {
@@ -2025,8 +1725,8 @@
     "explanation": "Condition true, so ternary returns the first expression (10)."
   },
   {
-    "title": "Operators - Q0446",
-    "text": "[Operators] Which operator is used to assign a value?",
+    "title": "Operators",
+    "text": "Which operator is used to assign a value",
     "code": "",
     "options": [
       {
@@ -2051,7 +1751,7 @@
   },
   {
     "title": "Operators - Q0449",
-    "text": "[Operators] Which operator is used for equality comparison between primitives?",
+    "text": "Which operator is used for equality comparison between primitives",
     "code": "",
     "options": [
       {
@@ -2076,7 +1776,7 @@
   },
   {
     "title": "Operators - Q0450",
-    "text": "[Operators] What does '&&' operator do?",
+    "text": "What does '&&' operator do",
     "code": "",
     "options": [
       {
@@ -2101,7 +1801,7 @@
   },
   {
     "title": "Operators - Q0453",
-    "text": "[Operators] What does the ternary operator return: (5>3) ? 10 : 20 ?",
+    "text": "What does the ternary operator return: (5>3) ? 10 : 20 ",
     "code": "",
     "options": [
       {
@@ -2126,7 +1826,7 @@
   },
   {
     "title": "Operators - Q0454",
-    "text": "[Operators] Which operator is used to assign a value?",
+    "text": "Which operator is used to assign a value",
     "code": "",
     "options": [
       {
@@ -2151,7 +1851,7 @@
   },
   {
     "title": "Operators - Q0455",
-    "text": "[Operators] What is the result of (5 & 3) where & is bitwise AND?",
+    "text": "What is the result of (5 & 3) where & is bitwise AND",
     "code": "int r = 5 & 3; // binary 0101 & 0011",
     "options": [
       {
@@ -2176,7 +1876,7 @@
   },
   {
     "title": "Operators - Q0459",
-    "text": "[Operators] What is the value of x after int x = 5; x++; ?",
+    "text": "What is the value of x after int x = 5; x++; ",
     "code": "int x = 5; x++;",
     "options": [
       {
@@ -2201,7 +1901,7 @@
   },
   {
     "title": "Operators - Q0469",
-    "text": "[Operators] What does the ternary operator return: (5>3) ? 10 : 20 ?",
+    "text": "What does the ternary operator return: (5>3) ? 10 : 20 ",
     "code": "",
     "options": [
       {
@@ -2226,7 +1926,7 @@
   },
   {
     "title": "Operators - Q0472",
-    "text": "[Operators] What is the result of 7 / 2 in Java when using int operands?",
+    "text": "What is the result of 7 / 2 in Java when using int operands",
     "code": "int a = 7/2;",
     "options": [
       {
@@ -2251,7 +1951,7 @@
   },
   {
     "title": "Operators - Q0473",
-    "text": "[Operators] Which operator is used for equality comparison between primitives?",
+    "text": "Which operator is used for equality comparison between primitives",
     "code": "",
     "options": [
       {
@@ -2276,7 +1976,7 @@
   },
   {
     "title": "Operators - Q0476",
-    "text": "[Operators] Which operator concatenates strings?",
+    "text": "Which operator concatenates strings",
     "code": "String s = \"Hi\" + \"There\";",
     "options": [
       {
@@ -2301,7 +2001,7 @@
   },
   {
     "title": "Operators - Q0479",
-    "text": "[Operators] What is the result of (5 & 3) where & is bitwise AND?",
+    "text": "What is the result of (5 & 3) where & is bitwise AND",
     "code": "int r = 5 & 3; // binary 0101 & 0011",
     "options": [
       {
@@ -2326,7 +2026,7 @@
   },
   {
     "title": "Operators - Q0492",
-    "text": "[Operators] Which operator concatenates strings?",
+    "text": "Which operator concatenates strings",
     "code": "String s = \"Hi\" + \"There\";",
     "options": [
       {
@@ -2351,7 +2051,7 @@
   },
   {
     "title": "Operators - Q0505",
-    "text": "[Operators] Which operator is used for equality comparison between primitives?",
+    "text": "Which operator is used for equality comparison between primitives",
     "code": "",
     "options": [
       {
@@ -2376,7 +2076,7 @@
   },
   {
     "title": "Operators - Q0508",
-    "text": "[Operators] Which operator concatenates strings?",
+    "text": "Which operator concatenates strings",
     "code": "String s = \"Hi\" + \"There\";",
     "options": [
       {
@@ -2401,7 +2101,7 @@
   },
   {
     "title": "Operators - Q0520",
-    "text": "[Operators] What is the result of 7 / 2 in Java when using int operands?",
+    "text": "What is the result of 7 / 2 in Java when using int operands",
     "code": "int a = 7/2;",
     "options": [
       {
@@ -2426,7 +2126,7 @@
   },
   {
     "title": "Operators - Q0534",
-    "text": "[Operators] Which operator is used to assign a value?",
+    "text": "Which operator is used to assign a value",
     "code": "",
     "options": [
       {
@@ -2451,7 +2151,7 @@
   },
   {
     "title": "Operators - Q0538",
-    "text": "[Operators] What does '&&' operator do?",
+    "text": "What does '&&' operator do",
     "code": "",
     "options": [
       {
@@ -2476,7 +2176,7 @@
   },
   {
     "title": "Operators - Q0555",
-    "text": "[Operators] What is the value of x after int x = 5; x++; ?",
+    "text": "What is the value of x after int x = 5; x++; ",
     "code": "int x = 5; x++;",
     "options": [
       {
@@ -2501,7 +2201,7 @@
   },
   {
     "title": "Control Flow - Q0573",
-    "text": "[Control Flow] How many times will the while loop execute?",
+    "text": "How many times will the while loop execute",
     "code": "int i=0; while(i<1) { System.out.print(i); i++; }",
     "options": [
       {
@@ -2526,7 +2226,7 @@
   },
   {
     "title": "Control Flow - Q0574",
-    "text": "[Control Flow] What does a do-while loop guarantee?",
+    "text": "What does a do-while loop guarantee",
     "code": "int i=5; do { System.out.print(i); i++; } while(i<5);",
     "options": [
       {
@@ -2551,7 +2251,7 @@
   },
   {
     "title": "Control Flow - Q0575",
-    "text": "[Control Flow] What is printed before break?",
+    "text": "What is printed before break",
     "code": "for(int i=0;i<5;i++){ if(i==2) break; System.out.print(i);}",
     "options": [
       {
@@ -2576,7 +2276,7 @@
   },
   {
     "title": "Control Flow - Q0576",
-    "text": "[Control Flow] What is the output using continue?",
+    "text": "What is the output using continue",
     "code": "for(int i=0;i<3;i++){ if(i==1) continue; System.out.print(i);}",
     "options": [
       {
@@ -2601,7 +2301,7 @@
   },
   {
     "title": "Control Flow - Q0577",
-    "text": "[Control Flow] Which will be printed? (Be careful with nested if-else)",
+    "text": "Which will be printed? (Be careful with nested if-else)",
     "code": "if(true) if(false) System.out.print(\"A\"); else System.out.print(\"B\");",
     "options": [
       {
@@ -2626,7 +2326,7 @@
   },
   {
     "title": "Control Flow - Q0578",
-    "text": "[Control Flow] Can a switch statement use Strings as case labels (Java 7+)?",
+    "text": "Can a switch statement use Strings as case labels (Java 7+)",
     "code": "",
     "options": [
       {
@@ -2651,7 +2351,7 @@
   },
   {
     "title": "Control Flow - Q0579",
-    "text": "[Control Flow] What is printed by the switch with fall-through cases?",
+    "text": "What is printed by the switch with fall-through cases",
     "code": "int x = 0; switch(x){ case 0: case 1: System.out.print(\"X\"); break; }",
     "options": [
       {
@@ -2676,7 +2376,7 @@
   },
   {
     "title": "Control Flow - Q0580",
-    "text": "[Control Flow] What is the output of the for loop above?",
+    "text": "What is the output of the for loop above",
     "code": "for (int i = 0; i < 3; i++) System.out.print(i);",
     "options": [
       {
@@ -2701,7 +2401,7 @@
   },
   {
     "title": "Control Flow - Q0581",
-    "text": "[Control Flow] What will be printed?",
+    "text": "What will be printed",
     "code": "int x = 10; if (x > 5) System.out.println(\"Hi\"); else System.out.println(\"Bye\");",
     "options": [
       {
@@ -2726,7 +2426,7 @@
   },
   {
     "title": "Control Flow - Q0582",
-    "text": "[Control Flow] What will the switch print?",
+    "text": "What will the switch print",
     "code": "int day = 2; switch(day) { case 1: System.out.print(\"A\"); break; default: System.out.print(\"B\"); }",
     "options": [
       {
@@ -2751,7 +2451,7 @@
   },
   {
     "title": "Control Flow - Q0583",
-    "text": "[Control Flow] How many times will the while loop execute?",
+    "text": "How many times will the while loop execute",
     "code": "int i=0; while(i<1) { System.out.print(i); i++; }",
     "options": [
       {
@@ -2776,7 +2476,7 @@
   },
   {
     "title": "Control Flow - Q0584",
-    "text": "[Control Flow] What does a do-while loop guarantee?",
+    "text": "What does a do-while loop guarantee",
     "code": "int i=5; do { System.out.print(i); i++; } while(i<5);",
     "options": [
       {
@@ -2801,7 +2501,7 @@
   },
   {
     "title": "Control Flow - Q0586",
-    "text": "[Control Flow] What is the output using continue?",
+    "text": "What is the output using continue",
     "code": "for(int i=0;i<3;i++){ if(i==1) continue; System.out.print(i);}",
     "options": [
       {
@@ -2826,7 +2526,7 @@
   },
   {
     "title": "Control Flow - Q0587",
-    "text": "[Control Flow] Which will be printed? (Be careful with nested if-else)",
+    "text": "Which will be printed? (Be careful with nested if-else)",
     "code": "if(true) if(false) System.out.print(\"A\"); else System.out.print(\"B\");",
     "options": [
       {
@@ -2851,7 +2551,7 @@
   },
   {
     "title": "Control Flow - Q0588",
-    "text": "[Control Flow] Can a switch statement use Strings as case labels (Java 7+)?",
+    "text": "Can a switch statement use Strings as case labels (Java 7+)",
     "code": "",
     "options": [
       {
@@ -2876,7 +2576,7 @@
   },
   {
     "title": "Control Flow - Q0589",
-    "text": "[Control Flow] What is printed by the switch with fall-through cases?",
+    "text": "What is printed by the switch with fall-through cases",
     "code": "int x = 0; switch(x){ case 0: case 1: System.out.print(\"X\"); break; }",
     "options": [
       {
@@ -2901,7 +2601,7 @@
   },
   {
     "title": "Control Flow - Q0590",
-    "text": "[Control Flow] What is the output of the for loop above?",
+    "text": "What is the output of the for loop above",
     "code": "for (int i = 0; i < 3; i++) System.out.print(i);",
     "options": [
       {
@@ -2926,7 +2626,7 @@
   },
   {
     "title": "Control Flow - Q0593",
-    "text": "[Control Flow] How many times will the while loop execute?",
+    "text": "How many times will the while loop execute",
     "code": "int i=0; while(i<1) { System.out.print(i); i++; }",
     "options": [
       {
@@ -2951,7 +2651,7 @@
   },
   {
     "title": "Control Flow - Q0594",
-    "text": "[Control Flow] What does a do-while loop guarantee?",
+    "text": "What does a do-while loop guarantee",
     "code": "int i=5; do { System.out.print(i); i++; } while(i<5);",
     "options": [
       {
@@ -2976,7 +2676,7 @@
   },
   {
     "title": "Control Flow - Q0597",
-    "text": "[Control Flow] Which will be printed? (Be careful with nested if-else)",
+    "text": "Which will be printed? (Be careful with nested if-else)",
     "code": "if(true) if(false) System.out.print(\"A\"); else System.out.print(\"B\");",
     "options": [
       {
@@ -3001,7 +2701,7 @@
   },
   {
     "title": "Control Flow - Q0598",
-    "text": "[Control Flow] Can a switch statement use Strings as case labels (Java 7+)?",
+    "text": "Can a switch statement use Strings as case labels (Java 7+)",
     "code": "",
     "options": [
       {
@@ -3026,7 +2726,7 @@
   },
   {
     "title": "Control Flow - Q0599",
-    "text": "[Control Flow] What is printed by the switch with fall-through cases?",
+    "text": "What is printed by the switch with fall-through cases",
     "code": "int x = 0; switch(x){ case 0: case 1: System.out.print(\"X\"); break; }",
     "options": [
       {
@@ -3051,7 +2751,7 @@
   },
   {
     "title": "Control Flow - Q0600",
-    "text": "[Control Flow] What is the output of the for loop above?",
+    "text": "What is the output of the for loop above",
     "code": "for (int i = 0; i < 3; i++) System.out.print(i);",
     "options": [
       {
@@ -3076,7 +2776,7 @@
   },
   {
     "title": "Control Flow - Q0601",
-    "text": "[Control Flow] What will be printed?",
+    "text": "What will be printed",
     "code": "int x = 10; if (x > 5) System.out.println(\"Hi\"); else System.out.println(\"Bye\");",
     "options": [
       {
@@ -3101,7 +2801,7 @@
   },
   {
     "title": "Control Flow - Q0602",
-    "text": "[Control Flow] What will the switch print?",
+    "text": "What will the switch print",
     "code": "int day = 2; switch(day) { case 1: System.out.print(\"A\"); break; default: System.out.print(\"B\"); }",
     "options": [
       {
@@ -3126,7 +2826,7 @@
   },
   {
     "title": "Control Flow - Q0603",
-    "text": "[Control Flow] How many times will the while loop execute?",
+    "text": "How many times will the while loop execute",
     "code": "int i=0; while(i<1) { System.out.print(i); i++; }",
     "options": [
       {
@@ -3151,7 +2851,7 @@
   },
   {
     "title": "Control Flow - Q0605",
-    "text": "[Control Flow] What is printed before break?",
+    "text": "What is printed before break",
     "code": "for(int i=0;i<5;i++){ if(i==2) break; System.out.print(i);}",
     "options": [
       {
@@ -3176,7 +2876,7 @@
   },
   {
     "title": "Control Flow - Q0606",
-    "text": "[Control Flow] What is the output using continue?",
+    "text": "What is the output using continue",
     "code": "for(int i=0;i<3;i++){ if(i==1) continue; System.out.print(i);}",
     "options": [
       {
@@ -3201,7 +2901,7 @@
   },
   {
     "title": "Control Flow - Q0607",
-    "text": "[Control Flow] Which will be printed? (Be careful with nested if-else)",
+    "text": "Which will be printed? (Be careful with nested if-else)",
     "code": "if(true) if(false) System.out.print(\"A\"); else System.out.print(\"B\");",
     "options": [
       {
@@ -3226,7 +2926,7 @@
   },
   {
     "title": "Control Flow - Q0611",
-    "text": "[Control Flow] What will be printed?",
+    "text": "What will be printed",
     "code": "int x = 10; if (x > 5) System.out.println(\"Hi\"); else System.out.println(\"Bye\");",
     "options": [
       {
@@ -3251,7 +2951,7 @@
   },
   {
     "title": "Control Flow - Q0620",
-    "text": "[Control Flow] What is the output of the for loop above?",
+    "text": "What is the output of the for loop above",
     "code": "for (int i = 0; i < 3; i++) System.out.print(i);",
     "options": [
       {
@@ -3276,7 +2976,7 @@
   },
   {
     "title": "Control Flow - Q0622",
-    "text": "[Control Flow] What will the switch print?",
+    "text": "What will the switch print",
     "code": "int day = 2; switch(day) { case 1: System.out.print(\"A\"); break; default: System.out.print(\"B\"); }",
     "options": [
       {
@@ -3301,7 +3001,7 @@
   },
   {
     "title": "Control Flow - Q0625",
-    "text": "[Control Flow] What is printed before break?",
+    "text": "What is printed before break",
     "code": "for(int i=0;i<5;i++){ if(i==2) break; System.out.print(i);}",
     "options": [
       {
@@ -3326,7 +3026,7 @@
   },
   {
     "title": "Control Flow - Q0632",
-    "text": "[Control Flow] What will the switch print?",
+    "text": "What will the switch print",
     "code": "int day = 2; switch(day) { case 1: System.out.print(\"A\"); break; default: System.out.print(\"B\"); }",
     "options": [
       {
@@ -3351,7 +3051,7 @@
   },
   {
     "title": "Control Flow - Q0638",
-    "text": "[Control Flow] Can a switch statement use Strings as case labels (Java 7+)?",
+    "text": "Can a switch statement use Strings as case labels (Java 7+)",
     "code": "",
     "options": [
       {
@@ -3376,7 +3076,7 @@
   },
   {
     "title": "Control Flow - Q0649",
-    "text": "[Control Flow] What is printed by the switch with fall-through cases?",
+    "text": "What is printed by the switch with fall-through cases",
     "code": "int x = 0; switch(x){ case 0: case 1: System.out.print(\"X\"); break; }",
     "options": [
       {
@@ -3401,7 +3101,7 @@
   },
   {
     "title": "Control Flow - Q0664",
-    "text": "[Control Flow] What does a do-while loop guarantee?",
+    "text": "What does a do-while loop guarantee",
     "code": "int i=5; do { System.out.print(i); i++; } while(i<5);",
     "options": [
       {
@@ -3426,7 +3126,7 @@
   },
   {
     "title": "Control Flow - Q0666",
-    "text": "[Control Flow] What is the output using continue?",
+    "text": "What is the output using continue",
     "code": "for(int i=0;i<3;i++){ if(i==1) continue; System.out.print(i);}",
     "options": [
       {
@@ -3451,7 +3151,7 @@
   },
   {
     "title": "Control Flow - Q0695",
-    "text": "[Control Flow] What is printed before break?",
+    "text": "What is printed before break",
     "code": "for(int i=0;i<5;i++){ if(i==2) break; System.out.print(i);}",
     "options": [
       {
@@ -3476,7 +3176,7 @@
   },
   {
     "title": "Comments - Q0716",
-    "text": "[Comments] Which is the single-line comment syntax in Java?",
+    "text": "[Comments] Which is the single-line comment syntax in Java",
     "code": "",
     "options": [
       {
@@ -3501,7 +3201,7 @@
   },
   {
     "title": "Comments - Q0717",
-    "text": "[Comments] Which comment style is used for Javadoc?",
+    "text": "[Comments] Which comment style is used for Javadoc",
     "code": "",
     "options": [
       {
@@ -3526,7 +3226,7 @@
   },
   {
     "title": "Comments - Q0718",
-    "text": "[Comments] Which comment can span multiple lines?",
+    "text": "[Comments] Which comment can span multiple lines",
     "code": "",
     "options": [
       {
@@ -3551,7 +3251,7 @@
   },
   {
     "title": "Comments - Q0719",
-    "text": "[Comments] Does the compiler include commented code in the bytecode?",
+    "text": "[Comments] Does the compiler include commented code in the bytecode",
     "code": "",
     "options": [
       {
@@ -3576,7 +3276,7 @@
   },
   {
     "title": "Comments - Q0720",
-    "text": "[Comments] Which is the single-line comment syntax in Java?",
+    "text": "[Comments] Which is the single-line comment syntax in Java",
     "code": "",
     "options": [
       {
@@ -3601,7 +3301,7 @@
   },
   {
     "title": "Comments - Q0721",
-    "text": "[Comments] Which comment style is used for Javadoc?",
+    "text": "[Comments] Which comment style is used for Javadoc",
     "code": "",
     "options": [
       {
@@ -3626,7 +3326,7 @@
   },
   {
     "title": "Comments - Q0722",
-    "text": "[Comments] Which comment can span multiple lines?",
+    "text": "[Comments] Which comment can span multiple lines",
     "code": "",
     "options": [
       {
@@ -3651,7 +3351,7 @@
   },
   {
     "title": "Comments - Q0723",
-    "text": "[Comments] Does the compiler include commented code in the bytecode?",
+    "text": "[Comments] Does the compiler include commented code in the bytecode",
     "code": "",
     "options": [
       {
@@ -3676,7 +3376,7 @@
   },
   {
     "title": "Comments - Q0725",
-    "text": "[Comments] Which comment style is used for Javadoc?",
+    "text": "[Comments] Which comment style is used for Javadoc",
     "code": "",
     "options": [
       {
@@ -3701,7 +3401,7 @@
   },
   {
     "title": "Comments - Q0728",
-    "text": "[Comments] Which is the single-line comment syntax in Java?",
+    "text": "[Comments] Which is the single-line comment syntax in Java",
     "code": "",
     "options": [
       {
@@ -3726,7 +3426,7 @@
   },
   {
     "title": "Comments - Q0734",
-    "text": "[Comments] Which comment can span multiple lines?",
+    "text": "[Comments] Which comment can span multiple lines",
     "code": "",
     "options": [
       {
@@ -3751,7 +3451,7 @@
   },
   {
     "title": "Comments - Q0735",
-    "text": "[Comments] Does the compiler include commented code in the bytecode?",
+    "text": "[Comments] Does the compiler include commented code in the bytecode",
     "code": "",
     "options": [
       {
@@ -3776,7 +3476,7 @@
   },
   {
     "title": "Comments - Q0742",
-    "text": "[Comments] Which comment can span multiple lines?",
+    "text": "[Comments] Which comment can span multiple lines",
     "code": "",
     "options": [
       {
@@ -3801,7 +3501,7 @@
   },
   {
     "title": "Comments - Q0744",
-    "text": "[Comments] Which is the single-line comment syntax in Java?",
+    "text": "[Comments] Which is the single-line comment syntax in Java",
     "code": "",
     "options": [
       {
@@ -3826,7 +3526,7 @@
   },
   {
     "title": "Comments - Q0747",
-    "text": "[Comments] Does the compiler include commented code in the bytecode?",
+    "text": "[Comments] Does the compiler include commented code in the bytecode",
     "code": "",
     "options": [
       {
@@ -3851,7 +3551,7 @@
   },
   {
     "title": "Comments - Q0761",
-    "text": "[Comments] Which comment style is used for Javadoc?",
+    "text": "[Comments] Which comment style is used for Javadoc",
     "code": "",
     "options": [
       {
@@ -3876,7 +3576,7 @@
   },
   {
     "title": "User Input - Q0859",
-    "text": "[User Input] Is it necessary to close a Scanner wrapping System.in?",
+    "text": "Is it necessary to close a Scanner wrapping System.in",
     "code": "Scanner sc = new Scanner(System.in); sc.close();",
     "options": [
       {
@@ -3901,7 +3601,7 @@
   },
   {
     "title": "User Input - Q0860",
-    "text": "[User Input] Which class is commonly used to read console input in Java?",
+    "text": "Which class is commonly used to read console input in Java",
     "code": "import java.util.Scanner;\nScanner sc = new Scanner(System.in);\nint n = sc.nextInt();",
     "options": [
       {
@@ -3926,7 +3626,7 @@
   },
   {
     "title": "User Input - Q0861",
-    "text": "[User Input] How are command-line arguments accessed in Java?",
+    "text": "How are command-line arguments accessed in Java",
     "code": "public static void main(String[] args) { System.out.println(args.length); }",
     "options": [
       {
@@ -3951,7 +3651,7 @@
   },
   {
     "title": "User Input - Q0862",
-    "text": "[User Input] Which Scanner method reads an entire line including spaces?",
+    "text": "Which Scanner method reads an entire line including spaces",
     "code": "Scanner sc = new Scanner(System.in); String s = sc.nextLine();",
     "options": [
       {
@@ -3976,7 +3676,7 @@
   },
   {
     "title": "User Input - Q0863",
-    "text": "[User Input] What happens if user inputs a non-integer when calling nextInt()?",
+    "text": "What happens if user inputs a non-integer when calling nextInt()",
     "code": "Scanner sc = new Scanner(System.in); int x = sc.nextInt();",
     "options": [
       {
@@ -4001,7 +3701,7 @@
   },
   {
     "title": "User Input - Q0864",
-    "text": "[User Input] Is it necessary to close a Scanner wrapping System.in?",
+    "text": "Is it necessary to close a Scanner wrapping System.in",
     "code": "Scanner sc = new Scanner(System.in); sc.close();",
     "options": [
       {
@@ -4026,7 +3726,7 @@
   },
   {
     "title": "User Input - Q0865",
-    "text": "[User Input] Which class is commonly used to read console input in Java?",
+    "text": "Which class is commonly used to read console input in Java",
     "code": "import java.util.Scanner;\nScanner sc = new Scanner(System.in);\nint n = sc.nextInt();",
     "options": [
       {
@@ -4051,7 +3751,7 @@
   },
   {
     "title": "User Input - Q0868",
-    "text": "[User Input] What happens if user inputs a non-integer when calling nextInt()?",
+    "text": "What happens if user inputs a non-integer when calling nextInt()",
     "code": "Scanner sc = new Scanner(System.in); int x = sc.nextInt();",
     "options": [
       {
@@ -4076,7 +3776,7 @@
   },
   {
     "title": "User Input - Q0869",
-    "text": "[User Input] Is it necessary to close a Scanner wrapping System.in?",
+    "text": "Is it necessary to close a Scanner wrapping System.in",
     "code": "Scanner sc = new Scanner(System.in); sc.close();",
     "options": [
       {
@@ -4101,7 +3801,7 @@
   },
   {
     "title": "User Input - Q0870",
-    "text": "[User Input] Which class is commonly used to read console input in Java?",
+    "text": "Which class is commonly used to read console input in Java",
     "code": "import java.util.Scanner;\nScanner sc = new Scanner(System.in);\nint n = sc.nextInt();",
     "options": [
       {
@@ -4126,7 +3826,7 @@
   },
   {
     "title": "User Input - Q0871",
-    "text": "[User Input] How are command-line arguments accessed in Java?",
+    "text": "How are command-line arguments accessed in Java",
     "code": "public static void main(String[] args) { System.out.println(args.length); }",
     "options": [
       {
@@ -4151,7 +3851,7 @@
   },
   {
     "title": "User Input - Q0872",
-    "text": "[User Input] Which Scanner method reads an entire line including spaces?",
+    "text": "Which Scanner method reads an entire line including spaces",
     "code": "Scanner sc = new Scanner(System.in); String s = sc.nextLine();",
     "options": [
       {
@@ -4176,7 +3876,7 @@
   },
   {
     "title": "User Input - Q0876",
-    "text": "[User Input] How are command-line arguments accessed in Java?",
+    "text": "How are command-line arguments accessed in Java",
     "code": "public static void main(String[] args) { System.out.println(args.length); }",
     "options": [
       {
@@ -4201,7 +3901,7 @@
   },
   {
     "title": "User Input - Q0877",
-    "text": "[User Input] Which Scanner method reads an entire line including spaces?",
+    "text": "Which Scanner method reads an entire line including spaces",
     "code": "Scanner sc = new Scanner(System.in); String s = sc.nextLine();",
     "options": [
       {
@@ -4226,7 +3926,7 @@
   },
   {
     "title": "User Input - Q0878",
-    "text": "[User Input] What happens if user inputs a non-integer when calling nextInt()?",
+    "text": "What happens if user inputs a non-integer when calling nextInt()",
     "code": "Scanner sc = new Scanner(System.in); int x = sc.nextInt();",
     "options": [
       {
@@ -4251,7 +3951,7 @@
   },
   {
     "title": "User Input - Q0879",
-    "text": "[User Input] Is it necessary to close a Scanner wrapping System.in?",
+    "text": "Is it necessary to close a Scanner wrapping System.in",
     "code": "Scanner sc = new Scanner(System.in); sc.close();",
     "options": [
       {
@@ -4276,7 +3976,7 @@
   },
   {
     "title": "User Input - Q0882",
-    "text": "[User Input] Which Scanner method reads an entire line including spaces?",
+    "text": "Which Scanner method reads an entire line including spaces",
     "code": "Scanner sc = new Scanner(System.in); String s = sc.nextLine();",
     "options": [
       {
@@ -4301,7 +4001,7 @@
   },
   {
     "title": "User Input - Q0885",
-    "text": "[User Input] Which class is commonly used to read console input in Java?",
+    "text": "Which class is commonly used to read console input in Java",
     "code": "import java.util.Scanner;\nScanner sc = new Scanner(System.in);\nint n = sc.nextInt();",
     "options": [
       {
@@ -4326,7 +4026,7 @@
   },
   {
     "title": "User Input - Q0886",
-    "text": "[User Input] How are command-line arguments accessed in Java?",
+    "text": "How are command-line arguments accessed in Java",
     "code": "public static void main(String[] args) { System.out.println(args.length); }",
     "options": [
       {
@@ -4351,7 +4051,7 @@
   },
   {
     "title": "User Input - Q0893",
-    "text": "[User Input] What happens if user inputs a non-integer when calling nextInt()?",
+    "text": "What happens if user inputs a non-integer when calling nextInt()",
     "code": "Scanner sc = new Scanner(System.in); int x = sc.nextInt();",
     "options": [
       {
