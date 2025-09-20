@@ -1,0 +1,362 @@
+[
+    {
+        "title": "KidsQuiz - Q0001",
+        "text": "What color is the sky on a clear day?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Green"
+            },
+            {
+                "letter": "B",
+                "text": "Blue"
+            },
+            {
+                "letter": "C",
+                "text": "Red"
+            },
+            {
+                "letter": "D",
+                "text": "Yellow"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The sky looks blue on a clear day because of the way sunlight scatters."
+    },
+    {
+        "title": "KidsQuiz - Q0002",
+        "text": "How many legs does a spider have?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "6"
+            },
+            {
+                "letter": "B",
+                "text": "8"
+            },
+            {
+                "letter": "C",
+                "text": "10"
+            },
+            {
+                "letter": "D",
+                "text": "12"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Spiders are arachnids and have 8 legs."
+    },
+    {
+        "title": "KidsQuiz - Q0003",
+        "text": "Which animal is known as the 'King of the Jungle'?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tiger"
+            },
+            {
+                "letter": "B",
+                "text": "Lion"
+            },
+            {
+                "letter": "C",
+                "text": "Elephant"
+            },
+            {
+                "letter": "D",
+                "text": "Bear"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The lion is often called the 'King of the Jungle'."
+    },
+    {
+        "title": "KidsQuiz - Q0004",
+        "text": "How many days are there in a week?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "5"
+            },
+            {
+                "letter": "B",
+                "text": "6"
+            },
+            {
+                "letter": "C",
+                "text": "7"
+            },
+            {
+                "letter": "D",
+                "text": "8"
+            }
+        ],
+        "correct": "C",
+        "explanation": "There are 7 days in a week."
+    },
+    {
+        "title": "KidsQuiz - Q0005",
+        "text": "What is the color of a school bus in most countries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Red"
+            },
+            {
+                "letter": "B",
+                "text": "Blue"
+            },
+            {
+                "letter": "C",
+                "text": "Yellow"
+            },
+            {
+                "letter": "D",
+                "text": "Green"
+            }
+        ],
+        "correct": "C",
+        "explanation": "School buses are usually painted yellow."
+    },
+    {
+        "title": "KidsQuiz - Q0006",
+        "text": "Which planet is known as the Red Planet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Earth"
+            },
+            {
+                "letter": "B",
+                "text": "Mars"
+            },
+            {
+                "letter": "C",
+                "text": "Jupiter"
+            },
+            {
+                "letter": "D",
+                "text": "Venus"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Mars is called the Red Planet because of its reddish appearance."
+    },
+    {
+        "title": "KidsQuiz - Q0007",
+        "text": "What do bees make?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Milk"
+            },
+            {
+                "letter": "B",
+                "text": "Honey"
+            },
+            {
+                "letter": "C",
+                "text": "Juice"
+            },
+            {
+                "letter": "D",
+                "text": "Butter"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Bees make honey from nectar."
+    },
+    {
+        "title": "KidsQuiz - Q0008",
+        "text": "Which shape has three sides?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Square"
+            },
+            {
+                "letter": "B",
+                "text": "Circle"
+            },
+            {
+                "letter": "C",
+                "text": "Triangle"
+            },
+            {
+                "letter": "D",
+                "text": "Rectangle"
+            }
+        ],
+        "correct": "C",
+        "explanation": "A triangle has three sides."
+    },
+    {
+        "title": "KidsQuiz - Q0009",
+        "text": "What is the opposite of 'hot'?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Warm"
+            },
+            {
+                "letter": "B",
+                "text": "Cold"
+            },
+            {
+                "letter": "C",
+                "text": "Cool"
+            },
+            {
+                "letter": "D",
+                "text": "Heat"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The opposite of hot is cold."
+    },
+    {
+        "title": "KidsQuiz - Q0010",
+        "text": "Which fruit is yellow and curved?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Apple"
+            },
+            {
+                "letter": "B",
+                "text": "Banana"
+            },
+            {
+                "letter": "C",
+                "text": "Orange"
+            },
+            {
+                "letter": "D",
+                "text": "Grapes"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Bananas are yellow and curved."
+    },
+    {
+        "title": "KidsQuiz - Q0011",
+        "text": "How many wheels does a bicycle have?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "1"
+            },
+            {
+                "letter": "B",
+                "text": "2"
+            },
+            {
+                "letter": "C",
+                "text": "3"
+            },
+            {
+                "letter": "D",
+                "text": "4"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A bicycle has 2 wheels."
+    },
+    {
+        "title": "KidsQuiz - Q0012",
+        "text": "Which animal says 'Moo'?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Dog"
+            },
+            {
+                "letter": "B",
+                "text": "Cat"
+            },
+            {
+                "letter": "C",
+                "text": "Cow"
+            },
+            {
+                "letter": "D",
+                "text": "Sheep"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Cows make the sound 'Moo'."
+    },
+    {
+        "title": "KidsQuiz - Q0013",
+        "text": "What is 2 + 2?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "3"
+            },
+            {
+                "letter": "B",
+                "text": "4"
+            },
+            {
+                "letter": "C",
+                "text": "5"
+            },
+            {
+                "letter": "D",
+                "text": "6"
+            }
+        ],
+        "correct": "B",
+        "explanation": "2 + 2 equals 4."
+    },
+    {
+        "title": "KidsQuiz - Q0014",
+        "text": "Which animal is the largest mammal?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Elephant"
+            },
+            {
+                "letter": "B",
+                "text": "Blue Whale"
+            },
+            {
+                "letter": "C",
+                "text": "Giraffe"
+            },
+            {
+                "letter": "D",
+                "text": "Shark"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The blue whale is the largest mammal."
+    },
+    {
+        "title": "KidsQuiz - Q0015",
+        "text": "Which day comes after Friday?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Thursday"
+            },
+            {
+                "letter": "B",
+                "text": "Saturday"
+            },
+            {
+                "letter": "C",
+                "text": "Sunday"
+            },
+            {
+                "letter": "D",
+                "text": "Monday"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Saturday comes after Friday."
+    }
+]
