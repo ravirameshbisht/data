@@ -3718,5 +3718,365 @@
         ],
         "correct": "A",
         "explanation": "Static synchronized methods lock the class object."
+    },
+    {
+        "title": "ThreadPools - Q0001",
+        "text": "[Thread Pools] What is a thread pool in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A collection of threads that can be reused to execute tasks"
+            },
+            {
+                "letter": "B",
+                "text": "A mechanism to create new threads for each task"
+            },
+            {
+                "letter": "C",
+                "text": "A group of threads that run sequentially"
+            },
+            {
+                "letter": "D",
+                "text": "A set of daemon threads only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A thread pool is a collection of worker threads that can be reused to execute multiple tasks."
+    },
+    {
+        "title": "ThreadPools - Q0002",
+        "text": "[Thread Pools] Which package provides thread pool implementations in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.lang"
+            },
+            {
+                "letter": "B",
+                "text": "java.util.concurrent"
+            },
+            {
+                "letter": "C",
+                "text": "java.thread"
+            },
+            {
+                "letter": "D",
+                "text": "java.pool"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Thread pool implementations are provided in java.util.concurrent."
+    },
+    {
+        "title": "ThreadPools - Q0003",
+        "text": "[Thread Pools] Which class provides factory methods to create thread pools?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Executors"
+            },
+            {
+                "letter": "B",
+                "text": "Executor"
+            },
+            {
+                "letter": "C",
+                "text": "ThreadPool"
+            },
+            {
+                "letter": "D",
+                "text": "ThreadFactory"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Executors class provides factory methods to create thread pools."
+    },
+    {
+        "title": "ThreadPools - Q0004",
+        "text": "[Thread Pools] Which method creates a fixed-size thread pool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Executors.newFixedThreadPool()"
+            },
+            {
+                "letter": "B",
+                "text": "Executors.newCachedThreadPool()"
+            },
+            {
+                "letter": "C",
+                "text": "Executors.newSingleThreadExecutor()"
+            },
+            {
+                "letter": "D",
+                "text": "Executors.newScheduledThreadPool()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "newFixedThreadPool() creates a pool with a fixed number of threads."
+    },
+    {
+        "title": "ThreadPools - Q0005",
+        "text": "[Thread Pools] Which method creates a thread pool that creates new threads as needed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Executors.newFixedThreadPool()"
+            },
+            {
+                "letter": "B",
+                "text": "Executors.newCachedThreadPool()"
+            },
+            {
+                "letter": "C",
+                "text": "Executors.newSingleThreadExecutor()"
+            },
+            {
+                "letter": "D",
+                "text": "Executors.newScheduledThreadPool()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "newCachedThreadPool() creates new threads as needed and reuses idle ones."
+    },
+    {
+        "title": "ThreadPools - Q0006",
+        "text": "[Thread Pools] Which method creates a single-threaded executor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Executors.newFixedThreadPool()"
+            },
+            {
+                "letter": "B",
+                "text": "Executors.newCachedThreadPool()"
+            },
+            {
+                "letter": "C",
+                "text": "Executors.newSingleThreadExecutor()"
+            },
+            {
+                "letter": "D",
+                "text": "Executors.newScheduledThreadPool()"
+            }
+        ],
+        "correct": "C",
+        "explanation": "newSingleThreadExecutor() creates a pool with only one thread."
+    },
+    {
+        "title": "ThreadPools - Q0007",
+        "text": "[Thread Pools] Which method creates a thread pool that can schedule tasks?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Executors.newFixedThreadPool()"
+            },
+            {
+                "letter": "B",
+                "text": "Executors.newCachedThreadPool()"
+            },
+            {
+                "letter": "C",
+                "text": "Executors.newSingleThreadExecutor()"
+            },
+            {
+                "letter": "D",
+                "text": "Executors.newScheduledThreadPool()"
+            }
+        ],
+        "correct": "D",
+        "explanation": "newScheduledThreadPool() creates a pool that can schedule tasks."
+    },
+    {
+        "title": "ThreadPools - Q0008",
+        "text": "[Thread Pools] Which interface represents an object that executes submitted tasks?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Executor"
+            },
+            {
+                "letter": "B",
+                "text": "Executors"
+            },
+            {
+                "letter": "C",
+                "text": "ExecutorService"
+            },
+            {
+                "letter": "D",
+                "text": "ThreadPoolExecutor"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Executor is the base interface for executing submitted tasks."
+    },
+    {
+        "title": "ThreadPools - Q0009",
+        "text": "[Thread Pools] Which interface extends Executor and provides lifecycle management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ExecutorService"
+            },
+            {
+                "letter": "B",
+                "text": "Executors"
+            },
+            {
+                "letter": "C",
+                "text": "ThreadPoolExecutor"
+            },
+            {
+                "letter": "D",
+                "text": "ScheduledExecutorService"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ExecutorService extends Executor and provides lifecycle management methods."
+    },
+    {
+        "title": "ThreadPools - Q0010",
+        "text": "[Thread Pools] Which method of ExecutorService submits a task without returning a result?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "submit()"
+            },
+            {
+                "letter": "B",
+                "text": "execute()"
+            },
+            {
+                "letter": "C",
+                "text": "invokeAll()"
+            },
+            {
+                "letter": "D",
+                "text": "invokeAny()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "execute() submits a task without returning a result."
+    },
+    {
+        "title": "ThreadPools - Q0011",
+        "text": "[Thread Pools] Which method of ExecutorService submits a task and returns a Future?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "submit()"
+            },
+            {
+                "letter": "B",
+                "text": "execute()"
+            },
+            {
+                "letter": "C",
+                "text": "invokeAll()"
+            },
+            {
+                "letter": "D",
+                "text": "invokeAny()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "submit() submits a task and returns a Future representing the result."
+    },
+    {
+        "title": "ThreadPools - Q0012",
+        "text": "[Thread Pools] Which method of ExecutorService shuts down the executor gracefully?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "shutdown()"
+            },
+            {
+                "letter": "B",
+                "text": "shutdownNow()"
+            },
+            {
+                "letter": "C",
+                "text": "terminate()"
+            },
+            {
+                "letter": "D",
+                "text": "stop()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "shutdown() initiates an orderly shutdown where previously submitted tasks are executed."
+    },
+    {
+        "title": "ThreadPools - Q0013",
+        "text": "[Thread Pools] Which method of ExecutorService attempts to stop all actively executing tasks?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "shutdown()"
+            },
+            {
+                "letter": "B",
+                "text": "shutdownNow()"
+            },
+            {
+                "letter": "C",
+                "text": "terminate()"
+            },
+            {
+                "letter": "D",
+                "text": "stop()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "shutdownNow() attempts to stop all actively executing tasks immediately."
+    },
+    {
+        "title": "ThreadPools - Q0014",
+        "text": "[Thread Pools] Which method of ExecutorService blocks until all tasks complete or timeout occurs?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "awaitTermination()"
+            },
+            {
+                "letter": "B",
+                "text": "wait()"
+            },
+            {
+                "letter": "C",
+                "text": "join()"
+            },
+            {
+                "letter": "D",
+                "text": "sleep()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "awaitTermination() blocks until all tasks complete or timeout occurs."
+    },
+    {
+        "title": "ThreadPools - Q0015",
+        "text": "[Thread Pools] Which class is the most configurable implementation of ExecutorService?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ThreadPoolExecutor"
+            },
+            {
+                "letter": "B",
+                "text": "Executors"
+            },
+            {
+                "letter": "C",
+                "text": "ScheduledThreadPoolExecutor"
+            },
+            {
+                "letter": "D",
+                "text": "ForkJoinPool"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ThreadPoolExecutor is the most configurable implementation of ExecutorService."
     }
 ]
