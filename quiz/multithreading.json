@@ -1249,1256 +1249,1254 @@
         "correct": "B",
         "explanation": "Threads can be created by extending Thread, implementing Runnable, or using Executor framework."
     },
-    [
-        {
-            "title": "Lifecycle - Q0001",
-            "text": "[Lifecycle] Which of the following is the first state of a thread in Java?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "B",
-                    "text": "NEW"
-                },
-                {
-                    "letter": "C",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "D",
-                    "text": "TERMINATED"
-                }
-            ],
-            "correct": "B",
-            "explanation": "When a thread object is created, it is in the NEW state."
-        },
-        {
-            "title": "Lifecycle - Q0002",
-            "text": "[Lifecycle] Which method transitions a thread from NEW to RUNNABLE state?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "run()"
-                },
-                {
-                    "letter": "B",
-                    "text": "start()"
-                },
-                {
-                    "letter": "C",
-                    "text": "sleep()"
-                },
-                {
-                    "letter": "D",
-                    "text": "yield()"
-                }
-            ],
-            "correct": "B",
-            "explanation": "Calling start() moves a thread from NEW to RUNNABLE."
-        },
-        {
-            "title": "Lifecycle - Q0003",
-            "text": "[Lifecycle] Which state indicates that a thread is ready to run but waiting for CPU?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "B",
-                    "text": "RUNNING"
-                },
-                {
-                    "letter": "C",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "D",
-                    "text": "BLOCKED"
-                }
-            ],
-            "correct": "A",
-            "explanation": "RUNNABLE means the thread is ready but waiting for CPU scheduling."
-        },
-        {
-            "title": "Lifecycle - Q0004",
-            "text": "[Lifecycle] Which state indicates that a thread is actively executing?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "B",
-                    "text": "RUNNING"
-                },
-                {
-                    "letter": "C",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "D",
-                    "text": "NEW"
-                }
-            ],
-            "correct": "B",
-            "explanation": "RUNNING means the thread is actively executing instructions."
-        },
-        {
-            "title": "Lifecycle - Q0005",
-            "text": "[Lifecycle] Which state occurs when a thread is waiting indefinitely for another thread to signal?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "B",
-                    "text": "TIMED_WAITING"
-                },
-                {
-                    "letter": "C",
-                    "text": "BLOCKED"
-                },
-                {
-                    "letter": "D",
-                    "text": "TERMINATED"
-                }
-            ],
-            "correct": "A",
-            "explanation": "WAITING means the thread waits indefinitely until notified."
-        },
-        {
-            "title": "Lifecycle - Q0006",
-            "text": "[Lifecycle] Which state occurs when a thread waits for a specified time?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "B",
-                    "text": "TIMED_WAITING"
-                },
-                {
-                    "letter": "C",
-                    "text": "BLOCKED"
-                },
-                {
-                    "letter": "D",
-                    "text": "RUNNABLE"
-                }
-            ],
-            "correct": "B",
-            "explanation": "TIMED_WAITING means the thread waits for a specified time."
-        },
-        {
-            "title": "Lifecycle - Q0007",
-            "text": "[Lifecycle] Which state occurs when a thread is waiting to acquire a monitor lock?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "B",
-                    "text": "BLOCKED"
-                },
-                {
-                    "letter": "C",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "D",
-                    "text": "TERMINATED"
-                }
-            ],
-            "correct": "B",
-            "explanation": "BLOCKED means the thread is waiting to acquire a monitor lock."
-        },
-        {
-            "title": "Lifecycle - Q0008",
-            "text": "[Lifecycle] Which state indicates that a thread has finished execution?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "B",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "C",
-                    "text": "TERMINATED"
-                },
-                {
-                    "letter": "D",
-                    "text": "BLOCKED"
-                }
-            ],
-            "correct": "C",
-            "explanation": "TERMINATED means the thread has finished execution."
-        },
-        {
-            "title": "Lifecycle - Q0009",
-            "text": "[Lifecycle] Which method causes a thread to sleep for a given time?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "wait()"
-                },
-                {
-                    "letter": "B",
-                    "text": "sleep()"
-                },
-                {
-                    "letter": "C",
-                    "text": "yield()"
-                },
-                {
-                    "letter": "D",
-                    "text": "join()"
-                }
-            ],
-            "correct": "B",
-            "explanation": "sleep() pauses the thread for a specified time."
-        },
-        {
-            "title": "Lifecycle - Q0010",
-            "text": "[Lifecycle] Which method allows one thread to wait for another to finish?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "sleep()"
-                },
-                {
-                    "letter": "B",
-                    "text": "join()"
-                },
-                {
-                    "letter": "C",
-                    "text": "yield()"
-                },
-                {
-                    "letter": "D",
-                    "text": "notify()"
-                }
-            ],
-            "correct": "B",
-            "explanation": "join() makes one thread wait until another finishes."
-        },
-        {
-            "title": "Lifecycle - Q0011",
-            "text": "[Lifecycle] Which method is used to notify a waiting thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "notify()"
-                },
-                {
-                    "letter": "B",
-                    "text": "signal()"
-                },
-                {
-                    "letter": "C",
-                    "text": "wake()"
-                },
-                {
-                    "letter": "D",
-                    "text": "resume()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "notify() wakes up one waiting thread."
-        },
-        {
-            "title": "Lifecycle - Q0012",
-            "text": "[Lifecycle] Which method wakes up all waiting threads?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "notify()"
-                },
-                {
-                    "letter": "B",
-                    "text": "notifyAll()"
-                },
-                {
-                    "letter": "C",
-                    "text": "wakeAll()"
-                },
-                {
-                    "letter": "D",
-                    "text": "resumeAll()"
-                }
-            ],
-            "correct": "B",
-            "explanation": "notifyAll() wakes up all waiting threads."
-        },
-        {
-            "title": "Lifecycle - Q0013",
-            "text": "[Lifecycle] Which method temporarily pauses the current thread and allows others to execute?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "sleep()"
-                },
-                {
-                    "letter": "B",
-                    "text": "yield()"
-                },
-                {
-                    "letter": "C",
-                    "text": "wait()"
-                },
-                {
-                    "letter": "D",
-                    "text": "join()"
-                }
-            ],
-            "correct": "B",
-            "explanation": "yield() hints the scheduler to pause the current thread."
-        },
-        {
-            "title": "Lifecycle - Q0014",
-            "text": "[Lifecycle] Which method is used to check if a thread is alive?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "isRunning()"
-                },
-                {
-                    "letter": "B",
-                    "text": "isAlive()"
-                },
-                {
-                    "letter": "C",
-                    "text": "alive()"
-                },
-                {
-                    "letter": "D",
-                    "text": "status()"
-                }
-            ],
-            "correct": "B",
-            "explanation": "isAlive() checks if a thread is still running."
-        },
-        {
-            "title": "Lifecycle - Q0015",
-            "text": "[Lifecycle] Which method is used to stop a thread safely?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "stop()"
-                },
-                {
-                    "letter": "B",
-                    "text": "destroy()"
-                },
-                {
-                    "letter": "C",
-                    "text": "interrupt()"
-                },
-                {
-                    "letter": "D",
-                    "text": "exit()"
-                }
-            ],
-            "correct": "C",
-            "explanation": "interrupt() is the safe way to request a thread to stop."
-        },
-        {
-            "title": "Lifecycle - Q0016",
-            "text": "[Lifecycle] Which state does a thread enter after calling sleep()?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "B",
-                    "text": "TIMED_WAITING"
-                },
-                {
-                    "letter": "C",
-                    "text": "BLOCKED"
-                },
-                {
-                    "letter": "D",
-                    "text": "TERMINATED"
-                }
-            ],
-            "correct": "B",
-            "explanation": "sleep() puts the thread into TIMED_WAITING."
-        },
-        {
-            "title": "Lifecycle - Q0017",
-            "text": "[Lifecycle] Which state does a thread enter after calling join()?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "WAITING or TIMED_WAITING"
-                },
-                {
-                    "letter": "B",
-                    "text": "BLOCKED"
-                },
-                {
-                    "letter": "C",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "D",
-                    "text": "TERMINATED"
-                }
-            ],
-            "correct": "A",
-            "explanation": "join() puts the thread into WAITING or TIMED_WAITING depending on overload."
-        },
-        {
-            "title": "Lifecycle - Q0018",
-            "text": "[Lifecycle] Which state does a thread enter when waiting for a lock?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "B",
-                    "text": "BLOCKED"
-                },
-                {
-                    "letter": "C",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "D",
-                    "text": "NEW"
-                }
-            ],
-            "correct": "B",
-            "explanation": "BLOCKED means waiting for a monitor lock."
-        },
-        {
-            "title": "Lifecycle - Q0019",
-            "text": "[Lifecycle] Which state does a thread enter after finishing execution?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "B",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "C",
-                    "text": "TERMINATED"
-                },
-                {
-                    "letter": "D",
-                    "text": "BLOCKED"
-                }
-            ],
-            "correct": "C",
-            "explanation": "TERMINATED means the thread has finished execution."
-        },
-        {
-            "title": "Lifecycle - Q0020",
-            "text": "[Lifecycle] Which method is used to get the current state of a thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "getState()"
-                },
-                {
-                    "letter": "B",
-                    "text": "state()"
-                },
-                {
-                    "letter": "C",
-                    "text": "status()"
-                },
-                {
-                    "letter": "D",
-                    "text": "threadState()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "getState() returns the current state of a thread."
-        },
-        {
-            "title": "Lifecycle - Q0021",
-            "text": "[Lifecycle] Which of the following is NOT a valid thread state in Java?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "NEW"
-                },
-                {
-                    "letter": "B",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "C",
-                    "text": "SUSPENDED"
-                },
-                {
-                    "letter": "D",
-                    "text": "TERMINATED"
-                }
-            ],
-            "correct": "C",
-            "explanation": "SUSPENDED is not a valid state in modern Java; it was deprecated long ago."
-        },
-        {
-            "title": "Lifecycle - Q0022",
-            "text": "[Lifecycle] Which method is used to voluntarily give up CPU control?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "yield()"
-                },
-                {
-                    "letter": "B",
-                    "text": "sleep()"
-                },
-                {
-                    "letter": "C",
-                    "text": "wait()"
-                },
-                {
-                    "letter": "D",
-                    "text": "pause()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "yield() hints the scheduler to give other threads a chance to run."
-        },
-        {
-            "title": "Lifecycle - Q0023",
-            "text": "[Lifecycle] Which method is used to pause a thread until another thread completes?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "join()"
-                },
-                {
-                    "letter": "B",
-                    "text": "sleep()"
-                },
-                {
-                    "letter": "C",
-                    "text": "wait()"
-                },
-                {
-                    "letter": "D",
-                    "text": "yield()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "join() makes the current thread wait until another thread finishes."
-        },
-        {
-            "title": "Lifecycle - Q0024",
-            "text": "[Lifecycle] Which method is used to check if a thread has finished execution?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "isAlive()"
-                },
-                {
-                    "letter": "B",
-                    "text": "isFinished()"
-                },
-                {
-                    "letter": "C",
-                    "text": "isTerminated()"
-                },
-                {
-                    "letter": "D",
-                    "text": "done()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "isAlive() returns false if the thread has finished execution."
-        },
-        {
-            "title": "Lifecycle - Q0025",
-            "text": "[Lifecycle] Which method is used to interrupt a thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "stop()"
-                },
-                {
-                    "letter": "B",
-                    "text": "interrupt()"
-                },
-                {
-                    "letter": "C",
-                    "text": "terminate()"
-                },
-                {
-                    "letter": "D",
-                    "text": "exit()"
-                }
-            ],
-            "correct": "B",
-            "explanation": "interrupt() sets the interrupt flag of the thread."
-        },
-        {
-            "title": "Lifecycle - Q0026",
-            "text": "[Lifecycle] Which method clears the interrupt flag when checking it?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "isInterrupted()"
-                },
-                {
-                    "letter": "B",
-                    "text": "interrupted()"
-                },
-                {
-                    "letter": "C",
-                    "text": "clearInterrupt()"
-                },
-                {
-                    "letter": "D",
-                    "text": "reset()"
-                }
-            ],
-            "correct": "B",
-            "explanation": "Thread.interrupted() checks and clears the interrupt flag."
-        },
-        {
-            "title": "Lifecycle - Q0027",
-            "text": "[Lifecycle] Which method is used to check if a thread has been interrupted without clearing the flag?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "isInterrupted()"
-                },
-                {
-                    "letter": "B",
-                    "text": "interrupted()"
-                },
-                {
-                    "letter": "C",
-                    "text": "checkInterrupt()"
-                },
-                {
-                    "letter": "D",
-                    "text": "hasInterrupted()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "isInterrupted() checks the interrupt status without clearing it."
-        },
-        {
-            "title": "Lifecycle - Q0028",
-            "text": "[Lifecycle] Which of the following is true about daemon threads?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "They prevent JVM shutdown"
-                },
-                {
-                    "letter": "B",
-                    "text": "They run in the background and do not prevent JVM shutdown"
-                },
-                {
-                    "letter": "C",
-                    "text": "They are created by default"
-                },
-                {
-                    "letter": "D",
-                    "text": "They cannot be created by the user"
-                }
-            ],
-            "correct": "B",
-            "explanation": "Daemon threads run in the background and do not block JVM exit."
-        },
-        {
-            "title": "Lifecycle - Q0029",
-            "text": "[Lifecycle] Which method is used to mark a thread as daemon?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "setDaemon()"
-                },
-                {
-                    "letter": "B",
-                    "text": "makeDaemon()"
-                },
-                {
-                    "letter": "C",
-                    "text": "daemon()"
-                },
-                {
-                    "letter": "D",
-                    "text": "setBackground()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "setDaemon(true) marks a thread as daemon."
-        },
-        {
-            "title": "Lifecycle - Q0030",
-            "text": "[Lifecycle] Which method checks if a thread is a daemon?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "isDaemon()"
-                },
-                {
-                    "letter": "B",
-                    "text": "checkDaemon()"
-                },
-                {
-                    "letter": "C",
-                    "text": "daemon()"
-                },
-                {
-                    "letter": "D",
-                    "text": "isBackground()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "isDaemon() checks if a thread is a daemon."
-        },
-        {
-            "title": "Lifecycle - Q0031",
-            "text": "[Lifecycle] Which method is used to get the current thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "Thread.current()"
-                },
-                {
-                    "letter": "B",
-                    "text": "Thread.get()"
-                },
-                {
-                    "letter": "C",
-                    "text": "Thread.currentThread()"
-                },
-                {
-                    "letter": "D",
-                    "text": "Thread.this()"
-                }
-            ],
-            "correct": "C",
-            "explanation": "Thread.currentThread() returns the current thread."
-        },
-        {
-            "title": "Lifecycle - Q0032",
-            "text": "[Lifecycle] Which method is used to get the name of a thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "getThreadName()"
-                },
-                {
-                    "letter": "B",
-                    "text": "getName()"
-                },
-                {
-                    "letter": "C",
-                    "text": "name()"
-                },
-                {
-                    "letter": "D",
-                    "text": "threadName()"
-                }
-            ],
-            "correct": "B",
-            "explanation": "getName() returns the name of the thread."
-        },
-        {
-            "title": "Lifecycle - Q0033",
-            "text": "[Lifecycle] Which method is used to set the name of a thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "setThreadName()"
-                },
-                {
-                    "letter": "B",
-                    "text": "setName()"
-                },
-                {
-                    "letter": "C",
-                    "text": "name()"
-                },
-                {
-                    "letter": "D",
-                    "text": "threadName()"
-                }
-            ],
-            "correct": "B",
-            "explanation": "setName() sets the name of the thread."
-        },
-        {
-            "title": "Lifecycle - Q0034",
-            "text": "[Lifecycle] Which method is used to get the ID of a thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "getThreadId()"
-                },
-                {
-                    "letter": "B",
-                    "text": "getId()"
-                },
-                {
-                    "letter": "C",
-                    "text": "id()"
-                },
-                {
-                    "letter": "D",
-                    "text": "threadId()"
-                }
-            ],
-            "correct": "B",
-            "explanation": "getId() returns the ID of a thread."
-        },
-        {
-            "title": "Lifecycle - Q0035",
-            "text": "[Lifecycle] Which method is used to get the priority of a thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "getPriority()"
-                },
-                {
-                    "letter": "B",
-                    "text": "priority()"
-                },
-                {
-                    "letter": "C",
-                    "text": "level()"
-                },
-                {
-                    "letter": "D",
-                    "text": "importance()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "getPriority() returns the priority of a thread."
-        },
-        {
-            "title": "Lifecycle - Q0036",
-            "text": "[Lifecycle] Which method is used to set the priority of a thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "setPriority()"
-                },
-                {
-                    "letter": "B",
-                    "text": "priority()"
-                },
-                {
-                    "letter": "C",
-                    "text": "setLevel()"
-                },
-                {
-                    "letter": "D",
-                    "text": "setImportance()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "setPriority() sets the priority of a thread."
-        },
-        {
-            "title": "Lifecycle - Q0037",
-            "text": "[Lifecycle] What is the default priority of a thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "1"
-                },
-                {
-                    "letter": "B",
-                    "text": "5"
-                },
-                {
-                    "letter": "C",
-                    "text": "7"
-                },
-                {
-                    "letter": "D",
-                    "text": "10"
-                }
-            ],
-            "correct": "B",
-            "explanation": "The default priority is 5 (NORM_PRIORITY)."
-        },
-        {
-            "title": "Lifecycle - Q0038",
-            "text": "[Lifecycle] Which method is used to get the state of a thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "getState()"
-                },
-                {
-                    "letter": "B",
-                    "text": "state()"
-                },
-                {
-                    "letter": "C",
-                    "text": "status()"
-                },
-                {
-                    "letter": "D",
-                    "text": "threadState()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "getState() returns the current state of a thread."
-        },
-        {
-            "title": "Lifecycle - Q0039",
-            "text": "[Lifecycle] Which of the following is NOT a valid Thread.State enum?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "NEW"
-                },
-                {
-                    "letter": "B",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "C",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "D",
-                    "text": "STOPPED"
-                }
-            ],
-            "correct": "D",
-            "explanation": "STOPPED is not a valid Thread.State enum."
-        },
-        {
-            "title": "Lifecycle - Q0040",
-            "text": "[Lifecycle] Which method is used to check if a thread is alive?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "isAlive()"
-                },
-                {
-                    "letter": "B",
-                    "text": "alive()"
-                },
-                {
-                    "letter": "C",
-                    "text": "running()"
-                },
-                {
-                    "letter": "D",
-                    "text": "status()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "isAlive() checks if a thread is still running."
-        },
-        {
-            "title": "Lifecycle - Q0041",
-            "text": "[Lifecycle] Which method is used to make a thread wait until notified?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "wait()"
-                },
-                {
-                    "letter": "B",
-                    "text": "sleep()"
-                },
-                {
-                    "letter": "C",
-                    "text": "pause()"
-                },
-                {
-                    "letter": "D",
-                    "text": "yield()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "wait() makes a thread wait until notified."
-        },
-        {
-            "title": "Lifecycle - Q0042",
-            "text": "[Lifecycle] Which method is used to wake up a waiting thread?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "notify()"
-                },
-                {
-                    "letter": "B",
-                    "text": "wake()"
-                },
-                {
-                    "letter": "C",
-                    "text": "resume()"
-                },
-                {
-                    "letter": "D",
-                    "text": "signal()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "notify() wakes up one waiting thread."
-        },
-        {
-            "title": "Lifecycle - Q0043",
-            "text": "[Lifecycle] Which method is used to wake up all waiting threads?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "notifyAll()"
-                },
-                {
-                    "letter": "B",
-                    "text": "wakeAll()"
-                },
-                {
-                    "letter": "C",
-                    "text": "resumeAll()"
-                },
-                {
-                    "letter": "D",
-                    "text": "signalAll()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "notifyAll() wakes up all waiting threads."
-        },
-        {
-            "title": "Lifecycle - Q0044",
-            "text": "[Lifecycle] Which method is used to pause a thread for a specific time?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "sleep()"
-                },
-                {
-                    "letter": "B",
-                    "text": "wait()"
-                },
-                {
-                    "letter": "C",
-                    "text": "yield()"
-                },
-                {
-                    "letter": "D",
-                    "text": "pause()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "sleep() pauses a thread for a specified time."
-        },
-        {
-            "title": "Lifecycle - Q0045",
-            "text": "[Lifecycle] Which method is used to make a thread wait for another thread to finish?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "join()"
-                },
-                {
-                    "letter": "B",
-                    "text": "sleep()"
-                },
-                {
-                    "letter": "C",
-                    "text": "wait()"
-                },
-                {
-                    "letter": "D",
-                    "text": "yield()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "join() makes one thread wait until another finishes."
-        },
-        {
-            "title": "Lifecycle - Q0046",
-            "text": "[Lifecycle] Which method is used to voluntarily give up CPU control?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "yield()"
-                },
-                {
-                    "letter": "B",
-                    "text": "sleep()"
-                },
-                {
-                    "letter": "C",
-                    "text": "wait()"
-                },
-                {
-                    "letter": "D",
-                    "text": "pause()"
-                }
-            ],
-            "correct": "A",
-            "explanation": "yield() hints the scheduler to give other threads a chance to run."
-        },
-        {
-            "title": "Lifecycle - Q0047",
-            "text": "[Lifecycle] Which method is used to stop a thread safely?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "stop()"
-                },
-                {
-                    "letter": "B",
-                    "text": "destroy()"
-                },
-                {
-                    "letter": "C",
-                    "text": "interrupt()"
-                },
-                {
-                    "letter": "D",
-                    "text": "exit()"
-                }
-            ],
-            "correct": "C",
-            "explanation": "interrupt() is the safe way to request a thread to stop."
-        },
-        {
-            "title": "Lifecycle - Q0048",
-            "text": "[Lifecycle] Which state does a thread enter after calling sleep()?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "B",
-                    "text": "TIMED_WAITING"
-                },
-                {
-                    "letter": "C",
-                    "text": "BLOCKED"
-                },
-                {
-                    "letter": "D",
-                    "text": "TERMINATED"
-                }
-            ],
-            "correct": "B",
-            "explanation": "sleep() puts the thread into TIMED_WAITING."
-        },
-        {
-            "title": "Lifecycle - Q0049",
-            "text": "[Lifecycle] Which state does a thread enter after calling join()?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "WAITING or TIMED_WAITING"
-                },
-                {
-                    "letter": "B",
-                    "text": "BLOCKED"
-                },
-                {
-                    "letter": "C",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "D",
-                    "text": "TERMINATED"
-                }
-            ],
-            "correct": "A",
-            "explanation": "join() puts the thread into WAITING or TIMED_WAITING depending on overload."
-        },
-        {
-            "title": "Lifecycle - Q0050",
-            "text": "[Lifecycle] Which state does a thread enter after finishing execution?",
-            "code": "",
-            "options": [
-                {
-                    "letter": "A",
-                    "text": "RUNNABLE"
-                },
-                {
-                    "letter": "B",
-                    "text": "WAITING"
-                },
-                {
-                    "letter": "C",
-                    "text": "TERMINATED"
-                },
-                {
-                    "letter": "D",
-                    "text": "BLOCKED"
-                }
-            ],
-            "correct": "C",
-            "explanation": "TERMINATED means the thread has finished execution."
-        }
-    ]
+    {
+        "title": "Lifecycle - Q0001",
+        "text": "[Lifecycle] Which of the following is the first state of a thread in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "B",
+                "text": "NEW"
+            },
+            {
+                "letter": "C",
+                "text": "WAITING"
+            },
+            {
+                "letter": "D",
+                "text": "TERMINATED"
+            }
+        ],
+        "correct": "B",
+        "explanation": "When a thread object is created, it is in the NEW state."
+    },
+    {
+        "title": "Lifecycle - Q0002",
+        "text": "[Lifecycle] Which method transitions a thread from NEW to RUNNABLE state?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "run()"
+            },
+            {
+                "letter": "B",
+                "text": "start()"
+            },
+            {
+                "letter": "C",
+                "text": "sleep()"
+            },
+            {
+                "letter": "D",
+                "text": "yield()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Calling start() moves a thread from NEW to RUNNABLE."
+    },
+    {
+        "title": "Lifecycle - Q0003",
+        "text": "[Lifecycle] Which state indicates that a thread is ready to run but waiting for CPU?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "B",
+                "text": "RUNNING"
+            },
+            {
+                "letter": "C",
+                "text": "WAITING"
+            },
+            {
+                "letter": "D",
+                "text": "BLOCKED"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RUNNABLE means the thread is ready but waiting for CPU scheduling."
+    },
+    {
+        "title": "Lifecycle - Q0004",
+        "text": "[Lifecycle] Which state indicates that a thread is actively executing?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "B",
+                "text": "RUNNING"
+            },
+            {
+                "letter": "C",
+                "text": "WAITING"
+            },
+            {
+                "letter": "D",
+                "text": "NEW"
+            }
+        ],
+        "correct": "B",
+        "explanation": "RUNNING means the thread is actively executing instructions."
+    },
+    {
+        "title": "Lifecycle - Q0005",
+        "text": "[Lifecycle] Which state occurs when a thread is waiting indefinitely for another thread to signal?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "WAITING"
+            },
+            {
+                "letter": "B",
+                "text": "TIMED_WAITING"
+            },
+            {
+                "letter": "C",
+                "text": "BLOCKED"
+            },
+            {
+                "letter": "D",
+                "text": "TERMINATED"
+            }
+        ],
+        "correct": "A",
+        "explanation": "WAITING means the thread waits indefinitely until notified."
+    },
+    {
+        "title": "Lifecycle - Q0006",
+        "text": "[Lifecycle] Which state occurs when a thread waits for a specified time?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "WAITING"
+            },
+            {
+                "letter": "B",
+                "text": "TIMED_WAITING"
+            },
+            {
+                "letter": "C",
+                "text": "BLOCKED"
+            },
+            {
+                "letter": "D",
+                "text": "RUNNABLE"
+            }
+        ],
+        "correct": "B",
+        "explanation": "TIMED_WAITING means the thread waits for a specified time."
+    },
+    {
+        "title": "Lifecycle - Q0007",
+        "text": "[Lifecycle] Which state occurs when a thread is waiting to acquire a monitor lock?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "WAITING"
+            },
+            {
+                "letter": "B",
+                "text": "BLOCKED"
+            },
+            {
+                "letter": "C",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "D",
+                "text": "TERMINATED"
+            }
+        ],
+        "correct": "B",
+        "explanation": "BLOCKED means the thread is waiting to acquire a monitor lock."
+    },
+    {
+        "title": "Lifecycle - Q0008",
+        "text": "[Lifecycle] Which state indicates that a thread has finished execution?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "WAITING"
+            },
+            {
+                "letter": "B",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "C",
+                "text": "TERMINATED"
+            },
+            {
+                "letter": "D",
+                "text": "BLOCKED"
+            }
+        ],
+        "correct": "C",
+        "explanation": "TERMINATED means the thread has finished execution."
+    },
+    {
+        "title": "Lifecycle - Q0009",
+        "text": "[Lifecycle] Which method causes a thread to sleep for a given time?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "yield()"
+            },
+            {
+                "letter": "D",
+                "text": "join()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "sleep() pauses the thread for a specified time."
+    },
+    {
+        "title": "Lifecycle - Q0010",
+        "text": "[Lifecycle] Which method allows one thread to wait for another to finish?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "sleep()"
+            },
+            {
+                "letter": "B",
+                "text": "join()"
+            },
+            {
+                "letter": "C",
+                "text": "yield()"
+            },
+            {
+                "letter": "D",
+                "text": "notify()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "join() makes one thread wait until another finishes."
+    },
+    {
+        "title": "Lifecycle - Q0011",
+        "text": "[Lifecycle] Which method is used to notify a waiting thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notify()"
+            },
+            {
+                "letter": "B",
+                "text": "signal()"
+            },
+            {
+                "letter": "C",
+                "text": "wake()"
+            },
+            {
+                "letter": "D",
+                "text": "resume()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notify() wakes up one waiting thread."
+    },
+    {
+        "title": "Lifecycle - Q0012",
+        "text": "[Lifecycle] Which method wakes up all waiting threads?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notify()"
+            },
+            {
+                "letter": "B",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "C",
+                "text": "wakeAll()"
+            },
+            {
+                "letter": "D",
+                "text": "resumeAll()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "notifyAll() wakes up all waiting threads."
+    },
+    {
+        "title": "Lifecycle - Q0013",
+        "text": "[Lifecycle] Which method temporarily pauses the current thread and allows others to execute?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "sleep()"
+            },
+            {
+                "letter": "B",
+                "text": "yield()"
+            },
+            {
+                "letter": "C",
+                "text": "wait()"
+            },
+            {
+                "letter": "D",
+                "text": "join()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "yield() hints the scheduler to pause the current thread."
+    },
+    {
+        "title": "Lifecycle - Q0014",
+        "text": "[Lifecycle] Which method is used to check if a thread is alive?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isRunning()"
+            },
+            {
+                "letter": "B",
+                "text": "isAlive()"
+            },
+            {
+                "letter": "C",
+                "text": "alive()"
+            },
+            {
+                "letter": "D",
+                "text": "status()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "isAlive() checks if a thread is still running."
+    },
+    {
+        "title": "Lifecycle - Q0015",
+        "text": "[Lifecycle] Which method is used to stop a thread safely?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "stop()"
+            },
+            {
+                "letter": "B",
+                "text": "destroy()"
+            },
+            {
+                "letter": "C",
+                "text": "interrupt()"
+            },
+            {
+                "letter": "D",
+                "text": "exit()"
+            }
+        ],
+        "correct": "C",
+        "explanation": "interrupt() is the safe way to request a thread to stop."
+    },
+    {
+        "title": "Lifecycle - Q0016",
+        "text": "[Lifecycle] Which state does a thread enter after calling sleep()?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "WAITING"
+            },
+            {
+                "letter": "B",
+                "text": "TIMED_WAITING"
+            },
+            {
+                "letter": "C",
+                "text": "BLOCKED"
+            },
+            {
+                "letter": "D",
+                "text": "TERMINATED"
+            }
+        ],
+        "correct": "B",
+        "explanation": "sleep() puts the thread into TIMED_WAITING."
+    },
+    {
+        "title": "Lifecycle - Q0017",
+        "text": "[Lifecycle] Which state does a thread enter after calling join()?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "WAITING or TIMED_WAITING"
+            },
+            {
+                "letter": "B",
+                "text": "BLOCKED"
+            },
+            {
+                "letter": "C",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "D",
+                "text": "TERMINATED"
+            }
+        ],
+        "correct": "A",
+        "explanation": "join() puts the thread into WAITING or TIMED_WAITING depending on overload."
+    },
+    {
+        "title": "Lifecycle - Q0018",
+        "text": "[Lifecycle] Which state does a thread enter when waiting for a lock?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "WAITING"
+            },
+            {
+                "letter": "B",
+                "text": "BLOCKED"
+            },
+            {
+                "letter": "C",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "D",
+                "text": "NEW"
+            }
+        ],
+        "correct": "B",
+        "explanation": "BLOCKED means waiting for a monitor lock."
+    },
+    {
+        "title": "Lifecycle - Q0019",
+        "text": "[Lifecycle] Which state does a thread enter after finishing execution?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "B",
+                "text": "WAITING"
+            },
+            {
+                "letter": "C",
+                "text": "TERMINATED"
+            },
+            {
+                "letter": "D",
+                "text": "BLOCKED"
+            }
+        ],
+        "correct": "C",
+        "explanation": "TERMINATED means the thread has finished execution."
+    },
+    {
+        "title": "Lifecycle - Q0020",
+        "text": "[Lifecycle] Which method is used to get the current state of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getState()"
+            },
+            {
+                "letter": "B",
+                "text": "state()"
+            },
+            {
+                "letter": "C",
+                "text": "status()"
+            },
+            {
+                "letter": "D",
+                "text": "threadState()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "getState() returns the current state of a thread."
+    },
+    {
+        "title": "Lifecycle - Q0021",
+        "text": "[Lifecycle] Which of the following is NOT a valid thread state in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NEW"
+            },
+            {
+                "letter": "B",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "C",
+                "text": "SUSPENDED"
+            },
+            {
+                "letter": "D",
+                "text": "TERMINATED"
+            }
+        ],
+        "correct": "C",
+        "explanation": "SUSPENDED is not a valid state in modern Java; it was deprecated long ago."
+    },
+    {
+        "title": "Lifecycle - Q0022",
+        "text": "[Lifecycle] Which method is used to voluntarily give up CPU control?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "yield()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "wait()"
+            },
+            {
+                "letter": "D",
+                "text": "pause()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "yield() hints the scheduler to give other threads a chance to run."
+    },
+    {
+        "title": "Lifecycle - Q0023",
+        "text": "[Lifecycle] Which method is used to pause a thread until another thread completes?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "join()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "wait()"
+            },
+            {
+                "letter": "D",
+                "text": "yield()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "join() makes the current thread wait until another thread finishes."
+    },
+    {
+        "title": "Lifecycle - Q0024",
+        "text": "[Lifecycle] Which method is used to check if a thread has finished execution?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isAlive()"
+            },
+            {
+                "letter": "B",
+                "text": "isFinished()"
+            },
+            {
+                "letter": "C",
+                "text": "isTerminated()"
+            },
+            {
+                "letter": "D",
+                "text": "done()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "isAlive() returns false if the thread has finished execution."
+    },
+    {
+        "title": "Lifecycle - Q0025",
+        "text": "[Lifecycle] Which method is used to interrupt a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "stop()"
+            },
+            {
+                "letter": "B",
+                "text": "interrupt()"
+            },
+            {
+                "letter": "C",
+                "text": "terminate()"
+            },
+            {
+                "letter": "D",
+                "text": "exit()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "interrupt() sets the interrupt flag of the thread."
+    },
+    {
+        "title": "Lifecycle - Q0026",
+        "text": "[Lifecycle] Which method clears the interrupt flag when checking it?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isInterrupted()"
+            },
+            {
+                "letter": "B",
+                "text": "interrupted()"
+            },
+            {
+                "letter": "C",
+                "text": "clearInterrupt()"
+            },
+            {
+                "letter": "D",
+                "text": "reset()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Thread.interrupted() checks and clears the interrupt flag."
+    },
+    {
+        "title": "Lifecycle - Q0027",
+        "text": "[Lifecycle] Which method is used to check if a thread has been interrupted without clearing the flag?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isInterrupted()"
+            },
+            {
+                "letter": "B",
+                "text": "interrupted()"
+            },
+            {
+                "letter": "C",
+                "text": "checkInterrupt()"
+            },
+            {
+                "letter": "D",
+                "text": "hasInterrupted()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "isInterrupted() checks the interrupt status without clearing it."
+    },
+    {
+        "title": "Lifecycle - Q0028",
+        "text": "[Lifecycle] Which of the following is true about daemon threads?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They prevent JVM shutdown"
+            },
+            {
+                "letter": "B",
+                "text": "They run in the background and do not prevent JVM shutdown"
+            },
+            {
+                "letter": "C",
+                "text": "They are created by default"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be created by the user"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Daemon threads run in the background and do not block JVM exit."
+    },
+    {
+        "title": "Lifecycle - Q0029",
+        "text": "[Lifecycle] Which method is used to mark a thread as daemon?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setDaemon()"
+            },
+            {
+                "letter": "B",
+                "text": "makeDaemon()"
+            },
+            {
+                "letter": "C",
+                "text": "daemon()"
+            },
+            {
+                "letter": "D",
+                "text": "setBackground()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "setDaemon(true) marks a thread as daemon."
+    },
+    {
+        "title": "Lifecycle - Q0030",
+        "text": "[Lifecycle] Which method checks if a thread is a daemon?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isDaemon()"
+            },
+            {
+                "letter": "B",
+                "text": "checkDaemon()"
+            },
+            {
+                "letter": "C",
+                "text": "daemon()"
+            },
+            {
+                "letter": "D",
+                "text": "isBackground()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "isDaemon() checks if a thread is a daemon."
+    },
+    {
+        "title": "Lifecycle - Q0031",
+        "text": "[Lifecycle] Which method is used to get the current thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Thread.current()"
+            },
+            {
+                "letter": "B",
+                "text": "Thread.get()"
+            },
+            {
+                "letter": "C",
+                "text": "Thread.currentThread()"
+            },
+            {
+                "letter": "D",
+                "text": "Thread.this()"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Thread.currentThread() returns the current thread."
+    },
+    {
+        "title": "Lifecycle - Q0032",
+        "text": "[Lifecycle] Which method is used to get the name of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getThreadName()"
+            },
+            {
+                "letter": "B",
+                "text": "getName()"
+            },
+            {
+                "letter": "C",
+                "text": "name()"
+            },
+            {
+                "letter": "D",
+                "text": "threadName()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "getName() returns the name of the thread."
+    },
+    {
+        "title": "Lifecycle - Q0033",
+        "text": "[Lifecycle] Which method is used to set the name of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setThreadName()"
+            },
+            {
+                "letter": "B",
+                "text": "setName()"
+            },
+            {
+                "letter": "C",
+                "text": "name()"
+            },
+            {
+                "letter": "D",
+                "text": "threadName()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "setName() sets the name of the thread."
+    },
+    {
+        "title": "Lifecycle - Q0034",
+        "text": "[Lifecycle] Which method is used to get the ID of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getThreadId()"
+            },
+            {
+                "letter": "B",
+                "text": "getId()"
+            },
+            {
+                "letter": "C",
+                "text": "id()"
+            },
+            {
+                "letter": "D",
+                "text": "threadId()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "getId() returns the ID of a thread."
+    },
+    {
+        "title": "Lifecycle - Q0035",
+        "text": "[Lifecycle] Which method is used to get the priority of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getPriority()"
+            },
+            {
+                "letter": "B",
+                "text": "priority()"
+            },
+            {
+                "letter": "C",
+                "text": "level()"
+            },
+            {
+                "letter": "D",
+                "text": "importance()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "getPriority() returns the priority of a thread."
+    },
+    {
+        "title": "Lifecycle - Q0036",
+        "text": "[Lifecycle] Which method is used to set the priority of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setPriority()"
+            },
+            {
+                "letter": "B",
+                "text": "priority()"
+            },
+            {
+                "letter": "C",
+                "text": "setLevel()"
+            },
+            {
+                "letter": "D",
+                "text": "setImportance()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "setPriority() sets the priority of a thread."
+    },
+    {
+        "title": "Lifecycle - Q0037",
+        "text": "[Lifecycle] What is the default priority of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "1"
+            },
+            {
+                "letter": "B",
+                "text": "5"
+            },
+            {
+                "letter": "C",
+                "text": "7"
+            },
+            {
+                "letter": "D",
+                "text": "10"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The default priority is 5 (NORM_PRIORITY)."
+    },
+    {
+        "title": "Lifecycle - Q0038",
+        "text": "[Lifecycle] Which method is used to get the state of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getState()"
+            },
+            {
+                "letter": "B",
+                "text": "state()"
+            },
+            {
+                "letter": "C",
+                "text": "status()"
+            },
+            {
+                "letter": "D",
+                "text": "threadState()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "getState() returns the current state of a thread."
+    },
+    {
+        "title": "Lifecycle - Q0039",
+        "text": "[Lifecycle] Which of the following is NOT a valid Thread.State enum?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NEW"
+            },
+            {
+                "letter": "B",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "C",
+                "text": "WAITING"
+            },
+            {
+                "letter": "D",
+                "text": "STOPPED"
+            }
+        ],
+        "correct": "D",
+        "explanation": "STOPPED is not a valid Thread.State enum."
+    },
+    {
+        "title": "Lifecycle - Q0040",
+        "text": "[Lifecycle] Which method is used to check if a thread is alive?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isAlive()"
+            },
+            {
+                "letter": "B",
+                "text": "alive()"
+            },
+            {
+                "letter": "C",
+                "text": "running()"
+            },
+            {
+                "letter": "D",
+                "text": "status()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "isAlive() checks if a thread is still running."
+    },
+    {
+        "title": "Lifecycle - Q0041",
+        "text": "[Lifecycle] Which method is used to make a thread wait until notified?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "pause()"
+            },
+            {
+                "letter": "D",
+                "text": "yield()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait() makes a thread wait until notified."
+    },
+    {
+        "title": "Lifecycle - Q0042",
+        "text": "[Lifecycle] Which method is used to wake up a waiting thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notify()"
+            },
+            {
+                "letter": "B",
+                "text": "wake()"
+            },
+            {
+                "letter": "C",
+                "text": "resume()"
+            },
+            {
+                "letter": "D",
+                "text": "signal()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notify() wakes up one waiting thread."
+    },
+    {
+        "title": "Lifecycle - Q0043",
+        "text": "[Lifecycle] Which method is used to wake up all waiting threads?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "wakeAll()"
+            },
+            {
+                "letter": "C",
+                "text": "resumeAll()"
+            },
+            {
+                "letter": "D",
+                "text": "signalAll()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notifyAll() wakes up all waiting threads."
+    },
+    {
+        "title": "Lifecycle - Q0044",
+        "text": "[Lifecycle] Which method is used to pause a thread for a specific time?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "sleep()"
+            },
+            {
+                "letter": "B",
+                "text": "wait()"
+            },
+            {
+                "letter": "C",
+                "text": "yield()"
+            },
+            {
+                "letter": "D",
+                "text": "pause()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "sleep() pauses a thread for a specified time."
+    },
+    {
+        "title": "Lifecycle - Q0045",
+        "text": "[Lifecycle] Which method is used to make a thread wait for another thread to finish?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "join()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "wait()"
+            },
+            {
+                "letter": "D",
+                "text": "yield()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "join() makes one thread wait until another finishes."
+    },
+    {
+        "title": "Lifecycle - Q0046",
+        "text": "[Lifecycle] Which method is used to voluntarily give up CPU control?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "yield()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "wait()"
+            },
+            {
+                "letter": "D",
+                "text": "pause()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "yield() hints the scheduler to give other threads a chance to run."
+    },
+    {
+        "title": "Lifecycle - Q0047",
+        "text": "[Lifecycle] Which method is used to stop a thread safely?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "stop()"
+            },
+            {
+                "letter": "B",
+                "text": "destroy()"
+            },
+            {
+                "letter": "C",
+                "text": "interrupt()"
+            },
+            {
+                "letter": "D",
+                "text": "exit()"
+            }
+        ],
+        "correct": "C",
+        "explanation": "interrupt() is the safe way to request a thread to stop."
+    },
+    {
+        "title": "Lifecycle - Q0048",
+        "text": "[Lifecycle] Which state does a thread enter after calling sleep()?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "WAITING"
+            },
+            {
+                "letter": "B",
+                "text": "TIMED_WAITING"
+            },
+            {
+                "letter": "C",
+                "text": "BLOCKED"
+            },
+            {
+                "letter": "D",
+                "text": "TERMINATED"
+            }
+        ],
+        "correct": "B",
+        "explanation": "sleep() puts the thread into TIMED_WAITING."
+    },
+    {
+        "title": "Lifecycle - Q0049",
+        "text": "[Lifecycle] Which state does a thread enter after calling join()?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "WAITING or TIMED_WAITING"
+            },
+            {
+                "letter": "B",
+                "text": "BLOCKED"
+            },
+            {
+                "letter": "C",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "D",
+                "text": "TERMINATED"
+            }
+        ],
+        "correct": "A",
+        "explanation": "join() puts the thread into WAITING or TIMED_WAITING depending on overload."
+    },
+    {
+        "title": "Lifecycle - Q0050",
+        "text": "[Lifecycle] Which state does a thread enter after finishing execution?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RUNNABLE"
+            },
+            {
+                "letter": "B",
+                "text": "WAITING"
+            },
+            {
+                "letter": "C",
+                "text": "TERMINATED"
+            },
+            {
+                "letter": "D",
+                "text": "BLOCKED"
+            }
+        ],
+        "correct": "C",
+        "explanation": "TERMINATED means the thread has finished execution."
+    }
 ]
