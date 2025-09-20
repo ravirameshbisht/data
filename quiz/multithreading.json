@@ -4078,5 +4078,845 @@
         ],
         "correct": "A",
         "explanation": "ThreadPoolExecutor is the most configurable implementation of ExecutorService."
+    },
+    {
+        "title": "ThreadPools - Q0016",
+        "text": "[Thread Pools] Which parameters define a ThreadPoolExecutor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Core pool size, maximum pool size, keep-alive time, work queue"
+            },
+            {
+                "letter": "B",
+                "text": "Thread name, thread priority, thread group"
+            },
+            {
+                "letter": "C",
+                "text": "Thread ID, thread state, thread priority"
+            },
+            {
+                "letter": "D",
+                "text": "Thread factory, thread group, thread ID"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ThreadPoolExecutor is defined by core pool size, maximum pool size, keep-alive time, and work queue."
+    },
+    {
+        "title": "ThreadPools - Q0017",
+        "text": "[Thread Pools] What is the default work queue used in ThreadPoolExecutor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayBlockingQueue"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedBlockingQueue"
+            },
+            {
+                "letter": "C",
+                "text": "PriorityBlockingQueue"
+            },
+            {
+                "letter": "D",
+                "text": "SynchronousQueue"
+            }
+        ],
+        "correct": "B",
+        "explanation": "LinkedBlockingQueue is commonly used as the default work queue."
+    },
+    {
+        "title": "ThreadPools - Q0018",
+        "text": "[Thread Pools] Which method of ExecutorService executes a collection of tasks and returns a list of Futures?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "submit()"
+            },
+            {
+                "letter": "B",
+                "text": "execute()"
+            },
+            {
+                "letter": "C",
+                "text": "invokeAll()"
+            },
+            {
+                "letter": "D",
+                "text": "invokeAny()"
+            }
+        ],
+        "correct": "C",
+        "explanation": "invokeAll() executes a collection of tasks and returns a list of Futures."
+    },
+    {
+        "title": "ThreadPools - Q0019",
+        "text": "[Thread Pools] Which method of ExecutorService executes a collection of tasks and returns the result of one that completes successfully?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "submit()"
+            },
+            {
+                "letter": "B",
+                "text": "execute()"
+            },
+            {
+                "letter": "C",
+                "text": "invokeAll()"
+            },
+            {
+                "letter": "D",
+                "text": "invokeAny()"
+            }
+        ],
+        "correct": "D",
+        "explanation": "invokeAny() returns the result of one successfully completed task."
+    },
+    {
+        "title": "ThreadPools - Q0020",
+        "text": "[Thread Pools] Which thread pool is best suited for executing periodic tasks?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "FixedThreadPool"
+            },
+            {
+                "letter": "B",
+                "text": "CachedThreadPool"
+            },
+            {
+                "letter": "C",
+                "text": "ScheduledThreadPool"
+            },
+            {
+                "letter": "D",
+                "text": "SingleThreadExecutor"
+            }
+        ],
+        "correct": "C",
+        "explanation": "ScheduledThreadPool is designed for executing periodic or delayed tasks."
+    },
+    {
+        "title": "ThreadPools - Q0021",
+        "text": "[Thread Pools] Which method schedules a task to run after a delay?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "schedule()"
+            },
+            {
+                "letter": "B",
+                "text": "scheduleAtFixedRate()"
+            },
+            {
+                "letter": "C",
+                "text": "scheduleWithFixedDelay()"
+            },
+            {
+                "letter": "D",
+                "text": "submit()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "schedule() runs a task after a specified delay."
+    },
+    {
+        "title": "ThreadPools - Q0022",
+        "text": "[Thread Pools] Which method schedules a task to run repeatedly at a fixed rate?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "schedule()"
+            },
+            {
+                "letter": "B",
+                "text": "scheduleAtFixedRate()"
+            },
+            {
+                "letter": "C",
+                "text": "scheduleWithFixedDelay()"
+            },
+            {
+                "letter": "D",
+                "text": "submit()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "scheduleAtFixedRate() runs tasks repeatedly at a fixed rate."
+    },
+    {
+        "title": "ThreadPools - Q0023",
+        "text": "[Thread Pools] Which method schedules a task to run repeatedly with a fixed delay between executions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "schedule()"
+            },
+            {
+                "letter": "B",
+                "text": "scheduleAtFixedRate()"
+            },
+            {
+                "letter": "C",
+                "text": "scheduleWithFixedDelay()"
+            },
+            {
+                "letter": "D",
+                "text": "submit()"
+            }
+        ],
+        "correct": "C",
+        "explanation": "scheduleWithFixedDelay() runs tasks with a fixed delay between executions."
+    },
+    {
+        "title": "ThreadPools - Q0024",
+        "text": "[Thread Pools] Which class implements ScheduledExecutorService?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ThreadPoolExecutor"
+            },
+            {
+                "letter": "B",
+                "text": "ScheduledThreadPoolExecutor"
+            },
+            {
+                "letter": "C",
+                "text": "ForkJoinPool"
+            },
+            {
+                "letter": "D",
+                "text": "Executors"
+            }
+        ],
+        "correct": "B",
+        "explanation": "ScheduledThreadPoolExecutor implements ScheduledExecutorService."
+    },
+    {
+        "title": "ThreadPools - Q0025",
+        "text": "[Thread Pools] What happens if a task is submitted after shutdown() is called?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is executed immediately"
+            },
+            {
+                "letter": "B",
+                "text": "It is queued but never executed"
+            },
+            {
+                "letter": "C",
+                "text": "It throws RejectedExecutionException"
+            },
+            {
+                "letter": "D",
+                "text": "It is ignored silently"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Submitting tasks after shutdown() throws RejectedExecutionException."
+    },
+    {
+        "title": "ThreadPools - Q0026",
+        "text": "[Thread Pools] Which policy handles tasks that cannot be executed by a ThreadPoolExecutor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RejectedExecutionHandler"
+            },
+            {
+                "letter": "B",
+                "text": "ExecutionPolicy"
+            },
+            {
+                "letter": "C",
+                "text": "TaskHandler"
+            },
+            {
+                "letter": "D",
+                "text": "ThreadPolicy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RejectedExecutionHandler handles tasks that cannot be executed."
+    },
+    {
+        "title": "ThreadPools - Q0027",
+        "text": "[Thread Pools] Which is the default RejectedExecutionHandler in ThreadPoolExecutor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AbortPolicy"
+            },
+            {
+                "letter": "B",
+                "text": "CallerRunsPolicy"
+            },
+            {
+                "letter": "C",
+                "text": "DiscardPolicy"
+            },
+            {
+                "letter": "D",
+                "text": "DiscardOldestPolicy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "AbortPolicy is the default handler, which throws RejectedExecutionException."
+    },
+    {
+        "title": "ThreadPools - Q0028",
+        "text": "[Thread Pools] Which RejectedExecutionHandler runs the task in the caller’s thread?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AbortPolicy"
+            },
+            {
+                "letter": "B",
+                "text": "CallerRunsPolicy"
+            },
+            {
+                "letter": "C",
+                "text": "DiscardPolicy"
+            },
+            {
+                "letter": "D",
+                "text": "DiscardOldestPolicy"
+            }
+        ],
+        "correct": "B",
+        "explanation": "CallerRunsPolicy runs the task in the caller’s thread."
+    },
+    {
+        "title": "ThreadPools - Q0029",
+        "text": "[Thread Pools] Which RejectedExecutionHandler silently discards the rejected task?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AbortPolicy"
+            },
+            {
+                "letter": "B",
+                "text": "CallerRunsPolicy"
+            },
+            {
+                "letter": "C",
+                "text": "DiscardPolicy"
+            },
+            {
+                "letter": "D",
+                "text": "DiscardOldestPolicy"
+            }
+        ],
+        "correct": "C",
+        "explanation": "DiscardPolicy silently discards the rejected task."
+    },
+    {
+        "title": "ThreadPools - Q0030",
+        "text": "[Thread Pools] Which RejectedExecutionHandler discards the oldest unhandled task?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AbortPolicy"
+            },
+            {
+                "letter": "B",
+                "text": "CallerRunsPolicy"
+            },
+            {
+                "letter": "C",
+                "text": "DiscardPolicy"
+            },
+            {
+                "letter": "D",
+                "text": "DiscardOldestPolicy"
+            }
+        ],
+        "correct": "D",
+        "explanation": "DiscardOldestPolicy discards the oldest unhandled task in the queue."
+    },
+    {
+        "title": "ThreadPools - Q0031",
+        "text": "[Thread Pools] Which method returns the number of active threads in ThreadPoolExecutor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getActiveCount()"
+            },
+            {
+                "letter": "B",
+                "text": "getThreadCount()"
+            },
+            {
+                "letter": "C",
+                "text": "getRunningCount()"
+            },
+            {
+                "letter": "D",
+                "text": "getSize()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "getActiveCount() returns the number of active threads."
+    },
+    {
+        "title": "ThreadPools - Q0032",
+        "text": "[Thread Pools] Which method returns the largest number of threads ever simultaneously in the pool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getLargestPoolSize()"
+            },
+            {
+                "letter": "B",
+                "text": "getMaximumPoolSize()"
+            },
+            {
+                "letter": "C",
+                "text": "getCorePoolSize()"
+            },
+            {
+                "letter": "D",
+                "text": "getThreadCount()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "getLargestPoolSize() returns the largest number of threads ever in the pool."
+    },
+    {
+        "title": "ThreadPools - Q0033",
+        "text": "[Thread Pools] Which method returns the current number of threads in the pool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getPoolSize()"
+            },
+            {
+                "letter": "B",
+                "text": "getThreadCount()"
+            },
+            {
+                "letter": "C",
+                "text": "getActiveCount()"
+            },
+            {
+                "letter": "D",
+                "text": "getSize()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "getPoolSize() returns the current number of threads in the pool."
+    },
+    {
+        "title": "ThreadPools - Q0034",
+        "text": "[Thread Pools] Which method returns the number of tasks completed by the pool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getCompletedTaskCount()"
+            },
+            {
+                "letter": "B",
+                "text": "getTaskCount()"
+            },
+            {
+                "letter": "C",
+                "text": "getActiveCount()"
+            },
+            {
+                "letter": "D",
+                "text": "getFinishedCount()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "getCompletedTaskCount() returns the number of completed tasks."
+    },
+    {
+        "title": "ThreadPools - Q0035",
+        "text": "[Thread Pools] Which method returns the approximate total number of tasks ever scheduled?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getCompletedTaskCount()"
+            },
+            {
+                "letter": "B",
+                "text": "getTaskCount()"
+            },
+            {
+                "letter": "C",
+                "text": "getActiveCount()"
+            },
+            {
+                "letter": "D",
+                "text": "getScheduledCount()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "getTaskCount() returns the approximate total number of tasks scheduled."
+    },
+    {
+        "title": "ThreadPools - Q0036",
+        "text": "[Thread Pools] Which method allows changing the core pool size of ThreadPoolExecutor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setCorePoolSize()"
+            },
+            {
+                "letter": "B",
+                "text": "setPoolSize()"
+            },
+            {
+                "letter": "C",
+                "text": "setThreadCount()"
+            },
+            {
+                "letter": "D",
+                "text": "setSize()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "setCorePoolSize() changes the core pool size."
+    },
+    {
+        "title": "ThreadPools - Q0037",
+        "text": "[Thread Pools] Which method allows changing the maximum pool size of ThreadPoolExecutor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setMaximumPoolSize()"
+            },
+            {
+                "letter": "B",
+                "text": "setPoolSize()"
+            },
+            {
+                "letter": "C",
+                "text": "setThreadCount()"
+            },
+            {
+                "letter": "D",
+                "text": "setSize()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "setMaximumPoolSize() changes the maximum pool size."
+    },
+    {
+        "title": "ThreadPools - Q0038",
+        "text": "[Thread Pools] Which method allows changing the keep-alive time of idle threads?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setKeepAliveTime()"
+            },
+            {
+                "letter": "B",
+                "text": "setIdleTime()"
+            },
+            {
+                "letter": "C",
+                "text": "setTimeout()"
+            },
+            {
+                "letter": "D",
+                "text": "setDelay()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "setKeepAliveTime() changes the keep-alive time of idle threads."
+    },
+    {
+        "title": "ThreadPools - Q0039",
+        "text": "[Thread Pools] Which method pre-starts all core threads in ThreadPoolExecutor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "prestartAllCoreThreads()"
+            },
+            {
+                "letter": "B",
+                "text": "startAllThreads()"
+            },
+            {
+                "letter": "C",
+                "text": "initializeThreads()"
+            },
+            {
+                "letter": "D",
+                "text": "warmUp()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "prestartAllCoreThreads() starts all core threads before tasks are submitted."
+    },
+    {
+        "title": "ThreadPools - Q0040",
+        "text": "[Thread Pools] Which method pre-starts a single core thread in ThreadPoolExecutor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "prestartCoreThread()"
+            },
+            {
+                "letter": "B",
+                "text": "startThread()"
+            },
+            {
+                "letter": "C",
+                "text": "initializeThread()"
+            },
+            {
+                "letter": "D",
+                "text": "warmUpThread()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "prestartCoreThread() starts a single core thread before tasks are submitted."
+    },
+    {
+        "title": "ThreadPools - Q0041",
+        "text": "[Thread Pools] Which method removes a task from the work queue if not yet executed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove()"
+            },
+            {
+                "letter": "B",
+                "text": "cancel()"
+            },
+            {
+                "letter": "C",
+                "text": "discard()"
+            },
+            {
+                "letter": "D",
+                "text": "delete()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "remove() removes a task from the work queue if not yet executed."
+    },
+    {
+        "title": "ThreadPools - Q0042",
+        "text": "[Thread Pools] Which method purges cancelled tasks from the work queue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "purge()"
+            },
+            {
+                "letter": "B",
+                "text": "clean()"
+            },
+            {
+                "letter": "C",
+                "text": "clear()"
+            },
+            {
+                "letter": "D",
+                "text": "flush()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "purge() removes cancelled tasks from the work queue."
+    },
+    {
+        "title": "ThreadPools - Q0043",
+        "text": "[Thread Pools] Which thread pool is best suited for lightweight, short-lived tasks?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "FixedThreadPool"
+            },
+            {
+                "letter": "B",
+                "text": "CachedThreadPool"
+            },
+            {
+                "letter": "C",
+                "text": "ScheduledThreadPool"
+            },
+            {
+                "letter": "D",
+                "text": "SingleThreadExecutor"
+            }
+        ],
+        "correct": "B",
+        "explanation": "CachedThreadPool is best for lightweight, short-lived tasks."
+    },
+    {
+        "title": "ThreadPools - Q0044",
+        "text": "[Thread Pools] Which thread pool guarantees tasks are executed sequentially?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "FixedThreadPool"
+            },
+            {
+                "letter": "B",
+                "text": "CachedThreadPool"
+            },
+            {
+                "letter": "C",
+                "text": "ScheduledThreadPool"
+            },
+            {
+                "letter": "D",
+                "text": "SingleThreadExecutor"
+            }
+        ],
+        "correct": "D",
+        "explanation": "SingleThreadExecutor guarantees sequential execution of tasks."
+    },
+    {
+        "title": "ThreadPools - Q0045",
+        "text": "[Thread Pools] Which thread pool is best for CPU-intensive tasks?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "FixedThreadPool"
+            },
+            {
+                "letter": "B",
+                "text": "CachedThreadPool"
+            },
+            {
+                "letter": "C",
+                "text": "ScheduledThreadPool"
+            },
+            {
+                "letter": "D",
+                "text": "SingleThreadExecutor"
+            }
+        ],
+        "correct": "A",
+        "explanation": "FixedThreadPool is best for CPU-intensive tasks to limit thread count."
+    },
+    {
+        "title": "ThreadPools - Q0046",
+        "text": "[Thread Pools] Which thread pool is best for I/O-bound tasks?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "FixedThreadPool"
+            },
+            {
+                "letter": "B",
+                "text": "CachedThreadPool"
+            },
+            {
+                "letter": "C",
+                "text": "ScheduledThreadPool"
+            },
+            {
+                "letter": "D",
+                "text": "SingleThreadExecutor"
+            }
+        ],
+        "correct": "B",
+        "explanation": "CachedThreadPool is suitable for I/O-bound tasks with variable load."
+    },
+    {
+        "title": "ThreadPools - Q0047",
+        "text": "[Thread Pools] Which method checks if an ExecutorService is shut down?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isShutdown()"
+            },
+            {
+                "letter": "B",
+                "text": "isTerminated()"
+            },
+            {
+                "letter": "C",
+                "text": "isClosed()"
+            },
+            {
+                "letter": "D",
+                "text": "isStopped()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "isShutdown() checks if shutdown() has been called."
+    },
+    {
+        "title": "ThreadPools - Q0048",
+        "text": "[Thread Pools] Which method checks if all tasks have completed after shutdown?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isShutdown()"
+            },
+            {
+                "letter": "B",
+                "text": "isTerminated()"
+            },
+            {
+                "letter": "C",
+                "text": "isClosed()"
+            },
+            {
+                "letter": "D",
+                "text": "isStopped()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "isTerminated() checks if all tasks have completed after shutdown."
+    },
+    {
+        "title": "ThreadPools - Q0049",
+        "text": "[Thread Pools] Which method allows submitting Callable tasks to ExecutorService?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "submit()"
+            },
+            {
+                "letter": "B",
+                "text": "execute()"
+            },
+            {
+                "letter": "C",
+                "text": "invokeAll()"
+            },
+            {
+                "letter": "D",
+                "text": "invokeAny()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "submit() allows submitting Callable tasks and returns a Future."
+    },
+    {
+        "title": "ThreadPools - Q0050",
+        "text": "[Thread Pools] Which class is used for parallelism in divide-and-conquer algorithms?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ThreadPoolExecutor"
+            },
+            {
+                "letter": "B",
+                "text": "ForkJoinPool"
+            },
+            {
+                "letter": "C",
+                "text": "ScheduledThreadPoolExecutor"
+            },
+            {
+                "letter": "D",
+                "text": "Executors"
+            }
+        ],
+        "correct": "B",
+        "explanation": "ForkJoinPool is used for parallelism in divide-and-conquer algorithms."
     }
 ]
