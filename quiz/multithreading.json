@@ -1750,7 +1750,7 @@
             "correct": "A",
             "explanation": "getState() returns the current state of a thread."
         },
-        [
+        
             {
                 "title": "Lifecycle - Q0021",
                 "text": "[Lifecycle] Which of the following is NOT a valid thread state in Java?",
@@ -2502,5 +2502,5 @@
                 "explanation": "TERMINATED means the thread has finished execution."
             }
         ]
-    ]
+    
 ]
