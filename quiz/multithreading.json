@@ -1,0 +1,1252 @@
+[
+    {
+        "title": "ThreadCreation - Q0001",
+        "text": "[Thread Creation] Which of the following is NOT a valid way to create a thread in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Extending the Thread class"
+            },
+            {
+                "letter": "B",
+                "text": "Implementing the Runnable interface"
+            },
+            {
+                "letter": "C",
+                "text": "Using the Executor framework"
+            },
+            {
+                "letter": "D",
+                "text": "Using the 'thread' keyword"
+            }
+        ],
+        "correct": "D",
+        "explanation": "There is no 'thread' keyword in Java."
+    },
+    {
+        "title": "ThreadCreation - Q0002",
+        "text": "[Thread Creation] Which method is used to start a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "run()"
+            },
+            {
+                "letter": "B",
+                "text": "start()"
+            },
+            {
+                "letter": "C",
+                "text": "execute()"
+            },
+            {
+                "letter": "D",
+                "text": "init()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The start() method is used to start a new thread."
+    },
+    {
+        "title": "ThreadCreation - Q0003",
+        "text": "[Thread Creation] What happens if run() is called directly instead of start()?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A new thread is created"
+            },
+            {
+                "letter": "B",
+                "text": "The code runs in the current thread"
+            },
+            {
+                "letter": "C",
+                "text": "Compilation error"
+            },
+            {
+                "letter": "D",
+                "text": "Runtime exception"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Calling run() directly executes the code in the current thread."
+    },
+    {
+        "title": "ThreadCreation - Q0004",
+        "text": "[Thread Creation] Which of the following is true about extending the Thread class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The class must override the run() method"
+            },
+            {
+                "letter": "B",
+                "text": "The class must override the start() method"
+            },
+            {
+                "letter": "C",
+                "text": "The class must override the sleep() method"
+            },
+            {
+                "letter": "D",
+                "text": "The class must override the yield() method"
+            }
+        ],
+        "correct": "A",
+        "explanation": "When extending Thread, the run() method should be overridden."
+    },
+    {
+        "title": "ThreadCreation - Q0005",
+        "text": "[Thread Creation] Which interface must be implemented to create a thread without extending Thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Runnable"
+            },
+            {
+                "letter": "B",
+                "text": "Callable"
+            },
+            {
+                "letter": "C",
+                "text": "Executor"
+            },
+            {
+                "letter": "D",
+                "text": "Threadable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Runnable is the interface used to create threads without extending Thread."
+    },
+    {
+        "title": "ThreadCreation - Q0006",
+        "text": "[Thread Creation] Which method must be implemented when using the Runnable interface?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "start()"
+            },
+            {
+                "letter": "B",
+                "text": "run()"
+            },
+            {
+                "letter": "C",
+                "text": "execute()"
+            },
+            {
+                "letter": "D",
+                "text": "init()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The run() method must be implemented in Runnable."
+    },
+    {
+        "title": "ThreadCreation - Q0007",
+        "text": "[Thread Creation] Which of the following is true about the start() method?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It creates a new thread and calls run()"
+            },
+            {
+                "letter": "B",
+                "text": "It directly executes run() in the current thread"
+            },
+            {
+                "letter": "C",
+                "text": "It must be overridden"
+            },
+            {
+                "letter": "D",
+                "text": "It is abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "start() creates a new thread and then calls run()."
+    },
+    {
+        "title": "ThreadCreation - Q0008",
+        "text": "[Thread Creation] Which of the following is NOT a valid constructor of the Thread class?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Thread()"
+            },
+            {
+                "letter": "B",
+                "text": "Thread(Runnable target)"
+            },
+            {
+                "letter": "C",
+                "text": "Thread(String name)"
+            },
+            {
+                "letter": "D",
+                "text": "Thread(int priority)"
+            }
+        ],
+        "correct": "D",
+        "explanation": "There is no Thread constructor that takes only an int priority."
+    },
+    {
+        "title": "ThreadCreation - Q0009",
+        "text": "[Thread Creation] Which of the following is true about creating a thread using Runnable?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Runnable must override start()"
+            },
+            {
+                "letter": "B",
+                "text": "Runnable must override run()"
+            },
+            {
+                "letter": "C",
+                "text": "Runnable must override sleep()"
+            },
+            {
+                "letter": "D",
+                "text": "Runnable must override yield()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Runnable requires implementing the run() method."
+    },
+    {
+        "title": "ThreadCreation - Q0010",
+        "text": "[Thread Creation] Which of the following is true about Callable compared to Runnable?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Callable returns a value"
+            },
+            {
+                "letter": "B",
+                "text": "Callable cannot throw exceptions"
+            },
+            {
+                "letter": "C",
+                "text": "Callable has a run() method"
+            },
+            {
+                "letter": "D",
+                "text": "Callable is used only with Thread"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Callable's call() method returns a value and can throw exceptions."
+    },
+    {
+        "title": "ThreadCreation - Q0011",
+        "text": "[Thread Creation] Which method is defined in the Runnable interface?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "run()"
+            },
+            {
+                "letter": "B",
+                "text": "start()"
+            },
+            {
+                "letter": "C",
+                "text": "execute()"
+            },
+            {
+                "letter": "D",
+                "text": "call()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Runnable defines the run() method."
+    },
+    {
+        "title": "ThreadCreation - Q0012",
+        "text": "[Thread Creation] Which method is defined in the Callable interface?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "run()"
+            },
+            {
+                "letter": "B",
+                "text": "start()"
+            },
+            {
+                "letter": "C",
+                "text": "call()"
+            },
+            {
+                "letter": "D",
+                "text": "execute()"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Callable defines the call() method."
+    },
+    {
+        "title": "ThreadCreation - Q0013",
+        "text": "[Thread Creation] Which of the following is true about creating a thread by extending Thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The class must implement call()"
+            },
+            {
+                "letter": "B",
+                "text": "The class must override run()"
+            },
+            {
+                "letter": "C",
+                "text": "The class must override start()"
+            },
+            {
+                "letter": "D",
+                "text": "The class must implement execute()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "When extending Thread, override run() to define thread behavior."
+    },
+    {
+        "title": "ThreadCreation - Q0014",
+        "text": "[Thread Creation] Which of the following is true about the Executor framework?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides a higher-level API for managing threads"
+            },
+            {
+                "letter": "B",
+                "text": "It replaces the Thread class"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot execute Runnable tasks"
+            },
+            {
+                "letter": "D",
+                "text": "It is deprecated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Executor framework provides a higher-level API for managing threads."
+    },
+    {
+        "title": "ThreadCreation - Q0015",
+        "text": "[Thread Creation] Which of the following is true about thread pools?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They reuse threads for executing tasks"
+            },
+            {
+                "letter": "B",
+                "text": "They create a new thread for each task"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot execute Runnable tasks"
+            },
+            {
+                "letter": "D",
+                "text": "They are deprecated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Thread pools reuse threads for executing multiple tasks."
+    },
+    {
+        "title": "ThreadCreation - Q0016",
+        "text": "[Thread Creation] Which of the following is true about Future in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It represents the result of an asynchronous computation"
+            },
+            {
+                "letter": "B",
+                "text": "It is used to create threads"
+            },
+            {
+                "letter": "C",
+                "text": "It is used to stop threads"
+            },
+            {
+                "letter": "D",
+                "text": "It is used to pause threads"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Future represents the result of an asynchronous computation."
+    },
+    {
+        "title": "ThreadCreation - Q0017",
+        "text": "[Thread Creation] Which of the following is true about Executors.newFixedThreadPool()?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It creates a thread pool with a fixed number of threads"
+            },
+            {
+                "letter": "B",
+                "text": "It creates a new thread for each task"
+            },
+            {
+                "letter": "C",
+                "text": "It creates a thread pool with unlimited threads"
+            },
+            {
+                "letter": "D",
+                "text": "It creates a single-threaded executor"
+            }
+        ],
+        "correct": "A",
+        "explanation": "newFixedThreadPool() creates a pool with a fixed number of threads."
+    },
+    {
+        "title": "ThreadCreation - Q0018",
+        "text": "[Thread Creation] Which of the following is true about Executors.newSingleThreadExecutor()?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It creates a thread pool with one thread"
+            },
+            {
+                "letter": "B",
+                "text": "It creates a thread pool with unlimited threads"
+            },
+            {
+                "letter": "C",
+                "text": "It creates a thread pool with a fixed number of threads"
+            },
+            {
+                "letter": "D",
+                "text": "It creates a cached thread pool"
+            }
+        ],
+        "correct": "A",
+        "explanation": "newSingleThreadExecutor() creates a pool with one thread."
+    },
+    {
+        "title": "ThreadCreation - Q0019",
+        "text": "[Thread Creation] Which of the following is true about Executors.newCachedThreadPool()?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It creates a thread pool that creates new threads as needed"
+            },
+            {
+                "letter": "B",
+                "text": "It creates a thread pool with one thread"
+            },
+            {
+                "letter": "C",
+                "text": "It creates a thread pool with a fixed number of threads"
+            },
+            {
+                "letter": "D",
+                "text": "It creates a scheduled thread pool"
+            }
+        ],
+        "correct": "A",
+        "explanation": "newCachedThreadPool() creates new threads as needed and reuses idle ones."
+    },
+    {
+        "title": "ThreadCreation - Q0020",
+        "text": "[Thread Creation] Which of the following is true about Executors.newScheduledThreadPool()?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It creates a thread pool that can schedule tasks"
+            },
+            {
+                "letter": "B",
+                "text": "It creates a thread pool with one thread"
+            },
+            {
+                "letter": "C",
+                "text": "It creates a thread pool with unlimited threads"
+            },
+            {
+                "letter": "D",
+                "text": "It creates a cached thread pool"
+            }
+        ],
+        "correct": "A",
+        "explanation": "newScheduledThreadPool() creates a pool that can schedule tasks."
+    },
+    {
+        "title": "ThreadCreation - Q0021",
+        "text": "[Thread Creation] Which of the following is true about the run() method in a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It must be called directly to start a thread"
+            },
+            {
+                "letter": "B",
+                "text": "It contains the code executed by the thread"
+            },
+            {
+                "letter": "C",
+                "text": "It is automatically called by the JVM when the program starts"
+            },
+            {
+                "letter": "D",
+                "text": "It cannot be overridden"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The run() method contains the code executed by the thread."
+    },
+    {
+        "title": "ThreadCreation - Q0022",
+        "text": "[Thread Creation] Which of the following is true about the start() method?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can be called multiple times on the same thread"
+            },
+            {
+                "letter": "B",
+                "text": "It can only be called once per thread instance"
+            },
+            {
+                "letter": "C",
+                "text": "It is optional for starting a thread"
+            },
+            {
+                "letter": "D",
+                "text": "It is abstract and must be implemented"
+            }
+        ],
+        "correct": "B",
+        "explanation": "start() can only be called once per thread instance."
+    },
+    {
+        "title": "ThreadCreation - Q0023",
+        "text": "[Thread Creation] What happens if start() is called twice on the same thread object?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The thread runs twice"
+            },
+            {
+                "letter": "B",
+                "text": "A new thread is created"
+            },
+            {
+                "letter": "C",
+                "text": "IllegalThreadStateException is thrown"
+            },
+            {
+                "letter": "D",
+                "text": "Nothing happens"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Calling start() twice throws IllegalThreadStateException."
+    },
+    {
+        "title": "ThreadCreation - Q0024",
+        "text": "[Thread Creation] Which of the following is true about thread naming?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Threads cannot be named"
+            },
+            {
+                "letter": "B",
+                "text": "Threads can be named using the constructor or setName()"
+            },
+            {
+                "letter": "C",
+                "text": "Thread names are fixed by the JVM"
+            },
+            {
+                "letter": "D",
+                "text": "Thread names must be unique"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Threads can be named using the constructor or setName()."
+    },
+    {
+        "title": "ThreadCreation - Q0025",
+        "text": "[Thread Creation] Which method retrieves the current thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Thread.current()"
+            },
+            {
+                "letter": "B",
+                "text": "Thread.get()"
+            },
+            {
+                "letter": "C",
+                "text": "Thread.currentThread()"
+            },
+            {
+                "letter": "D",
+                "text": "Thread.this()"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Thread.currentThread() returns the current thread."
+    },
+    {
+        "title": "ThreadCreation - Q0026",
+        "text": "[Thread Creation] Which of the following is true about thread priority?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Thread priority ranges from 0 to 10"
+            },
+            {
+                "letter": "B",
+                "text": "Thread priority ranges from 1 to 10"
+            },
+            {
+                "letter": "C",
+                "text": "Thread priority ranges from -1 to 1"
+            },
+            {
+                "letter": "D",
+                "text": "Thread priority cannot be changed"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Thread priority ranges from 1 (MIN_PRIORITY) to 10 (MAX_PRIORITY)."
+    },
+    {
+        "title": "ThreadCreation - Q0027",
+        "text": "[Thread Creation] Which method is used to set thread priority?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setPriority()"
+            },
+            {
+                "letter": "B",
+                "text": "priority()"
+            },
+            {
+                "letter": "C",
+                "text": "setLevel()"
+            },
+            {
+                "letter": "D",
+                "text": "setImportance()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "setPriority() is used to set thread priority."
+    },
+    {
+        "title": "ThreadCreation - Q0028",
+        "text": "[Thread Creation] Which method is used to get the name of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getThreadName()"
+            },
+            {
+                "letter": "B",
+                "text": "getName()"
+            },
+            {
+                "letter": "C",
+                "text": "name()"
+            },
+            {
+                "letter": "D",
+                "text": "threadName()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "getName() returns the name of the thread."
+    },
+    {
+        "title": "ThreadCreation - Q0029",
+        "text": "[Thread Creation] Which method is used to set the name of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setThreadName()"
+            },
+            {
+                "letter": "B",
+                "text": "setName()"
+            },
+            {
+                "letter": "C",
+                "text": "name()"
+            },
+            {
+                "letter": "D",
+                "text": "threadName()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "setName() sets the name of the thread."
+    },
+    {
+        "title": "ThreadCreation - Q0030",
+        "text": "[Thread Creation] Which of the following is true about daemon threads?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They prevent the JVM from exiting"
+            },
+            {
+                "letter": "B",
+                "text": "They run in the background and do not prevent JVM exit"
+            },
+            {
+                "letter": "C",
+                "text": "They are created by default"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be created by the user"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Daemon threads run in the background and do not prevent JVM exit."
+    },
+    {
+        "title": "ThreadCreation - Q0031",
+        "text": "[Thread Creation] Which method is used to mark a thread as daemon?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setDaemon()"
+            },
+            {
+                "letter": "B",
+                "text": "daemon()"
+            },
+            {
+                "letter": "C",
+                "text": "makeDaemon()"
+            },
+            {
+                "letter": "D",
+                "text": "setBackground()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "setDaemon(true) marks a thread as daemon."
+    },
+    {
+        "title": "ThreadCreation - Q0032",
+        "text": "[Thread Creation] Which method checks if a thread is a daemon?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isDaemon()"
+            },
+            {
+                "letter": "B",
+                "text": "checkDaemon()"
+            },
+            {
+                "letter": "C",
+                "text": "daemon()"
+            },
+            {
+                "letter": "D",
+                "text": "isBackground()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "isDaemon() checks if a thread is a daemon."
+    },
+    {
+        "title": "ThreadCreation - Q0033",
+        "text": "[Thread Creation] Which of the following is true about thread groups?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They allow grouping of multiple threads"
+            },
+            {
+                "letter": "B",
+                "text": "They prevent thread creation"
+            },
+            {
+                "letter": "C",
+                "text": "They are mandatory for all threads"
+            },
+            {
+                "letter": "D",
+                "text": "They are deprecated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Thread groups allow grouping of multiple threads."
+    },
+    {
+        "title": "ThreadCreation - Q0034",
+        "text": "[Thread Creation] Which constructor allows assigning a thread to a thread group?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Thread(ThreadGroup group, Runnable target)"
+            },
+            {
+                "letter": "B",
+                "text": "Thread(Runnable target, int priority)"
+            },
+            {
+                "letter": "C",
+                "text": "Thread(String name, int priority)"
+            },
+            {
+                "letter": "D",
+                "text": "Thread(ThreadGroup group, int priority)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Thread(ThreadGroup group, Runnable target) assigns a thread to a group."
+    },
+    {
+        "title": "ThreadCreation - Q0035",
+        "text": "[Thread Creation] Which method returns the thread group of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getThreadGroup()"
+            },
+            {
+                "letter": "B",
+                "text": "getGroup()"
+            },
+            {
+                "letter": "C",
+                "text": "group()"
+            },
+            {
+                "letter": "D",
+                "text": "threadGroup()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "getThreadGroup() returns the thread group of a thread."
+    },
+    {
+        "title": "ThreadCreation - Q0036",
+        "text": "[Thread Creation] Which of the following is true about thread states?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A thread can only be in NEW or TERMINATED state"
+            },
+            {
+                "letter": "B",
+                "text": "A thread can be in NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, or TERMINATED"
+            },
+            {
+                "letter": "C",
+                "text": "A thread can only be RUNNING or STOPPED"
+            },
+            {
+                "letter": "D",
+                "text": "Thread states are not defined in Java"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Java defines six thread states."
+    },
+    {
+        "title": "ThreadCreation - Q0037",
+        "text": "[Thread Creation] Which method returns the state of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getState()"
+            },
+            {
+                "letter": "B",
+                "text": "state()"
+            },
+            {
+                "letter": "C",
+                "text": "threadState()"
+            },
+            {
+                "letter": "D",
+                "text": "status()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "getState() returns the state of a thread."
+    },
+    {
+        "title": "ThreadCreation - Q0038",
+        "text": "[Thread Creation] Which of the following is true about the default thread priority?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is 0"
+            },
+            {
+                "letter": "B",
+                "text": "It is 1"
+            },
+            {
+                "letter": "C",
+                "text": "It is 5"
+            },
+            {
+                "letter": "D",
+                "text": "It is 10"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The default thread priority is 5 (NORM_PRIORITY)."
+    },
+    {
+        "title": "ThreadCreation - Q0039",
+        "text": "[Thread Creation] Which of the following is true about creating threads using lambda expressions?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is not allowed"
+            },
+            {
+                "letter": "B",
+                "text": "It can be done by passing a lambda to the Thread constructor"
+            },
+            {
+                "letter": "C",
+                "text": "It requires implementing Callable"
+            },
+            {
+                "letter": "D",
+                "text": "It requires overriding start()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A lambda can be passed to the Thread constructor as a Runnable."
+    },
+    {
+        "title": "ThreadCreation - Q0040",
+        "text": "[Thread Creation] Which of the following is true about thread IDs?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are assigned manually"
+            },
+            {
+                "letter": "B",
+                "text": "They are assigned by the JVM"
+            },
+            {
+                "letter": "C",
+                "text": "They must be unique across JVMs"
+            },
+            {
+                "letter": "D",
+                "text": "They are always sequential"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Thread IDs are assigned by the JVM."
+    },
+    {
+        "title": "ThreadCreation - Q0041",
+        "text": "[Thread Creation] Which method returns the ID of a thread?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getThreadId()"
+            },
+            {
+                "letter": "B",
+                "text": "getId()"
+            },
+            {
+                "letter": "C",
+                "text": "id()"
+            },
+            {
+                "letter": "D",
+                "text": "threadId()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "getId() returns the ID of a thread."
+    },
+    {
+        "title": "ThreadCreation - Q0042",
+        "text": "[Thread Creation] Which of the following is true about thread interruption?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It forcibly stops the thread"
+            },
+            {
+                "letter": "B",
+                "text": "It sets the interrupt flag of the thread"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes the thread"
+            },
+            {
+                "letter": "D",
+                "text": "It restarts the thread"
+            }
+        ],
+        "correct": "B",
+        "explanation": "interrupt() sets the interrupt flag of the thread."
+    },
+    {
+        "title": "ThreadCreation - Q0043",
+        "text": "[Thread Creation] Which method checks if a thread has been interrupted?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isInterrupted()"
+            },
+            {
+                "letter": "B",
+                "text": "checkInterrupt()"
+            },
+            {
+                "letter": "C",
+                "text": "interrupted()"
+            },
+            {
+                "letter": "D",
+                "text": "hasInterrupted()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "isInterrupted() checks if a thread has been interrupted."
+    },
+    {
+        "title": "ThreadCreation - Q0044",
+        "text": "[Thread Creation] Which static method clears the interrupt flag when checking it?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isInterrupted()"
+            },
+            {
+                "letter": "B",
+                "text": "interrupted()"
+            },
+            {
+                "letter": "C",
+                "text": "checkInterrupt()"
+            },
+            {
+                "letter": "D",
+                "text": "clearInterrupt()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Thread.interrupted() checks and clears the interrupt flag."
+    },
+    {
+        "title": "ThreadCreation - Q0045",
+        "text": "[Thread Creation] Which of the following is true about thread lifecycle?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A thread can be restarted after termination"
+            },
+            {
+                "letter": "B",
+                "text": "A thread cannot be restarted once terminated"
+            },
+            {
+                "letter": "C",
+                "text": "A thread can only be in NEW or RUNNING state"
+            },
+            {
+                "letter": "D",
+                "text": "Thread lifecycle is not defined in Java"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A thread cannot be restarted once terminated."
+    },
+    {
+        "title": "ThreadCreation - Q0046",
+        "text": "[Thread Creation] Which of the following is true about creating threads with Callable?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Callable must be passed to a Thread constructor"
+            },
+            {
+                "letter": "B",
+                "text": "Callable must be submitted to an ExecutorService"
+            },
+            {
+                "letter": "C",
+                "text": "Callable must override run()"
+            },
+            {
+                "letter": "D",
+                "text": "Callable cannot return values"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Callable tasks are submitted to an ExecutorService."
+    },
+    {
+        "title": "ThreadCreation - Q0047",
+        "text": "[Thread Creation] Which of the following is true about FutureTask?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is used to wrap a Callable or Runnable"
+            },
+            {
+                "letter": "B",
+                "text": "It is used to stop threads"
+            },
+            {
+                "letter": "C",
+                "text": "It is used to pause threads"
+            },
+            {
+                "letter": "D",
+                "text": "It is used to restart threads"
+            }
+        ],
+        "correct": "A",
+        "explanation": "FutureTask wraps a Callable or Runnable and can be executed by a thread."
+    },
+    {
+        "title": "ThreadCreation - Q0048",
+        "text": "[Thread Creation] Which of the following is true about ScheduledExecutorService?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can schedule tasks to run after a delay or periodically"
+            },
+            {
+                "letter": "B",
+                "text": "It can only run tasks immediately"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot execute Runnable tasks"
+            },
+            {
+                "letter": "D",
+                "text": "It is deprecated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ScheduledExecutorService can schedule tasks with delay or periodically."
+    },
+    {
+        "title": "ThreadCreation - Q0049",
+        "text": "[Thread Creation] Which of the following is true about creating threads with anonymous classes?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is not allowed"
+            },
+            {
+                "letter": "B",
+                "text": "It can be done by creating an anonymous Runnable or Thread subclass"
+            },
+            {
+                "letter": "C",
+                "text": "It requires implementing Callable"
+            },
+            {
+                "letter": "D",
+                "text": "It requires overriding start()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Threads can be created using anonymous Runnable or Thread subclasses."
+    },
+    {
+        "title": "ThreadCreation - Q0050",
+        "text": "[Thread Creation] Which of the following is true about thread creation in Java?",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Threads can only be created by extending Thread"
+            },
+            {
+                "letter": "B",
+                "text": "Threads can be created by extending Thread, implementing Runnable, or using Executor framework"
+            },
+            {
+                "letter": "C",
+                "text": "Threads can only be created using Executor framework"
+            },
+            {
+                "letter": "D",
+                "text": "Threads cannot be created by the user"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Threads can be created by extending Thread, implementing Runnable, or using Executor framework."
+    }
+]
