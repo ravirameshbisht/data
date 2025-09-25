@@ -31,7 +31,7 @@
   {
     "id": 2,
     "icon": "🚀",
-    "title": "Advanced Java Concepts",
+    "title": "Other Java Concepts",
     "level": "beginner",
     "description": [
       "Master Java Generics including classes, methods, and wildcards",
@@ -111,7 +111,7 @@
     "id": 6,
     "icon": "🗄️",
     "title": "JDBC",
-    "level": "java",
+    "level": "beginner",
     "description": [
       "Understand JDBC architecture and API",
       "Learn driver types and their differences",
