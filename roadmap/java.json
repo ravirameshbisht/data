@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "icon": "🎯",
+        "title": "Java Fundamentals",
+        "level": "beginner",
+        "description": [
+            "Learn Java syntax and basic programming concepts",
+            "Understand variables and different data types",
+            "Master operators and expressions",
+            "Control program flow with loops and conditions"
+        ],
+        "topics": ["Variables", "Data Types", "Operators", "Control Flow"]
+    },
+    {
+        "id": 2,
+        "icon": "🏗️",
+        "title": "Object-Oriented Programming",
+        "level": "beginner",
+        "description": [
+            "Create and work with classes and objects",
+            "Implement inheritance for code reusability",
+            "Apply polymorphism for flexible design",
+            "Use encapsulation to protect data"
+        ],
+        "topics": ["Classes", "Objects", "Inheritance", "Polymorphism"]
+    },
+    {
+        "id": 3,
+        "icon": "📚",
+        "title": "Java Collections Framework",
+        "level": "beginner",
+        "description": [
+            "Work with dynamic arrays using ArrayList",
+            "Store key-value pairs with HashMap",
+            "Manage unique elements with HashSet",
+            "Navigate collections using iterators"
+        ],
+        "topics": ["ArrayList", "HashMap", "HashSet", "Iterators"]
+    },
+    {
+        "id": 4,
+        "icon": "⚡",
+        "title": "Exception Handling",
+        "level": "intermediate",
+        "description": [
+            "Handle runtime errors with try-catch blocks",
+            "Create and throw custom exceptions",
+            "Use finally blocks for cleanup code",
+            "Declare exceptions with throws keyword"
+        ],
+        "topics": ["Try-Catch", "Custom Exceptions", "Finally Block", "Throws"]
+    },
+    {
+        "id": 5,
+        "icon": "🧵",
+        "title": "Multithreading",
+        "level": "intermediate",
+        "description": [
+            "Create and manage threads using Thread class",
+            "Implement Runnable interface for tasks",
+            "Synchronize access to shared resources",
+            "Use ExecutorService for thread pools"
+        ],
+        "topics": ["Thread Class", "Runnable", "Synchronization", "ExecutorService"]
+    },
+    {
+        "id": 6,
+        "icon": "📁",
+        "title": "File I/O & Streams",
+        "level": "intermediate",
+        "description": [
+            "Read text files with FileReader and BufferedReader",
+            "Handle binary data with InputStream/OutputStream",
+            "Use modern NIO for efficient file operations",
+            "Process different file formats and encodings"
+        ],
+        "topics": ["FileReader", "BufferedReader", "InputStream", "NIO"]
+    },
+    {
+        "id": 7,
+        "icon": "🌊",
+        "title": "Java 8+ Features",
+        "level": "advanced",
+        "description": [
+            "Write concise code with lambda expressions",
+            "Process collections efficiently with Streams API",
+            "Handle null values safely with Optional",
+            "Use method references for cleaner syntax"
+        ],
+        "topics": ["Lambda", "Streams API", "Optional", "Method References"]
+    },
+    {
+        "id": 8,
+        "icon": "🏛️",
+        "title": "Design Patterns",
+        "level": "advanced",
+        "description": [
+            "Implement Singleton pattern for single instances",
+            "Create objects flexibly with Factory pattern",
+            "Build reactive systems with Observer pattern",
+            "Switch algorithms dynamically with Strategy pattern"
+        ],
+        "topics": ["Singleton", "Factory", "Observer", "Strategy"]
+    },
+    {
+        "id": 9,
+        "icon": "🚀",
+        "title": "Spring Framework",
+        "level": "advanced",
+        "description": [
+            "Build applications quickly with Spring Boot",
+            "Manage dependencies with dependency injection",
+            "Create web apps using Spring MVC pattern",
+            "Develop REST APIs for web services"
+        ],
+        "topics": ["Spring Boot", "Dependency Injection", "Spring MVC", "REST APIs"]
+    }
+]
