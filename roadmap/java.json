@@ -1,119 +1,849 @@
 [
-    {
-        "id": 1,
-        "icon": "🎯",
-        "title": "Java Fundamentals",
-        "level": "beginner",
-        "description": [
-            "Learn Java syntax and basic programming concepts",
-            "Understand variables and different data types",
-            "Master operators and expressions",
-            "Control program flow with loops and conditions"
-        ],
-        "topics": ["Variables", "Data Types", "Operators", "Control Flow"]
-    },
-    {
-        "id": 2,
-        "icon": "🏗️",
-        "title": "Object-Oriented Programming",
-        "level": "beginner",
-        "description": [
-            "Create and work with classes and objects",
-            "Implement inheritance for code reusability",
-            "Apply polymorphism for flexible design",
-            "Use encapsulation to protect data"
-        ],
-        "topics": ["Classes", "Objects", "Inheritance", "Polymorphism"]
-    },
-    {
-        "id": 3,
-        "icon": "📚",
-        "title": "Java Collections Framework",
-        "level": "beginner",
-        "description": [
-            "Work with dynamic arrays using ArrayList",
-            "Store key-value pairs with HashMap",
-            "Manage unique elements with HashSet",
-            "Navigate collections using iterators"
-        ],
-        "topics": ["ArrayList", "HashMap", "HashSet", "Iterators"]
-    },
-    {
-        "id": 4,
-        "icon": "⚡",
-        "title": "Exception Handling",
-        "level": "intermediate",
-        "description": [
-            "Handle runtime errors with try-catch blocks",
-            "Create and throw custom exceptions",
-            "Use finally blocks for cleanup code",
-            "Declare exceptions with throws keyword"
-        ],
-        "topics": ["Try-Catch", "Custom Exceptions", "Finally Block", "Throws"]
-    },
-    {
-        "id": 5,
-        "icon": "🧵",
-        "title": "Multithreading",
-        "level": "intermediate",
-        "description": [
-            "Create and manage threads using Thread class",
-            "Implement Runnable interface for tasks",
-            "Synchronize access to shared resources",
-            "Use ExecutorService for thread pools"
-        ],
-        "topics": ["Thread Class", "Runnable", "Synchronization", "ExecutorService"]
-    },
-    {
-        "id": 6,
-        "icon": "📁",
-        "title": "File I/O & Streams",
-        "level": "intermediate",
-        "description": [
-            "Read text files with FileReader and BufferedReader",
-            "Handle binary data with InputStream/OutputStream",
-            "Use modern NIO for efficient file operations",
-            "Process different file formats and encodings"
-        ],
-        "topics": ["FileReader", "BufferedReader", "InputStream", "NIO"]
-    },
-    {
-        "id": 7,
-        "icon": "🌊",
-        "title": "Java 8+ Features",
-        "level": "advanced",
-        "description": [
-            "Write concise code with lambda expressions",
-            "Process collections efficiently with Streams API",
-            "Handle null values safely with Optional",
-            "Use method references for cleaner syntax"
-        ],
-        "topics": ["Lambda", "Streams API", "Optional", "Method References"]
-    },
-    {
-        "id": 8,
-        "icon": "🏛️",
-        "title": "Design Patterns",
-        "level": "advanced",
-        "description": [
-            "Implement Singleton pattern for single instances",
-            "Create objects flexibly with Factory pattern",
-            "Build reactive systems with Observer pattern",
-            "Switch algorithms dynamically with Strategy pattern"
-        ],
-        "topics": ["Singleton", "Factory", "Observer", "Strategy"]
-    },
-    {
-        "id": 9,
-        "icon": "🚀",
-        "title": "Spring Framework",
-        "level": "advanced",
-        "description": [
-            "Build applications quickly with Spring Boot",
-            "Manage dependencies with dependency injection",
-            "Create web apps using Spring MVC pattern",
-            "Develop REST APIs for web services"
-        ],
-        "topics": ["Spring Boot", "Dependency Injection", "Spring MVC", "REST APIs"]
-    }
+  {
+    "id": 1,
+    "icon": "📘",
+    "title": "Core Java Basics",
+    "level": "beginner",
+    "description": [
+      "Learn about variables, expressions, and primitive types",
+      "Understand casting, floating point precision, char and boolean",
+      "Master operators, operands, and expressions",
+      "Control program flow with switch, for, while, and do-while",
+      "Explore classes, objects, fields, and methods",
+      "Handle input, parsing values, and exception handling",
+      "Organize code with packages, imports, and enums",
+      "Introduction to arrays, autoboxing, and unboxing"
+    ],
+    "topics": [
+      "Variables",
+      "Primitive Types",
+      "Casting",
+      "Operators",
+      "Control Flow",
+      "Classes & Objects",
+      "Exception Handling",
+      "Packages & Imports",
+      "Enums",
+      "Arrays",
+      "Autoboxing & Unboxing"
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "🚀",
+    "title": "Advanced Java Concepts",
+    "level": "intermediate",
+    "description": [
+      "Master Java Generics including classes, methods, and wildcards",
+      "Understand Comparable vs Comparator for sorting",
+      "Learn about nested, inner, local, and anonymous classes",
+      "Handle files with exception handling and buffered readers",
+      "Dive into exception hierarchy and create custom exceptions"
+    ],
+    "topics": [
+      "Generics",
+      "Comparable vs Comparator",
+      "Nested Classes",
+      "File Processing",
+      "Exception Handling"
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "📚",
+    "title": "Collections",
+    "level": "intermediate",
+    "description": [
+      "Learn Java Collection interfaces and classes",
+      "Understand lists, sets, maps, and their variations",
+      "Explore HashMap internals and compare with Hashtable",
+      "Understand concurrent collections and their benefits",
+      "Work with CopyOnWrite collections for thread safety"
+    ],
+    "topics": [
+      "List & ArrayList",
+      "LinkedList",
+      "Set & HashSet",
+      "TreeSet",
+      "Map & HashMap",
+      "Concurrent Collections",
+      "CopyOnWrite Collections"
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "⚡",
+    "title": "Java 8",
+    "level": "intermediate",
+    "description": [
+      "Learn Lambda expressions and functional interfaces",
+      "Master Stream API for data processing",
+      "Work with method references and default/static methods in interfaces",
+      "Explore new Date & Time API (Joda)",
+      "Understand parallel streams and performance implications"
+    ],
+    "topics": [
+      "Lambdas",
+      "Functional Interfaces",
+      "Streams API",
+      "Parallel Streams",
+      "Method References",
+      "Date & Time API"
+    ]
+  },
+  {
+    "id": 5,
+    "icon": "🌟",
+    "title": "Java 17",
+    "level": "advanced",
+    "description": [
+      "Learn about sealed classes and their use cases",
+      "Understand records for data-centric classes",
+      "Use text blocks for multi-line strings"
+    ],
+    "topics": [
+      "Sealed Classes",
+      "Records",
+      "Text Blocks"
+    ]
+  },
+  {
+    "id": 6,
+    "icon": "🗄️",
+    "title": "JDBC",
+    "level": "intermediate",
+    "description": [
+      "Understand JDBC architecture and API",
+      "Learn driver types and their differences",
+      "Follow standard steps to build a JDBC application",
+      "Perform CRUD operations using JDBC",
+      "Work with MySQL database and IDE integration"
+    ],
+    "topics": [
+      "JDBC Architecture",
+      "JDBC Drivers (Type 1–5)",
+      "CRUD Operations",
+      "Dynamic SQL",
+      "JDBC Standards",
+      "MySQL Integration"
+    ]
+  },
+  {
+    "id": 7,
+    "icon": "⚙️",
+    "title": "JVM Internals",
+    "level": "advanced",
+    "description": [
+      "Explore Java Memory Model and class loading process",
+      "Understand stack, heap, and execution engine",
+      "Learn garbage collection algorithms and memory management",
+      "Monitor JVM performance with tools like VisualVM",
+      "Work with heap dumps and analyze memory usage"
+    ],
+    "topics": [
+      "Java Memory Model",
+      "Class Loader",
+      "Stack & Heap",
+      "Garbage Collection",
+      "Metaspace & PermGen",
+      "Heap Dumps & Profiling"
+    ]
+  },
+  {
+    "id": 8,
+    "icon": "🧵",
+    "title": "Concurrency",
+    "level": "advanced",
+    "description": [
+      "Learn thread basics and lifecycle",
+      "Understand memory consistency, atomicity, and synchronization",
+      "Avoid deadlocks using wait/notify mechanisms",
+      "Use ExecutorService and thread pools",
+      "Handle concurrency with collections and queues"
+    ],
+    "topics": [
+      "Thread Basics",
+      "Synchronization",
+      "Deadlocks",
+      "Locks & ExecutorService",
+      "ForkJoinPool",
+      "Concurrent Collections"
+    ]
+  },
+  {
+    "id": 9,
+    "icon": "🔀",
+    "title": "Multithreading",
+    "level": "advanced",
+    "description": [
+      "Understand starting threads with Runnable",
+      "Work with synchronized methods and locks",
+      "Learn about ThreadLocal and immutability",
+      "Explore Executor framework and Callable/Future",
+      "Handle concurrency challenges like deadlocks and race conditions"
+    ],
+    "topics": [
+      "Runnable & Threads",
+      "Locks & Synchronization",
+      "ThreadLocal",
+      "Executor Framework",
+      "Fork-Join Framework",
+      "CompletableFuture"
+    ]
+  },
+  {
+    "id": 10,
+    "icon": "🎨",
+    "title": "Design Patterns",
+    "level": "advanced",
+    "description": [
+      "Learn creational patterns like Singleton and Factory",
+      "Understand structural patterns like Adapter and Proxy",
+      "Explore behavioral patterns like Observer and Strategy",
+      "Apply design principles to real-world problems"
+    ],
+    "topics": [
+      "Singleton",
+      "Factory & Builder",
+      "Adapter & Proxy",
+      "Observer & Strategy",
+      "Template Method",
+      "Visitor"
+    ]
+  }
+,
+  {
+    "id": 11,
+    "icon": "🏗️",
+    "title": "OOPS",
+    "level": "beginner",
+    "description": [
+      "Understand the fundamentals of classes and objects",
+      "Work with getters, setters, and POJOs",
+      "Differentiate between reference, object, instance, and class",
+      "Explore static vs instance variables",
+      "Learn method overloading and overriding",
+      "Understand key OOP principles: encapsulation, inheritance, polymorphism, abstraction",
+      "Apply SOLID principles in design"
+    ],
+    "topics": [
+      "Classes & Objects",
+      "POJO",
+      "Static vs Instance",
+      "Overloading vs Overriding",
+      "Encapsulation",
+      "Polymorphism",
+      "SOLID Principles"
+    ]
+  },
+  {
+    "id": 12,
+    "icon": "✉️",
+    "title": "Java Messaging",
+    "level": "intermediate",
+    "description": [
+      "Learn messaging models like Publish/Subscribe and Request/Reply",
+      "Understand queues, topics, and partitions",
+      "Work with Kafka, RabbitMQ, and ActiveMQ",
+      "Explore brokers, consumer groups, and retention policies",
+      "Implement messaging using JMS API"
+    ],
+    "topics": [
+      "Publish/Subscribe",
+      "Request/Reply",
+      "Kafka",
+      "RabbitMQ",
+      "ActiveMQ",
+      "JMS API"
+    ]
+  },
+  {
+    "id": 13,
+    "icon": "🧪",
+    "title": "JUnit & Mockito",
+    "level": "intermediate",
+    "description": [
+      "Understand unit testing with JUnit",
+      "Learn mocking with Mockito",
+      "Work with stubs, spies, and annotations",
+      "Test exceptions, performance, and private methods",
+      "Integrate PowerMock for advanced scenarios"
+    ],
+    "topics": [
+      "JUnit Basics",
+      "Mockito",
+      "Stubs & Spies",
+      "PowerMock",
+      "Hamcrest Matchers",
+      "Testing Exceptions"
+    ]
+  },
+  {
+    "id": 14,
+    "icon": "⚡",
+    "title": "Performance Tuning",
+    "level": "advanced",
+    "description": [
+      "Understand garbage collection algorithms and tuning",
+      "Monitor and analyze GC logs",
+      "Optimize JVM parameters for performance",
+      "Resolve thread contention and improve concurrency",
+      "Reduce memory leaks and optimize SQL/database interactions"
+    ],
+    "topics": [
+      "GC Algorithms",
+      "Heap Tuning",
+      "Thread Optimization",
+      "Concurrency Utilities",
+      "JDBC Optimization",
+      "Memory Leak Prevention"
+    ]
+  },
+  {
+    "id": 15,
+    "icon": "🗂️",
+    "title": "Hibernate",
+    "level": "intermediate",
+    "description": [
+      "Learn Hibernate architecture and ORM concepts",
+      "Work with session and entity lifecycle",
+      "Master HQL, Criteria API, and Named Queries",
+      "Understand caching and fetching strategies",
+      "Map associations and inheritance",
+      "Optimize Hibernate performance with batch processing and versioning"
+    ],
+    "topics": [
+      "Hibernate Architecture",
+      "Entity Lifecycle",
+      "HQL & Criteria API",
+      "Caching",
+      "Associations",
+      "Inheritance Mapping",
+      "Batch Processing"
+    ]
+  }
+,
+  {
+    "id": 16,
+    "icon": "🌱",
+    "title": "Spring Core",
+    "level": "intermediate",
+    "description": [
+      "Understand the core features and benefits of Spring Framework",
+      "Learn Dependency Injection (constructor, setter, field based)",
+      "Explore bean lifecycle, scopes, and IoC containers",
+      "Configure beans using XML, annotations, and Java config",
+      "Work with profiles, lazy/eager initialization, and @PostConstruct/@PreDestroy",
+      "Understand Spring beans vs POJOs"
+    ],
+    "topics": [
+      "Dependency Injection",
+      "Bean Lifecycle",
+      "IoC Container",
+      "XML vs Annotation Configuration",
+      "Spring Beans",
+      "Profiles & Initialization"
+    ]
+  },
+  {
+    "id": 17,
+    "icon": "🗃️",
+    "title": "Spring Data Access",
+    "level": "intermediate",
+    "description": [
+      "Learn Spring Data JPA and its integration with Hibernate",
+      "Understand auto-configuration and repository methods",
+      "Work with JPQL and native SQL queries",
+      "Master entity mappings, associations, and inheritance",
+      "Manage transactions effectively with Spring Data JPA"
+    ],
+    "topics": [
+      "Spring Data JPA",
+      "Repositories",
+      "JPQL & Native Queries",
+      "Entity Mappings",
+      "Transactions",
+      "Lombok"
+    ]
+  },
+  {
+    "id": 18,
+    "icon": "🌐",
+    "title": "Spring MVC",
+    "level": "intermediate",
+    "description": [
+      "Understand MVC architecture and DispatcherServlet",
+      "Work with controllers, models, and view resolvers",
+      "Handle forms, validation, and session attributes",
+      "Learn annotation-based configuration",
+      "Handle exceptions with @ControllerAdvice"
+    ],
+    "topics": [
+      "Spring MVC Basics",
+      "DispatcherServlet",
+      "Model & ViewResolver",
+      "Form Handling",
+      "Session Management",
+      "Exception Handling"
+    ]
+  },
+  {
+    "id": 19,
+    "icon": "🎯",
+    "title": "Spring AOP",
+    "level": "intermediate",
+    "description": [
+      "Learn Aspect Oriented Programming concepts",
+      "Understand pointcuts, advices, and aspects",
+      "Implement logging and performance tracing with AOP",
+      "Create custom annotations with aspects",
+      "Work with proxies and advice types"
+    ],
+    "topics": [
+      "AOP Basics",
+      "Pointcut & JoinPoint",
+      "Advice Types",
+      "Custom Annotations",
+      "AOP Proxies"
+    ]
+  },
+  {
+    "id": 20,
+    "icon": "🛡️",
+    "title": "Exception Handling & Validation",
+    "level": "intermediate",
+    "description": [
+      "Handle exceptions in Spring Boot REST APIs",
+      "Create and use custom exceptions",
+      "Implement global exception handling",
+      "Validate request bodies and customize error responses"
+    ],
+    "topics": [
+      "Spring Boot Exceptions",
+      "Custom Exceptions",
+      "Global Exception Handling",
+      "Validation",
+      "Error Response Customization"
+    ]
+  }
+,
+  {
+    "id": 21,
+    "icon": "🔗",
+    "title": "REST API Development",
+    "level": "intermediate",
+    "description": [
+      "Understand REST principles and URI design",
+      "Learn HTTP methods (GET, POST, PUT, DELETE)",
+      "Work with path variables, query params, and request bodies",
+      "Return objects as JSON or XML responses",
+      "Handle custom exceptions and validation in REST APIs"
+    ],
+    "topics": [
+      "REST Principles",
+      "HTTP Methods",
+      "Path Variables & Query Params",
+      "Request Body",
+      "Response Formats",
+      "Exception Handling"
+    ]
+  },
+  {
+    "id": 22,
+    "icon": "🔒",
+    "title": "Spring Security",
+    "level": "intermediate",
+    "description": [
+      "Learn Spring Security fundamentals",
+      "Understand default configurations and filters",
+      "Work with form-based and basic authentication",
+      "Explore encoding, hashing, and password storage"
+    ],
+    "topics": [
+      "Spring Security Basics",
+      "Authentication",
+      "Filters",
+      "Password Encoding & Hashing"
+    ]
+  },
+  {
+    "id": 23,
+    "icon": "🛡️",
+    "title": "Method Level Security",
+    "level": "intermediate",
+    "description": [
+      "Understand method-level security in Spring",
+      "Use @PreAuthorize and @PostAuthorize annotations",
+      "Work with @PreFilter and @PostFilter",
+      "Control method invocation and authorization"
+    ],
+    "topics": [
+      "Method Invocation Security",
+      "Pre/Post Authorize",
+      "Pre/Post Filter"
+    ]
+  },
+  {
+    "id": 24,
+    "icon": "🌍",
+    "title": "CSRF, CORS & Authentication",
+    "level": "advanced",
+    "description": [
+      "Learn about CSRF attacks and how to prevent them",
+      "Handle CORS issues in Spring Security",
+      "Understand authentication vs authorization",
+      "Work with roles, authorities, and JWT",
+      "Explore custom filters and social login integrations"
+    ],
+    "topics": [
+      "CSRF Protection",
+      "CORS Handling",
+      "Authentication vs Authorization",
+      "JWT",
+      "Custom Filters",
+      "Social Login"
+    ]
+  },
+  {
+    "id": 25,
+    "icon": "🔑",
+    "title": "OAuth & OpenID Connect",
+    "level": "advanced",
+    "description": [
+      "Understand OAuth2 concepts and flows",
+      "Work with authorization code, implicit, and client credential flows",
+      "Learn about PKCE and refresh tokens",
+      "Understand how resource servers validate tokens",
+      "Explore OpenID Connect and its relationship with OAuth2"
+    ],
+    "topics": [
+      "OAuth2 Flows",
+      "PKCE",
+      "Refresh Tokens",
+      "Resource Server",
+      "OpenID Connect"
+    ]
+  }
+,
+  {
+    "id": 26,
+    "icon": "🛡️",
+    "title": "Keycloak",
+    "level": "advanced",
+    "description": [
+      "Understand Keycloak as an identity and access management solution",
+      "Configure clients and users for authorization code grant flow",
+      "Set up client credentials for secure API-to-API communication",
+      "Implement Multi-Factor Authentication (MFA) in Keycloak"
+    ],
+    "topics": [
+      "Keycloak Basics",
+      "Authorization Code Flow",
+      "Client Credentials",
+      "Multi-Factor Authentication"
+    ]
+  },
+  {
+    "id": 27,
+    "icon": "☁️",
+    "title": "Spring Microservices / Spring Cloud",
+    "level": "advanced",
+    "description": [
+      "Decompose monolithic applications into microservices",
+      "Enable service discovery with Eureka",
+      "Implement load balancing with Ribbon",
+      "Use API Gateway with Spring Cloud Gateway",
+      "Ensure fault tolerance with Hystrix and Resilience4j",
+      "Enable distributed tracing with Sleuth and Zipkin",
+      "Secure microservices with OAuth2 and SSO"
+    ],
+    "topics": [
+      "Service Discovery",
+      "Load Balancing",
+      "API Gateway",
+      "Circuit Breakers",
+      "Distributed Tracing",
+      "OAuth2 & SSO"
+    ]
+  },
+  {
+    "id": 28,
+    "icon": "📩",
+    "title": "Spring Integration & Messaging",
+    "level": "advanced",
+    "description": [
+      "Learn event-driven architecture with Spring Integration",
+      "Work with Spring Kafka and Spring AMQP",
+      "Use RabbitMQ or Kafka for async communication",
+      "Implement Spring Cloud Stream for messaging",
+      "Handle serialization, deserialization, and error handling in messaging"
+    ],
+    "topics": [
+      "Event-Driven Architecture",
+      "Spring Integration",
+      "Spring Kafka",
+      "Spring AMQP",
+      "Spring Cloud Stream",
+      "Messaging Patterns"
+    ]
+  },
+  {
+    "id": 29,
+    "icon": "🚀",
+    "title": "Deployment & Tools",
+    "level": "advanced",
+    "description": [
+      "Learn containerization with Docker",
+      "Deploy applications using Kubernetes",
+      "Manage multi-container apps with Docker Compose",
+      "Automate CI/CD pipelines for deployment",
+      "Monitor, log, and secure Spring Boot applications",
+      "Deploy apps on cloud platforms like AWS"
+    ],
+    "topics": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD Automation",
+      "Monitoring & Logging",
+      "Application Security",
+      "Cloud Deployment"
+    ]
+  },
+  {
+    "id": 30,
+    "icon": "🗂️",
+    "title": "Caching with Spring",
+    "level": "intermediate",
+    "description": [
+      "Understand Spring Cache abstraction",
+      "Use caching providers like EhCache, Redis, and Memcached",
+      "Learn annotations for caching: @Cacheable, @CacheEvict"
+    ],
+    "topics": [
+      "Spring Cache Abstraction",
+      "EhCache",
+      "Redis",
+      "Memcached",
+      "Cacheable Annotations"
+    ]
+  }
+,
+  {
+    "id": 31,
+    "icon": "⚛️",
+    "title": "Spring Reactive Programming",
+    "level": "advanced",
+    "description": [
+      "Learn the basics of reactive programming and streams",
+      "Understand publishers, subscribers, and backpressure",
+      "Work with Project Reactor using Mono and Flux",
+      "Build non-blocking REST APIs with Spring WebFlux",
+      "Integrate reactive databases and functional reactive programming"
+    ],
+    "topics": [
+      "Reactive Streams",
+      "Project Reactor",
+      "Mono & Flux",
+      "Spring WebFlux",
+      "Backpressure",
+      "Reactive Databases"
+    ]
+  },
+  {
+    "id": 32,
+    "icon": "🧪",
+    "title": "Spring Tests",
+    "level": "intermediate",
+    "description": [
+      "Test Spring Boot applications with JUnit and Mockito",
+      "Use @SpringBootTest and @DataJpaTest annotations",
+      "Work with @Mock and @MockBean for dependency injection",
+      "Test REST APIs using MockMvc",
+      "Use Testcontainers for containerized integration testing",
+      "Apply testing strategies for microservices and reactive code"
+    ],
+    "topics": [
+      "JUnit & Mockito",
+      "Spring Boot Test Annotations",
+      "MockMvc",
+      "Testcontainers",
+      "Reactive Testing",
+      "Microservices Testing"
+    ]
+  },
+  {
+    "id": 33,
+    "icon": "⚡",
+    "title": "Spring Boot Performance Tuning",
+    "level": "advanced",
+    "description": [
+      "Monitor and optimize application performance using Actuator metrics",
+      "Use caching effectively in Spring Boot apps",
+      "Apply profiling tools to detect bottlenecks"
+    ],
+    "topics": [
+      "Actuator Metrics",
+      "Spring Boot Caching",
+      "Profiling Tools"
+    ]
+  },
+  {
+    "id": 34,
+    "icon": "📊",
+    "title": "Actuator",
+    "level": "intermediate",
+    "description": [
+      "Learn about Spring Boot Actuator features",
+      "Expose and secure endpoints",
+      "Monitor health, metrics, and logging",
+      "Create custom endpoints and listeners",
+      "Manage applications remotely with JMX"
+    ],
+    "topics": [
+      "Actuator Basics",
+      "Endpoints",
+      "Health Indicators",
+      "Logging & Auditing",
+      "Spring Boot Admin"
+    ]
+  },
+  {
+    "id": 35,
+    "icon": "🧩",
+    "title": "Microservices Design Patterns",
+    "level": "advanced",
+    "description": [
+      "Understand microservice architecture and decomposition strategies",
+      "Apply refactoring patterns like Strangler and Anti-Corruption Layer",
+      "Implement data management patterns like CQRS and Saga",
+      "Use transactional outbox and event sourcing for reliability",
+      "Apply contract testing strategies for microservices"
+    ],
+    "topics": [
+      "Monolith vs Microservices",
+      "Decomposition Patterns",
+      "Strangler & Anti-Corruption Layer",
+      "CQRS & Saga",
+      "Event Sourcing",
+      "Contract Testing"
+    ]
+  }
+,
+  {
+    "id": 36,
+    "icon": "🧱",
+    "title": "Communication Types",
+    "level": "advanced",
+    "description": [
+      "Understand different communication styles in distributed systems",
+      "Work with gRPC, HTTP/2, and bidirectional streaming",
+      "Learn about data serialization formats like Protobuf and Apache Thrift"
+    ],
+    "topics": [
+      "gRPC",
+      "HTTP/2",
+      "Bidirectional Streaming",
+      "Protobuf",
+      "Apache Thrift"
+    ]
+  },
+  {
+    "id": 37,
+    "icon": "💾",
+    "title": "Caching",
+    "level": "intermediate",
+    "description": [
+      "Learn caching frameworks like Memcached, Hazelcast, and EHCache",
+      "Understand different caching types (in-memory, distributed, disk based)",
+      "Apply caching techniques like lazy loading, write-through, and write-behind"
+    ],
+    "topics": [
+      "Memcached",
+      "Hazelcast",
+      "EHCache",
+      "In-Memory Caching",
+      "Distributed Caching",
+      "Lazy Loading",
+      "Write-Through & Write-Behind"
+    ]
+  },
+  {
+    "id": 38,
+    "icon": "🌍",
+    "title": "Distributed Systems",
+    "level": "advanced",
+    "description": [
+      "Understand key distributed system concepts like RPC and SOA",
+      "Learn consistency models and distributed transactions",
+      "Handle fault tolerance, replication, and recovery",
+      "Work with distributed databases and NoSQL stores",
+      "Explore scaling strategies and secure communication"
+    ],
+    "topics": [
+      "RPC",
+      "SOA",
+      "Microservices Architecture",
+      "Consistency Models",
+      "Distributed Transactions",
+      "Fault Tolerance",
+      "Distributed Databases",
+      "Scaling & Load Balancing"
+    ]
+  },
+  {
+    "id": 39,
+    "icon": "🐳",
+    "title": "Containerization",
+    "level": "intermediate",
+    "description": [
+      "Understand containerization concepts with Docker",
+      "Work with images, containers, and volumes",
+      "Manage multi-container apps with Docker Compose",
+      "Explore Docker Swarm and networking"
+    ],
+    "topics": [
+      "Docker Basics",
+      "Images & Containers",
+      "Volumes",
+      "Docker Compose",
+      "Docker Swarm",
+      "Docker Networking"
+    ]
+  },
+  {
+    "id": 40,
+    "icon": "☸️",
+    "title": "Orchestration",
+    "level": "advanced",
+    "description": [
+      "Learn orchestration concepts with Kubernetes",
+      "Deploy and manage containerized applications",
+      "Efficiently manage resources and scaling in clusters"
+    ],
+    "topics": [
+      "Kubernetes Basics",
+      "Deployment",
+      "Resource Management",
+      "Scaling"
+    ]
+  },
+  {
+    "id": 41,
+    "icon": "📦",
+    "title": "Microservice Projects",
+    "level": "practical",
+    "description": [
+      "Apply Java and Spring skills to real-world microservice projects",
+      "Practice deployment, monitoring, and testing strategies",
+      "Prepare for Java interviews with hands-on projects"
+    ],
+    "topics": [
+      "Microservice Architecture",
+      "Spring Boot Projects",
+      "Deployment",
+      "Monitoring",
+      "Testing",
+      "Interview Preparation"
+    ]
+  }
 ]
