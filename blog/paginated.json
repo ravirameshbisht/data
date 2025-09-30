@@ -10,7 +10,7 @@
             "category": "How Stuff Works",
             "featured": true,
             "views": "12.5K",
-            "url": "/stories/how-stuff-works/how-kafka-works"
+            "url": "/blog/how-stuff-works/how-kafka-works"
         },
         {
             "id": 2,
@@ -22,7 +22,7 @@
             "category": "Visual",
             "featured": false,
             "views": "8.2K",
-            "url": "https://www.yellowcoder.in/stories/visual/what-is-grpc"
+            "url": "/how-stuff-works/how-kafka-works"
         },
         {
             "id": 3,
