@@ -14,15 +14,15 @@
         },
         {
             "id": 2,
-            "title": "Sustainable Design Practices",
-            "excerpt": "Creating environmentally conscious digital experiences that reduce carbon footprint while maintaining excellence.",
-            "author": "Marcus Green",
-            "date": "2024-01-18",
+            "title": "What is gRPC?",
+            "excerpt": "gRPC is a high-performance, open-source universal RPC framework that leverages HTTP/2 for transport.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
             "readTime": "6 min read",
-            "category": "Sustainability",
+            "category": "Visual",
             "featured": false,
             "views": "8.2K",
-            "url": "https://google.com"
+            "url": "https://www.yellowcoder.in/stories/visual/what-is-grpc"
         },
         {
             "id": 3,
