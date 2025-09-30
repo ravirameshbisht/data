@@ -2,15 +2,15 @@
     "posts": [
         {
             "id": 1,
-            "title": "The AI Revolution in Web Development",
-            "excerpt": "How artificial intelligence is transforming the way we build and interact with web applications in 2024.",
-            "author": "Dr. Sarah Chen",
-            "date": "2024-01-20",
+            "title": "The Kafka Interactive Demo",
+            "excerpt": "How Kafka works under the hood, with an interactive demo to illustrate key concepts.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "AI & Tech",
+            "category": "How Stuff Works",
             "featured": true,
             "views": "12.5K",
-            "url": "https://google.com"
+            "url": "https://www.yellowcoder.in/stories/how-stuff-works/how-kafka-works"
         },
         {
             "id": 2,
