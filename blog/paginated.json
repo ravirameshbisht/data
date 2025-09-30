@@ -1,0 +1,112 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "The AI Revolution in Web Development",
+            "excerpt": "How artificial intelligence is transforming the way we build and interact with web applications in 2024.",
+            "author": "Dr. Sarah Chen",
+            "date": "2024-01-20",
+            "readTime": "8 min read",
+            "category": "AI & Tech",
+            "featured": true,
+            "views": "12.5K",
+            "url": "https://google.com"
+        },
+        {
+            "id": 2,
+            "title": "Sustainable Design Practices",
+            "excerpt": "Creating environmentally conscious digital experiences that reduce carbon footprint while maintaining excellence.",
+            "author": "Marcus Green",
+            "date": "2024-01-18",
+            "readTime": "6 min read",
+            "category": "Sustainability",
+            "featured": false,
+            "views": "8.2K",
+            "url": "https://google.com"
+        },
+        {
+            "id": 3,
+            "title": "Micro-Interactions That Delight",
+            "excerpt": "The subtle animations and feedback that make digital products feel alive and engaging for users.",
+            "author": "Luna Rodriguez",
+            "date": "2024-01-15",
+            "readTime": "5 min read",
+            "category": "UX Design",
+            "featured": true,
+            "views": "15.7K",
+            "url": "https://google.com"
+        },
+        {
+            "id": 4,
+            "title": "Blockchain Beyond Cryptocurrency",
+            "excerpt": "Exploring innovative applications of blockchain technology in supply chain, healthcare, and digital identity.",
+            "author": "Alex Kim",
+            "date": "2024-01-12",
+            "readTime": "10 min read",
+            "category": "Blockchain",
+            "featured": false,
+            "views": "9.8K",
+            "url": "https://google.com"
+        },
+        {
+            "id": 5,
+            "title": "The Psychology of Color in UI",
+            "excerpt": "Understanding how color choices influence user behavior and emotional responses in digital interfaces.",
+            "author": "Emma Wilson",
+            "date": "2024-01-10",
+            "readTime": "7 min read",
+            "category": "Psychology",
+            "featured": false,
+            "views": "11.3K",
+            "url": "https://google.com"
+        },
+        {
+            "id": 6,
+            "title": "Edge Computing Revolution",
+            "excerpt": "How edge computing is bringing processing power closer to users and transforming application architecture.",
+            "author": "David Park",
+            "date": "2024-01-08",
+            "readTime": "9 min read",
+            "category": "Infrastructure",
+            "featured": true,
+            "views": "7.9K",
+            "url": "https://google.com"
+        },
+        {
+            "id": 7,
+            "title": "Voice UI Design Principles",
+            "excerpt": "Crafting intuitive voice interfaces that feel natural and provide seamless user experiences.",
+            "author": "Sophia Martinez",
+            "date": "2024-01-05",
+            "readTime": "6 min read",
+            "category": "Voice UI",
+            "featured": false,
+            "views": "6.4K",
+            "url": "https://google.com"
+        },
+        {
+            "id": 8,
+            "title": "Quantum Computing Basics",
+            "excerpt": "A beginner-friendly introduction to quantum computing concepts and their potential impact on technology.",
+            "author": "Dr. James Liu",
+            "date": "2024-01-03",
+            "readTime": "12 min read",
+            "category": "Quantum",
+            "featured": false,
+            "views": "13.2K",
+            "url": "https://google.com"
+        },
+        {
+            "id": 9,
+            "title": "Inclusive Design Strategies",
+            "excerpt": "Building digital products that work for everyone, regardless of abilities, backgrounds, or circumstances.",
+            "author": "Rachel Thompson",
+            "date": "2024-01-01",
+            "readTime": "8 min read",
+            "category": "Accessibility",
+            "featured": true,
+            "views": "10.6K",
+            "url": "https://google.com"
+        }
+    ]
+}
