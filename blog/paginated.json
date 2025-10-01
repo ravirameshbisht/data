@@ -38,15 +38,15 @@
         },
         {
             "id": 4,
-            "title": "Blockchain Beyond Cryptocurrency",
-            "excerpt": "Exploring innovative applications of blockchain technology in supply chain, healthcare, and digital identity.",
-            "author": "Alex Kim",
+            "title": "REST API vs GraphQL",
+            "excerpt": "An interactive guide to understanding the differences, advantages, and use cases of both approaches",
+            "author": "Ravi Bisht",
             "date": "2024-01-12",
             "readTime": "10 min read",
-            "category": "Blockchain",
+            "category": "Visual",
             "featured": false,
             "views": "9.8K",
-            "url": "https://google.com"
+            "url": "/blog/visual/rest-api-vs-graphql"
         },
         {
             "id": 5,
