@@ -79,7 +79,7 @@
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "demo",
+            "category": "Demo",
             "featured": true,
             "views": "12.5K",
             "url": "/blog/how-stuff-works/how-apache-kafka-works"
@@ -91,7 +91,7 @@
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "demo",
+            "category": "Demo",
             "featured": true,
             "views": "12.5K",
             "url": "/blog/how-stuff-works/kafka-message-flow-visualizer"
