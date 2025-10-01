@@ -347,6 +347,18 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/design/bridge-design-pattern"
+        },
+        {
+            "id": 29,
+            "title": "Composite Design Pattern",
+            "excerpt": "Experience how the composite pattern lets clients treat individual objects and compositions uniformly.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Design",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/design/composite-design-pattern"
         }
     ]
 }
