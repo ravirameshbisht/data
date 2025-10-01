@@ -299,6 +299,18 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/design/abstract-factory-design-pattern"
+        },
+        {
+            "id": 25,
+            "title": "Builder Design Pattern",
+            "excerpt": "Experience how the builder pattern simplifies the creation of complex objects.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Design",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/design/builder-design-pattern"
         }
     ]
 }
