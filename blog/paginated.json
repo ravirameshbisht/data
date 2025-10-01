@@ -19,7 +19,7 @@
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "6 min read",
-            "category": "Visual",
+            "category": "Guides",
             "featured": false,
             "views": "8.2K",
             "url": "/blog/visual/what-is-grpc"
@@ -31,7 +31,7 @@
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "5 min read",
-            "category": "Visual",
+            "category": "APIs",
             "featured": true,
             "views": "15.7K",
             "url": "/blog/visual/http-protocol-engineering"
@@ -43,7 +43,7 @@
             "author": "Ravi Bisht",
             "date": "2024-01-12",
             "readTime": "10 min read",
-            "category": "Visual",
+            "category": "APIs",
             "featured": false,
             "views": "9.8K",
             "url": "/blog/visual/rest-api-vs-graphql"
@@ -55,7 +55,7 @@
             "author": "Ravi Bisht",
             "date": "2024-01-10",
             "readTime": "7 min read",
-            "category": "Visual",
+            "category": "Cheatsheets",
             "featured": false,
             "views": "11.3K",
             "url": "/blog/visual/rest-api-cheatsheet"
@@ -67,7 +67,7 @@
             "author": "Ravi Bisht",
             "date": "2024-01-08",
             "readTime": "9 min read",
-            "category": "Visual",
+            "category": "Guides",
             "featured": true,
             "views": "7.9K",
             "url": "/blog/visual/interactive-api-testing"
