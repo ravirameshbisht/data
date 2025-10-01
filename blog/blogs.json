@@ -275,6 +275,18 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/design/singleton-design-pattern"
+        },
+        {
+            "id": 23,
+            "title": "Factory Design Method Pattern",
+            "excerpt": "Experience how the factory pattern creates different vehicles without exposing the underlying class instantiation logic",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Design",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/design/factory-design-method-pattern"
         }
     ]
 }
