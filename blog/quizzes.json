@@ -1,0 +1,40 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Object Oriented Programming",
+            "excerpt": "How Kafka works under the hood, with an interactive demo to illustrate key concepts.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "OOP",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/quizzes/oop"
+        },
+        {
+            "id": 2,
+            "title": "Java Basics",
+            "excerpt": "gRPC is a high-performance, open-source universal RPC framework that leverages HTTP/2 for transport.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "6 min read",
+            "category": "JAVA",
+            "featured": false,
+            "views": "8.2K",
+            "url": "/quizzes/java-basics"
+        },
+        {
+            "id": 3,
+            "title": "Multithreading",
+            "excerpt": "Deep dive into the technical evolution of HTTP protocols, from connection management and multiplexing to QUIC's revolutionary transport layer innovations.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "5 min read",
+            "category": "Multithreading",
+            "featured": true,
+            "views": "15.7K",
+            "url": "/quizzes/multithreading"
+        }
+    ]
+}
