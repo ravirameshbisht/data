@@ -287,6 +287,18 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/design/factory-design-method-pattern"
+        },
+        {
+            "id": 24,
+            "title": "Abstract Factory Design Pattern",
+            "excerpt": "Experience how the abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Design",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/design/abstract-factory-design-pattern"
         }
     ]
 }
