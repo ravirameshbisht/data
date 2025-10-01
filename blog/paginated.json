@@ -50,63 +50,27 @@
         },
         {
             "id": 5,
-            "title": "The Psychology of Color in UI",
-            "excerpt": "Understanding how color choices influence user behavior and emotional responses in digital interfaces.",
-            "author": "Emma Wilson",
+            "title": "REST API Cheatsheet",
+            "excerpt": "Interactive guide to RESTful APIs with live examples and best practices",
+            "author": "Ravi Bisht",
             "date": "2024-01-10",
             "readTime": "7 min read",
-            "category": "Psychology",
+            "category": "Visual",
             "featured": false,
             "views": "11.3K",
-            "url": "https://google.com"
+            "url": "/blog/visual/rest-api-cheatsheet"
         },
         {
             "id": 6,
-            "title": "Edge Computing Revolution",
-            "excerpt": "How edge computing is bringing processing power closer to users and transforming application architecture.",
-            "author": "David Park",
+            "title": "Interactive API Testing Guide",
+            "excerpt": "Master the 9 essential types of API testing with hands-on examples and interactive demonstrations",
+            "author": "Ravi Bisht",
             "date": "2024-01-08",
             "readTime": "9 min read",
-            "category": "Infrastructure",
+            "category": "Visual",
             "featured": true,
             "views": "7.9K",
-            "url": "https://google.com"
-        },
-        {
-            "id": 7,
-            "title": "Voice UI Design Principles",
-            "excerpt": "Crafting intuitive voice interfaces that feel natural and provide seamless user experiences.",
-            "author": "Sophia Martinez",
-            "date": "2024-01-05",
-            "readTime": "6 min read",
-            "category": "Voice UI",
-            "featured": false,
-            "views": "6.4K",
-            "url": "https://google.com"
-        },
-        {
-            "id": 8,
-            "title": "Quantum Computing Basics",
-            "excerpt": "A beginner-friendly introduction to quantum computing concepts and their potential impact on technology.",
-            "author": "Dr. James Liu",
-            "date": "2024-01-03",
-            "readTime": "12 min read",
-            "category": "Quantum",
-            "featured": false,
-            "views": "13.2K",
-            "url": "https://google.com"
-        },
-        {
-            "id": 9,
-            "title": "Inclusive Design Strategies",
-            "excerpt": "Building digital products that work for everyone, regardless of abilities, backgrounds, or circumstances.",
-            "author": "Rachel Thompson",
-            "date": "2024-01-01",
-            "readTime": "8 min read",
-            "category": "Accessibility",
-            "featured": true,
-            "views": "10.6K",
-            "url": "https://google.com"
+            "url": "/blog/visual/interactive-api-testing"
         }
     ]
 }
