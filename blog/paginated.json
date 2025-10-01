@@ -143,6 +143,30 @@
             "featured": true,
             "views": "12.5K",
             "url": "/blog/multithreading/cash-register-race-condition"
+        },
+        {
+            "id": 13,
+            "title": "What is a Load Balancer",
+            "excerpt": "An interactive guide to understanding load balancing concepts",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Microservices",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/microservices/what-is-a-load-balancer"
+        },
+        {
+            "id": 14,
+            "title": "Load Balancing Algorithms",
+            "excerpt": "Interactive demonstration of 6 essential load balancing strategies",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Microservices",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/microservices/load-balancing-algorithms"
         }
     ]
 }
