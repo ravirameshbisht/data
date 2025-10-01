@@ -359,6 +359,18 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/design/composite-design-pattern"
+        },
+        {
+            "id": 30,
+            "title": "Decorator Design Pattern",
+            "excerpt": "Experience how the decorator pattern allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Design",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/design/decorator-design-pattern"
         }
     ]
 }
