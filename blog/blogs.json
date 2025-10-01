@@ -10,7 +10,7 @@
             "category": "How Stuff Works",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/how-stuff-works/how-kafka-works"
+            "url": "/blog-posts/how-stuff-works/how-kafka-works"
         },
         {
             "id": 2,
@@ -22,7 +22,7 @@
             "category": "Guides",
             "featured": false,
             "views": "8.2K",
-            "url": "/blog/visual/what-is-grpc"
+            "url": "/blog-posts/visual/what-is-grpc"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "category": "APIs",
             "featured": true,
             "views": "15.7K",
-            "url": "/blog/visual/http-protocol-engineering"
+            "url": "/blog-posts/visual/http-protocol-engineering"
         },
         {
             "id": 4,
@@ -46,7 +46,7 @@
             "category": "APIs",
             "featured": false,
             "views": "9.8K",
-            "url": "/blog/visual/rest-api-vs-graphql"
+            "url": "/blog-posts/visual/rest-api-vs-graphql"
         },
         {
             "id": 5,
@@ -58,7 +58,7 @@
             "category": "Cheatsheets",
             "featured": false,
             "views": "11.3K",
-            "url": "/blog/visual/rest-api-cheatsheet"
+            "url": "/blog-posts/visual/rest-api-cheatsheet"
         },
         {
             "id": 6,
@@ -70,7 +70,7 @@
             "category": "Guides",
             "featured": true,
             "views": "7.9K",
-            "url": "/blog/visual/interactive-api-testing"
+            "url": "/blog-posts/visual/interactive-api-testing"
         },
         {
             "id": 7,
@@ -82,7 +82,7 @@
             "category": "Demo",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/how-stuff-works/how-apache-kafka-works"
+            "url": "/blog-posts/how-stuff-works/how-apache-kafka-works"
         },
         {
             "id": 8,
@@ -94,7 +94,7 @@
             "category": "Demo",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/how-stuff-works/kafka-message-flow-visualizer"
+            "url": "/blog-posts/how-stuff-works/kafka-message-flow-visualizer"
         },
         {
             "id": 9,
@@ -106,7 +106,7 @@
             "category": "Demo",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/microservices/api-gateway-traffic-control"
+            "url": "/blog-posts/microservices/api-gateway-traffic-control"
         },
         {
             "id": 10,
@@ -118,7 +118,7 @@
             "category": "Demo",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/multithreading/multithreading-playground-1"
+            "url": "/blog-posts/multithreading/multithreading-playground-1"
         },
         {
             "id": 11,
@@ -130,7 +130,7 @@
             "category": "Demo",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/multithreading/multithreading-playground-2"
+            "url": "/blog-posts/multithreading/multithreading-playground-2"
         },
         {
             "id": 12,
@@ -142,7 +142,7 @@
             "category": "Demo",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/multithreading/cash-register-race-condition"
+            "url": "/blog-posts/multithreading/cash-register-race-condition"
         },
         {
             "id": 13,
@@ -154,7 +154,7 @@
             "category": "Microservices",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/microservices/what-is-a-load-balancer"
+            "url": "/blog-posts/microservices/what-is-a-load-balancer"
         },
         {
             "id": 14,
@@ -166,7 +166,7 @@
             "category": "Microservices",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/microservices/load-balancing-algorithms"
+            "url": "/blog-posts/microservices/load-balancing-algorithms"
         },
         {
             "id": 15,
@@ -178,7 +178,7 @@
             "category": "Demo",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/system-design/rate-limiter-system-design"
+            "url": "/blog-posts/system-design/rate-limiter-system-design"
         },
         {
             "id": 16,
@@ -190,7 +190,7 @@
             "category": "Others",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/others/indian-tech-salary-map"
+            "url": "/blog-posts/others/indian-tech-salary-map"
         },
         {
             "id": 17,
@@ -202,7 +202,7 @@
             "category": "Demo",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/kubernetes/enterprise-kubernetes-command-center"
+            "url": "/blog-posts/kubernetes/enterprise-kubernetes-command-center"
         },
         {
             "id": 18,
@@ -214,7 +214,7 @@
             "category": "Demo",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/java/java-virtual-machine"
+            "url": "/blog-posts/java/java-virtual-machine"
         },
         {
             "id": 19,
@@ -226,7 +226,7 @@
             "category": "Demo",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/java/java-virtual-machine"
+            "url": "/blog-posts/java/java-virtual-machine"
         },
         {
             "id": 20,
@@ -238,7 +238,7 @@
             "category": "Demo",
             "featured": true,
             "views": "12.5K",
-            "url": "/blog/java/java-learning"
+            "url": "/blog-posts/java/java-learning"
         }
     ]
 }
