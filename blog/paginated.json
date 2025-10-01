@@ -13,18 +13,6 @@
             "url": "/blog/how-stuff-works/how-kafka-works"
         },
         {
-            "id": 1,
-            "title": "How Apache Kafka Works",
-            "excerpt": "Interactive visualization of message streaming.",
-            "author": "Ravi Bisht",
-            "date": "2025-10-01",
-            "readTime": "8 min read",
-            "category": "How Stuff Works",
-            "featured": true,
-            "views": "12.5K",
-            "url": "/blog/how-stuff-works/how-apache-kafka-works"
-        },
-        {
             "id": 2,
             "title": "What is gRPC?",
             "excerpt": "gRPC is a high-performance, open-source universal RPC framework that leverages HTTP/2 for transport.",
@@ -83,6 +71,30 @@
             "featured": true,
             "views": "7.9K",
             "url": "/blog/visual/interactive-api-testing"
+        },
+        {
+            "id": 7,
+            "title": "How Apache Kafka Works",
+            "excerpt": "Interactive visualization of message streaming.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "How Stuff Works",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/how-stuff-works/how-apache-kafka-works"
+        },
+        {
+            "id": 8,
+            "title": "Kafka Message Flow Visualizer",
+            "excerpt": "Watch messages flow through producers, brokers, topics, and consumers in real-time.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "How Stuff Works",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/how-stuff-works/kafka-message-flow-visualizer"
         }
     ]
 }
