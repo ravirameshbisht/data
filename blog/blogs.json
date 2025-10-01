@@ -215,6 +215,30 @@
             "featured": true,
             "views": "12.5K",
             "url": "/blog/java/java-virtual-machine"
+        },
+        {
+            "id": 19,
+            "title": "Java learning Adventure",
+            "excerpt": "Interactive concepts that make Java fun to learn",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Demo",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/java/java-virtual-machine"
+        },
+        {
+            "id": 20,
+            "title": "Java Learning",
+            "excerpt": "Master Java programming through interactive examples",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Demo",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/java/java-learning"
         }
     ]
 }
