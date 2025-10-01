@@ -203,6 +203,18 @@
             "featured": true,
             "views": "12.5K",
             "url": "/blog/kubernetes/enterprise-kubernetes-command-center"
+        },
+        {
+            "id": 18,
+            "title": "Java Virtual Machine",
+            "excerpt": "Watch how Java code transforms from source to bytecode and executes in the JVM",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Demo",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/java/java-virtual-machine"
         }
     ]
 }
