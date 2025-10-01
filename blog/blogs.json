@@ -8,7 +8,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "How Stuff Works",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/how-stuff-works/how-kafka-works"
         },
@@ -32,7 +32,7 @@
             "date": "2025-10-01",
             "readTime": "5 min read",
             "category": "APIs",
-            "featured": true,
+            "featured": false,
             "views": "15.7K",
             "url": "/blog-posts/visual/http-protocol-engineering"
         },
@@ -68,7 +68,7 @@
             "date": "2024-01-08",
             "readTime": "9 min read",
             "category": "Guides",
-            "featured": true,
+            "featured": false,
             "views": "7.9K",
             "url": "/blog-posts/visual/interactive-api-testing"
         },
@@ -80,7 +80,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Demo",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/how-stuff-works/how-apache-kafka-works"
         },
@@ -92,7 +92,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Demo",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/how-stuff-works/kafka-message-flow-visualizer"
         },
@@ -104,7 +104,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Demo",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/microservices/api-gateway-traffic-control"
         },
@@ -116,7 +116,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Demo",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/multithreading/multithreading-playground-1"
         },
@@ -128,7 +128,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Demo",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/multithreading/multithreading-playground-2"
         },
@@ -140,7 +140,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Demo",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/multithreading/cash-register-race-condition"
         },
@@ -152,7 +152,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Microservices",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/microservices/what-is-a-load-balancer"
         },
@@ -164,7 +164,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Microservices",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/microservices/load-balancing-algorithms"
         },
@@ -176,7 +176,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Demo",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/system-design/rate-limiter-system-design"
         },
@@ -188,7 +188,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Others",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/others/indian-tech-salary-map"
         },
@@ -200,7 +200,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Demo",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/kubernetes/enterprise-kubernetes-command-center"
         },
@@ -212,7 +212,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Demo",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/java/java-virtual-machine"
         },
@@ -224,7 +224,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Demo",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/java/java-virtual-machine"
         },
@@ -236,7 +236,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "Demo",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/java/java-learning"
         }

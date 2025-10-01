@@ -8,7 +8,7 @@
             "date": "2025-10-01",
             "readTime": "8 min read",
             "category": "OOP",
-            "featured": true,
+            "featured": false,
             "views": "12.5K",
             "url": "/quizzes/oop"
         },
@@ -32,7 +32,7 @@
             "date": "2025-10-01",
             "readTime": "5 min read",
             "category": "Multithreading",
-            "featured": true,
+            "featured": false,
             "views": "15.7K",
             "url": "/quizzes/multithreading"
         }
