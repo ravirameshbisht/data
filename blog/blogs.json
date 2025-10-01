@@ -443,6 +443,42 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/patterns/client-side-discovery-pattern"
+        },
+        {
+            "id": 37,
+            "title": "Server-Side Discovery Pattern",
+            "excerpt": "Experience how the server-side discovery pattern enables applications to discover and interact with services dynamically.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Patterns",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/patterns/server-side-discovery-pattern"
+        },
+        {
+            "id": 38,
+            "title": "Service Registry Pattern",
+            "excerpt": "Experience how the service registry pattern enables applications to discover and interact with services dynamically.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Patterns",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/patterns/service-registry-pattern"
+        },
+        {
+            "id": 39,
+            "title": "Self Registration Pattern",
+            "excerpt": "Experience how the self registration pattern enables applications to discover and interact with services dynamically.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Patterns",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/patterns/self-registration-pattern"
         }
     ]
 }
