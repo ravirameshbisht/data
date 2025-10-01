@@ -239,6 +239,30 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/java/java-learning"
+        },
+        {
+            "id": 21,
+            "title": "Java Collections",
+            "excerpt": "Explore how different Java collections behave interactively",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Demo",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/java-collections/java-collections"
+        },
+        {
+            "id": 22,
+            "title": "Hashmap Explorer",
+            "excerpt": "Learn how hashmaps work internally by inserting key-value pairs and watching the magic happen",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Demo",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/java-collections/hashmap-explorer"
         }
     ]
 }
