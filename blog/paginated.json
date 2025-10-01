@@ -179,6 +179,18 @@
             "featured": true,
             "views": "12.5K",
             "url": "/blog/system-design/rate-limiter-system-design"
+        },
+        {
+            "id": 16,
+            "title": "Indian Tech Salary Map",
+            "excerpt": "Comprehensive Salary Guide for Software Companies in India",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Others",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/others/indian-tech-salary-map"
         }
     ]
 }
