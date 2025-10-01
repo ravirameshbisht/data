@@ -95,6 +95,54 @@
             "featured": true,
             "views": "12.5K",
             "url": "/blog/how-stuff-works/kafka-message-flow-visualizer"
+        },
+        {
+            "id": 9,
+            "title": "API Gateway Traffic Control",
+            "excerpt": "Manage real-time traffic flow and keep your services running smoothly",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Interactive",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/microservices/api-gateway-traffic-control"
+        },
+        {
+            "id": 10,
+            "title": "Multithreading Playground 1",
+            "excerpt": "Learn concurrent programming through interactive simulations",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Interactive",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/multithreading/multithreading-playground-1"
+        },
+        {
+            "id": 11,
+            "title": "Multithreading Playground 2",
+            "excerpt": "Learn concurrent programming through interactive simulations",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Interactive",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/multithreading/multithreading-playground-2"
+        },
+        {
+            "id": 12,
+            "title": "Cash Register Race Condition",
+            "excerpt": "Interactive demonstration of concurrent programming concepts",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Interactive",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/multithreading/cash-register-race-condition"
         }
     ]
 }
