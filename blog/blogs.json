@@ -335,6 +335,18 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/design/adapter-design-pattern"
+        },
+        {
+            "id": 28,
+            "title": "Bridge Design Pattern",
+            "excerpt": "Experience how the bridge pattern separates an object's interface from its implementation.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Design",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/design/bridge-design-pattern"
         }
     ]
 }
