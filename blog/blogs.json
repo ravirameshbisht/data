@@ -431,6 +431,18 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/design/template-design-pattern"
+        },
+        {
+            "id": 36,
+            "title": "Client-Side Discovery Pattern",
+            "excerpt": "Experience how the client-side discovery pattern enables applications to discover and interact with services dynamically.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Patterns",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/design/client-side-discovery-pattern"
         }
     ]
 }
