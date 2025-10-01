@@ -22,19 +22,19 @@
             "category": "Visual",
             "featured": false,
             "views": "8.2K",
-            "url": "/how-stuff-works/how-kafka-works"
+            "url": "/blog/visual/what-is-grpc"
         },
         {
             "id": 3,
-            "title": "Micro-Interactions That Delight",
-            "excerpt": "The subtle animations and feedback that make digital products feel alive and engaging for users.",
-            "author": "Luna Rodriguez",
-            "date": "2024-01-15",
+            "title": "HTTP Protocol Engineering",
+            "excerpt": "Deep dive into the technical evolution of HTTP protocols, from connection management and multiplexing to QUIC's revolutionary transport layer innovations.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
             "readTime": "5 min read",
-            "category": "UX Design",
+            "category": "Visual",
             "featured": true,
             "views": "15.7K",
-            "url": "https://google.com"
+            "url": "/blog/visual/http-protocol-engineering"
         },
         {
             "id": 4,
