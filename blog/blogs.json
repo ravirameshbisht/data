@@ -263,6 +263,18 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/java-collections/hashmap-explorer"
+        },
+        {
+            "id": 22,
+            "title": "Singleton Design Pattern",
+            "excerpt": "Learn how the Singleton pattern ensures only one instance of a class exists throughout your application",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Design",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/design/singleton-design-pattern"
         }
     ]
 }
