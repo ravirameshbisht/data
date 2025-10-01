@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Java Roadmap",
-            "excerpt": "How Kafka works under the hood, with an interactive demo to illustrate key concepts.",
+            "excerpt": "Java Roadmap to learn Java from scratch and become a proficient Java developer.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
@@ -15,7 +15,7 @@
         {
             "id": 2,
             "title": "Microservices Roadmap",
-            "excerpt": "gRPC is a high-performance, open-source universal RPC framework that leverages HTTP/2 for transport.",
+            "excerpt": "Microservices Roadmap to learn microservices architecture and design patterns.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "6 min read",

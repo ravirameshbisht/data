@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Object Oriented Programming",
-            "excerpt": "How Kafka works under the hood, with an interactive demo to illustrate key concepts.",
+            "excerpt": "Object Oriented Programming Quiz to test your fundamental knowledge of OOP concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
@@ -15,7 +15,7 @@
         {
             "id": 2,
             "title": "Java Basics",
-            "excerpt": "gRPC is a high-performance, open-source universal RPC framework that leverages HTTP/2 for transport.",
+            "excerpt": "Java Basics Quiz to test your fundamental knowledge of Java programming.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "6 min read",
@@ -27,7 +27,7 @@
         {
             "id": 3,
             "title": "Multithreading",
-            "excerpt": "Deep dive into the technical evolution of HTTP protocols, from connection management and multiplexing to QUIC's revolutionary transport layer innovations.",
+            "excerpt": "Java Multithreading Quiz to test your fundamental knowledge of Java concurrency concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "5 min read",
