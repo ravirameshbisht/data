@@ -191,6 +191,18 @@
             "featured": true,
             "views": "12.5K",
             "url": "/blog/others/indian-tech-salary-map"
+        },
+        {
+            "id": 17,
+            "title": "Enterprise Kubernetes Command Center",
+            "excerpt": "Advanced Container Orchestration Platform with Real-time Analytics & AI-Powered Insights",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Interactive",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/kubernetes/enterprise-kubernetes-command-center"
         }
     ]
 }
