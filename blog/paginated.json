@@ -2,7 +2,7 @@
     "posts": [
         {
             "id": 1,
-            "title": "The Kafka Interactive Demo",
+            "title": "How Kafka Works",
             "excerpt": "How Kafka works under the hood, with an interactive demo to illustrate key concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
@@ -74,12 +74,12 @@
         },
         {
             "id": 7,
-            "title": "How Apache Kafka Works",
+            "title": "The Kafka Interactive Demo",
             "excerpt": "Interactive visualization of message streaming.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "How Stuff Works",
+            "category": "demo",
             "featured": true,
             "views": "12.5K",
             "url": "/blog/how-stuff-works/how-apache-kafka-works"
@@ -91,7 +91,7 @@
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "How Stuff Works",
+            "category": "demo",
             "featured": true,
             "views": "12.5K",
             "url": "/blog/how-stuff-works/kafka-message-flow-visualizer"
@@ -103,7 +103,7 @@
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "Interactive",
+            "category": "Demo",
             "featured": true,
             "views": "12.5K",
             "url": "/blog/microservices/api-gateway-traffic-control"
@@ -115,7 +115,7 @@
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "Interactive",
+            "category": "Demo",
             "featured": true,
             "views": "12.5K",
             "url": "/blog/multithreading/multithreading-playground-1"
@@ -127,7 +127,7 @@
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "Interactive",
+            "category": "Demo",
             "featured": true,
             "views": "12.5K",
             "url": "/blog/multithreading/multithreading-playground-2"
@@ -139,7 +139,7 @@
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "Interactive",
+            "category": "Demo",
             "featured": true,
             "views": "12.5K",
             "url": "/blog/multithreading/cash-register-race-condition"
@@ -175,7 +175,7 @@
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "Interactive",
+            "category": "Demo",
             "featured": true,
             "views": "12.5K",
             "url": "/blog/system-design/rate-limiter-system-design"
@@ -199,7 +199,7 @@
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "Interactive",
+            "category": "Demo",
             "featured": true,
             "views": "12.5K",
             "url": "/blog/kubernetes/enterprise-kubernetes-command-center"
