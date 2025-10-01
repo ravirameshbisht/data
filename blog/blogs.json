@@ -479,6 +479,18 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/patterns/self-registration-pattern"
+        },
+        {
+            "id": 40,
+            "title": "3rd Party Registration Pattern",
+            "excerpt": "Experience how the 3rd party registration pattern enables applications to discover and interact with services dynamically.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Patterns",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/patterns/3rd-party-registration-pattern"
         }
     ]
 }
