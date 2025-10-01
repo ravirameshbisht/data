@@ -323,6 +323,18 @@
             "featured": false,
             "views": "12.5K",
             "url": "/blog-posts/design/prototype-design-pattern"
+        },
+        {
+            "id": 27,
+            "title": "Adapter Design Pattern",
+            "excerpt": "Experience how the adapter pattern allows incompatible interfaces to work together.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Design",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/design/adapter-design-pattern"
         }
     ]
 }
