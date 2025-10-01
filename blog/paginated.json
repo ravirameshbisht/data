@@ -167,6 +167,18 @@
             "featured": true,
             "views": "12.5K",
             "url": "/blog/microservices/load-balancing-algorithms"
+        },
+        {
+            "id": 15,
+            "title": "Rate Limiter System Design",
+            "excerpt": "Interactive demo of rate limiting algorithms",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Interactive",
+            "featured": true,
+            "views": "12.5K",
+            "url": "/blog/system-design/rate-limiter-system-design"
         }
     ]
 }
