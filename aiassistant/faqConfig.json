@@ -1,0 +1,74 @@
+{
+    "general": {
+        "title": "General Queries",
+        "icon": "❓",
+        "questions": [
+            "How do I get started?",
+            "What are your business hours?",
+            "Do you have a mobile app?",
+            "Is my data secure and private?",
+            "Can I share my account with family?",
+            "What makes you different from competitors?"
+        ]
+    },
+    "interview": {
+        "title": "Interview Preparation",
+        "icon": "💼",
+        "questions": [
+            "How do I prepare for technical interviews?",
+            "What are common interview questions?",
+            "How should I dress for an interview?",
+            "What questions should I ask the interviewer?",
+            "How do I handle behavioral questions?",
+            "What should I bring to an interview?"
+        ]
+    },
+    "content": {
+        "title": "Available Content",
+        "icon": "📚",
+        "questions": [
+            "What content is included?",
+            "How often is new content added?",
+            "Can I download content offline?",
+            "Is there exclusive premium content?",
+            "What formats are available?",
+            "Can I request specific content?"
+        ]
+    },
+    "subscription": {
+        "title": "Subscription Plans",
+        "icon": "📋",
+        "questions": [
+            "What subscription plans do you offer?",
+            "How much do the plans cost?",
+            "Can I upgrade my plan later?",
+            "What is included in each plan?",
+            "Is there a free trial available?",
+            "How do I cancel my subscription?"
+        ]
+    },
+    "billing": {
+        "title": "Billing & Payment",
+        "icon": "💳",
+        "questions": [
+            "What payment methods do you accept?",
+            "When will I be charged?",
+            "Can I get a refund?",
+            "How do I update my payment info?",
+            "Do you offer student discounts?",
+            "What happens if payment fails?"
+        ]
+    },
+    "technical": {
+        "title": "Technical Support",
+        "icon": "🔧",
+        "questions": [
+            "How do I reset my password?",
+            "Why can't I access my account?",
+            "The app is not working properly",
+            "How do I update the app?",
+            "Can I use multiple devices?",
+            "How do I contact support?"
+        ]
+    }
+}
