@@ -2,15 +2,15 @@
     "posts": [
         {
             "id": 1,
-            "title": "Work In Progress",
-            "excerpt": "Work In Progress",
+            "title": "What is React JS",
+            "excerpt": "A powerful JavaScript library for building amazing user interfaces",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "How Stuff Works",
+            "category": "ReactJS",
             "featured": false,
             "views": "12.5K",
-            "url": "/blog-posts/reactJS/work-in-progress"
+            "url": "/blog-posts/reactjs/what-is-reactjs"
         }
     ]
 }
