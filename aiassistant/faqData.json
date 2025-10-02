@@ -1,6 +1,6 @@
 {
     "getting_started": {
-        "answer": "<strong>Getting started is simple!</strong> First, create your free account by clicking 'Sign Up' and choosing your plan. You'll get instant access to our content library. Start with our 'Quick Start Guide' in your dashboard, then explore topics that interest you most. Our onboarding tutorial will walk you through all the key features.",
+        "answer": "<strong>Getting started is simple!</strong> First, connect over whatsapp, get access to either 3 months or 1 year. You'll get instant access to our content library. Complete all frequently and scenario based answers and then you are good to go for java interviews",
         "keywords": [
             "get",
             "started",
@@ -12,7 +12,7 @@
         ]
     },
     "business_hours": {
-        "answer": "Our <strong>customer support</strong> is available Monday through Friday, 9:00 AM to 6:00 PM EST. However, our platform is accessible 24/7! For urgent technical issues, we offer emergency support through our chat system. Weekend support is available for Premium and Pro subscribers.",
+        "answer": "Our <strong>customer support</strong> is available Monday through Friday, 7:00 AM to 11:59 PM EST. However, our platform is accessible 24/7 !",
         "keywords": [
             "business",
             "hours",
@@ -24,7 +24,7 @@
         ]
     },
     "mobile_app": {
-        "answer": "Yes! We have <strong>mobile apps</strong> for both iOS and Android. Download them from the App Store or Google Play Store. The mobile app includes offline reading, push notifications for new content, and seamless sync across all your devices. All features from the web version are available on mobile.",
+        "answer": "Yes! We do not have<strong>mobile apps</strong> currenly. Although website works fine on mobile browswers.",
         "keywords": [
             "mobile",
             "app",
@@ -35,7 +35,7 @@
         ]
     },
     "data_security": {
-        "answer": "<strong>Your data security is our top priority.</strong> We use bank-level encryption (AES-256) for all data transmission and storage. We're GDPR compliant and never sell your personal information to third parties. All payment data is processed through secure, PCI-compliant systems. You can download or delete your data anytime.",
+        "answer": "<strong>Since you login with google OAUTH, we do not store any of your data",
         "keywords": [
             "data",
             "secure",
@@ -46,19 +46,8 @@
             "protection"
         ]
     },
-    "family_sharing": {
-        "answer": "<strong>Family sharing is available!</strong> Premium plans allow up to 3 family members, and Pro plans allow up to 5 family members. Each person gets their own profile with personalized recommendations and progress tracking. The primary account holder manages billing and can add/remove family members anytime.",
-        "keywords": [
-            "family",
-            "share",
-            "sharing",
-            "account",
-            "multiple",
-            "users"
-        ]
-    },
     "competitors": {
-        "answer": "What sets us apart: <strong>Personalized learning paths</strong> powered by AI, exclusive expert interviews, interactive content, and our supportive community. We focus on practical, real-world applications rather than just theory. Plus, our content is updated weekly based on industry trends and user feedback.",
+        "answer": "Our interview preparation is to the point and short, focussed at interview preparation. People who are not in touch with development also get very confident after 3 months preparation !",
         "keywords": [
             "different",
             "competitors",

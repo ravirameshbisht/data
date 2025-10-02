@@ -7,7 +7,6 @@
             "What are your business hours?",
             "Do you have a mobile app?",
             "Is my data secure and private?",
-            "Can I share my account with family?",
             "What makes you different from competitors?"
         ]
     },
@@ -53,7 +52,7 @@
         "questions": [
             "What payment methods do you accept?",
             "When will I be charged?",
-            "Can I get a refund?",
+            "Can I get a refund?"
         ]
     },
     "technical": {
