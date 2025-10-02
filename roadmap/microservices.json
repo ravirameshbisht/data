@@ -6,9 +6,9 @@
         "level": "beginner",
         "topics": [
             "Monolith",
-            "Service-Oriented Architecture",
-            "Cloud Native apps",
-            "15-factor methodology"
+            "SOA",
+            "Cloud Native",
+            "15-factor"
         ],
         "description": [
             "What is a Monolith Application",
@@ -22,8 +22,8 @@
             "What are cloud native apps & 15 factor methodology behind them",
             "Important characteristics of cloud-native applications",
             "Differences between cloud-native Apps & Traditional enterprise Apps",
-            "Role of Docker in microservices and how to build docker images, containers",
-            "Role of Docker compose and how to use it to run all the microservices inside an application"
+            "Role of Docker and how to build docker images, containers",
+            "Role of Docker compose and how to use it to run microservices inside an application"
         ]
     },
     {
