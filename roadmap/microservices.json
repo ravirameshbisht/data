@@ -1,347 +1,347 @@
 [
-  {
-    "id": 1,
-    "icon": "⚙️",
-    "title": "Introduction to Microservices",
-    "level": "beginner",
-    "topics": [
-      "Monolith",
-      "Service-Oriented Architecture",
-      "Cloud Native apps",
-      "15-factor methodology",
-    ],
-    "description": [
-      "What is a Monolith Application",
-      "Service Oriented Architecture",
-      "Problems with Service Oriented Architecture & Monolith",
-      "What is Microservices Architecture",
-      "How it is different from Monolithic and SOA Architecture",
-      "Advantages of Microservices",
-      "Problems solved by Microservices",
-      "Approaches to identify boundaries & right size microservices",
-      "What are cloud native apps & 15 factor methodology behind them",
-      "Important characteristics of cloud-native applications",
-      "Differences between cloud-native Apps & Traditional enterprise Apps",
-      "Role of Docker in microservices and how to build docker images, containers",
-      "Role of Docker compose and how to use it to run all the microservices inside an application"
-    ]
-  },
-  {
-    "id": 2,
-    "icon": "🔒",
-    "title": "Microservices Security",
-    "level": "intermediate",
-    "topics": [
-      "OAuth2",
-      "OpenID Connect",
-      "Keycloak",
-    ],
-    "description": [
-      "What is Microservices Security",
-      "Problems that OAuth2 solves",
-      "What is OAuth2",
-      "OAuth2 jargons or terminologies or roles",
-      "What is OpenID Connect & why it is important",
-      "What is IAM products & why KeyCloak",
-      "Deep dive of Client Credentials grant type flow",
-      "Securing Gateway server using Client Credentials grant type flow - Theory",
-      "Setup Auth server using KeyCloak",
-      "Register client details inside KeyCloak for Client credentials grant flow",
-      "Getting Access token from Auth Server in Client credentials grant flow",
-      "How to Secure Gateway server as a Resource server",
-      "How to Implement Authorization inside Gateway server using Roles",
-      "Deep dive of Authorization Code grant type flow",
-      "Securing Gateway server using Authorization Code grant type flow - Theory",
-      "Register client & end user inside KeyCloak for Authorization code grant flow"
-    ]
-  },
-  {
-    "id": 3,
-    "icon": "📩",
-    "title": "JMS Messaging",
-    "level": "beginner",
-    "topics": [
-      "JMS basics",
-      "ActiveMQ"
-    ],
-    "description": [
-      "Introduction to JMS",
-      "Java Message Object",
-      "Sending JMS Messages",
-      "Receiving JMS Messages",
-      "Send and Receive of JMS Messages",
-      "Running Active MQ in Docker",
-      "Using Local ActiveMQ Broker with Spring Boot",
-      "JMS and Spring Message Data Types"
-    ]
-  },
-  {
-    "id": 4,
-    "icon": "🛡️",
-    "title": "Fault Tolerance with Resilience4j",
-    "level": "intermediate",
-    "topics": [
-      "Resilience4j",
-      "Hystrix"
-    ],
-    "description": [
-      "Introduction to Fault Tolerance with Resilience4j",
-      "Removing Hystrix Circuit Breaker",
-      "Adding Resilience4j to Spring Boot Microservice",
-      "Actuator /health Endpoint",
-      "Feign Client & Circuit Breaker Fallback method",
-      "Circuit Breaker configuration properties",
-      "Configure Access to Actuator endpoints",
-      "Monitoring Circuit Breaker events in Actuator"
-    ]
-  },
-  {
-    "id": 5,
-    "icon": "🔍",
-    "title": "Distributed Tracing with Micrometer and Zipkin",
-    "level": "intermediate",
-    "topics": [
-      "Distributed tracing with Micrometer",
-      "Log TraceId and SpanId",
-      "Feign and RestTemplate",
-      "Zipkin Dashboard"
-    ],
-    "description": [
-      "Introduction to Distributed Tracing with Micrometer and Zipkin",
-      "Micrometer Tracing Sampling Probability",
-      "Logging TraceId and SpanId",
-      "Configure Micrometer to work with Feign",
-      "View traces in Zipkin Dashboard",
-      "Trace Requests Sent with RestTemplate"
-    ]
-  },
-  {
-    "id": 6,
-    "icon": "🌀",
-    "title": "Circuit Breaker Pattern",
-    "level": "intermediate",
-    "topics": [
-      "Circuit Breaker Pattern",
-      "Resilience4j and Hystrix with Feign and Gateway"
-    ],
-    "description": [
-      "Circuit Breaker Pattern Overview",
-      "Resilience4j Failover for Spring Cloud Gateway",
-      "Using Hystrix Circuit Breaker with Feign Client",
-      "Using Resilience4j with Feign Client"
-    ]
-  },
-  {
-    "id": 7,
-    "icon": "🗃️",
-    "title": "Microservices Design Patterns 1",
-    "level": "advanced",
-    "topics": [
-      "design patterns",
-    ],
-    "description": [
-      "Application architecture patterns",
-      "Monolithic architecture",
-      "Microservice architecture",
-      "Decompose by business capability",
-      "Decompose by subdomain",
-      "Self-contained Service",
-      "Service per team",
-      "Refactoring to microservices",
-      "Strangler Application",
-      "Anti-corruption layer",
-      "Data management",
-      "Database per Service",
-      "Shared database",
-      "Command-side replica",
-      "API Composition",
-      "CQRS",
-      "Saga",
-      "Domain event",
-      "Event sourcing",
-      "Transactional messaging",
-      "Transactional outbox",
-      "Transaction log tailing",
-      "Polling publisher",
-    ]
-  },
-  {
-    "id": 8,
-    "icon": "🗃️",
-    "title": "Microservices Design Patterns 2",
-    "level": "advanced",
-    "topics": [
-      "design patterns"
-    ],
-    "description": [
-      "Testing",
-      "Service Component Test",
-      "Consumer-driven contract test",
-      "Consumer-side contract test",
-      "Deployment patterns",
-      "Multiple service instances per host",
-      "Service instance per host",
-      "Service instance per VM",
-      "Service instance per Container",
-      "Serverless deployment",
-      "Service deployment platform",
-      "Cross cutting concerns",
-      "Microservice chassis",
-      "Service Template",
-      "Externalized configuration",
-      "Communication style",
-      "Remote Procedure Invocation",
-      "Messaging",
-      "Domain-specific protocol",
-      "Idempotent Consumer",
-      "External API",
-      "API gateway",
-      "Backend for front-end",
-      "Service discovery",
-      "Client-side discovery",
-      "Server-side discovery",
-      "Service registry",
-      "Self registration",
-      "3rd party registration",
-      "Reliability - Circuit Breaker",
-      "Security - Access Token",
-      "Observability",
-      "Log aggregation",
-      "Application metrics",
-      "Audit logging",
-      "Distributed tracing",
-      "Exception tracking",
-      "Health check API",
-      "Log deployments and changes"
-    ]
-  },
-  {
-    "id": 9,
-    "icon": "📡",
-    "title": "Event-Driven Architecture",
-    "level": "advanced",
-    "topics": [
-      "Event-Driven Architecture",
-      "Saga",
-	  "CQRS",
-      "Event Sourcing patterns",
-      "message delivery"
-    ],
-    "description": [
-      "Introduction to Event-Driven Architecture",
-      "Use Cases and Patterns of Event-Driven Architecture",
-      "Saga Pattern",
-      "CQRS Pattern",
-      "Event Sourcing Pattern",
-      "Message Delivery Semantics in Event-Driven Architecture",
-      "Message Broker Technologies - Delivery Guarantees"
-    ]
-  },
-  {
-    "id": 10,
-    "icon": "🧪",
-    "title": "Testing Microservices",
-    "level": "intermediate",
-    "topics": [
-      "Understand Testing Pyramid for Microservices",
-      "Explore contract tests and production testing"
-    ],
-    "description": [
-      "Testing Pyramid for Microservices - Introduction and Challenges",
-      "Contract Tests and Production Testing",
-      "Contract Tests Solutions"
-    ]
-  },
-  {
-    "id": 11,
-    "icon": "📊",
-    "title": "Observability in Microservices",
-    "level": "advanced",
-    "topics": [
-      "Introduction to three pillars of observability",
-      "Distributed Logging, Metrics, Tracing, Health checks"
-    ],
-    "description": [
-      "Introduction to the Three Pillars of Observability in Microservices",
-      "Distributed Logging",
-      "Metrics",
-      "Distributed Tracing",
-      "Distributed Tracing Solutions"
-    ]
-  },
-  {
-    "id": 12,
-    "icon": "⛵",
-    "title": "Helm and Kubernetes",
-    "level": "advanced",
-    "topics": [
-      "Learn Helm basics and charts",
-      "Install and manage services like Keycloak, Kafka, Prometheus, Grafana"
-    ],
-    "description": [
-      "Introduction to Helm & the problems that it solves",
-      "Installing Helm",
-      "Understanding Helm Chart structure",
-      "Creating our own Helm chart & template files",
-      "Install KeyCloak in Kubernetes Cluster using Helm Chart",
-      "Install Kafka in Kubernetes Cluster using Helm Chart",
-      "Install Prometheus in Kubernetes Cluster using Helm Chart",
-      "Install Grafana Loki & Tempo in Kubernetes Cluster using Helm Chart",
-      "Install Grafana in Kubernetes Cluster using Helm Chart",
-      "Install project microservices in Kubernetes Cluster using Helm Chart"
-    ]
-  },
-  {
-    "id": 13,
-    "icon": "🌐",
-    "title": "Service Discovery & Load Balancing",
-    "level": "intermediate",
-    "topics": [
-      "Learn service discovery in Kubernetes",
-      "Setup discovery server and integrate services"
-    ],
-    "description": [
-      "Introduction to Server side service discovery and load balancing",
-      "How to setup discovery server in K8s cluster using spring cloud kubernetes",
-      "Install spring cloud kubernetes discovery server in K8s cluster",
-      "Making Kubernetes Discovery Client changes in microservices",
-      "Updating Helm charts for Kubernetes Discovery Server changes"
-    ]
-  },
-  {
-    "id": 14,
-    "icon": "📦",
-    "title": "Distributed Systems & Containerization",
-    "level": "advanced",
-    "topics": [
-      "Learn RPC, SOA, and Microservices in distributed systems",
-      "Understand consistency models and distributed transactions",
-      "Explore fault tolerance, scaling, and load balancing",
-      "Dive into Docker, Kubernetes, and orchestration"
-    ],
-    "description": [
-      "Remote Procedure Call (RPC)",
-      "Service-Oriented Architecture (SOA)",
-      "Microservices Architecture",
-      "Consistency Models (Strong Consistency, Eventual Consistency)",
-      "Distributed Transactions",
-      "Two-Phase Commit (2PC) and Three-Phase Commit (3PC)",
-      "Fault Tolerance (Replication, Redundancy, Fault Detection and Recovery)",
-      "Distributed Databases",
-      "Key-Value Stores",
-      "NoSQL Databases",
-      "Horizontal Scaling",
-      "Vertical Scaling",
-      "Load Balancing Algorithms",
-      "Authentication and Authorization",
-      "Secure Communication",
-      "Caching Frameworks: Memcached, Hazelcast, EHCache",
-      "Caching Types: In-Memory, Distributed, Disk Based",
-      "Caching Techniques: Lazy Loading, Write Through, Write Behind",
-      "Dockers, Images, Containers",
-      "Docker Compose, Docker Swarm",
-      "Docker Networking, Docker Volumes",
-      "Kubernetes Orchestration"
-    ]
-  }
+    {
+        "id": 1,
+        "icon": "⚙️",
+        "title": "Introduction to Microservices",
+        "level": "beginner",
+        "topics": [
+            "Monolith",
+            "Service-Oriented Architecture",
+            "Cloud Native apps",
+            "15-factor methodology"
+        ],
+        "description": [
+            "What is a Monolith Application",
+            "Service Oriented Architecture",
+            "Problems with Service Oriented Architecture & Monolith",
+            "What is Microservices Architecture",
+            "How it is different from Monolithic and SOA Architecture",
+            "Advantages of Microservices",
+            "Problems solved by Microservices",
+            "Approaches to identify boundaries & right size microservices",
+            "What are cloud native apps & 15 factor methodology behind them",
+            "Important characteristics of cloud-native applications",
+            "Differences between cloud-native Apps & Traditional enterprise Apps",
+            "Role of Docker in microservices and how to build docker images, containers",
+            "Role of Docker compose and how to use it to run all the microservices inside an application"
+        ]
+    },
+    {
+        "id": 2,
+        "icon": "🔒",
+        "title": "Microservices Security",
+        "level": "intermediate",
+        "topics": [
+            "OAuth2",
+            "OpenID Connect",
+            "Keycloak"
+        ],
+        "description": [
+            "What is Microservices Security",
+            "Problems that OAuth2 solves",
+            "What is OAuth2",
+            "OAuth2 jargons or terminologies or roles",
+            "What is OpenID Connect & why it is important",
+            "What is IAM products & why KeyCloak",
+            "Deep dive of Client Credentials grant type flow",
+            "Securing Gateway server using Client Credentials grant type flow - Theory",
+            "Setup Auth server using KeyCloak",
+            "Register client details inside KeyCloak for Client credentials grant flow",
+            "Getting Access token from Auth Server in Client credentials grant flow",
+            "How to Secure Gateway server as a Resource server",
+            "How to Implement Authorization inside Gateway server using Roles",
+            "Deep dive of Authorization Code grant type flow",
+            "Securing Gateway server using Authorization Code grant type flow - Theory",
+            "Register client & end user inside KeyCloak for Authorization code grant flow"
+        ]
+    },
+    {
+        "id": 3,
+        "icon": "📩",
+        "title": "JMS Messaging",
+        "level": "beginner",
+        "topics": [
+            "JMS basics",
+            "ActiveMQ"
+        ],
+        "description": [
+            "Introduction to JMS",
+            "Java Message Object",
+            "Sending JMS Messages",
+            "Receiving JMS Messages",
+            "Send and Receive of JMS Messages",
+            "Running Active MQ in Docker",
+            "Using Local ActiveMQ Broker with Spring Boot",
+            "JMS and Spring Message Data Types"
+        ]
+    },
+    {
+        "id": 4,
+        "icon": "🛡️",
+        "title": "Fault Tolerance with Resilience4j",
+        "level": "intermediate",
+        "topics": [
+            "Resilience4j",
+            "Hystrix"
+        ],
+        "description": [
+            "Introduction to Fault Tolerance with Resilience4j",
+            "Removing Hystrix Circuit Breaker",
+            "Adding Resilience4j to Spring Boot Microservice",
+            "Actuator /health Endpoint",
+            "Feign Client & Circuit Breaker Fallback method",
+            "Circuit Breaker configuration properties",
+            "Configure Access to Actuator endpoints",
+            "Monitoring Circuit Breaker events in Actuator"
+        ]
+    },
+    {
+        "id": 5,
+        "icon": "🔍",
+        "title": "Distributed Tracing with Micrometer and Zipkin",
+        "level": "intermediate",
+        "topics": [
+            "Distributed tracing with Micrometer",
+            "Log TraceId and SpanId",
+            "Feign and RestTemplate",
+            "Zipkin Dashboard"
+        ],
+        "description": [
+            "Introduction to Distributed Tracing with Micrometer and Zipkin",
+            "Micrometer Tracing Sampling Probability",
+            "Logging TraceId and SpanId",
+            "Configure Micrometer to work with Feign",
+            "View traces in Zipkin Dashboard",
+            "Trace Requests Sent with RestTemplate"
+        ]
+    },
+    {
+        "id": 6,
+        "icon": "🌀",
+        "title": "Circuit Breaker Pattern",
+        "level": "intermediate",
+        "topics": [
+            "Circuit Breaker Pattern",
+            "Resilience4j and Hystrix with Feign and Gateway"
+        ],
+        "description": [
+            "Circuit Breaker Pattern Overview",
+            "Resilience4j Failover for Spring Cloud Gateway",
+            "Using Hystrix Circuit Breaker with Feign Client",
+            "Using Resilience4j with Feign Client"
+        ]
+    },
+    {
+        "id": 7,
+        "icon": "🗃️",
+        "title": "Microservices Design Patterns 1",
+        "level": "advanced",
+        "topics": [
+            "design patterns"
+        ],
+        "description": [
+            "Application architecture patterns",
+            "Monolithic architecture",
+            "Microservice architecture",
+            "Decompose by business capability",
+            "Decompose by subdomain",
+            "Self-contained Service",
+            "Service per team",
+            "Refactoring to microservices",
+            "Strangler Application",
+            "Anti-corruption layer",
+            "Data management",
+            "Database per Service",
+            "Shared database",
+            "Command-side replica",
+            "API Composition",
+            "CQRS",
+            "Saga",
+            "Domain event",
+            "Event sourcing",
+            "Transactional messaging",
+            "Transactional outbox",
+            "Transaction log tailing",
+            "Polling publisher"
+        ]
+    },
+    {
+        "id": 8,
+        "icon": "🗃️",
+        "title": "Microservices Design Patterns 2",
+        "level": "advanced",
+        "topics": [
+            "design patterns"
+        ],
+        "description": [
+            "Testing",
+            "Service Component Test",
+            "Consumer-driven contract test",
+            "Consumer-side contract test",
+            "Deployment patterns",
+            "Multiple service instances per host",
+            "Service instance per host",
+            "Service instance per VM",
+            "Service instance per Container",
+            "Serverless deployment",
+            "Service deployment platform",
+            "Cross cutting concerns",
+            "Microservice chassis",
+            "Service Template",
+            "Externalized configuration",
+            "Communication style",
+            "Remote Procedure Invocation",
+            "Messaging",
+            "Domain-specific protocol",
+            "Idempotent Consumer",
+            "External API",
+            "API gateway",
+            "Backend for front-end",
+            "Service discovery",
+            "Client-side discovery",
+            "Server-side discovery",
+            "Service registry",
+            "Self registration",
+            "3rd party registration",
+            "Reliability - Circuit Breaker",
+            "Security - Access Token",
+            "Observability",
+            "Log aggregation",
+            "Application metrics",
+            "Audit logging",
+            "Distributed tracing",
+            "Exception tracking",
+            "Health check API",
+            "Log deployments and changes"
+        ]
+    },
+    {
+        "id": 9,
+        "icon": "📡",
+        "title": "Event-Driven Architecture",
+        "level": "advanced",
+        "topics": [
+            "Event-Driven Architecture",
+            "Saga",
+            "CQRS",
+            "Event Sourcing patterns",
+            "message delivery"
+        ],
+        "description": [
+            "Introduction to Event-Driven Architecture",
+            "Use Cases and Patterns of Event-Driven Architecture",
+            "Saga Pattern",
+            "CQRS Pattern",
+            "Event Sourcing Pattern",
+            "Message Delivery Semantics in Event-Driven Architecture",
+            "Message Broker Technologies - Delivery Guarantees"
+        ]
+    },
+    {
+        "id": 10,
+        "icon": "🧪",
+        "title": "Testing Microservices",
+        "level": "intermediate",
+        "topics": [
+            "Understand Testing Pyramid for Microservices",
+            "Explore contract tests and production testing"
+        ],
+        "description": [
+            "Testing Pyramid for Microservices - Introduction and Challenges",
+            "Contract Tests and Production Testing",
+            "Contract Tests Solutions"
+        ]
+    },
+    {
+        "id": 11,
+        "icon": "📊",
+        "title": "Observability in Microservices",
+        "level": "advanced",
+        "topics": [
+            "Introduction to three pillars of observability",
+            "Distributed Logging, Metrics, Tracing, Health checks"
+        ],
+        "description": [
+            "Introduction to the Three Pillars of Observability in Microservices",
+            "Distributed Logging",
+            "Metrics",
+            "Distributed Tracing",
+            "Distributed Tracing Solutions"
+        ]
+    },
+    {
+        "id": 12,
+        "icon": "⛵",
+        "title": "Helm and Kubernetes",
+        "level": "advanced",
+        "topics": [
+            "Learn Helm basics and charts",
+            "Install and manage services like Keycloak, Kafka, Prometheus, Grafana"
+        ],
+        "description": [
+            "Introduction to Helm & the problems that it solves",
+            "Installing Helm",
+            "Understanding Helm Chart structure",
+            "Creating our own Helm chart & template files",
+            "Install KeyCloak in Kubernetes Cluster using Helm Chart",
+            "Install Kafka in Kubernetes Cluster using Helm Chart",
+            "Install Prometheus in Kubernetes Cluster using Helm Chart",
+            "Install Grafana Loki & Tempo in Kubernetes Cluster using Helm Chart",
+            "Install Grafana in Kubernetes Cluster using Helm Chart",
+            "Install project microservices in Kubernetes Cluster using Helm Chart"
+        ]
+    },
+    {
+        "id": 13,
+        "icon": "🌐",
+        "title": "Service Discovery & Load Balancing",
+        "level": "intermediate",
+        "topics": [
+            "Learn service discovery in Kubernetes",
+            "Setup discovery server and integrate services"
+        ],
+        "description": [
+            "Introduction to Server side service discovery and load balancing",
+            "How to setup discovery server in K8s cluster using spring cloud kubernetes",
+            "Install spring cloud kubernetes discovery server in K8s cluster",
+            "Making Kubernetes Discovery Client changes in microservices",
+            "Updating Helm charts for Kubernetes Discovery Server changes"
+        ]
+    },
+    {
+        "id": 14,
+        "icon": "📦",
+        "title": "Distributed Systems & Containerization",
+        "level": "advanced",
+        "topics": [
+            "Learn RPC, SOA, and Microservices in distributed systems",
+            "Understand consistency models and distributed transactions",
+            "Explore fault tolerance, scaling, and load balancing",
+            "Dive into Docker, Kubernetes, and orchestration"
+        ],
+        "description": [
+            "Remote Procedure Call (RPC)",
+            "Service-Oriented Architecture (SOA)",
+            "Microservices Architecture",
+            "Consistency Models (Strong Consistency, Eventual Consistency)",
+            "Distributed Transactions",
+            "Two-Phase Commit (2PC) and Three-Phase Commit (3PC)",
+            "Fault Tolerance (Replication, Redundancy, Fault Detection and Recovery)",
+            "Distributed Databases",
+            "Key-Value Stores",
+            "NoSQL Databases",
+            "Horizontal Scaling",
+            "Vertical Scaling",
+            "Load Balancing Algorithms",
+            "Authentication and Authorization",
+            "Secure Communication",
+            "Caching Frameworks: Memcached, Hazelcast, EHCache",
+            "Caching Types: In-Memory, Distributed, Disk Based",
+            "Caching Techniques: Lazy Loading, Write Through, Write Behind",
+            "Dockers, Images, Containers",
+            "Docker Compose, Docker Swarm",
+            "Docker Networking, Docker Volumes",
+            "Kubernetes Orchestration"
+        ]
+    }
 ]
