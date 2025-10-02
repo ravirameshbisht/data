@@ -200,7 +200,7 @@
         ]
     },
     "subscription_plans": {
-        "answer": "<strong>Two plans we have currently:</strong><br><br><strong>3 Months (Rs 135):</strong> 3 Months Access to java interview preparation website<br><br><strong>1 Year (Rs 399):</strong> 1 year Access to java interview preparation website",
+        "answer": "<strong>Two plans we have currently:</strong><br><br><strong>3 Months (Rs 135):</strong> Access to all java interview preparation website<br><br><strong>1 Year (Rs 399):</strong> Access to all java interview preparation website",
         "keywords": [
             "subscription",
             "plans",
@@ -211,7 +211,7 @@
         ]
     },
     "plan_costs": {
-        "answer": "<strong>Transparent pricing:</strong><br>• 3 Months: Rs. 135<br>• 1 Year: Rs 399<br><br>No hidden costs!",
+        "answer": "<strong>Transparent pricing:</strong><br>• Basic: $9.99/month or $99/year (save 17%)<br>• Premium: $19.99/month or $199/year (save 17%)<br>• Pro: $39.99/month or $399/year (save 17%)<br><br>All plans include 14-day free trial. Students get 50% off with valid ID. No hidden fees or setup costs!",
         "keywords": [
             "cost",
             "price",
@@ -223,7 +223,7 @@
         ]
     },
     "upgrade_plan": {
-        "answer": "<strong>Upgrading is instant and easy!</strong> Initially you can take 3 months access, and if you wish you can upgrade it to year by paying the difference which is Rs399-Rs135",
+        "answer": "<strong>Upgrading is instant and easy!</strong> Go to Account Settings > Subscription and select your new plan. You'll only pay the prorated difference for the current billing period. All your data and progress transfers automatically. Downgrading is also available, effective at your next billing cycle.",
         "keywords": [
             "upgrade",
             "change",
@@ -234,7 +234,7 @@
         ]
     },
     "plan_features": {
-        "answer": "<strong>Plan comparison:</strong><br><br><strong>3 Months:</strong> Core content, advanced content for java interview preparation<br><br><strong>1 Year:</strong>Core content, advanced content for java interview preparation",
+        "answer": "<strong>Plan comparison:</strong><br><br><strong>Basic:</strong> Core content, community access, mobile app<br><br><strong>Premium:</strong> Basic + offline downloads, HD videos, early access, priority support, 3 family members<br><br><strong>Pro:</strong> Premium + expert consultations, exclusive content, advanced analytics, 5 family members, white-label options",
         "keywords": [
             "included",
             "features",
@@ -245,7 +245,7 @@
         ]
     },
     "free_trial": {
-        "answer": "<strong>Sorry we do not have free trial.</strong>",
+        "answer": "<strong>Yes! 14-day free trial for all plans.</strong> No credit card required to start. You get full access to your chosen plan's features during the trial. We'll send friendly reminders before it ends. Cancel anytime during the trial with no charges. After trial, seamlessly continue with your selected plan.",
         "keywords": [
             "free",
             "trial",
