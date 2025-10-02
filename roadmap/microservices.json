@@ -29,7 +29,7 @@
     {
         "id": 2,
         "icon": "🔒",
-        "title": "Microservices Security",
+        "title": "Microservices Security 1",
         "level": "intermediate",
         "topics": [
             "OAuth2",
@@ -44,7 +44,20 @@
             "What is OpenID Connect & why it is important",
             "What is IAM products & why KeyCloak",
             "Deep dive of Client Credentials grant type flow",
-            "Securing Gateway server using Client Credentials grant type flow - Theory",
+            "Securing Gateway server using Client Credentials grant type flow - Theory"
+        ]
+    },
+    {
+        "id": 2,
+        "icon": "🔒",
+        "title": "Microservices Security 2",
+        "level": "intermediate",
+        "topics": [
+            "OAuth2",
+            "OpenID Connect",
+            "Keycloak"
+        ],
+        "description": [
             "Setup Auth server using KeyCloak",
             "Register client details inside KeyCloak for Client credentials grant flow",
             "Getting Access token from Auth Server in Client credentials grant flow",
