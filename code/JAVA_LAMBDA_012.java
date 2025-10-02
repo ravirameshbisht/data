@@ -1,4 +1,4 @@
-// Lambda with BiFunction 
+// 12. Lambda with BiFunction 
 import java.util.function.BiFunction;
 
 public class JAVA_LAMBDA_012 {

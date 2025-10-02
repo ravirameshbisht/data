@@ -1,4 +1,4 @@
-// Lambda with Predicate 
+// 11. Lambda with Predicate 
 import java.util.function.Predicate;
 
 public class JAVA_LAMBDA_011 {

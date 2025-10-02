@@ -1,4 +1,4 @@
-// Lambda with Map Iteration 
+// 6. Lambda with Map Iteration 
 import java.util.HashMap;
 import java.util.Map;
 

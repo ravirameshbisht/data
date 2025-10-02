@@ -1,4 +1,4 @@
-//Lambda in Comparator 
+// 8. Lambda in Comparator 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;

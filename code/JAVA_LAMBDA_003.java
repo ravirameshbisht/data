@@ -1,4 +1,4 @@
-// Filtering a List with Lambda 
+// 3. Filtering a List with Lambda 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;

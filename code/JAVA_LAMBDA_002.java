@@ -1,4 +1,4 @@
-// Iterating List using Lambda
+// 2. Iterating List using Lambda
 import java.util.Arrays;
 import java.util.List;
 

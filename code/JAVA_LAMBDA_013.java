@@ -1,4 +1,4 @@
-// Lambda with Consumer 
+// 13. Lambda with Consumer 
 import java.util.function.Consumer;
 
 public class JAVA_LAMBDA_013 {

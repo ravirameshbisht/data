@@ -1,4 +1,4 @@
-// Lambda with Function 
+// 15. Lambda with Function 
 import java.util.function.Function;
 
 public class JAVA_LAMBDA_015 {
