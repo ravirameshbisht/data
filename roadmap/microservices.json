@@ -4,7 +4,7 @@
     "icon": "⚙️",
     "title": "Introduction to Microservices",
     "level": "beginner",
-    "description": [
+    "topics": [
       "Understand Monolith and Service-Oriented Architecture",
       "Identify problems with Monolith and SOA",
       "Learn what Microservices architecture is",
@@ -16,7 +16,7 @@
       "Understand differences between Cloud-Native and Traditional apps",
       "Role of Docker and Docker Compose in Microservices"
     ],
-    "topics": [
+    "description": [
       "What is a Monolith Application",
       "Service Oriented Architecture",
       "Problems with Service Oriented Architecture & Monolith",
@@ -37,14 +37,14 @@
     "icon": "🔒",
     "title": "Microservices Security",
     "level": "intermediate",
-    "description": [
+    "topics": [
       "Understand OAuth2 and problems it solves",
       "Explore OpenID Connect and IAM products like Keycloak",
       "Secure services with Client Credentials and Authorization Code flows",
       "Setup Keycloak Auth server and register clients",
       "Secure Gateway server and implement Authorization"
     ],
-    "topics": [
+    "description": [
       "What is Microservices Security",
       "Problems that OAuth2 solves",
       "What is OAuth2",
@@ -68,12 +68,12 @@
     "icon": "📩",
     "title": "JMS Messaging",
     "level": "beginner",
-    "description": [
+    "topics": [
       "Introduction to JMS basics",
       "Work with messages in ActiveMQ and Spring Boot",
       "Understand JMS data types and usage"
     ],
-    "topics": [
+    "description": [
       "Introduction to JMS",
       "Java Message Object",
       "Sending JMS Messages",
@@ -89,12 +89,12 @@
     "icon": "🛡️",
     "title": "Fault Tolerance with Resilience4j",
     "level": "intermediate",
-    "description": [
+    "topics": [
       "Learn Circuit Breaker patterns with Resilience4j",
       "Replace Hystrix with Resilience4j",
       "Configure and monitor Circuit Breaker in Spring Boot"
     ],
-    "topics": [
+    "description": [
       "Introduction to Fault Tolerance with Resilience4j",
       "Removing Hystrix Circuit Breaker",
       "Adding Resilience4j to Spring Boot Microservice",
@@ -110,13 +110,13 @@
     "icon": "🔍",
     "title": "Distributed Tracing with Micrometer and Zipkin",
     "level": "intermediate",
-    "description": [
+    "topics": [
       "Understand distributed tracing with Micrometer",
       "Log TraceId and SpanId",
       "Integrate tracing with Feign and RestTemplate",
       "Visualize traces in Zipkin Dashboard"
     ],
-    "topics": [
+    "description": [
       "Introduction to Distributed Tracing with Micrometer and Zipkin",
       "Micrometer Tracing Sampling Probability",
       "Logging TraceId and SpanId",
@@ -130,11 +130,11 @@
     "icon": "🌀",
     "title": "Circuit Breaker Pattern",
     "level": "intermediate",
-    "description": [
+    "topics": [
       "Overview of Circuit Breaker Pattern",
       "Use Resilience4j and Hystrix with Feign and Gateway"
     ],
-    "topics": [
+    "description": [
       "Circuit Breaker Pattern Overview",
       "Resilience4j Failover for Spring Cloud Gateway",
       "Using Hystrix Circuit Breaker with Feign Client",
@@ -146,11 +146,11 @@
     "icon": "🗃️",
     "title": "Microservices Design Patterns",
     "level": "advanced",
-    "description": [
+    "topics": [
       "Explore architecture, decomposition, refactoring, data management",
       "Transactional messaging and testing patterns"
     ],
-    "topics": [
+    "description": [
       "Application architecture patterns",
       "Monolithic architecture",
       "Microservice architecture",
@@ -220,12 +220,12 @@
     "icon": "📡",
     "title": "Event-Driven Architecture",
     "level": "advanced",
-    "description": [
+    "topics": [
       "Introduction to Event-Driven Architecture",
       "Understand Saga, CQRS, Event Sourcing patterns",
       "Learn message delivery semantics and guarantees"
     ],
-    "topics": [
+    "description": [
       "Introduction to Event-Driven Architecture",
       "Use Cases and Patterns of Event-Driven Architecture",
       "Saga Pattern",
@@ -240,11 +240,11 @@
     "icon": "🧪",
     "title": "Testing Microservices",
     "level": "intermediate",
-    "description": [
+    "topics": [
       "Understand Testing Pyramid for Microservices",
       "Explore contract tests and production testing"
     ],
-    "topics": [
+    "description": [
       "Testing Pyramid for Microservices - Introduction and Challenges",
       "Contract Tests and Production Testing",
       "Contract Tests Solutions"
@@ -255,11 +255,11 @@
     "icon": "📊",
     "title": "Observability in Microservices",
     "level": "advanced",
-    "description": [
+    "topics": [
       "Introduction to three pillars of observability",
       "Distributed Logging, Metrics, Tracing, Health checks"
     ],
-    "topics": [
+    "description": [
       "Introduction to the Three Pillars of Observability in Microservices",
       "Distributed Logging",
       "Metrics",
@@ -272,11 +272,11 @@
     "icon": "⛵",
     "title": "Helm and Kubernetes",
     "level": "advanced",
-    "description": [
+    "topics": [
       "Learn Helm basics and charts",
       "Install and manage services like Keycloak, Kafka, Prometheus, Grafana"
     ],
-    "topics": [
+    "description": [
       "Introduction to Helm & the problems that it solves",
       "Installing Helm",
       "Understanding Helm Chart structure",
@@ -294,11 +294,11 @@
     "icon": "🌐",
     "title": "Service Discovery & Load Balancing",
     "level": "intermediate",
-    "description": [
+    "topics": [
       "Learn service discovery in Kubernetes",
       "Setup discovery server and integrate services"
     ],
-    "topics": [
+    "description": [
       "Introduction to Server side service discovery and load balancing",
       "How to setup discovery server in K8s cluster using spring cloud kubernetes",
       "Install spring cloud kubernetes discovery server in K8s cluster",
@@ -311,13 +311,13 @@
     "icon": "📦",
     "title": "Distributed Systems & Containerization",
     "level": "advanced",
-    "description": [
+    "topics": [
       "Learn RPC, SOA, and Microservices in distributed systems",
       "Understand consistency models and distributed transactions",
       "Explore fault tolerance, scaling, and load balancing",
       "Dive into Docker, Kubernetes, and orchestration"
     ],
-    "topics": [
+    "description": [
       "Remote Procedure Call (RPC)",
       "Service-Oriented Architecture (SOA)",
       "Microservices Architecture",
