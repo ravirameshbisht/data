@@ -2,15 +2,27 @@
     "posts": [
         {
             "id": 1,
-            "title": "Work In Progress",
-            "excerpt": "Work In Progress",
+            "title": "7 Types of AI",
+            "excerpt": "Explore different categories of artificial intelligence with interactive demos",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "8 min read",
-            "category": "How Stuff Works",
+            "category": "Introduction",
             "featured": false,
             "views": "12.5K",
-            "url": "/blog-posts/ai/work-in-progress"
+            "url": "/blog-posts/ai/types-of-ai"
+        },
+		{
+            "id": 2,
+            "title": "Domains of AI",
+            "excerpt": "Explore different domains of artificial intelligence with interactive demos",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "Introduction",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/blog-posts/ai/domains-of-ai"
         }
     ]
 }
