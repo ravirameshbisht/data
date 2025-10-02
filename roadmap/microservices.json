@@ -227,7 +227,7 @@
     {
         "id": 14,
         "icon": "📦",
-        "title": "Distributed Systems & Containerization",
+        "title": "Distributed Systems & Containerization 1",
         "level": "advanced",
         "topics": [
             "Learn RPC, SOA, and Microservices in distributed systems",
@@ -245,7 +245,21 @@
             "Fault Tolerance (Replication, Redundancy, Fault Detection and Recovery)",
             "Distributed Databases",
             "Key-Value Stores",
-            "NoSQL Databases",
+            "NoSQL Databases"
+        ]
+    },
+    {
+        "id": 15,
+        "icon": "📦",
+        "title": "Distributed Systems & Containerization 2",
+        "level": "advanced",
+        "topics": [
+            "Learn RPC, SOA, and Microservices in distributed systems",
+            "Understand consistency models and distributed transactions",
+            "Explore fault tolerance, scaling, and load balancing",
+            "Dive into Docker, Kubernetes, and orchestration"
+        ],
+        "description": [
             "Horizontal Scaling",
             "Vertical Scaling",
             "Load Balancing Algorithms",
@@ -261,7 +275,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 16,
         "icon": "🗃️",
         "title": "Microservices Design Patterns 1",
         "level": "advanced",
@@ -282,7 +296,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 17,
         "icon": "🗃️",
         "title": "Microservices Design Patterns 2",
         "level": "advanced",
@@ -306,7 +320,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 18,
         "icon": "🗃️",
         "title": "Microservices Design Patterns 3",
         "level": "advanced",
@@ -330,7 +344,7 @@
         ]
     },
      {
-        "id": 18,
+        "id": 19,
         "icon": "🗃️",
         "title": "Microservices Design Patterns 4",
         "level": "advanced",
@@ -354,7 +368,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 2,
         "icon": "🗃️",
         "title": "Microservices Design Patterns 5",
         "level": "advanced",
