@@ -5,14 +5,24 @@
     "defaultResponse": "I'd be happy to help! For specific questions not covered in our FAQ, please contact our support team at support@company.com or try rephrasing your question. \n\nYou can also ask about:\n• Subscription plans and pricing\n• Available content\n• Billing information\n• Account management",
     "quickQuestions": [
         {
-            "icon": "📋",
-            "text": "Subscription Plans",
-            "question": "What subscription plans do you offer?"
+            "icon": "📚",
+            "text": "Content Format",
+            "question": "What is the format of the content being offered ?"
         },
         {
             "icon": "📚",
             "text": "Available Content",
-            "question": "What content is included?"
+            "question": "What content is included ?"
+        },
+        {
+            "icon": "📋",
+            "text": "Get Website Access",
+            "question": "How can I access the content ?"
+        },
+        {
+            "icon": "📋",
+            "text": "Support To Developer",
+            "question": "I am a support person, and wish to switch to developer, will this course help me ?"
         }
     ],
     "faqData": {
