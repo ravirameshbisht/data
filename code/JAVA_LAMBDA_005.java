@@ -1,4 +1,4 @@
-//Using a Custom Functional Interface 
+// Using a Custom Functional Interface 
 @FunctionalInterface
 interface Calculator {
     int calculate(int a, int b);
