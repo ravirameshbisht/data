@@ -114,10 +114,10 @@
         "title": "Distributed Tracing with Micrometer and Zipkin",
         "level": "intermediate",
         "topics": [
-            "Distributed tracing with Micrometer",
-            "Log TraceId and SpanId",
-            "Feign and RestTemplate",
-            "Zipkin Dashboard"
+            "Micrometer",
+            "Feign",
+            "RestTemplate",
+            "Zipkin"
         ],
         "description": [
             "Introduction to Distributed Tracing with Micrometer and Zipkin",
@@ -245,8 +245,7 @@
         "title": "Distributed Systems & Containerization 1",
         "level": "advanced",
         "topics": [
-            "RPC, SOA, and Microservices",
-            "Understand consistency models and distributed transactions",
+            "RPC, SOA",
             "fault tolerance",
             "scaling",
             "load balancing",
@@ -273,8 +272,7 @@
         "title": "Distributed Systems & Containerization 2",
         "level": "advanced",
         "topics": [
-            "RPC, SOA, and Microservices",
-            "Understand consistency models and distributed transactions",
+            "RPC, SOA",
             "fault tolerance",
             "scaling",
             "load balancing",
