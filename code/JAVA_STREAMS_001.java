@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.*;
 
-public class StreamExample {
+public class JAVA_STREAMS_001 {
     public static void main(String[] args) {
         // List of numbers
         List<Integer> numbers = Arrays.asList(3, 7, 2, 8, 5, 10, 6);
