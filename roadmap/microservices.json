@@ -5,16 +5,10 @@
     "title": "Introduction to Microservices",
     "level": "beginner",
     "topics": [
-      "Understand Monolith and Service-Oriented Architecture",
-      "Identify problems with Monolith and SOA",
-      "Learn what Microservices architecture is",
-      "Compare Monolith, SOA, and Microservices",
-      "Understand advantages and problems solved by Microservices",
-      "Approaches to identify microservice boundaries",
-      "Learn about Cloud Native apps and 15-factor methodology",
-      "Explore characteristics of Cloud-Native Applications",
-      "Understand differences between Cloud-Native and Traditional apps",
-      "Role of Docker and Docker Compose in Microservices"
+      "Monolith",
+      "Service-Oriented Architecture",
+      "Cloud Native apps",
+      "15-factor methodology",
     ],
     "description": [
       "What is a Monolith Application",
@@ -38,11 +32,9 @@
     "title": "Microservices Security",
     "level": "intermediate",
     "topics": [
-      "Understand OAuth2 and problems it solves",
-      "Explore OpenID Connect and IAM products like Keycloak",
-      "Secure services with Client Credentials and Authorization Code flows",
-      "Setup Keycloak Auth server and register clients",
-      "Secure Gateway server and implement Authorization"
+      "OAuth2",
+      "OpenID Connect",
+      "Keycloak",
     ],
     "description": [
       "What is Microservices Security",
@@ -69,9 +61,8 @@
     "title": "JMS Messaging",
     "level": "beginner",
     "topics": [
-      "Introduction to JMS basics",
-      "Work with messages in ActiveMQ and Spring Boot",
-      "Understand JMS data types and usage"
+      "JMS basics",
+      "ActiveMQ"
     ],
     "description": [
       "Introduction to JMS",
@@ -90,9 +81,8 @@
     "title": "Fault Tolerance with Resilience4j",
     "level": "intermediate",
     "topics": [
-      "Learn Circuit Breaker patterns with Resilience4j",
-      "Replace Hystrix with Resilience4j",
-      "Configure and monitor Circuit Breaker in Spring Boot"
+      "Resilience4j",
+      "Hystrix"
     ],
     "description": [
       "Introduction to Fault Tolerance with Resilience4j",
@@ -111,10 +101,10 @@
     "title": "Distributed Tracing with Micrometer and Zipkin",
     "level": "intermediate",
     "topics": [
-      "Understand distributed tracing with Micrometer",
+      "Distributed tracing with Micrometer",
       "Log TraceId and SpanId",
-      "Integrate tracing with Feign and RestTemplate",
-      "Visualize traces in Zipkin Dashboard"
+      "Feign and RestTemplate",
+      "Zipkin Dashboard"
     ],
     "description": [
       "Introduction to Distributed Tracing with Micrometer and Zipkin",
@@ -131,8 +121,8 @@
     "title": "Circuit Breaker Pattern",
     "level": "intermediate",
     "topics": [
-      "Overview of Circuit Breaker Pattern",
-      "Use Resilience4j and Hystrix with Feign and Gateway"
+      "Circuit Breaker Pattern",
+      "Resilience4j and Hystrix with Feign and Gateway"
     ],
     "description": [
       "Circuit Breaker Pattern Overview",
@@ -147,8 +137,12 @@
     "title": "Microservices Design Patterns",
     "level": "advanced",
     "topics": [
-      "Explore architecture, decomposition, refactoring, data management",
-      "Transactional messaging and testing patterns"
+      "architecture",
+	  "decomposition",
+      "refactoring",
+      "data management",
+      "Transactional messaging",
+	  "testing patterns"
     ],
     "description": [
       "Application architecture patterns",
@@ -221,9 +215,11 @@
     "title": "Event-Driven Architecture",
     "level": "advanced",
     "topics": [
-      "Introduction to Event-Driven Architecture",
-      "Understand Saga, CQRS, Event Sourcing patterns",
-      "Learn message delivery semantics and guarantees"
+      "Event-Driven Architecture",
+      "Saga",
+	  "CQRS",
+      "Event Sourcing patterns",
+      "message delivery"
     ],
     "description": [
       "Introduction to Event-Driven Architecture",
