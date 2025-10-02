@@ -54,9 +54,6 @@
             "What payment methods do you accept?",
             "When will I be charged?",
             "Can I get a refund?",
-            "How do I update my payment info?",
-            "Do you offer student discounts?",
-            "What happens if payment fails?"
         ]
     },
     "technical": {

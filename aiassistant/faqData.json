@@ -245,7 +245,7 @@
         ]
     },
     "free_trial": {
-        "answer": "<strong>Sorry we do not have free trial.</strong>",
+        "answer": "Sorry we do not have free trial currently.",
         "keywords": [
             "free",
             "trial",
@@ -256,7 +256,7 @@
         ]
     },
     "cancel_subscription": {
-        "answer": "<strong>Canceling is simple and hassle-free:</strong> Go to Account Settings > Subscription > Cancel Plan. Your access continues until the end of your current billing period. We'll ask for optional feedback to improve our service. You can reactivate anytime and keep all your previous data and progress.",
+        "answer": "<strong>This payment is not recurring</strong> Your access continues until the end of 3Months or 1Year. You can choose to not continue after this time period",
         "keywords": [
             "cancel",
             "subscription",
@@ -267,7 +267,7 @@
         ]
     },
     "payment_methods": {
-        "answer": "<strong>We accept multiple payment options:</strong><br>• All major credit cards (Visa, MasterCard, American Express, Discover)<br>• PayPal and PayPal Credit<br>• Bank transfers (ACH) for annual plans<br>• Apple Pay and Google Pay<br>• Corporate invoicing for business accounts<br>• Cryptocurrency (Bitcoin, Ethereum) for annual plans",
+        "answer": "<strong>We accept only UPI currenly:</strong><br>",
         "keywords": [
             "payment",
             "methods",
@@ -279,7 +279,7 @@
         ]
     },
     "billing_schedule": {
-        "answer": "<strong>Billing is simple and predictable:</strong> You're charged on the same date each month that you signed up. For example, if you subscribed on the 15th, you'll be billed on the 15th of each month. Annual subscribers are charged once per year. We send email reminders 3 days before each billing date.",
+        "answer": "This is not recurring payment, we do not charge you automatically. You need to reach out to us if you wish to renew it for another 3 months or 1 year",
         "keywords": [
             "charged",
             "billing",
@@ -290,7 +290,7 @@
         ]
     },
     "refund_policy": {
-        "answer": "<strong>30-day money-back guarantee!</strong> If you're not satisfied, request a full refund within 30 days of purchase. Refunds are processed within 5-7 business days to your original payment method. Annual subscribers get prorated refunds after 30 days. Contact support@company.com to initiate a refund.",
+        "answer": "Sorry, we do not have refund policy. Everyone liked our content so most of them upgrade from 3 months to 1 year",
         "keywords": [
             "refund",
             "money",
@@ -300,41 +300,8 @@
             "satisfied"
         ]
     },
-    "update_payment": {
-        "answer": "<strong>Updating payment info is quick:</strong> Go to Account Settings > Billing > Payment Methods. Add new cards, update expiration dates, or change your default payment method. Changes take effect immediately. We'll notify you if a payment fails and give you 7 days to update before any service interruption.",
-        "keywords": [
-            "update",
-            "payment",
-            "info",
-            "card",
-            "change",
-            "billing"
-        ]
-    },
-    "student_discount": {
-        "answer": "<strong>50% student discount available!</strong> Upload a photo of your current student ID or .edu email verification. Discount applies to Basic and Premium plans (Pro plan gets 25% off). Verification required annually. Discount continues as long as you're enrolled. Apply at checkout or in your account settings.",
-        "keywords": [
-            "student",
-            "discount",
-            "education",
-            "school",
-            "university",
-            "cheap"
-        ]
-    },
-    "payment_failure": {
-        "answer": "<strong>If payment fails, don't worry:</strong> We'll retry the payment 3 times over 7 days and send email notifications. Your account remains active during this period. If all retries fail, your account is temporarily suspended (not deleted). Update your payment method to reactivate instantly. No late fees or penalties!",
-        "keywords": [
-            "payment",
-            "fails",
-            "failure",
-            "declined",
-            "problem",
-            "issue"
-        ]
-    },
     "reset_password": {
-        "answer": "<strong>Password reset is easy:</strong> Click 'Forgot Password' on the login page, enter your email, and check your inbox for reset instructions. The link expires in 24 hours for security. If you don't see the email, check your spam folder. For persistent issues, contact support with your account email address.",
+        "answer": "There is no need to reset. Since it is Google OAUTH enabled",
         "keywords": [
             "reset",
             "password",
