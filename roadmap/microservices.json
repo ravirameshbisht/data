@@ -191,11 +191,10 @@
             "Distributed Logging, Metrics, Tracing, Health checks"
         ],
         "description": [
-            "Introduction to the Three Pillars of Observability in Microservices",
+            "Three Pillars of Observability",
             "Distributed Logging",
             "Metrics",
-            "Distributed Tracing",
-            "Distributed Tracing Solutions"
+            "Distributed Tracing"
         ]
     },
     {
@@ -204,8 +203,11 @@
         "title": "Helm and Kubernetes",
         "level": "advanced",
         "topics": [
-            "Learn Helm basics and charts",
-            "Install and manage services like Keycloak, Kafka, Prometheus, Grafana"
+            "Helm",
+            "Keycloak",
+            "Grafana",
+            "Prometheus",
+            "Grafana"
         ],
         "description": [
             "Introduction to Helm & the problems that it solves",
@@ -226,8 +228,8 @@
         "title": "Service Discovery & Load Balancing",
         "level": "intermediate",
         "topics": [
-            "Learn service discovery in Kubernetes",
-            "Setup discovery server and integrate services"
+            "Service discovery in Kubernetes",
+            "Discovery server"
         ],
         "description": [
             "Introduction to Server side service discovery and load balancing",
@@ -243,10 +245,14 @@
         "title": "Distributed Systems & Containerization 1",
         "level": "advanced",
         "topics": [
-            "Learn RPC, SOA, and Microservices in distributed systems",
+            "RPC, SOA, and Microservices",
             "Understand consistency models and distributed transactions",
-            "Explore fault tolerance, scaling, and load balancing",
-            "Dive into Docker, Kubernetes, and orchestration"
+            "fault tolerance",
+            "scaling",
+            "load balancing",
+            "Docker",
+            "Kubernetes",
+            "orchestration"
         ],
         "description": [
             "Remote Procedure Call (RPC)",
@@ -267,10 +273,14 @@
         "title": "Distributed Systems & Containerization 2",
         "level": "advanced",
         "topics": [
-            "Learn RPC, SOA, and Microservices in distributed systems",
+            "RPC, SOA, and Microservices",
             "Understand consistency models and distributed transactions",
-            "Explore fault tolerance, scaling, and load balancing",
-            "Dive into Docker, Kubernetes, and orchestration"
+            "fault tolerance",
+            "scaling",
+            "load balancing",
+            "Docker",
+            "Kubernetes",
+            "orchestration"
         ],
         "description": [
             "Horizontal Scaling",
