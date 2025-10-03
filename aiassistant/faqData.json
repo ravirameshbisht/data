@@ -214,17 +214,6 @@
             "monthly"
         ]
     },
-    "refund_policy": {
-        "answer": "Sorry, we do not have refund policy. Everyone liked our content so most of them upgrade from 3 months to 1 year",
-        "keywords": [
-            "refund",
-            "money",
-            "back",
-            "return",
-            "guarantee",
-            "satisfied"
-        ]
-    },
     "reset_password": {
         "answer": "There is no need to reset. Since it is Google OAUTH enabled",
         "keywords": [

@@ -46,8 +46,7 @@
         "icon": "💳",
         "questions": [
             "What payment methods do you accept?",
-            "When will I be charged?",
-            "Can I get a refund?"
+            "When will I be charged?"
         ]
     },
     "technical": {
