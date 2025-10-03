@@ -79,28 +79,6 @@
             "often"
         ]
     },
-    "offline_content": {
-        "answer": "<strong>Yes, offline access available!</strong> Premium and Pro subscribers can download articles as PDFs, videos for offline viewing, and audio versions for listening on-the-go. Downloaded content stays available for 30 days. Perfect for commuting, traveling, or areas with poor internet connection.",
-        "keywords": [
-            "download",
-            "offline",
-            "access",
-            "mobile",
-            "save",
-            "local"
-        ]
-    },
-    "premium_content": {
-        "answer": "<strong>Exclusive premium content includes:</strong><br>• Advanced masterclasses with industry leaders<br>• Behind-the-scenes company case studies<br>• Early access to new releases<br>• Premium-only community forums<br>• One-on-one expert consultations (Pro plan)<br>• Exclusive templates and tools<br>• Ad-free experience",
-        "keywords": [
-            "premium",
-            "exclusive",
-            "special",
-            "advanced",
-            "pro",
-            "extra"
-        ]
-    },
     "content_formats": {
         "answer": "<strong>Only one format:</strong><br>• Frequently asked Question and answers<br>• Scenario based Question and answers<br>• Coding practice",
         "keywords": [
