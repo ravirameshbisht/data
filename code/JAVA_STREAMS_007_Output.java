@@ -1,0 +1,1 @@
+Employee with highest salary: Employee{name='Diana', salary=90000.0}
