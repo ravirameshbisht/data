@@ -102,7 +102,7 @@
         ]
     },
     "content_formats": {
-        "answer": "<strong>Only one format:</strong><br>• Question and answers<br>• Coding practice",
+        "answer": "<strong>Only one format:</strong><br>• Frequently asked Question and answers<br>• Scenario based Question and answers<br>• Coding practice",
         "keywords": [
             "formats",
             "types",
