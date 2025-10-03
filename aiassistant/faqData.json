@@ -57,72 +57,8 @@
             "why"
         ]
     },
-    "technical_interviews": {
-        "answer": "<strong>Technical interview success strategy:</strong> Practice coding problems daily on platforms like LeetCode. Review fundamental concepts (data structures, algorithms, system design). Do mock interviews with peers. Prepare a portfolio of your best projects. Practice explaining your thought process out loud - interviewers want to see how you think!",
-        "keywords": [
-            "technical",
-            "interviews",
-            "coding",
-            "prepare",
-            "programming"
-        ]
-    },
-    "common_questions": {
-        "answer": "<strong>Most common interview questions:</strong><br>• 'Tell me about yourself' - Prepare a 2-minute professional summary<br>• 'Why do you want this job?' - Research the company and role<br>• 'What are your strengths/weaknesses?' - Be honest but strategic<br>• 'Where do you see yourself in 5 years?' - Show ambition and alignment<br>• 'Why are you leaving your current job?' - Stay positive",
-        "keywords": [
-            "common",
-            "questions",
-            "interview",
-            "typical",
-            "frequent",
-            "asked"
-        ]
-    },
-    "dress_code": {
-        "answer": "<strong>Dressing for success:</strong> When in doubt, dress one level above the company's daily dress code. For corporate environments: business formal (suit and tie). For startups/tech: business casual (dress shirt, slacks, no tie needed). Always ensure clothes are clean, well-fitted, and wrinkle-free. Pay attention to grooming details.",
-        "keywords": [
-            "dress",
-            "clothing",
-            "attire",
-            "wear",
-            "outfit",
-            "appearance"
-        ]
-    },
-    "interviewer_questions": {
-        "answer": "<strong>Great questions to ask interviewers:</strong><br>• 'What does success look like in this role?'<br>• 'What are the biggest challenges facing the team?'<br>• 'How do you measure performance?'<br>• 'What's the company culture like?'<br>• 'What opportunities are there for growth?'<br>• 'What do you enjoy most about working here?'",
-        "keywords": [
-            "questions",
-            "ask",
-            "interviewer",
-            "employer",
-            "company"
-        ]
-    },
-    "behavioral_questions": {
-        "answer": "<strong>Master behavioral questions with the STAR method:</strong><br><strong>S</strong>ituation - Set the context<br><strong>T</strong>ask - Explain what needed to be done<br><strong>A</strong>ction - Describe what you did<br><strong>R</strong>esult - Share the outcome<br><br>Prepare 5-7 stories that showcase different skills like leadership, problem-solving, teamwork, and conflict resolution.",
-        "keywords": [
-            "behavioral",
-            "questions",
-            "star",
-            "method",
-            "examples",
-            "stories"
-        ]
-    },
-    "interview_items": {
-        "answer": "<strong>Essential items to bring:</strong><br>• Multiple copies of your resume (5-10)<br>• List of references with contact info<br>• Portfolio of your work (if applicable)<br>• Notepad and professional pen<br>• Questions you want to ask<br>• Directions and contact info<br>• Breath mints and tissues<br>• Arrive 10-15 minutes early!",
-        "keywords": [
-            "bring",
-            "items",
-            "resume",
-            "portfolio",
-            "documents",
-            "materials"
-        ]
-    },
     "content_included": {
-        "answer": "<strong>Our comprehensive content library includes:</strong><br>• 10,000+ premium articles and guides<br>• 500+ HD video tutorials<br>• Interactive workshops and webinars<br>• Expert interviews and case studies<br>• Downloadable templates and checklists<br>• Community forums and Q&A sessions<br>• Certification courses with badges",
+        "answer": "<strong>Our comprehensive content library includes:</strong><br>• 600+ premium question and answers",
         "keywords": [
             "content",
             "included",
@@ -132,7 +68,7 @@
         ]
     },
     "new_content": {
-        "answer": "<strong>Fresh content every week!</strong> We add 20-30 new articles, 5-10 videos, and 2-3 expert interviews weekly. Premium subscribers get early access (48 hours before Basic users). We also host monthly live webinars and quarterly expert panels. Content calendar is available in your dashboard.",
+        "answer": "<strong>Fresh content every 2 days!</strong> We add new question and answers asked in recent interviews",
         "keywords": [
             "new",
             "content",
@@ -166,7 +102,7 @@
         ]
     },
     "content_formats": {
-        "answer": "<strong>Multiple formats for every learning style:</strong><br>• Written articles (short & long-form)<br>• HD video tutorials (5-60 minutes)<br>• Audio podcasts and interviews<br>• Interactive infographics<br>• Downloadable PDFs and eBooks<br>• Live webinars and Q&A sessions<br>• Mobile-optimized content",
+        "answer": "<strong>Only one format:</strong><br>• Question and answers<br>• Coding practice",
         "keywords": [
             "formats",
             "types",
