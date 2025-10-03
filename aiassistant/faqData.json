@@ -12,7 +12,7 @@
         ]
     },
     "business_hours": {
-        "answer": "Our <strong>customer support</strong> is available Monday through Friday, 7:00 AM to 11:59 PM EST. However, our platform is accessible 24/7 !",
+        "answer": "<strong>We</strong> are available Monday through Sunday, 7:00 AM to 11:59 PM IST. However, our platform is accessible 24/7 !",
         "keywords": [
             "business",
             "hours",
@@ -24,7 +24,7 @@
         ]
     },
     "mobile_app": {
-        "answer": "Yes! We do not have<strong>mobile apps</strong> currenly. Although website works fine on mobile browswers.",
+        "answer": "No! We do not have<strong>mobile apps</strong> currenly. Although website works fine on mobile browsers.",
         "keywords": [
             "mobile",
             "app",
@@ -237,7 +237,7 @@
         ]
     },
     "account_access": {
-        "answer": "<strong>Can't access your account? Try these steps:</strong><br>1. Clear your browser cache and cookies<br>2. Try a different browser or incognito mode<br>3. Check if your subscription is active<br>4. Verify your email address<br>5. Reset your password<br><br>Still having trouble? Contact our support team with your account details.",
+        "answer": "<strong>Can't access your account? Are you getting 404 error ? Try these steps:</strong><br>If yes, then you are logged in with a different gmail id on your browser. Or your access would have finished.",
         "keywords": [
             "access",
             "account",
@@ -248,31 +248,8 @@
             "problem"
         ]
     },
-    "app_problems": {
-        "answer": "<strong>App troubleshooting steps:</strong><br>1. Force close and restart the app<br>2. Check for app updates in your app store<br>3. Restart your device<br>4. Clear app cache (Android) or reinstall (iOS)<br>5. Check your internet connection<br>6. Ensure you have the latest OS version<br><br>Still not working? Contact support with your device model and OS version.",
-        "keywords": [
-            "app",
-            "not",
-            "working",
-            "problems",
-            "issues",
-            "broken",
-            "crashes"
-        ]
-    },
-    "update_app": {
-        "answer": "<strong>Keeping your app updated:</strong> Enable automatic updates in your App Store (iOS) or Google Play Store (Android) settings. Manual updates: Open your app store, search for our app, and tap 'Update' if available. We release updates monthly with new features and bug fixes. Current version info is in app settings.",
-        "keywords": [
-            "update",
-            "app",
-            "version",
-            "latest",
-            "new",
-            "upgrade"
-        ]
-    },
     "multiple_devices": {
-        "answer": "<strong>Yes! Use multiple devices seamlessly:</strong><br>• Basic plan: 2 devices<br>• Premium plan: 5 devices<br>• Pro plan: Unlimited devices<br><br>Your progress syncs automatically across all devices. Log in with the same account credentials. If you exceed your device limit, you'll be prompted to remove an old device. Switching devices doesn't affect your subscription.",
+        "answer": "<strong>Yes! You can use on multiple devices seamlessly:</strong>",
         "keywords": [
             "multiple",
             "devices",
@@ -284,7 +261,7 @@
         ]
     },
     "contact_support": {
-        "answer": "<strong>Multiple ways to reach our support team:</strong><br>• Email: support@company.com (response within 24 hours)<br>• Live chat: Available 24/7 in your account dashboard<br>• Phone: 1-800-SUPPORT (Mon-Fri, 9AM-6PM EST)<br>• Help center: Comprehensive FAQ and tutorials<br>• Community forums: Get help from other users<br><br>Premium/Pro users get priority support!",
+        "answer": "<strong>Only 1 way currently to reach our us:</strong><br>• Whatsapp: +91 9686945757 (Mon-Sunday, 7AM-11:59PM IST)<br>",
         "keywords": [
             "contact",
             "support",
