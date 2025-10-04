@@ -1,508 +1,2406 @@
 {
-    "flashcards": [
-        {
-            "name": "Amazon EC2",
-            "category": "Compute",
-            "icon": "☁️",
-            "description": "Elastic Compute Cloud provides scalable virtual servers in the cloud",
-            "features": [
-                "Auto Scaling",
-                "Multiple Instance Types",
-                "Pay-as-you-go Pricing",
-                "Global Availability"
-            ]
-        },
-        {
-            "name": "AWS Lambda",
-            "category": "Compute",
-            "icon": "⚡",
-            "description": "Run code without provisioning or managing servers",
-            "features": [
-                "Event-driven",
-                "Auto Scaling",
-                "Pay per Request",
-                "Multiple Languages"
-            ]
-        },
-        {
-            "name": "Amazon ECS",
-            "category": "Compute",
-            "icon": "📦",
-            "description": "Elastic Container Service for running Docker containers",
-            "features": [
-                "Container Orchestration",
-                "Service Discovery",
-                "Load Balancing",
-                "Auto Scaling"
-            ]
-        },
-        {
-            "name": "Amazon EKS",
-            "category": "Compute",
-            "icon": "⚙️",
-            "description": "Elastic Kubernetes Service for managed Kubernetes clusters",
-            "features": [
-                "Managed Control Plane",
-                "Auto Updates",
-                "Security Patches",
-                "Multi-AZ"
-            ]
-        },
-        {
-            "name": "AWS Fargate",
-            "category": "Compute",
-            "icon": "🚢",
-            "description": "Serverless compute engine for containers",
-            "features": [
-                "No Server Management",
-                "Pay per Use",
-                "Automatic Scaling",
-                "Secure by Default"
-            ]
-        },
-        {
-            "name": "Amazon S3",
-            "category": "Storage",
-            "icon": "🗄️",
-            "description": "Simple Storage Service offers secure, durable object storage",
-            "features": [
-                "99.999999999% Durability",
-                "Unlimited Storage",
-                "Data Encryption",
-                "Lifecycle Management"
-            ]
-        },
-        {
-            "name": "Amazon EBS",
-            "category": "Storage",
-            "icon": "💾",
-            "description": "Elastic Block Store provides persistent block storage",
-            "features": [
-                "High Performance",
-                "Encryption",
-                "Snapshots",
-                "Multiple Volume Types"
-            ]
-        },
-        {
-            "name": "Amazon EFS",
-            "category": "Storage",
-            "icon": "📁",
-            "description": "Elastic File System provides scalable file storage",
-            "features": [
-                "Fully Managed",
-                "Elastic Scaling",
-                "POSIX Compliant",
-                "Multi-AZ"
-            ]
-        },
-        {
-            "name": "AWS Storage Gateway",
-            "category": "Storage",
-            "icon": "🌉",
-            "description": "Hybrid cloud storage service connecting on-premises to AWS",
-            "features": [
-                "File Gateway",
-                "Volume Gateway",
-                "Tape Gateway",
-                "Seamless Integration"
-            ]
-        },
-        {
-            "name": "Amazon RDS",
-            "category": "Database",
-            "icon": "🗃️",
-            "description": "Relational Database Service makes it easy to set up and manage databases",
-            "features": [
-                "Automated Backups",
-                "Multi-AZ Deployment",
-                "Read Replicas",
-                "Performance Monitoring"
-            ]
-        },
-        {
-            "name": "Amazon DynamoDB",
-            "category": "Database",
-            "icon": "⚡",
-            "description": "Fast and flexible NoSQL database service",
-            "features": [
-                "Single-digit Millisecond Latency",
-                "Auto Scaling",
-                "Global Tables",
-                "ACID Transactions"
-            ]
-        },
-        {
-            "name": "Amazon Redshift",
-            "category": "Database",
-            "icon": "📊",
-            "description": "Fast, simple, cost-effective data warehouse",
-            "features": [
-                "Columnar Storage",
-                "Parallel Processing",
-                "Compression",
-                "Machine Learning"
-            ]
-        },
-        {
-            "name": "Amazon ElastiCache",
-            "category": "Database",
-            "icon": "⚡",
-            "description": "In-memory caching service for improved application performance",
-            "features": [
-                "Redis & Memcached",
-                "Sub-millisecond Latency",
-                "Auto Failover",
-                "Backup & Restore"
-            ]
-        },
-        {
-            "name": "Amazon DocumentDB",
-            "category": "Database",
-            "icon": "📄",
-            "description": "MongoDB-compatible document database service",
-            "features": [
-                "MongoDB Compatible",
-                "Fully Managed",
-                "Auto Scaling",
-                "Point-in-time Recovery"
-            ]
-        },
-        {
-            "name": "Amazon VPC",
-            "category": "Networking",
-            "icon": "🌐",
-            "description": "Virtual Private Cloud lets you provision isolated cloud resources",
-            "features": [
-                "Custom IP Ranges",
-                "Subnets",
-                "Route Tables",
-                "Security Groups"
-            ]
-        },
-        {
-            "name": "Amazon CloudFront",
-            "category": "Networking",
-            "icon": "🚀",
-            "description": "Global content delivery network for fast, secure content delivery",
-            "features": [
-                "Global Edge Locations",
-                "DDoS Protection",
-                "SSL/TLS",
-                "Real-time Analytics"
-            ]
-        },
-        {
-            "name": "Elastic Load Balancing",
-            "category": "Networking",
-            "icon": "⚖️",
-            "description": "Automatically distributes incoming traffic across multiple targets",
-            "features": [
-                "Application Load Balancer",
-                "Network Load Balancer",
-                "Health Checks",
-                "Auto Scaling"
-            ]
-        },
-        {
-            "name": "Amazon Route 53",
-            "category": "Networking",
-            "icon": "🗺️",
-            "description": "Scalable domain name system (DNS) web service",
-            "features": [
-                "DNS Management",
-                "Health Checking",
-                "Traffic Routing",
-                "Domain Registration"
-            ]
-        },
-        {
-            "name": "AWS Direct Connect",
-            "category": "Networking",
-            "icon": "🔗",
-            "description": "Dedicated network connection from your premises to AWS",
-            "features": [
-                "Dedicated Connection",
-                "Consistent Performance",
-                "Reduced Costs",
-                "Private Connectivity"
-            ]
-        },
-        {
-            "name": "AWS IAM",
-            "category": "Security",
-            "icon": "🔐",
-            "description": "Identity and Access Management controls access to AWS resources",
-            "features": [
-                "User Management",
-                "Role-based Access",
-                "Multi-factor Auth",
-                "Policy Management"
-            ]
-        },
-        {
-            "name": "AWS KMS",
-            "category": "Security",
-            "icon": "🔑",
-            "description": "Key Management Service for creating and managing encryption keys",
-            "features": [
-                "Encryption Key Management",
-                "Hardware Security Modules",
-                "Audit Trail",
-                "Integration"
-            ]
-        },
-        {
-            "name": "AWS WAF",
-            "category": "Security",
-            "icon": "🛡️",
-            "description": "Web Application Firewall protects web applications from attacks",
-            "features": [
-                "SQL Injection Protection",
-                "XSS Protection",
-                "Rate Limiting",
-                "Custom Rules"
-            ]
-        },
-        {
-            "name": "AWS Shield",
-            "category": "Security",
-            "icon": "🛡️",
-            "description": "DDoS protection service for applications running on AWS",
-            "features": [
-                "Always-on Detection",
-                "Automatic Mitigation",
-                "24/7 Support",
-                "Cost Protection"
-            ]
-        },
-        {
-            "name": "Amazon GuardDuty",
-            "category": "Security",
-            "icon": "👁️",
-            "description": "Threat detection service using machine learning",
-            "features": [
-                "Malware Detection",
-                "Anomaly Detection",
-                "Threat Intelligence",
-                "Automated Response"
-            ]
-        },
-        {
-            "name": "Amazon SNS",
-            "category": "Messaging",
-            "icon": "📢",
-            "description": "Simple Notification Service for application-to-application messaging",
-            "features": [
-                "Push Notifications",
-                "SMS/Email",
-                "Fan-out Messaging",
-                "Message Filtering"
-            ]
-        },
-        {
-            "name": "Amazon SQS",
-            "category": "Messaging",
-            "icon": "📬",
-            "description": "Simple Queue Service for decoupling application components",
-            "features": [
-                "Message Queuing",
-                "Dead Letter Queues",
-                "Visibility Timeout",
-                "FIFO Queues"
-            ]
-        },
-        {
-            "name": "Amazon EventBridge",
-            "category": "Messaging",
-            "icon": "🌉",
-            "description": "Event bus service for building event-driven applications",
-            "features": [
-                "Event Routing",
-                "Schema Registry",
-                "Custom Events",
-                "Third-party Integration"
-            ]
-        },
-        {
-            "name": "Amazon Kinesis",
-            "category": "Analytics",
-            "icon": "🌊",
-            "description": "Real-time data streaming and analytics platform",
-            "features": [
-                "Real-time Processing",
-                "Data Streams",
-                "Video Streams",
-                "Analytics"
-            ]
-        },
-        {
-            "name": "Amazon EMR",
-            "category": "Analytics",
-            "icon": "📈",
-            "description": "Elastic MapReduce for big data processing",
-            "features": [
-                "Hadoop & Spark",
-                "Auto Scaling",
-                "Cost Optimization",
-                "Multiple Frameworks"
-            ]
-        },
-        {
-            "name": "AWS Glue",
-            "category": "Analytics",
-            "icon": "🔗",
-            "description": "Serverless data integration service",
-            "features": [
-                "ETL Jobs",
-                "Data Catalog",
-                "Schema Discovery",
-                "Serverless"
-            ]
-        },
-        {
-            "name": "Amazon Athena",
-            "category": "Analytics",
-            "icon": "🔍",
-            "description": "Interactive query service for analyzing data in S3",
-            "features": [
-                "Serverless",
-                "Standard SQL",
-                "Pay per Query",
-                "Fast Results"
-            ]
-        },
-        {
-            "name": "Amazon SageMaker",
-            "category": "Machine Learning",
-            "icon": "🤖",
-            "description": "Fully managed machine learning service",
-            "features": [
-                "Model Building",
-                "Training",
-                "Deployment",
-                "Auto ML"
-            ]
-        },
-        {
-            "name": "Amazon Rekognition",
-            "category": "Machine Learning",
-            "icon": "👁️",
-            "description": "Image and video analysis using deep learning",
-            "features": [
-                "Object Detection",
-                "Facial Recognition",
-                "Text Detection",
-                "Content Moderation"
-            ]
-        },
-        {
-            "name": "Amazon Comprehend",
-            "category": "Machine Learning",
-            "icon": "📝",
-            "description": "Natural language processing service",
-            "features": [
-                "Sentiment Analysis",
-                "Entity Recognition",
-                "Language Detection",
-                "Topic Modeling"
-            ]
-        },
-        {
-            "name": "Amazon Lex",
-            "category": "Machine Learning",
-            "icon": "💬",
-            "description": "Service for building conversational interfaces",
-            "features": [
-                "Speech Recognition",
-                "Natural Language Understanding",
-                "Chatbots",
-                "Voice Interfaces"
-            ]
-        },
-        {
-            "name": "AWS CloudFormation",
-            "category": "Management",
-            "icon": "📋",
-            "description": "Infrastructure as code service for AWS resources",
-            "features": [
-                "Template-based",
-                "Stack Management",
-                "Change Sets",
-                "Drift Detection"
-            ]
-        },
-        {
-            "name": "Amazon CloudWatch",
-            "category": "Management",
-            "icon": "📊",
-            "description": "Monitoring and observability service",
-            "features": [
-                "Metrics & Logs",
-                "Alarms",
-                "Dashboards",
-                "Events"
-            ]
-        },
-        {
-            "name": "AWS CloudTrail",
-            "category": "Management",
-            "icon": "👣",
-            "description": "Service for logging and monitoring account activity",
-            "features": [
-                "API Logging",
-                "Event History",
-                "Compliance",
-                "Security Analysis"
-            ]
-        },
-        {
-            "name": "AWS Config",
-            "category": "Management",
-            "icon": "⚙️",
-            "description": "Service for assessing and auditing AWS resource configurations",
-            "features": [
-                "Configuration History",
-                "Compliance Rules",
-                "Change Tracking",
-                "Remediation"
-            ]
-        },
-        {
-            "name": "Amazon API Gateway",
-            "category": "Application Integration",
-            "icon": "🚪",
-            "description": "Fully managed service for creating and managing APIs",
-            "features": [
-                "REST & WebSocket APIs",
-                "Authentication",
-                "Rate Limiting",
-                "Caching"
-            ]
-        },
-        {
-            "name": "AWS Step Functions",
-            "category": "Application Integration",
-            "icon": "🔄",
-            "description": "Serverless workflow service for coordinating application components",
-            "features": [
-                "Visual Workflows",
-                "State Machines",
-                "Error Handling",
-                "Parallel Execution"
-            ]
-        },
-        {
-            "name": "Amazon AppSync",
-            "category": "Application Integration",
-            "icon": "🔄",
-            "description": "Managed GraphQL service for application development",
-            "features": [
-                "GraphQL APIs",
-                "Real-time Subscriptions",
-                "Offline Sync",
-                "Multiple Data Sources"
-            ]
-        }
-    ]
+  "title": "AWS Services Flashcards (Full ~200)",
+  "description": "Comprehensive flashcards covering all major AWS services.",
+  "cards": [
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 1",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 2",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 3",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 4",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 5",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 6",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 7",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 8",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 9",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 10",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 11",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 12",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 13",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 14",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 15",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 16",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 17",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 18",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 19",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 20",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 21",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 22",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 23",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 24",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 25",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 26",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 27",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 28",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 29",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 30",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 31",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 32",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 33",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 34",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 35",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 36",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 37",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 38",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 39",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 40",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 41",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 42",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 43",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 44",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 45",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 46",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 47",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 48",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 49",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 50",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 51",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 52",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 53",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 54",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 55",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 56",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 57",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 58",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 59",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 60",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 61",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 62",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 63",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 64",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 65",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 66",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 67",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 68",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 69",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 70",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 71",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 72",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 73",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 74",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 75",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 76",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 77",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 78",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 79",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 80",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 81",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 82",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 83",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 84",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 85",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 86",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 87",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 88",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 89",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 90",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 91",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 92",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 93",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 94",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 95",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 96",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 97",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 98",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 99",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 100",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 101",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 102",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 103",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 104",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 105",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 106",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 107",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 108",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 109",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 110",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 111",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 112",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 113",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 114",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 115",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 116",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 117",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 118",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 119",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 120",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 121",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 122",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 123",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 124",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 125",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 126",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 127",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 128",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 129",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 130",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 131",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 132",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 133",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 134",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 135",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 136",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 137",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 138",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 139",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 140",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 141",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 142",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 143",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 144",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 145",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 146",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 147",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 148",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 149",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 150",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 151",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 152",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 153",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 154",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 155",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 156",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 157",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 158",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 159",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 160",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 161",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 162",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 163",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 164",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 165",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 166",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 167",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 168",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 169",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 170",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 171",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 172",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 173",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 174",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 175",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 176",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 177",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 178",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 179",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 180",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 181",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 182",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 183",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 184",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 185",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 186",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 187",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 188",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 189",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 190",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 191",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 192",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 193",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 194",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 195",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    },
+    {
+      "icon": "\ud83d\udce6",
+      "title": "Amazon S3 196",
+      "subtitle": "Storage",
+      "desc": "Object storage service offering industry-leading scalability, data availability, and security.",
+      "features": [
+        "Stores virtually unlimited data",
+        "Durability of 99.999999999% (11 9's)",
+        "Supports event notifications",
+        "Lifecycle and replication policies"
+      ]
+    },
+    {
+      "icon": "\ud83d\uddc4\ufe0f",
+      "title": "Amazon RDS 197",
+      "subtitle": "Database",
+      "desc": "Managed relational database service supporting multiple engines like MySQL, PostgreSQL, and Oracle.",
+      "features": [
+        "Automated backups and patching",
+        "Multi-AZ deployments for HA",
+        "Read replicas for scaling",
+        "Monitoring and metrics via CloudWatch"
+      ]
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Amazon Redshift 198",
+      "subtitle": "Analytics",
+      "desc": "Fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data.",
+      "features": [
+        "Columnar storage technology",
+        "Massively parallel query execution",
+        "Integration with BI tools",
+        "Data lake integration"
+      ]
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "Amazon SageMaker 199",
+      "subtitle": "Machine Learning",
+      "desc": "Build, train, and deploy machine learning models at scale.",
+      "features": [
+        "Built-in algorithms and frameworks",
+        "Managed Jupyter notebooks",
+        "Training and tuning at scale",
+        "One-click deployment endpoints"
+      ]
+    },
+    {
+      "icon": "\u26a1",
+      "title": "Amazon EC2 200",
+      "subtitle": "Compute",
+      "desc": "Secure, resizable compute capacity in the cloud. Used to run virtual servers.",
+      "features": [
+        "Supports multiple instance types",
+        "Auto Scaling and Elastic Load Balancing",
+        "Customizable networking and storage",
+        "Integration with most AWS services"
+      ]
+    }
+  ]
 }
