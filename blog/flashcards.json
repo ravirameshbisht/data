@@ -1,0 +1,16 @@
+{
+    "quizzes": [
+        {
+            "id": 1,
+            "title": "All Java Features",
+            "excerpt": "All Java Features",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "8 min read",
+            "category": "OOP",
+            "featured": false,
+            "views": "12.5K",
+            "url": "/flashcards/java-features"
+        }
+    ]
+}
