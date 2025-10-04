@@ -1,0 +1,508 @@
+{
+    "flashcards": [
+        {
+            "name": "Amazon EC2",
+            "category": "Compute",
+            "icon": "☁️",
+            "description": "Elastic Compute Cloud provides scalable virtual servers in the cloud",
+            "features": [
+                "Auto Scaling",
+                "Multiple Instance Types",
+                "Pay-as-you-go Pricing",
+                "Global Availability"
+            ]
+        },
+        {
+            "name": "AWS Lambda",
+            "category": "Compute",
+            "icon": "⚡",
+            "description": "Run code without provisioning or managing servers",
+            "features": [
+                "Event-driven",
+                "Auto Scaling",
+                "Pay per Request",
+                "Multiple Languages"
+            ]
+        },
+        {
+            "name": "Amazon ECS",
+            "category": "Compute",
+            "icon": "📦",
+            "description": "Elastic Container Service for running Docker containers",
+            "features": [
+                "Container Orchestration",
+                "Service Discovery",
+                "Load Balancing",
+                "Auto Scaling"
+            ]
+        },
+        {
+            "name": "Amazon EKS",
+            "category": "Compute",
+            "icon": "⚙️",
+            "description": "Elastic Kubernetes Service for managed Kubernetes clusters",
+            "features": [
+                "Managed Control Plane",
+                "Auto Updates",
+                "Security Patches",
+                "Multi-AZ"
+            ]
+        },
+        {
+            "name": "AWS Fargate",
+            "category": "Compute",
+            "icon": "🚢",
+            "description": "Serverless compute engine for containers",
+            "features": [
+                "No Server Management",
+                "Pay per Use",
+                "Automatic Scaling",
+                "Secure by Default"
+            ]
+        },
+        {
+            "name": "Amazon S3",
+            "category": "Storage",
+            "icon": "🗄️",
+            "description": "Simple Storage Service offers secure, durable object storage",
+            "features": [
+                "99.999999999% Durability",
+                "Unlimited Storage",
+                "Data Encryption",
+                "Lifecycle Management"
+            ]
+        },
+        {
+            "name": "Amazon EBS",
+            "category": "Storage",
+            "icon": "💾",
+            "description": "Elastic Block Store provides persistent block storage",
+            "features": [
+                "High Performance",
+                "Encryption",
+                "Snapshots",
+                "Multiple Volume Types"
+            ]
+        },
+        {
+            "name": "Amazon EFS",
+            "category": "Storage",
+            "icon": "📁",
+            "description": "Elastic File System provides scalable file storage",
+            "features": [
+                "Fully Managed",
+                "Elastic Scaling",
+                "POSIX Compliant",
+                "Multi-AZ"
+            ]
+        },
+        {
+            "name": "AWS Storage Gateway",
+            "category": "Storage",
+            "icon": "🌉",
+            "description": "Hybrid cloud storage service connecting on-premises to AWS",
+            "features": [
+                "File Gateway",
+                "Volume Gateway",
+                "Tape Gateway",
+                "Seamless Integration"
+            ]
+        },
+        {
+            "name": "Amazon RDS",
+            "category": "Database",
+            "icon": "🗃️",
+            "description": "Relational Database Service makes it easy to set up and manage databases",
+            "features": [
+                "Automated Backups",
+                "Multi-AZ Deployment",
+                "Read Replicas",
+                "Performance Monitoring"
+            ]
+        },
+        {
+            "name": "Amazon DynamoDB",
+            "category": "Database",
+            "icon": "⚡",
+            "description": "Fast and flexible NoSQL database service",
+            "features": [
+                "Single-digit Millisecond Latency",
+                "Auto Scaling",
+                "Global Tables",
+                "ACID Transactions"
+            ]
+        },
+        {
+            "name": "Amazon Redshift",
+            "category": "Database",
+            "icon": "📊",
+            "description": "Fast, simple, cost-effective data warehouse",
+            "features": [
+                "Columnar Storage",
+                "Parallel Processing",
+                "Compression",
+                "Machine Learning"
+            ]
+        },
+        {
+            "name": "Amazon ElastiCache",
+            "category": "Database",
+            "icon": "⚡",
+            "description": "In-memory caching service for improved application performance",
+            "features": [
+                "Redis & Memcached",
+                "Sub-millisecond Latency",
+                "Auto Failover",
+                "Backup & Restore"
+            ]
+        },
+        {
+            "name": "Amazon DocumentDB",
+            "category": "Database",
+            "icon": "📄",
+            "description": "MongoDB-compatible document database service",
+            "features": [
+                "MongoDB Compatible",
+                "Fully Managed",
+                "Auto Scaling",
+                "Point-in-time Recovery"
+            ]
+        },
+        {
+            "name": "Amazon VPC",
+            "category": "Networking",
+            "icon": "🌐",
+            "description": "Virtual Private Cloud lets you provision isolated cloud resources",
+            "features": [
+                "Custom IP Ranges",
+                "Subnets",
+                "Route Tables",
+                "Security Groups"
+            ]
+        },
+        {
+            "name": "Amazon CloudFront",
+            "category": "Networking",
+            "icon": "🚀",
+            "description": "Global content delivery network for fast, secure content delivery",
+            "features": [
+                "Global Edge Locations",
+                "DDoS Protection",
+                "SSL/TLS",
+                "Real-time Analytics"
+            ]
+        },
+        {
+            "name": "Elastic Load Balancing",
+            "category": "Networking",
+            "icon": "⚖️",
+            "description": "Automatically distributes incoming traffic across multiple targets",
+            "features": [
+                "Application Load Balancer",
+                "Network Load Balancer",
+                "Health Checks",
+                "Auto Scaling"
+            ]
+        },
+        {
+            "name": "Amazon Route 53",
+            "category": "Networking",
+            "icon": "🗺️",
+            "description": "Scalable domain name system (DNS) web service",
+            "features": [
+                "DNS Management",
+                "Health Checking",
+                "Traffic Routing",
+                "Domain Registration"
+            ]
+        },
+        {
+            "name": "AWS Direct Connect",
+            "category": "Networking",
+            "icon": "🔗",
+            "description": "Dedicated network connection from your premises to AWS",
+            "features": [
+                "Dedicated Connection",
+                "Consistent Performance",
+                "Reduced Costs",
+                "Private Connectivity"
+            ]
+        },
+        {
+            "name": "AWS IAM",
+            "category": "Security",
+            "icon": "🔐",
+            "description": "Identity and Access Management controls access to AWS resources",
+            "features": [
+                "User Management",
+                "Role-based Access",
+                "Multi-factor Auth",
+                "Policy Management"
+            ]
+        },
+        {
+            "name": "AWS KMS",
+            "category": "Security",
+            "icon": "🔑",
+            "description": "Key Management Service for creating and managing encryption keys",
+            "features": [
+                "Encryption Key Management",
+                "Hardware Security Modules",
+                "Audit Trail",
+                "Integration"
+            ]
+        },
+        {
+            "name": "AWS WAF",
+            "category": "Security",
+            "icon": "🛡️",
+            "description": "Web Application Firewall protects web applications from attacks",
+            "features": [
+                "SQL Injection Protection",
+                "XSS Protection",
+                "Rate Limiting",
+                "Custom Rules"
+            ]
+        },
+        {
+            "name": "AWS Shield",
+            "category": "Security",
+            "icon": "🛡️",
+            "description": "DDoS protection service for applications running on AWS",
+            "features": [
+                "Always-on Detection",
+                "Automatic Mitigation",
+                "24/7 Support",
+                "Cost Protection"
+            ]
+        },
+        {
+            "name": "Amazon GuardDuty",
+            "category": "Security",
+            "icon": "👁️",
+            "description": "Threat detection service using machine learning",
+            "features": [
+                "Malware Detection",
+                "Anomaly Detection",
+                "Threat Intelligence",
+                "Automated Response"
+            ]
+        },
+        {
+            "name": "Amazon SNS",
+            "category": "Messaging",
+            "icon": "📢",
+            "description": "Simple Notification Service for application-to-application messaging",
+            "features": [
+                "Push Notifications",
+                "SMS/Email",
+                "Fan-out Messaging",
+                "Message Filtering"
+            ]
+        },
+        {
+            "name": "Amazon SQS",
+            "category": "Messaging",
+            "icon": "📬",
+            "description": "Simple Queue Service for decoupling application components",
+            "features": [
+                "Message Queuing",
+                "Dead Letter Queues",
+                "Visibility Timeout",
+                "FIFO Queues"
+            ]
+        },
+        {
+            "name": "Amazon EventBridge",
+            "category": "Messaging",
+            "icon": "🌉",
+            "description": "Event bus service for building event-driven applications",
+            "features": [
+                "Event Routing",
+                "Schema Registry",
+                "Custom Events",
+                "Third-party Integration"
+            ]
+        },
+        {
+            "name": "Amazon Kinesis",
+            "category": "Analytics",
+            "icon": "🌊",
+            "description": "Real-time data streaming and analytics platform",
+            "features": [
+                "Real-time Processing",
+                "Data Streams",
+                "Video Streams",
+                "Analytics"
+            ]
+        },
+        {
+            "name": "Amazon EMR",
+            "category": "Analytics",
+            "icon": "📈",
+            "description": "Elastic MapReduce for big data processing",
+            "features": [
+                "Hadoop & Spark",
+                "Auto Scaling",
+                "Cost Optimization",
+                "Multiple Frameworks"
+            ]
+        },
+        {
+            "name": "AWS Glue",
+            "category": "Analytics",
+            "icon": "🔗",
+            "description": "Serverless data integration service",
+            "features": [
+                "ETL Jobs",
+                "Data Catalog",
+                "Schema Discovery",
+                "Serverless"
+            ]
+        },
+        {
+            "name": "Amazon Athena",
+            "category": "Analytics",
+            "icon": "🔍",
+            "description": "Interactive query service for analyzing data in S3",
+            "features": [
+                "Serverless",
+                "Standard SQL",
+                "Pay per Query",
+                "Fast Results"
+            ]
+        },
+        {
+            "name": "Amazon SageMaker",
+            "category": "Machine Learning",
+            "icon": "🤖",
+            "description": "Fully managed machine learning service",
+            "features": [
+                "Model Building",
+                "Training",
+                "Deployment",
+                "Auto ML"
+            ]
+        },
+        {
+            "name": "Amazon Rekognition",
+            "category": "Machine Learning",
+            "icon": "👁️",
+            "description": "Image and video analysis using deep learning",
+            "features": [
+                "Object Detection",
+                "Facial Recognition",
+                "Text Detection",
+                "Content Moderation"
+            ]
+        },
+        {
+            "name": "Amazon Comprehend",
+            "category": "Machine Learning",
+            "icon": "📝",
+            "description": "Natural language processing service",
+            "features": [
+                "Sentiment Analysis",
+                "Entity Recognition",
+                "Language Detection",
+                "Topic Modeling"
+            ]
+        },
+        {
+            "name": "Amazon Lex",
+            "category": "Machine Learning",
+            "icon": "💬",
+            "description": "Service for building conversational interfaces",
+            "features": [
+                "Speech Recognition",
+                "Natural Language Understanding",
+                "Chatbots",
+                "Voice Interfaces"
+            ]
+        },
+        {
+            "name": "AWS CloudFormation",
+            "category": "Management",
+            "icon": "📋",
+            "description": "Infrastructure as code service for AWS resources",
+            "features": [
+                "Template-based",
+                "Stack Management",
+                "Change Sets",
+                "Drift Detection"
+            ]
+        },
+        {
+            "name": "Amazon CloudWatch",
+            "category": "Management",
+            "icon": "📊",
+            "description": "Monitoring and observability service",
+            "features": [
+                "Metrics & Logs",
+                "Alarms",
+                "Dashboards",
+                "Events"
+            ]
+        },
+        {
+            "name": "AWS CloudTrail",
+            "category": "Management",
+            "icon": "👣",
+            "description": "Service for logging and monitoring account activity",
+            "features": [
+                "API Logging",
+                "Event History",
+                "Compliance",
+                "Security Analysis"
+            ]
+        },
+        {
+            "name": "AWS Config",
+            "category": "Management",
+            "icon": "⚙️",
+            "description": "Service for assessing and auditing AWS resource configurations",
+            "features": [
+                "Configuration History",
+                "Compliance Rules",
+                "Change Tracking",
+                "Remediation"
+            ]
+        },
+        {
+            "name": "Amazon API Gateway",
+            "category": "Application Integration",
+            "icon": "🚪",
+            "description": "Fully managed service for creating and managing APIs",
+            "features": [
+                "REST & WebSocket APIs",
+                "Authentication",
+                "Rate Limiting",
+                "Caching"
+            ]
+        },
+        {
+            "name": "AWS Step Functions",
+            "category": "Application Integration",
+            "icon": "🔄",
+            "description": "Serverless workflow service for coordinating application components",
+            "features": [
+                "Visual Workflows",
+                "State Machines",
+                "Error Handling",
+                "Parallel Execution"
+            ]
+        },
+        {
+            "name": "Amazon AppSync",
+            "category": "Application Integration",
+            "icon": "🔄",
+            "description": "Managed GraphQL service for application development",
+            "features": [
+                "GraphQL APIs",
+                "Real-time Subscriptions",
+                "Offline Sync",
+                "Multiple Data Sources"
+            ]
+        }
+    ]
+}
