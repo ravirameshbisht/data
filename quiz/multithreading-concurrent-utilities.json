@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "ConcurrentUtilities - Q0001",
+        "text": "Which package provides Java concurrent utilities",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.lang"
+            },
+            {
+                "letter": "B",
+                "text": "java.util.concurrent"
+            },
+            {
+                "letter": "C",
+                "text": "java.thread"
+            },
+            {
+                "letter": "D",
+                "text": "java.concurrent"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The java.util.concurrent package provides concurrent utilities."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0002",
+        "text": "Which class provides atomic operations on integers",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integer"
+            },
+            {
+                "letter": "B",
+                "text": "AtomicInteger"
+            },
+            {
+                "letter": "C",
+                "text": "AtomicNumber"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentInteger"
+            }
+        ],
+        "correct": "B",
+        "explanation": "AtomicInteger provides atomic operations on integers."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0003",
+        "text": "Which class provides atomic operations on boolean values",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Boolean"
+            },
+            {
+                "letter": "B",
+                "text": "AtomicBoolean"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentBoolean"
+            },
+            {
+                "letter": "D",
+                "text": "AtomicFlag"
+            }
+        ],
+        "correct": "B",
+        "explanation": "AtomicBoolean provides atomic operations on boolean values."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0004",
+        "text": "Which class provides atomic operations on long values",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AtomicLong"
+            },
+            {
+                "letter": "B",
+                "text": "Long"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentLong"
+            },
+            {
+                "letter": "D",
+                "text": "AtomicNumber"
+            }
+        ],
+        "correct": "A",
+        "explanation": "AtomicLong provides atomic operations on long values."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0005",
+        "text": "Which concurrent collection is a thread-safe alternative to HashMap",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentHashMap"
+            },
+            {
+                "letter": "B",
+                "text": "Hashtable"
+            },
+            {
+                "letter": "C",
+                "text": "SynchronizedMap"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentHashMap is a thread-safe alternative to HashMap."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0006",
+        "text": "Which concurrent collection allows safe iteration without locking",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Vector"
+            },
+            {
+                "letter": "B",
+                "text": "CopyOnWriteArrayList"
+            },
+            {
+                "letter": "C",
+                "text": "Hashtable"
+            },
+            {
+                "letter": "D",
+                "text": "SynchronizedList"
+            }
+        ],
+        "correct": "B",
+        "explanation": "CopyOnWriteArrayList allows safe iteration without explicit locking."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0007",
+        "text": "Which concurrent collection is a thread-safe queue",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentLinkedQueue"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedList"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentLinkedQueue is a thread-safe queue implementation."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0008",
+        "text": "Which concurrent collection is a thread-safe deque",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentLinkedDeque"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayDeque"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedList"
+            },
+            {
+                "letter": "D",
+                "text": "Vector"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentLinkedDeque is a thread-safe deque implementation."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0009",
+        "text": "Which concurrent collection is a blocking queue",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedBlockingQueue"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedBlockingQueue is a blocking queue implementation."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0010",
+        "text": "Which concurrent collection orders elements based on priority",
+        "options": [
+            {
+                "letter": "A",
+                "text": "PriorityBlockingQueue"
+            },
+            {
+                "letter": "B",
+                "text": "ConcurrentLinkedQueue"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedBlockingQueue"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayBlockingQueue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "PriorityBlockingQueue orders elements based on priority."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0011",
+        "text": "Which synchronization utility allows a fixed number of threads to access a resource",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Semaphore controls the number of threads accessing a resource."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0012",
+        "text": "Which synchronization utility allows threads to wait until a set of operations complete",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "B",
+        "explanation": "CountDownLatch allows threads to wait until a set of operations complete."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0013",
+        "text": "Which synchronization utility allows a group of threads to wait for each other to reach a common barrier point",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "C",
+        "explanation": "CyclicBarrier allows a group of threads to wait for each other at a barrier point."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0014",
+        "text": "Which synchronization utility allows two threads to exchange data",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Exchanger allows two threads to exchange data objects."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0015",
+        "text": "Which synchronization utility allows multiple readers but only one writer",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ReentrantLock"
+            },
+            {
+                "letter": "B",
+                "text": "ReadWriteLock"
+            },
+            {
+                "letter": "C",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "D",
+                "text": "CountDownLatch"
+            }
+        ],
+        "correct": "B",
+        "explanation": "ReadWriteLock allows multiple readers but only one writer."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0016",
+        "text": "Which implementation of ReadWriteLock is provided in Java",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ReentrantReadWriteLock"
+            },
+            {
+                "letter": "B",
+                "text": "SimpleReadWriteLock"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentReadWriteLock"
+            },
+            {
+                "letter": "D",
+                "text": "AtomicReadWriteLock"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ReentrantReadWriteLock is the standard implementation of ReadWriteLock."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0017",
+        "text": "Which class provides a thread-safe counter with atomic increment and decrement",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AtomicCounter"
+            },
+            {
+                "letter": "B",
+                "text": "AtomicInteger"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentCounter"
+            },
+            {
+                "letter": "D",
+                "text": "AtomicLong"
+            }
+        ],
+        "correct": "B",
+        "explanation": "AtomicInteger provides atomic increment and decrement operations."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0018",
+        "text": "Which class provides a scalable thread-safe random number generator",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Random"
+            },
+            {
+                "letter": "B",
+                "text": "ThreadLocalRandom"
+            },
+            {
+                "letter": "C",
+                "text": "SecureRandom"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentRandom"
+            }
+        ],
+        "correct": "B",
+        "explanation": "ThreadLocalRandom provides a scalable random number generator for concurrent use."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0019",
+        "text": "Which class supports fork/join parallelism",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ThreadPoolExecutor"
+            },
+            {
+                "letter": "B",
+                "text": "ForkJoinPool"
+            },
+            {
+                "letter": "C",
+                "text": "ScheduledThreadPoolExecutor"
+            },
+            {
+                "letter": "D",
+                "text": "Executors"
+            }
+        ],
+        "correct": "B",
+        "explanation": "ForkJoinPool supports fork/join parallelism for divide-and-conquer tasks."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0020",
+        "text": "Which class represents a task that can be split into smaller subtasks in ForkJoinPool",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RecursiveTask"
+            },
+            {
+                "letter": "B",
+                "text": "RecursiveAction"
+            },
+            {
+                "letter": "C",
+                "text": "Callable"
+            },
+            {
+                "letter": "D",
+                "text": "Runnable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RecursiveTask represents a task that returns a result and can be split into subtasks."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0021",
+        "text": "Which ForkJoin class is used for tasks that do not return a result",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RecursiveTask"
+            },
+            {
+                "letter": "B",
+                "text": "RecursiveAction"
+            },
+            {
+                "letter": "C",
+                "text": "Callable"
+            },
+            {
+                "letter": "D",
+                "text": "Runnable"
+            }
+        ],
+        "correct": "B",
+        "explanation": "RecursiveAction is used for tasks that do not return a result."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0022",
+        "text": "Which concurrent queue does not allow null elements",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentLinkedQueue"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedBlockingQueue"
+            },
+            {
+                "letter": "C",
+                "text": "PriorityBlockingQueue"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "All concurrent queues in java.util.concurrent disallow null elements."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0023",
+        "text": "Which blocking queue has a fixed capacity",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayBlockingQueue"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedBlockingQueue"
+            },
+            {
+                "letter": "C",
+                "text": "PriorityBlockingQueue"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentLinkedQueue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayBlockingQueue has a fixed capacity defined at creation."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0024",
+        "text": "Which blocking queue has optionally bounded capacity",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayBlockingQueue"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedBlockingQueue"
+            },
+            {
+                "letter": "C",
+                "text": "PriorityBlockingQueue"
+            },
+            {
+                "letter": "D",
+                "text": "SynchronousQueue"
+            }
+        ],
+        "correct": "B",
+        "explanation": "LinkedBlockingQueue can be optionally bounded or unbounded."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0025",
+        "text": "Which queue has zero capacity and transfers elements directly between threads",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayBlockingQueue"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedBlockingQueue"
+            },
+            {
+                "letter": "C",
+                "text": "SynchronousQueue"
+            },
+            {
+                "letter": "D",
+                "text": "PriorityBlockingQueue"
+            }
+        ],
+        "correct": "C",
+        "explanation": "SynchronousQueue has zero capacity and transfers elements directly between threads."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0026",
+        "text": "Which concurrent collection maintains elements in sorted order",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentSkipListMap"
+            },
+            {
+                "letter": "B",
+                "text": "ConcurrentHashMap"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentLinkedQueue"
+            },
+            {
+                "letter": "D",
+                "text": "CopyOnWriteArrayList"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentSkipListMap maintains elements in sorted order."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0027",
+        "text": "Which concurrent collection is a sorted set",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentSkipListSet"
+            },
+            {
+                "letter": "B",
+                "text": "ConcurrentHashMap"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentLinkedQueue"
+            },
+            {
+                "letter": "D",
+                "text": "CopyOnWriteArraySet"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentSkipListSet is a thread-safe sorted set."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0028",
+        "text": "Which concurrent collection is backed by a CopyOnWriteArrayList",
+        "options": [
+            {
+                "letter": "A",
+                "text": "CopyOnWriteArraySet"
+            },
+            {
+                "letter": "B",
+                "text": "ConcurrentSkipListSet"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentHashMap"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentLinkedQueue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CopyOnWriteArraySet is backed by a CopyOnWriteArrayList."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0029",
+        "text": "Which class provides a synchronization aid that allows one or more threads to wait until a set of operations complete",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "B",
+        "explanation": "CountDownLatch allows threads to wait until a set of operations complete."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0030",
+        "text": "Which class provides a synchronization aid that allows a set of threads to all wait for each other to reach a common barrier point",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "C",
+        "explanation": "CyclicBarrier allows a set of threads to wait for each other at a barrier point."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0031",
+        "text": "Which class provides a synchronization aid that allows two threads to exchange objects",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Exchanger allows two threads to exchange objects."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0032",
+        "text": "Which class provides a synchronization aid that allows a set of parties to repeatedly wait for each other",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "C",
+        "explanation": "CyclicBarrier can be reused after the barrier is tripped."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0033",
+        "text": "Which class provides a synchronization aid that allows threads to wait until a given number of signals are received",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "B",
+        "explanation": "CountDownLatch allows threads to wait until a given number of signals are received."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0034",
+        "text": "Which concurrent utility provides a Phaser for flexible synchronization",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "Phaser"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Phaser provides flexible synchronization for multiple phases."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0035",
+        "text": "Which concurrent utility is a more flexible alternative to CyclicBarrier and CountDownLatch",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "Phaser"
+            },
+            {
+                "letter": "C",
+                "text": "Exchanger"
+            },
+            {
+                "letter": "D",
+                "text": "ReentrantLock"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Phaser is a more flexible alternative to CyclicBarrier and CountDownLatch."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0036",
+        "text": "Which concurrent utility provides a thread-safe random number generator",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Random"
+            },
+            {
+                "letter": "B",
+                "text": "ThreadLocalRandom"
+            },
+            {
+                "letter": "C",
+                "text": "SecureRandom"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentRandom"
+            }
+        ],
+        "correct": "B",
+        "explanation": "ThreadLocalRandom provides a thread-safe random number generator."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0037",
+        "text": "Which concurrent utility provides a scalable adder for high contention updates",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AtomicInteger"
+            },
+            {
+                "letter": "B",
+                "text": "LongAdder"
+            },
+            {
+                "letter": "C",
+                "text": "AtomicLong"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentAdder"
+            }
+        ],
+        "correct": "B",
+        "explanation": "LongAdder provides scalable updates under high contention."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0038",
+        "text": "Which concurrent utility provides a scalable accumulator with a custom function",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LongAdder"
+            },
+            {
+                "letter": "B",
+                "text": "LongAccumulator"
+            },
+            {
+                "letter": "C",
+                "text": "AtomicLong"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentAccumulator"
+            }
+        ],
+        "correct": "B",
+        "explanation": "LongAccumulator provides a scalable accumulator with a custom function."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0039",
+        "text": "Which concurrent utility provides a thread-safe class for managing locks",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ReentrantLock"
+            },
+            {
+                "letter": "B",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "C",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "D",
+                "text": "Phaser"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ReentrantLock provides a thread-safe class for managing locks."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0040",
+        "text": "Which concurrent utility provides a lock that can be held by multiple readers or one writer",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ReentrantLock"
+            },
+            {
+                "letter": "B",
+                "text": "ReadWriteLock"
+            },
+            {
+                "letter": "C",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "D",
+                "text": "Phaser"
+            }
+        ],
+        "correct": "B",
+        "explanation": "ReadWriteLock allows multiple readers or one writer."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0041",
+        "text": "Which concurrent utility provides a lock with fairness option",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ReentrantLock"
+            },
+            {
+                "letter": "B",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "C",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "D",
+                "text": "Phaser"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ReentrantLock can be constructed with a fairness policy."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0042",
+        "text": "Which concurrent utility provides a lock-free thread-safe map",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentHashMap"
+            },
+            {
+                "letter": "B",
+                "text": "Hashtable"
+            },
+            {
+                "letter": "C",
+                "text": "SynchronizedMap"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentHashMap is a lock-free thread-safe map."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0043",
+        "text": "Which concurrent utility provides a lock-free thread-safe set",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentSkipListSet"
+            },
+            {
+                "letter": "B",
+                "text": "CopyOnWriteArraySet"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentSkipListSet is a lock-free thread-safe set."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0044",
+        "text": "Which concurrent utility provides a thread-safe set backed by a CopyOnWriteArrayList",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentSkipListSet"
+            },
+            {
+                "letter": "B",
+                "text": "CopyOnWriteArraySet"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet"
+            }
+        ],
+        "correct": "B",
+        "explanation": "CopyOnWriteArraySet is backed by a CopyOnWriteArrayList."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0045",
+        "text": "Which concurrent utility provides a thread-safe queue with priority ordering",
+        "options": [
+            {
+                "letter": "A",
+                "text": "PriorityBlockingQueue"
+            },
+            {
+                "letter": "B",
+                "text": "ConcurrentLinkedQueue"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedBlockingQueue"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayBlockingQueue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "PriorityBlockingQueue provides a thread-safe queue with priority ordering."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0046",
+        "text": "Which concurrent utility provides a thread-safe deque",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentLinkedDeque"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayDeque"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedList"
+            },
+            {
+                "letter": "D",
+                "text": "Vector"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentLinkedDeque is a thread-safe deque."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0047",
+        "text": "Which concurrent utility provides a thread-safe blocking deque",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedBlockingDeque"
+            },
+            {
+                "letter": "B",
+                "text": "ConcurrentLinkedDeque"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayDeque"
+            },
+            {
+                "letter": "D",
+                "text": "Vector"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedBlockingDeque is a thread-safe blocking deque."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0048",
+        "text": "Which concurrent utility provides a scalable thread-safe counter for high contention",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AtomicInteger"
+            },
+            {
+                "letter": "B",
+                "text": "LongAdder"
+            },
+            {
+                "letter": "C",
+                "text": "AtomicLong"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentCounter"
+            }
+        ],
+        "correct": "B",
+        "explanation": "LongAdder is designed for high contention counters."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0049",
+        "text": "Which concurrent utility provides a scalable accumulator with a custom function",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LongAdder"
+            },
+            {
+                "letter": "B",
+                "text": "LongAccumulator"
+            },
+            {
+                "letter": "C",
+                "text": "AtomicLong"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentAccumulator"
+            }
+        ],
+        "correct": "B",
+        "explanation": "LongAccumulator provides a scalable accumulator with a custom function."
+    },
+    {
+        "title": "ConcurrentUtilities - Q0050",
+        "text": "Which concurrent utility provides a flexible synchronization mechanism for multiple phases",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Phaser"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Semaphore"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Phaser provides flexible synchronization for multiple phases."
+    }
+]

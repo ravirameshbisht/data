@@ -1,0 +1,1222 @@
+[
+    {
+        "title": "Synchronization - Q0001",
+        "text": "What is synchronization in Java",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A mechanism to stop threads"
+            },
+            {
+                "letter": "B",
+                "text": "A mechanism to control access to shared resources"
+            },
+            {
+                "letter": "C",
+                "text": "A mechanism to create threads"
+            },
+            {
+                "letter": "D",
+                "text": "A mechanism to terminate JVM"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Synchronization ensures that only one thread accesses a shared resource at a time."
+    },
+    {
+        "title": "Synchronization - Q0002",
+        "text": "Which keyword is used to synchronize methods or blocks in Java",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "sync"
+            },
+            {
+                "letter": "B",
+                "text": "synchronized"
+            },
+            {
+                "letter": "C",
+                "text": "lock"
+            },
+            {
+                "letter": "D",
+                "text": "atomic"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'synchronized' keyword is used to synchronize methods or blocks."
+    },
+    {
+        "title": "Synchronization - Q0003",
+        "text": "Which of the following can be synchronized",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Methods only"
+            },
+            {
+                "letter": "B",
+                "text": "Blocks only"
+            },
+            {
+                "letter": "C",
+                "text": "Both methods and blocks"
+            },
+            {
+                "letter": "D",
+                "text": "Classes only"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Both methods and blocks can be synchronized in Java."
+    },
+    {
+        "title": "Synchronization - Q0004",
+        "text": "What is the default lock used in synchronized methods",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Class object"
+            },
+            {
+                "letter": "B",
+                "text": "Object instance"
+            },
+            {
+                "letter": "C",
+                "text": "Thread object"
+            },
+            {
+                "letter": "D",
+                "text": "Monitor object"
+            }
+        ],
+        "correct": "B",
+        "explanation": "For instance methods, the lock is the object instance."
+    },
+    {
+        "title": "Synchronization - Q0005",
+        "text": "What is the lock used for static synchronized methods",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Object instance"
+            },
+            {
+                "letter": "B",
+                "text": "Thread object"
+            },
+            {
+                "letter": "C",
+                "text": "Class object"
+            },
+            {
+                "letter": "D",
+                "text": "Monitor object"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Static synchronized methods use the class object as the lock."
+    },
+    {
+        "title": "Synchronization - Q0006",
+        "text": "Which of the following is true about synchronized blocks",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can lock on any object"
+            },
+            {
+                "letter": "B",
+                "text": "They can only lock on 'this'"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be nested"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be used in static methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Synchronized blocks can lock on any object reference."
+    },
+    {
+        "title": "Synchronization - Q0007",
+        "text": "Which of the following is NOT a problem solved by synchronization",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Race conditions"
+            },
+            {
+                "letter": "B",
+                "text": "Data inconsistency"
+            },
+            {
+                "letter": "C",
+                "text": "Deadlocks"
+            },
+            {
+                "letter": "D",
+                "text": "Thread interference"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Synchronization can cause deadlocks but does not solve them."
+    },
+    {
+        "title": "Synchronization - Q0008",
+        "text": "Which method is used to make a thread wait inside a synchronized block",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "sleep()"
+            },
+            {
+                "letter": "B",
+                "text": "wait()"
+            },
+            {
+                "letter": "C",
+                "text": "pause()"
+            },
+            {
+                "letter": "D",
+                "text": "yield()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "wait() is used inside synchronized blocks to make a thread wait."
+    },
+    {
+        "title": "Synchronization - Q0009",
+        "text": "Which method is used to wake up a single waiting thread",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notify()"
+            },
+            {
+                "letter": "B",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "C",
+                "text": "signal()"
+            },
+            {
+                "letter": "D",
+                "text": "resume()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notify() wakes up one waiting thread."
+    },
+    {
+        "title": "Synchronization - Q0010",
+        "text": "Which method is used to wake up all waiting threads",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notify()"
+            },
+            {
+                "letter": "B",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "C",
+                "text": "signalAll()"
+            },
+            {
+                "letter": "D",
+                "text": "resumeAll()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "notifyAll() wakes up all waiting threads."
+    },
+    {
+        "title": "Synchronization - Q0011",
+        "text": "Which package provides Lock and ReentrantLock classes",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.lang"
+            },
+            {
+                "letter": "B",
+                "text": "java.util.concurrent.locks"
+            },
+            {
+                "letter": "C",
+                "text": "java.util.concurrent"
+            },
+            {
+                "letter": "D",
+                "text": "java.thread"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Lock and ReentrantLock are in java.util.concurrent.locks."
+    },
+    {
+        "title": "Synchronization - Q0012",
+        "text": "Which interface is implemented by ReentrantLock",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Lock"
+            },
+            {
+                "letter": "B",
+                "text": "Runnable"
+            },
+            {
+                "letter": "C",
+                "text": "Callable"
+            },
+            {
+                "letter": "D",
+                "text": "ThreadSafe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ReentrantLock implements the Lock interface."
+    },
+    {
+        "title": "Synchronization - Q0013",
+        "text": "Which method of Lock is used to acquire a lock",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lock()"
+            },
+            {
+                "letter": "B",
+                "text": "acquire()"
+            },
+            {
+                "letter": "C",
+                "text": "get()"
+            },
+            {
+                "letter": "D",
+                "text": "obtain()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "lock() is used to acquire a lock."
+    },
+    {
+        "title": "Synchronization - Q0014",
+        "text": "Which method of Lock is used to release a lock",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "unlock()"
+            },
+            {
+                "letter": "B",
+                "text": "release()"
+            },
+            {
+                "letter": "C",
+                "text": "free()"
+            },
+            {
+                "letter": "D",
+                "text": "exit()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "unlock() is used to release a lock."
+    },
+    {
+        "title": "Synchronization - Q0015",
+        "text": "Which of the following is true about synchronized collections",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are created using Collections.synchronizedXXX()"
+            },
+            {
+                "letter": "B",
+                "text": "They are created using Thread.synchronized()"
+            },
+            {
+                "letter": "C",
+                "text": "They are created using Lock.synchronized()"
+            },
+            {
+                "letter": "D",
+                "text": "They are created using Atomic classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Collections.synchronizedXXX() creates synchronized collections."
+    },
+    {
+        "title": "Synchronization - Q0016",
+        "text": "Which of the following is NOT a concurrent collection",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentHashMap"
+            },
+            {
+                "letter": "B",
+                "text": "CopyOnWriteArrayList"
+            },
+            {
+                "letter": "C",
+                "text": "Vector"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentLinkedQueue"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Vector is synchronized but not part of java.util.concurrent."
+    },
+    {
+        "title": "Synchronization - Q0017",
+        "text": "Which class provides atomic operations on integers",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AtomicInteger"
+            },
+            {
+                "letter": "B",
+                "text": "Integer"
+            },
+            {
+                "letter": "C",
+                "text": "AtomicNumber"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentInteger"
+            }
+        ],
+        "correct": "A",
+        "explanation": "AtomicInteger provides atomic operations on integers."
+    },
+    {
+        "title": "Synchronization - Q0018",
+        "text": "Which of the following is true about volatile variables",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They guarantee atomicity"
+            },
+            {
+                "letter": "B",
+                "text": "They guarantee visibility across threads"
+            },
+            {
+                "letter": "C",
+                "text": "They guarantee ordering of operations"
+            },
+            {
+                "letter": "D",
+                "text": "They guarantee mutual exclusion"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Volatile ensures visibility but not atomicity."
+    },
+    {
+        "title": "Synchronization - Q0019",
+        "text": "Which of the following is NOT a synchronization utility in java.util.concurrent",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "ThreadGroup"
+            }
+        ],
+        "correct": "D",
+        "explanation": "ThreadGroup is not a synchronization utility."
+    },
+    {
+        "title": "Synchronization - Q0020",
+        "text": "Which synchronization utility allows a fixed number of threads to access a resource",
+        "code": "",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Semaphore controls the number of threads accessing a resource."
+    },
+    {
+        "title": "Synchronization - Q0021",
+        "text": "Which synchronization utility allows threads to wait until a set of operations complete",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "B",
+        "explanation": "CountDownLatch allows threads to wait until a set of operations complete."
+    },
+    {
+        "title": "Synchronization - Q0022",
+        "text": "Which synchronization utility allows a group of threads to wait for each other to reach a common barrier point",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "C",
+        "explanation": "CyclicBarrier allows a group of threads to wait for each other at a barrier point."
+    },
+    {
+        "title": "Synchronization - Q0023",
+        "text": "Which synchronization utility allows two threads to exchange data",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Semaphore"
+            },
+            {
+                "letter": "B",
+                "text": "CountDownLatch"
+            },
+            {
+                "letter": "C",
+                "text": "CyclicBarrier"
+            },
+            {
+                "letter": "D",
+                "text": "Exchanger"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Exchanger allows two threads to exchange data objects."
+    },
+    {
+        "title": "Synchronization - Q0024",
+        "text": "Which of the following is true about synchronized keyword",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can be applied to variables"
+            },
+            {
+                "letter": "B",
+                "text": "It can be applied to methods and blocks"
+            },
+            {
+                "letter": "C",
+                "text": "It can be applied to classes only"
+            },
+            {
+                "letter": "D",
+                "text": "It can be applied to interfaces"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The synchronized keyword can be applied to methods and blocks."
+    },
+    {
+        "title": "Synchronization - Q0025",
+        "text": "Which of the following is NOT true about synchronized methods",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They lock the object instance"
+            },
+            {
+                "letter": "B",
+                "text": "They can be static"
+            },
+            {
+                "letter": "C",
+                "text": "They can be overridden without synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "They guarantee fairness among threads"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Synchronized methods do not guarantee fairness among threads."
+    },
+    {
+        "title": "Synchronization - Q0026",
+        "text": "Which of the following is true about ReentrantLock",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows a thread to acquire the same lock multiple times"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot be interrupted"
+            },
+            {
+                "letter": "C",
+                "text": "It does not support fairness"
+            },
+            {
+                "letter": "D",
+                "text": "It cannot be unlocked"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ReentrantLock allows a thread to acquire the same lock multiple times."
+    },
+    {
+        "title": "Synchronization - Q0027",
+        "text": "Which method of ReentrantLock tries to acquire the lock without waiting",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lock()"
+            },
+            {
+                "letter": "B",
+                "text": "tryLock()"
+            },
+            {
+                "letter": "C",
+                "text": "unlock()"
+            },
+            {
+                "letter": "D",
+                "text": "acquire()"
+            }
+        ],
+        "correct": "B",
+        "explanation": "tryLock() attempts to acquire the lock without waiting."
+    },
+    {
+        "title": "Synchronization - Q0028",
+        "text": "Which of the following is true about synchronized blocks",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are more granular than synchronized methods"
+            },
+            {
+                "letter": "B",
+                "text": "They always lock the entire class"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot specify a lock object"
+            },
+            {
+                "letter": "D",
+                "text": "They are slower than synchronized methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Synchronized blocks allow finer control by locking only specific code sections."
+    },
+    {
+        "title": "Synchronization - Q0029",
+        "text": "Which of the following is NOT a feature of Semaphore",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It controls access to resources"
+            },
+            {
+                "letter": "B",
+                "text": "It can be fair or non-fair"
+            },
+            {
+                "letter": "C",
+                "text": "It allows multiple permits"
+            },
+            {
+                "letter": "D",
+                "text": "It guarantees mutual exclusion"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Semaphore does not guarantee mutual exclusion unless only one permit is used."
+    },
+    {
+        "title": "Synchronization - Q0030",
+        "text": "Which of the following is true about synchronized collections",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are created using Collections.synchronizedXXX()"
+            },
+            {
+                "letter": "B",
+                "text": "They are always faster than concurrent collections"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be iterated safely"
+            },
+            {
+                "letter": "D",
+                "text": "They are deprecated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Collections.synchronizedXXX() creates synchronized versions of collections."
+    },
+    {
+        "title": "Synchronization - Q0031",
+        "text": "Which concurrent collection allows thread-safe iteration without locking",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Vector"
+            },
+            {
+                "letter": "B",
+                "text": "CopyOnWriteArrayList"
+            },
+            {
+                "letter": "C",
+                "text": "Hashtable"
+            },
+            {
+                "letter": "D",
+                "text": "SynchronizedList"
+            }
+        ],
+        "correct": "B",
+        "explanation": "CopyOnWriteArrayList allows safe iteration without explicit locking."
+    },
+    {
+        "title": "Synchronization - Q0032",
+        "text": "Which concurrent collection is a thread-safe alternative to HashMap",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentHashMap"
+            },
+            {
+                "letter": "B",
+                "text": "Hashtable"
+            },
+            {
+                "letter": "C",
+                "text": "SynchronizedMap"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentHashMap is a thread-safe alternative to HashMap."
+    },
+    {
+        "title": "Synchronization - Q0033",
+        "text": "Which of the following is true about volatile variables",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They guarantee atomicity"
+            },
+            {
+                "letter": "B",
+                "text": "They guarantee visibility across threads"
+            },
+            {
+                "letter": "C",
+                "text": "They guarantee mutual exclusion"
+            },
+            {
+                "letter": "D",
+                "text": "They guarantee fairness"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Volatile ensures visibility of changes across threads but not atomicity."
+    },
+    {
+        "title": "Synchronization - Q0034",
+        "text": "Which of the following is NOT a valid use of synchronized keyword",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Synchronized method"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronized block"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronized variable"
+            },
+            {
+                "letter": "D",
+                "text": "Static synchronized method"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Variables cannot be declared synchronized."
+    },
+    {
+        "title": "Synchronization - Q0035",
+        "text": "Which of the following is true about deadlocks",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They occur when threads wait indefinitely for locks"
+            },
+            {
+                "letter": "B",
+                "text": "They are automatically resolved by JVM"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot occur in synchronized code"
+            },
+            {
+                "letter": "D",
+                "text": "They are prevented by volatile keyword"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deadlocks occur when threads wait indefinitely for each other’s locks."
+    },
+    {
+        "title": "Synchronization - Q0036",
+        "text": "Which of the following is true about livelock",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Threads are blocked forever"
+            },
+            {
+                "letter": "B",
+                "text": "Threads keep changing state but make no progress"
+            },
+            {
+                "letter": "C",
+                "text": "Threads terminate immediately"
+            },
+            {
+                "letter": "D",
+                "text": "Threads are paused by JVM"
+            }
+        ],
+        "correct": "B",
+        "explanation": "In livelock, threads keep changing state but do not make progress."
+    },
+    {
+        "title": "Synchronization - Q0037",
+        "text": "Which of the following is true about starvation",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A thread never gets CPU time"
+            },
+            {
+                "letter": "B",
+                "text": "A thread is blocked forever"
+            },
+            {
+                "letter": "C",
+                "text": "A thread is terminated"
+            },
+            {
+                "letter": "D",
+                "text": "A thread is interrupted"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Starvation occurs when a thread never gets CPU time due to scheduling."
+    },
+    {
+        "title": "Synchronization - Q0038",
+        "text": "Which of the following is true about fairness in locks",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fair locks grant access in order of requests"
+            },
+            {
+                "letter": "B",
+                "text": "Fair locks are always faster"
+            },
+            {
+                "letter": "C",
+                "text": "Fair locks prevent deadlocks"
+            },
+            {
+                "letter": "D",
+                "text": "Fair locks are default in ReentrantLock"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fair locks grant access in the order threads requested it."
+    },
+    {
+        "title": "Synchronization - Q0039",
+        "text": "Which method of Condition is used to make a thread wait",
+        "options": [
+            {
+                "letter": "A",
+                "text": "await()"
+            },
+            {
+                "letter": "B",
+                "text": "wait()"
+            },
+            {
+                "letter": "C",
+                "text": "sleep()"
+            },
+            {
+                "letter": "D",
+                "text": "pause()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "await() is used with Condition to make a thread wait."
+    },
+    {
+        "title": "Synchronization - Q0040",
+        "text": "Which method of Condition is used to wake up one waiting thread",
+        "options": [
+            {
+                "letter": "A",
+                "text": "signal()"
+            },
+            {
+                "letter": "B",
+                "text": "notify()"
+            },
+            {
+                "letter": "C",
+                "text": "resume()"
+            },
+            {
+                "letter": "D",
+                "text": "wake()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "signal() wakes up one waiting thread in Condition."
+    },
+    {
+        "title": "Synchronization - Q0041",
+        "text": "Which method of Condition is used to wake up all waiting threads",
+        "options": [
+            {
+                "letter": "A",
+                "text": "signalAll()"
+            },
+            {
+                "letter": "B",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "C",
+                "text": "resumeAll()"
+            },
+            {
+                "letter": "D",
+                "text": "wakeAll()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "signalAll() wakes up all waiting threads in Condition."
+    },
+    {
+        "title": "Synchronization - Q0042",
+        "text": "Which of the following is true about synchronized keyword performance",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is always faster than Lock"
+            },
+            {
+                "letter": "B",
+                "text": "It may cause contention and reduce performance"
+            },
+            {
+                "letter": "C",
+                "text": "It guarantees fairness"
+            },
+            {
+                "letter": "D",
+                "text": "It prevents deadlocks"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Synchronized may cause contention and reduce performance."
+    },
+    {
+        "title": "Synchronization - Q0043",
+        "text": "Which of the following is true about Atomic classes",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They provide lock-free thread-safe operations"
+            },
+            {
+                "letter": "B",
+                "text": "They require explicit synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "They are slower than synchronized blocks"
+            },
+            {
+                "letter": "D",
+                "text": "They are deprecated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Atomic classes provide lock-free thread-safe operations."
+    },
+    {
+        "title": "Synchronization - Q0044",
+        "text": "Which of the following is NOT an Atomic class",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AtomicInteger"
+            },
+            {
+                "letter": "B",
+                "text": "AtomicLong"
+            },
+            {
+                "letter": "C",
+                "text": "AtomicBoolean"
+            },
+            {
+                "letter": "D",
+                "text": "AtomicString"
+            }
+        ],
+        "correct": "D",
+        "explanation": "There is no AtomicString class in Java."
+    },
+    {
+        "title": "Synchronization - Q0045",
+        "text": "Which of the following is true about ReadWriteLock",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows multiple readers but only one writer"
+            },
+            {
+                "letter": "B",
+                "text": "It allows multiple writers"
+            },
+            {
+                "letter": "C",
+                "text": "It does not allow readers"
+            },
+            {
+                "letter": "D",
+                "text": "It is deprecated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ReadWriteLock allows multiple readers but only one writer."
+    },
+    {
+        "title": "Synchronization - Q0046",
+        "text": "Which implementation of ReadWriteLock is provided in Java",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ReentrantReadWriteLock"
+            },
+            {
+                "letter": "B",
+                "text": "SimpleReadWriteLock"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentReadWriteLock"
+            },
+            {
+                "letter": "D",
+                "text": "AtomicReadWriteLock"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ReentrantReadWriteLock is the implementation provided in Java."
+    },
+    {
+        "title": "Synchronization - Q0047",
+        "text": "Which of the following is true about synchronized keyword and exceptions",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Locks are not released if an exception occurs"
+            },
+            {
+                "letter": "B",
+                "text": "Locks are automatically released when an exception occurs"
+            },
+            {
+                "letter": "C",
+                "text": "Locks must be manually released"
+            },
+            {
+                "letter": "D",
+                "text": "Locks are ignored during exceptions"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Locks are automatically released if an exception occurs in synchronized code."
+    },
+    {
+        "title": "Synchronization - Q0048",
+        "text": "Which of the following is true about Lock interface and exceptions",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Locks are automatically released on exceptions"
+            },
+            {
+                "letter": "B",
+                "text": "Locks must be released manually in finally block"
+            },
+            {
+                "letter": "C",
+                "text": "Locks are ignored during exceptions"
+            },
+            {
+                "letter": "D",
+                "text": "Locks are released by JVM automatically"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Locks must be released manually in a finally block when using Lock interface."
+    },
+    {
+        "title": "Synchronization - Q0049",
+        "text": "Which of the following is true about synchronized keyword and inheritance",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Synchronized methods remain synchronized when overridden"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronized methods lose synchronization when overridden"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronized methods cannot be overridden"
+            },
+            {
+                "letter": "D",
+                "text": "Synchronized methods become static when overridden"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Overridden methods do not inherit synchronization; they must be explicitly synchronized."
+    },
+    {
+        "title": "Synchronization - Q0050",
+        "text": "Which of the following is true about synchronized keyword and static methods",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They lock the class object"
+            },
+            {
+                "letter": "B",
+                "text": "They lock the instance object"
+            },
+            {
+                "letter": "C",
+                "text": "They lock the thread object"
+            },
+            {
+                "letter": "D",
+                "text": "They lock the monitor object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static synchronized methods lock the class object."
+    }
+]
