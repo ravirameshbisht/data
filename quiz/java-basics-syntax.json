@@ -1,0 +1,842 @@
+[
+    {
+        "title": "Syntax - Q0016",
+        "text": "[Syntax] Which of the following is the correct way to write a while loop in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "while x < 10"
+            },
+            {
+                "letter": "B",
+                "text": "while (x < 10)"
+            },
+            {
+                "letter": "C",
+                "text": "loop while x < 10"
+            },
+            {
+                "letter": "D",
+                "text": "while x < 10:"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The condition in a while loop must be enclosed in parentheses."
+    },
+    {
+        "title": "Syntax - Q0017",
+        "text": "[Syntax] Which keyword is used to exit from a loop prematurely?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "exit"
+            },
+            {
+                "letter": "B",
+                "text": "stop"
+            },
+            {
+                "letter": "C",
+                "text": "break"
+            },
+            {
+                "letter": "D",
+                "text": "return"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The 'break' statement is used to exit a loop prematurely."
+    },
+    {
+        "title": "Syntax - Q0018",
+        "text": "[Syntax] Which keyword is used to skip the current iteration of a loop?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "skip"
+            },
+            {
+                "letter": "B",
+                "text": "continue"
+            },
+            {
+                "letter": "C",
+                "text": "next"
+            },
+            {
+                "letter": "D",
+                "text": "pass"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'continue' statement skips the current iteration and moves to the next one."
+    },
+    {
+        "title": "Syntax - Q0019",
+        "text": "[Syntax] Which of the following is the correct way to declare a method in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "void myMethod() {}"
+            },
+            {
+                "letter": "B",
+                "text": "method myMethod() {}"
+            },
+            {
+                "letter": "C",
+                "text": "function myMethod() {}"
+            },
+            {
+                "letter": "D",
+                "text": "def myMethod() {}"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Methods are declared using a return type followed by the method name and parentheses."
+    },
+    {
+        "title": "Syntax - Q0020",
+        "text": "[Syntax] Which keyword is used to inherit a class in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "inherits"
+            },
+            {
+                "letter": "B",
+                "text": "extends"
+            },
+            {
+                "letter": "C",
+                "text": "implements"
+            },
+            {
+                "letter": "D",
+                "text": "derives"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'extends' keyword is used to inherit a class."
+    },
+    {
+        "title": "Syntax - Q0021",
+        "text": "[Syntax] Which keyword is used to implement an interface in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "extends"
+            },
+            {
+                "letter": "B",
+                "text": "implements"
+            },
+            {
+                "letter": "C",
+                "text": "inherits"
+            },
+            {
+                "letter": "D",
+                "text": "uses"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'implements' keyword is used to implement an interface."
+    },
+    {
+        "title": "Syntax - Q0022",
+        "text": "[Syntax] Which of the following is the correct way to declare a package in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "package myPackage;"
+            },
+            {
+                "letter": "B",
+                "text": "import myPackage;"
+            },
+            {
+                "letter": "C",
+                "text": "namespace myPackage;"
+            },
+            {
+                "letter": "D",
+                "text": "module myPackage;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Packages are declared using the 'package' keyword at the top of the file."
+    },
+    {
+        "title": "Syntax - Q0023",
+        "text": "[Syntax] Which keyword is used to include another package in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "include"
+            },
+            {
+                "letter": "B",
+                "text": "import"
+            },
+            {
+                "letter": "C",
+                "text": "use"
+            },
+            {
+                "letter": "D",
+                "text": "require"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'import' keyword is used to include other packages."
+    },
+    {
+        "title": "Syntax - Q0024",
+        "text": "[Syntax] Which of the following is the correct way to declare a string?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "String name = 'John';"
+            },
+            {
+                "letter": "B",
+                "text": "String name = \"John\";"
+            },
+            {
+                "letter": "C",
+                "text": "string name = John;"
+            },
+            {
+                "letter": "D",
+                "text": "String = John;"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Strings in Java are enclosed in double quotes."
+    },
+    {
+        "title": "Syntax - Q0025",
+        "text": "[Syntax] Which of the following is a valid Java keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "then"
+            },
+            {
+                "letter": "B",
+                "text": "goto"
+            },
+            {
+                "letter": "C",
+                "text": "switch"
+            },
+            {
+                "letter": "D",
+                "text": "repeat"
+            }
+        ],
+        "correct": "C",
+        "explanation": "'switch' is a valid Java keyword used for conditional branching."
+    },
+    {
+        "title": "Syntax - Q0026",
+        "text": "[Syntax] Which of the following is NOT a valid Java keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "static"
+            },
+            {
+                "letter": "B",
+                "text": "void"
+            },
+            {
+                "letter": "C",
+                "text": "main"
+            },
+            {
+                "letter": "D",
+                "text": "final"
+            }
+        ],
+        "correct": "C",
+        "explanation": "'main' is a method name, not a keyword."
+    },
+    {
+        "title": "Syntax - Q0027",
+        "text": "[Syntax] Which of the following is the correct way to write a switch statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "switch (x) { case 1: break; }"
+            },
+            {
+                "letter": "B",
+                "text": "switch x { case 1: break; }"
+            },
+            {
+                "letter": "C",
+                "text": "switch (x): case 1; break;"
+            },
+            {
+                "letter": "D",
+                "text": "switch x: case 1; break;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The switch condition must be enclosed in parentheses."
+    },
+    {
+        "title": "Syntax - Q0028",
+        "text": "[Syntax] Which of the following is the correct way to declare a boolean variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "boolean flag = true;"
+            },
+            {
+                "letter": "B",
+                "text": "bool flag = true;"
+            },
+            {
+                "letter": "C",
+                "text": "Boolean flag = 'true';"
+            },
+            {
+                "letter": "D",
+                "text": "boolean flag = 'true';"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax uses the 'boolean' keyword and true/false values."
+    },
+    {
+        "title": "Syntax - Q0029",
+        "text": "[Syntax] Which of the following is the correct way to declare a float variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "float num = 10.5;"
+            },
+            {
+                "letter": "B",
+                "text": "float num = 10.5f;"
+            },
+            {
+                "letter": "C",
+                "text": "float num = '10.5';"
+            },
+            {
+                "letter": "D",
+                "text": "float num = 10;"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Float literals must have an 'f' or 'F' suffix."
+    },
+    {
+        "title": "Syntax - Q0030",
+        "text": "[Syntax] Which of the following is the correct way to declare a character variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "char letter = 'A';"
+            },
+            {
+                "letter": "B",
+                "text": "char letter = \"A\";"
+            },
+            {
+                "letter": "C",
+                "text": "character letter = 'A';"
+            },
+            {
+                "letter": "D",
+                "text": "char letter = A;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Character literals are enclosed in single quotes."
+    },
+    {
+        "title": "Syntax - Q0031",
+        "text": "[Syntax] Which of the following is the correct way to concatenate strings?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "String s = 'Hello' + 'World';"
+            },
+            {
+                "letter": "B",
+                "text": "String s = \"Hello\" + \"World\";"
+            },
+            {
+                "letter": "C",
+                "text": "String s = concat('Hello', 'World');"
+            },
+            {
+                "letter": "D",
+                "text": "String s = Hello + World;"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Strings are concatenated using the '+' operator with double quotes."
+    },
+    {
+        "title": "Syntax - Q0032",
+        "text": "[Syntax] Which of the following is the correct way to write a ternary operator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "x = (a > b) ? a : b;"
+            },
+            {
+                "letter": "B",
+                "text": "x = if (a > b) then a else b;"
+            },
+            {
+                "letter": "C",
+                "text": "x = a > b ? a;"
+            },
+            {
+                "letter": "D",
+                "text": "x = (a > b) then a : b;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ternary operator syntax is condition ? value1 : value2."
+    },
+    {
+        "title": "Syntax - Q0033",
+        "text": "[Syntax] Which of the following is the correct way to declare a constant string?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "final String NAME = \"Java\";"
+            },
+            {
+                "letter": "B",
+                "text": "const String NAME = \"Java\";"
+            },
+            {
+                "letter": "C",
+                "text": "static String NAME = \"Java\";"
+            },
+            {
+                "letter": "D",
+                "text": "immutable String NAME = \"Java\";"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'final' keyword is used to declare constants."
+    },
+    {
+        "title": "Syntax - Q0034",
+        "text": "[Syntax] Which of the following is the correct way to cast an int to a double?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "double d = (double) x;"
+            },
+            {
+                "letter": "B",
+                "text": "double d = double(x);"
+            },
+            {
+                "letter": "C",
+                "text": "double d = cast(x);"
+            },
+            {
+                "letter": "D",
+                "text": "double d = (int) x;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Casting is done using parentheses with the target type."
+    },
+    {
+        "title": "Syntax - Q0035",
+        "text": "[Syntax] Which of the following is the correct way to declare a static variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "static int count = 0;"
+            },
+            {
+                "letter": "B",
+                "text": "int static count = 0;"
+            },
+            {
+                "letter": "C",
+                "text": "static variable count = 0;"
+            },
+            {
+                "letter": "D",
+                "text": "int count static = 0;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'static' keyword precedes the data type."
+    },
+    {
+        "title": "Syntax - Q0036",
+        "text": "[Syntax] Which of the following is the correct way to declare a public class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "public class MyClass {}"
+            },
+            {
+                "letter": "B",
+                "text": "class public MyClass {}"
+            },
+            {
+                "letter": "C",
+                "text": "MyClass public class {}"
+            },
+            {
+                "letter": "D",
+                "text": "public MyClass class {}"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'public' keyword comes before 'class'."
+    },
+    {
+        "title": "Syntax - Q0037",
+        "text": "[Syntax] Which of the following is the correct way to declare a constructor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "MyClass() {}"
+            },
+            {
+                "letter": "B",
+                "text": "void MyClass() {}"
+            },
+            {
+                "letter": "C",
+                "text": "constructor MyClass() {}"
+            },
+            {
+                "letter": "D",
+                "text": "MyClass void() {}"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors have the same name as the class and no return type."
+    },
+    {
+        "title": "Syntax - Q0038",
+        "text": "[Syntax] Which of the following is the correct way to call a superclass constructor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "super();"
+            },
+            {
+                "letter": "B",
+                "text": "this();"
+            },
+            {
+                "letter": "C",
+                "text": "parent();"
+            },
+            {
+                "letter": "D",
+                "text": "base();"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super()' call invokes the superclass constructor."
+    },
+    {
+        "title": "Syntax - Q0039",
+        "text": "[Syntax] Which of the following is the correct way to call another constructor in the same class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "this();"
+            },
+            {
+                "letter": "B",
+                "text": "super();"
+            },
+            {
+                "letter": "C",
+                "text": "constructor();"
+            },
+            {
+                "letter": "D",
+                "text": "init();"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'this()' call invokes another constructor in the same class."
+    },
+    {
+        "title": "Syntax - Q0040",
+        "text": "[Syntax] Which of the following is the correct way to declare an interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "interface MyInterface {}"
+            },
+            {
+                "letter": "B",
+                "text": "public class MyInterface {}"
+            },
+            {
+                "letter": "C",
+                "text": "abstract MyInterface {}"
+            },
+            {
+                "letter": "D",
+                "text": "interface class MyInterface {}"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces are declared using the 'interface' keyword."
+    },
+    {
+        "title": "Syntax - Q0041",
+        "text": "[Syntax] Which of the following is the correct way to declare an abstract class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "abstract class Shape {}"
+            },
+            {
+                "letter": "B",
+                "text": "class abstract Shape {}"
+            },
+            {
+                "letter": "C",
+                "text": "Shape abstract class {}"
+            },
+            {
+                "letter": "D",
+                "text": "abstract Shape class {}"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes are declared using the 'abstract' keyword before 'class'."
+    },
+    {
+        "title": "Syntax - Q0042",
+        "text": "[Syntax] Which of the following is the correct way to declare a method that returns an int?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int getValue() { return 5; }"
+            },
+            {
+                "letter": "B",
+                "text": "void getValue() { return 5; }"
+            },
+            {
+                "letter": "C",
+                "text": "getValue() int { return 5; }"
+            },
+            {
+                "letter": "D",
+                "text": "return int getValue() { 5; }"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The return type 'int' is declared before the method name."
+    },
+    {
+        "title": "Syntax - Q0043",
+        "text": "[Syntax] Which of the following is the correct way to handle exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "try { } catch (Exception e) { }"
+            },
+            {
+                "letter": "B",
+                "text": "try { } except (Exception e) { }"
+            },
+            {
+                "letter": "C",
+                "text": "try { } handle (Exception e) { }"
+            },
+            {
+                "letter": "D",
+                "text": "try { } error (Exception e) { }"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exceptions are handled using try-catch blocks."
+    },
+    {
+        "title": "Syntax - Q0044",
+        "text": "[Syntax] Which of the following is the correct way to throw an exception?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "throw new Exception();"
+            },
+            {
+                "letter": "B",
+                "text": "raise Exception();"
+            },
+            {
+                "letter": "C",
+                "text": "error Exception();"
+            },
+            {
+                "letter": "D",
+                "text": "throw Exception;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exceptions are thrown using the 'throw' keyword followed by a new instance."
+    },
+    {
+        "title": "Syntax - Q0045",
+        "text": "[Syntax] Which of the following is the correct way to define a package-private method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "void myMethod() {}"
+            },
+            {
+                "letter": "B",
+                "text": "public void myMethod() {}"
+            },
+            {
+                "letter": "C",
+                "text": "private void myMethod() {}"
+            },
+            {
+                "letter": "D",
+                "text": "protected void myMethod() {}"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Methods without an access modifier are package-private by default."
+    },
+    {
+        "title": "Syntax - Q0046",
+        "text": "[Syntax] Which of the following is the correct way to use the 'this' keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "this.variable = value;"
+            },
+            {
+                "letter": "B",
+                "text": "this->variable = value;"
+            },
+            {
+                "letter": "C",
+                "text": "this:variable = value;"
+            },
+            {
+                "letter": "D",
+                "text": "this.variable(value);"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'this' keyword refers to the current object."
+    },
+    {
+        "title": "Syntax - Q0047",
+        "text": "[Syntax] Which of the following is the correct way to use the 'super' keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "super.methodName();"
+            },
+            {
+                "letter": "B",
+                "text": "super->methodName();"
+            },
+            {
+                "letter": "C",
+                "text": "super:methodName();"
+            },
+            {
+                "letter": "D",
+                "text": "super.methodName;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword is used to call a method from the superclass."
+    },
+    {
+        "title": "Syntax - Q0048",
+        "text": "[Syntax] Which of the following is the correct way to declare an enum?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "enum Color { RED, GREEN, BLUE }"
+            },
+            {
+                "letter": "B",
+                "text": "Color enum { RED, GREEN, BLUE }"
+            },
+            {
+                "letter": "C",
+                "text": "enum { RED, GREEN, BLUE } Color"
+            },
+            {
+                "letter": "D",
+                "text": "enum Color = { RED, GREEN, BLUE }"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Enums are declared using the 'enum' keyword followed by the name and constants."
+    },
+    {
+        "title": "Syntax - Q0049",
+        "text": "[Syntax] Which of the following is the correct way to use a switch expression (Java 14+)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int result = switch (x) { case 1 -> 10; default -> 0; };"
+            },
+            {
+                "letter": "B",
+                "text": "int result = switch x { case 1 -> 10; default -> 0; };"
+            },
+            {
+                "letter": "C",
+                "text": "int result = switch (x): case 1 -> 10; default -> 0;"
+            },
+            {
+                "letter": "D",
+                "text": "int result = switch (x) { case 1: 10; default: 0; };"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Switch expressions use '->' syntax introduced in Java 14."
+    },
+    {
+        "title": "Syntax - Q0050",
+        "text": "[Syntax] Which of the following is the correct way to use a lambda expression?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "(x, y) -> x + y"
+            },
+            {
+                "letter": "B",
+                "text": "(x, y) => x + y"
+            },
+            {
+                "letter": "C",
+                "text": "lambda (x, y): x + y"
+            },
+            {
+                "letter": "D",
+                "text": "(x, y) -> { return x + y; }"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Lambda expressions use '->' and can include a return statement in braces."
+    }
+]
