@@ -47,6 +47,42 @@
             "featured": false,
             "views": "15.7K",
             "url": "/quizzes/multithreading-lifecycle"
+        },
+        {
+            "id": 5,
+            "title": "Multithreading - Synchronization",
+            "excerpt": "Java Multithreading Quiz to test Synchronization concepts.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "5 min read",
+            "category": "Multithreading",
+            "featured": false,
+            "views": "15.7K",
+            "url": "/quizzes/multithreading-synchronization"
+        },
+        {
+            "id": 6,
+            "title": "Multithreading - Thread Pools",
+            "excerpt": "Java Multithreading Quiz to test Thread Pools concepts.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "5 min read",
+            "category": "Multithreading",
+            "featured": false,
+            "views": "15.7K",
+            "url": "/quizzes/multithreading-thread-pools"
+        },
+        {
+            "id": 7,
+            "title": "Multithreading - Concurrent Utilities",
+            "excerpt": "Java Multithreading Quiz to test concurrent utilities concepts.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "5 min read",
+            "category": "Multithreading",
+            "featured": false,
+            "views": "15.7K",
+            "url": "/quizzes/multithreading-concurrent-utilities"
         }
     ]
 }
