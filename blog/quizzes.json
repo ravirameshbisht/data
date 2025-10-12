@@ -34,7 +34,7 @@
             "category": "Multithreading",
             "featured": false,
             "views": "15.7K",
-            "url": "/quizzes/multithreading-thread-creation.json"
+            "url": "/quizzes/multithreading-thread-creation"
         },
         {
             "id": 4,
@@ -46,7 +46,7 @@
             "category": "Multithreading",
             "featured": false,
             "views": "15.7K",
-            "url": "/quizzes/multithreading-lifecycle.json"
+            "url": "/quizzes/multithreading-lifecycle"
         }
     ]
 }
