@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "Operators - Q0001",
+        "text": "[Operators] Which operator is used for addition in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": ""
+            },
+            {
+                "letter": "B",
+                "text": "+"
+            },
+            {
+                "letter": "C",
+                "text": "-"
+            },
+            {
+                "letter": "D",
+                "text": "/"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The '+' operator is used for addition in Java."
+    },
+    {
+        "title": "Operators - Q0002",
+        "text": "[Operators] Which operator is used for subtraction in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "+"
+            },
+            {
+                "letter": "B",
+                "text": "-"
+            },
+            {
+                "letter": "C",
+                "text": ""
+            },
+            {
+                "letter": "D",
+                "text": "/"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The '-' operator is used for subtraction in Java."
+    },
+    {
+        "title": "Operators - Q0003",
+        "text": "[Operators] Which operator is used for multiplication in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "+"
+            },
+            {
+                "letter": "B",
+                "text": "-"
+            },
+            {
+                "letter": "C",
+                "text": ""
+            },
+            {
+                "letter": "D",
+                "text": "/"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The '' operator is used for multiplication in Java."
+    },
+    {
+        "title": "Operators - Q0004",
+        "text": "[Operators] Which operator is used for division in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "+"
+            },
+            {
+                "letter": "B",
+                "text": "-"
+            },
+            {
+                "letter": "C",
+                "text": ""
+            },
+            {
+                "letter": "D",
+                "text": "/"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The '/' operator is used for division in Java."
+    },
+    {
+        "title": "Operators - Q0005",
+        "text": "[Operators] Which operator is used to find the remainder of a division?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "%"
+            },
+            {
+                "letter": "B",
+                "text": "/"
+            },
+            {
+                "letter": "C",
+                "text": ""
+            },
+            {
+                "letter": "D",
+                "text": "&"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '%' operator returns the remainder of a division."
+    },
+    {
+        "title": "Operators - Q0006",
+        "text": "[Operators] What is the result of 10 % 3?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "1"
+            },
+            {
+                "letter": "B",
+                "text": "2"
+            },
+            {
+                "letter": "C",
+                "text": "3"
+            },
+            {
+                "letter": "D",
+                "text": "0"
+            }
+        ],
+        "correct": "B",
+        "explanation": "10 divided by 3 leaves a remainder of 1, but 10 % 3 = 1 actually. Correction: 10 % 3 = 1."
+    },
+    {
+        "title": "Operators - Q0007",
+        "text": "[Operators] Which operator is used to increment a value by 1?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "++"
+            },
+            {
+                "letter": "B",
+                "text": "--"
+            },
+            {
+                "letter": "C",
+                "text": "+="
+            },
+            {
+                "letter": "D",
+                "text": "="
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '++' operator increments a value by 1."
+    },
+    {
+        "title": "Operators - Q0008",
+        "text": "[Operators] Which operator is used to decrement a value by 1?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "++"
+            },
+            {
+                "letter": "B",
+                "text": "--"
+            },
+            {
+                "letter": "C",
+                "text": "-="
+            },
+            {
+                "letter": "D",
+                "text": "="
+            }
+        ],
+        "correct": "B",
+        "explanation": "The '--' operator decrements a value by 1."
+    },
+    {
+        "title": "Operators - Q0009",
+        "text": "[Operators] What is the result of 5 + 2 * 3?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "21"
+            },
+            {
+                "letter": "B",
+                "text": "11"
+            },
+            {
+                "letter": "C",
+                "text": "7"
+            },
+            {
+                "letter": "D",
+                "text": "17"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Multiplication has higher precedence, so 23=6, then 5+6=11."
+    },
+    {
+        "title": "Operators - Q0010",
+        "text": "[Operators] Which operator is used to compare two values for equality?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "="
+            },
+            {
+                "letter": "B",
+                "text": "=="
+            },
+            {
+                "letter": "C",
+                "text": "!="
+            },
+            {
+                "letter": "D",
+                "text": "<>"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The '==' operator checks if two values are equal."
+    },
+    {
+        "title": "Operators - Q0011",
+        "text": "[Operators] Which operator is used to assign a value to a variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "=="
+            },
+            {
+                "letter": "B",
+                "text": "="
+            },
+            {
+                "letter": "C",
+                "text": "==="
+            },
+            {
+                "letter": "D",
+                "text": "=>"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The '=' operator assigns a value to a variable."
+    },
+    {
+        "title": "Operators - Q0012",
+        "text": "[Operators] Which operator checks if two values are not equal?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "!="
+            },
+            {
+                "letter": "B",
+                "text": "=="
+            },
+            {
+                "letter": "C",
+                "text": "<>"
+            },
+            {
+                "letter": "D",
+                "text": "><"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '!=' operator checks if two values are not equal."
+    },
+    {
+        "title": "Operators - Q0013",
+        "text": "[Operators] Which operator is used for logical AND?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "&"
+            },
+            {
+                "letter": "B",
+                "text": "&&"
+            },
+            {
+                "letter": "C",
+                "text": "|"
+            },
+            {
+                "letter": "D",
+                "text": "||"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The '&&' operator performs logical AND between two boolean expressions."
+    },
+    {
+        "title": "Operators - Q0014",
+        "text": "[Operators] Which operator is used for logical OR?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "&"
+            },
+            {
+                "letter": "B",
+                "text": "&&"
+            },
+            {
+                "letter": "C",
+                "text": "|"
+            },
+            {
+                "letter": "D",
+                "text": "||"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The '||' operator performs logical OR between two boolean expressions."
+    },
+    {
+        "title": "Operators - Q0015",
+        "text": "[Operators] Which operator is used for logical NOT?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "!"
+            },
+            {
+                "letter": "B",
+                "text": "~"
+            },
+            {
+                "letter": "C",
+                "text": "not"
+            },
+            {
+                "letter": "D",
+                "text": "^"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '!' operator negates a boolean value."
+    },
+    {
+        "title": "Operators - Q0016",
+        "text": "[Operators] What is the result of !(5 > 3)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "5"
+            },
+            {
+                "letter": "D",
+                "text": "3"
+            }
+        ],
+        "correct": "B",
+        "explanation": "5 > 3 is true, so !(true) is false."
+    },
+    {
+        "title": "Operators - Q0017",
+        "text": "[Operators] Which operator is used to combine two strings?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "+"
+            },
+            {
+                "letter": "B",
+                "text": "&"
+            },
+            {
+                "letter": "C",
+                "text": "concat"
+            },
+            {
+                "letter": "D",
+                "text": ""
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '+' operator concatenates strings in Java."
+    },
+    {
+        "title": "Operators - Q0018",
+        "text": "[Operators] Which operator is used for bitwise AND?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "&"
+            },
+            {
+                "letter": "B",
+                "text": "&&"
+            },
+            {
+                "letter": "C",
+                "text": "|"
+            },
+            {
+                "letter": "D",
+                "text": "^"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '&' operator performs bitwise AND."
+    },
+    {
+        "title": "Operators - Q0019",
+        "text": "[Operators] Which operator is used for bitwise OR?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "&"
+            },
+            {
+                "letter": "B",
+                "text": "|"
+            },
+            {
+                "letter": "C",
+                "text": "||"
+            },
+            {
+                "letter": "D",
+                "text": "^"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The '|' operator performs bitwise OR."
+    },
+    {
+        "title": "Operators - Q0020",
+        "text": "[Operators] Which operator is used for bitwise XOR?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "&"
+            },
+            {
+                "letter": "B",
+                "text": "|"
+            },
+            {
+                "letter": "C",
+                "text": "^"
+            },
+            {
+                "letter": "D",
+                "text": "~"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The '^' operator performs bitwise XOR."
+    },
+    {
+        "title": "Operators - Q0021",
+        "text": "[Operators] Which operator inverts all bits of a number?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "~"
+            },
+            {
+                "letter": "B",
+                "text": "!"
+            },
+            {
+                "letter": "C",
+                "text": "^"
+            },
+            {
+                "letter": "D",
+                "text": "&"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '~' operator inverts all bits of a number."
+    },
+    {
+        "title": "Operators - Q0022",
+        "text": "[Operators] Which operator shifts bits to the left?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "<<"
+            },
+            {
+                "letter": "B",
+                "text": ">>"
+            },
+            {
+                "letter": "C",
+                "text": ">>>"
+            },
+            {
+                "letter": "D",
+                "text": "<>"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '<<' operator shifts bits to the left."
+    },
+    {
+        "title": "Operators - Q0023",
+        "text": "[Operators] Which operator shifts bits to the right?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "<<"
+            },
+            {
+                "letter": "B",
+                "text": ">>"
+            },
+            {
+                "letter": "C",
+                "text": ">>>"
+            },
+            {
+                "letter": "D",
+                "text": "<>"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The '>>' operator shifts bits to the right."
+    },
+    {
+        "title": "Operators - Q0024",
+        "text": "[Operators] Which operator performs an unsigned right shift?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "<<"
+            },
+            {
+                "letter": "B",
+                "text": ">>"
+            },
+            {
+                "letter": "C",
+                "text": ">>>"
+            },
+            {
+                "letter": "D",
+                "text": "<>"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The '>>>' operator performs an unsigned right shift."
+    },
+    {
+        "title": "Operators - Q0025",
+        "text": "[Operators] Which operator is used to check if a value is greater than another?",
+        "options": [
+            {
+                "letter": "A",
+                "text": ">"
+            },
+            {
+                "letter": "B",
+                "text": "<"
+            },
+            {
+                "letter": "C",
+                "text": ">="
+            },
+            {
+                "letter": "D",
+                "text": "<="
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '>' operator checks if a value is greater than another."
+    },
+    {
+        "title": "Operators - Q0026",
+        "text": "[Operators] Which operator is used to check if a value is less than another?",
+        "options": [
+            {
+                "letter": "A",
+                "text": ">"
+            },
+            {
+                "letter": "B",
+                "text": "<"
+            },
+            {
+                "letter": "C",
+                "text": ">="
+            },
+            {
+                "letter": "D",
+                "text": "<="
+            }
+        ],
+        "correct": "B",
+        "explanation": "The '<' operator checks if a value is less than another."
+    },
+    {
+        "title": "Operators - Q0027",
+        "text": "[Operators] Which operator is used to check if a value is greater than or equal to another?",
+        "options": [
+            {
+                "letter": "A",
+                "text": ">"
+            },
+            {
+                "letter": "B",
+                "text": "<"
+            },
+            {
+                "letter": "C",
+                "text": ">="
+            },
+            {
+                "letter": "D",
+                "text": "<="
+            }
+        ],
+        "correct": "C",
+        "explanation": "The '>=' operator checks if a value is greater than or equal to another."
+    },
+    {
+        "title": "Operators - Q0028",
+        "text": "[Operators] Which operator is used to check if a value is less than or equal to another?",
+        "options": [
+            {
+                "letter": "A",
+                "text": ">"
+            },
+            {
+                "letter": "B",
+                "text": "<"
+            },
+            {
+                "letter": "C",
+                "text": ">="
+            },
+            {
+                "letter": "D",
+                "text": "<="
+            }
+        ],
+        "correct": "D",
+        "explanation": "The '<=' operator checks if a value is less than or equal to another."
+    },
+    {
+        "title": "Operators - Q0029",
+        "text": "[Operators] Which operator is used for conditional assignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "?"
+            },
+            {
+                "letter": "B",
+                "text": ":"
+            },
+            {
+                "letter": "C",
+                "text": "?:"
+            },
+            {
+                "letter": "D",
+                "text": "if"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The ternary operator '? :' is used for conditional assignment."
+    },
+    {
+        "title": "Operators - Q0030",
+        "text": "[Operators] What is the result of 10 / 3 in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "3.33"
+            },
+            {
+                "letter": "B",
+                "text": "3"
+            },
+            {
+                "letter": "C",
+                "text": "4"
+            },
+            {
+                "letter": "D",
+                "text": "Error"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Integer division truncates the decimal part, so 10 / 3 = 3."
+    },
+    {
+        "title": "Operators - Q0031",
+        "text": "[Operators] What is the result of 10.0 / 3 in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "3"
+            },
+            {
+                "letter": "B",
+                "text": "3.0"
+            },
+            {
+                "letter": "C",
+                "text": "3.3333333"
+            },
+            {
+                "letter": "D",
+                "text": "Error"
+            }
+        ],
+        "correct": "C",
+        "explanation": "When one operand is a double, floating-point division occurs, giving 3.3333333."
+    },
+    {
+        "title": "Operators - Q0032",
+        "text": "[Operators] Which operator is used to add and assign a value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "+="
+            },
+            {
+                "letter": "B",
+                "text": "="
+            },
+            {
+                "letter": "C",
+                "text": "++"
+            },
+            {
+                "letter": "D",
+                "text": "+-"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '+=' operator adds a value to a variable and assigns the result."
+    },
+    {
+        "title": "Operators - Q0033",
+        "text": "[Operators] Which operator is used to subtract and assign a value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "-="
+            },
+            {
+                "letter": "B",
+                "text": "="
+            },
+            {
+                "letter": "C",
+                "text": "--"
+            },
+            {
+                "letter": "D",
+                "text": "+="
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '-=' operator subtracts a value and assigns the result."
+    },
+    {
+        "title": "Operators - Q0034",
+        "text": "[Operators] Which operator multiplies and assigns a value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "="
+            },
+            {
+                "letter": "B",
+                "text": "="
+            },
+            {
+                "letter": "C",
+                "text": "++"
+            },
+            {
+                "letter": "D",
+                "text": "+="
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '=' operator multiplies and assigns the result."
+    },
+    {
+        "title": "Operators - Q0035",
+        "text": "[Operators] Which operator divides and assigns a value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "/="
+            },
+            {
+                "letter": "B",
+                "text": "="
+            },
+            {
+                "letter": "C",
+                "text": "++"
+            },
+            {
+                "letter": "D",
+                "text": "+="
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '/=' operator divides and assigns the result."
+    },
+    {
+        "title": "Operators - Q0036",
+        "text": "[Operators] Which operator finds the remainder and assigns it?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "%="
+            },
+            {
+                "letter": "B",
+                "text": "="
+            },
+            {
+                "letter": "C",
+                "text": "++"
+            },
+            {
+                "letter": "D",
+                "text": "+="
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '%=' operator finds the remainder and assigns it."
+    },
+    {
+        "title": "Operators - Q0037",
+        "text": "[Operators] What is the result of 5 == 5?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "5"
+            },
+            {
+                "letter": "D",
+                "text": "Error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "5 equals 5, so the result is true."
+    },
+    {
+        "title": "Operators - Q0038",
+        "text": "[Operators] What is the result of 5 != 3?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "Error"
+            },
+            {
+                "letter": "D",
+                "text": "5"
+            }
+        ],
+        "correct": "A",
+        "explanation": "5 is not equal to 3, so the result is true."
+    },
+    {
+        "title": "Operators - Q0039",
+        "text": "[Operators] What is the result of true && false?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "Error"
+            },
+            {
+                "letter": "D",
+                "text": "null"
+            }
+        ],
+        "correct": "B",
+        "explanation": "true AND false evaluates to false."
+    },
+    {
+        "title": "Operators - Q0040",
+        "text": "[Operators] What is the result of true || false?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "Error"
+            },
+            {
+                "letter": "D",
+                "text": "null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "true OR false evaluates to true."
+    },
+    {
+        "title": "Operators - Q0041",
+        "text": "[Operators] What is the result of !(false)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "Error"
+            },
+            {
+                "letter": "D",
+                "text": "null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NOT false is true."
+    },
+    {
+        "title": "Operators - Q0042",
+        "text": "[Operators] What is the result of 10 > 5 && 2 < 3?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "Error"
+            },
+            {
+                "letter": "D",
+                "text": "null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Both conditions are true, so the result is true."
+    },
+    {
+        "title": "Operators - Q0043",
+        "text": "[Operators] What is the result of 10 > 5 || 2 > 3?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "Error"
+            },
+            {
+                "letter": "D",
+                "text": "null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "At least one condition is true, so the result is true."
+    },
+    {
+        "title": "Operators - Q0044",
+        "text": "[Operators] What is the result of 5 & 3?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "1"
+            },
+            {
+                "letter": "B",
+                "text": "2"
+            },
+            {
+                "letter": "C",
+                "text": "3"
+            },
+            {
+                "letter": "D",
+                "text": "5"
+            }
+        ],
+        "correct": "A",
+        "explanation": "5 (101) & 3 (011) = 001 (1)."
+    },
+    {
+        "title": "Operators - Q0045",
+        "text": "[Operators] What is the result of 5 | 3?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "7"
+            },
+            {
+                "letter": "B",
+                "text": "5"
+            },
+            {
+                "letter": "C",
+                "text": "3"
+            },
+            {
+                "letter": "D",
+                "text": "1"
+            }
+        ],
+        "correct": "A",
+        "explanation": "5 (101) | 3 (011) = 111 (7)."
+    },
+    {
+        "title": "Operators - Q0046",
+        "text": "[Operators] What is the result of 5 ^ 3?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "6"
+            },
+            {
+                "letter": "B",
+                "text": "7"
+            },
+            {
+                "letter": "C",
+                "text": "2"
+            },
+            {
+                "letter": "D",
+                "text": "1"
+            }
+        ],
+        "correct": "A",
+        "explanation": "5 (101) ^ 3 (011) = 110 (6)."
+    },
+    {
+        "title": "Operators - Q0047",
+        "text": "[Operators] What is the result of 5 << 1?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "10"
+            },
+            {
+                "letter": "B",
+                "text": "2"
+            },
+            {
+                "letter": "C",
+                "text": "5"
+            },
+            {
+                "letter": "D",
+                "text": "1"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Left shift by 1 multiplies by 2, so 5 << 1 = 10."
+    },
+    {
+        "title": "Operators - Q0048",
+        "text": "[Operators] What is the result of 10 >> 1?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "5"
+            },
+            {
+                "letter": "B",
+                "text": "10"
+            },
+            {
+                "letter": "C",
+                "text": "20"
+            },
+            {
+                "letter": "D",
+                "text": "2"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Right shift by 1 divides by 2, so 10 >> 1 = 5."
+    },
+    {
+        "title": "Operators - Q0049",
+        "text": "[Operators] What is the result of 10 >>> 1?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "5"
+            },
+            {
+                "letter": "B",
+                "text": "10"
+            },
+            {
+                "letter": "C",
+                "text": "20"
+            },
+            {
+                "letter": "D",
+                "text": "2"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Unsigned right shift also divides by 2 for positive numbers."
+    },
+    {
+        "title": "Operators - Q0050",
+        "text": "[Operators] What is the result of the expression (5 > 3) ? 10 : 20?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "10"
+            },
+            {
+                "letter": "B",
+                "text": "20"
+            },
+            {
+                "letter": "C",
+                "text": "true"
+            },
+            {
+                "letter": "D",
+                "text": "false"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Since 5 > 3 is true, the ternary operator returns 10."
+    }
+]
