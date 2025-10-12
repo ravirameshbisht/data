@@ -26,15 +26,27 @@
         },
         {
             "id": 3,
-            "title": "Multithreading",
-            "excerpt": "Java Multithreading Quiz to test your fundamental knowledge of Java concurrency concepts.",
+            "title": "Multithreading - Thread Creation",
+            "excerpt": "Java Multithreading Quiz to test Thread Creation concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "5 min read",
             "category": "Multithreading",
             "featured": false,
             "views": "15.7K",
-            "url": "/quizzes/multithreading"
+            "url": "/quizzes/multithreading-threadcreation.json"
+        },
+        {
+            "id": 4,
+            "title": "Multithreading - Lifecycle",
+            "excerpt": "Java Multithreading Quiz to test Lifecycle concepts.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "5 min read",
+            "category": "Multithreading",
+            "featured": false,
+            "views": "15.7K",
+            "url": "/quizzes/multithreading-lifecycle.json"
         }
     ]
 }
