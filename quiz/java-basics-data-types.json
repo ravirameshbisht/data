@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "DataTypes - Q0001",
+        "text": "[Data Types] Which of the following is not a primitive data type in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int"
+            },
+            {
+                "letter": "B",
+                "text": "float"
+            },
+            {
+                "letter": "C",
+                "text": "String"
+            },
+            {
+                "letter": "D",
+                "text": "boolean"
+            }
+        ],
+        "correct": "C",
+        "explanation": "String is a class, not a primitive data type."
+    },
+    {
+        "title": "DataTypes - Q0002",
+        "text": "[Data Types] How many primitive data types are there in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "6"
+            },
+            {
+                "letter": "B",
+                "text": "7"
+            },
+            {
+                "letter": "C",
+                "text": "8"
+            },
+            {
+                "letter": "D",
+                "text": "9"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Java has 8 primitive data types."
+    },
+    {
+        "title": "DataTypes - Q0003",
+        "text": "[Data Types] Which data type is used to store whole numbers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "float"
+            },
+            {
+                "letter": "B",
+                "text": "int"
+            },
+            {
+                "letter": "C",
+                "text": "double"
+            },
+            {
+                "letter": "D",
+                "text": "boolean"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The int data type is used to store whole numbers."
+    },
+    {
+        "title": "DataTypes - Q0004",
+        "text": "[Data Types] Which data type is used to store decimal numbers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int"
+            },
+            {
+                "letter": "B",
+                "text": "float"
+            },
+            {
+                "letter": "C",
+                "text": "char"
+            },
+            {
+                "letter": "D",
+                "text": "boolean"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The float data type is used to store decimal numbers."
+    },
+    {
+        "title": "DataTypes - Q0005",
+        "text": "[Data Types] Which data type is used to store true or false values?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "boolean"
+            },
+            {
+                "letter": "B",
+                "text": "int"
+            },
+            {
+                "letter": "C",
+                "text": "char"
+            },
+            {
+                "letter": "D",
+                "text": "byte"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The boolean data type stores true or false values."
+    },
+    {
+        "title": "DataTypes - Q0006",
+        "text": "[Data Types] Which data type is used to store a single character?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "String"
+            },
+            {
+                "letter": "B",
+                "text": "char"
+            },
+            {
+                "letter": "C",
+                "text": "boolean"
+            },
+            {
+                "letter": "D",
+                "text": "byte"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The char data type stores a single character."
+    },
+    {
+        "title": "DataTypes - Q0007",
+        "text": "[Data Types] What is the size of an int in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "8 bits"
+            },
+            {
+                "letter": "B",
+                "text": "16 bits"
+            },
+            {
+                "letter": "C",
+                "text": "32 bits"
+            },
+            {
+                "letter": "D",
+                "text": "64 bits"
+            }
+        ],
+        "correct": "C",
+        "explanation": "An int in Java is 32 bits."
+    },
+    {
+        "title": "DataTypes - Q0008",
+        "text": "[Data Types] What is the size of a byte in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "4 bits"
+            },
+            {
+                "letter": "B",
+                "text": "8 bits"
+            },
+            {
+                "letter": "C",
+                "text": "16 bits"
+            },
+            {
+                "letter": "D",
+                "text": "32 bits"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A byte in Java is 8 bits."
+    },
+    {
+        "title": "DataTypes - Q0009",
+        "text": "[Data Types] What is the size of a short in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "8 bits"
+            },
+            {
+                "letter": "B",
+                "text": "16 bits"
+            },
+            {
+                "letter": "C",
+                "text": "32 bits"
+            },
+            {
+                "letter": "D",
+                "text": "64 bits"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A short in Java is 16 bits."
+    },
+    {
+        "title": "DataTypes - Q0010",
+        "text": "[Data Types] What is the size of a long in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "16 bits"
+            },
+            {
+                "letter": "B",
+                "text": "32 bits"
+            },
+            {
+                "letter": "C",
+                "text": "64 bits"
+            },
+            {
+                "letter": "D",
+                "text": "128 bits"
+            }
+        ],
+        "correct": "C",
+        "explanation": "A long in Java is 64 bits."
+    },
+    {
+        "title": "DataTypes - Q0011",
+        "text": "[Data Types] What is the size of a float in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "16 bits"
+            },
+            {
+                "letter": "B",
+                "text": "32 bits"
+            },
+            {
+                "letter": "C",
+                "text": "64 bits"
+            },
+            {
+                "letter": "D",
+                "text": "128 bits"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A float in Java is 32 bits."
+    },
+    {
+        "title": "DataTypes - Q0012",
+        "text": "[Data Types] What is the size of a double in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "32 bits"
+            },
+            {
+                "letter": "B",
+                "text": "64 bits"
+            },
+            {
+                "letter": "C",
+                "text": "128 bits"
+            },
+            {
+                "letter": "D",
+                "text": "16 bits"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A double in Java is 64 bits."
+    },
+    {
+        "title": "DataTypes - Q0013",
+        "text": "[Data Types] What is the size of a char in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "8 bits"
+            },
+            {
+                "letter": "B",
+                "text": "16 bits"
+            },
+            {
+                "letter": "C",
+                "text": "32 bits"
+            },
+            {
+                "letter": "D",
+                "text": "64 bits"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A char in Java is 16 bits and uses Unicode."
+    },
+    {
+        "title": "DataTypes - Q0014",
+        "text": "[Data Types] Which data type is used to store large decimal numbers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "float"
+            },
+            {
+                "letter": "B",
+                "text": "double"
+            },
+            {
+                "letter": "C",
+                "text": "int"
+            },
+            {
+                "letter": "D",
+                "text": "long"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The double data type is used for large decimal numbers."
+    },
+    {
+        "title": "DataTypes - Q0015",
+        "text": "[Data Types] Which data type can store the value 'A'?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "char"
+            },
+            {
+                "letter": "B",
+                "text": "String"
+            },
+            {
+                "letter": "C",
+                "text": "boolean"
+            },
+            {
+                "letter": "D",
+                "text": "int"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A single character like 'A' is stored in a char variable."
+    },
+    {
+        "title": "DataTypes - Q0016",
+        "text": "[Data Types] Which data type can store the value \"Hello\"?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "char"
+            },
+            {
+                "letter": "B",
+                "text": "String"
+            },
+            {
+                "letter": "C",
+                "text": "boolean"
+            },
+            {
+                "letter": "D",
+                "text": "int"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A String stores a sequence of characters like \"Hello\"."
+    },
+    {
+        "title": "DataTypes - Q0017",
+        "text": "[Data Types] Which data type is used to store very small integers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "byte"
+            },
+            {
+                "letter": "B",
+                "text": "short"
+            },
+            {
+                "letter": "C",
+                "text": "int"
+            },
+            {
+                "letter": "D",
+                "text": "long"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The byte data type stores small integers from -128 to 127."
+    },
+    {
+        "title": "DataTypes - Q0018",
+        "text": "[Data Types] What is the default value of an int variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "null"
+            },
+            {
+                "letter": "C",
+                "text": "false"
+            },
+            {
+                "letter": "D",
+                "text": "undefined"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The default value of an int variable is 0."
+    },
+    {
+        "title": "DataTypes - Q0019",
+        "text": "[Data Types] What is the default value of a boolean variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "0"
+            },
+            {
+                "letter": "D",
+                "text": "null"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The default value of a boolean variable is false."
+    },
+    {
+        "title": "DataTypes - Q0020",
+        "text": "[Data Types] What is the default value of a reference variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "null"
+            },
+            {
+                "letter": "D",
+                "text": "undefined"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Reference variables default to null."
+    },
+    {
+        "title": "DataTypes - Q0021",
+        "text": "[Data Types] Which of the following is a reference data type?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int"
+            },
+            {
+                "letter": "B",
+                "text": "boolean"
+            },
+            {
+                "letter": "C",
+                "text": "String"
+            },
+            {
+                "letter": "D",
+                "text": "char"
+            }
+        ],
+        "correct": "C",
+        "explanation": "String is a reference data type because it refers to an object."
+    },
+    {
+        "title": "DataTypes - Q0022",
+        "text": "[Data Types] Which data type can store the largest integer value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int"
+            },
+            {
+                "letter": "B",
+                "text": "short"
+            },
+            {
+                "letter": "C",
+                "text": "long"
+            },
+            {
+                "letter": "D",
+                "text": "byte"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The long data type can store the largest integer values."
+    },
+    {
+        "title": "DataTypes - Q0023",
+        "text": "[Data Types] What is the range of a byte in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "-128 to 127"
+            },
+            {
+                "letter": "B",
+                "text": "0 to 255"
+            },
+            {
+                "letter": "C",
+                "text": "-255 to 255"
+            },
+            {
+                "letter": "D",
+                "text": "-64 to 63"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A byte in Java ranges from -128 to 127."
+    },
+    {
+        "title": "DataTypes - Q0024",
+        "text": "[Data Types] What is the range of a short in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "-128 to 127"
+            },
+            {
+                "letter": "B",
+                "text": "-32,768 to 32,767"
+            },
+            {
+                "letter": "C",
+                "text": "-65,536 to 65,535"
+            },
+            {
+                "letter": "D",
+                "text": "0 to 65,535"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A short in Java ranges from -32,768 to 32,767."
+    },
+    {
+        "title": "DataTypes - Q0025",
+        "text": "[Data Types] What is the range of an int in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "-32,768 to 32,767"
+            },
+            {
+                "letter": "B",
+                "text": "-2^31 to 2^31 - 1"
+            },
+            {
+                "letter": "C",
+                "text": "-2^15 to 2^15 - 1"
+            },
+            {
+                "letter": "D",
+                "text": "-2^63 to 2^63 - 1"
+            }
+        ],
+        "correct": "B",
+        "explanation": "An int in Java ranges from -2^31 to 2^31 - 1."
+    },
+    {
+        "title": "DataTypes - Q0026",
+        "text": "[Data Types] What is the range of a long in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "-2^31 to 2^31 - 1"
+            },
+            {
+                "letter": "B",
+                "text": "-2^63 to 2^63 - 1"
+            },
+            {
+                "letter": "C",
+                "text": "-2^15 to 2^15 - 1"
+            },
+            {
+                "letter": "D",
+                "text": "-2^7 to 2^7 - 1"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A long in Java ranges from -2^63 to 2^63 - 1."
+    },
+    {
+        "title": "DataTypes - Q0027",
+        "text": "[Data Types] Which data type should be used to store a large number like 9,000,000,000?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int"
+            },
+            {
+                "letter": "B",
+                "text": "long"
+            },
+            {
+                "letter": "C",
+                "text": "float"
+            },
+            {
+                "letter": "D",
+                "text": "double"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The long data type is used for very large integer values."
+    },
+    {
+        "title": "DataTypes - Q0028",
+        "text": "[Data Types] Which data type should be used to store 3.14?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int"
+            },
+            {
+                "letter": "B",
+                "text": "float"
+            },
+            {
+                "letter": "C",
+                "text": "char"
+            },
+            {
+                "letter": "D",
+                "text": "boolean"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The float data type is used to store decimal numbers like 3.14."
+    },
+    {
+        "title": "DataTypes - Q0029",
+        "text": "[Data Types] Which data type should be used to store 3.141592653589793?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "float"
+            },
+            {
+                "letter": "B",
+                "text": "double"
+            },
+            {
+                "letter": "C",
+                "text": "int"
+            },
+            {
+                "letter": "D",
+                "text": "long"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The double data type provides higher precision for decimal numbers."
+    },
+    {
+        "title": "DataTypes - Q0030",
+        "text": "[Data Types] Which data type can store Unicode characters?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "char"
+            },
+            {
+                "letter": "B",
+                "text": "String"
+            },
+            {
+                "letter": "C",
+                "text": "byte"
+            },
+            {
+                "letter": "D",
+                "text": "int"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The char data type stores Unicode characters."
+    },
+    {
+        "title": "DataTypes - Q0031",
+        "text": "[Data Types] Which of the following is a wrapper class for int?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integer"
+            },
+            {
+                "letter": "B",
+                "text": "Int"
+            },
+            {
+                "letter": "C",
+                "text": "Number"
+            },
+            {
+                "letter": "D",
+                "text": "Float"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Integer is the wrapper class for the primitive type int."
+    },
+    {
+        "title": "DataTypes - Q0032",
+        "text": "[Data Types] Which of the following is a wrapper class for double?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Double"
+            },
+            {
+                "letter": "B",
+                "text": "Float"
+            },
+            {
+                "letter": "C",
+                "text": "Decimal"
+            },
+            {
+                "letter": "D",
+                "text": "Real"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Double is the wrapper class for the primitive type double."
+    },
+    {
+        "title": "DataTypes - Q0033",
+        "text": "[Data Types] Which of the following is a wrapper class for boolean?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Boolean"
+            },
+            {
+                "letter": "B",
+                "text": "Bool"
+            },
+            {
+                "letter": "C",
+                "text": "Logic"
+            },
+            {
+                "letter": "D",
+                "text": "TrueFalse"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Boolean is the wrapper class for the primitive type boolean."
+    },
+    {
+        "title": "DataTypes - Q0034",
+        "text": "[Data Types] Which of the following is a wrapper class for char?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Character"
+            },
+            {
+                "letter": "B",
+                "text": "Char"
+            },
+            {
+                "letter": "C",
+                "text": "String"
+            },
+            {
+                "letter": "D",
+                "text": "Letter"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Character is the wrapper class for the primitive type char."
+    },
+    {
+        "title": "DataTypes - Q0035",
+        "text": "[Data Types] Which of the following is a wrapper class for float?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Float"
+            },
+            {
+                "letter": "B",
+                "text": "Double"
+            },
+            {
+                "letter": "C",
+                "text": "Decimal"
+            },
+            {
+                "letter": "D",
+                "text": "Real"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Float is the wrapper class for the primitive type float."
+    },
+    {
+        "title": "DataTypes - Q0036",
+        "text": "[Data Types] Which of the following is a wrapper class for long?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Long"
+            },
+            {
+                "letter": "B",
+                "text": "Integer"
+            },
+            {
+                "letter": "C",
+                "text": "BigInteger"
+            },
+            {
+                "letter": "D",
+                "text": "Number"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Long is the wrapper class for the primitive type long."
+    },
+    {
+        "title": "DataTypes - Q0037",
+        "text": "[Data Types] Which of the following is a wrapper class for byte?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Byte"
+            },
+            {
+                "letter": "B",
+                "text": "Short"
+            },
+            {
+                "letter": "C",
+                "text": "Integer"
+            },
+            {
+                "letter": "D",
+                "text": "Number"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Byte is the wrapper class for the primitive type byte."
+    },
+    {
+        "title": "DataTypes - Q0038",
+        "text": "[Data Types] Which of the following is a wrapper class for short?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Short"
+            },
+            {
+                "letter": "B",
+                "text": "Integer"
+            },
+            {
+                "letter": "C",
+                "text": "Byte"
+            },
+            {
+                "letter": "D",
+                "text": "Number"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Short is the wrapper class for the primitive type short."
+    },
+    {
+        "title": "DataTypes - Q0039",
+        "text": "[Data Types] Which data type is used to store a large integer beyond the range of long?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "BigInteger"
+            },
+            {
+                "letter": "B",
+                "text": "int"
+            },
+            {
+                "letter": "C",
+                "text": "double"
+            },
+            {
+                "letter": "D",
+                "text": "float"
+            }
+        ],
+        "correct": "A",
+        "explanation": "BigInteger is used for integers larger than the range of long."
+    },
+    {
+        "title": "DataTypes - Q0040",
+        "text": "[Data Types] Which data type is used for high-precision decimal numbers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "BigDecimal"
+            },
+            {
+                "letter": "B",
+                "text": "float"
+            },
+            {
+                "letter": "C",
+                "text": "double"
+            },
+            {
+                "letter": "D",
+                "text": "long"
+            }
+        ],
+        "correct": "A",
+        "explanation": "BigDecimal is used for high-precision decimal arithmetic."
+    },
+    {
+        "title": "DataTypes - Q0041",
+        "text": "[Data Types] Which of the following can store null values?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int"
+            },
+            {
+                "letter": "B",
+                "text": "boolean"
+            },
+            {
+                "letter": "C",
+                "text": "String"
+            },
+            {
+                "letter": "D",
+                "text": "char"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Reference types like String can store null values."
+    },
+    {
+        "title": "DataTypes - Q0042",
+        "text": "[Data Types] Which of the following is not a valid literal for a float?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "3.14f"
+            },
+            {
+                "letter": "B",
+                "text": "2.5F"
+            },
+            {
+                "letter": "C",
+                "text": "1.0"
+            },
+            {
+                "letter": "D",
+                "text": "0.5f"
+            }
+        ],
+        "correct": "C",
+        "explanation": "1.0 is a double literal; float literals must have 'f' or 'F'."
+    },
+    {
+        "title": "DataTypes - Q0043",
+        "text": "[Data Types] Which of the following is a valid character literal?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "'A'"
+            },
+            {
+                "letter": "B",
+                "text": "\"A\""
+            },
+            {
+                "letter": "C",
+                "text": "A"
+            },
+            {
+                "letter": "D",
+                "text": "'AB'"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Character literals are enclosed in single quotes."
+    },
+    {
+        "title": "DataTypes - Q0044",
+        "text": "[Data Types] Which of the following is a valid boolean literal?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "True"
+            },
+            {
+                "letter": "B",
+                "text": "False"
+            },
+            {
+                "letter": "C",
+                "text": "true"
+            },
+            {
+                "letter": "D",
+                "text": "1"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Boolean literals are lowercase 'true' and 'false'."
+    },
+    {
+        "title": "DataTypes - Q0045",
+        "text": "[Data Types] Which of the following is a valid integer literal?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "100"
+            },
+            {
+                "letter": "B",
+                "text": "10.0"
+            },
+            {
+                "letter": "C",
+                "text": "'A'"
+            },
+            {
+                "letter": "D",
+                "text": "\"100\""
+            }
+        ],
+        "correct": "A",
+        "explanation": "Integer literals are whole numbers without quotes or decimals."
+    },
+    {
+        "title": "DataTypes - Q0046",
+        "text": "[Data Types] Which of the following is a valid long literal?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "100L"
+            },
+            {
+                "letter": "B",
+                "text": "100l"
+            },
+            {
+                "letter": "C",
+                "text": "100"
+            },
+            {
+                "letter": "D",
+                "text": "Both A and B"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Long literals can use 'L' or 'l' suffix."
+    },
+    {
+        "title": "DataTypes - Q0047",
+        "text": "[Data Types] Which of the following is a valid double literal?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "3.14"
+            },
+            {
+                "letter": "B",
+                "text": "3.14d"
+            },
+            {
+                "letter": "C",
+                "text": "3.14D"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "All are valid double literals; 'd' or 'D' is optional."
+    },
+    {
+        "title": "DataTypes - Q0048",
+        "text": "[Data Types] Which of the following is a valid escape sequence for a new line?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "\n"
+            },
+            {
+                "letter": "B",
+                "text": "\t"
+            },
+            {
+                "letter": "C",
+                "text": "\r"
+            },
+            {
+                "letter": "D",
+                "text": "\b"
+            }
+        ],
+        "correct": "A",
+        "explanation": "\n is the escape sequence for a new line."
+    },
+    {
+        "title": "DataTypes - Q0049",
+        "text": "[Data Types] Which of the following is a valid escape sequence for a tab?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "\n"
+            },
+            {
+                "letter": "B",
+                "text": "\t"
+            },
+            {
+                "letter": "C",
+                "text": "\r"
+            },
+            {
+                "letter": "D",
+                "text": "\b"
+            }
+        ],
+        "correct": "B",
+        "explanation": "\t is the escape sequence for a tab."
+    },
+    {
+        "title": "DataTypes - Q0050",
+        "text": "[Data Types] Which of the following is the correct way to declare a variable of type double?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "double num = 10.5;"
+            },
+            {
+                "letter": "B",
+                "text": "Double num = 10.5;"
+            },
+            {
+                "letter": "C",
+                "text": "decimal num = 10.5;"
+            },
+            {
+                "letter": "D",
+                "text": "float num = 10.5;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct declaration for a double variable is 'double num = 10.5;'."
+    }
+]
