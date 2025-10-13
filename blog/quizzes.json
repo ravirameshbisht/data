@@ -22,7 +22,7 @@
             "category": "JAVA",
             "featured": false,
             "views": "8.2K",
-            "url": "/quizzes/java-basics-syntax"
+            "url": "/quizzes/java-basic-syntax"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "category": "JAVA",
             "featured": false,
             "views": "8.2K",
-            "url": "/quizzes/java-basics-operators"
+            "url": "/quizzes/java-basic-operators"
         },
         {
             "id": 4,
@@ -46,7 +46,7 @@
             "category": "JAVA",
             "featured": false,
             "views": "8.2K",
-            "url": "/quizzes/java-basics-data-types"
+            "url": "/quizzes/java-basic-data-types"
         },
         {
             "id": 5,
@@ -58,7 +58,7 @@
             "category": "JAVA",
             "featured": false,
             "views": "8.2K",
-            "url": "/quizzes/java-basics-control-flow"
+            "url": "/quizzes/java-basic-control-flow"
         },
         {
             "id": 6,
