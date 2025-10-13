@@ -14,18 +14,54 @@
         },
         {
             "id": 2,
-            "title": "Java Basics",
-            "excerpt": "Java Basics Quiz to test your fundamental knowledge of Java programming.",
+            "title": "Java Basics Syntax",
+            "excerpt": "Java Basics Quiz to test Java Syntax concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
             "readTime": "6 min read",
             "category": "JAVA",
             "featured": false,
             "views": "8.2K",
-            "url": "/quizzes/java-basics"
+            "url": "/quizzes/java-basics-syntax"
         },
         {
             "id": 3,
+            "title": "Java Basics Operators",
+            "excerpt": "Java Basics Quiz to test Java Operators concepts.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "6 min read",
+            "category": "JAVA",
+            "featured": false,
+            "views": "8.2K",
+            "url": "/quizzes/java-basics-operators"
+        },
+        {
+            "id": 4,
+            "title": "Java Basics Data Types",
+            "excerpt": "Java Basics Quiz to test Java Data Types concepts.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "6 min read",
+            "category": "JAVA",
+            "featured": false,
+            "views": "8.2K",
+            "url": "/quizzes/java-basics-data-types"
+        },
+        {
+            "id": 5,
+            "title": "Java Basics Control Flow",
+            "excerpt": "Java Basics Quiz to test Java Control flow concepts.",
+            "author": "Ravi Bisht",
+            "date": "2025-10-01",
+            "readTime": "6 min read",
+            "category": "JAVA",
+            "featured": false,
+            "views": "8.2K",
+            "url": "/quizzes/java-basics-control-flow"
+        },
+        {
+            "id": 6,
             "title": "Multithreading - Thread Creation",
             "excerpt": "Java Multithreading Quiz to test Thread Creation concepts.",
             "author": "Ravi Bisht",
@@ -37,7 +73,7 @@
             "url": "/quizzes/multithreading-thread-creation"
         },
         {
-            "id": 4,
+            "id": 7,
             "title": "Multithreading - Lifecycle",
             "excerpt": "Java Multithreading Quiz to test Lifecycle concepts.",
             "author": "Ravi Bisht",
@@ -49,7 +85,7 @@
             "url": "/quizzes/multithreading-lifecycle"
         },
         {
-            "id": 5,
+            "id": 8,
             "title": "Multithreading - Synchronization",
             "excerpt": "Java Multithreading Quiz to test Synchronization concepts.",
             "author": "Ravi Bisht",
@@ -61,7 +97,7 @@
             "url": "/quizzes/multithreading-synchronization"
         },
         {
-            "id": 6,
+            "id": 9,
             "title": "Multithreading - Thread Pools",
             "excerpt": "Java Multithreading Quiz to test Thread Pools concepts.",
             "author": "Ravi Bisht",
@@ -73,7 +109,7 @@
             "url": "/quizzes/multithreading-thread-pools"
         },
         {
-            "id": 7,
+            "id": 10,
             "title": "Multithreading - Concurrent Utilities",
             "excerpt": "Java Multithreading Quiz to test concurrent utilities concepts.",
             "author": "Ravi Bisht",
