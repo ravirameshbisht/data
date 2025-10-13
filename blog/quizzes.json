@@ -14,7 +14,7 @@
         },
         {
             "id": 2,
-            "title": "Java Basics Syntax",
+            "title": "Syntax",
             "excerpt": "Java Basics Quiz to test Java Syntax concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
@@ -26,7 +26,7 @@
         },
         {
             "id": 3,
-            "title": "Java Basics Operators",
+            "title": "Operators",
             "excerpt": "Java Basics Quiz to test Java Operators concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
@@ -38,7 +38,7 @@
         },
         {
             "id": 4,
-            "title": "Java Basics Data Types",
+            "title": "Data Types",
             "excerpt": "Java Basics Quiz to test Java Data Types concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
@@ -50,7 +50,7 @@
         },
         {
             "id": 5,
-            "title": "Java Basics Control Flow",
+            "title": "Control Flow",
             "excerpt": "Java Basics Quiz to test Java Control flow concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
@@ -62,7 +62,7 @@
         },
         {
             "id": 6,
-            "title": "Multithreading - Thread Creation",
+            "title": "Thread Creation",
             "excerpt": "Java Multithreading Quiz to test Thread Creation concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
@@ -74,7 +74,7 @@
         },
         {
             "id": 7,
-            "title": "Multithreading - Lifecycle",
+            "title": "Lifecycle",
             "excerpt": "Java Multithreading Quiz to test Lifecycle concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
@@ -86,7 +86,7 @@
         },
         {
             "id": 8,
-            "title": "Multithreading - Synchronization",
+            "title": "Synchronization",
             "excerpt": "Java Multithreading Quiz to test Synchronization concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
@@ -98,7 +98,7 @@
         },
         {
             "id": 9,
-            "title": "Multithreading - Thread Pools",
+            "title": "Thread Pools",
             "excerpt": "Java Multithreading Quiz to test Thread Pools concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
@@ -110,7 +110,7 @@
         },
         {
             "id": 10,
-            "title": "Multithreading - Concurrent Utilities",
+            "title": "Concurrent Utilities",
             "excerpt": "Java Multithreading Quiz to test concurrent utilities concepts.",
             "author": "Ravi Bisht",
             "date": "2025-10-01",
