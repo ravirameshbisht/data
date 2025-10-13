@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaControlFlow - Q0001",
+        "text": "[Java Basics - Control Flow] Which keyword is used to start a conditional statement in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "if"
+            },
+            {
+                "letter": "B",
+                "text": "when"
+            },
+            {
+                "letter": "C",
+                "text": "switch"
+            },
+            {
+                "letter": "D",
+                "text": "case"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'if' keyword is used to start a conditional statement."
+    },
+    {
+        "title": "JavaControlFlow - Q0002",
+        "text": "[Java Basics - Control Flow] Which keyword is used to provide an alternative condition in an if statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "else"
+            },
+            {
+                "letter": "B",
+                "text": "elseif"
+            },
+            {
+                "letter": "C",
+                "text": "otherwise"
+            },
+            {
+                "letter": "D",
+                "text": "next"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'else' keyword provides an alternative block when the if condition is false."
+    },
+    {
+        "title": "JavaControlFlow - Q0003",
+        "text": "[Java Basics - Control Flow] Which keyword is used to test multiple conditions in sequence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "elseif"
+            },
+            {
+                "letter": "B",
+                "text": "else if"
+            },
+            {
+                "letter": "C",
+                "text": "next if"
+            },
+            {
+                "letter": "D",
+                "text": "switch"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'else if' statement allows testing multiple conditions in sequence."
+    },
+    {
+        "title": "JavaControlFlow - Q0004",
+        "text": "[Java Basics - Control Flow] Which statement is used to execute one block of code among many options?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "if"
+            },
+            {
+                "letter": "B",
+                "text": "switch"
+            },
+            {
+                "letter": "C",
+                "text": "for"
+            },
+            {
+                "letter": "D",
+                "text": "while"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'switch' statement executes one block of code among many options."
+    },
+    {
+        "title": "JavaControlFlow - Q0005",
+        "text": "[Java Basics - Control Flow] Which keyword is used inside a switch statement to specify a condition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "case"
+            },
+            {
+                "letter": "B",
+                "text": "if"
+            },
+            {
+                "letter": "C",
+                "text": "when"
+            },
+            {
+                "letter": "D",
+                "text": "option"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'case' keyword specifies a condition inside a switch statement."
+    },
+    {
+        "title": "JavaControlFlow - Q0006",
+        "text": "[Java Basics - Control Flow] Which keyword is used to exit a switch statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "stop"
+            },
+            {
+                "letter": "B",
+                "text": "exit"
+            },
+            {
+                "letter": "C",
+                "text": "break"
+            },
+            {
+                "letter": "D",
+                "text": "return"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The 'break' statement exits a switch or loop."
+    },
+    {
+        "title": "JavaControlFlow - Q0007",
+        "text": "[Java Basics - Control Flow] Which keyword is used to provide a default case in a switch statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "default"
+            },
+            {
+                "letter": "B",
+                "text": "else"
+            },
+            {
+                "letter": "C",
+                "text": "otherwise"
+            },
+            {
+                "letter": "D",
+                "text": "fallback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'default' keyword specifies the block to execute if no case matches."
+    },
+    {
+        "title": "JavaControlFlow - Q0008",
+        "text": "[Java Basics - Control Flow] Which loop executes a block of code a fixed number of times?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "while"
+            },
+            {
+                "letter": "B",
+                "text": "for"
+            },
+            {
+                "letter": "C",
+                "text": "do-while"
+            },
+            {
+                "letter": "D",
+                "text": "switch"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'for' loop executes a block of code a fixed number of times."
+    },
+    {
+        "title": "JavaControlFlow - Q0009",
+        "text": "[Java Basics - Control Flow] Which loop checks the condition before executing the block?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for"
+            },
+            {
+                "letter": "B",
+                "text": "while"
+            },
+            {
+                "letter": "C",
+                "text": "do-while"
+            },
+            {
+                "letter": "D",
+                "text": "switch"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'while' loop checks the condition before executing the block."
+    },
+    {
+        "title": "JavaControlFlow - Q0010",
+        "text": "[Java Basics - Control Flow] Which loop executes the block at least once?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for"
+            },
+            {
+                "letter": "B",
+                "text": "while"
+            },
+            {
+                "letter": "C",
+                "text": "do-while"
+            },
+            {
+                "letter": "D",
+                "text": "switch"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The 'do-while' loop executes the block at least once before checking the condition."
+    },
+    {
+        "title": "JavaControlFlow - Q0011",
+        "text": "[Java Basics - Control Flow] Which statement is used to skip the current iteration of a loop?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "break"
+            },
+            {
+                "letter": "B",
+                "text": "continue"
+            },
+            {
+                "letter": "C",
+                "text": "exit"
+            },
+            {
+                "letter": "D",
+                "text": "return"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'continue' statement skips the current iteration and moves to the next."
+    },
+    {
+        "title": "JavaControlFlow - Q0012",
+        "text": "[Java Basics - Control Flow] Which statement is used to terminate a loop immediately?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "break"
+            },
+            {
+                "letter": "B",
+                "text": "continue"
+            },
+            {
+                "letter": "C",
+                "text": "exit"
+            },
+            {
+                "letter": "D",
+                "text": "stop"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'break' statement terminates a loop immediately."
+    },
+    {
+        "title": "JavaControlFlow - Q0013",
+        "text": "[Java Basics - Control Flow] Which keyword is used to return a value from a method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "break"
+            },
+            {
+                "letter": "B",
+                "text": "return"
+            },
+            {
+                "letter": "C",
+                "text": "exit"
+            },
+            {
+                "letter": "D",
+                "text": "stop"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'return' keyword returns a value from a method."
+    },
+    {
+        "title": "JavaControlFlow - Q0014",
+        "text": "[Java Basics - Control Flow] Which control statement is used to handle exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "try-catch"
+            },
+            {
+                "letter": "B",
+                "text": "if-else"
+            },
+            {
+                "letter": "C",
+                "text": "switch"
+            },
+            {
+                "letter": "D",
+                "text": "for"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'try-catch' block is used to handle exceptions."
+    },
+    {
+        "title": "JavaControlFlow - Q0015",
+        "text": "[Java Basics - Control Flow] Which block always executes after try-catch?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "finally"
+            },
+            {
+                "letter": "B",
+                "text": "default"
+            },
+            {
+                "letter": "C",
+                "text": "else"
+            },
+            {
+                "letter": "D",
+                "text": "end"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'finally' block always executes after try-catch, regardless of exceptions."
+    },
+    {
+        "title": "JavaControlFlow - Q0016",
+        "text": "[Java Basics - Control Flow] Which statement is used to throw an exception manually?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "throw"
+            },
+            {
+                "letter": "B",
+                "text": "throws"
+            },
+            {
+                "letter": "C",
+                "text": "raise"
+            },
+            {
+                "letter": "D",
+                "text": "error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'throw' keyword is used to manually throw an exception."
+    },
+    {
+        "title": "JavaControlFlow - Q0017",
+        "text": "[Java Basics - Control Flow] Which keyword is used in a method signature to declare exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "throw"
+            },
+            {
+                "letter": "B",
+                "text": "throws"
+            },
+            {
+                "letter": "C",
+                "text": "catch"
+            },
+            {
+                "letter": "D",
+                "text": "try"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'throws' keyword declares exceptions that a method can throw."
+    },
+    {
+        "title": "JavaControlFlow - Q0018",
+        "text": "[Java Basics - Control Flow] Which loop is best suited when the number of iterations is known?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for"
+            },
+            {
+                "letter": "B",
+                "text": "while"
+            },
+            {
+                "letter": "C",
+                "text": "do-while"
+            },
+            {
+                "letter": "D",
+                "text": "switch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'for' loop is best when the number of iterations is known."
+    },
+    {
+        "title": "JavaControlFlow - Q0019",
+        "text": "[Java Basics - Control Flow] Which loop is best suited when the number of iterations is unknown?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for"
+            },
+            {
+                "letter": "B",
+                "text": "while"
+            },
+            {
+                "letter": "C",
+                "text": "do-while"
+            },
+            {
+                "letter": "D",
+                "text": "switch"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'while' loop is used when the number of iterations is unknown."
+    },
+    {
+        "title": "JavaControlFlow - Q0020",
+        "text": "[Java Basics - Control Flow] Which loop guarantees at least one execution of the loop body?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for"
+            },
+            {
+                "letter": "B",
+                "text": "while"
+            },
+            {
+                "letter": "C",
+                "text": "do-while"
+            },
+            {
+                "letter": "D",
+                "text": "switch"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The 'do-while' loop executes the body at least once before checking the condition."
+    },
+    {
+        "title": "JavaControlFlow - Q0021",
+        "text": "[Java Basics - Control Flow] Which statement is used to exit from multiple nested loops at once?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "break label;"
+            },
+            {
+                "letter": "B",
+                "text": "continue label;"
+            },
+            {
+                "letter": "C",
+                "text": "exit;"
+            },
+            {
+                "letter": "D",
+                "text": "stop;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A labeled break statement can exit multiple nested loops."
+    },
+    {
+        "title": "JavaControlFlow - Q0022",
+        "text": "[Java Basics - Control Flow] Which statement transfers control to the next iteration of the labeled loop?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "break label;"
+            },
+            {
+                "letter": "B",
+                "text": "continue label;"
+            },
+            {
+                "letter": "C",
+                "text": "return;"
+            },
+            {
+                "letter": "D",
+                "text": "exit;"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A labeled continue statement skips to the next iteration of the labeled loop."
+    },
+    {
+        "title": "JavaControlFlow - Q0023",
+        "text": "[Java Basics - Control Flow] What will happen if the condition in a while loop is always true?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The loop executes once"
+            },
+            {
+                "letter": "B",
+                "text": "The loop never executes"
+            },
+            {
+                "letter": "C",
+                "text": "An infinite loop occurs"
+            },
+            {
+                "letter": "D",
+                "text": "Compilation error"
+            }
+        ],
+        "correct": "C",
+        "explanation": "If the condition is always true, the loop runs infinitely."
+    },
+    {
+        "title": "JavaControlFlow - Q0024",
+        "text": "[Java Basics - Control Flow] Which of the following is a valid for loop syntax?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for (int i = 0; i < 5; i++)"
+            },
+            {
+                "letter": "B",
+                "text": "for i = 0 to 5"
+            },
+            {
+                "letter": "C",
+                "text": "loop (i < 5)"
+            },
+            {
+                "letter": "D",
+                "text": "for (i < 5; i++)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax is for(initialization; condition; increment)."
+    },
+    {
+        "title": "JavaControlFlow - Q0025",
+        "text": "[Java Basics - Control Flow] Which of the following is a valid while loop syntax?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "while (condition)"
+            },
+            {
+                "letter": "B",
+                "text": "while condition"
+            },
+            {
+                "letter": "C",
+                "text": "loop while condition"
+            },
+            {
+                "letter": "D",
+                "text": "while: condition"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The condition in a while loop must be enclosed in parentheses."
+    },
+    {
+        "title": "JavaControlFlow - Q0026",
+        "text": "[Java Basics - Control Flow] Which of the following is a valid do-while loop syntax?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "do { } while (condition);"
+            },
+            {
+                "letter": "B",
+                "text": "do while (condition);"
+            },
+            {
+                "letter": "C",
+                "text": "while (condition) do { }"
+            },
+            {
+                "letter": "D",
+                "text": "loop do (condition);"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax is do { } while (condition);"
+    },
+    {
+        "title": "JavaControlFlow - Q0027",
+        "text": "[Java Basics - Control Flow] Which statement is used to terminate the program execution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "System.exit(0);"
+            },
+            {
+                "letter": "B",
+                "text": "break;"
+            },
+            {
+                "letter": "C",
+                "text": "return;"
+            },
+            {
+                "letter": "D",
+                "text": "stop;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "System.exit(0) terminates the program execution."
+    },
+    {
+        "title": "JavaControlFlow - Q0028",
+        "text": "[Java Basics - Control Flow] Which of the following is true about the switch statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can evaluate boolean expressions"
+            },
+            {
+                "letter": "B",
+                "text": "It can evaluate byte, short, int, char, String, and enum types"
+            },
+            {
+                "letter": "C",
+                "text": "It can evaluate float values"
+            },
+            {
+                "letter": "D",
+                "text": "It can evaluate double values"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Switch supports byte, short, int, char, String, and enum types."
+    },
+    {
+        "title": "JavaControlFlow - Q0029",
+        "text": "[Java Basics - Control Flow] What happens if break is omitted in a switch case?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Only that case executes"
+            },
+            {
+                "letter": "B",
+                "text": "All subsequent cases execute"
+            },
+            {
+                "letter": "C",
+                "text": "Compilation error"
+            },
+            {
+                "letter": "D",
+                "text": "Program terminates"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Without break, execution falls through to subsequent cases."
+    },
+    {
+        "title": "JavaControlFlow - Q0030",
+        "text": "[Java Basics - Control Flow] Which statement is used to handle multiple exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multiple catch blocks"
+            },
+            {
+                "letter": "B",
+                "text": "Multiple try blocks"
+            },
+            {
+                "letter": "C",
+                "text": "Nested try blocks"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple catch blocks can handle different exceptions."
+    },
+    {
+        "title": "JavaControlFlow - Q0031",
+        "text": "[Java Basics - Control Flow] Which statement is used to rethrow an exception?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "throw e;"
+            },
+            {
+                "letter": "B",
+                "text": "throws e;"
+            },
+            {
+                "letter": "C",
+                "text": "raise e;"
+            },
+            {
+                "letter": "D",
+                "text": "error e;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'throw' keyword can rethrow an exception."
+    },
+    {
+        "title": "JavaControlFlow - Q0032",
+        "text": "[Java Basics - Control Flow] Which statement is used to execute code regardless of exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "finally"
+            },
+            {
+                "letter": "B",
+                "text": "default"
+            },
+            {
+                "letter": "C",
+                "text": "else"
+            },
+            {
+                "letter": "D",
+                "text": "catch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'finally' block executes regardless of exceptions."
+    },
+    {
+        "title": "JavaControlFlow - Q0033",
+        "text": "[Java Basics - Control Flow] Which loop is used to iterate over arrays or collections?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for-each"
+            },
+            {
+                "letter": "B",
+                "text": "while"
+            },
+            {
+                "letter": "C",
+                "text": "do-while"
+            },
+            {
+                "letter": "D",
+                "text": "switch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The for-each loop iterates over arrays or collections."
+    },
+    {
+        "title": "JavaControlFlow - Q0034",
+        "text": "[Java Basics - Control Flow] Which of the following is a valid for-each loop syntax?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for (int x : array)"
+            },
+            {
+                "letter": "B",
+                "text": "foreach (int x in array)"
+            },
+            {
+                "letter": "C",
+                "text": "for each (int x : array)"
+            },
+            {
+                "letter": "D",
+                "text": "loop (int x : array)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax is for (type variable : collection)."
+    },
+    {
+        "title": "JavaControlFlow - Q0035",
+        "text": "[Java Basics - Control Flow] What is the output of the following code? int x = 5; if (x > 10) System.out.println(\"A\"); else System.out.println(\"B\");",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A"
+            },
+            {
+                "letter": "B",
+                "text": "B"
+            },
+            {
+                "letter": "C",
+                "text": "Error"
+            },
+            {
+                "letter": "D",
+                "text": "None"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Since x is not greater than 10, 'B' is printed."
+    },
+    {
+        "title": "JavaControlFlow - Q0036",
+        "text": "[Java Basics - Control Flow] What is the output of the following code? int x = 10; while (x < 10) { x++; } System.out.println(x);",
+        "options": [
+            {
+                "letter": "A",
+                "text": "10"
+            },
+            {
+                "letter": "B",
+                "text": "11"
+            },
+            {
+                "letter": "C",
+                "text": "0"
+            },
+            {
+                "letter": "D",
+                "text": "Error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The condition is false initially, so x remains 10."
+    },
+    {
+        "title": "JavaControlFlow - Q0037",
+        "text": "[Java Basics - Control Flow] What is the output of the following code? int x = 0; do { x++; } while (x < 3); System.out.println(x);",
+        "options": [
+            {
+                "letter": "A",
+                "text": "2"
+            },
+            {
+                "letter": "B",
+                "text": "3"
+            },
+            {
+                "letter": "C",
+                "text": "4"
+            },
+            {
+                "letter": "D",
+                "text": "0"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The loop runs three times, incrementing x to 3."
+    },
+    {
+        "title": "JavaControlFlow - Q0038",
+        "text": "[Java Basics - Control Flow] What is the output of the following code? for (int i = 0; i < 3; i++) { if (i == 1) continue; System.out.print(i); }",
+        "options": [
+            {
+                "letter": "A",
+                "text": "012"
+            },
+            {
+                "letter": "B",
+                "text": "02"
+            },
+            {
+                "letter": "C",
+                "text": "1"
+            },
+            {
+                "letter": "D",
+                "text": "0"
+            }
+        ],
+        "correct": "B",
+        "explanation": "When i == 1, continue skips printing, so output is 02."
+    },
+    {
+        "title": "JavaControlFlow - Q0039",
+        "text": "[Java Basics - Control Flow] What is the output of the following code? for (int i = 0; i < 3; i++) { if (i == 1) break; System.out.print(i); }",
+        "options": [
+            {
+                "letter": "A",
+                "text": "012"
+            },
+            {
+                "letter": "B",
+                "text": "0"
+            },
+            {
+                "letter": "C",
+                "text": "1"
+            },
+            {
+                "letter": "D",
+                "text": "2"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The loop breaks when i == 1, so only 0 is printed."
+    },
+    {
+        "title": "JavaControlFlow - Q0040",
+        "text": "[Java Basics - Control Flow] Which statement is used to handle multiple conditions more efficiently than if-else?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "switch"
+            },
+            {
+                "letter": "B",
+                "text": "for"
+            },
+            {
+                "letter": "C",
+                "text": "while"
+            },
+            {
+                "letter": "D",
+                "text": "try"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The switch statement handles multiple conditions efficiently."
+    },
+    {
+        "title": "JavaControlFlow - Q0041",
+        "text": "[Java Basics - Control Flow] Which statement can be used to exit from a method early?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "return"
+            },
+            {
+                "letter": "B",
+                "text": "break"
+            },
+            {
+                "letter": "C",
+                "text": "continue"
+            },
+            {
+                "letter": "D",
+                "text": "exit"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The return statement exits from a method early."
+    },
+    {
+        "title": "JavaControlFlow - Q0042",
+        "text": "[Java Basics - Control Flow] Which statement is used to handle exceptions that may occur in a block of code?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "try"
+            },
+            {
+                "letter": "B",
+                "text": "catch"
+            },
+            {
+                "letter": "C",
+                "text": "throw"
+            },
+            {
+                "letter": "D",
+                "text": "finally"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The try block contains code that may throw exceptions."
+    },
+    {
+        "title": "JavaControlFlow - Q0043",
+        "text": "[Java Basics - Control Flow] Which statement is used to handle the exception thrown by a try block?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "catch"
+            },
+            {
+                "letter": "B",
+                "text": "throw"
+            },
+            {
+                "letter": "C",
+                "text": "finally"
+            },
+            {
+                "letter": "D",
+                "text": "return"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The catch block handles exceptions thrown by the try block."
+    },
+    {
+        "title": "JavaControlFlow - Q0044",
+        "text": "[Java Basics - Control Flow] Which statement ensures that a block of code executes regardless of exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "finally"
+            },
+            {
+                "letter": "B",
+                "text": "catch"
+            },
+            {
+                "letter": "C",
+                "text": "throw"
+            },
+            {
+                "letter": "D",
+                "text": "try"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The finally block executes regardless of exceptions."
+    },
+    {
+        "title": "JavaControlFlow - Q0045",
+        "text": "[Java Basics - Control Flow] Which statement is used to handle multiple exceptions in a single catch block?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "catch (IOException | SQLException e)"
+            },
+            {
+                "letter": "B",
+                "text": "catch (IOException, SQLException e)"
+            },
+            {
+                "letter": "C",
+                "text": "catch (IOException & SQLException e)"
+            },
+            {
+                "letter": "D",
+                "text": "catch (IOException || SQLException e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple exceptions can be handled using the '|' operator in a single catch block."
+    },
+    {
+        "title": "JavaControlFlow - Q0046",
+        "text": "[Java Basics - Control Flow] Which statement is used to rethrow an exception after handling it?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "throw e;"
+            },
+            {
+                "letter": "B",
+                "text": "throws e;"
+            },
+            {
+                "letter": "C",
+                "text": "raise e;"
+            },
+            {
+                "letter": "D",
+                "text": "error e;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The throw statement can rethrow an exception after handling."
+    },
+    {
+        "title": "JavaControlFlow - Q0047",
+        "text": "[Java Basics - Control Flow] Which statement is used to define a block of code that must execute after try-catch?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "finally"
+            },
+            {
+                "letter": "B",
+                "text": "catch"
+            },
+            {
+                "letter": "C",
+                "text": "throw"
+            },
+            {
+                "letter": "D",
+                "text": "return"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The finally block defines code that must execute after try-catch."
+    },
+    {
+        "title": "JavaControlFlow - Q0048",
+        "text": "[Java Basics - Control Flow] Which statement is used to handle specific types of exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "catch"
+            },
+            {
+                "letter": "B",
+                "text": "throw"
+            },
+            {
+                "letter": "C",
+                "text": "finally"
+            },
+            {
+                "letter": "D",
+                "text": "try"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The catch block handles specific types of exceptions."
+    },
+    {
+        "title": "JavaControlFlow - Q0049",
+        "text": "[Java Basics - Control Flow] Which statement is used to define a block of code that may throw exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "try"
+            },
+            {
+                "letter": "B",
+                "text": "catch"
+            },
+            {
+                "letter": "C",
+                "text": "throw"
+            },
+            {
+                "letter": "D",
+                "text": "finally"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The try block defines code that may throw exceptions."
+    },
+    {
+        "title": "JavaControlFlow - Q0050",
+        "text": "[Java Basics - Control Flow] Which statement is used to handle multiple conditions compactly?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ternary operator"
+            },
+            {
+                "letter": "B",
+                "text": "if-else"
+            },
+            {
+                "letter": "C",
+                "text": "switch"
+            },
+            {
+                "letter": "D",
+                "text": "for"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ternary operator (condition ? value1 : value2) handles conditions compactly."
+    }
+]
