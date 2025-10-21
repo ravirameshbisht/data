@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Interviews & Coding Challenges</title>
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-W7ZGS2S4');</script>
+	<!-- End Google Tag Manager -->
+
+	<script>var chatbot_id=25617;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://plugin.smatbot.com/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();</script><script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .feature-icon {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+		.whatsapp-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 16px 24px;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+        }
+        
+        .whatsapp-link:hover {
+            background: #128C7E;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+        }
+        
+        .whatsapp-icon {
+            width: 28px;
+            height: 28px;
+            flex-shrink: 0;
+        }
+        
+        @media (max-width: 600px) {
+            .whatsapp-link {
+                font-size: 16px;
+                padding: 14px 20px;
+            }
+            
+            .whatsapp-icon {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+                        Clear Java Interviews with 
+                        <span class="text-yellow-300">Confidence</span>
+                    </h1>
+                    <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+                        Comprehensive Java interview preparation platform with 1000+ questions, 
+                        coding challenges(WIP), and expert-curated content to land your dream job.
+                    </p>
+                    <!--div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-yellow-400 text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors" onclick="window.location.href='https://sites.google.com/view/javapreparationpro">
+    Java Backend
+</button>
+                    </div-->
+                    <div class="flex items-center space-x-6 mt-8 text-blue-100">
+                        <div class="flex items-center space-x-2">
+                            <span class="text-yellow-300">⭐</span>
+                            <span>5/5 Rating</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-yellow-300">👥</span>
+                            <span>1000 Students</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-yellow-300">🏆</span>
+                            <span>95% Success Rate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Actions -->
+        <div class="mt-16 bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Quick Actions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <button onclick="openQuizzes()" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6 rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all">
+                    <div class="text-xl font-bold mb-2">🎯 Quick Quiz</div>
+                    <div class="text-sm opacity-90">Test your knowledge with 100s random questions</div>
+                </button>
+
+ <button onclick="openRoadmaps()" class="bg-gradient-to-r from-green-500 to-teal-600 text-white p-6 rounded-lg hover:from-green-600 hover:to-teal-700 transition-all">
+                    <div class="text-xl font-bold mb-2">📋 Roadmaps</div>
+                    <div class="text-sm opacity-90">Review key concepts quickly</div>
+                </button>
+                <button onclick="openFlashcards()" class="bg-gradient-to-r from-pink-500 to-red-600 text-white p-6 rounded-lg hover:from-pink-600 hover:to-red-700 transition-all">
+                    <div class="text-xl font-bold mb-2">📋 Flashcards</div>
+                    <div class="text-sm opacity-90">Review key concepts quickly</div>
+                </button>
+                
+                <button onclick="openInterviewPreparation()" class="bg-gradient-to-r from-orange-500 to-red-600 text-white p-6 rounded-lg hover:from-orange-600 hover:to-red-700 transition-all">
+                    <div class="text-xl font-bold mb-2">📊 Backend(Java) Interview Preparation</div>
+                    <div class="text-sm opacity-90">Start your interview preparation</div>
+                </button>
+            </div>
+        </div>
+
+        <!--
+        
+=        <div class="mt-16 bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Quick Actions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <button onclick="startQuickQuiz()" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6 rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all">
+                    <div class="text-xl font-bold mb-2">🎯 Quick Quiz</div>
+                    <div class="text-sm opacity-90">Test your knowledge with 10 random questions</div>
+                </button>
+                
+                <button onclick="openFlashcards()" class="bg-gradient-to-r from-green-500 to-teal-600 text-white p-6 rounded-lg hover:from-green-600 hover:to-teal-700 transition-all">
+                    <div class="text-xl font-bold mb-2">📋 Flashcards</div>
+                    <div class="text-sm opacity-90">Review key concepts quickly</div>
+                </button>
+                
+                <button onclick="viewProgress()" class="bg-gradient-to-r from-orange-500 to-red-600 text-white p-6 rounded-lg hover:from-orange-600 hover:to-red-700 transition-all">
+                    <div class="text-xl font-bold mb-2">📊 My Progress</div>
+                    <div class="text-sm opacity-90">Track your learning journey</div>
+                </button>
+
+                <button onclick="openCodingPractice()" class="bg-gradient-to-r from-indigo-500 to-blue-600 text-white p-6 rounded-lg hover:from-indigo-600 hover:to-blue-700 transition-all">
+                    <div class="text-xl font-bold mb-2">💻 Coding Practice</div>
+                    <div class="text-sm opacity-90">Solve Java problems on LeetCode</div>
+                </button>
+
+                <button onclick="openJavaDocumentation()" class="bg-gradient-to-r from-yellow-500 to-orange-600 text-white p-6 rounded-lg hover:from-yellow-600 hover:to-orange-700 transition-all">
+                    <div class="text-xl font-bold mb-2">📖 Java Docs</div>
+                    <div class="text-sm opacity-90">Official Java documentation</div>
+                </button>
+
+                <button onclick="openInterviewQuestions()" class="bg-gradient-to-r from-pink-500 to-red-600 text-white p-6 rounded-lg hover:from-pink-600 hover:to-red-700 transition-all">
+                    <div class="text-xl font-bold mb-2">❓ Interview Q&A</div>
+                    <div class="text-sm opacity-90">Common Java interview questions</div>
+                </button>
+
+                <button onclick="openVideoTutorials()" class="bg-gradient-to-r from-purple-500 to-indigo-600 text-white p-6 rounded-lg hover:from-purple-600 hover:to-indigo-700 transition-all">
+                    <div class="text-xl font-bold mb-2">🎥 Video Tutorials</div>
+                    <div class="text-sm opacity-90">Watch Java concepts explained</div>
+                </button>
+
+                <button onclick="openCheatSheet()" class="bg-gradient-to-r from-teal-500 to-green-600 text-white p-6 rounded-lg hover:from-teal-600 hover:to-green-700 transition-all">
+                    <div class="text-xl font-bold mb-2">📝 Cheat Sheet</div>
+                    <div class="text-sm opacity-90">Quick reference guide</div>
+                </button>
+
+                <button onclick="openMockInterview()" class="bg-gradient-to-r from-red-500 to-pink-600 text-white p-6 rounded-lg hover:from-red-600 hover:to-pink-700 transition-all">
+                    <div class="text-xl font-bold mb-2">🎤 Mock Interview</div>
+                    <div class="text-sm opacity-90">Practice with AI interviewer</div>
+                </button>
+
+                <button onclick="openJavaCompiler()" class="bg-gradient-to-r from-gray-600 to-gray-800 text-white p-6 rounded-lg hover:from-gray-700 hover:to-gray-900 transition-all">
+                    <div class="text-xl font-bold mb-2">⚙️ Online Compiler</div>
+                    <div class="text-sm opacity-90">Write and test Java code online</div>
+                </button>
+
+                <button onclick="openSpringBoot()" class="bg-gradient-to-r from-green-600 to-emerald-700 text-white p-6 rounded-lg hover:from-green-700 hover:to-emerald-800 transition-all">
+                    <div class="text-xl font-bold mb-2">🌱 Spring Boot</div>
+                    <div class="text-sm opacity-90">Learn Spring framework basics</div>
+                </button>
+
+                <button onclick="openHibernate()" class="bg-gradient-to-r from-amber-600 to-orange-700 text-white p-6 rounded-lg hover:from-amber-700 hover:to-orange-800 transition-all">
+                    <div class="text-xl font-bold mb-2">🗄️ Hibernate ORM</div>
+                    <div class="text-sm opacity-90">Database mapping tutorials</div>
+                </button>
+
+                <button onclick="openMaven()" class="bg-gradient-to-r from-red-600 to-rose-700 text-white p-6 rounded-lg hover:from-red-700 hover:to-rose-800 transition-all">
+                    <div class="text-xl font-bold mb-2">📦 Maven Guide</div>
+                    <div class="text-sm opacity-90">Build automation and dependencies</div>
+                </button>
+
+                <button onclick="openJUnit()" class="bg-gradient-to-r from-lime-600 to-green-700 text-white p-6 rounded-lg hover:from-lime-700 hover:to-green-800 transition-all">
+                    <div class="text-xl font-bold mb-2">🧪 JUnit Testing</div>
+                    <div class="text-sm opacity-90">Unit testing framework guide</div>
+                </button>
+
+                <button onclick="openGitHub()" class="bg-gradient-to-r from-slate-700 to-gray-900 text-white p-6 rounded-lg hover:from-slate-800 hover:to-black transition-all">
+                    <div class="text-xl font-bold mb-2">🐙 GitHub Projects</div>
+                    <div class="text-sm opacity-90">Java open source projects</div>
+                </button>
+
+                <button onclick="openStackOverflow()" class="bg-gradient-to-r from-orange-600 to-red-600 text-white p-6 rounded-lg hover:from-orange-700 hover:to-red-700 transition-all">
+                    <div class="text-xl font-bold mb-2">🔍 Stack Overflow</div>
+                    <div class="text-sm opacity-90">Java Q&A community</div>
+                </button>
+
+                <button onclick="openCodewars()" class="bg-gradient-to-r from-red-700 to-pink-700 text-white p-6 rounded-lg hover:from-red-800 hover:to-pink-800 transition-all">
+                    <div class="text-xl font-bold mb-2">⚔️ Codewars</div>
+                    <div class="text-sm opacity-90">Java coding challenges</div>
+                </button>
+
+                <button onclick="openHackerRank()" class="bg-gradient-to-r from-green-700 to-teal-700 text-white p-6 rounded-lg hover:from-green-800 hover:to-teal-800 transition-all">
+                    <div class="text-xl font-bold mb-2">🏆 HackerRank</div>
+                    <div class="text-sm opacity-90">Programming competitions</div>
+                </button>
+
+                <button onclick="openJavaBooks()" class="bg-gradient-to-r from-blue-700 to-indigo-700 text-white p-6 rounded-lg hover:from-blue-800 hover:to-indigo-800 transition-all">
+                    <div class="text-xl font-bold mb-2">📚 Java Books</div>
+                    <div class="text-sm opacity-90">Essential Java reading list</div>
+                </button>
+
+                <button onclick="openDesignPatterns()" class="bg-gradient-to-r from-purple-700 to-violet-700 text-white p-6 rounded-lg hover:from-purple-800 hover:to-violet-800 transition-all">
+                    <div class="text-xl font-bold mb-2">🎨 Pattern Catalog</div>
+                    <div class="text-sm opacity-90">Complete design patterns guide</div>
+                </button>
+
+                <button onclick="openJavaNews()" class="bg-gradient-to-r from-cyan-600 to-blue-600 text-white p-6 rounded-lg hover:from-cyan-700 hover:to-blue-700 transition-all">
+                    <div class="text-xl font-bold mb-2">📰 Java News</div>
+                    <div class="text-sm opacity-90">Latest Java updates and trends</div>
+                </button>
+
+                <button onclick="openPerformance()" class="bg-gradient-to-r from-yellow-600 to-amber-600 text-white p-6 rounded-lg hover:from-yellow-700 hover:to-amber-700 transition-all">
+                    <div class="text-xl font-bold mb-2">⚡ Performance Tips</div>
+                    <div class="text-sm opacity-90">Java optimization techniques</div>
+                </button>
+
+                <button onclick="openMicroservices()" class="bg-gradient-to-r from-emerald-600 to-teal-600 text-white p-6 rounded-lg hover:from-emerald-700 hover:to-teal-700 transition-all">
+                    <div class="text-xl font-bold mb-2">🔗 Microservices</div>
+                    <div class="text-sm opacity-90">Java microservices architecture</div>
+                </button>
+
+                <button onclick="openSecurity()" class="bg-gradient-to-r from-red-800 to-rose-800 text-white p-6 rounded-lg hover:from-red-900 hover:to-rose-900 transition-all">
+                    <div class="text-xl font-bold mb-2">🔒 Java Security</div>
+                    <div class="text-sm opacity-90">Security best practices</div>
+                </button>
+
+                <button onclick="openRESTAPI()" class="bg-gradient-to-r from-indigo-700 to-purple-700 text-white p-6 rounded-lg hover:from-indigo-800 hover:to-purple-800 transition-all">
+                    <div class="text-xl font-bold mb-2">🌐 REST APIs</div>
+                    <div class="text-sm opacity-90">Building web services in Java</div>
+                </button>
+
+                <button onclick="openDocker()" class="bg-gradient-to-r from-blue-800 to-cyan-800 text-white p-6 rounded-lg hover:from-blue-900 hover:to-cyan-900 transition-all">
+                    <div class="text-xl font-bold mb-2">🐳 Docker & Java</div>
+                    <div class="text-sm opacity-90">Containerizing Java applications</div>
+                </button>
+
+                <button onclick="openKubernetes()" class="bg-gradient-to-r from-blue-600 to-indigo-800 text-white p-6 rounded-lg hover:from-blue-700 hover:to-indigo-900 transition-all">
+                    <div class="text-xl font-bold mb-2">☸️ Kubernetes</div>
+                    <div class="text-sm opacity-90">Java app orchestration</div>
+                </button>
+
+                <button onclick="openCloudPlatforms()" class="bg-gradient-to-r from-sky-600 to-blue-700 text-white p-6 rounded-lg hover:from-sky-700 hover:to-blue-800 transition-all">
+                    <div class="text-xl font-bold mb-2">☁️ Cloud Platforms</div>
+                    <div class="text-sm opacity-90">Deploy Java to AWS, Azure, GCP</div>
+                </button>
+
+                <button onclick="openJavaFX()" class="bg-gradient-to-r from-violet-600 to-purple-700 text-white p-6 rounded-lg hover:from-violet-700 hover:to-purple-800 transition-all">
+                    <div class="text-xl font-bold mb-2">🖥️ JavaFX</div>
+                    <div class="text-sm opacity-90">Desktop application development</div>
+                </button>
+
+                <button onclick="openAndroid()" class="bg-gradient-to-r from-green-600 to-lime-600 text-white p-6 rounded-lg hover:from-green-700 hover:to-lime-700 transition-all">
+                    <div class="text-xl font-bold mb-2">📱 Android Dev</div>
+                    <div class="text-sm opacity-90">Java for mobile development</div>
+                </button>
+
+                <button onclick="openBigData()" class="bg-gradient-to-r from-orange-700 to-red-700 text-white p-6 rounded-lg hover:from-orange-800 hover:to-red-800 transition-all">
+                    <div class="text-xl font-bold mb-2">📊 Big Data</div>
+                    <div class="text-sm opacity-90">Java for Hadoop, Spark, Kafka</div>
+                </button>
+
+                <button onclick="openReactiveJava()" class="bg-gradient-to-r from-teal-700 to-cyan-700 text-white p-6 rounded-lg hover:from-teal-800 hover:to-cyan-800 transition-all">
+                    <div class="text-xl font-bold mb-2">🔄 Reactive Java</div>
+                    <div class="text-sm opacity-90">RxJava and reactive programming</div>
+                </button>
+
+                <button onclick="openJavaVersions()" class="bg-gradient-to-r from-amber-700 to-yellow-700 text-white p-6 rounded-lg hover:from-amber-800 hover:to-yellow-800 transition-all">
+                    <div class="text-xl font-bold mb-2">🔢 Java Versions</div>
+                    <div class="text-sm opacity-90">Features across Java versions</div>
+                </button>
+
+                <button onclick="openCertification()" class="bg-gradient-to-r from-gold-600 to-yellow-600 text-white p-6 rounded-lg hover:from-gold-700 hover:to-yellow-700 transition-all">
+                    <div class="text-xl font-bold mb-2">🏅 Certification</div>
+                    <div class="text-sm opacity-90">Oracle Java certification prep</div>
+                </button>
+
+                <button onclick="openCommunity()" class="bg-gradient-to-r from-pink-600 to-rose-600 text-white p-6 rounded-lg hover:from-pink-700 hover:to-rose-700 transition-all">
+                    <div class="text-xl font-bold mb-2">👥 Java Community</div>
+                    <div class="text-sm opacity-90">Forums, meetups, and events</div>
+                </button>
+
+                <button onclick="openJobPrep()" class="bg-gradient-to-r from-slate-600 to-gray-700 text-white p-6 rounded-lg hover:from-slate-700 hover:to-gray-800 transition-all">
+                    <div class="text-xl font-bold mb-2">💼 Job Preparation</div>
+                    <div class="text-sm opacity-90">Resume tips and career advice</div>
+                </button>
+
+                <button onclick="openSalaryGuide()" class="bg-gradient-to-r from-emerald-700 to-green-800 text-white p-6 rounded-lg hover:from-emerald-800 hover:to-green-900 transition-all">
+                    <div class="text-xl font-bold mb-2">💰 Salary Guide</div>
+                    <div class="text-sm opacity-90">Java developer salary insights</div>
+                </button>
+            </div>
+        </div>
+        
+        -->
+	
+<div class="bg-gray-50">
+    <!-- Reviews Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Click Here ╰┈➤ <a class="text-blue-600 text-3xl md:text-4xl font-bold mb-4" href="https://sites.google.com/view/javapreparationpro" target="_blank">Interview Prep</a>
+
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    If you get 404 error, please click below link to get access.
+                </p>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    &nbsp;
+                </p>
+                <a href="https://wa.me/9686945757?text=Hey%20I%20need%20access%20to%20java%20interview%20website" class="whatsapp-link" target="_blank" rel="noopener noreferrer">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.516"/>
+                </svg>
+                Click here to get access
+            </a>
+            </div>
+
+            <div class="text-center">
+            <!--h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+                3 Months - Rs 135
+            </h1-->
+            <p class="text-xl max-w-3xl mx-auto">
+                3 Months - Rs 135
+            </p>
+            <p class="text-xl max-w-3xl mx-auto">
+                12 Months - Rs 399
+            </p>
+        </div>
+
+            
+
+            <!--div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/667eea/ffffff?text=U" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">Alex R.</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "The comprehensive
+                    </p>
+                </div>
+                
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/764ba2/ffffff?text=J" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">Jane D.</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "The coding challenges were perfect. They helped me build confidence and solve problems quickly during my technical interviews."
+                    </p>
+                </div>
+                
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/9b2c2c/ffffff?text=M" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">Michael S.</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "I was struggling with Spring Boot concepts. The detailed explanations on this platform cleared up all my doubts. Highly recommended!"
+                    </p>
+                </div>
+
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/3182ce/ffffff?text=L" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">Lisa P.</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "A solid resource for anyone preparing for a Java role. The UI is clean, and the content is very well-structured."
+                    </p>
+                </div>
+
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/38a169/ffffff?text=C" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">Chris W.</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "I've tried a few other sites, but JavaPrep's depth of content is unmatched. The free plan is a great way to test the waters."
+                    </p>
+                </div>
+
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/9f7aea/ffffff?text=S" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">Sara G.</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "The platform gave me the confidence to nail my technical interview. I highly recommend the mock interview feature for anyone serious about landing a job."
+                    </p>
+                </div-->
+            </div>
+        </div>
+    </section>
+</div>
+
+    
+	
+	
+	
+    <!-- Stats Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-blue-600 mb-2">600+</div>
+                    <div class="text-gray-600">Interview Questions</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-green-600 mb-2">50+</div>
+                    <div class="text-gray-600">Coding Challenges(WIP)</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-purple-600 mb-2">1000</div>
+                    <div class="text-gray-600">Happy Students</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-orange-600 mb-2">95%</div>
+                    <div class="text-gray-600">Success Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+
+
+        
+
+
+
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Everything You Need to Ace Java Interviews
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Comprehensive preparation tools designed by industry experts to help you succeed in your Java developer interviews.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+                    <div class="text-4xl feature-icon mb-4">📚</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Question Bank</h3>
+                    <p class="text-gray-600 mb-4">600+ curated Java interview questions covering Core Java, Collections, Multithreading, Spring Boot, and more.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Categorized by topics</li>
+                        <li>• Difficulty levels</li>
+                        <li>• Detailed explanations</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+                    <div class="text-4xl feature-icon mb-4">🧠</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Interactive Quizzes</h3>
+                    <p class="text-gray-600 mb-4">Timed quizzes with instant feedback, progress tracking, and performance analytics to identify your strengths.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Multiple choice questions</li>
+                        <li>• Instant feedback</li>
+                        <li>• Progress tracking</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+                    <div class="text-4xl feature-icon mb-4">💻</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Coding Challenges(WIP)</h3>
+                    <p class="text-gray-600 mb-4">50+ hands-on coding problems with online IDE, test cases, and step-by-step solutions.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Online code editor</li>
+                        <li>• Test case validation</li>
+                        <li>• Solution explanations</li>
+                    </ul>
+                </div>
+
+                <!--div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+                    <div class="text-4xl feature-icon mb-4">🃏</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Smart Flashcards</h3>
+                    <p class="text-gray-600 mb-4">Interactive flashcards for quick revision of key Java concepts, design patterns, and best practices.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Spaced repetition</li>
+                        <li>• Topic-wise cards</li>
+                        <li>• Progress tracking</li>
+                    </ul>
+                </div-->
+
+                <!--div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+                    <div class="text-4xl feature-icon mb-4">📊</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Progress Analytics</h3>
+                    <p class="text-gray-600 mb-4">Detailed analytics and insights into your learning progress with personalized recommendations.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Performance metrics</li>
+                        <li>• Weakness identification</li>
+                        <li>• Study recommendations</li>
+                    </ul>
+                </div-->
+
+                <!--div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+                    <div class="text-4xl feature-icon mb-4">🏆</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Gamification</h3>
+                    <p class="text-gray-600 mb-4">Earn badges, maintain streaks, and compete with peers to make learning engaging and fun.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Achievement badges</li>
+                        <li>• Learning streaks</li>
+                        <li>• Leaderboards</li>
+                    </ul>
+                </div>
+            </div-->
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <!--section id="courses" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Structured Learning Paths
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Follow our expertly designed courses to master Java step by step
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl p-8 card-hover">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">Beginner</span>
+                        <span class="text-2xl">☕</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Core Java Fundamentals</h3>
+                    <p class="text-gray-600 mb-4">Master the basics of Java programming including OOP, data types, control structures, and exception handling.</p>
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                        <span>150 Questions</span>
+                        <span>4 Weeks</span>
+                    </div>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                        Start Course
+                    </button>
+                </div>
+
+                <div class="bg-gradient-to-br from-green-50 to-emerald-100 rounded-xl p-8 card-hover">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-medium">Intermediate</span>
+                        <span class="text-2xl">📦</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Collections & Generics</h3>
+                    <p class="text-gray-600 mb-4">Deep dive into Java Collections Framework, generics, and advanced data structures used in interviews.</p>
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                        <span>120 Questions</span>
+                        <span>3 Weeks</span>
+                    </div>
+                    <button class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition-colors">
+                        Start Course
+                    </button>
+                </div>
+
+                <div class="bg-gradient-to-br from-purple-50 to-violet-100 rounded-xl p-8 card-hover">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium">Advanced</span>
+                        <span class="text-2xl">🌱</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Spring Boot Mastery</h3>
+                    <p class="text-gray-600 mb-4">Complete Spring Boot course covering REST APIs, security, testing, and microservices architecture.</p>
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                        <span>200 Questions</span>
+                        <span>6 Weeks</span>
+                    </div>
+                    <button class="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition-colors">
+                        Start Course
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section-->
+
+    <!-- Practice Section -->
+    <!--section id="practice" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Practice Makes Perfect
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Sharpen your skills with our comprehensive practice platform
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="space-y-8">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-blue-100 p-3 rounded-lg">
+                                <span class="text-blue-600 text-xl">🎯</span>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Daily Challenges</h3>
+                                <p class="text-gray-600">Get a new Java question every day to maintain your learning momentum and build consistency.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-green-100 p-3 rounded-lg">
+                                <span class="text-green-600 text-xl">⚡</span>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Speed Rounds</h3>
+                                <p class="text-gray-600">Quick-fire questions to test your knowledge under time pressure, simulating real interview conditions.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-purple-100 p-3 rounded-lg">
+                                <span class="text-purple-600 text-xl">🔄</span>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Adaptive Learning</h3>
+                                <p class="text-gray-600">AI-powered system that adapts to your learning pace and focuses on your weak areas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="text-center mb-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Ready to Practice?</h3>
+                        <p class="text-gray-600">Join thousands of developers preparing for their dream jobs</p>
+                    </div>
+                    
+                    <div class="space-y-4 mb-6">
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                            <span class="text-gray-700">Questions Solved Today</span>
+                            <span class="font-semibold text-blue-600">12/15</span>
+                        </div>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                            <span class="text-gray-700">Current Streak</span>
+                            <span class="font-semibold text-orange-600">7 days 🔥</span>
+                        </div>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                            <span class="text-gray-700">Overall Progress</span>
+                            <span class="font-semibold text-green-600">87%</span>
+                        </div>
+                    </div>
+
+                    <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all">
+                        Start Practicing Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section-->
+	
+
+
+
+
+	
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+                Our Users Love Us
+            </h1>
+            <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                Hear from our successful users and see the proof of their hard work.
+            </p>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Website Reviews
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Out of 100's of feedback, few feedback from users who have trusted us with their interview preparation.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Review Card 1 -->
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/667eea/ffffff?text=U" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">YellowCoderUser1</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "I switched the company. Your content helps a lot"
+                    </p>
+                </div>
+                
+                <!-- Review Card 2 -->
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/764ba2/ffffff?text=J" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">YellowCoderUser2</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "Thank you very much for the content. I have 4 offer letters now"
+                    </p>
+                </div>
+                
+                <!-- Review Card 3 -->
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/9b2c2c/ffffff?text=M" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">YellowCoderUser3</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "I forgot to specify that I received 12 offers from the course that I have taken. Everything is good for a quick revision"
+                    </p>
+                </div>
+
+                <!-- Review Card 4 -->
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/3182ce/ffffff?text=L" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">YellowCoderUser4</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "I just wanted to say a heartful thank you! I recently received a job offer and your website played a big role in helping me prepare"
+                    </p>
+                </div>
+
+                <!-- Review Card 5 -->
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/38a169/ffffff?text=C" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">YellowCoderUser5</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "Received 1 more offer letter. With the help of your topics, I was able to crack without any preparation"
+                    </p>
+                </div>
+
+                <!-- Review Card 6 -->
+                <div class="bg-gray-100 rounded-xl p-8 shadow-sm card-hover">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full mr-4" src="https://placehold.co/48x48/9f7aea/ffffff?text=S" alt="User profile image">
+                        <div>
+                            <p class="font-bold text-gray-900">YellowCoderUser6</p>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "Thanks for your notes. I have received 4 offers and 166 % hike"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <span class="text-2xl">☕</span>
+                        <span class="text-xl font-bold">JavaPrep</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        The ultimate platform for Java interview preparation and coding practice.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">📧</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">🐦</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">💼</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">📘</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold mb-4">Platform</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Question Bank</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Coding Challenges(WIP)</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Mock Interviews</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Progress Tracking</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold mb-4">Resources</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Study Guides</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Community</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Help Center</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold mb-4">Company</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Yellowcoder.in All rights reserved. Made with ❤️ for Java developers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.md\\:hidden button');
+        if (mobileMenuButton) {
+            mobileMenuButton.addEventListener('click', function() {
+                // Mobile menu functionality would go here
+                console.log('Mobile menu clicked');
+            });
+        }
+
+        function openFlashcards() {
+            // Open Java flashcards website in new tab
+            window.open('https://www.yellowcoder.in/flashcards', '_blank');
+        }
+
+        function openInterviewPreparation() {
+            // Open Java flashcards website in new tab
+            window.open('https://www.yellowcoder.in/interviewprep', '_blank');
+        }
+
+        function openRoadmaps() {
+            // Open Java roadmaps website in new tab
+            window.open('https://www.yellowcoder.in/roadmaps', '_blank');
+        }
+
+        function openQuizzes() {
+            // Open Java quizzes website in new tab
+            window.open('https://www.yellowcoder.in/quizzes', '_blank');
+        }
+
+
+        // Demo quiz function
+        function checkDemoAnswer() {
+            const selectedAnswer = document.querySelector('input[name="demo"]:checked');
+            if (selectedAnswer) {
+                const demoRadios = document.querySelectorAll('input[name="demo"]');
+                // Check if correct answer is selected (index 1)
+                const isCorrect = Array.from(demoRadios).indexOf(selectedAnswer) === 1;
+                
+                if (isCorrect) {
+                    alert('🎉 Correct! == compares references while .equals() compares values. Great job!');
+                } else {
+                    alert('❌ Not quite right. The correct answer is: == compares references, .equals() compares values. Keep practicing!');
+                }
+            } else {
+                alert('Please select an answer first!');
+            }
+        }
+
+        // Add some interactive animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe cards for animation
+        document.querySelectorAll('.card-hover').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+	
+	
+	
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97722f24d66ec1a6',t:'MTc1NjUzNDg0Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
