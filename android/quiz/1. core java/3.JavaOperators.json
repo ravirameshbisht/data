@@ -1,0 +1,430 @@
+{
+    "id": 3,
+    "name": "Java Operators",
+    "description": "Arithmetic, logical, bitwise, assignment, comparison, and other operators in Java.",
+    "proLocked": false,
+    "isActive": true,
+    "orderIndex": 3,
+    "questions": [
+        {
+            "id": 1,
+            "title": "Arithmetic Operators",
+            "description": "What is the result of this expression?",
+            "code": "int result = 10 + 5 * 2;",
+            "options": [
+                "30",
+                "20",
+                "25",
+                "15"
+            ],
+            "correct": 1,
+            "explanation": "Due to operator precedence, multiplication is performed before addition: 5 * 2 = 10, then 10 + 10 = 20."
+        },
+        {
+            "id": 2,
+            "title": "Modulus Operator",
+            "description": "What does the modulus operator (%) return?",
+            "code": "int result = 17 % 5;",
+            "options": [
+                "3",
+                "2",
+                "4",
+                "5"
+            ],
+            "correct": 1,
+            "explanation": "The modulus operator returns the remainder of division. 17 ÷ 5 = 3 remainder 2, so 17 % 5 = 2."
+        },
+        {
+            "id": 3,
+            "title": "Increment Operators",
+            "description": "What is the difference between ++i and i++?",
+            "code": "int i = 5;\nint a = ++i;\nint b = i++;",
+            "options": [
+                "No difference",
+                "++i increments before use, i++ increments after use",
+                "++i is faster",
+                "i++ is more readable"
+            ],
+            "correct": 1,
+            "explanation": "++i (pre-increment) increments the value before using it, while i++ (post-increment) uses the current value then increments it."
+        },
+        {
+            "id": 4,
+            "title": "Assignment Operators",
+            "description": "What is the value of x after this code executes?",
+            "code": "int x = 10;\nx += 5;\nx *= 2;",
+            "options": [
+                "20",
+                "30",
+                "25",
+                "40"
+            ],
+            "correct": 1,
+            "explanation": "x += 5 makes x = 15, then x *= 2 makes x = 30. Compound assignment operators perform the operation and assign the result."
+        },
+        {
+            "id": 5,
+            "title": "Comparison Operators",
+            "description": "What is the result of this comparison?",
+            "code": "String s1 = \"Hello\";\nString s2 = \"Hello\";\nboolean result = (s1 == s2);",
+            "options": [
+                "true",
+                "false",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 0,
+            "explanation": "String literals are stored in the string pool, so both s1 and s2 reference the same object in memory, making == return true."
+        },
+        {
+            "id": 6,
+            "title": "Logical Operators",
+            "description": "What is the result of this logical expression?",
+            "code": "boolean result = true && false || true;",
+            "options": [
+                "true",
+                "false",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 0,
+            "explanation": "Due to operator precedence, && is evaluated before ||. So: (true && false) || true = false || true = true."
+        },
+        {
+            "id": 7,
+            "title": "Short-Circuit Evaluation",
+            "description": "What happens in short-circuit evaluation with &&?",
+            "code": "boolean result = false && (10/0 > 1);",
+            "options": [
+                "ArithmeticException",
+                "true",
+                "false",
+                "Compilation error"
+            ],
+            "correct": 2,
+            "explanation": "With &&, if the first operand is false, the second operand is not evaluated (short-circuit). So 10/0 is never executed."
+        },
+        {
+            "id": 8,
+            "title": "Bitwise AND Operator",
+            "description": "What is the result of this bitwise operation?",
+            "code": "int result = 12 & 10;",
+            "options": [
+                "8",
+                "14",
+                "22",
+                "2"
+            ],
+            "correct": 0,
+            "explanation": "12 in binary is 1100, 10 in binary is 1010. Bitwise AND: 1100 & 1010 = 1000 = 8 in decimal."
+        },
+        {
+            "id": 9,
+            "title": "Bitwise OR Operator",
+            "description": "What is the result of this bitwise operation?",
+            "code": "int result = 12 | 10;",
+            "options": [
+                "8",
+                "14",
+                "22",
+                "2"
+            ],
+            "correct": 1,
+            "explanation": "12 in binary is 1100, 10 in binary is 1010. Bitwise OR: 1100 | 1010 = 1110 = 14 in decimal."
+        },
+        {
+            "id": 10,
+            "title": "Bitwise XOR Operator",
+            "description": "What is the result of this bitwise operation?",
+            "code": "int result = 12 ^ 10;",
+            "options": [
+                "8",
+                "14",
+                "6",
+                "2"
+            ],
+            "correct": 2,
+            "explanation": "12 in binary is 1100, 10 in binary is 1010. Bitwise XOR: 1100 ^ 1010 = 0110 = 6 in decimal."
+        },
+        {
+            "id": 11,
+            "title": "Left Shift Operator",
+            "description": "What is the result of this shift operation?",
+            "code": "int result = 5 << 2;",
+            "options": [
+                "10",
+                "20",
+                "7",
+                "1"
+            ],
+            "correct": 1,
+            "explanation": "Left shift by 2 positions is equivalent to multiplying by 2^2 = 4. So 5 << 2 = 5 * 4 = 20."
+        },
+        {
+            "id": 12,
+            "title": "Right Shift Operator",
+            "description": "What is the result of this shift operation?",
+            "code": "int result = 20 >> 2;",
+            "options": [
+                "5",
+                "10",
+                "80",
+                "2"
+            ],
+            "correct": 0,
+            "explanation": "Right shift by 2 positions is equivalent to dividing by 2^2 = 4. So 20 >> 2 = 20 / 4 = 5."
+        },
+        {
+            "id": 13,
+            "title": "Ternary Operator",
+            "description": "What is the value of result?",
+            "code": "int x = 10;\nint y = 20;\nint result = (x > y) ? x : y;",
+            "options": [
+                "10",
+                "20",
+                "true",
+                "false"
+            ],
+            "correct": 1,
+            "explanation": "The ternary operator (condition ? value1 : value2) returns value2 (y=20) because x > y is false."
+        },
+        {
+            "id": 14,
+            "title": "Operator Precedence",
+            "description": "What is the result of this expression?",
+            "code": "int result = 2 + 3 * 4 - 1;",
+            "options": [
+                "19",
+                "13",
+                "17",
+                "11"
+            ],
+            "correct": 1,
+            "explanation": "Following operator precedence: 3 * 4 = 12, then 2 + 12 - 1 = 13."
+        },
+        {
+            "id": 15,
+            "title": "Unary Operators",
+            "description": "What is the value of x after this code?",
+            "code": "int x = 5;\nx = -x;\nx = ~x;",
+            "options": [
+                "5",
+                "-5",
+                "4",
+                "-6"
+            ],
+            "correct": 2,
+            "explanation": "x = -x makes x = -5. Then x = ~x applies bitwise NOT. ~(-5) = ~(11111011) = 00000100 = 4."
+        },
+        {
+            "id": 16,
+            "title": "instanceof Operator",
+            "description": "What does the instanceof operator check?",
+            "code": "String str = \"Hello\";\nboolean result = str instanceof Object;",
+            "options": [
+                "Type equality",
+                "Reference equality",
+                "Whether object is instance of a type",
+                "Value equality"
+            ],
+            "correct": 2,
+            "explanation": "The instanceof operator checks if an object is an instance of a specific class or implements an interface. String extends Object, so this returns true."
+        },
+        {
+            "id": 17,
+            "title": "Compound Assignment",
+            "description": "What is equivalent to x += y?",
+            "code": "",
+            "options": [
+                "x = x + y",
+                "x = y + x",
+                "x + y = x",
+                "x == x + y"
+            ],
+            "correct": 0,
+            "explanation": "The compound assignment operator += is equivalent to x = x + y. It adds y to x and assigns the result back to x."
+        },
+        {
+            "id": 18,
+            "title": "Logical NOT Operator",
+            "description": "What is the result of this expression?",
+            "code": "boolean a = true;\nboolean b = false;\nboolean result = !(a && b);",
+            "options": [
+                "true",
+                "false",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 0,
+            "explanation": "a && b = true && false = false. Then !(false) = true. The NOT operator inverts the boolean value."
+        },
+        {
+            "id": 19,
+            "title": "Division by Zero",
+            "description": "What happens when you divide an integer by zero?",
+            "code": "int result = 10 / 0;",
+            "options": [
+                "Returns 0",
+                "Returns infinity",
+                "ArithmeticException",
+                "Compilation error"
+            ],
+            "correct": 2,
+            "explanation": "Integer division by zero throws an ArithmeticException at runtime. This is different from floating-point division which returns infinity."
+        },
+        {
+            "id": 20,
+            "title": "Floating Point Division",
+            "description": "What is the result of this floating-point division?",
+            "code": "double result = 10.0 / 0.0;",
+            "options": [
+                "ArithmeticException",
+                "0.0",
+                "Infinity",
+                "NaN"
+            ],
+            "correct": 2,
+            "explanation": "Floating-point division by zero returns positive or negative infinity, not an exception like integer division."
+        },
+        {
+            "id": 21,
+            "title": "String Concatenation",
+            "description": "What is the result of this expression?",
+            "code": "String result = \"Hello\" + 1 + 2;",
+            "options": [
+                "Hello3",
+                "Hello12",
+                "3Hello",
+                "HelloHello"
+            ],
+            "correct": 1,
+            "explanation": "String concatenation is left-associative. \"Hello\" + 1 = \"Hello1\", then \"Hello1\" + 2 = \"Hello12\"."
+        },
+        {
+            "id": 22,
+            "title": "Numeric Promotion",
+            "description": "What is the result type of this expression?",
+            "code": "byte b = 10;\nshort s = 20;\nvar result = b + s;",
+            "options": [
+                "byte",
+                "short",
+                "int",
+                "long"
+            ],
+            "correct": 2,
+            "explanation": "In arithmetic operations, byte and short are promoted to int. The result of b + s is always at least an int."
+        },
+        {
+            "id": 23,
+            "title": "Bitwise Complement",
+            "description": "What is the result of the bitwise complement operator?",
+            "code": "int x = 5;\nint result = ~x;",
+            "options": [
+                "-5",
+                "-6",
+                "5",
+                "6"
+            ],
+            "correct": 1,
+            "explanation": "Bitwise complement (~) flips all bits. For 5 (00000101), ~5 = 11111010 = -6 in two's complement representation."
+        },
+        {
+            "id": 24,
+            "title": "Unsigned Right Shift",
+            "description": "What is the difference between >> and >>> operators?",
+            "code": "int x = -8;\nint a = x >> 1;\nint b = x >>> 1;",
+            "options": [
+                "No difference",
+                ">> preserves sign, >>> doesn't",
+                ">>> is faster",
+                ">> works with negatives only"
+            ],
+            "correct": 1,
+            "explanation": ">> is arithmetic right shift (preserves sign bit), while >>> is logical right shift (fills with zeros). For negative numbers, they produce different results."
+        },
+        {
+            "id": 25,
+            "title": "Operator Associativity",
+            "description": "What is the result of this expression?",
+            "code": "int result = 100 - 50 - 20;",
+            "options": [
+                "70",
+                "30",
+                "50",
+                "20"
+            ],
+            "correct": 1,
+            "explanation": "Subtraction is left-associative, so it's evaluated as (100 - 50) - 20 = 50 - 20 = 30."
+        },
+        {
+            "id": 26,
+            "title": "Boolean Operators vs Bitwise",
+            "description": "What's the difference between & and && operators?",
+            "code": "boolean result = true & false;\nboolean result2 = true && false;",
+            "options": [
+                "No difference",
+                "& doesn't short-circuit, && does",
+                "& is faster",
+                "& works with integers only"
+            ],
+            "correct": 1,
+            "explanation": "& always evaluates both operands, while && short-circuits (doesn't evaluate the second operand if the first is false)."
+        },
+        {
+            "id": 27,
+            "title": "Equality vs Identity",
+            "description": "What's the difference between == and .equals()?",
+            "code": "String s1 = new String(\"Hello\");\nString s2 = new String(\"Hello\");\nboolean a = (s1 == s2);\nboolean b = s1.equals(s2);",
+            "options": [
+                "Both check content",
+                "Both check references",
+                "== checks references, equals() checks content",
+                "== checks content, equals() checks references"
+            ],
+            "correct": 2,
+            "explanation": "== compares object references (identity), while .equals() compares object content (equality). Here a=false, b=true."
+        },
+        {
+            "id": 28,
+            "title": "Overflow Behavior",
+            "description": "What happens when an integer operation overflows?",
+            "code": "int max = Integer.MAX_VALUE;\nint result = max + 1;",
+            "options": [
+                "Throws exception",
+                "Returns MAX_VALUE",
+                "Wraps to MIN_VALUE",
+                "Compilation error"
+            ],
+            "correct": 2,
+            "explanation": "Integer overflow wraps around. When MAX_VALUE is exceeded, it wraps to MIN_VALUE. Java doesn't throw exceptions for integer overflow."
+        },
+        {
+            "id": 29,
+            "title": "Conditional Operator Chaining",
+            "description": "What is the value of result?",
+            "code": "int x = 15;\nString result = (x < 10) ? \"small\" : (x < 20) ? \"medium\" : \"large\";",
+            "options": [
+                "small",
+                "medium",
+                "large",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "Ternary operators can be chained. x=15: (15 < 10) is false, so check (15 < 20) which is true, returning \"medium\"."
+        },
+        {
+            "id": 30,
+            "title": "Operator Overloading",
+            "description": "Which operators can be overloaded in Java?",
+            "code": "",
+            "options": [
+                "All operators",
+                "Arithmetic operators only",
+                "Only + for String concatenation",
+                "No operators can be overloaded"
+            ],
+            "correct": 3,
+            "explanation": "Java does not support operator overloading (except + for String concatenation which is built-in). You cannot define custom behavior for operators on user-defined classes."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+Main Topic	Subtopics
+1. Core Java	Data Types, Variables, Operators, Control Statements (if, for, switch), Arrays, Strings, OOP Concepts (Class, Object, Inheritance, Polymorphism, Abstraction, Encapsulation), this, super, final, static, Access Modifiers, Packages
+2. Advanced Java	Exception Handling, Collections Framework (List, Set, Map, Queue), Iterators and Enumeration, Generics, Inner & Anonymous Classes, I/O and NIO (Streams, Buffers, Channels), Java 8 Features (Lambda, Streams, Optional, Functional Interfaces, Default & Static Methods)
+3. Multithreading & Concurrency	Thread Lifecycle, Runnable vs Callable, Thread Pools (ExecutorService), Synchronization, Locks, wait(), notify(), Concurrency Utilities (CountDownLatch, CyclicBarrier, Semaphore, Phaser, BlockingQueue), ConcurrentHashMap, ForkJoinPool, CompletableFuture, Atomic Variables
+4. Memory Management	JVM Architecture, Heap vs Stack, Garbage Collection (GC algorithms), Memory Leaks, Profiling, Object Pooling, String Pool & Interning
+5. JDBC & Database Interaction	JDBC Architecture, Driver Types, Connection Pooling, PreparedStatement vs Statement, Batch Processing, Transactions & Rollbacks, ORM Concepts (JPA, Hibernate)
+6. Spring Framework	Spring Core (IoC, Dependency Injection), Spring Boot (Starters, Auto Configuration), Spring MVC, RESTful APIs, Spring Data JPA, Spring Security (JWT, OAuth2, CSRF), AOP (Aspect-Oriented Programming), Spring Cloud (Config Server, Eureka, Gateway)
+7. Microservices Architecture	REST Design Principles, Synchronous vs Asynchronous Communication, Message Brokers (Kafka, RabbitMQ), API Gateway, Service Registry, Circuit Breaker (Resilience4j), Distributed Tracing (Zipkin, Sleuth), Configuration Management, Rate Limiting, Correlation ID & MDC
+8. Build & Deployment Tools	Maven, Gradle, Docker, Kubernetes, Jenkins (CI/CD), Git, Logging (SLF4J, Logback), Monitoring (Prometheus, Grafana, ELK Stack)
+9. Testing	JUnit 5, Mockito, Integration Testing, Testcontainers, WireMock, REST API Testing
+10. Design Patterns & Architecture	Creational (Singleton, Factory, Builder), Structural (Adapter, Decorator), Behavioral (Strategy, Observer, Command), DAO & Repository Patterns, SOLID Principles, Clean Architecture, Hexagonal Architecture

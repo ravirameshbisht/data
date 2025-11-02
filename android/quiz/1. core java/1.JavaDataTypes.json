@@ -1,0 +1,430 @@
+{
+    "id": 1,
+    "name": "Java Data Types",
+    "description": "Primitive types, wrapper classes, arrays, strings, and type conversions in Java.",
+    "proLocked": false,
+    "isActive": true,
+    "orderIndex": 1,
+    "questions": [
+        {
+            "id": 1,
+            "title": "Primitive Data Types",
+            "description": "Which of the following is NOT a primitive data type in Java?",
+            "code": "",
+            "options": [
+                "int",
+                "String",
+                "boolean",
+                "char"
+            ],
+            "correct": 1,
+            "explanation": "String is a reference type (class), not a primitive data type. The 8 primitive types are: byte, short, int, long, float, double, boolean, and char."
+        },
+        {
+            "id": 2,
+            "title": "Integer Range",
+            "description": "What is the range of values for the 'int' data type in Java?",
+            "code": "",
+            "options": [
+                "-128 to 127",
+                "-32,768 to 32,767",
+                "-2,147,483,648 to 2,147,483,647",
+                "-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807"
+            ],
+            "correct": 2,
+            "explanation": "The int data type is a 32-bit signed integer with a range from -2^31 to 2^31-1, which is -2,147,483,648 to 2,147,483,647."
+        },
+        {
+            "id": 3,
+            "title": "Byte Size",
+            "description": "How many bits does a 'byte' data type occupy in Java?",
+            "code": "",
+            "options": [
+                "4 bits",
+                "8 bits",
+                "16 bits",
+                "32 bits"
+            ],
+            "correct": 1,
+            "explanation": "A byte in Java is an 8-bit signed integer, ranging from -128 to 127."
+        },
+        {
+            "id": 4,
+            "title": "Default Values",
+            "description": "What is the default value of a boolean variable in Java?",
+            "code": "class Test {\n    boolean flag;\n    public void display() {\n        System.out.println(flag);\n    }\n}",
+            "options": [
+                "true",
+                "false",
+                "null",
+                "0"
+            ],
+            "correct": 1,
+            "explanation": "The default value of a boolean variable is false. All primitive types have default values when declared as instance variables."
+        },
+        {
+            "id": 5,
+            "title": "Character Literals",
+            "description": "Which of the following is a valid way to declare a char variable?",
+            "code": "",
+            "options": [
+                "char c = 'AB';",
+                "char c = 65;",
+                "char c = \"A\";",
+                "char c = 'A';"
+            ],
+            "correct": 3,
+            "explanation": "A char variable must be declared with single quotes for character literals. Option 2 (char c = 65;) is also valid as it uses the ASCII value, but option 4 shows the standard character literal syntax."
+        },
+        {
+            "id": 6,
+            "title": "Float vs Double",
+            "description": "What happens when you try to compile this code?",
+            "code": "float f = 3.14;",
+            "options": [
+                "Compiles successfully",
+                "Compilation error",
+                "Runtime error",
+                "Warning only"
+            ],
+            "correct": 1,
+            "explanation": "This causes a compilation error because 3.14 is treated as a double by default. You need to use 3.14f or cast it to float."
+        },
+        {
+            "id": 7,
+            "title": "Long Literals",
+            "description": "Which is the correct way to declare a long variable with value 1000000000000?",
+            "code": "",
+            "options": [
+                "long l = 1000000000000;",
+                "long l = 1000000000000L;",
+                "long l = (long)1000000000000;",
+                "long l = 1000000000000l;"
+            ],
+            "correct": 1,
+            "explanation": "Long literals must be suffixed with 'L' or 'l'. The value 1000000000000 exceeds int range, so without the L suffix, it would cause a compilation error."
+        },
+        {
+            "id": 8,
+            "title": "Wrapper Classes",
+            "description": "What is the wrapper class for the primitive type 'int'?",
+            "code": "",
+            "options": [
+                "Int",
+                "INTEGER",
+                "Integer",
+                "IntegerWrapper"
+            ],
+            "correct": 2,
+            "explanation": "The wrapper class for int is Integer. Each primitive type has a corresponding wrapper class: Integer, Double, Boolean, Character, etc."
+        },
+        {
+            "id": 9,
+            "title": "Autoboxing",
+            "description": "What is autoboxing in Java?",
+            "code": "Integer i = 5;",
+            "options": [
+                "Converting wrapper to primitive",
+                "Converting primitive to wrapper",
+                "Converting string to number",
+                "Converting number to string"
+            ],
+            "correct": 1,
+            "explanation": "Autoboxing is the automatic conversion of primitive types to their corresponding wrapper classes. In this example, the int value 5 is automatically boxed into an Integer object."
+        },
+        {
+            "id": 10,
+            "title": "String Immutability",
+            "description": "What does it mean that String objects are immutable in Java?",
+            "code": "String s = \"Hello\";\ns = s + \" World\";",
+            "options": [
+                "Strings cannot be created",
+                "String values cannot be changed once created",
+                "Strings cannot be compared",
+                "Strings cannot be concatenated"
+            ],
+            "correct": 1,
+            "explanation": "String immutability means that once a String object is created, its value cannot be changed. Operations like concatenation create new String objects rather than modifying existing ones."
+        },
+        {
+            "id": 11,
+            "title": "Array Declaration",
+            "description": "Which of the following is a valid array declaration in Java?",
+            "code": "",
+            "options": [
+                "int arr[] = new int[5];",
+                "int[] arr = new int[5];",
+                "int[] arr = {1,2,3,4,5};",
+                "All of the above"
+            ],
+            "correct": 3,
+            "explanation": "All three are valid ways to declare arrays in Java. You can place brackets after the type or variable name, and initialize with new or with an initializer list."
+        },
+        {
+            "id": 12,
+            "title": "Array Index",
+            "description": "What is the index of the first element in a Java array?",
+            "code": "int[] numbers = {10, 20, 30, 40, 50};",
+            "options": [
+                "1",
+                "0",
+                "-1",
+                "Depends on declaration"
+            ],
+            "correct": 1,
+            "explanation": "Java arrays are zero-indexed, meaning the first element is at index 0. In this example, numbers[0] would return 10."
+        },
+        {
+            "id": 13,
+            "title": "Type Casting",
+            "description": "What type of casting is shown in this code?",
+            "code": "int i = 10;\ndouble d = i;",
+            "options": [
+                "Explicit casting",
+                "Implicit casting",
+                "Invalid casting",
+                "No casting"
+            ],
+            "correct": 1,
+            "explanation": "This is implicit casting (also called widening conversion). Java automatically converts the int to double because no data is lost in the conversion."
+        },
+        {
+            "id": 14,
+            "title": "Explicit Casting",
+            "description": "What happens when you run this code?",
+            "code": "double d = 3.14;\nint i = (int) d;\nSystem.out.println(i);",
+            "options": [
+                "Prints 3.14",
+                "Prints 3",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 1,
+            "explanation": "Explicit casting from double to int truncates the decimal part. The output will be 3, not 3.14."
+        },
+        {
+            "id": 15,
+            "title": "Null Values",
+            "description": "Which of the following can be assigned a null value?",
+            "code": "",
+            "options": [
+                "int",
+                "boolean",
+                "String",
+                "char"
+            ],
+            "correct": 2,
+            "explanation": "Only reference types (objects) can be assigned null values. String is a reference type, while int, boolean, and char are primitive types that cannot be null."
+        },
+        {
+            "id": 16,
+            "title": "Variable Initialization",
+            "description": "What happens when you try to use this local variable?",
+            "code": "public void method() {\n    int x;\n    System.out.println(x);\n}",
+            "options": [
+                "Prints 0",
+                "Prints null",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 2,
+            "explanation": "Local variables must be initialized before use. This code will cause a compilation error because variable 'x' is not initialized."
+        },
+        {
+            "id": 17,
+            "title": "Final Variables",
+            "description": "What is true about final variables in Java?",
+            "code": "final int x = 10;",
+            "options": [
+                "They can be changed later",
+                "They must be initialized when declared",
+                "They are automatically static",
+                "They cannot be primitive types"
+            ],
+            "correct": 1,
+            "explanation": "Final variables must be initialized either when declared or in the constructor, and their value cannot be changed after initialization."
+        },
+        {
+            "id": 18,
+            "title": "String Pool",
+            "description": "What is the difference between these two String declarations?",
+            "code": "String s1 = \"Hello\";\nString s2 = new String(\"Hello\");",
+            "options": [
+                "No difference",
+                "s1 uses string pool, s2 creates new object",
+                "s1 is mutable, s2 is immutable",
+                "s1 is faster, s2 is slower"
+            ],
+            "correct": 1,
+            "explanation": "s1 uses the string literal pool for memory efficiency, while s2 explicitly creates a new String object in heap memory, even if 'Hello' already exists in the pool."
+        },
+        {
+            "id": 19,
+            "title": "Multidimensional Arrays",
+            "description": "How do you declare a 2D array in Java?",
+            "code": "",
+            "options": [
+                "int[][] arr = new int[3][4];",
+                "int arr[][] = new int[3][4];",
+                "int[] arr[] = new int[3][4];",
+                "All of the above"
+            ],
+            "correct": 3,
+            "explanation": "All three syntaxes are valid for declaring 2D arrays in Java. The brackets can be placed in different positions after the type or variable name."
+        },
+        {
+            "id": 20,
+            "title": "Overflow Behavior",
+            "description": "What happens when an integer overflows in Java?",
+            "code": "int max = Integer.MAX_VALUE;\nint overflow = max + 1;\nSystem.out.println(overflow);",
+            "options": [
+                "Throws an exception",
+                "Prints Integer.MAX_VALUE",
+                "Wraps around to Integer.MIN_VALUE",
+                "Compilation error"
+            ],
+            "correct": 2,
+            "explanation": "Integer overflow in Java wraps around. When you exceed MAX_VALUE, it wraps to MIN_VALUE. This is called integer wraparound."
+        },
+        {
+            "id": 21,
+            "title": "Boolean Operations",
+            "description": "What is the result of this boolean expression?",
+            "code": "boolean result = true && false || true;",
+            "options": [
+                "true",
+                "false",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 0,
+            "explanation": "Due to operator precedence, && is evaluated before ||. So this becomes: (true && false) || true = false || true = true."
+        },
+        {
+            "id": 22,
+            "title": "Character Encoding",
+            "description": "What encoding does Java use for char data type?",
+            "code": "",
+            "options": [
+                "ASCII",
+                "UTF-8",
+                "UTF-16",
+                "ISO-8859-1"
+            ],
+            "correct": 2,
+            "explanation": "Java uses UTF-16 encoding for char data type. Each char is 16 bits and can represent Unicode characters."
+        },
+        {
+            "id": 23,
+            "title": "Numeric Promotion",
+            "description": "What is the data type of the result in this expression?",
+            "code": "byte b = 10;\nshort s = 20;\nint result = b + s;",
+            "options": [
+                "byte",
+                "short",
+                "int",
+                "long"
+            ],
+            "correct": 2,
+            "explanation": "In arithmetic operations, byte and short are promoted to int. The result of any arithmetic operation involving byte or short is at least an int."
+        },
+        {
+            "id": 24,
+            "title": "String Comparison",
+            "description": "What is the correct way to compare two String objects for equality?",
+            "code": "String s1 = \"Hello\";\nString s2 = \"Hello\";",
+            "options": [
+                "s1 == s2",
+                "s1.equals(s2)",
+                "s1.compareTo(s2) == 0",
+                "Both B and C"
+            ],
+            "correct": 3,
+            "explanation": "Both equals() and compareTo() == 0 correctly compare String content. The == operator compares references, not content, and may give unexpected results."
+        },
+        {
+            "id": 25,
+            "title": "Array Length",
+            "description": "How do you get the length of an array in Java?",
+            "code": "int[] numbers = {1, 2, 3, 4, 5};",
+            "options": [
+                "numbers.length()",
+                "numbers.size()",
+                "numbers.length",
+                "numbers.count"
+            ],
+            "correct": 2,
+            "explanation": "Array length is accessed using the 'length' field (not a method). Note there are no parentheses - it's a field, not a method."
+        },
+        {
+            "id": 26,
+            "title": "Constant Declaration",
+            "description": "What is the conventional way to declare a constant in Java?",
+            "code": "",
+            "options": [
+                "const int MAX = 100;",
+                "final int MAX = 100;",
+                "static final int MAX = 100;",
+                "readonly int MAX = 100;"
+            ],
+            "correct": 2,
+            "explanation": "Constants in Java are typically declared as 'static final'. The 'static' makes it class-level, and 'final' makes it unchangeable. Java doesn't have a 'const' keyword."
+        },
+        {
+            "id": 27,
+            "title": "Unboxing",
+            "description": "What is unboxing in Java?",
+            "code": "Integer i = 10;\nint primitive = i;",
+            "options": [
+                "Converting primitive to wrapper",
+                "Converting wrapper to primitive",
+                "Converting string to number",
+                "Removing an object from memory"
+            ],
+            "correct": 1,
+            "explanation": "Unboxing is the automatic conversion of wrapper class objects to their corresponding primitive types. Here, the Integer object is automatically unboxed to an int."
+        },
+        {
+            "id": 28,
+            "title": "Type Inference",
+            "description": "What feature does the 'var' keyword provide in Java 10+?",
+            "code": "var list = new ArrayList<String>();",
+            "options": [
+                "Dynamic typing",
+                "Local variable type inference",
+                "Global variable declaration",
+                "Constant declaration"
+            ],
+            "correct": 1,
+            "explanation": "The 'var' keyword provides local variable type inference. The compiler infers the type from the initializer expression. It's still statically typed."
+        },
+        {
+            "id": 29,
+            "title": "Primitive Wrapper Caching",
+            "description": "What is true about Integer caching in Java?",
+            "code": "Integer a = 127;\nInteger b = 127;\nSystem.out.println(a == b);",
+            "options": [
+                "Always prints false",
+                "Always prints true",
+                "Prints true for values -128 to 127",
+                "Compilation error"
+            ],
+            "correct": 2,
+            "explanation": "Java caches Integer objects for values from -128 to 127. For these values, == comparison returns true because the same object is reused."
+        },
+        {
+            "id": 30,
+            "title": "Array Initialization",
+            "description": "What is the default value for elements in a newly created int array?",
+            "code": "int[] arr = new int[5];\nSystem.out.println(arr[0]);",
+            "options": [
+                "undefined",
+                "null",
+                "0",
+                "Random value"
+            ],
+            "correct": 2,
+            "explanation": "Array elements are automatically initialized to default values. For int arrays, each element is initialized to 0. Reference type arrays are initialized to null."
+        }
+    ]
+}

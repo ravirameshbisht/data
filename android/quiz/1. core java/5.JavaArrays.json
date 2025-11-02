@@ -1,0 +1,430 @@
+{
+    "id": 5,
+    "name": "Java Arrays",
+    "description": "Array declaration, initialization, manipulation, and multidimensional arrays in Java.",
+    "proLocked": false,
+    "isActive": true,
+    "orderIndex": 5,
+    "questions": [
+        {
+            "id": 1,
+            "title": "Basic If Statement",
+            "description": "What is the output of this code?",
+            "code": "int x = 10;\nif (x > 5) {\n    System.out.println(\"Greater\");\n} else {\n    System.out.println(\"Lesser\");\n}",
+            "options": [
+                "Greater",
+                "Lesser",
+                "Compilation error",
+                "No output"
+            ],
+            "correct": 0,
+            "explanation": "Since x (10) is greater than 5, the condition is true and \"Greater\" is printed."
+        },
+        {
+            "id": 2,
+            "title": "If-Else If Chain",
+            "description": "What is the output of this code?",
+            "code": "int score = 85;\nif (score >= 90) {\n    System.out.println(\"A\");\n} else if (score >= 80) {\n    System.out.println(\"B\");\n} else {\n    System.out.println(\"C\");\n}",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "Score is 85, which is not >= 90 but is >= 80, so \"B\" is printed. Only the first matching condition executes."
+        },
+        {
+            "id": 3,
+            "title": "For Loop Basics",
+            "description": "How many times does this loop execute?",
+            "code": "for (int i = 0; i < 5; i++) {\n    System.out.println(i);\n}",
+            "options": [
+                "4 times",
+                "5 times",
+                "6 times",
+                "Infinite times"
+            ],
+            "correct": 1,
+            "explanation": "The loop runs while i < 5. Starting from 0, it executes for i = 0, 1, 2, 3, 4 (5 times total)."
+        },
+        {
+            "id": 4,
+            "title": "While Loop",
+            "description": "What is the final value of count?",
+            "code": "int count = 0;\nwhile (count < 3) {\n    count++;\n}\nSystem.out.println(count);",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "Infinite loop"
+            ],
+            "correct": 1,
+            "explanation": "The loop continues while count < 3. After incrementing 3 times (0→1, 1→2, 2→3), count becomes 3 and the loop stops."
+        },
+        {
+            "id": 5,
+            "title": "Do-While Loop",
+            "description": "How many times does this loop execute?",
+            "code": "int x = 10;\ndo {\n    System.out.println(x);\n    x++;\n} while (x < 10);",
+            "options": [
+                "0 times",
+                "1 time",
+                "10 times",
+                "Infinite times"
+            ],
+            "correct": 1,
+            "explanation": "Do-while loops execute at least once before checking the condition. Even though x (10) is not < 10, the loop body runs once."
+        },
+        {
+            "id": 6,
+            "title": "Switch Statement",
+            "description": "What is the output of this switch statement?",
+            "code": "int day = 2;\nswitch (day) {\n    case 1: System.out.println(\"Monday\"); break;\n    case 2: System.out.println(\"Tuesday\"); break;\n    case 3: System.out.println(\"Wednesday\"); break;\n    default: System.out.println(\"Other\");\n}",
+            "options": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Other"
+            ],
+            "correct": 1,
+            "explanation": "The switch matches case 2, prints \"Tuesday\", and the break statement prevents fall-through to other cases."
+        },
+        {
+            "id": 7,
+            "title": "Switch Fall-Through",
+            "description": "What is the output when there's no break statement?",
+            "code": "int x = 1;\nswitch (x) {\n    case 1: System.out.print(\"One \");\n    case 2: System.out.print(\"Two \");\n    case 3: System.out.print(\"Three\");\n}",
+            "options": [
+                "One",
+                "One Two",
+                "One Two Three",
+                "Compilation error"
+            ],
+            "correct": 2,
+            "explanation": "Without break statements, execution falls through all subsequent cases. Starting from case 1, it prints \"One Two Three\"."
+        },
+        {
+            "id": 8,
+            "title": "Break Statement",
+            "description": "What does the break statement do in a loop?",
+            "code": "for (int i = 0; i < 10; i++) {\n    if (i == 5) {\n        break;\n    }\n    System.out.println(i);\n}",
+            "options": [
+                "Prints 0 to 9",
+                "Prints 0 to 4",
+                "Prints 0 to 5",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "The break statement immediately exits the loop. When i equals 5, the loop terminates, so only 0, 1, 2, 3, 4 are printed."
+        },
+        {
+            "id": 9,
+            "title": "Continue Statement",
+            "description": "What does the continue statement do?",
+            "code": "for (int i = 0; i < 5; i++) {\n    if (i == 2) {\n        continue;\n    }\n    System.out.println(i);\n}",
+            "options": [
+                "Prints 0, 1, 2, 3, 4",
+                "Prints 0, 1, 3, 4",
+                "Prints 2 only",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "The continue statement skips the rest of the current iteration. When i equals 2, it skips the print statement and continues with i = 3."
+        },
+        {
+            "id": 10,
+            "title": "Nested Loops",
+            "description": "How many times is \"Hello\" printed?",
+            "code": "for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 2; j++) {\n        System.out.println(\"Hello\");\n    }\n}",
+            "options": [
+                "3 times",
+                "2 times",
+                "6 times",
+                "5 times"
+            ],
+            "correct": 2,
+            "explanation": "The outer loop runs 3 times, and for each iteration, the inner loop runs 2 times. Total: 3 × 2 = 6 times."
+        },
+        {
+            "id": 11,
+            "title": "Enhanced For Loop",
+            "description": "What does this enhanced for loop do?",
+            "code": "int[] numbers = {1, 2, 3, 4, 5};\nfor (int num : numbers) {\n    System.out.println(num);\n}",
+            "options": [
+                "Prints array indices",
+                "Prints array values",
+                "Compilation error",
+                "Prints array length"
+            ],
+            "correct": 1,
+            "explanation": "The enhanced for loop (for-each) iterates through array elements, printing each value: 1, 2, 3, 4, 5."
+        },
+        {
+            "id": 12,
+            "title": "Switch with Strings",
+            "description": "Can switch statements work with String values?",
+            "code": "String fruit = \"apple\";\nswitch (fruit) {\n    case \"apple\": System.out.println(\"Red\"); break;\n    case \"banana\": System.out.println(\"Yellow\"); break;\n}",
+            "options": [
+                "Yes, prints Red",
+                "No, compilation error",
+                "Yes, prints Yellow",
+                "Runtime error"
+            ],
+            "correct": 0,
+            "explanation": "Since Java 7, switch statements support String values. This code matches \"apple\" and prints \"Red\"."
+        },
+        {
+            "id": 13,
+            "title": "Infinite Loop",
+            "description": "Which of these creates an infinite loop?",
+            "code": "",
+            "options": [
+                "for(;;)",
+                "while(true)",
+                "do { } while(true)",
+                "All of the above"
+            ],
+            "correct": 3,
+            "explanation": "All three constructs create infinite loops: for(;;) has no termination condition, while(true) and do-while(true) have always-true conditions."
+        },
+        {
+            "id": 14,
+            "title": "Loop Variable Scope",
+            "description": "What happens when you try to access the loop variable outside the loop?",
+            "code": "for (int i = 0; i < 5; i++) {\n    // loop body\n}\nSystem.out.println(i);",
+            "options": [
+                "Prints 5",
+                "Prints 4",
+                "Compilation error",
+                "Prints 0"
+            ],
+            "correct": 2,
+            "explanation": "The loop variable 'i' is only in scope within the for loop. Accessing it outside the loop causes a compilation error."
+        },
+        {
+            "id": 15,
+            "title": "Switch Default Case",
+            "description": "When is the default case executed in a switch statement?",
+            "code": "int x = 10;\nswitch (x) {\n    case 1: System.out.println(\"One\"); break;\n    case 2: System.out.println(\"Two\"); break;\n    default: System.out.println(\"Other\");\n}",
+            "options": [
+                "Always",
+                "Never",
+                "When no case matches",
+                "Only if explicitly called"
+            ],
+            "correct": 2,
+            "explanation": "The default case executes when none of the specified cases match the switch expression. Here, x=10 doesn't match any case, so \"Other\" is printed."
+        },
+        {
+            "id": 16,
+            "title": "Labeled Break",
+            "description": "What does a labeled break statement do?",
+            "code": "outer: for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n        if (i == 1 && j == 1) {\n            break outer;\n        }\n        System.out.println(i + \",\" + j);\n    }\n}",
+            "options": [
+                "Breaks inner loop only",
+                "Breaks outer loop",
+                "Compilation error",
+                "Breaks all loops"
+            ],
+            "correct": 1,
+            "explanation": "A labeled break exits the loop with the specified label. 'break outer' exits the outer loop entirely, not just the inner loop."
+        },
+        {
+            "id": 17,
+            "title": "If Without Braces",
+            "description": "What is the output of this code?",
+            "code": "int x = 5;\nif (x > 0)\n    System.out.println(\"Positive\");\n    System.out.println(\"Number\");",
+            "options": [
+                "Positive",
+                "Number",
+                "Positive Number",
+                "Compilation error"
+            ],
+            "correct": 2,
+            "explanation": "Without braces, only the first statement belongs to the if. The second println always executes, so both \"Positive\" and \"Number\" are printed."
+        },
+        {
+            "id": 18,
+            "title": "Switch Expression (Java 14+)",
+            "description": "What is the value of result using switch expressions?",
+            "code": "int day = 2;\nString result = switch (day) {\n    case 1 -> \"Monday\";\n    case 2 -> \"Tuesday\";\n    case 3 -> \"Wednesday\";\n    default -> \"Other\";\n};",
+            "options": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Compilation error in older Java"
+            ],
+            "correct": 1,
+            "explanation": "Switch expressions (Java 14+) use arrow syntax and return values directly. For day=2, it returns \"Tuesday\"."
+        },
+        {
+            "id": 19,
+            "title": "For Loop Variations",
+            "description": "Which for loop syntax is valid?",
+            "code": "",
+            "options": [
+                "for (int i = 0; i < 10; i++)",
+                "for (;;)",
+                "for (int i = 0, j = 10; i < j; i++, j--)",
+                "All of the above"
+            ],
+            "correct": 3,
+            "explanation": "All are valid: standard for loop, infinite loop with empty conditions, and multiple variable declarations/updates in a single for loop."
+        },
+        {
+            "id": 20,
+            "title": "While vs Do-While",
+            "description": "What's the key difference between while and do-while loops?",
+            "code": "int x = 10;\nwhile (x < 5) {\n    System.out.println(\"While\");\n}\ndo {\n    System.out.println(\"Do-While\");\n} while (x < 5);",
+            "options": [
+                "No difference",
+                "While checks condition first",
+                "Do-while executes at least once",
+                "Both B and C"
+            ],
+            "correct": 3,
+            "explanation": "While loops check the condition before executing (may not run at all), while do-while loops execute at least once before checking the condition."
+        },
+        {
+            "id": 21,
+            "title": "Switch with Enums",
+            "description": "Can switch statements work with enum values?",
+            "code": "enum Color { RED, GREEN, BLUE }\nColor c = Color.RED;\nswitch (c) {\n    case RED: System.out.println(\"Red color\"); break;\n    case GREEN: System.out.println(\"Green color\"); break;\n}",
+            "options": [
+                "Yes, prints Red color",
+                "No, compilation error",
+                "Runtime error",
+                "Prints nothing"
+            ],
+            "correct": 0,
+            "explanation": "Switch statements work well with enums. The case labels use the enum constant names without the enum type prefix."
+        },
+        {
+            "id": 22,
+            "title": "Nested If Statements",
+            "description": "What is the output of this nested if structure?",
+            "code": "int x = 10, y = 20;\nif (x > 5) {\n    if (y > 15) {\n        System.out.println(\"Both conditions true\");\n    } else {\n        System.out.println(\"Only first true\");\n    }\n}",
+            "options": [
+                "Both conditions true",
+                "Only first true",
+                "No output",
+                "Compilation error"
+            ],
+            "correct": 0,
+            "explanation": "x (10) > 5 is true, so we enter the outer if. Then y (20) > 15 is also true, so \"Both conditions true\" is printed."
+        },
+        {
+            "id": 23,
+            "title": "Loop Control with Return",
+            "description": "What happens when return is used inside a loop?",
+            "code": "public static void method() {\n    for (int i = 0; i < 10; i++) {\n        if (i == 3) {\n            return;\n        }\n        System.out.println(i);\n    }\n    System.out.println(\"After loop\");\n}",
+            "options": [
+                "Prints 0,1,2 then After loop",
+                "Prints 0,1,2 only",
+                "Prints 0,1,2,3",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "The return statement exits the entire method immediately. It prints 0, 1, 2, then exits without printing \"After loop\"."
+        },
+        {
+            "id": 24,
+            "title": "Switch Case Grouping",
+            "description": "What is the output when multiple cases share the same code block?",
+            "code": "int month = 2;\nswitch (month) {\n    case 12:\n    case 1:\n    case 2:\n        System.out.println(\"Winter\");\n        break;\n    case 3:\n        System.out.println(\"Spring\");\n}",
+            "options": [
+                "Winter",
+                "Spring",
+                "No output",
+                "Compilation error"
+            ],
+            "correct": 0,
+            "explanation": "Cases 12, 1, and 2 all fall through to the same code block. Since month=2, it matches case 2 and prints \"Winter\"."
+        },
+        {
+            "id": 25,
+            "title": "For Loop with Collections",
+            "description": "What does this enhanced for loop print?",
+            "code": "List<String> names = Arrays.asList(\"Alice\", \"Bob\", \"Charlie\");\nfor (String name : names) {\n    if (name.equals(\"Bob\")) {\n        continue;\n    }\n    System.out.println(name);\n}",
+            "options": [
+                "Alice, Bob, Charlie",
+                "Alice, Charlie",
+                "Bob only",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "The enhanced for loop iterates through the list. When it encounters \"Bob\", continue skips the print statement, so only \"Alice\" and \"Charlie\" are printed."
+        },
+        {
+            "id": 26,
+            "title": "Conditional Operator vs If",
+            "description": "What is equivalent to this if-else statement?",
+            "code": "int x = 10;\nString result;\nif (x > 5) {\n    result = \"Greater\";\n} else {\n    result = \"Lesser\";\n}",
+            "options": [
+                "String result = x > 5 ? \"Greater\" : \"Lesser\";",
+                "String result = x > 5 && \"Greater\" || \"Lesser\";",
+                "String result = (x > 5) + \"Greater\" + \"Lesser\";",
+                "Cannot be simplified"
+            ],
+            "correct": 0,
+            "explanation": "The ternary operator (condition ? value1 : value2) is a concise way to write simple if-else assignments."
+        },
+        {
+            "id": 27,
+            "title": "Loop Performance",
+            "description": "Which loop structure is most efficient for iterating arrays?",
+            "code": "int[] arr = {1, 2, 3, 4, 5};\n// Option 1: for (int i = 0; i < arr.length; i++)\n// Option 2: for (int element : arr)\n// Option 3: while loop with index",
+            "options": [
+                "Traditional for loop",
+                "Enhanced for loop",
+                "While loop",
+                "All have similar performance"
+            ],
+            "correct": 3,
+            "explanation": "Modern JVMs optimize all these loop types similarly. The enhanced for loop is often preferred for readability, but performance differences are negligible."
+        },
+        {
+            "id": 28,
+            "title": "Switch Statement Limitations",
+            "description": "Which data types CANNOT be used in switch statements?",
+            "code": "",
+            "options": [
+                "float and double",
+                "boolean",
+                "long",
+                "All of the above"
+            ],
+            "correct": 3,
+            "explanation": "Switch statements only work with byte, short, int, char, String (Java 7+), and enum types. float, double, boolean, and long are not supported."
+        },
+        {
+            "id": 29,
+            "title": "Loop Initialization",
+            "description": "What is the output of this for loop?",
+            "code": "for (int i = 5; i > 0; i--) {\n    if (i == 3) {\n        break;\n    }\n    System.out.print(i + \" \");\n}",
+            "options": [
+                "5 4 3 2 1",
+                "5 4",
+                "5 4 3",
+                "3 2 1"
+            ],
+            "correct": 1,
+            "explanation": "The loop starts at i=5 and decrements. It prints 5, then 4, then when i becomes 3, the break statement exits the loop."
+        },
+        {
+            "id": 30,
+            "title": "Control Flow Best Practices",
+            "description": "Which is considered a best practice for control statements?",
+            "code": "",
+            "options": [
+                "Always use braces even for single statements",
+                "Avoid deeply nested if statements",
+                "Use meaningful variable names in loop conditions",
+                "All of the above"
+            ],
+            "correct": 3,
+            "explanation": "All are best practices: braces prevent errors when adding statements, avoiding deep nesting improves readability, and meaningful names make code self-documenting."
+        }
+    ]
+}
