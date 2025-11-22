@@ -1,4 +1,7 @@
-This Java code defines a Runnable task using a concise lambda expression, 
-creates a new Thread with that task, and immediately starts the thread's execution. 
-The lambda's body, System.out.println("Hello, Lambda!");, is executed concurrently in the new thread.
+This comprehensive Java code illustrates foundational programming concepts, 
+including variable declaration, arithmetic operations, conditional logic, 
+various loop types, array manipulation, method calls, 
+and basic object-oriented programming (OOP) via two classes. 
+
+It covers the core syntax of Java within a single runnable program.
 
