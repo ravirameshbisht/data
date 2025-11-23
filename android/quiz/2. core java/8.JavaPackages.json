@@ -1,0 +1,430 @@
+{
+    "id": 8,
+    "name": "Java Packages",
+    "description": "Package declaration, imports, visibility, classpath, and package organization in Java.",
+    "proLocked": false,
+    "isActive": true,
+    "orderIndex": 8,
+    "questions": [
+        {
+            "id": 1,
+            "title": "Package Declaration",
+            "description": "What is the correct syntax for declaring a package?",
+            "code": "package com.example.myapp;\n\npublic class MyClass {\n    // class content\n}",
+            "options": [
+                "package com.example.myapp;",
+                "import com.example.myapp;",
+                "namespace com.example.myapp;",
+                "module com.example.myapp;"
+            ],
+            "correct": 0,
+            "explanation": "The package statement must be the first non-comment line in a Java file and uses the 'package' keyword followed by the package name."
+        },
+        {
+            "id": 2,
+            "title": "Package Naming Convention",
+            "description": "Which package name follows Java naming conventions?",
+            "code": "",
+            "options": [
+                "com.Example.MyApp",
+                "com.example.myapp",
+                "Com.Example.MyApp",
+                "COM.EXAMPLE.MYAPP"
+            ],
+            "correct": 1,
+            "explanation": "Java package names should be all lowercase, typically following reverse domain name convention (com.company.project)."
+        },
+        {
+            "id": 3,
+            "title": "Import Statement",
+            "description": "What does this import statement do?",
+            "code": "import java.util.ArrayList;\n\npublic class MyClass {\n    ArrayList<String> list = new ArrayList<>();\n}",
+            "options": [
+                "Imports all classes from java.util",
+                "Imports only ArrayList class",
+                "Creates an ArrayList object",
+                "Declares a package"
+            ],
+            "correct": 1,
+            "explanation": "This import statement imports only the ArrayList class from the java.util package, allowing you to use ArrayList without fully qualifying it."
+        },
+        {
+            "id": 4,
+            "title": "Wildcard Import",
+            "description": "What does the wildcard import do?",
+            "code": "import java.util.*;\n\npublic class Example {\n    List<String> list = new ArrayList<>();\n    Map<String, Integer> map = new HashMap<>();\n}",
+            "options": [
+                "Imports all packages",
+                "Imports all classes from java.util package",
+                "Imports all subpackages",
+                "Causes compilation error"
+            ],
+            "correct": 1,
+            "explanation": "The wildcard (*) imports all classes from the specified package (java.util), but not subpackages or nested classes."
+        },
+        {
+            "id": 5,
+            "title": "Static Import",
+            "description": "What does static import allow you to do?",
+            "code": "import static java.lang.Math.PI;\nimport static java.lang.Math.sqrt;\n\npublic class Calculator {\n    double area = PI * radius * radius;\n    double hypotenuse = sqrt(a*a + b*b);\n}",
+            "options": [
+                "Import static classes",
+                "Import static methods and fields directly",
+                "Make methods static",
+                "Import final variables only"
+            ],
+            "correct": 1,
+            "explanation": "Static import allows you to use static methods and fields directly without qualifying them with the class name."
+        },
+        {
+            "id": 6,
+            "title": "Package Structure",
+            "description": "How should the directory structure match the package declaration?",
+            "code": "package com.example.util;\n\npublic class StringHelper {\n    // utility methods\n}",
+            "options": [
+                "com/example/util/StringHelper.java",
+                "com.example.util/StringHelper.java",
+                "com\\example\\util\\StringHelper.java",
+                "Any directory structure works"
+            ],
+            "correct": 0,
+            "explanation": "The directory structure must exactly match the package declaration using forward slashes (or backslashes on Windows) as separators."
+        },
+        {
+            "id": 7,
+            "title": "Default Package",
+            "description": "What happens when you don't declare a package?",
+            "code": "// No package declaration\npublic class MyClass {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World\");\n    }\n}",
+            "options": [
+                "Compilation error",
+                "Class belongs to default package",
+                "Class becomes private",
+                "Class is automatically public"
+            ],
+            "correct": 1,
+            "explanation": "Classes without a package declaration belong to the default (unnamed) package. This is not recommended for production code."
+        },
+        {
+            "id": 8,
+            "title": "Fully Qualified Class Name",
+            "description": "What is the fully qualified name of this class?",
+            "code": "package com.example.data;\n\npublic class User {\n    private String name;\n    private int age;\n}",
+            "options": [
+                "User",
+                "data.User",
+                "example.data.User",
+                "com.example.data.User"
+            ],
+            "correct": 3,
+            "explanation": "The fully qualified class name includes the complete package path: com.example.data.User."
+        },
+        {
+            "id": 9,
+            "title": "Import Conflicts",
+            "description": "What happens when you import two classes with the same name?",
+            "code": "import java.util.Date;\nimport java.sql.Date; // Name conflict\n\npublic class DateExample {\n    Date date = new Date(); // Which Date class?\n}",
+            "options": [
+                "Uses the first import",
+                "Uses the last import",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 2,
+            "explanation": "Importing two classes with the same simple name causes a compilation error. You must use fully qualified names to resolve the conflict."
+        },
+        {
+            "id": 10,
+            "title": "Resolving Import Conflicts",
+            "description": "How do you resolve naming conflicts between imported classes?",
+            "code": "import java.util.Date;\n// import java.sql.Date; // Commented out to avoid conflict\n\npublic class DateExample {\n    java.util.Date utilDate = new java.util.Date();\n    java.sql.Date sqlDate = new java.sql.Date(System.currentTimeMillis());\n}",
+            "options": [
+                "Use aliases",
+                "Use fully qualified names",
+                "Import only one class",
+                "Both B and C"
+            ],
+            "correct": 3,
+            "explanation": "You can resolve conflicts by using fully qualified names or by importing only one class and fully qualifying the other."
+        },
+        {
+            "id": 11,
+            "title": "Package Access Modifier",
+            "description": "What access level do package-private members have?",
+            "code": "package com.example;\n\nclass PackageClass { // No access modifier\n    int value = 10; // No access modifier\n    void method() { } // No access modifier\n}",
+            "options": [
+                "Public access",
+                "Private access",
+                "Accessible within same package only",
+                "Protected access"
+            ],
+            "correct": 2,
+            "explanation": "Package-private (default) access means members are accessible only within the same package."
+        },
+        {
+            "id": 12,
+            "title": "Classpath and Packages",
+            "description": "How does the classpath relate to package structure?",
+            "code": "// Classpath: /home/user/myproject/src\n// Package: com.example.util\n// File location: /home/user/myproject/src/com/example/util/Helper.java",
+            "options": [
+                "Classpath must contain package directories",
+                "Classpath is the root where package directories start",
+                "Classpath and packages are unrelated",
+                "Classpath overrides package structure"
+            ],
+            "correct": 1,
+            "explanation": "The classpath specifies the root directories where the JVM looks for package directories. Package structure starts from classpath roots."
+        },
+        {
+            "id": 13,
+            "title": "Subpackages",
+            "description": "Are subpackages automatically accessible?",
+            "code": "package com.example.parent;\nimport com.example.parent.child.ChildClass; // Explicit import needed\n\npublic class ParentClass {\n    ChildClass child = new ChildClass();\n}",
+            "options": [
+                "Yes, subpackages are automatically imported",
+                "No, subpackages must be explicitly imported",
+                "Only direct subpackages are accessible",
+                "Depends on access modifiers"
+            ],
+            "correct": 1,
+            "explanation": "Subpackages are treated as completely separate packages. You must explicitly import classes from subpackages."
+        },
+        {
+            "id": 14,
+            "title": "Java Lang Package",
+            "description": "Why don't you need to import java.lang classes?",
+            "code": "public class Example {\n    String text = \"Hello\"; // No import needed\n    System.out.println(text); // No import needed\n    Integer number = 42; // No import needed\n}",
+            "options": [
+                "java.lang is automatically imported",
+                "java.lang classes are built-in",
+                "java.lang is part of JVM",
+                "All of the above"
+            ],
+            "correct": 0,
+            "explanation": "The java.lang package is automatically imported in every Java file, so you don't need explicit import statements for String, System, Integer, etc."
+        },
+        {
+            "id": 15,
+            "title": "Package Statement Position",
+            "description": "Where must the package statement be placed?",
+            "code": "// Comments are allowed before package\n/* Multi-line comments too */\npackage com.example; // Must be first non-comment line\n\nimport java.util.List;\n\npublic class MyClass { }",
+            "options": [
+                "Anywhere in the file",
+                "After import statements",
+                "First non-comment line",
+                "After class declaration"
+            ],
+            "correct": 2,
+            "explanation": "The package statement must be the first non-comment line in a Java source file, before any import statements or class declarations."
+        },
+        {
+            "id": 16,
+            "title": "Multiple Package Declarations",
+            "description": "Can a Java file have multiple package declarations?",
+            "code": "package com.example.first;\npackage com.example.second; // Is this allowed?\n\npublic class MyClass { }",
+            "options": [
+                "Yes, multiple packages are allowed",
+                "No, only one package per file",
+                "Yes, but only for interfaces",
+                "Depends on compiler version"
+            ],
+            "correct": 1,
+            "explanation": "A Java source file can have at most one package declaration. Multiple package declarations cause compilation errors."
+        },
+        {
+            "id": 17,
+            "title": "Import Order",
+            "description": "Does the order of import statements matter?",
+            "code": "import java.util.List;\nimport java.io.File;\nimport java.net.URL;\n\npublic class Example { }",
+            "options": [
+                "Yes, alphabetical order required",
+                "Yes, java.* imports must come first",
+                "No, order doesn't matter functionally",
+                "Yes, static imports must be last"
+            ],
+            "correct": 2,
+            "explanation": "Import order doesn't affect functionality, but coding conventions often specify ordering (e.g., java.*, javax.*, third-party, then project imports)."
+        },
+        {
+            "id": 18,
+            "title": "Unused Imports",
+            "description": "What happens with unused import statements?",
+            "code": "import java.util.ArrayList; // Used\nimport java.util.HashMap; // Not used in code\nimport java.util.LinkedList; // Not used in code\n\npublic class Example {\n    ArrayList<String> list = new ArrayList<>();\n}",
+            "options": [
+                "Compilation error",
+                "Runtime error",
+                "Warning but compiles successfully",
+                "No effect on compilation"
+            ],
+            "correct": 3,
+            "explanation": "Unused imports don't cause compilation errors but may generate warnings. IDEs typically highlight and can remove unused imports."
+        },
+        {
+            "id": 19,
+            "title": "Package Visibility",
+            "description": "Can classes in different packages access package-private members?",
+            "code": "// Package: com.example.a\nclass ClassA {\n    int value = 10; // package-private\n}\n\n// Package: com.example.b\nclass ClassB {\n    void test() {\n        ClassA obj = new ClassA();\n        System.out.println(obj.value); // Accessible?\n    }\n}",
+            "options": [
+                "Yes, always accessible",
+                "No, different packages",
+                "Only if classes are related",
+                "Depends on import statements"
+            ],
+            "correct": 1,
+            "explanation": "Package-private members are only accessible within the same package. Classes in different packages cannot access them."
+        },
+        {
+            "id": 20,
+            "title": "Static Import Wildcard",
+            "description": "What does static import with wildcard do?",
+            "code": "import static java.lang.Math.*;\n\npublic class Calculator {\n    double result = sin(PI/4) + cos(PI/3) + sqrt(16);\n}",
+            "options": [
+                "Imports all static methods only",
+                "Imports all static fields only",
+                "Imports all static methods and fields",
+                "Causes compilation error"
+            ],
+            "correct": 2,
+            "explanation": "Static import with wildcard (*) imports all static methods and fields from the specified class, allowing direct usage without class qualification."
+        },
+        {
+            "id": 21,
+            "title": "Nested Class Import",
+            "description": "How do you import a nested class?",
+            "code": "// Outer class in package com.example\npublic class Outer {\n    public static class Nested {\n        public void method() { }\n    }\n}\n\n// How to import Nested class?",
+            "options": [
+                "import com.example.Outer.Nested;",
+                "import com.example.Outer$Nested;",
+                "import com.example.Nested;",
+                "Cannot import nested classes"
+            ],
+            "correct": 0,
+            "explanation": "Nested classes are imported using dot notation: import com.example.Outer.Nested; This allows you to use Nested directly instead of Outer.Nested."
+        },
+        {
+            "id": 22,
+            "title": "Package Documentation",
+            "description": "How do you document a package?",
+            "code": "// File: package-info.java\n/**\n * This package contains utility classes for string manipulation.\n * @author John Doe\n * @version 1.0\n */\npackage com.example.util;",
+            "options": [
+                "Use package-info.java file",
+                "Add comments to first class",
+                "Use README.md file",
+                "Documentation not supported"
+            ],
+            "correct": 0,
+            "explanation": "Package documentation is provided through a package-info.java file containing Javadoc comments and the package declaration."
+        },
+        {
+            "id": 23,
+            "title": "Circular Package Dependencies",
+            "description": "Are circular dependencies between packages allowed?",
+            "code": "// Package A\npackage com.example.a;\nimport com.example.b.ClassB;\npublic class ClassA { ClassB b; }\n\n// Package B\npackage com.example.b;\nimport com.example.a.ClassA;\npublic class ClassB { ClassA a; }",
+            "options": [
+                "Not allowed, compilation error",
+                "Allowed but not recommended",
+                "Allowed only for interfaces",
+                "Depends on access modifiers"
+            ],
+            "correct": 1,
+            "explanation": "Circular package dependencies are technically allowed but create tight coupling and should be avoided for better design."
+        },
+        {
+            "id": 24,
+            "title": "Package Sealing",
+            "description": "What is package sealing in JAR files?",
+            "code": "// In MANIFEST.MF\nName: com/example/secure/\nSealed: true",
+            "options": [
+                "Prevents package modification",
+                "All classes must be in same JAR",
+                "Encrypts package contents",
+                "Makes package private"
+            ],
+            "correct": 1,
+            "explanation": "Package sealing ensures that all classes in a sealed package must come from the same JAR file, preventing split packages."
+        },
+        {
+            "id": 25,
+            "title": "Module System and Packages",
+            "description": "How do modules affect package visibility (Java 9+)?",
+            "code": "// module-info.java\nmodule mymodule {\n    exports com.example.api;\n    // com.example.internal not exported\n}",
+            "options": [
+                "All public classes are accessible",
+                "Only exported packages are accessible outside module",
+                "Modules don't affect package access",
+                "All packages become private"
+            ],
+            "correct": 1,
+            "explanation": "In the module system, only packages explicitly exported in module-info.java are accessible from outside the module, even if classes are public."
+        },
+        {
+            "id": 26,
+            "title": "Automatic Modules",
+            "description": "What happens to packages in automatic modules?",
+            "code": "// Legacy JAR on module path becomes automatic module\n// Contains packages: com.legacy.util, com.legacy.data",
+            "options": [
+                "All packages are exported",
+                "No packages are exported",
+                "Only public packages are exported",
+                "Packages become private"
+            ],
+            "correct": 0,
+            "explanation": "Automatic modules (legacy JARs on module path) export all their packages by default, maintaining backward compatibility."
+        },
+        {
+            "id": 27,
+            "title": "Package Annotations",
+            "description": "Where are package-level annotations placed?",
+            "code": "@Deprecated\n@SuppressWarnings(\"all\")\npackage com.example.legacy;\n\n// In package-info.java file",
+            "options": [
+                "In any class file",
+                "In package-info.java only",
+                "In the first class of package",
+                "Annotations not supported for packages"
+            ],
+            "correct": 1,
+            "explanation": "Package-level annotations must be placed in a package-info.java file, before the package declaration."
+        },
+        {
+            "id": 28,
+            "title": "Split Packages",
+            "description": "What is a split package problem?",
+            "code": "// JAR1 contains: com.example.util.StringHelper\n// JAR2 contains: com.example.util.NumberHelper\n// Same package split across JARs",
+            "options": [
+                "Package exists in multiple JARs",
+                "Package has multiple names",
+                "Package is divided into subpackages",
+                "Package contains both classes and interfaces"
+            ],
+            "correct": 0,
+            "explanation": "Split packages occur when the same package exists in multiple JARs. This can cause classloading issues and is prohibited in the module system."
+        },
+        {
+            "id": 29,
+            "title": "Package Private Constructors",
+            "description": "What is the effect of package-private constructors?",
+            "code": "package com.example.factory;\n\npublic class Product {\n    Product() { } // package-private constructor\n    \n    public static Product create() {\n        return new Product();\n    }\n}",
+            "options": [
+                "Only same package can instantiate",
+                "Factory pattern implementation",
+                "Prevents external instantiation",
+                "All of the above"
+            ],
+            "correct": 3,
+            "explanation": "Package-private constructors restrict instantiation to the same package, commonly used in factory patterns to control object creation."
+        },
+        {
+            "id": 30,
+            "title": "Package Best Practices",
+            "description": "Which is a Java package naming best practice?",
+            "code": "",
+            "options": [
+                "Use reverse domain name convention",
+                "Keep package names short and meaningful",
+                "Avoid deep nesting when possible",
+                "All of the above"
+            ],
+            "correct": 3,
+            "explanation": "Best practices include using reverse domain names (com.company.project), meaningful names, and avoiding excessive nesting for maintainability."
+        }
+    ]
+}

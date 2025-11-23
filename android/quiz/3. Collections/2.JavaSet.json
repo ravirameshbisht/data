@@ -1,0 +1,430 @@
+{
+    "id": 8,
+    "name": "Java Collections Framework - Set",
+    "description": "Set interface, HashSet, LinkedHashSet, TreeSet, set operations, and performance characteristics in Java.",
+    "proLocked": false,
+    "isActive": true,
+    "orderIndex": 7,
+    "questions": [
+        {
+            "id": 1,
+            "title": "Set Interface Basics",
+            "description": "What is the Set interface in Java Collections Framework?",
+            "code": "Set<String> set = new HashSet<>();\nset.add(\"Hello\");\nset.add(\"Hello\"); // Duplicate ignored\nSystem.out.println(set.size()); // Output: 1",
+            "options": [
+                "A collection that allows duplicates",
+                "A collection that does not allow duplicates",
+                "A sorted collection",
+                "A key-value pair collection"
+            ],
+            "correct": 1,
+            "explanation": "Set is a collection that does not allow duplicate elements. It models the mathematical set abstraction."
+        },
+        {
+            "id": 2,
+            "title": "HashSet vs LinkedHashSet vs TreeSet",
+            "description": "What is the main difference between these Set implementations?",
+            "code": "Set<String> hashSet = new HashSet<>();        // No order\nSet<String> linkedHashSet = new LinkedHashSet<>(); // Insertion order\nSet<String> treeSet = new TreeSet<>();        // Sorted order",
+            "options": [
+                "No difference in functionality",
+                "Different ordering guarantees",
+                "Different thread safety",
+                "Different null handling"
+            ],
+            "correct": 1,
+            "explanation": "HashSet has no ordering, LinkedHashSet maintains insertion order, and TreeSet maintains sorted order based on natural ordering or Comparator."
+        },
+        {
+            "id": 3,
+            "title": "HashSet Performance",
+            "description": "What is the average time complexity for add, remove, and contains in HashSet?",
+            "code": "HashSet<String> set = new HashSet<>();\nset.add(\"element\");      // O(1) average\nset.contains(\"element\"); // O(1) average\nset.remove(\"element\");   // O(1) average",
+            "options": [
+                "O(1)",
+                "O(log n)",
+                "O(n)",
+                "O(n²)"
+            ],
+            "correct": 0,
+            "explanation": "HashSet provides O(1) average time complexity for basic operations (add, remove, contains) due to hash table implementation."
+        },
+        {
+            "id": 4,
+            "title": "TreeSet Performance",
+            "description": "What is the time complexity for operations in TreeSet?",
+            "code": "TreeSet<Integer> treeSet = new TreeSet<>();\ntreeSet.add(5);      // O(log n)\ntreeSet.contains(5); // O(log n)\ntreeSet.remove(5);   // O(log n)",
+            "options": [
+                "O(1)",
+                "O(log n)",
+                "O(n)",
+                "O(n²)"
+            ],
+            "correct": 1,
+            "explanation": "TreeSet provides O(log n) time complexity for basic operations because it's implemented as a Red-Black tree (balanced binary search tree)."
+        },
+        {
+            "id": 5,
+            "title": "Set Null Values",
+            "description": "Which Set implementations allow null values?",
+            "code": "HashSet<String> hashSet = new HashSet<>();\nhashSet.add(null); // Allowed\n\nTreeSet<String> treeSet = new TreeSet<>();\n// treeSet.add(null); // Throws NullPointerException",
+            "options": [
+                "All Set implementations",
+                "HashSet and LinkedHashSet only",
+                "TreeSet only",
+                "None allow null values"
+            ],
+            "correct": 1,
+            "explanation": "HashSet and LinkedHashSet allow one null value, but TreeSet does not allow null values because it needs to compare elements for sorting."
+        },
+        {
+            "id": 6,
+            "title": "Set Initialization",
+            "description": "Which is a valid way to initialize a Set with values?",
+            "code": "Set<String> set1 = new HashSet<>(Arrays.asList(\"A\", \"B\", \"C\"));\nSet<String> set2 = Set.of(\"A\", \"B\", \"C\"); // Java 9+\nSet<String> set3 = Collections.singleton(\"A\");",
+            "options": [
+                "Constructor with Collection",
+                "Set.of() (Java 9+)",
+                "Collections.singleton()",
+                "All of the above"
+            ],
+            "correct": 3,
+            "explanation": "All are valid: constructor with Collection, Set.of() creates immutable set (Java 9+), Collections.singleton() creates single-element set."
+        },
+        {
+            "id": 7,
+            "title": "Set Duplicate Handling",
+            "description": "What happens when you add a duplicate element to a Set?",
+            "code": "Set<String> set = new HashSet<>();\nboolean first = set.add(\"Hello\");  // true\nboolean second = set.add(\"Hello\"); // false\nSystem.out.println(set.size()); // 1",
+            "options": [
+                "Throws exception",
+                "Overwrites existing element",
+                "Ignores duplicate, returns false",
+                "Creates separate entry"
+            ],
+            "correct": 2,
+            "explanation": "Set ignores duplicate elements. The add() method returns false if the element already exists, and the set remains unchanged."
+        },
+        {
+            "id": 8,
+            "title": "Set Iterator Order",
+            "description": "What is the iteration order for different Set implementations?",
+            "code": "HashSet<String> hashSet = new HashSet<>();        // No guaranteed order\nLinkedHashSet<String> linkedSet = new LinkedHashSet<>(); // Insertion order\nTreeSet<String> treeSet = new TreeSet<>();        // Sorted order",
+            "options": [
+                "All maintain insertion order",
+                "HashSet: random, LinkedHashSet: insertion, TreeSet: sorted",
+                "All are sorted",
+                "Order depends on hash codes"
+            ],
+            "correct": 1,
+            "explanation": "HashSet has no guaranteed order, LinkedHashSet maintains insertion order, TreeSet maintains sorted order."
+        },
+        {
+            "id": 9,
+            "title": "Set Union Operation",
+            "description": "How do you perform union of two Sets?",
+            "code": "Set<Integer> set1 = new HashSet<>(Arrays.asList(1, 2, 3));\nSet<Integer> set2 = new HashSet<>(Arrays.asList(3, 4, 5));\nset1.addAll(set2);\n// Result: set1 = {1, 2, 3, 4, 5}",
+            "options": [
+                "set1.union(set2)",
+                "set1.addAll(set2)",
+                "set1.merge(set2)",
+                "Collections.union(set1, set2)"
+            ],
+            "correct": 1,
+            "explanation": "Use addAll() method to perform union operation. It adds all elements from set2 to set1, automatically handling duplicates."
+        },
+        {
+            "id": 10,
+            "title": "Set Intersection Operation",
+            "description": "How do you find intersection of two Sets?",
+            "code": "Set<Integer> set1 = new HashSet<>(Arrays.asList(1, 2, 3, 4));\nSet<Integer> set2 = new HashSet<>(Arrays.asList(3, 4, 5, 6));\nset1.retainAll(set2);\n// Result: set1 = {3, 4}",
+            "options": [
+                "set1.intersect(set2)",
+                "set1.retainAll(set2)",
+                "set1.and(set2)",
+                "Collections.intersect(set1, set2)"
+            ],
+            "correct": 1,
+            "explanation": "Use retainAll() method to find intersection. It keeps only elements that are present in both sets."
+        },
+        {
+            "id": 11,
+            "title": "Set Difference Operation",
+            "description": "How do you find difference of two Sets (elements in set1 but not in set2)?",
+            "code": "Set<Integer> set1 = new HashSet<>(Arrays.asList(1, 2, 3, 4));\nSet<Integer> set2 = new HashSet<>(Arrays.asList(3, 4, 5, 6));\nset1.removeAll(set2);\n// Result: set1 = {1, 2}",
+            "options": [
+                "set1.difference(set2)",
+                "set1.removeAll(set2)",
+                "set1.subtract(set2)",
+                "Collections.difference(set1, set2)"
+            ],
+            "correct": 1,
+            "explanation": "Use removeAll() method to find difference. It removes all elements from set1 that are present in set2."
+        },
+        {
+            "id": 12,
+            "title": "TreeSet Custom Ordering",
+            "description": "How do you create a TreeSet with custom ordering?",
+            "code": "TreeSet<String> set = new TreeSet<>(Collections.reverseOrder());\n// or\nTreeSet<String> set2 = new TreeSet<>((a, b) -> b.compareTo(a));",
+            "options": [
+                "Use Comparator in constructor",
+                "Override equals() method",
+                "Use Collections.sort()",
+                "Cannot customize TreeSet ordering"
+            ],
+            "correct": 0,
+            "explanation": "Pass a Comparator to TreeSet constructor to define custom ordering. Elements must be comparable or a Comparator must be provided."
+        },
+        {
+            "id": 13,
+            "title": "Set Equality",
+            "description": "When are two Sets considered equal?",
+            "code": "Set<String> set1 = new HashSet<>(Arrays.asList(\"A\", \"B\", \"C\"));\nSet<String> set2 = new LinkedHashSet<>(Arrays.asList(\"C\", \"A\", \"B\"));\nboolean equal = set1.equals(set2); // true",
+            "options": [
+                "Same reference only",
+                "Same elements regardless of order",
+                "Same elements in same order",
+                "Same implementation type"
+            ],
+            "correct": 1,
+            "explanation": "Two Sets are equal if they contain the same elements, regardless of order or implementation type."
+        },
+        {
+            "id": 14,
+            "title": "EnumSet Specialization",
+            "description": "What is EnumSet and when should it be used?",
+            "code": "enum Color { RED, GREEN, BLUE }\nEnumSet<Color> colors = EnumSet.of(Color.RED, Color.BLUE);\nEnumSet<Color> allColors = EnumSet.allOf(Color.class);",
+            "options": [
+                "A Set for any objects",
+                "A specialized Set for enum constants",
+                "A sorted Set implementation",
+                "A thread-safe Set"
+            ],
+            "correct": 1,
+            "explanation": "EnumSet is a specialized Set implementation for enum types. It's very efficient and should be used whenever you need a Set of enum constants."
+        },
+        {
+            "id": 15,
+            "title": "Set to Array Conversion",
+            "description": "How do you convert a Set to an array?",
+            "code": "Set<String> set = new HashSet<>(Arrays.asList(\"A\", \"B\", \"C\"));\nString[] array = set.toArray(new String[0]);",
+            "options": [
+                "set.toArray()",
+                "set.toArray(new String[0])",
+                "set.toArray(new String[set.size()])",
+                "Both B and C"
+            ],
+            "correct": 3,
+            "explanation": "Both toArray(new String[0]) and toArray(new String[set.size()]) work correctly for converting Set to array."
+        },
+        {
+            "id": 16,
+            "title": "HashSet Load Factor",
+            "description": "What is the default load factor of HashSet?",
+            "code": "HashSet<String> set = new HashSet<>(); // Default load factor 0.75",
+            "options": [
+                "0.5",
+                "0.75",
+                "1.0",
+                "0.25"
+            ],
+            "correct": 1,
+            "explanation": "HashSet has a default load factor of 0.75, which provides a good balance between time and space costs."
+        },
+        {
+            "id": 17,
+            "title": "NavigableSet Interface",
+            "description": "What additional methods does NavigableSet provide?",
+            "code": "NavigableSet<Integer> navSet = new TreeSet<>();\nnavSet.addAll(Arrays.asList(1, 3, 5, 7, 9));\nInteger lower = navSet.lower(5);    // 3\nInteger higher = navSet.higher(5);  // 7\nInteger floor = navSet.floor(4);    // 3\nInteger ceiling = navSet.ceiling(4); // 5",
+            "options": [
+                "Only basic Set operations",
+                "Navigation methods like lower(), higher(), floor(), ceiling()",
+                "Thread-safe operations",
+                "Bulk operations only"
+            ],
+            "correct": 1,
+            "explanation": "NavigableSet extends SortedSet and provides navigation methods like lower(), higher(), floor(), ceiling(), and subset operations."
+        },
+        {
+            "id": 18,
+            "title": "Set.removeIf() Method",
+            "description": "What does the removeIf() method do in Set? (Java 8+)",
+            "code": "Set<Integer> numbers = new HashSet<>(Arrays.asList(1, 2, 3, 4, 5, 6));\nnumbers.removeIf(n -> n % 2 == 0);\n// Result: {1, 3, 5}",
+            "options": [
+                "Removes first matching element",
+                "Removes all matching elements",
+                "Creates filtered copy",
+                "Throws exception"
+            ],
+            "correct": 1,
+            "explanation": "removeIf() removes all elements that match the given predicate condition from the set."
+        },
+        {
+            "id": 19,
+            "title": "Immutable Sets",
+            "description": "How do you create an immutable Set? (Java 9+)",
+            "code": "Set<String> immutable = Set.of(\"A\", \"B\", \"C\");\n// immutable.add(\"D\"); // Throws UnsupportedOperationException",
+            "options": [
+                "Collections.unmodifiableSet()",
+                "Set.of()",
+                "Collections.singleton()",
+                "Both A and B"
+            ],
+            "correct": 3,
+            "explanation": "Both Collections.unmodifiableSet() and Set.of() create immutable sets. Set.of() is more convenient and was introduced in Java 9."
+        },
+        {
+            "id": 20,
+            "title": "Set Performance Comparison",
+            "description": "Which Set implementation is best for frequent lookups?",
+            "code": "// HashSet: O(1) average lookup\n// TreeSet: O(log n) lookup\n// LinkedHashSet: O(1) average lookup",
+            "options": [
+                "TreeSet",
+                "HashSet",
+                "LinkedHashSet",
+                "Both HashSet and LinkedHashSet"
+            ],
+            "correct": 3,
+            "explanation": "Both HashSet and LinkedHashSet provide O(1) average lookup time, making them best for frequent lookups. TreeSet is O(log n)."
+        },
+        {
+            "id": 21,
+            "title": "Set Subset Operations",
+            "description": "How do you check if one Set is a subset of another?",
+            "code": "Set<Integer> set1 = new HashSet<>(Arrays.asList(1, 2));\nSet<Integer> set2 = new HashSet<>(Arrays.asList(1, 2, 3, 4));\nboolean isSubset = set2.containsAll(set1); // true",
+            "options": [
+                "set1.isSubsetOf(set2)",
+                "set2.containsAll(set1)",
+                "set1.subsetOf(set2)",
+                "Collections.isSubset(set1, set2)"
+            ],
+            "correct": 1,
+            "explanation": "Use containsAll() method to check if one set is a subset of another. set2.containsAll(set1) checks if set1 is a subset of set2."
+        },
+        {
+            "id": 22,
+            "title": "ConcurrentHashMap.newKeySet()",
+            "description": "How do you create a thread-safe Set?",
+            "code": "Set<String> concurrentSet = ConcurrentHashMap.newKeySet();\n// or\nSet<String> syncSet = Collections.synchronizedSet(new HashSet<>());",
+            "options": [
+                "Use Vector",
+                "ConcurrentHashMap.newKeySet() or Collections.synchronizedSet()",
+                "Use TreeSet",
+                "Sets are inherently thread-safe"
+            ],
+            "correct": 1,
+            "explanation": "Use ConcurrentHashMap.newKeySet() for better performance or Collections.synchronizedSet() to wrap any Set implementation for thread safety."
+        },
+        {
+            "id": 23,
+            "title": "Set Memory Usage",
+            "description": "Which Set implementation uses the least memory?",
+            "code": "// HashSet: Hash table + linked list/tree for collisions\n// TreeSet: Red-black tree nodes with parent/child pointers\n// LinkedHashSet: HashSet + doubly-linked list for ordering",
+            "options": [
+                "HashSet",
+                "TreeSet",
+                "LinkedHashSet",
+                "All use same memory"
+            ],
+            "correct": 0,
+            "explanation": "HashSet generally uses the least memory as it only needs hash table structure, while TreeSet needs tree node pointers and LinkedHashSet needs additional linked list pointers."
+        },
+        {
+            "id": 24,
+            "title": "Set Bulk Operations",
+            "description": "Which methods perform bulk operations on Sets?",
+            "code": "Set<Integer> set1 = new HashSet<>(Arrays.asList(1, 2, 3));\nSet<Integer> set2 = new HashSet<>(Arrays.asList(2, 3, 4));\nset1.addAll(set2);    // Union\nset1.retainAll(set2); // Intersection\nset1.removeAll(set2); // Difference",
+            "options": [
+                "addAll(), retainAll(), removeAll()",
+                "union(), intersect(), difference()",
+                "merge(), filter(), subtract()",
+                "combine(), select(), exclude()"
+            ],
+            "correct": 0,
+            "explanation": "The bulk operations are addAll() for union, retainAll() for intersection, and removeAll() for difference."
+        },
+        {
+            "id": 25,
+            "title": "TreeSet Range Operations",
+            "description": "How do you get a subset of TreeSet within a range?",
+            "code": "TreeSet<Integer> treeSet = new TreeSet<>(Arrays.asList(1, 3, 5, 7, 9, 11));\nSortedSet<Integer> subset = treeSet.subSet(3, 9);\n// Result: {3, 5, 7} (3 inclusive, 9 exclusive)",
+            "options": [
+                "subSet(from, to)",
+                "range(from, to)",
+                "between(from, to)",
+                "slice(from, to)"
+            ],
+            "correct": 0,
+            "explanation": "Use subSet(fromElement, toElement) to get elements from fromElement (inclusive) to toElement (exclusive). TreeSet also provides headSet() and tailSet()."
+        },
+        {
+            "id": 26,
+            "title": "Set Contains Performance",
+            "description": "What affects the performance of contains() method in different Set implementations?",
+            "code": "HashSet<String> hashSet = new HashSet<>();     // O(1) average, depends on hash function\nTreeSet<String> treeSet = new TreeSet<>();     // O(log n), depends on tree balance\nLinkedHashSet<String> linkedSet = new LinkedHashSet<>(); // O(1) average",
+            "options": [
+                "All have same performance",
+                "Hash function quality and tree balance",
+                "Only set size matters",
+                "Implementation doesn't affect performance"
+            ],
+            "correct": 1,
+            "explanation": "HashSet/LinkedHashSet performance depends on hash function quality and collision handling, while TreeSet depends on tree balance (always O(log n))."
+        },
+        {
+            "id": 27,
+            "title": "Set Stream Operations",
+            "description": "How do Sets integrate with Java 8 Streams?",
+            "code": "Set<String> words = new HashSet<>(Arrays.asList(\"hello\", \"world\", \"java\"));\nSet<String> upper = words.stream()\n    .map(String::toUpperCase)\n    .collect(Collectors.toSet());",
+            "options": [
+                "Sets cannot use streams",
+                "stream() method provides Stream interface",
+                "Only HashSet supports streams",
+                "Requires conversion to List first"
+            ],
+            "correct": 1,
+            "explanation": "All Set implementations provide stream() method that returns a Stream, enabling functional-style operations and easy collection to new Sets."
+        },
+        {
+            "id": 28,
+            "title": "Set hashCode() and equals()",
+            "description": "What is important about hashCode() and equals() for Set elements?",
+            "code": "class Person {\n    String name;\n    // Must override both equals() and hashCode()\n    // for proper Set behavior\n}",
+            "options": [
+                "Only equals() matters",
+                "Only hashCode() matters",
+                "Both equals() and hashCode() must be consistent",
+                "Neither affects Set behavior"
+            ],
+            "correct": 2,
+            "explanation": "For proper Set behavior, elements must have consistent equals() and hashCode() implementations. If two objects are equal, they must have the same hash code."
+        },
+        {
+            "id": 29,
+            "title": "Set Thread Safety Best Practices",
+            "description": "What is the best practice for thread-safe Set operations?",
+            "code": "// Option A: Collections.synchronizedSet()\nSet<String> syncSet = Collections.synchronizedSet(new HashSet<>());\n\n// Option B: ConcurrentHashMap.newKeySet()\nSet<String> concurrentSet = ConcurrentHashMap.newKeySet();",
+            "options": [
+                "Always use Vector",
+                "Use ConcurrentHashMap.newKeySet() for better performance",
+                "Use TreeSet for thread safety",
+                "Synchronize individual operations"
+            ],
+            "correct": 1,
+            "explanation": "ConcurrentHashMap.newKeySet() provides better performance for concurrent access compared to Collections.synchronizedSet() which synchronizes all operations."
+        },
+        {
+            "id": 30,
+            "title": "Set Best Practices",
+            "description": "What is a best practice when working with Sets?",
+            "code": "Set<String> set = new HashSet<>(); // Program to interface\n// vs\nHashSet<String> set = new HashSet<>(); // Program to implementation",
+            "options": [
+                "Always use TreeSet for sorting",
+                "Program to interface (Set) not implementation",
+                "Use LinkedHashSet for all cases",
+                "Avoid generics for flexibility"
+            ],
+            "correct": 1,
+            "explanation": "Best practice is to program to the interface (Set) rather than implementation (HashSet/TreeSet/LinkedHashSet), providing flexibility to change implementations."
+        }
+    ]
+}

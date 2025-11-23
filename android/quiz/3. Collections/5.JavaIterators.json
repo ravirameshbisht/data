@@ -1,0 +1,430 @@
+{
+    "id": 10,
+    "name": "Java Collections Framework - Iterators",
+    "description": "Iterator interface, ListIterator, fail-fast behavior, concurrent modification, iteration patterns, and best practices in Java.",
+    "proLocked": false,
+    "isActive": true,
+    "orderIndex": 9,
+    "questions": [
+        {
+            "id": 1,
+            "title": "Iterator Interface Basics",
+            "description": "What is the Iterator interface in Java Collections Framework?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\");\nIterator<String> iterator = list.iterator();\nwhile (iterator.hasNext()) {\n    String element = iterator.next();\n    System.out.println(element);\n}",
+            "options": [
+                "A way to access elements sequentially",
+                "A way to sort collections",
+                "A way to store key-value pairs",
+                "A way to synchronize collections"
+            ],
+            "correct": 0,
+            "explanation": "Iterator provides a way to access elements of a collection sequentially without exposing the underlying representation. It's the standard way to traverse collections."
+        },
+        {
+            "id": 2,
+            "title": "Iterator vs Enhanced For-Loop",
+            "description": "What is the difference between Iterator and enhanced for-loop?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\");\n\n// Enhanced for-loop\nfor (String item : list) {\n    System.out.println(item);\n}\n\n// Iterator\nIterator<String> it = list.iterator();\nwhile (it.hasNext()) {\n    System.out.println(it.next());\n}",
+            "options": [
+                "No difference",
+                "Iterator allows element removal during iteration",
+                "Enhanced for-loop is faster",
+                "Iterator only works with Lists"
+            ],
+            "correct": 1,
+            "explanation": "Iterator allows safe removal of elements during iteration using remove() method, while enhanced for-loop doesn't support modification during iteration."
+        },
+        {
+            "id": 3,
+            "title": "Iterator remove() Method",
+            "description": "How does the Iterator remove() method work?",
+            "code": "List<String> list = new ArrayList<>(Arrays.asList(\"A\", \"B\", \"C\"));\nIterator<String> it = list.iterator();\nwhile (it.hasNext()) {\n    String item = it.next();\n    if (item.equals(\"B\")) {\n        it.remove(); // Safe removal\n    }\n}",
+            "options": [
+                "Removes the last element returned by next()",
+                "Removes the first element",
+                "Removes all elements",
+                "Throws an exception"
+            ],
+            "correct": 0,
+            "explanation": "Iterator.remove() removes the last element returned by next(). It must be called after next() and can only be called once per next() call."
+        },
+        {
+            "id": 4,
+            "title": "ListIterator Interface",
+            "description": "What additional capabilities does ListIterator provide over Iterator?",
+            "code": "List<String> list = new ArrayList<>(Arrays.asList(\"A\", \"B\", \"C\"));\nListIterator<String> listIt = list.listIterator();\nlistIt.add(\"X\");           // Add element\nlistIt.next();\nlistIt.set(\"Y\");           // Replace element\nlistIt.previous();         // Move backward",
+            "options": [
+                "Only forward traversal",
+                "Bidirectional traversal and modification",
+                "Only works with LinkedList",
+                "Faster iteration"
+            ],
+            "correct": 1,
+            "explanation": "ListIterator extends Iterator and provides bidirectional traversal (previous(), hasPrevious()) and modification capabilities (add(), set()) during iteration."
+        },
+        {
+            "id": 5,
+            "title": "Fail-Fast Behavior",
+            "description": "What is fail-fast behavior in Java iterators?",
+            "code": "List<String> list = new ArrayList<>(Arrays.asList(\"A\", \"B\", \"C\"));\nIterator<String> it = list.iterator();\nlist.add(\"D\"); // Structural modification\n// it.next(); // Throws ConcurrentModificationException",
+            "options": [
+                "Iterator stops when collection is empty",
+                "Iterator throws exception on concurrent modification",
+                "Iterator automatically fixes errors",
+                "Iterator ignores modifications"
+            ],
+            "correct": 1,
+            "explanation": "Fail-fast iterators throw ConcurrentModificationException if the collection is structurally modified after the iterator is created, except through the iterator's own methods."
+        },
+        {
+            "id": 6,
+            "title": "ConcurrentModificationException",
+            "description": "When is ConcurrentModificationException thrown?",
+            "code": "List<String> list = new ArrayList<>(Arrays.asList(\"A\", \"B\", \"C\"));\nfor (String item : list) {\n    if (item.equals(\"B\")) {\n        list.remove(item); // Throws ConcurrentModificationException\n    }\n}",
+            "options": [
+                "When multiple threads access collection",
+                "When collection is modified during iteration",
+                "When iterator reaches end",
+                "When collection is empty"
+            ],
+            "correct": 1,
+            "explanation": "ConcurrentModificationException is thrown when a collection is structurally modified during iteration, either by another thread or by the same thread using collection methods instead of iterator methods."
+        },
+        {
+            "id": 7,
+            "title": "Iterator hasNext() Method",
+            "description": "What does the hasNext() method return?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\");\nIterator<String> it = list.iterator();\nSystem.out.println(it.hasNext()); // true\nit.next(); // \"A\"\nit.next(); // \"B\"\nSystem.out.println(it.hasNext()); // false",
+            "options": [
+                "The next element",
+                "true if more elements exist",
+                "The current element",
+                "The number of remaining elements"
+            ],
+            "correct": 1,
+            "explanation": "hasNext() returns true if there are more elements to iterate over, false otherwise. It doesn't advance the iterator position."
+        },
+        {
+            "id": 8,
+            "title": "Iterator next() Method",
+            "description": "What happens when next() is called on an exhausted iterator?",
+            "code": "List<String> list = Arrays.asList(\"A\");\nIterator<String> it = list.iterator();\nit.next(); // \"A\"\n// it.next(); // Throws NoSuchElementException",
+            "options": [
+                "Returns null",
+                "Returns the last element again",
+                "Throws NoSuchElementException",
+                "Resets to beginning"
+            ],
+            "correct": 2,
+            "explanation": "Calling next() on an exhausted iterator (when hasNext() returns false) throws NoSuchElementException. Always check hasNext() before calling next()."
+        },
+        {
+            "id": 9,
+            "title": "ListIterator Bidirectional Navigation",
+            "description": "How do you traverse a list backwards using ListIterator?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\");\nListIterator<String> it = list.listIterator(list.size()); // Start at end\nwhile (it.hasPrevious()) {\n    String item = it.previous();\n    System.out.println(item); // C, B, A\n}",
+            "options": [
+                "Use previous() and hasPrevious()",
+                "Use next() in reverse",
+                "Use Collections.reverse()",
+                "Cannot traverse backwards"
+            ],
+            "correct": 0,
+            "explanation": "ListIterator provides previous() and hasPrevious() methods for backward traversal. Start from the end using listIterator(size()) for full backward iteration."
+        },
+        {
+            "id": 10,
+            "title": "Iterator remove() Restrictions",
+            "description": "What are the restrictions on Iterator.remove()?",
+            "code": "List<String> list = new ArrayList<>(Arrays.asList(\"A\", \"B\", \"C\"));\nIterator<String> it = list.iterator();\n// it.remove(); // IllegalStateException - must call next() first\nit.next();\nit.remove(); // OK\n// it.remove(); // IllegalStateException - can't call twice",
+            "options": [
+                "Can be called anytime",
+                "Must be called after next(), only once per next()",
+                "Only works with ArrayList",
+                "Cannot remove first element"
+            ],
+            "correct": 1,
+            "explanation": "remove() must be called after next() and can only be called once per next() call. Calling it without next() or twice in a row throws IllegalStateException."
+        },
+        {
+            "id": 11,
+            "title": "ListIterator add() Method",
+            "description": "Where does ListIterator.add() insert the new element?",
+            "code": "List<String> list = new ArrayList<>(Arrays.asList(\"A\", \"C\"));\nListIterator<String> it = list.listIterator(1); // Position between A and C\nit.add(\"B\"); // Inserts B between A and C\n// Result: [A, B, C]",
+            "options": [
+                "At the beginning",
+                "At the end",
+                "Before the current position",
+                "After the current position"
+            ],
+            "correct": 2,
+            "explanation": "ListIterator.add() inserts the element before the current cursor position. The element is inserted immediately before the element returned by next()."
+        },
+        {
+            "id": 12,
+            "title": "ListIterator set() Method",
+            "description": "What does ListIterator.set() replace?",
+            "code": "List<String> list = new ArrayList<>(Arrays.asList(\"A\", \"B\", \"C\"));\nListIterator<String> it = list.listIterator();\nit.next(); // \"A\"\nit.set(\"X\"); // Replaces \"A\" with \"X\"\n// Result: [X, B, C]",
+            "options": [
+                "The next element",
+                "The previous element",
+                "The last element returned by next() or previous()",
+                "All elements"
+            ],
+            "correct": 2,
+            "explanation": "ListIterator.set() replaces the last element returned by next() or previous(). It must be called after next() or previous() and before add() or remove()."
+        },
+        {
+            "id": 13,
+            "title": "Iterator Performance",
+            "description": "What is the time complexity of iterator operations?",
+            "code": "List<String> arrayList = new ArrayList<>();\nList<String> linkedList = new LinkedList<>();\n// Both iterators have O(1) next() and hasNext()\n// Iterator performance is independent of collection size",
+            "options": [
+                "O(n) for all operations",
+                "O(1) for next() and hasNext()",
+                "O(log n) for next()",
+                "Depends on collection type"
+            ],
+            "correct": 1,
+            "explanation": "Iterator operations next(), hasNext(), and remove() are O(1) for most collections. The iterator maintains its position efficiently."
+        },
+        {
+            "id": 14,
+            "title": "Multiple Iterators",
+            "description": "Can you have multiple iterators on the same collection?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\");\nIterator<String> it1 = list.iterator();\nIterator<String> it2 = list.iterator();\n// Both iterators work independently\nit1.next(); // \"A\"\nit2.next(); // \"A\" (independent position)",
+            "options": [
+                "No, only one iterator allowed",
+                "Yes, but they share the same position",
+                "Yes, each iterator maintains independent position",
+                "Only for thread-safe collections"
+            ],
+            "correct": 2,
+            "explanation": "You can have multiple iterators on the same collection, and each maintains its own independent position and state."
+        },
+        {
+            "id": 15,
+            "title": "Iterator vs Index-based Access",
+            "description": "When should you use Iterator vs index-based access?",
+            "code": "List<String> arrayList = new ArrayList<>();\nList<String> linkedList = new LinkedList<>();\n\n// ArrayList: both efficient\n// LinkedList: iterator O(1), index access O(n)",
+            "options": [
+                "Always use index-based access",
+                "Always use Iterator",
+                "Use Iterator for LinkedList, either for ArrayList",
+                "No difference in performance"
+            ],
+            "correct": 2,
+            "explanation": "Use Iterator for LinkedList (O(1) vs O(n) for index access). For ArrayList, both are efficient, but Iterator is more flexible and works with all Collection types."
+        },
+        {
+            "id": 16,
+            "title": "Iterator Modification Safety",
+            "description": "Which modification is safe during iteration?",
+            "code": "List<String> list = new ArrayList<>(Arrays.asList(\"A\", \"B\", \"C\"));\nIterator<String> it = list.iterator();\nwhile (it.hasNext()) {\n    String item = it.next();\n    if (item.equals(\"B\")) {\n        it.remove(); // Safe\n        // list.remove(item); // Unsafe - throws exception\n    }\n}",
+            "options": [
+                "Collection.remove()",
+                "Iterator.remove()",
+                "Collection.add()",
+                "All are safe"
+            ],
+            "correct": 1,
+            "explanation": "Only Iterator.remove() is safe during iteration. Using collection's modification methods during iteration causes ConcurrentModificationException."
+        },
+        {
+            "id": 17,
+            "title": "ListIterator Index Methods",
+            "description": "What do nextIndex() and previousIndex() return in ListIterator?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\");\nListIterator<String> it = list.listIterator(1); // Position 1\nSystem.out.println(it.nextIndex());     // 1\nSystem.out.println(it.previousIndex()); // 0\nit.next(); // \"B\"\nSystem.out.println(it.nextIndex());     // 2",
+            "options": [
+                "Current element indices",
+                "Indices of next/previous elements to be returned",
+                "Always 0 and -1",
+                "Size of the list"
+            ],
+            "correct": 1,
+            "explanation": "nextIndex() returns the index of the element that would be returned by next(), and previousIndex() returns the index that would be returned by previous()."
+        },
+        {
+            "id": 18,
+            "title": "Iterator with Different Collections",
+            "description": "Do all Collection implementations support Iterator?",
+            "code": "List<String> list = new ArrayList<>();\nSet<String> set = new HashSet<>();\nQueue<String> queue = new LinkedList<>();\n// All support iterator()\nIterator<String> listIt = list.iterator();\nIterator<String> setIt = set.iterator();\nIterator<String> queueIt = queue.iterator();",
+            "options": [
+                "Only List implementations",
+                "Only Set implementations",
+                "All Collection implementations",
+                "Only thread-safe collections"
+            ],
+            "correct": 2,
+            "explanation": "All classes that implement the Collection interface must provide an iterator() method. This includes List, Set, and Queue implementations."
+        },
+        {
+            "id": 19,
+            "title": "Iterator Order Guarantees",
+            "description": "What iteration order is guaranteed by different collections?",
+            "code": "List<String> list = new ArrayList<>();           // Insertion order\nSet<String> linkedHashSet = new LinkedHashSet<>(); // Insertion order\nSet<String> hashSet = new HashSet<>();           // No guaranteed order\nSet<String> treeSet = new TreeSet<>();           // Sorted order",
+            "options": [
+                "All guarantee insertion order",
+                "Order depends on collection type",
+                "All guarantee sorted order",
+                "No order guarantees"
+            ],
+            "correct": 1,
+            "explanation": "Iteration order depends on collection type: List and LinkedHashSet maintain insertion order, TreeSet provides sorted order, HashSet has no guaranteed order."
+        },
+        {
+            "id": 20,
+            "title": "Enhanced For-Loop Implementation",
+            "description": "How is the enhanced for-loop implemented internally?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\");\n\n// Enhanced for-loop\nfor (String item : list) {\n    System.out.println(item);\n}\n\n// Equivalent to:\nIterator<String> it = list.iterator();\nwhile (it.hasNext()) {\n    String item = it.next();\n    System.out.println(item);\n}",
+            "options": [
+                "Uses index-based access",
+                "Uses Iterator internally",
+                "Uses reflection",
+                "Direct memory access"
+            ],
+            "correct": 1,
+            "explanation": "The enhanced for-loop (for-each) is syntactic sugar that uses Iterator internally. The compiler transforms it into iterator-based code."
+        },
+        {
+            "id": 21,
+            "title": "Iterator Memory Usage",
+            "description": "What is the memory overhead of creating an Iterator?",
+            "code": "List<String> list = new ArrayList<>();\nIterator<String> it = list.iterator();\n// Iterator is typically a small object that holds:\n// - reference to collection\n// - current position\n// - modification count for fail-fast behavior",
+            "options": [
+                "No memory overhead",
+                "Minimal overhead (position tracking)",
+                "Copies entire collection",
+                "Depends on collection size"
+            ],
+            "correct": 1,
+            "explanation": "Iterator has minimal memory overhead, typically storing just a reference to the collection, current position, and expected modification count for fail-fast behavior."
+        },
+        {
+            "id": 22,
+            "title": "Iterator Thread Safety",
+            "description": "Are iterators thread-safe?",
+            "code": "List<String> list = Collections.synchronizedList(new ArrayList<>());\nIterator<String> it = list.iterator();\n// Even though list is synchronized, iterator is NOT thread-safe\n// Must synchronize on list when iterating:\nsynchronized (list) {\n    while (it.hasNext()) {\n        System.out.println(it.next());\n    }\n}",
+            "options": [
+                "All iterators are thread-safe",
+                "No iterators are thread-safe",
+                "Only iterators from synchronized collections",
+                "Depends on the collection"
+            ],
+            "correct": 1,
+            "explanation": "Iterators are generally not thread-safe, even for synchronized collections. You must manually synchronize iteration or use concurrent collections."
+        },
+        {
+            "id": 23,
+            "title": "Iterator forEachRemaining() Method",
+            "description": "What does the forEachRemaining() method do? (Java 8+)",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\", \"D\");\nIterator<String> it = list.iterator();\nit.next(); // \"A\"\nit.forEachRemaining(System.out::println); // Prints B, C, D",
+            "options": [
+                "Processes all elements from beginning",
+                "Processes remaining elements from current position",
+                "Resets iterator to beginning",
+                "Throws an exception"
+            ],
+            "correct": 1,
+            "explanation": "forEachRemaining() applies the given action to each remaining element from the current iterator position until all elements are processed."
+        },
+        {
+            "id": 24,
+            "title": "ListIterator Starting Position",
+            "description": "How do you create a ListIterator starting at a specific position?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\", \"D\");\nListIterator<String> it = list.listIterator(2); // Start at index 2\nSystem.out.println(it.next()); // \"C\"\nSystem.out.println(it.previous()); // \"C\"\nSystem.out.println(it.previous()); // \"B\"",
+            "options": [
+                "listIterator(index)",
+                "iterator(index)",
+                "Cannot specify starting position",
+                "Only from beginning or end"
+            ],
+            "correct": 0,
+            "explanation": "Use listIterator(index) to create a ListIterator starting at the specified index. The cursor is positioned between index-1 and index elements."
+        },
+        {
+            "id": 25,
+            "title": "Iterator vs Stream",
+            "description": "When should you use Iterator vs Stream for processing collections?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\");\n\n// Iterator - imperative, stateful\nIterator<String> it = list.iterator();\nwhile (it.hasNext()) {\n    // Complex stateful processing\n}\n\n// Stream - functional, stateless\nlist.stream().map(String::toLowerCase).collect(Collectors.toList());",
+            "options": [
+                "Always use Stream",
+                "Always use Iterator",
+                "Stream for functional operations, Iterator for complex stateful logic",
+                "No difference"
+            ],
+            "correct": 2,
+            "explanation": "Use Stream for functional-style operations and transformations. Use Iterator for complex stateful processing, early termination, or when you need to modify the collection during iteration."
+        },
+        {
+            "id": 26,
+            "title": "Iterator Fail-Safe vs Fail-Fast",
+            "description": "What is the difference between fail-safe and fail-fast iterators?",
+            "code": "// Fail-fast (ArrayList, HashMap, etc.)\nList<String> list = new ArrayList<>();\nIterator<String> failFast = list.iterator();\n\n// Fail-safe (ConcurrentHashMap, CopyOnWriteArrayList)\nList<String> cowList = new CopyOnWriteArrayList<>();\nIterator<String> failSafe = cowList.iterator();",
+            "options": [
+                "No difference",
+                "Fail-fast throws exceptions, fail-safe works on snapshots",
+                "Fail-safe is faster",
+                "Fail-fast is thread-safe"
+            ],
+            "correct": 1,
+            "explanation": "Fail-fast iterators throw ConcurrentModificationException on modification. Fail-safe iterators work on snapshots or use other mechanisms to avoid exceptions during concurrent modification."
+        },
+        {
+            "id": 27,
+            "title": "Iterator Design Pattern",
+            "description": "What design pattern does Iterator implement?",
+            "code": "// Iterator pattern provides uniform way to traverse different collections\nList<String> list = new ArrayList<>();\nSet<String> set = new HashSet<>();\n// Same interface for different implementations\nIterator<String> listIt = list.iterator();\nIterator<String> setIt = set.iterator();",
+            "options": [
+                "Observer Pattern",
+                "Iterator Pattern",
+                "Strategy Pattern",
+                "Factory Pattern"
+            ],
+            "correct": 1,
+            "explanation": "Iterator implements the Iterator design pattern, providing a uniform interface to traverse different collection types without exposing their internal structure."
+        },
+        {
+            "id": 28,
+            "title": "Iterator Spliterator Relationship",
+            "description": "What is the relationship between Iterator and Spliterator?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\", \"D\");\nIterator<String> iterator = list.iterator();     // Sequential traversal\nSpliterator<String> spliterator = list.spliterator(); // Parallel traversal support",
+            "options": [
+                "Same functionality",
+                "Spliterator supports parallel processing",
+                "Iterator is newer",
+                "No relationship"
+            ],
+            "correct": 1,
+            "explanation": "Spliterator (splittable iterator) extends Iterator concept to support parallel processing by allowing the iterator to be split for concurrent traversal."
+        },
+        {
+            "id": 29,
+            "title": "Iterator Best Practices",
+            "description": "What are the best practices when using iterators?",
+            "code": "List<String> list = new ArrayList<>();\n// Good practices:\n// 1. Always check hasNext() before next()\n// 2. Use iterator.remove() instead of collection.remove()\n// 3. Don't modify collection during enhanced for-loop\n// 4. Use try-with-resources for closeable iterators",
+            "options": [
+                "Always use enhanced for-loop",
+                "Check hasNext() before next(), use iterator.remove()",
+                "Modify collection directly",
+                "Create multiple iterators"
+            ],
+            "correct": 1,
+            "explanation": "Best practices: always check hasNext() before calling next(), use iterator.remove() for safe removal during iteration, avoid modifying collection during enhanced for-loop."
+        },
+        {
+            "id": 30,
+            "title": "Iterator Implementation Selection",
+            "description": "When should you implement custom iterators?",
+            "code": "public class CustomCollection<T> implements Iterable<T> {\n    @Override\n    public Iterator<T> iterator() {\n        return new CustomIterator();\n    }\n    \n    private class CustomIterator implements Iterator<T> {\n        // Custom iteration logic\n    }\n}",
+            "options": [
+                "Never implement custom iterators",
+                "When creating custom collection classes",
+                "Only for performance reasons",
+                "When existing iterators are insufficient"
+            ],
+            "correct": 1,
+            "explanation": "Implement custom iterators when creating custom collection classes or data structures. This allows your collections to work with enhanced for-loops and other iterator-based APIs."
+        }
+    ]
+}

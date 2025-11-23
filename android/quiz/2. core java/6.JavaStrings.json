@@ -1,0 +1,430 @@
+{
+    "id": 6,
+    "name": "Java Strings",
+    "description": "String creation, manipulation, comparison, and advanced string operations in Java.",
+    "proLocked": false,
+    "isActive": true,
+    "orderIndex": 6,
+    "questions": [
+        {
+            "id": 1,
+            "title": "String Creation",
+            "description": "What is the difference between these two string declarations?",
+            "code": "String str1 = \"Hello\";\nString str2 = new String(\"Hello\");",
+            "options": [
+                "No difference",
+                "str1 uses string pool, str2 creates new object",
+                "str2 is faster",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "str1 uses the string literal pool for memory efficiency, while str2 explicitly creates a new String object in heap memory."
+        },
+        {
+            "id": 2,
+            "title": "String Comparison",
+            "description": "What is the output of this string comparison?",
+            "code": "String s1 = \"Java\";\nString s2 = \"Java\";\nString s3 = new String(\"Java\");\nSystem.out.println(s1 == s2);\nSystem.out.println(s1 == s3);",
+            "options": [
+                "true, true",
+                "true, false",
+                "false, true",
+                "false, false"
+            ],
+            "correct": 1,
+            "explanation": "s1 and s2 reference the same string pool object (true), but s3 is a new object in heap memory (false). Use equals() for content comparison."
+        },
+        {
+            "id": 3,
+            "title": "String Immutability",
+            "description": "What happens when you modify a string?",
+            "code": "String str = \"Hello\";\nstr.concat(\" World\");\nSystem.out.println(str);",
+            "options": [
+                "Hello World",
+                "Hello",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 1,
+            "explanation": "Strings are immutable. The concat() method returns a new string but doesn't modify the original. You need str = str.concat(\" World\") to see the change."
+        },
+        {
+            "id": 4,
+            "title": "String Length",
+            "description": "What is the length of this string?",
+            "code": "String text = \"Hello\nWorld\";\nSystem.out.println(text.length());",
+            "options": [
+                "10",
+                "11",
+                "12",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "The string contains 11 characters: H-e-l-l-o-\n-W-o-r-l-d. The \n escape sequence counts as a single newline character."
+        },
+        {
+            "id": 5,
+            "title": "String Indexing",
+            "description": "What character is at index 2?",
+            "code": "String word = \"Programming\";\nchar ch = word.charAt(2);\nSystem.out.println(ch);",
+            "options": [
+                "P",
+                "r",
+                "o",
+                "g"
+            ],
+            "correct": 2,
+            "explanation": "String indexing starts at 0. Index 2 corresponds to the third character: P(0)-r(1)-o(2)-g(3)-r(4)-a(5)-m(6)-m(7)-i(8)-n(9)-g(10)."
+        },
+        {
+            "id": 6,
+            "title": "Substring Method",
+            "description": "What is the output of this substring operation?",
+            "code": "String text = \"Java Programming\";\nString result = text.substring(5, 9);\nSystem.out.println(result);",
+            "options": [
+                "Prog",
+                "Progr",
+                "ogram",
+                "Programming"
+            ],
+            "correct": 0,
+            "explanation": "substring(5, 9) extracts characters from index 5 (inclusive) to 9 (exclusive): J(0)a(1)v(2)a(3) (4)P(5)r(6)o(7)g(8)r(9)... = \"Prog\"."
+        },
+        {
+            "id": 7,
+            "title": "String Case Methods",
+            "description": "What is the result of these case conversion methods?",
+            "code": "String text = \"Hello World\";\nSystem.out.println(text.toUpperCase());\nSystem.out.println(text.toLowerCase());",
+            "options": [
+                "HELLO WORLD, hello world",
+                "Hello World, Hello World",
+                "hello world, HELLO WORLD",
+                "Compilation error"
+            ],
+            "correct": 0,
+            "explanation": "toUpperCase() converts all characters to uppercase, toLowerCase() converts all to lowercase. The original string remains unchanged."
+        },
+        {
+            "id": 8,
+            "title": "String Contains Method",
+            "description": "What does the contains() method return?",
+            "code": "String sentence = \"Java is awesome\";\nboolean result1 = sentence.contains(\"Java\");\nboolean result2 = sentence.contains(\"Python\");\nSystem.out.println(result1 + \", \" + result2);",
+            "options": [
+                "true, true",
+                "true, false",
+                "false, true",
+                "false, false"
+            ],
+            "correct": 1,
+            "explanation": "contains() returns true if the substring is found, false otherwise. \"Java\" exists in the string, but \"Python\" does not."
+        },
+        {
+            "id": 9,
+            "title": "String StartsWith and EndsWith",
+            "description": "What is the output of these prefix/suffix checks?",
+            "code": "String filename = \"document.pdf\";\nboolean starts = filename.startsWith(\"doc\");\nboolean ends = filename.endsWith(\".pdf\");\nSystem.out.println(starts + \", \" + ends);",
+            "options": [
+                "true, true",
+                "true, false",
+                "false, true",
+                "false, false"
+            ],
+            "correct": 0,
+            "explanation": "startsWith(\"doc\") returns true because the string begins with \"doc\". endsWith(\".pdf\") returns true because it ends with \".pdf\"."
+        },
+        {
+            "id": 10,
+            "title": "String Replace Method",
+            "description": "What is the result of the replace operation?",
+            "code": "String text = \"Hello Hello World\";\nString result = text.replace(\"Hello\", \"Hi\");\nSystem.out.println(result);",
+            "options": [
+                "Hi Hello World",
+                "Hello Hi World",
+                "Hi Hi World",
+                "Hello Hello World"
+            ],
+            "correct": 2,
+            "explanation": "replace() replaces ALL occurrences of the target substring. Both instances of \"Hello\" are replaced with \"Hi\"."
+        },
+        {
+            "id": 11,
+            "title": "String Split Method",
+            "description": "How many elements are in the resulting array?",
+            "code": "String data = \"apple,banana,cherry,date\";\nString[] fruits = data.split(\",\");\nSystem.out.println(fruits.length);",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "split(\",\") divides the string at each comma, creating an array with 4 elements: [\"apple\", \"banana\", \"cherry\", \"date\"]."
+        },
+        {
+            "id": 12,
+            "title": "String Trim Method",
+            "description": "What does the trim() method do?",
+            "code": "String text = \"  Hello World  \";\nString trimmed = text.trim();\nSystem.out.println(\"[\" + trimmed + \"]\");",
+            "options": [
+                "[  Hello World  ]",
+                "[Hello World]",
+                "[Hello  World]",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "trim() removes leading and trailing whitespace characters (spaces, tabs, newlines) but preserves internal spaces."
+        },
+        {
+            "id": 13,
+            "title": "String Concatenation",
+            "description": "Which concatenation method is most efficient for multiple operations?",
+            "code": "// Method 1: String concatenation\nString result1 = \"Hello\" + \" \" + \"World\";\n\n// Method 2: StringBuilder\nStringBuilder sb = new StringBuilder();\nsb.append(\"Hello\").append(\" \").append(\"World\");\nString result2 = sb.toString();",
+            "options": [
+                "Method 1 is always faster",
+                "Method 2 is better for multiple concatenations",
+                "No difference",
+                "Both are equally efficient"
+            ],
+            "correct": 1,
+            "explanation": "StringBuilder is more efficient for multiple concatenations because it uses a mutable buffer, avoiding the creation of intermediate String objects."
+        },
+        {
+            "id": 14,
+            "title": "String Equals vs EqualsIgnoreCase",
+            "description": "What is the output of these equality checks?",
+            "code": "String s1 = \"Java\";\nString s2 = \"JAVA\";\nSystem.out.println(s1.equals(s2));\nSystem.out.println(s1.equalsIgnoreCase(s2));",
+            "options": [
+                "true, true",
+                "true, false",
+                "false, true",
+                "false, false"
+            ],
+            "correct": 2,
+            "explanation": "equals() is case-sensitive (\"Java\" ≠ \"JAVA\"), while equalsIgnoreCase() ignores case differences (\"Java\" = \"JAVA\")."
+        },
+        {
+            "id": 15,
+            "title": "String IndexOf Method",
+            "description": "What does indexOf() return when the substring is not found?",
+            "code": "String text = \"Programming\";\nint index1 = text.indexOf(\"gram\");\nint index2 = text.indexOf(\"xyz\");\nSystem.out.println(index1 + \", \" + index2);",
+            "options": [
+                "3, 0",
+                "3, -1",
+                "4, -1",
+                "4, 0"
+            ],
+            "correct": 2,
+            "explanation": "indexOf() returns the first occurrence index (\"gram\" starts at index 4) or -1 if not found (\"xyz\" doesn't exist)."
+        },
+        {
+            "id": 16,
+            "title": "String Empty vs Null",
+            "description": "What's the difference between empty and null strings?",
+            "code": "String empty = \"\";\nString nullStr = null;\nSystem.out.println(empty.length());\n// System.out.println(nullStr.length()); // What happens?",
+            "options": [
+                "Both print 0",
+                "0, then NullPointerException",
+                "Empty string has length 0, null causes error",
+                "Compilation error"
+            ],
+            "correct": 2,
+            "explanation": "Empty string (\"\") has length 0 and is a valid String object. Null string has no object reference, so calling methods on it throws NullPointerException."
+        },
+        {
+            "id": 17,
+            "title": "String Format Method",
+            "description": "What is the output of String.format()?",
+            "code": "String name = \"Alice\";\nint age = 25;\nString formatted = String.format(\"Name: %s, Age: %d\", name, age);\nSystem.out.println(formatted);",
+            "options": [
+                "Name: %s, Age: %d",
+                "Name: Alice, Age: 25",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 1,
+            "explanation": "String.format() uses placeholders: %s for strings, %d for integers. It replaces them with the provided arguments in order."
+        },
+        {
+            "id": 18,
+            "title": "String Intern Method",
+            "description": "What does the intern() method do?",
+            "code": "String s1 = new String(\"Hello\");\nString s2 = s1.intern();\nString s3 = \"Hello\";\nSystem.out.println(s2 == s3);",
+            "options": [
+                "true",
+                "false",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 0,
+            "explanation": "intern() returns the canonical representation from the string pool. s2 and s3 both reference the same pooled \"Hello\" string."
+        },
+        {
+            "id": 19,
+            "title": "String Escape Sequences",
+            "description": "What is the actual length of this string?",
+            "code": "String text = \"Hello\tWorld\n\";\nSystem.out.println(text.length());",
+            "options": [
+                "13",
+                "11",
+                "12",
+                "14"
+            ],
+            "correct": 2,
+            "explanation": "The string contains 12 characters: H-e-l-l-o-\t-W-o-r-l-d-\n. Escape sequences \t (tab) and \n (newline) each count as one character."
+        },
+        {
+            "id": 20,
+            "title": "String CompareTo Method",
+            "description": "What does compareTo() return for lexicographic comparison?",
+            "code": "String s1 = \"apple\";\nString s2 = \"banana\";\nint result = s1.compareTo(s2);\nSystem.out.println(result < 0);",
+            "options": [
+                "true",
+                "false",
+                "Compilation error",
+                "Depends on system"
+            ],
+            "correct": 0,
+            "explanation": "compareTo() returns negative if first string is lexicographically smaller. \"apple\" comes before \"banana\" alphabetically, so result < 0 is true."
+        },
+        {
+            "id": 21,
+            "title": "StringBuilder vs StringBuffer",
+            "description": "What's the main difference between StringBuilder and StringBuffer?",
+            "code": "StringBuilder sb1 = new StringBuilder(\"Hello\");\nStringBuffer sb2 = new StringBuffer(\"Hello\");\nsb1.append(\" World\");\nsb2.append(\" World\");",
+            "options": [
+                "No difference",
+                "StringBuilder is thread-safe",
+                "StringBuffer is thread-safe",
+                "StringBuilder is immutable"
+            ],
+            "correct": 2,
+            "explanation": "StringBuffer is synchronized (thread-safe) but slower. StringBuilder is not synchronized but faster for single-threaded applications."
+        },
+        {
+            "id": 22,
+            "title": "String Regex Methods",
+            "description": "What does matches() method check?",
+            "code": "String email = \"user@example.com\";\nboolean isValid = email.matches(\".*@.*\\..*\");\nSystem.out.println(isValid);",
+            "options": [
+                "true",
+                "false",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 0,
+            "explanation": "matches() checks if the entire string matches the regex pattern. The pattern .*@.*.* matches any string containing @ followed by a dot."
+        },
+        {
+            "id": 23,
+            "title": "String ReplaceAll Method",
+            "description": "What's the difference between replace() and replaceAll()?",
+            "code": "String text = \"Hello123World456\";\nString result1 = text.replace(\"123\", \"-\");\nString result2 = text.replaceAll(\"\\\\d+\", \"-\");\nSystem.out.println(result1.equals(result2));",
+            "options": [
+                "true",
+                "false",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 1,
+            "explanation": "replace() replaces literal strings, replaceAll() uses regex. result1: \"Hello-World456\", result2: \"Hello-World-\" (all digits replaced)."
+        },
+        {
+            "id": 24,
+            "title": "String Join Method",
+            "description": "What is the output of String.join()?",
+            "code": "String[] words = {\"Java\", \"is\", \"awesome\"};\nString sentence = String.join(\" \", words);\nSystem.out.println(sentence);",
+            "options": [
+                "Java,is,awesome",
+                "Java is awesome",
+                "Javaisawesome",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "String.join() concatenates array elements with the specified delimiter. Here, it joins with spaces to form \"Java is awesome\"."
+        },
+        {
+            "id": 25,
+            "title": "String Null Safety",
+            "description": "Which approach safely handles potential null strings?",
+            "code": "String str = null;\n// Which is safer?\n// Option A: str.equals(\"test\")\n// Option B: \"test\".equals(str)",
+            "options": [
+                "Option A is safer",
+                "Option B is safer",
+                "Both are equally safe",
+                "Both will throw exceptions"
+            ],
+            "correct": 1,
+            "explanation": "Option B is safer because calling equals() on a string literal avoids NullPointerException. \"test\".equals(null) returns false safely."
+        },
+        {
+            "id": 26,
+            "title": "String Concatenation Performance",
+            "description": "What happens with string concatenation in loops?",
+            "code": "String result = \"\";\nfor (int i = 0; i < 1000; i++) {\n    result += \"a\";\n}\n// vs StringBuilder approach",
+            "options": [
+                "String concatenation is faster",
+                "StringBuilder is more efficient",
+                "No performance difference",
+                "Depends on JVM version"
+            ],
+            "correct": 1,
+            "explanation": "String concatenation in loops creates many intermediate objects due to immutability. StringBuilder uses a resizable buffer, making it much more efficient."
+        },
+        {
+            "id": 27,
+            "title": "String Character Access",
+            "description": "What happens when accessing an invalid index?",
+            "code": "String text = \"Hello\";\ntry {\n    char ch = text.charAt(10);\n    System.out.println(ch);\n} catch (Exception e) {\n    System.out.println(\"Exception caught\");\n}",
+            "options": [
+                "Prints a character",
+                "Exception caught",
+                "Compilation error",
+                "Returns null"
+            ],
+            "correct": 1,
+            "explanation": "charAt() throws StringIndexOutOfBoundsException when the index is invalid. The string \"Hello\" has indices 0-4, so index 10 is out of bounds."
+        },
+        {
+            "id": 28,
+            "title": "String Conversion Methods",
+            "description": "How do you convert other types to strings?",
+            "code": "int number = 42;\ndouble decimal = 3.14;\nboolean flag = true;\nString s1 = String.valueOf(number);\nString s2 = Integer.toString(number);",
+            "options": [
+                "Only String.valueOf() works",
+                "Only toString() works",
+                "Both methods work",
+                "Compilation error"
+            ],
+            "correct": 2,
+            "explanation": "Both String.valueOf() and wrapper class toString() methods convert primitives to strings. String.valueOf() is more versatile and handles null safely."
+        },
+        {
+            "id": 29,
+            "title": "String Memory Management",
+            "description": "Where are string literals stored in memory?",
+            "code": "String s1 = \"Hello\"; // String literal\nString s2 = new String(\"Hello\"); // New object",
+            "options": [
+                "Both in heap",
+                "Both in string pool",
+                "s1 in string pool, s2 in heap",
+                "s1 in heap, s2 in string pool"
+            ],
+            "correct": 2,
+            "explanation": "String literals are stored in the string pool (part of heap) for memory efficiency. new String() explicitly creates objects in heap memory."
+        },
+        {
+            "id": 30,
+            "title": "String Best Practices",
+            "description": "Which is the best practice for string operations?",
+            "code": "",
+            "options": [
+                "Always use + for concatenation",
+                "Use StringBuilder for multiple concatenations",
+                "Use StringBuffer in all cases",
+                "Avoid string methods"
+            ],
+            "correct": 1,
+            "explanation": "Use StringBuilder for multiple concatenations (better performance), StringBuffer only when thread safety is needed, and + operator for simple concatenations."
+        }
+    ]
+}

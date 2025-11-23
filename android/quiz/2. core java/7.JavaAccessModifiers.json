@@ -1,0 +1,430 @@
+{
+    "id": 7,
+    "name": "Java Access Modifiers",
+    "description": "Access modifiers, visibility rules, inheritance, and package access in Java.",
+    "proLocked": false,
+    "isActive": true,
+    "orderIndex": 7,
+    "questions": [
+        {
+            "id": 1,
+            "title": "Public Access Modifier",
+            "description": "What does the public access modifier allow?",
+            "code": "public class MyClass {\n    public int value = 10;\n    public void display() {\n        System.out.println(\"Public method\");\n    }\n}",
+            "options": [
+                "Access from same package only",
+                "Access from anywhere",
+                "Access from subclasses only",
+                "No access allowed"
+            ],
+            "correct": 1,
+            "explanation": "The public modifier provides the widest access level. Public members can be accessed from any class in any package."
+        },
+        {
+            "id": 2,
+            "title": "Private Access Modifier",
+            "description": "Which statement about private members is correct?",
+            "code": "public class Example {\n    private int secret = 42;\n    private void hiddenMethod() {\n        System.out.println(\"Hidden\");\n    }\n}",
+            "options": [
+                "Accessible from subclasses",
+                "Accessible within same class only",
+                "Accessible from same package",
+                "Accessible everywhere"
+            ],
+            "correct": 1,
+            "explanation": "Private members are only accessible within the same class where they are declared. They cannot be accessed from subclasses or other classes."
+        },
+        {
+            "id": 3,
+            "title": "Protected Access Modifier",
+            "description": "What can access protected members?",
+            "code": "package com.example;\npublic class Parent {\n    protected int value = 100;\n    protected void show() {\n        System.out.println(\"Protected method\");\n    }\n}",
+            "options": [
+                "Same class only",
+                "Same package and subclasses",
+                "Public access",
+                "Private access"
+            ],
+            "correct": 1,
+            "explanation": "Protected members are accessible within the same package and by subclasses (even in different packages through inheritance)."
+        },
+        {
+            "id": 4,
+            "title": "Package-Private (Default) Access",
+            "description": "What is the default access level when no modifier is specified?",
+            "code": "class DefaultClass {\n    int number = 5; // No access modifier\n    void method() { // No access modifier\n        System.out.println(\"Default access\");\n    }\n}",
+            "options": [
+                "Public",
+                "Private",
+                "Protected",
+                "Package-private"
+            ],
+            "correct": 3,
+            "explanation": "When no access modifier is specified, it's package-private (default). Members are accessible within the same package only."
+        },
+        {
+            "id": 5,
+            "title": "Access Modifier Hierarchy",
+            "description": "Which access modifier provides the most restrictive access?",
+            "code": "",
+            "options": [
+                "public",
+                "protected",
+                "package-private",
+                "private"
+            ],
+            "correct": 3,
+            "explanation": "The access hierarchy from most to least restrictive is: private → package-private → protected → public."
+        },
+        {
+            "id": 6,
+            "title": "Cross-Package Access",
+            "description": "Can this code access the field from a different package?",
+            "code": "// Package: com.example.a\npublic class ClassA {\n    protected int value = 10;\n}\n\n// Package: com.example.b\npublic class ClassB {\n    void test() {\n        ClassA obj = new ClassA();\n        System.out.println(obj.value); // Will this work?\n    }\n}",
+            "options": [
+                "Yes, always works",
+                "No, compilation error",
+                "Only if ClassB extends ClassA",
+                "Depends on JVM"
+            ],
+            "correct": 1,
+            "explanation": "Protected members are not accessible across packages unless through inheritance. ClassB cannot access ClassA's protected field directly."
+        },
+        {
+            "id": 7,
+            "title": "Inheritance and Protected Access",
+            "description": "What happens when a subclass accesses protected members?",
+            "code": "// Package: com.parent\npublic class Parent {\n    protected int value = 50;\n}\n\n// Package: com.child\npublic class Child extends Parent {\n    void display() {\n        System.out.println(value); // Accessing inherited protected field\n    }\n}",
+            "options": [
+                "Compilation error",
+                "Works fine",
+                "Runtime error",
+                "Requires casting"
+            ],
+            "correct": 1,
+            "explanation": "Subclasses can access protected members of their parent class, even across packages, through inheritance."
+        },
+        {
+            "id": 8,
+            "title": "Private Constructor",
+            "description": "What is the effect of a private constructor?",
+            "code": "public class Singleton {\n    private static Singleton instance;\n    \n    private Singleton() {\n        // Private constructor\n    }\n    \n    public static Singleton getInstance() {\n        if (instance == null) {\n            instance = new Singleton();\n        }\n        return instance;\n    }\n}",
+            "options": [
+                "Prevents object creation",
+                "Prevents inheritance",
+                "Implements singleton pattern",
+                "All of the above"
+            ],
+            "correct": 3,
+            "explanation": "Private constructors prevent external instantiation, inheritance (no subclass can call super()), and are commonly used in singleton patterns."
+        },
+        {
+            "id": 9,
+            "title": "Method Overriding and Access Modifiers",
+            "description": "Can you reduce the visibility when overriding a method?",
+            "code": "class Parent {\n    protected void method() {\n        System.out.println(\"Parent method\");\n    }\n}\n\nclass Child extends Parent {\n    private void method() { // Is this allowed?\n        System.out.println(\"Child method\");\n    }\n}",
+            "options": [
+                "Yes, always allowed",
+                "No, compilation error",
+                "Only for private methods",
+                "Depends on package"
+            ],
+            "correct": 1,
+            "explanation": "You cannot reduce visibility when overriding. The overriding method must have the same or wider access than the parent method."
+        },
+        {
+            "id": 10,
+            "title": "Interface Method Access",
+            "description": "What is the default access modifier for interface methods?",
+            "code": "interface MyInterface {\n    void method1(); // What access level?\n    public void method2(); // Explicit public\n}",
+            "options": [
+                "private",
+                "package-private",
+                "protected",
+                "public"
+            ],
+            "correct": 3,
+            "explanation": "Interface methods are implicitly public and abstract (before Java 8). The public modifier is optional but implied."
+        },
+        {
+            "id": 11,
+            "title": "Static Method Access",
+            "description": "How do access modifiers affect static methods?",
+            "code": "public class Utility {\n    public static void publicMethod() { }\n    private static void privateMethod() { }\n    protected static void protectedMethod() { }\n    static void packageMethod() { }\n}",
+            "options": [
+                "Static methods ignore access modifiers",
+                "Same rules apply as instance methods",
+                "All static methods are public",
+                "Static methods are always private"
+            ],
+            "correct": 1,
+            "explanation": "Access modifiers work the same way for static methods as for instance methods. The visibility rules are identical."
+        },
+        {
+            "id": 12,
+            "title": "Nested Class Access",
+            "description": "Can a nested class access private members of its outer class?",
+            "code": "public class Outer {\n    private int secret = 42;\n    \n    class Inner {\n        void display() {\n            System.out.println(secret); // Can this access private field?\n        }\n    }\n}",
+            "options": [
+                "No, compilation error",
+                "Yes, nested classes have special access",
+                "Only if Inner is static",
+                "Only if secret is protected"
+            ],
+            "correct": 1,
+            "explanation": "Nested classes have access to all members of their outer class, including private members. This is a special privilege of inner classes."
+        },
+        {
+            "id": 13,
+            "title": "Package Statement and Access",
+            "description": "What determines package-private access?",
+            "code": "package com.example.myapp;\n\nclass PackageClass {\n    int value = 10; // package-private\n}\n\nclass AnotherClass {\n    void test() {\n        PackageClass obj = new PackageClass();\n        System.out.println(obj.value); // Accessible?\n    }\n}",
+            "options": [
+                "Same directory",
+                "Same package declaration",
+                "Same project",
+                "Same JVM"
+            ],
+            "correct": 1,
+            "explanation": "Package-private access is determined by the package declaration. Classes in the same package can access each other's package-private members."
+        },
+        {
+            "id": 14,
+            "title": "Constructor Access Modifiers",
+            "description": "What access levels can constructors have?",
+            "code": "public class Example {\n    public Example() { } // public constructor\n    protected Example(int x) { } // protected constructor\n    Example(String s) { } // package-private constructor\n    private Example(double d) { } // private constructor\n}",
+            "options": [
+                "Only public",
+                "public and private only",
+                "All four access levels",
+                "public and protected only"
+            ],
+            "correct": 2,
+            "explanation": "Constructors can have all four access levels: public, protected, package-private, and private, each controlling who can instantiate the class."
+        },
+        {
+            "id": 15,
+            "title": "Field Access vs Method Access",
+            "description": "Do fields and methods follow the same access rules?",
+            "code": "public class AccessTest {\n    public int publicField = 1;\n    private int privateField = 2;\n    protected int protectedField = 3;\n    int packageField = 4;\n    \n    public void publicMethod() { }\n    private void privateMethod() { }\n    protected void protectedMethod() { }\n    void packageMethod() { }\n}",
+            "options": [
+                "Fields have different rules",
+                "Methods have different rules",
+                "Both follow identical access rules",
+                "Only static members follow rules"
+            ],
+            "correct": 2,
+            "explanation": "Fields and methods follow identical access modifier rules. The visibility is determined by the access modifier, not the member type."
+        },
+        {
+            "id": 16,
+            "title": "Abstract Class Access",
+            "description": "Can abstract methods have private access?",
+            "code": "abstract class AbstractClass {\n    private abstract void method(); // Is this valid?\n}",
+            "options": [
+                "Yes, always valid",
+                "No, compilation error",
+                "Only in interfaces",
+                "Depends on subclass"
+            ],
+            "correct": 1,
+            "explanation": "Abstract methods cannot be private because they must be overridden by subclasses. Private methods cannot be overridden."
+        },
+        {
+            "id": 17,
+            "title": "Final Method Access",
+            "description": "How do access modifiers interact with final methods?",
+            "code": "class Parent {\n    public final void method() {\n        System.out.println(\"Final method\");\n    }\n}\n\nclass Child extends Parent {\n    public void method() { // Can this override?\n        System.out.println(\"Child method\");\n    }\n}",
+            "options": [
+                "Override succeeds",
+                "Compilation error - cannot override final",
+                "Runtime error",
+                "Access modifier conflict"
+            ],
+            "correct": 1,
+            "explanation": "Final methods cannot be overridden regardless of access modifier. The final keyword prevents method overriding in subclasses."
+        },
+        {
+            "id": 18,
+            "title": "Enum Access Modifiers",
+            "description": "What access modifiers can enum constants have?",
+            "code": "public enum Status {\n    ACTIVE, INACTIVE, PENDING;\n    \n    private String description;\n    public String getDescription() { return description; }\n}",
+            "options": [
+                "Enum constants are always public",
+                "Enum constants can be private",
+                "Enum constants follow field rules",
+                "Enum constants have no access modifiers"
+            ],
+            "correct": 0,
+            "explanation": "Enum constants are implicitly public, static, and final. However, enum fields and methods can have any access modifier."
+        },
+        {
+            "id": 19,
+            "title": "Annotation Access",
+            "description": "What access can annotation elements have?",
+            "code": "@interface MyAnnotation {\n    String value(); // What access level?\n    int count() default 1;\n}",
+            "options": [
+                "private only",
+                "public only",
+                "any access level",
+                "protected only"
+            ],
+            "correct": 1,
+            "explanation": "Annotation elements are implicitly public and abstract. You cannot specify access modifiers for annotation elements."
+        },
+        {
+            "id": 20,
+            "title": "Lambda Expression Access",
+            "description": "Can lambda expressions access private fields?",
+            "code": "public class LambdaTest {\n    private int value = 10;\n    \n    public void test() {\n        Runnable r = () -> {\n            System.out.println(value); // Can lambda access private field?\n        };\n    }\n}",
+            "options": [
+                "No, compilation error",
+                "Yes, lambdas have access to enclosing scope",
+                "Only if field is final",
+                "Only if field is static"
+            ],
+            "correct": 1,
+            "explanation": "Lambda expressions can access all members of their enclosing class, including private fields, following the same rules as inner classes."
+        },
+        {
+            "id": 21,
+            "title": "Method Reference Access",
+            "description": "Can method references access private methods?",
+            "code": "public class MethodRefTest {\n    private void privateMethod() {\n        System.out.println(\"Private method\");\n    }\n    \n    public void test() {\n        Runnable r = this::privateMethod; // Valid?\n    }\n}",
+            "options": [
+                "No, must be public",
+                "Yes, within same class",
+                "Only if method is static",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "Method references follow the same access rules as regular method calls. Private methods can be referenced within the same class."
+        },
+        {
+            "id": 22,
+            "title": "Generic Type Access",
+            "description": "Do generic type parameters affect access?",
+            "code": "public class Generic<T> {\n    private T value;\n    \n    public T getValue() {\n        return value; // Access to private field through public method\n    }\n}",
+            "options": [
+                "Generic types ignore access modifiers",
+                "Generic types follow normal access rules",
+                "Generic types are always public",
+                "Generic types cannot access private members"
+            ],
+            "correct": 1,
+            "explanation": "Generic type parameters don't affect access modifiers. The access rules apply to the members themselves, not the generic types."
+        },
+        {
+            "id": 23,
+            "title": "Varargs Method Access",
+            "description": "Can varargs methods have any access modifier?",
+            "code": "public class VarargsTest {\n    public void publicVarargs(String... args) { }\n    private void privateVarargs(int... numbers) { }\n    protected void protectedVarargs(Object... objects) { }\n}",
+            "options": [
+                "Only public varargs allowed",
+                "All access modifiers allowed",
+                "Varargs must be protected",
+                "Varargs cannot be private"
+            ],
+            "correct": 1,
+            "explanation": "Varargs methods can have any access modifier. The varargs feature doesn't restrict or change access modifier rules."
+        },
+        {
+            "id": 24,
+            "title": "Synchronized Method Access",
+            "description": "How do access modifiers work with synchronized methods?",
+            "code": "public class SyncTest {\n    public synchronized void publicSync() { }\n    private synchronized void privateSync() { }\n    protected synchronized void protectedSync() { }\n}",
+            "options": [
+                "synchronized methods must be public",
+                "synchronized ignores access modifiers",
+                "All access levels work with synchronized",
+                "synchronized methods cannot be private"
+            ],
+            "correct": 2,
+            "explanation": "The synchronized keyword can be combined with any access modifier. Synchronization and access control are independent concerns."
+        },
+        {
+            "id": 25,
+            "title": "Native Method Access",
+            "description": "What access modifiers can native methods have?",
+            "code": "public class NativeTest {\n    public native void publicNative();\n    private native void privateNative();\n    protected native void protectedNative();\n}",
+            "options": [
+                "Native methods must be public",
+                "Any access modifier allowed",
+                "Native methods must be private",
+                "Native methods cannot have access modifiers"
+            ],
+            "correct": 1,
+            "explanation": "Native methods can have any access modifier. The native keyword indicates implementation in another language but doesn't affect access rules."
+        },
+        {
+            "id": 26,
+            "title": "Record Component Access",
+            "description": "What access do record components have in Java 14+?",
+            "code": "public record Person(String name, int age) {\n    // What access do name() and age() methods have?\n}",
+            "options": [
+                "private",
+                "package-private",
+                "protected",
+                "public"
+            ],
+            "correct": 3,
+            "explanation": "Record components automatically generate public accessor methods. The fields are private, but the accessor methods are public."
+        },
+        {
+            "id": 27,
+            "title": "Sealed Class Access",
+            "description": "How do access modifiers work with sealed classes (Java 17+)?",
+            "code": "public sealed class Shape permits Circle, Rectangle {\n    protected double area;\n}\n\nfinal class Circle extends Shape { }\nfinal class Rectangle extends Shape { }",
+            "options": [
+                "Sealed classes ignore access modifiers",
+                "Normal access rules apply",
+                "Sealed classes must be public",
+                "Permitted classes must be public"
+            ],
+            "correct": 1,
+            "explanation": "Sealed classes follow normal access modifier rules. The sealed keyword controls inheritance but doesn't change access control."
+        },
+        {
+            "id": 28,
+            "title": "Module System Access",
+            "description": "How do modules affect access modifiers (Java 9+)?",
+            "code": "// module-info.java\nmodule mymodule {\n    exports com.example.api;\n}\n\n// In com.example.api package\npublic class PublicClass { } // Accessible outside module?\n\n// In com.example.internal package\npublic class InternalClass { } // Accessible outside module?",
+            "options": [
+                "Both classes accessible",
+                "Only PublicClass accessible",
+                "Neither class accessible",
+                "Module system ignores access modifiers"
+            ],
+            "correct": 1,
+            "explanation": "Modules add another layer of access control. Only public classes in exported packages are accessible outside the module."
+        },
+        {
+            "id": 29,
+            "title": "Reflection and Access Modifiers",
+            "description": "Can reflection bypass access modifiers?",
+            "code": "public class ReflectionTest {\n    private String secret = \"hidden\";\n}\n\n// Using reflection\nField field = ReflectionTest.class.getDeclaredField(\"secret\");\nfield.setAccessible(true); // What does this do?\nString value = (String) field.get(instance);",
+            "options": [
+                "Reflection respects access modifiers",
+                "setAccessible(true) bypasses access control",
+                "Reflection only works with public members",
+                "Compilation error"
+            ],
+            "correct": 1,
+            "explanation": "Reflection can bypass access modifiers using setAccessible(true), allowing access to private fields and methods at runtime."
+        },
+        {
+            "id": 30,
+            "title": "Access Modifier Best Practices",
+            "description": "What is the principle of least privilege for access modifiers?",
+            "code": "",
+            "options": [
+                "Always use public for flexibility",
+                "Use the most restrictive access possible",
+                "Always use protected for inheritance",
+                "Access modifiers don't matter"
+            ],
+            "correct": 1,
+            "explanation": "The principle of least privilege suggests using the most restrictive access modifier that still allows the code to function properly, enhancing encapsulation and security."
+        }
+    ]
+}

@@ -1,0 +1,430 @@
+{
+    "id": 11,
+    "name": "Java Collections Framework - Enumeration",
+    "description": "Enumeration interface, legacy collections, Vector, Hashtable, Properties, and comparison with Iterator in Java.",
+    "proLocked": false,
+    "isActive": true,
+    "orderIndex": 10,
+    "questions": [
+        {
+            "id": 1,
+            "title": "Enumeration Interface Basics",
+            "description": "What is the Enumeration interface in Java?",
+            "code": "Vector<String> vector = new Vector<>();\nvector.add(\"A\");\nvector.add(\"B\");\nvector.add(\"C\");\nEnumeration<String> enumeration = vector.elements();\nwhile (enumeration.hasMoreElements()) {\n    String element = enumeration.nextElement();\n    System.out.println(element);\n}",
+            "options": [
+                "A legacy interface for traversing collections",
+                "A modern replacement for Iterator",
+                "An interface for creating enums",
+                "A thread-safe collection interface"
+            ],
+            "correct": 0,
+            "explanation": "Enumeration is a legacy interface from Java 1.0 used to traverse collections like Vector and Hashtable. It predates the Collections Framework and Iterator interface."
+        },
+        {
+            "id": 2,
+            "title": "Enumeration vs Iterator",
+            "description": "What are the main differences between Enumeration and Iterator?",
+            "code": "// Enumeration (legacy)\nEnumeration<String> enumeration = vector.elements();\nwhile (enumeration.hasMoreElements()) {\n    String item = enumeration.nextElement();\n    // Cannot remove elements\n}\n\n// Iterator (modern)\nIterator<String> iterator = list.iterator();\nwhile (iterator.hasNext()) {\n    String item = iterator.next();\n    iterator.remove(); // Can remove elements\n}",
+            "options": [
+                "No difference",
+                "Iterator allows element removal, Enumeration doesn't",
+                "Enumeration is faster",
+                "Enumeration is thread-safe"
+            ],
+            "correct": 1,
+            "explanation": "Iterator provides remove() functionality and fail-fast behavior, while Enumeration only supports traversal. Iterator is the preferred modern approach."
+        },
+        {
+            "id": 3,
+            "title": "Enumeration Methods",
+            "description": "What methods does the Enumeration interface provide?",
+            "code": "Enumeration<String> enumeration = vector.elements();\nboolean hasMore = enumeration.hasMoreElements(); // Check if more elements exist\nString element = enumeration.nextElement();      // Get next element",
+            "options": [
+                "hasNext() and next()",
+                "hasMoreElements() and nextElement()",
+                "hasMore() and getNext()",
+                "more() and element()"
+            ],
+            "correct": 1,
+            "explanation": "Enumeration provides hasMoreElements() to check for more elements and nextElement() to retrieve the next element. These are equivalent to Iterator's hasNext() and next()."
+        },
+        {
+            "id": 4,
+            "title": "Vector and Enumeration",
+            "description": "How do you get an Enumeration from a Vector?",
+            "code": "Vector<String> vector = new Vector<>();\nvector.add(\"Java\");\nvector.add(\"Python\");\nvector.add(\"C++\");\nEnumeration<String> enumeration = vector.elements();",
+            "options": [
+                "vector.enumeration()",
+                "vector.elements()",
+                "vector.getEnumeration()",
+                "vector.iterator()"
+            ],
+            "correct": 1,
+            "explanation": "Vector provides the elements() method to obtain an Enumeration of its elements. This is the standard way to enumerate Vector contents."
+        },
+        {
+            "id": 5,
+            "title": "Hashtable and Enumeration",
+            "description": "What Enumeration methods does Hashtable provide?",
+            "code": "Hashtable<String, Integer> hashtable = new Hashtable<>();\nhashtable.put(\"one\", 1);\nhashtable.put(\"two\", 2);\nEnumeration<String> keys = hashtable.keys();\nEnumeration<Integer> values = hashtable.elements();",
+            "options": [
+                "Only elements()",
+                "Only keys()",
+                "Both keys() and elements()",
+                "keySet() and values()"
+            ],
+            "correct": 2,
+            "explanation": "Hashtable provides both keys() method to enumerate keys and elements() method to enumerate values. These return Enumeration objects."
+        },
+        {
+            "id": 6,
+            "title": "Properties and Enumeration",
+            "description": "How do you enumerate Properties using Enumeration?",
+            "code": "Properties props = new Properties();\nprops.setProperty(\"name\", \"John\");\nprops.setProperty(\"age\", \"25\");\nEnumeration<?> propertyNames = props.propertyNames();\nwhile (propertyNames.hasMoreElements()) {\n    String key = (String) propertyNames.nextElement();\n    String value = props.getProperty(key);\n}",
+            "options": [
+                "props.keys()",
+                "props.elements()",
+                "props.propertyNames()",
+                "props.getEnumeration()"
+            ],
+            "correct": 2,
+            "explanation": "Properties class provides propertyNames() method that returns an Enumeration of property names (keys). Note it returns Enumeration<?> requiring casting."
+        },
+        {
+            "id": 7,
+            "title": "Enumeration Fail-Fast Behavior",
+            "description": "Does Enumeration exhibit fail-fast behavior?",
+            "code": "Vector<String> vector = new Vector<>();\nvector.add(\"A\");\nvector.add(\"B\");\nEnumeration<String> enumeration = vector.elements();\nvector.add(\"C\"); // Modify during enumeration\n// enumeration.nextElement(); // May or may not throw exception",
+            "options": [
+                "Yes, always throws ConcurrentModificationException",
+                "No, it's fail-safe",
+                "Depends on the implementation",
+                "Only for Vector"
+            ],
+            "correct": 2,
+            "explanation": "Enumeration behavior during concurrent modification depends on the implementation. Vector's Enumeration is not guaranteed to be fail-fast like modern Iterator implementations."
+        },
+        {
+            "id": 8,
+            "title": "Converting Enumeration to Iterator",
+            "description": "How can you convert an Enumeration to an Iterator?",
+            "code": "Vector<String> vector = new Vector<>();\nEnumeration<String> enumeration = vector.elements();\n// Convert to Iterator\nIterator<String> iterator = Collections.list(enumeration).iterator();\n// or use Collections.enumeration() for reverse conversion",
+            "options": [
+                "enumeration.toIterator()",
+                "Collections.list(enumeration).iterator()",
+                "new Iterator(enumeration)",
+                "Cannot convert"
+            ],
+            "correct": 1,
+            "explanation": "Use Collections.list(enumeration) to convert Enumeration to List, then call iterator(). Collections also provides enumeration() to convert Iterator to Enumeration."
+        },
+        {
+            "id": 9,
+            "title": "Enumeration Performance",
+            "description": "What is the performance characteristic of Enumeration operations?",
+            "code": "Vector<String> vector = new Vector<>();\nEnumeration<String> enumeration = vector.elements();\n// hasMoreElements() and nextElement() are typically O(1)\n// Performance similar to Iterator",
+            "options": [
+                "O(n) for all operations",
+                "O(1) for hasMoreElements() and nextElement()",
+                "O(log n) for nextElement()",
+                "Slower than Iterator"
+            ],
+            "correct": 1,
+            "explanation": "Enumeration operations hasMoreElements() and nextElement() are typically O(1), similar to Iterator. The performance difference is minimal for traversal operations."
+        },
+        {
+            "id": 10,
+            "title": "Enumeration Thread Safety",
+            "description": "Are Enumeration objects thread-safe?",
+            "code": "Vector<String> vector = new Vector<>(); // Vector is synchronized\nEnumeration<String> enumeration = vector.elements();\n// Enumeration itself is not thread-safe\n// Multiple threads accessing same enumeration can cause issues",
+            "options": [
+                "Yes, all Enumerations are thread-safe",
+                "No, Enumerations are not thread-safe",
+                "Only for synchronized collections",
+                "Depends on the collection"
+            ],
+            "correct": 1,
+            "explanation": "Enumeration objects themselves are not thread-safe, even when obtained from synchronized collections like Vector. Synchronization is needed for concurrent access."
+        },
+        {
+            "id": 11,
+            "title": "Legacy Collections with Enumeration",
+            "description": "Which legacy collections support Enumeration?",
+            "code": "Vector<String> vector = new Vector<>();        // Supports elements()\nHashtable<String, String> hashtable = new Hashtable<>(); // Supports keys() and elements()\nProperties props = new Properties();           // Supports propertyNames()\n// ArrayList and HashMap do not support Enumeration",
+            "options": [
+                "All collections",
+                "Only Vector",
+                "Vector, Hashtable, and Properties",
+                "Only synchronized collections"
+            ],
+            "correct": 2,
+            "explanation": "Vector, Hashtable, and Properties (which extends Hashtable) support Enumeration. Modern collections like ArrayList and HashMap do not provide Enumeration methods."
+        },
+        {
+            "id": 12,
+            "title": "Enumeration Modification Restrictions",
+            "description": "Can you modify a collection while enumerating?",
+            "code": "Vector<String> vector = new Vector<>();\nvector.add(\"A\");\nvector.add(\"B\");\nEnumeration<String> enumeration = vector.elements();\nwhile (enumeration.hasMoreElements()) {\n    String item = enumeration.nextElement();\n    // vector.remove(item); // Risky - may cause unpredictable behavior\n}",
+            "options": [
+                "Yes, always safe",
+                "No, never safe",
+                "Depends on implementation, generally not recommended",
+                "Only additions are safe"
+            ],
+            "correct": 2,
+            "explanation": "Modifying collections during enumeration is generally not recommended and may cause unpredictable behavior. Unlike Iterator, Enumeration doesn't provide a safe remove() method."
+        },
+        {
+            "id": 13,
+            "title": "Collections.enumeration() Method",
+            "description": "What does Collections.enumeration() do?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\");\nEnumeration<String> enumeration = Collections.enumeration(list);\n// Converts any Collection to Enumeration",
+            "options": [
+                "Converts Enumeration to Collection",
+                "Converts Collection to Enumeration",
+                "Creates empty Enumeration",
+                "Throws an exception"
+            ],
+            "correct": 1,
+            "explanation": "Collections.enumeration() converts any Collection to an Enumeration. This is useful when working with legacy APIs that expect Enumeration objects."
+        },
+        {
+            "id": 14,
+            "title": "Enumeration nextElement() Exception",
+            "description": "What happens when nextElement() is called on an exhausted Enumeration?",
+            "code": "Vector<String> vector = new Vector<>();\nvector.add(\"A\");\nEnumeration<String> enumeration = vector.elements();\nenumeration.nextElement(); // \"A\"\n// enumeration.nextElement(); // Throws NoSuchElementException",
+            "options": [
+                "Returns null",
+                "Returns the last element again",
+                "Throws NoSuchElementException",
+                "Resets to beginning"
+            ],
+            "correct": 2,
+            "explanation": "Calling nextElement() on an exhausted Enumeration throws NoSuchElementException, similar to Iterator.next(). Always check hasMoreElements() first."
+        },
+        {
+            "id": 15,
+            "title": "Enumeration vs Enhanced For-Loop",
+            "description": "Can you use enhanced for-loop with collections that only provide Enumeration?",
+            "code": "Vector<String> vector = new Vector<>();\nvector.add(\"A\");\nvector.add(\"B\");\n// Enhanced for-loop works because Vector implements Iterable\nfor (String item : vector) {\n    System.out.println(item);\n}\n// But pure Enumeration cannot be used with enhanced for-loop",
+            "options": [
+                "Yes, Enumeration supports enhanced for-loop",
+                "No, need to convert to Iterable first",
+                "Only for Vector",
+                "Enhanced for-loop uses Enumeration internally"
+            ],
+            "correct": 1,
+            "explanation": "Enumeration doesn't support enhanced for-loop directly. Collections like Vector work with enhanced for-loop because they implement Iterable, not because of Enumeration."
+        },
+        {
+            "id": 16,
+            "title": "StringTokenizer and Enumeration",
+            "description": "Does StringTokenizer implement Enumeration?",
+            "code": "StringTokenizer tokenizer = new StringTokenizer(\"Java,Python,C++\", \",\");\n// StringTokenizer implements Enumeration interface\nwhile (tokenizer.hasMoreElements()) {\n    String token = (String) tokenizer.nextElement();\n    System.out.println(token);\n}",
+            "options": [
+                "No, StringTokenizer is unrelated",
+                "Yes, StringTokenizer implements Enumeration",
+                "Only in newer Java versions",
+                "StringTokenizer extends Enumeration"
+            ],
+            "correct": 1,
+            "explanation": "StringTokenizer implements the Enumeration interface, allowing it to be used with hasMoreElements() and nextElement() methods for token traversal."
+        },
+        {
+            "id": 17,
+            "title": "Enumeration Generic Support",
+            "description": "When was generic support added to Enumeration?",
+            "code": "// Java 1.4 and earlier\nEnumeration enumeration = vector.elements(); // Raw type\nString item = (String) enumeration.nextElement(); // Casting required\n\n// Java 5+\nEnumeration<String> enumeration = vector.elements(); // Generic\nString item = enumeration.nextElement(); // No casting needed",
+            "options": [
+                "Java 1.0 (original)",
+                "Java 5 (with generics)",
+                "Java 8 (with lambdas)",
+                "Never added generics"
+            ],
+            "correct": 1,
+            "explanation": "Generic support was added to Enumeration in Java 5 along with the introduction of generics. Before Java 5, Enumeration used raw types requiring explicit casting."
+        },
+        {
+            "id": 18,
+            "title": "Enumeration Memory Usage",
+            "description": "What is the memory overhead of Enumeration compared to Iterator?",
+            "code": "Vector<String> vector = new Vector<>();\nEnumeration<String> enumeration = vector.elements(); // Minimal overhead\nIterator<String> iterator = vector.iterator();       // Similar overhead\n// Both maintain position and reference to collection",
+            "options": [
+                "Enumeration uses more memory",
+                "Iterator uses more memory",
+                "Similar memory usage",
+                "Depends on collection size"
+            ],
+            "correct": 2,
+            "explanation": "Enumeration and Iterator have similar memory overhead, both maintaining a reference to the collection and current position. The difference is negligible."
+        },
+        {
+            "id": 19,
+            "title": "Enumeration in Modern Java",
+            "description": "Should you use Enumeration in modern Java applications?",
+            "code": "// Legacy approach\nEnumeration<String> enumeration = vector.elements();\n\n// Modern approach\nIterator<String> iterator = vector.iterator();\n// or\nfor (String item : vector) { /* enhanced for-loop */ }",
+            "options": [
+                "Yes, Enumeration is preferred",
+                "No, use Iterator or enhanced for-loop",
+                "Only for Vector and Hashtable",
+                "Use both interchangeably"
+            ],
+            "correct": 1,
+            "explanation": "In modern Java, prefer Iterator or enhanced for-loop over Enumeration. Enumeration is maintained for backward compatibility but lacks modern features like safe removal."
+        },
+        {
+            "id": 20,
+            "title": "Enumeration Concurrent Access",
+            "description": "What happens with concurrent access to Enumeration?",
+            "code": "Vector<String> vector = new Vector<>();\nEnumeration<String> enumeration = vector.elements();\n// Thread 1: enumeration.nextElement()\n// Thread 2: vector.add(\"new item\")\n// Behavior is unpredictable without synchronization",
+            "options": [
+                "Always thread-safe",
+                "Never thread-safe",
+                "Unpredictable without synchronization",
+                "Automatically synchronized"
+            ],
+            "correct": 2,
+            "explanation": "Concurrent access to Enumeration without proper synchronization leads to unpredictable behavior. Even with synchronized collections, the Enumeration itself needs synchronization."
+        },
+        {
+            "id": 21,
+            "title": "Enumeration vs Stream API",
+            "description": "How does Enumeration compare with Java 8 Stream API?",
+            "code": "Vector<String> vector = new Vector<>();\n\n// Enumeration approach\nEnumeration<String> enumeration = vector.elements();\nwhile (enumeration.hasMoreElements()) {\n    System.out.println(enumeration.nextElement().toUpperCase());\n}\n\n// Stream approach\nvector.stream().map(String::toUpperCase).forEach(System.out::println);",
+            "options": [
+                "Enumeration is more powerful",
+                "Stream API is more functional and expressive",
+                "No significant difference",
+                "Enumeration is faster"
+            ],
+            "correct": 1,
+            "explanation": "Stream API provides more functional and expressive operations compared to Enumeration's simple traversal. Streams support filtering, mapping, and other functional operations."
+        },
+        {
+            "id": 22,
+            "title": "Enumeration Null Handling",
+            "description": "How does Enumeration handle null values?",
+            "code": "Vector<String> vector = new Vector<>();\nvector.add(\"A\");\nvector.add(null);\nvector.add(\"C\");\nEnumeration<String> enumeration = vector.elements();\nwhile (enumeration.hasMoreElements()) {\n    String item = enumeration.nextElement(); // Can be null\n    System.out.println(item); // Prints: A, null, C\n}",
+            "options": [
+                "Skips null values",
+                "Throws exception on null",
+                "Returns null values normally",
+                "Converts null to empty string"
+            ],
+            "correct": 2,
+            "explanation": "Enumeration returns null values normally if they exist in the collection. It's the responsibility of the code using the Enumeration to handle null values appropriately."
+        },
+        {
+            "id": 23,
+            "title": "Enumeration Order Guarantee",
+            "description": "What order guarantee does Enumeration provide?",
+            "code": "Vector<String> vector = new Vector<>();\nvector.add(\"First\");\nvector.add(\"Second\");\nvector.add(\"Third\");\nEnumeration<String> enumeration = vector.elements();\n// Enumeration follows the same order as the underlying collection",
+            "options": [
+                "Random order",
+                "Sorted order",
+                "Same order as underlying collection",
+                "Reverse order"
+            ],
+            "correct": 2,
+            "explanation": "Enumeration provides the same order guarantee as the underlying collection. For Vector, it maintains insertion order; for Hashtable, the order is not guaranteed."
+        },
+        {
+            "id": 24,
+            "title": "Enumeration Serialization",
+            "description": "Can Enumeration objects be serialized?",
+            "code": "Vector<String> vector = new Vector<>();\nEnumeration<String> enumeration = vector.elements();\n// Enumeration objects are typically not serializable\n// They represent a traversal state, not persistent data",
+            "options": [
+                "Yes, all Enumerations are Serializable",
+                "No, Enumerations are not Serializable",
+                "Only for Vector Enumerations",
+                "Depends on the implementation"
+            ],
+            "correct": 3,
+            "explanation": "Serializability of Enumeration depends on the specific implementation. Most Enumeration implementations are not Serializable as they represent transient traversal state."
+        },
+        {
+            "id": 25,
+            "title": "Enumeration Performance vs Iterator",
+            "description": "How does Enumeration performance compare to Iterator?",
+            "code": "Vector<String> vector = new Vector<>();\n// Enumeration\nEnumeration<String> enumeration = vector.elements();\n// Iterator\nIterator<String> iterator = vector.iterator();\n// Performance is very similar for traversal operations",
+            "options": [
+                "Enumeration is significantly faster",
+                "Iterator is significantly faster",
+                "Performance is very similar",
+                "Depends on collection size"
+            ],
+            "correct": 2,
+            "explanation": "Performance between Enumeration and Iterator is very similar for basic traversal operations. The choice should be based on functionality needs rather than performance."
+        },
+        {
+            "id": 26,
+            "title": "Enumeration Method Naming",
+            "description": "Why does Enumeration use different method names than Iterator?",
+            "code": "// Enumeration (Java 1.0)\nboolean hasMoreElements()\nObject nextElement()\n\n// Iterator (Java 1.2)\nboolean hasNext()\nObject next()\nvoid remove()",
+            "options": [
+                "No specific reason",
+                "Historical - Enumeration predates Iterator",
+                "Performance optimization",
+                "Thread safety requirements"
+            ],
+            "correct": 1,
+            "explanation": "Enumeration was introduced in Java 1.0 with its own method names. When Iterator was introduced in Java 1.2 with the Collections Framework, it used shorter, more conventional names."
+        },
+        {
+            "id": 27,
+            "title": "Enumeration Adapter Pattern",
+            "description": "How can you adapt Iterator to work with APIs expecting Enumeration?",
+            "code": "List<String> list = Arrays.asList(\"A\", \"B\", \"C\");\nIterator<String> iterator = list.iterator();\n// Convert Iterator to Enumeration using Collections utility\nEnumeration<String> enumeration = Collections.enumeration(list);\n// Now can be used with legacy APIs expecting Enumeration",
+            "options": [
+                "Cannot adapt Iterator to Enumeration",
+                "Use Collections.enumeration()",
+                "Create custom adapter class",
+                "Use wrapper methods"
+            ],
+            "correct": 1,
+            "explanation": "Collections.enumeration() provides a convenient way to adapt any Collection to Enumeration, allowing modern collections to work with legacy APIs expecting Enumeration."
+        },
+        {
+            "id": 28,
+            "title": "Enumeration in Legacy APIs",
+            "description": "Where might you still encounter Enumeration in modern Java?",
+            "code": "// Examples where Enumeration is still used:\n// 1. NetworkInterface.getNetworkInterfaces()\n// 2. JarFile.entries()\n// 3. Some legacy libraries and frameworks\n// 4. Properties.propertyNames()",
+            "options": [
+                "Nowhere, completely deprecated",
+                "Only in very old code",
+                "Some JDK APIs and legacy libraries",
+                "All new Java APIs use Enumeration"
+            ],
+            "correct": 2,
+            "explanation": "Enumeration is still used in some JDK APIs (like NetworkInterface, JarFile) and legacy libraries for backward compatibility. It's not deprecated but not preferred for new code."
+        },
+        {
+            "id": 29,
+            "title": "Enumeration Best Practices",
+            "description": "What are the best practices when working with Enumeration?",
+            "code": "// Best practices:\n// 1. Prefer Iterator or enhanced for-loop for new code\n// 2. Always check hasMoreElements() before nextElement()\n// 3. Don't modify collection during enumeration\n// 4. Use Collections.enumeration() to adapt modern collections",
+            "options": [
+                "Always use Enumeration for legacy collections",
+                "Check hasMoreElements(), avoid modification, prefer Iterator",
+                "Modify collections freely during enumeration",
+                "Use raw types for compatibility"
+            ],
+            "correct": 1,
+            "explanation": "Best practices: always check hasMoreElements() before nextElement(), avoid modifying collections during enumeration, and prefer Iterator or enhanced for-loop for new code."
+        },
+        {
+            "id": 30,
+            "title": "Enumeration Migration Strategy",
+            "description": "How should you migrate from Enumeration to Iterator in legacy code?",
+            "code": "// Legacy code\nEnumeration<String> enumeration = vector.elements();\nwhile (enumeration.hasMoreElements()) {\n    String item = enumeration.nextElement();\n}\n\n// Migrated code\nIterator<String> iterator = vector.iterator();\nwhile (iterator.hasNext()) {\n    String item = iterator.next();\n    // Can now use iterator.remove() if needed\n}",
+            "options": [
+                "Replace all at once",
+                "Gradual replacement, test thoroughly",
+                "Keep Enumeration for compatibility",
+                "Use both simultaneously"
+            ],
+            "correct": 1,
+            "explanation": "Migrate gradually from Enumeration to Iterator, testing thoroughly at each step. This allows you to take advantage of Iterator's additional functionality while maintaining code stability."
+        }
+    ]
+}
