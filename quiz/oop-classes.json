@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaOOPClasses - Q0001",
+        "text": "What is a class in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A blueprint for creating objects"
+            },
+            {
+                "letter": "B",
+                "text": "An instance of an object"
+            },
+            {
+                "letter": "C",
+                "text": "A variable type"
+            },
+            {
+                "letter": "D",
+                "text": "A method"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class is a blueprint or template used to create objects in Java."
+    },
+    {
+        "title": "JavaOOPClasses - Q0002",
+        "text": "Which keyword is used to define a class in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "object"
+            },
+            {
+                "letter": "B",
+                "text": "class"
+            },
+            {
+                "letter": "C",
+                "text": "define"
+            },
+            {
+                "letter": "D",
+                "text": "structure"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'class' keyword is used to define a class in Java."
+    },
+    {
+        "title": "JavaOOPClasses - Q0003",
+        "text": "Which of the following can a class contain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fields and methods"
+            },
+            {
+                "letter": "B",
+                "text": "Only methods"
+            },
+            {
+                "letter": "C",
+                "text": "Only variables"
+            },
+            {
+                "letter": "D",
+                "text": "Only constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class can contain fields, methods, constructors, and nested classes."
+    },
+    {
+        "title": "JavaOOPClasses - Q0004",
+        "text": "What is an object in relation to a class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A copy of a class"
+            },
+            {
+                "letter": "B",
+                "text": "An instance of a class"
+            },
+            {
+                "letter": "C",
+                "text": "A subclass"
+            },
+            {
+                "letter": "D",
+                "text": "A method of a class"
+            }
+        ],
+        "correct": "B",
+        "explanation": "An object is an instance of a class created using the 'new' keyword."
+    },
+    {
+        "title": "JavaOOPClasses - Q0005",
+        "text": "Which of the following is true about class members?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be variables or methods"
+            },
+            {
+                "letter": "B",
+                "text": "They can only be variables"
+            },
+            {
+                "letter": "C",
+                "text": "They can only be methods"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Class members include variables (fields) and methods."
+    },
+    {
+        "title": "JavaOOPClasses - Q0006",
+        "text": "Which of the following is used to create an object of a class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "create"
+            },
+            {
+                "letter": "B",
+                "text": "new"
+            },
+            {
+                "letter": "C",
+                "text": "object"
+            },
+            {
+                "letter": "D",
+                "text": "instance"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'new' keyword is used to create an object of a class."
+    },
+    {
+        "title": "JavaOOPClasses - Q0007",
+        "text": "Which of the following is true about constructors in a class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They initialize objects"
+            },
+            {
+                "letter": "B",
+                "text": "They destroy objects"
+            },
+            {
+                "letter": "C",
+                "text": "They are static methods"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be overloaded"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors are used to initialize objects when they are created."
+    },
+    {
+        "title": "JavaOOPClasses - Q0008",
+        "text": "What is the default access modifier for a class in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "public"
+            },
+            {
+                "letter": "B",
+                "text": "private"
+            },
+            {
+                "letter": "C",
+                "text": "protected"
+            },
+            {
+                "letter": "D",
+                "text": "package-private"
+            }
+        ],
+        "correct": "D",
+        "explanation": "If no access modifier is specified, the class has package-private access."
+    },
+    {
+        "title": "JavaOOPClasses - Q0009",
+        "text": "Which of the following statements about a class is true?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class can have multiple constructors"
+            },
+            {
+                "letter": "B",
+                "text": "A class can have only one constructor"
+            },
+            {
+                "letter": "C",
+                "text": "A class cannot have methods"
+            },
+            {
+                "letter": "D",
+                "text": "A class cannot have variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class can have multiple constructors with different parameter lists (constructor overloading)."
+    },
+    {
+        "title": "JavaOOPClasses - Q0010",
+        "text": "Which of the following is true about static members of a class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They belong to the class, not to any object"
+            },
+            {
+                "letter": "B",
+                "text": "They belong to each object separately"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be accessed without an object"
+            },
+            {
+                "letter": "D",
+                "text": "They are always private"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static members belong to the class itself and are shared among all objects."
+    },
+    {
+        "title": "JavaOOPClasses - Q0011",
+        "text": "Which of the following is true about instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are shared among all objects"
+            },
+            {
+                "letter": "B",
+                "text": "Each object has its own copy"
+            },
+            {
+                "letter": "C",
+                "text": "They are declared using static"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be initialized"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Each object has its own copy of instance variables."
+    },
+    {
+        "title": "JavaOOPClasses - Q0012",
+        "text": "Which of the following is true about static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can access instance variables directly"
+            },
+            {
+                "letter": "B",
+                "text": "They can be called without creating an object"
+            },
+            {
+                "letter": "C",
+                "text": "They can override instance methods"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be overloaded"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Static methods can be called without creating an object of the class."
+    },
+    {
+        "title": "JavaOOPClasses - Q0013",
+        "text": "Which of the following is true about the 'this' keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It refers to the current object"
+            },
+            {
+                "letter": "B",
+                "text": "It refers to the parent class"
+            },
+            {
+                "letter": "C",
+                "text": "It refers to the static context"
+            },
+            {
+                "letter": "D",
+                "text": "It refers to the class itself"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'this' keyword refers to the current object of the class."
+    },
+    {
+        "title": "JavaOOPClasses - Q0014",
+        "text": "Which of the following is true about the 'new' keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allocates memory for an object"
+            },
+            {
+                "letter": "B",
+                "text": "It deletes an object"
+            },
+            {
+                "letter": "C",
+                "text": "It initializes static variables"
+            },
+            {
+                "letter": "D",
+                "text": "It calls the main method"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'new' keyword allocates memory for an object and calls its constructor."
+    },
+    {
+        "title": "JavaOOPClasses - Q0015",
+        "text": "Which of the following is true about nested classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are classes defined within another class"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot access outer class members"
+            },
+            {
+                "letter": "C",
+                "text": "They must be static"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be private"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Nested classes are classes defined within another class."
+    },
+    {
+        "title": "JavaOOPClasses - Q0016",
+        "text": "Which of the following is true about inner classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can access outer class members"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot access outer class members"
+            },
+            {
+                "letter": "C",
+                "text": "They must be static"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be private"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Inner classes can access members of the outer class, including private ones."
+    },
+    {
+        "title": "JavaOOPClasses - Q0017",
+        "text": "Which of the following is true about anonymous classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They have no name"
+            },
+            {
+                "letter": "B",
+                "text": "They can extend a class or implement an interface"
+            },
+            {
+                "letter": "C",
+                "text": "They are defined and instantiated in a single expression"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Anonymous classes have no name, can extend a class or implement an interface, and are defined in a single expression."
+    },
+    {
+        "title": "JavaOOPClasses - Q0018",
+        "text": "Which of the following is true about abstract classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot be instantiated"
+            },
+            {
+                "letter": "B",
+                "text": "They can have abstract and non-abstract methods"
+            },
+            {
+                "letter": "C",
+                "text": "They are declared using the 'abstract' keyword"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Abstract classes cannot be instantiated, can have both abstract and non-abstract methods, and are declared using the 'abstract' keyword."
+    },
+    {
+        "title": "JavaOOPClasses - Q0019",
+        "text": "Which of the following is true about final classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot be subclassed"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot have methods"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be instantiated"
+            },
+            {
+                "letter": "D",
+                "text": "They must be abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Final classes cannot be subclassed or extended."
+    },
+    {
+        "title": "JavaOOPClasses - Q0020",
+        "text": "Which of the following is true about the Object class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is the superclass of all classes in Java"
+            },
+            {
+                "letter": "B",
+                "text": "It is a subclass of String"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot be extended"
+            },
+            {
+                "letter": "D",
+                "text": "It is an interface"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Object class is the root superclass of all classes in Java."
+    },
+    {
+        "title": "JavaOOPClasses - Q0021",
+        "text": "Which of the following methods is defined in the Object class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toString()"
+            },
+            {
+                "letter": "B",
+                "text": "equals()"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode()"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The Object class defines methods like toString(), equals(), and hashCode()."
+    },
+    {
+        "title": "JavaOOPClasses - Q0022",
+        "text": "Which of the following is true about class inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class can inherit from only one superclass"
+            },
+            {
+                "letter": "B",
+                "text": "A class can inherit from multiple superclasses"
+            },
+            {
+                "letter": "C",
+                "text": "A class cannot inherit from another class"
+            },
+            {
+                "letter": "D",
+                "text": "A class can inherit from multiple interfaces only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java supports single inheritance for classes but multiple inheritance through interfaces."
+    },
+    {
+        "title": "JavaOOPClasses - Q0023",
+        "text": "Which keyword is used to inherit a class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "extends"
+            },
+            {
+                "letter": "B",
+                "text": "implements"
+            },
+            {
+                "letter": "C",
+                "text": "inherits"
+            },
+            {
+                "letter": "D",
+                "text": "super"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'extends' keyword is used to inherit a class in Java."
+    },
+    {
+        "title": "JavaOOPClasses - Q0024",
+        "text": "Which keyword is used to call the parent class constructor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "this"
+            },
+            {
+                "letter": "B",
+                "text": "super"
+            },
+            {
+                "letter": "C",
+                "text": "parent"
+            },
+            {
+                "letter": "D",
+                "text": "base"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'super' keyword is used to call the parent class constructor."
+    },
+    {
+        "title": "JavaOOPClasses - Q0025",
+        "text": "Which of the following is true about the 'super' keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It refers to the parent class object"
+            },
+            {
+                "letter": "B",
+                "text": "It refers to the current object"
+            },
+            {
+                "letter": "C",
+                "text": "It refers to the static context"
+            },
+            {
+                "letter": "D",
+                "text": "It refers to the subclass"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword refers to the parent class object."
+    },
+    {
+        "title": "JavaOOPClasses - Q0026",
+        "text": "Which of the following is true about constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They have the same name as the class"
+            },
+            {
+                "letter": "B",
+                "text": "They have a return type"
+            },
+            {
+                "letter": "C",
+                "text": "They can be static"
+            },
+            {
+                "letter": "D",
+                "text": "They can be abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors have the same name as the class and no return type."
+    },
+    {
+        "title": "JavaOOPClasses - Q0027",
+        "text": "Which of the following is true about default constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are provided automatically if no constructor is defined"
+            },
+            {
+                "letter": "B",
+                "text": "They must be defined manually"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be overloaded"
+            },
+            {
+                "letter": "D",
+                "text": "They are always private"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If no constructor is defined, Java provides a default no-argument constructor."
+    },
+    {
+        "title": "JavaOOPClasses - Q0028",
+        "text": "Which of the following is true about parameterized constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They accept arguments to initialize objects"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot accept arguments"
+            },
+            {
+                "letter": "C",
+                "text": "They are static"
+            },
+            {
+                "letter": "D",
+                "text": "They are abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Parameterized constructors accept arguments to initialize object fields."
+    },
+    {
+        "title": "JavaOOPClasses - Q0029",
+        "text": "Which of the following is true about constructor overloading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class can have multiple constructors with different parameter lists"
+            },
+            {
+                "letter": "B",
+                "text": "A class can have only one constructor"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors cannot be overloaded"
+            },
+            {
+                "letter": "D",
+                "text": "Constructors must have the same parameters"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructor overloading allows multiple constructors with different parameter lists."
+    },
+    {
+        "title": "JavaOOPClasses - Q0030",
+        "text": "Which of the following is true about the 'final' keyword in classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It prevents inheritance"
+            },
+            {
+                "letter": "B",
+                "text": "It prevents object creation"
+            },
+            {
+                "letter": "C",
+                "text": "It prevents method overriding"
+            },
+            {
+                "letter": "D",
+                "text": "It prevents variable declaration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A final class cannot be extended by another class."
+    },
+    {
+        "title": "JavaOOPClasses - Q0031",
+        "text": "Which of the following is true about static nested classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They do not require an instance of the outer class"
+            },
+            {
+                "letter": "B",
+                "text": "They require an instance of the outer class"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot access static members of the outer class"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be private"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static nested classes do not require an instance of the outer class."
+    },
+    {
+        "title": "JavaOOPClasses - Q0032",
+        "text": "Which of the following is true about inner classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They require an instance of the outer class"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot access outer class members"
+            },
+            {
+                "letter": "C",
+                "text": "They must be static"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be private"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Inner classes require an instance of the outer class to be instantiated."
+    },
+    {
+        "title": "JavaOOPClasses - Q0033",
+        "text": "Which of the following is true about encapsulation in classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It hides data using private variables and public methods"
+            },
+            {
+                "letter": "B",
+                "text": "It exposes all data members"
+            },
+            {
+                "letter": "C",
+                "text": "It prevents object creation"
+            },
+            {
+                "letter": "D",
+                "text": "It disables inheritance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Encapsulation hides data using private variables and provides access through public methods."
+    },
+    {
+        "title": "JavaOOPClasses - Q0034",
+        "text": "Which of the following is true about data hiding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It restricts direct access to class fields"
+            },
+            {
+                "letter": "B",
+                "text": "It allows direct access to class fields"
+            },
+            {
+                "letter": "C",
+                "text": "It disables encapsulation"
+            },
+            {
+                "letter": "D",
+                "text": "It exposes private data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Data hiding restricts direct access to class fields using access modifiers."
+    },
+    {
+        "title": "JavaOOPClasses - Q0035",
+        "text": "Which of the following is true about access modifiers in classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They control visibility of class members"
+            },
+            {
+                "letter": "B",
+                "text": "They control memory allocation"
+            },
+            {
+                "letter": "C",
+                "text": "They control inheritance"
+            },
+            {
+                "letter": "D",
+                "text": "They control object creation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access modifiers control the visibility of class members."
+    },
+    {
+        "title": "JavaOOPClasses - Q0036",
+        "text": "Which of the following access modifiers allows access from anywhere?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "public"
+            },
+            {
+                "letter": "B",
+                "text": "private"
+            },
+            {
+                "letter": "C",
+                "text": "protected"
+            },
+            {
+                "letter": "D",
+                "text": "default"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The public access modifier allows access from anywhere in the program."
+    },
+    {
+        "title": "JavaOOPClasses - Q0037",
+        "text": "Which of the following access modifiers restricts access to the same class only?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "private"
+            },
+            {
+                "letter": "B",
+                "text": "public"
+            },
+            {
+                "letter": "C",
+                "text": "protected"
+            },
+            {
+                "letter": "D",
+                "text": "default"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The private access modifier restricts access to the same class only."
+    },
+    {
+        "title": "JavaOOPClasses - Q0038",
+        "text": "Which of the following access modifiers allows access within the same package?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "default"
+            },
+            {
+                "letter": "B",
+                "text": "private"
+            },
+            {
+                "letter": "C",
+                "text": "protected"
+            },
+            {
+                "letter": "D",
+                "text": "public"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The default access modifier allows access within the same package."
+    },
+    {
+        "title": "JavaOOPClasses - Q0039",
+        "text": "Which of the following access modifiers allows access in subclasses and same package?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "protected"
+            },
+            {
+                "letter": "B",
+                "text": "private"
+            },
+            {
+                "letter": "C",
+                "text": "default"
+            },
+            {
+                "letter": "D",
+                "text": "public"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The protected access modifier allows access in subclasses and within the same package."
+    },
+    {
+        "title": "JavaOOPClasses - Q0040",
+        "text": "Which of the following is true about method overloading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Methods with the same name but different parameters"
+            },
+            {
+                "letter": "B",
+                "text": "Methods with the same name and same parameters"
+            },
+            {
+                "letter": "C",
+                "text": "Methods with different names"
+            },
+            {
+                "letter": "D",
+                "text": "Methods with different return types only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Method overloading occurs when methods have the same name but different parameter lists."
+    },
+    {
+        "title": "JavaOOPClasses - Q0041",
+        "text": "Which of the following is true about method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A subclass provides a specific implementation of a superclass method"
+            },
+            {
+                "letter": "B",
+                "text": "A subclass hides a superclass method"
+            },
+            {
+                "letter": "C",
+                "text": "A subclass cannot override methods"
+            },
+            {
+                "letter": "D",
+                "text": "A subclass changes the method name"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Method overriding allows a subclass to provide a specific implementation of a superclass method."
+    },
+    {
+        "title": "JavaOOPClasses - Q0042",
+        "text": "Which of the following is true about the 'final' keyword in methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It prevents method overriding"
+            },
+            {
+                "letter": "B",
+                "text": "It prevents method overloading"
+            },
+            {
+                "letter": "C",
+                "text": "It prevents method calling"
+            },
+            {
+                "letter": "D",
+                "text": "It prevents method creation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A final method cannot be overridden by subclasses."
+    },
+    {
+        "title": "JavaOOPClasses - Q0043",
+        "text": "Which of the following is true about abstract methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They have no body"
+            },
+            {
+                "letter": "B",
+                "text": "They must be implemented by subclasses"
+            },
+            {
+                "letter": "C",
+                "text": "They are declared using the 'abstract' keyword"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Abstract methods have no body, must be implemented by subclasses, and are declared using 'abstract'."
+    },
+    {
+        "title": "JavaOOPClasses - Q0044",
+        "text": "Which of the following is true about static blocks?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are executed when the class is loaded"
+            },
+            {
+                "letter": "B",
+                "text": "They are executed when an object is created"
+            },
+            {
+                "letter": "C",
+                "text": "They are executed before constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Both A and C"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Static blocks are executed when the class is loaded, before any constructor."
+    },
+    {
+        "title": "JavaOOPClasses - Q0045",
+        "text": "Which of the following is true about instance blocks?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are executed before constructors for each object"
+            },
+            {
+                "letter": "B",
+                "text": "They are executed only once"
+            },
+            {
+                "letter": "C",
+                "text": "They are executed after constructors"
+            },
+            {
+                "letter": "D",
+                "text": "They are executed before static blocks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance blocks are executed before constructors for each object creation."
+    },
+    {
+        "title": "JavaOOPClasses - Q0046",
+        "text": "Which of the following is true about class loading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Classes are loaded by the ClassLoader"
+            },
+            {
+                "letter": "B",
+                "text": "Classes are loaded manually by the programmer"
+            },
+            {
+                "letter": "C",
+                "text": "Classes are loaded only at compile time"
+            },
+            {
+                "letter": "D",
+                "text": "Classes are not loaded in Java"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ClassLoader loads classes dynamically at runtime."
+    },
+    {
+        "title": "JavaOOPClasses - Q0047",
+        "text": "Which of the following is true about the main() method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is the entry point of a Java program"
+            },
+            {
+                "letter": "B",
+                "text": "It must be static"
+            },
+            {
+                "letter": "C",
+                "text": "It must return void"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The main() method is static, returns void, and serves as the entry point of a Java program."
+    },
+    {
+        "title": "JavaOOPClasses - Q0048",
+        "text": "Which of the following is true about object creation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Objects are created using the 'new' keyword"
+            },
+            {
+                "letter": "B",
+                "text": "Objects are created automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Objects are created using constructors only"
+            },
+            {
+                "letter": "D",
+                "text": "Objects are created using static methods only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Objects are created using the 'new' keyword, which calls the constructor."
+    },
+    {
+        "title": "JavaOOPClasses - Q0049",
+        "text": "Which of the following is true about garbage collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It automatically deletes unused objects"
+            },
+            {
+                "letter": "B",
+                "text": "It must be called manually"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes static variables"
+            },
+            {
+                "letter": "D",
+                "text": "It deletes classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Garbage collection automatically deletes unused objects to free memory."
+    },
+    {
+        "title": "JavaOOPClasses - Q0050",
+        "text": "Which of the following best describes a class in OOP?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A blueprint for creating objects with attributes and behaviors"
+            },
+            {
+                "letter": "B",
+                "text": "A single instance of an object"
+            },
+            {
+                "letter": "C",
+                "text": "A method collection only"
+            },
+            {
+                "letter": "D",
+                "text": "A variable container only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class is a blueprint for creating objects that define attributes and behaviors."
+    }
+]

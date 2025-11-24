@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaOOPObjects - Q0001",
+        "text": "What is an object in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An instance of a class"
+            },
+            {
+                "letter": "B",
+                "text": "A blueprint for a class"
+            },
+            {
+                "letter": "C",
+                "text": "A static variable"
+            },
+            {
+                "letter": "D",
+                "text": "A method"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An object is an instance of a class that contains data and methods."
+    },
+    {
+        "title": "JavaOOPObjects - Q0002",
+        "text": "Which keyword is used to create an object in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "create"
+            },
+            {
+                "letter": "B",
+                "text": "object"
+            },
+            {
+                "letter": "C",
+                "text": "new"
+            },
+            {
+                "letter": "D",
+                "text": "instance"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The 'new' keyword is used to create an object in Java."
+    },
+    {
+        "title": "JavaOOPObjects - Q0003",
+        "text": "Which of the following is true about objects?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Objects store data and behavior"
+            },
+            {
+                "letter": "B",
+                "text": "Objects only store data"
+            },
+            {
+                "letter": "C",
+                "text": "Objects only store methods"
+            },
+            {
+                "letter": "D",
+                "text": "Objects cannot store data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Objects store both data (fields) and behavior (methods)."
+    },
+    {
+        "title": "JavaOOPObjects - Q0004",
+        "text": "Which of the following is true about object references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They store the memory address of the object"
+            },
+            {
+                "letter": "B",
+                "text": "They store the object itself"
+            },
+            {
+                "letter": "C",
+                "text": "They store primitive values"
+            },
+            {
+                "letter": "D",
+                "text": "They store class definitions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Object references store the memory address of the object in the heap."
+    },
+    {
+        "title": "JavaOOPObjects - Q0005",
+        "text": "Where are objects stored in memory?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Stack"
+            },
+            {
+                "letter": "B",
+                "text": "Heap"
+            },
+            {
+                "letter": "C",
+                "text": "Method area"
+            },
+            {
+                "letter": "D",
+                "text": "Registers"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Objects are stored in the heap memory, while references are stored in the stack."
+    },
+    {
+        "title": "JavaOOPObjects - Q0006",
+        "text": "Which of the following is true about object creation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Objects are created using the 'new' keyword"
+            },
+            {
+                "letter": "B",
+                "text": "Objects are created automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Objects are created using constructors only"
+            },
+            {
+                "letter": "D",
+                "text": "Objects are created using static methods only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Objects are created using the 'new' keyword, which calls the constructor."
+    },
+    {
+        "title": "JavaOOPObjects - Q0007",
+        "text": "Which of the following is true about object initialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Constructors initialize objects"
+            },
+            {
+                "letter": "B",
+                "text": "Methods initialize objects"
+            },
+            {
+                "letter": "C",
+                "text": "Variables initialize objects"
+            },
+            {
+                "letter": "D",
+                "text": "Objects initialize themselves"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors are used to initialize objects when they are created."
+    },
+    {
+        "title": "JavaOOPObjects - Q0008",
+        "text": "Which of the following is true about object references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multiple references can point to the same object"
+            },
+            {
+                "letter": "B",
+                "text": "Each reference points to a unique object"
+            },
+            {
+                "letter": "C",
+                "text": "References cannot be reassigned"
+            },
+            {
+                "letter": "D",
+                "text": "References store primitive values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple references can point to the same object in memory."
+    },
+    {
+        "title": "JavaOOPObjects - Q0009",
+        "text": "Which of the following is true about null references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They do not point to any object"
+            },
+            {
+                "letter": "B",
+                "text": "They point to a default object"
+            },
+            {
+                "letter": "C",
+                "text": "They point to the Object class"
+            },
+            {
+                "letter": "D",
+                "text": "They are automatically initialized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A null reference does not point to any object in memory."
+    },
+    {
+        "title": "JavaOOPObjects - Q0010",
+        "text": "What happens when an object reference is set to null?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The object becomes eligible for garbage collection"
+            },
+            {
+                "letter": "B",
+                "text": "The object is deleted immediately"
+            },
+            {
+                "letter": "C",
+                "text": "The object is moved to the stack"
+            },
+            {
+                "letter": "D",
+                "text": "The object is copied"
+            }
+        ],
+        "correct": "A",
+        "explanation": "When an object reference is set to null, the object becomes eligible for garbage collection."
+    },
+    {
+        "title": "JavaOOPObjects - Q0011",
+        "text": "Which of the following is true about the 'this' keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It refers to the current object"
+            },
+            {
+                "letter": "B",
+                "text": "It refers to the parent object"
+            },
+            {
+                "letter": "C",
+                "text": "It refers to the static context"
+            },
+            {
+                "letter": "D",
+                "text": "It refers to the class itself"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'this' keyword refers to the current object of the class."
+    },
+    {
+        "title": "JavaOOPObjects - Q0012",
+        "text": "Which of the following is true about object equality?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The '==' operator compares references"
+            },
+            {
+                "letter": "B",
+                "text": "The equals() method compares content"
+            },
+            {
+                "letter": "C",
+                "text": "Both A and B"
+            },
+            {
+                "letter": "D",
+                "text": "Neither A nor B"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The '==' operator compares references, while equals() compares object content."
+    },
+    {
+        "title": "JavaOOPObjects - Q0013",
+        "text": "Which of the following is true about the Object class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is the superclass of all classes in Java"
+            },
+            {
+                "letter": "B",
+                "text": "It is a subclass of String"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot be extended"
+            },
+            {
+                "letter": "D",
+                "text": "It is an interface"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Object class is the root superclass of all classes in Java."
+    },
+    {
+        "title": "JavaOOPObjects - Q0014",
+        "text": "Which of the following methods is defined in the Object class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toString()"
+            },
+            {
+                "letter": "B",
+                "text": "equals()"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode()"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The Object class defines methods like toString(), equals(), and hashCode()."
+    },
+    {
+        "title": "JavaOOPObjects - Q0015",
+        "text": "Which of the following is true about the toString() method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It returns a string representation of the object"
+            },
+            {
+                "letter": "B",
+                "text": "It compares two objects"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes the object"
+            },
+            {
+                "letter": "D",
+                "text": "It initializes the object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The toString() method returns a string representation of the object."
+    },
+    {
+        "title": "JavaOOPObjects - Q0016",
+        "text": "Which of the following is true about the equals() method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It compares the content of two objects"
+            },
+            {
+                "letter": "B",
+                "text": "It compares the memory addresses of two objects"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes the object"
+            },
+            {
+                "letter": "D",
+                "text": "It initializes the object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares the content of two objects for equality."
+    },
+    {
+        "title": "JavaOOPObjects - Q0017",
+        "text": "Which of the following is true about the hashCode() method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It returns an integer hash code for the object"
+            },
+            {
+                "letter": "B",
+                "text": "It returns a string representation"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes the object"
+            },
+            {
+                "letter": "D",
+                "text": "It initializes the object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() method returns an integer hash code for the object."
+    },
+    {
+        "title": "JavaOOPObjects - Q0018",
+        "text": "Which of the following is true about object cloning?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It creates a copy of an existing object"
+            },
+            {
+                "letter": "B",
+                "text": "It deletes the object"
+            },
+            {
+                "letter": "C",
+                "text": "It initializes the object"
+            },
+            {
+                "letter": "D",
+                "text": "It compares two objects"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Object cloning creates a copy of an existing object using the clone() method."
+    },
+    {
+        "title": "JavaOOPObjects - Q0019",
+        "text": "Which interface must a class implement to allow cloning?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cloneable"
+            },
+            {
+                "letter": "B",
+                "text": "Serializable"
+            },
+            {
+                "letter": "C",
+                "text": "Comparable"
+            },
+            {
+                "letter": "D",
+                "text": "Runnable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class must implement the Cloneable interface to allow cloning."
+    },
+    {
+        "title": "JavaOOPObjects - Q0020",
+        "text": "Which of the following is true about garbage collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It automatically deletes unused objects"
+            },
+            {
+                "letter": "B",
+                "text": "It must be called manually"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes static variables"
+            },
+            {
+                "letter": "D",
+                "text": "It deletes classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Garbage collection automatically deletes unused objects to free memory."
+    },
+    {
+        "title": "JavaOOPObjects - Q0021",
+        "text": "Which method is called by the garbage collector before destroying an object?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "finalize()"
+            },
+            {
+                "letter": "B",
+                "text": "destroy()"
+            },
+            {
+                "letter": "C",
+                "text": "delete()"
+            },
+            {
+                "letter": "D",
+                "text": "dispose()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The finalize() method is called by the garbage collector before destroying an object."
+    },
+    {
+        "title": "JavaOOPObjects - Q0022",
+        "text": "Which of the following is true about object references in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be reassigned to another object"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be reassigned"
+            },
+            {
+                "letter": "C",
+                "text": "They store primitive values"
+            },
+            {
+                "letter": "D",
+                "text": "They are immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Object references can be reassigned to point to another object."
+    },
+    {
+        "title": "JavaOOPObjects - Q0023",
+        "text": "Which of the following is true about object comparison using '=='?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It compares memory addresses"
+            },
+            {
+                "letter": "B",
+                "text": "It compares object content"
+            },
+            {
+                "letter": "C",
+                "text": "It compares hash codes"
+            },
+            {
+                "letter": "D",
+                "text": "It compares class names"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '==' operator compares the memory addresses of two object references."
+    },
+    {
+        "title": "JavaOOPObjects - Q0024",
+        "text": "Which of the following is true about object comparison using equals()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It compares object content"
+            },
+            {
+                "letter": "B",
+                "text": "It compares memory addresses"
+            },
+            {
+                "letter": "C",
+                "text": "It compares class names"
+            },
+            {
+                "letter": "D",
+                "text": "It compares hash codes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares the content of two objects for equality."
+    },
+    {
+        "title": "JavaOOPObjects - Q0025",
+        "text": "Which of the following is true about object serialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It converts an object into a byte stream"
+            },
+            {
+                "letter": "B",
+                "text": "It deletes an object"
+            },
+            {
+                "letter": "C",
+                "text": "It initializes an object"
+            },
+            {
+                "letter": "D",
+                "text": "It compares two objects"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serialization converts an object into a byte stream for storage or transmission."
+    },
+    {
+        "title": "JavaOOPObjects - Q0026",
+        "text": "Which interface must a class implement to allow serialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Serializable"
+            },
+            {
+                "letter": "B",
+                "text": "Cloneable"
+            },
+            {
+                "letter": "C",
+                "text": "Comparable"
+            },
+            {
+                "letter": "D",
+                "text": "Runnable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class must implement the Serializable interface to allow serialization."
+    },
+    {
+        "title": "JavaOOPObjects - Q0027",
+        "text": "Which of the following is true about object deserialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It reconstructs an object from a byte stream"
+            },
+            {
+                "letter": "B",
+                "text": "It deletes an object"
+            },
+            {
+                "letter": "C",
+                "text": "It initializes an object"
+            },
+            {
+                "letter": "D",
+                "text": "It compares two objects"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deserialization reconstructs an object from a byte stream."
+    },
+    {
+        "title": "JavaOOPObjects - Q0028",
+        "text": "Which of the following is true about object identity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Two references pointing to the same object have the same identity"
+            },
+            {
+                "letter": "B",
+                "text": "Two objects with the same content have the same identity"
+            },
+            {
+                "letter": "C",
+                "text": "All objects have the same identity"
+            },
+            {
+                "letter": "D",
+                "text": "Identity is determined by equals()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Object identity means two references point to the same memory location."
+    },
+    {
+        "title": "JavaOOPObjects - Q0029",
+        "text": "Which of the following is true about object state?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is defined by the values of its fields"
+            },
+            {
+                "letter": "B",
+                "text": "It is defined by its methods"
+            },
+            {
+                "letter": "C",
+                "text": "It is defined by its class name"
+            },
+            {
+                "letter": "D",
+                "text": "It is defined by its memory address"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The state of an object is defined by the values of its instance variables."
+    },
+    {
+        "title": "JavaOOPObjects - Q0030",
+        "text": "Which of the following is true about object behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is defined by the methods of the class"
+            },
+            {
+                "letter": "B",
+                "text": "It is defined by the fields of the class"
+            },
+            {
+                "letter": "C",
+                "text": "It is defined by the constructor"
+            },
+            {
+                "letter": "D",
+                "text": "It is defined by the memory address"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The behavior of an object is defined by the methods of its class."
+    },
+    {
+        "title": "JavaOOPObjects - Q0031",
+        "text": "Which of the following is true about object lifetime?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It begins when the object is created and ends when it is garbage collected"
+            },
+            {
+                "letter": "B",
+                "text": "It begins when the class is loaded"
+            },
+            {
+                "letter": "C",
+                "text": "It begins when the program starts"
+            },
+            {
+                "letter": "D",
+                "text": "It ends when the program ends"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An object's lifetime starts when it is created and ends when it is garbage collected."
+    },
+    {
+        "title": "JavaOOPObjects - Q0032",
+        "text": "Which of the following is true about object references and garbage collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An object is eligible for garbage collection when no references point to it"
+            },
+            {
+                "letter": "B",
+                "text": "An object is deleted immediately when set to null"
+            },
+            {
+                "letter": "C",
+                "text": "An object is never garbage collected"
+            },
+            {
+                "letter": "D",
+                "text": "An object is garbage collected when equals() returns false"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An object becomes eligible for garbage collection when no references point to it."
+    },
+    {
+        "title": "JavaOOPObjects - Q0033",
+        "text": "Which of the following is true about object arrays?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can store multiple objects of the same type"
+            },
+            {
+                "letter": "B",
+                "text": "They can store only primitive types"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot store objects"
+            },
+            {
+                "letter": "D",
+                "text": "They can store objects of different types"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Object arrays can store multiple objects of the same type."
+    },
+    {
+        "title": "JavaOOPObjects - Q0034",
+        "text": "Which of the following is true about object casting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It converts one object type to another compatible type"
+            },
+            {
+                "letter": "B",
+                "text": "It deletes the object"
+            },
+            {
+                "letter": "C",
+                "text": "It initializes the object"
+            },
+            {
+                "letter": "D",
+                "text": "It compares two objects"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Object casting converts one object type to another compatible type."
+    },
+    {
+        "title": "JavaOOPObjects - Q0035",
+        "text": "Which of the following is true about upcasting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It converts a subclass reference to a superclass reference"
+            },
+            {
+                "letter": "B",
+                "text": "It converts a superclass reference to a subclass reference"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes the object"
+            },
+            {
+                "letter": "D",
+                "text": "It initializes the object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Upcasting converts a subclass reference to a superclass reference."
+    },
+    {
+        "title": "JavaOOPObjects - Q0036",
+        "text": "Which of the following is true about downcasting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It converts a superclass reference to a subclass reference"
+            },
+            {
+                "letter": "B",
+                "text": "It converts a subclass reference to a superclass reference"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes the object"
+            },
+            {
+                "letter": "D",
+                "text": "It initializes the object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Downcasting converts a superclass reference to a subclass reference."
+    },
+    {
+        "title": "JavaOOPObjects - Q0037",
+        "text": "Which of the following is true about instanceof operator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It checks whether an object is an instance of a class"
+            },
+            {
+                "letter": "B",
+                "text": "It creates an object"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes an object"
+            },
+            {
+                "letter": "D",
+                "text": "It initializes an object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The instanceof operator checks whether an object is an instance of a specific class."
+    },
+    {
+        "title": "JavaOOPObjects - Q0038",
+        "text": "Which of the following is true about object immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Immutable objects cannot be modified after creation"
+            },
+            {
+                "letter": "B",
+                "text": "Immutable objects can be modified"
+            },
+            {
+                "letter": "C",
+                "text": "Immutable objects are deleted automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Immutable objects are always static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Immutable objects cannot be modified after creation; String is an example."
+    },
+    {
+        "title": "JavaOOPObjects - Q0039",
+        "text": "Which of the following is true about object mutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Mutable objects can be modified after creation"
+            },
+            {
+                "letter": "B",
+                "text": "Mutable objects cannot be modified"
+            },
+            {
+                "letter": "C",
+                "text": "Mutable objects are deleted automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Mutable objects are always static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Mutable objects can be modified after creation, such as StringBuilder."
+    },
+    {
+        "title": "JavaOOPObjects - Q0040",
+        "text": "Which of the following is true about object references and methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Objects are passed by reference in Java"
+            },
+            {
+                "letter": "B",
+                "text": "Objects are passed by value of reference"
+            },
+            {
+                "letter": "C",
+                "text": "Objects are passed by copy"
+            },
+            {
+                "letter": "D",
+                "text": "Objects cannot be passed to methods"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Objects are passed by value of reference, meaning the reference is copied."
+    },
+    {
+        "title": "JavaOOPObjects - Q0041",
+        "text": "Which of the following is true about object arrays and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An array of superclass type can hold subclass objects"
+            },
+            {
+                "letter": "B",
+                "text": "An array of subclass type can hold superclass objects"
+            },
+            {
+                "letter": "C",
+                "text": "Arrays cannot hold objects"
+            },
+            {
+                "letter": "D",
+                "text": "Arrays cannot use inheritance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An array of superclass type can hold subclass objects due to polymorphism."
+    },
+    {
+        "title": "JavaOOPObjects - Q0042",
+        "text": "Which of the following is true about object references and null pointer exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Accessing a null reference causes a NullPointerException"
+            },
+            {
+                "letter": "B",
+                "text": "Null references are automatically handled"
+            },
+            {
+                "letter": "C",
+                "text": "Null references are deleted automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Null references are converted to empty objects"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Accessing a null reference causes a NullPointerException in Java."
+    },
+    {
+        "title": "JavaOOPObjects - Q0043",
+        "text": "Which of the following is true about object pooling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It reuses objects to improve performance"
+            },
+            {
+                "letter": "B",
+                "text": "It deletes objects automatically"
+            },
+            {
+                "letter": "C",
+                "text": "It prevents object creation"
+            },
+            {
+                "letter": "D",
+                "text": "It disables garbage collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Object pooling reuses objects to reduce memory allocation overhead."
+    },
+    {
+        "title": "JavaOOPObjects - Q0044",
+        "text": "Which of the following is true about wrapper objects?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They wrap primitive types into objects"
+            },
+            {
+                "letter": "B",
+                "text": "They unwrap objects into primitives"
+            },
+            {
+                "letter": "C",
+                "text": "They are used only for strings"
+            },
+            {
+                "letter": "D",
+                "text": "They are used for arrays only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Wrapper classes wrap primitive types into objects, e.g., Integer, Double."
+    },
+    {
+        "title": "JavaOOPObjects - Q0045",
+        "text": "Which of the following is true about autoboxing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It automatically converts primitives to wrapper objects"
+            },
+            {
+                "letter": "B",
+                "text": "It converts wrapper objects to primitives"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes wrapper objects"
+            },
+            {
+                "letter": "D",
+                "text": "It disables garbage collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Autoboxing automatically converts primitives to wrapper objects."
+    },
+    {
+        "title": "JavaOOPObjects - Q0046",
+        "text": "Which of the following is true about unboxing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It automatically converts wrapper objects to primitives"
+            },
+            {
+                "letter": "B",
+                "text": "It converts primitives to wrapper objects"
+            },
+            {
+                "letter": "C",
+                "text": "It deletes wrapper objects"
+            },
+            {
+                "letter": "D",
+                "text": "It disables garbage collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Unboxing automatically converts wrapper objects to primitive types."
+    },
+    {
+        "title": "JavaOOPObjects - Q0047",
+        "text": "Which of the following is true about object references and static members?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static members belong to the class, not to any object"
+            },
+            {
+                "letter": "B",
+                "text": "Static members belong to each object"
+            },
+            {
+                "letter": "C",
+                "text": "Static members are deleted with objects"
+            },
+            {
+                "letter": "D",
+                "text": "Static members cannot be accessed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static members belong to the class itself, not to any specific object."
+    },
+    {
+        "title": "JavaOOPObjects - Q0048",
+        "text": "Which of the following is true about object references and methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Methods can be called using object references"
+            },
+            {
+                "letter": "B",
+                "text": "Methods cannot be called using object references"
+            },
+            {
+                "letter": "C",
+                "text": "Methods are static only"
+            },
+            {
+                "letter": "D",
+                "text": "Methods are deleted with objects"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can be called using object references."
+    },
+    {
+        "title": "JavaOOPObjects - Q0049",
+        "text": "Which of the following is true about object creation using reflection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Objects can be created dynamically using Class.newInstance()"
+            },
+            {
+                "letter": "B",
+                "text": "Objects cannot be created dynamically"
+            },
+            {
+                "letter": "C",
+                "text": "Reflection deletes objects"
+            },
+            {
+                "letter": "D",
+                "text": "Reflection disables constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Reflection allows dynamic object creation using Class.newInstance()."
+    },
+    {
+        "title": "JavaOOPObjects - Q0050",
+        "text": "Which of the following best describes an object in OOP?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A real-world entity with state and behavior"
+            },
+            {
+                "letter": "B",
+                "text": "A static variable"
+            },
+            {
+                "letter": "C",
+                "text": "A method"
+            },
+            {
+                "letter": "D",
+                "text": "A primitive type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An object represents a real-world entity with state (fields) and behavior (methods)."
+    }
+]
