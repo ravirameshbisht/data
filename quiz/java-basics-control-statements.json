@@ -1,7 +1,7 @@
 [
     {
         "title": "JavaControlStatements - Q0001",
-        "text": "[Java Basics - Control Statements] Which of the following is a conditional control statement in Java?",
+        "text": "Which of the following is a conditional control statement in Java?",
         "options": [
             {
                 "letter": "A",
@@ -25,7 +25,7 @@
     },
     {
         "title": "JavaControlStatements - Q0002",
-        "text": "[Java Basics - Control Statements] Which of the following is an iterative control statement?",
+        "text": "Which of the following is an iterative control statement?",
         "options": [
             {
                 "letter": "A",
@@ -49,7 +49,7 @@
     },
     {
         "title": "JavaControlStatements - Q0003",
-        "text": "[Java Basics - Control Statements] Which statement is used to terminate a loop prematurely?",
+        "text": "Which statement is used to terminate a loop prematurely?",
         "options": [
             {
                 "letter": "A",
@@ -73,7 +73,7 @@
     },
     {
         "title": "JavaControlStatements - Q0004",
-        "text": "[Java Basics - Control Statements] Which statement skips the current iteration of a loop?",
+        "text": "Which statement skips the current iteration of a loop?",
         "options": [
             {
                 "letter": "A",
@@ -97,7 +97,7 @@
     },
     {
         "title": "JavaControlStatements - Q0005",
-        "text": "[Java Basics - Control Statements] Which statement is used to exit from a method?",
+        "text": "Which statement is used to exit from a method?",
         "options": [
             {
                 "letter": "A",
@@ -121,7 +121,7 @@
     },
     {
         "title": "JavaControlStatements - Q0006",
-        "text": "[Java Basics - Control Statements] Which statement is used to handle multiple conditions efficiently?",
+        "text": "Which statement is used to handle multiple conditions efficiently?",
         "options": [
             {
                 "letter": "A",
@@ -145,7 +145,7 @@
     },
     {
         "title": "JavaControlStatements - Q0007",
-        "text": "[Java Basics - Control Statements] Which keyword is used to specify a default case in a switch statement?",
+        "text": "Which keyword is used to specify a default case in a switch statement?",
         "options": [
             {
                 "letter": "A",
@@ -169,7 +169,7 @@
     },
     {
         "title": "JavaControlStatements - Q0008",
-        "text": "[Java Basics - Control Statements] Which loop executes at least once regardless of the condition?",
+        "text": "Which loop executes at least once regardless of the condition?",
         "options": [
             {
                 "letter": "A",
@@ -193,7 +193,7 @@
     },
     {
         "title": "JavaControlStatements - Q0009",
-        "text": "[Java Basics - Control Statements] Which loop is best suited when the number of iterations is known?",
+        "text": "Which loop is best suited when the number of iterations is known?",
         "options": [
             {
                 "letter": "A",
@@ -217,7 +217,7 @@
     },
     {
         "title": "JavaControlStatements - Q0010",
-        "text": "[Java Basics - Control Statements] Which loop is best suited when the number of iterations is unknown?",
+        "text": "Which loop is best suited when the number of iterations is unknown?",
         "options": [
             {
                 "letter": "A",
@@ -241,7 +241,7 @@
     },
     {
         "title": "JavaControlStatements - Q0011",
-        "text": "[Java Basics - Control Statements] Which statement is used to handle exceptions?",
+        "text": "Which statement is used to handle exceptions?",
         "options": [
             {
                 "letter": "A",
@@ -265,7 +265,7 @@
     },
     {
         "title": "JavaControlStatements - Q0012",
-        "text": "[Java Basics - Control Statements] Which block always executes after try-catch?",
+        "text": "Which block always executes after try-catch?",
         "options": [
             {
                 "letter": "A",
@@ -289,7 +289,7 @@
     },
     {
         "title": "JavaControlStatements - Q0013",
-        "text": "[Java Basics - Control Statements] Which statement is used to throw an exception manually?",
+        "text": "Which statement is used to throw an exception manually?",
         "options": [
             {
                 "letter": "A",
@@ -313,7 +313,7 @@
     },
     {
         "title": "JavaControlStatements - Q0014",
-        "text": "[Java Basics - Control Statements] Which keyword is used in a method signature to declare exceptions?",
+        "text": "Which keyword is used in a method signature to declare exceptions?",
         "options": [
             {
                 "letter": "A",
@@ -337,7 +337,7 @@
     },
     {
         "title": "JavaControlStatements - Q0015",
-        "text": "[Java Basics - Control Statements] Which statement is used to handle multiple conditions compactly?",
+        "text": "Which statement is used to handle multiple conditions compactly?",
         "options": [
             {
                 "letter": "A",
@@ -361,7 +361,7 @@
     },
     {
         "title": "JavaControlStatements - Q0016",
-        "text": "[Java Basics - Control Statements] Which statement is used to exit from multiple nested loops?",
+        "text": "Which statement is used to exit from multiple nested loops?",
         "options": [
             {
                 "letter": "A",
@@ -385,7 +385,7 @@
     },
     {
         "title": "JavaControlStatements - Q0017",
-        "text": "[Java Basics - Control Statements] Which statement transfers control to the next iteration of the labeled loop?",
+        "text": "Which statement transfers control to the next iteration of the labeled loop?",
         "options": [
             {
                 "letter": "A",
@@ -409,7 +409,7 @@
     },
     {
         "title": "JavaControlStatements - Q0018",
-        "text": "[Java Basics - Control Statements] Which statement is used to terminate the program execution?",
+        "text": "Which statement is used to terminate the program execution?",
         "options": [
             {
                 "letter": "A",
@@ -433,7 +433,7 @@
     },
     {
         "title": "JavaControlStatements - Q0019",
-        "text": "[Java Basics - Control Statements] Which statement is used to handle multiple exceptions in one block?",
+        "text": "Which statement is used to handle multiple exceptions in one block?",
         "options": [
             {
                 "letter": "A",
@@ -457,7 +457,7 @@
     },
     {
         "title": "JavaControlStatements - Q0020",
-        "text": "[Java Basics - Control Statements] Which statement is used to rethrow an exception after handling it?",
+        "text": "Which statement is used to rethrow an exception after handling it?",
         "options": [
             {
                 "letter": "A",
@@ -481,7 +481,7 @@
     },
     {
         "title": "JavaControlStatements - Q0021",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the if-else statement?",
+        "text": "Which of the following is true about the if-else statement?",
         "options": [
             {
                 "letter": "A",
@@ -505,7 +505,7 @@
     },
     {
         "title": "JavaControlStatements - Q0022",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the switch statement?",
+        "text": "Which of the following is true about the switch statement?",
         "options": [
             {
                 "letter": "A",
@@ -529,7 +529,7 @@
     },
     {
         "title": "JavaControlStatements - Q0023",
-        "text": "[Java Basics - Control Statements] What happens if break is omitted in a switch case?",
+        "text": "What happens if break is omitted in a switch case?",
         "options": [
             {
                 "letter": "A",
@@ -553,7 +553,7 @@
     },
     {
         "title": "JavaControlStatements - Q0024",
-        "text": "[Java Basics - Control Statements] Which of the following is a valid for loop syntax?",
+        "text": "Which of the following is a valid for loop syntax?",
         "options": [
             {
                 "letter": "A",
@@ -577,7 +577,7 @@
     },
     {
         "title": "JavaControlStatements - Q0025",
-        "text": "[Java Basics - Control Statements] Which of the following is a valid while loop syntax?",
+        "text": "Which of the following is a valid while loop syntax?",
         "options": [
             {
                 "letter": "A",
@@ -601,7 +601,7 @@
     },
     {
         "title": "JavaControlStatements - Q0026",
-        "text": "[Java Basics - Control Statements] Which of the following is a valid do-while loop syntax?",
+        "text": "Which of the following is a valid do-while loop syntax?",
         "options": [
             {
                 "letter": "A",
@@ -625,7 +625,7 @@
     },
     {
         "title": "JavaControlStatements - Q0027",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the for-each loop?",
+        "text": "Which of the following is true about the for-each loop?",
         "options": [
             {
                 "letter": "A",
@@ -649,7 +649,7 @@
     },
     {
         "title": "JavaControlStatements - Q0028",
-        "text": "[Java Basics - Control Statements] Which of the following is a valid for-each loop syntax?",
+        "text": "Which of the following is a valid for-each loop syntax?",
         "options": [
             {
                 "letter": "A",
@@ -673,7 +673,7 @@
     },
     {
         "title": "JavaControlStatements - Q0029",
-        "text": "[Java Basics - Control Statements] Which of the following statements about break and continue is true?",
+        "text": "Which of the following statements about break and continue is true?",
         "options": [
             {
                 "letter": "A",
@@ -697,7 +697,7 @@
     },
     {
         "title": "JavaControlStatements - Q0030",
-        "text": "[Java Basics - Control Statements] Which of the following is true about nested loops?",
+        "text": "Which of the following is true about nested loops?",
         "options": [
             {
                 "letter": "A",
@@ -721,7 +721,7 @@
     },
     {
         "title": "JavaControlStatements - Q0031",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the ternary operator?",
+        "text": "Which of the following is true about the ternary operator?",
         "options": [
             {
                 "letter": "A",
@@ -745,7 +745,7 @@
     },
     {
         "title": "JavaControlStatements - Q0032",
-        "text": "[Java Basics - Control Statements] Which of the following is true about labeled loops?",
+        "text": "Which of the following is true about labeled loops?",
         "options": [
             {
                 "letter": "A",
@@ -769,7 +769,7 @@
     },
     {
         "title": "JavaControlStatements - Q0033",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the return statement?",
+        "text": "Which of the following is true about the return statement?",
         "options": [
             {
                 "letter": "A",
@@ -793,7 +793,7 @@
     },
     {
         "title": "JavaControlStatements - Q0034",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the switch statement in Java 14 and later?",
+        "text": "Which of the following is true about the switch statement in Java 14 and later?",
         "options": [
             {
                 "letter": "A",
@@ -817,7 +817,7 @@
     },
     {
         "title": "JavaControlStatements - Q0035",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the while loop?",
+        "text": "Which of the following is true about the while loop?",
         "options": [
             {
                 "letter": "A",
@@ -841,7 +841,7 @@
     },
     {
         "title": "JavaControlStatements - Q0036",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the do-while loop?",
+        "text": "Which of the following is true about the do-while loop?",
         "options": [
             {
                 "letter": "A",
@@ -865,7 +865,7 @@
     },
     {
         "title": "JavaControlStatements - Q0037",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the for loop?",
+        "text": "Which of the following is true about the for loop?",
         "options": [
             {
                 "letter": "A",
@@ -889,7 +889,7 @@
     },
     {
         "title": "JavaControlStatements - Q0038",
-        "text": "[Java Basics - Control Statements] Which of the following is true about infinite loops?",
+        "text": "Which of the following is true about infinite loops?",
         "options": [
             {
                 "letter": "A",
@@ -913,7 +913,7 @@
     },
     {
         "title": "JavaControlStatements - Q0039",
-        "text": "[Java Basics - Control Statements] Which of the following is true about nested if statements?",
+        "text": "Which of the following is true about nested if statements?",
         "options": [
             {
                 "letter": "A",
@@ -937,7 +937,7 @@
     },
     {
         "title": "JavaControlStatements - Q0040",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the break statement?",
+        "text": "Which of the following is true about the break statement?",
         "options": [
             {
                 "letter": "A",
@@ -961,7 +961,7 @@
     },
     {
         "title": "JavaControlStatements - Q0041",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the continue statement?",
+        "text": "Which of the following is true about the continue statement?",
         "options": [
             {
                 "letter": "A",
@@ -985,7 +985,7 @@
     },
     {
         "title": "JavaControlStatements - Q0042",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the return statement in a void method?",
+        "text": "Which of the following is true about the return statement in a void method?",
         "options": [
             {
                 "letter": "A",
@@ -1009,7 +1009,7 @@
     },
     {
         "title": "JavaControlStatements - Q0043",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the switch statement fall-through behavior?",
+        "text": "Which of the following is true about the switch statement fall-through behavior?",
         "options": [
             {
                 "letter": "A",
@@ -1033,7 +1033,7 @@
     },
     {
         "title": "JavaControlStatements - Q0044",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the default case in a switch statement?",
+        "text": "Which of the following is true about the default case in a switch statement?",
         "options": [
             {
                 "letter": "A",
@@ -1057,7 +1057,7 @@
     },
     {
         "title": "JavaControlStatements - Q0045",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the enhanced switch expression?",
+        "text": "Which of the following is true about the enhanced switch expression?",
         "options": [
             {
                 "letter": "A",
@@ -1081,7 +1081,7 @@
     },
     {
         "title": "JavaControlStatements - Q0046",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the if statement?",
+        "text": "Which of the following is true about the if statement?",
         "options": [
             {
                 "letter": "A",
@@ -1105,7 +1105,7 @@
     },
     {
         "title": "JavaControlStatements - Q0047",
-        "text": "[Java Basics - Control Statements] Which of the following is true about nested switch statements?",
+        "text": "Which of the following is true about nested switch statements?",
         "options": [
             {
                 "letter": "A",
@@ -1129,7 +1129,7 @@
     },
     {
         "title": "JavaControlStatements - Q0048",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the for-each loop?",
+        "text": "Which of the following is true about the for-each loop?",
         "options": [
             {
                 "letter": "A",
@@ -1153,7 +1153,7 @@
     },
     {
         "title": "JavaControlStatements - Q0049",
-        "text": "[Java Basics - Control Statements] Which of the following is true about the break statement in nested loops?",
+        "text": "Which of the following is true about the break statement in nested loops?",
         "options": [
             {
                 "letter": "A",
@@ -1177,7 +1177,7 @@
     },
     {
         "title": "JavaControlStatements - Q0050",
-        "text": "[Java Basics - Control Statements] Which of the following best describes control statements in Java?",
+        "text": "Which of the following best describes control statements in Java?",
         "options": [
             {
                 "letter": "A",

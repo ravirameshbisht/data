@@ -1,7 +1,7 @@
 [
     {
         "title": "JavaVariables - Q0001",
-        "text": "[Java Basics - Variables] What is a variable in Java?",
+        "text": "What is a variable in Java?",
         "options": [
             {
                 "letter": "A",
@@ -25,7 +25,7 @@
     },
     {
         "title": "JavaVariables - Q0002",
-        "text": "[Java Basics - Variables] Which keyword is used to declare a variable in Java?",
+        "text": "Which keyword is used to declare a variable in Java?",
         "options": [
             {
                 "letter": "A",
@@ -49,7 +49,7 @@
     },
     {
         "title": "JavaVariables - Q0003",
-        "text": "[Java Basics - Variables] Which of the following is a valid variable declaration?",
+        "text": "Which of the following is a valid variable declaration?",
         "options": [
             {
                 "letter": "A",
@@ -73,7 +73,7 @@
     },
     {
         "title": "JavaVariables - Q0004",
-        "text": "[Java Basics - Variables] Which of the following is not a valid variable name?",
+        "text": "Which of the following is not a valid variable name?",
         "options": [
             {
                 "letter": "A",
@@ -97,7 +97,7 @@
     },
     {
         "title": "JavaVariables - Q0005",
-        "text": "[Java Basics - Variables] What is the default value of an int variable in Java?",
+        "text": "What is the default value of an int variable in Java?",
         "options": [
             {
                 "letter": "A",
@@ -121,7 +121,7 @@
     },
     {
         "title": "JavaVariables - Q0006",
-        "text": "[Java Basics - Variables] What is the default value of a boolean variable?",
+        "text": "What is the default value of a boolean variable?",
         "options": [
             {
                 "letter": "A",
@@ -145,7 +145,7 @@
     },
     {
         "title": "JavaVariables - Q0007",
-        "text": "[Java Basics - Variables] What is the default value of a reference variable?",
+        "text": "What is the default value of a reference variable?",
         "options": [
             {
                 "letter": "A",
@@ -169,7 +169,7 @@
     },
     {
         "title": "JavaVariables - Q0008",
-        "text": "[Java Basics - Variables] Which of the following is a valid way to declare multiple variables of the same type?",
+        "text": "Which of the following is a valid way to declare multiple variables of the same type?",
         "options": [
             {
                 "letter": "A",
@@ -193,7 +193,7 @@
     },
     {
         "title": "JavaVariables - Q0009",
-        "text": "[Java Basics - Variables] Which of the following is a valid variable initialization?",
+        "text": "Which of the following is a valid variable initialization?",
         "options": [
             {
                 "letter": "A",
@@ -217,7 +217,7 @@
     },
     {
         "title": "JavaVariables - Q0010",
-        "text": "[Java Basics - Variables] Which of the following is a valid variable name in Java?",
+        "text": "Which of the following is a valid variable name in Java?",
         "options": [
             {
                 "letter": "A",
@@ -241,7 +241,7 @@
     },
     {
         "title": "JavaVariables - Q0011",
-        "text": "[Java Basics - Variables] Which of the following is a primitive data type variable?",
+        "text": "Which of the following is a primitive data type variable?",
         "options": [
             {
                 "letter": "A",
@@ -265,7 +265,7 @@
     },
     {
         "title": "JavaVariables - Q0012",
-        "text": "[Java Basics - Variables] Which of the following is a reference type variable?",
+        "text": "Which of the following is a reference type variable?",
         "options": [
             {
                 "letter": "A",
@@ -289,7 +289,7 @@
     },
     {
         "title": "JavaVariables - Q0013",
-        "text": "[Java Basics - Variables] Which of the following statements declares a constant variable?",
+        "text": "Which of the following statements declares a constant variable?",
         "options": [
             {
                 "letter": "A",
@@ -313,7 +313,7 @@
     },
     {
         "title": "JavaVariables - Q0014",
-        "text": "[Java Basics - Variables] What is the scope of a local variable?",
+        "text": "What is the scope of a local variable?",
         "options": [
             {
                 "letter": "A",
@@ -337,7 +337,7 @@
     },
     {
         "title": "JavaVariables - Q0015",
-        "text": "[Java Basics - Variables] What is the scope of an instance variable?",
+        "text": "What is the scope of an instance variable?",
         "options": [
             {
                 "letter": "A",
@@ -361,7 +361,7 @@
     },
     {
         "title": "JavaVariables - Q0016",
-        "text": "[Java Basics - Variables] What is the scope of a static variable?",
+        "text": "What is the scope of a static variable?",
         "options": [
             {
                 "letter": "A",
@@ -385,7 +385,7 @@
     },
     {
         "title": "JavaVariables - Q0017",
-        "text": "[Java Basics - Variables] Which of the following is true about static variables?",
+        "text": "Which of the following is true about static variables?",
         "options": [
             {
                 "letter": "A",
@@ -409,7 +409,7 @@
     },
     {
         "title": "JavaVariables - Q0018",
-        "text": "[Java Basics - Variables] Which of the following is true about instance variables?",
+        "text": "Which of the following is true about instance variables?",
         "options": [
             {
                 "letter": "A",
@@ -433,7 +433,7 @@
     },
     {
         "title": "JavaVariables - Q0019",
-        "text": "[Java Basics - Variables] Which of the following is true about local variables?",
+        "text": "Which of the following is true about local variables?",
         "options": [
             {
                 "letter": "A",
@@ -457,7 +457,7 @@
     },
     {
         "title": "JavaVariables - Q0020",
-        "text": "[Java Basics - Variables] Which of the following can be used to access a static variable?",
+        "text": "Which of the following can be used to access a static variable?",
         "options": [
             {
                 "letter": "A",
@@ -481,7 +481,7 @@
     },
     {
         "title": "JavaVariables - Q0021",
-        "text": "[Java Basics - Variables] Which of the following is true about final variables?",
+        "text": "Which of the following is true about final variables?",
         "options": [
             {
                 "letter": "A",
@@ -505,7 +505,7 @@
     },
     {
         "title": "JavaVariables - Q0022",
-        "text": "[Java Basics - Variables] Which of the following is a valid declaration of a static variable?",
+        "text": "Which of the following is a valid declaration of a static variable?",
         "options": [
             {
                 "letter": "A",
@@ -529,7 +529,7 @@
     },
     {
         "title": "JavaVariables - Q0023",
-        "text": "[Java Basics - Variables] Which of the following is true about variable naming conventions in Java?",
+        "text": "Which of the following is true about variable naming conventions in Java?",
         "options": [
             {
                 "letter": "A",
@@ -553,7 +553,7 @@
     },
     {
         "title": "JavaVariables - Q0024",
-        "text": "[Java Basics - Variables] Which of the following is a valid variable name?",
+        "text": "Which of the following is a valid variable name?",
         "options": [
             {
                 "letter": "A",
@@ -577,7 +577,7 @@
     },
     {
         "title": "JavaVariables - Q0025",
-        "text": "[Java Basics - Variables] Which of the following is true about variable initialization?",
+        "text": "Which of the following is true about variable initialization?",
         "options": [
             {
                 "letter": "A",
@@ -601,7 +601,7 @@
     },
     {
         "title": "JavaVariables - Q0026",
-        "text": "[Java Basics - Variables] Which of the following is true about variable shadowing?",
+        "text": "Which of the following is true about variable shadowing?",
         "options": [
             {
                 "letter": "A",
@@ -625,7 +625,7 @@
     },
     {
         "title": "JavaVariables - Q0027",
-        "text": "[Java Basics - Variables] Which keyword is used to define a variable that cannot change its value?",
+        "text": "Which keyword is used to define a variable that cannot change its value?",
         "options": [
             {
                 "letter": "A",
@@ -649,7 +649,7 @@
     },
     {
         "title": "JavaVariables - Q0028",
-        "text": "[Java Basics - Variables] Which of the following is true about static variables?",
+        "text": "Which of the following is true about static variables?",
         "options": [
             {
                 "letter": "A",
@@ -673,7 +673,7 @@
     },
     {
         "title": "JavaVariables - Q0029",
-        "text": "[Java Basics - Variables] Which of the following is true about instance variables?",
+        "text": "Which of the following is true about instance variables?",
         "options": [
             {
                 "letter": "A",
@@ -697,7 +697,7 @@
     },
     {
         "title": "JavaVariables - Q0030",
-        "text": "[Java Basics - Variables] Which of the following is true about local variables?",
+        "text": "Which of the following is true about local variables?",
         "options": [
             {
                 "letter": "A",
@@ -721,7 +721,7 @@
     },
     {
         "title": "JavaVariables - Q0031",
-        "text": "[Java Basics - Variables] Which of the following is true about instance variables?",
+        "text": "Which of the following is true about instance variables?",
         "options": [
             {
                 "letter": "A",
@@ -745,7 +745,7 @@
     },
     {
         "title": "JavaVariables - Q0032",
-        "text": "[Java Basics - Variables] Which of the following is true about static variables?",
+        "text": "Which of the following is true about static variables?",
         "options": [
             {
                 "letter": "A",
@@ -769,7 +769,7 @@
     },
     {
         "title": "JavaVariables - Q0033",
-        "text": "[Java Basics - Variables] Which of the following is true about final variables?",
+        "text": "Which of the following is true about final variables?",
         "options": [
             {
                 "letter": "A",
@@ -793,7 +793,7 @@
     },
     {
         "title": "JavaVariables - Q0034",
-        "text": "[Java Basics - Variables] Which of the following is true about variable types?",
+        "text": "Which of the following is true about variable types?",
         "options": [
             {
                 "letter": "A",
@@ -817,7 +817,7 @@
     },
     {
         "title": "JavaVariables - Q0035",
-        "text": "[Java Basics - Variables] Which of the following is true about variable naming?",
+        "text": "Which of the following is true about variable naming?",
         "options": [
             {
                 "letter": "A",
@@ -841,7 +841,7 @@
     },
     {
         "title": "JavaVariables - Q0036",
-        "text": "[Java Basics - Variables] Which of the following is true about variable initialization?",
+        "text": "Which of the following is true about variable initialization?",
         "options": [
             {
                 "letter": "A",
@@ -865,7 +865,7 @@
     },
     {
         "title": "JavaVariables - Q0037",
-        "text": "[Java Basics - Variables] Which of the following is true about variable scope?",
+        "text": "Which of the following is true about variable scope?",
         "options": [
             {
                 "letter": "A",
@@ -889,7 +889,7 @@
     },
     {
         "title": "JavaVariables - Q0038",
-        "text": "[Java Basics - Variables] Which of the following is true about variable lifetime?",
+        "text": "Which of the following is true about variable lifetime?",
         "options": [
             {
                 "letter": "A",
@@ -913,7 +913,7 @@
     },
     {
         "title": "JavaVariables - Q0039",
-        "text": "[Java Basics - Variables] Which of the following is true about variable accessibility?",
+        "text": "Which of the following is true about variable accessibility?",
         "options": [
             {
                 "letter": "A",
@@ -937,7 +937,7 @@
     },
     {
         "title": "JavaVariables - Q0040",
-        "text": "[Java Basics - Variables] Which of the following is true about variable declaration?",
+        "text": "Which of the following is true about variable declaration?",
         "options": [
             {
                 "letter": "A",
@@ -961,7 +961,7 @@
     },
     {
         "title": "JavaVariables - Q0041",
-        "text": "[Java Basics - Variables] Which of the following is true about variable types?",
+        "text": "Which of the following is true about variable types?",
         "options": [
             {
                 "letter": "A",
@@ -985,7 +985,7 @@
     },
     {
         "title": "JavaVariables - Q0042",
-        "text": "[Java Basics - Variables] Which of the following is true about variable reassignment?",
+        "text": "Which of the following is true about variable reassignment?",
         "options": [
             {
                 "letter": "A",
@@ -1009,7 +1009,7 @@
     },
     {
         "title": "JavaVariables - Q0043",
-        "text": "[Java Basics - Variables] Which of the following is true about variable initialization order?",
+        "text": "Which of the following is true about variable initialization order?",
         "options": [
             {
                 "letter": "A",
@@ -1033,7 +1033,7 @@
     },
     {
         "title": "JavaVariables - Q0044",
-        "text": "[Java Basics - Variables] Which of the following is true about variable naming conventions?",
+        "text": "Which of the following is true about variable naming conventions?",
         "options": [
             {
                 "letter": "A",
@@ -1057,7 +1057,7 @@
     },
     {
         "title": "JavaVariables - Q0045",
-        "text": "[Java Basics - Variables] Which of the following is true about variable scope in loops?",
+        "text": "Which of the following is true about variable scope in loops?",
         "options": [
             {
                 "letter": "A",
@@ -1081,7 +1081,7 @@
     },
     {
         "title": "JavaVariables - Q0046",
-        "text": "[Java Basics - Variables] Which of the following is true about variable lifetime in methods?",
+        "text": "Which of the following is true about variable lifetime in methods?",
         "options": [
             {
                 "letter": "A",
@@ -1105,7 +1105,7 @@
     },
     {
         "title": "JavaVariables - Q0047",
-        "text": "[Java Basics - Variables] Which of the following is true about variable accessibility modifiers?",
+        "text": "Which of the following is true about variable accessibility modifiers?",
         "options": [
             {
                 "letter": "A",
@@ -1129,7 +1129,7 @@
     },
     {
         "title": "JavaVariables - Q0048",
-        "text": "[Java Basics - Variables] Which of the following is true about variable declaration using var?",
+        "text": "Which of the following is true about variable declaration using var?",
         "options": [
             {
                 "letter": "A",
@@ -1153,7 +1153,7 @@
     },
     {
         "title": "JavaVariables - Q0049",
-        "text": "[Java Basics - Variables] Which of the following is true about variable initialization using literals?",
+        "text": "Which of the following is true about variable initialization using literals?",
         "options": [
             {
                 "letter": "A",
@@ -1177,7 +1177,7 @@
     },
     {
         "title": "JavaVariables - Q0050",
-        "text": "[Java Basics - Variables] Which of the following best describes a variable?",
+        "text": "Which of the following best describes a variable?",
         "options": [
             {
                 "letter": "A",

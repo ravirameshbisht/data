@@ -1,7 +1,7 @@
 [
     {
         "title": "DataTypes - Q0001",
-        "text": "[Data Types] Which of the following is not a primitive data type in Java?",
+        "text": "Which of the following is not a primitive data type in Java?",
         "options": [
             {
                 "letter": "A",
@@ -25,7 +25,7 @@
     },
     {
         "title": "DataTypes - Q0002",
-        "text": "[Data Types] How many primitive data types are there in Java?",
+        "text": "How many primitive data types are there in Java?",
         "options": [
             {
                 "letter": "A",
@@ -49,7 +49,7 @@
     },
     {
         "title": "DataTypes - Q0003",
-        "text": "[Data Types] Which data type is used to store whole numbers?",
+        "text": "Which data type is used to store whole numbers?",
         "options": [
             {
                 "letter": "A",
@@ -73,7 +73,7 @@
     },
     {
         "title": "DataTypes - Q0004",
-        "text": "[Data Types] Which data type is used to store decimal numbers?",
+        "text": "Which data type is used to store decimal numbers?",
         "options": [
             {
                 "letter": "A",
@@ -97,7 +97,7 @@
     },
     {
         "title": "DataTypes - Q0005",
-        "text": "[Data Types] Which data type is used to store true or false values?",
+        "text": "Which data type is used to store true or false values?",
         "options": [
             {
                 "letter": "A",
@@ -121,7 +121,7 @@
     },
     {
         "title": "DataTypes - Q0006",
-        "text": "[Data Types] Which data type is used to store a single character?",
+        "text": "Which data type is used to store a single character?",
         "options": [
             {
                 "letter": "A",
@@ -145,7 +145,7 @@
     },
     {
         "title": "DataTypes - Q0007",
-        "text": "[Data Types] What is the size of an int in Java?",
+        "text": "What is the size of an int in Java?",
         "options": [
             {
                 "letter": "A",
@@ -169,7 +169,7 @@
     },
     {
         "title": "DataTypes - Q0008",
-        "text": "[Data Types] What is the size of a byte in Java?",
+        "text": "What is the size of a byte in Java?",
         "options": [
             {
                 "letter": "A",
@@ -193,7 +193,7 @@
     },
     {
         "title": "DataTypes - Q0009",
-        "text": "[Data Types] What is the size of a short in Java?",
+        "text": "What is the size of a short in Java?",
         "options": [
             {
                 "letter": "A",
@@ -217,7 +217,7 @@
     },
     {
         "title": "DataTypes - Q0010",
-        "text": "[Data Types] What is the size of a long in Java?",
+        "text": "What is the size of a long in Java?",
         "options": [
             {
                 "letter": "A",
@@ -241,7 +241,7 @@
     },
     {
         "title": "DataTypes - Q0011",
-        "text": "[Data Types] What is the size of a float in Java?",
+        "text": "What is the size of a float in Java?",
         "options": [
             {
                 "letter": "A",
@@ -265,7 +265,7 @@
     },
     {
         "title": "DataTypes - Q0012",
-        "text": "[Data Types] What is the size of a double in Java?",
+        "text": "What is the size of a double in Java?",
         "options": [
             {
                 "letter": "A",
@@ -289,7 +289,7 @@
     },
     {
         "title": "DataTypes - Q0013",
-        "text": "[Data Types] What is the size of a char in Java?",
+        "text": "What is the size of a char in Java?",
         "options": [
             {
                 "letter": "A",
@@ -313,7 +313,7 @@
     },
     {
         "title": "DataTypes - Q0014",
-        "text": "[Data Types] Which data type is used to store large decimal numbers?",
+        "text": "Which data type is used to store large decimal numbers?",
         "options": [
             {
                 "letter": "A",
@@ -337,7 +337,7 @@
     },
     {
         "title": "DataTypes - Q0015",
-        "text": "[Data Types] Which data type can store the value 'A'?",
+        "text": "Which data type can store the value 'A'?",
         "options": [
             {
                 "letter": "A",
@@ -361,7 +361,7 @@
     },
     {
         "title": "DataTypes - Q0016",
-        "text": "[Data Types] Which data type can store the value \"Hello\"?",
+        "text": "Which data type can store the value \"Hello\"?",
         "options": [
             {
                 "letter": "A",
@@ -385,7 +385,7 @@
     },
     {
         "title": "DataTypes - Q0017",
-        "text": "[Data Types] Which data type is used to store very small integers?",
+        "text": "Which data type is used to store very small integers?",
         "options": [
             {
                 "letter": "A",
@@ -409,7 +409,7 @@
     },
     {
         "title": "DataTypes - Q0018",
-        "text": "[Data Types] What is the default value of an int variable?",
+        "text": "What is the default value of an int variable?",
         "options": [
             {
                 "letter": "A",
@@ -433,7 +433,7 @@
     },
     {
         "title": "DataTypes - Q0019",
-        "text": "[Data Types] What is the default value of a boolean variable?",
+        "text": "What is the default value of a boolean variable?",
         "options": [
             {
                 "letter": "A",
@@ -457,7 +457,7 @@
     },
     {
         "title": "DataTypes - Q0020",
-        "text": "[Data Types] What is the default value of a reference variable?",
+        "text": "What is the default value of a reference variable?",
         "options": [
             {
                 "letter": "A",
@@ -481,7 +481,7 @@
     },
     {
         "title": "DataTypes - Q0021",
-        "text": "[Data Types] Which of the following is a reference data type?",
+        "text": "Which of the following is a reference data type?",
         "options": [
             {
                 "letter": "A",
@@ -505,7 +505,7 @@
     },
     {
         "title": "DataTypes - Q0022",
-        "text": "[Data Types] Which data type can store the largest integer value?",
+        "text": "Which data type can store the largest integer value?",
         "options": [
             {
                 "letter": "A",
@@ -529,7 +529,7 @@
     },
     {
         "title": "DataTypes - Q0023",
-        "text": "[Data Types] What is the range of a byte in Java?",
+        "text": "What is the range of a byte in Java?",
         "options": [
             {
                 "letter": "A",
@@ -553,7 +553,7 @@
     },
     {
         "title": "DataTypes - Q0024",
-        "text": "[Data Types] What is the range of a short in Java?",
+        "text": "What is the range of a short in Java?",
         "options": [
             {
                 "letter": "A",
@@ -577,7 +577,7 @@
     },
     {
         "title": "DataTypes - Q0025",
-        "text": "[Data Types] What is the range of an int in Java?",
+        "text": "What is the range of an int in Java?",
         "options": [
             {
                 "letter": "A",
@@ -601,7 +601,7 @@
     },
     {
         "title": "DataTypes - Q0026",
-        "text": "[Data Types] What is the range of a long in Java?",
+        "text": "What is the range of a long in Java?",
         "options": [
             {
                 "letter": "A",
@@ -625,7 +625,7 @@
     },
     {
         "title": "DataTypes - Q0027",
-        "text": "[Data Types] Which data type should be used to store a large number like 9,000,000,000?",
+        "text": "Which data type should be used to store a large number like 9,000,000,000?",
         "options": [
             {
                 "letter": "A",
@@ -649,7 +649,7 @@
     },
     {
         "title": "DataTypes - Q0028",
-        "text": "[Data Types] Which data type should be used to store 3.14?",
+        "text": "Which data type should be used to store 3.14?",
         "options": [
             {
                 "letter": "A",
@@ -673,7 +673,7 @@
     },
     {
         "title": "DataTypes - Q0029",
-        "text": "[Data Types] Which data type should be used to store 3.141592653589793?",
+        "text": "Which data type should be used to store 3.141592653589793?",
         "options": [
             {
                 "letter": "A",
@@ -697,7 +697,7 @@
     },
     {
         "title": "DataTypes - Q0030",
-        "text": "[Data Types] Which data type can store Unicode characters?",
+        "text": "Which data type can store Unicode characters?",
         "options": [
             {
                 "letter": "A",
@@ -721,7 +721,7 @@
     },
     {
         "title": "DataTypes - Q0031",
-        "text": "[Data Types] Which of the following is a wrapper class for int?",
+        "text": "Which of the following is a wrapper class for int?",
         "options": [
             {
                 "letter": "A",
@@ -745,7 +745,7 @@
     },
     {
         "title": "DataTypes - Q0032",
-        "text": "[Data Types] Which of the following is a wrapper class for double?",
+        "text": "Which of the following is a wrapper class for double?",
         "options": [
             {
                 "letter": "A",
@@ -769,7 +769,7 @@
     },
     {
         "title": "DataTypes - Q0033",
-        "text": "[Data Types] Which of the following is a wrapper class for boolean?",
+        "text": "Which of the following is a wrapper class for boolean?",
         "options": [
             {
                 "letter": "A",
@@ -793,7 +793,7 @@
     },
     {
         "title": "DataTypes - Q0034",
-        "text": "[Data Types] Which of the following is a wrapper class for char?",
+        "text": "Which of the following is a wrapper class for char?",
         "options": [
             {
                 "letter": "A",
@@ -817,7 +817,7 @@
     },
     {
         "title": "DataTypes - Q0035",
-        "text": "[Data Types] Which of the following is a wrapper class for float?",
+        "text": "Which of the following is a wrapper class for float?",
         "options": [
             {
                 "letter": "A",
@@ -841,7 +841,7 @@
     },
     {
         "title": "DataTypes - Q0036",
-        "text": "[Data Types] Which of the following is a wrapper class for long?",
+        "text": "Which of the following is a wrapper class for long?",
         "options": [
             {
                 "letter": "A",
@@ -865,7 +865,7 @@
     },
     {
         "title": "DataTypes - Q0037",
-        "text": "[Data Types] Which of the following is a wrapper class for byte?",
+        "text": "Which of the following is a wrapper class for byte?",
         "options": [
             {
                 "letter": "A",
@@ -889,7 +889,7 @@
     },
     {
         "title": "DataTypes - Q0038",
-        "text": "[Data Types] Which of the following is a wrapper class for short?",
+        "text": "Which of the following is a wrapper class for short?",
         "options": [
             {
                 "letter": "A",
@@ -913,7 +913,7 @@
     },
     {
         "title": "DataTypes - Q0039",
-        "text": "[Data Types] Which data type is used to store a large integer beyond the range of long?",
+        "text": "Which data type is used to store a large integer beyond the range of long?",
         "options": [
             {
                 "letter": "A",
@@ -937,7 +937,7 @@
     },
     {
         "title": "DataTypes - Q0040",
-        "text": "[Data Types] Which data type is used for high-precision decimal numbers?",
+        "text": "Which data type is used for high-precision decimal numbers?",
         "options": [
             {
                 "letter": "A",
@@ -961,7 +961,7 @@
     },
     {
         "title": "DataTypes - Q0041",
-        "text": "[Data Types] Which of the following can store null values?",
+        "text": "Which of the following can store null values?",
         "options": [
             {
                 "letter": "A",
@@ -985,7 +985,7 @@
     },
     {
         "title": "DataTypes - Q0042",
-        "text": "[Data Types] Which of the following is not a valid literal for a float?",
+        "text": "Which of the following is not a valid literal for a float?",
         "options": [
             {
                 "letter": "A",
@@ -1009,7 +1009,7 @@
     },
     {
         "title": "DataTypes - Q0043",
-        "text": "[Data Types] Which of the following is a valid character literal?",
+        "text": "Which of the following is a valid character literal?",
         "options": [
             {
                 "letter": "A",
@@ -1033,7 +1033,7 @@
     },
     {
         "title": "DataTypes - Q0044",
-        "text": "[Data Types] Which of the following is a valid boolean literal?",
+        "text": "Which of the following is a valid boolean literal?",
         "options": [
             {
                 "letter": "A",
@@ -1057,7 +1057,7 @@
     },
     {
         "title": "DataTypes - Q0045",
-        "text": "[Data Types] Which of the following is a valid integer literal?",
+        "text": "Which of the following is a valid integer literal?",
         "options": [
             {
                 "letter": "A",
@@ -1081,7 +1081,7 @@
     },
     {
         "title": "DataTypes - Q0046",
-        "text": "[Data Types] Which of the following is a valid long literal?",
+        "text": "Which of the following is a valid long literal?",
         "options": [
             {
                 "letter": "A",
@@ -1105,7 +1105,7 @@
     },
     {
         "title": "DataTypes - Q0047",
-        "text": "[Data Types] Which of the following is a valid double literal?",
+        "text": "Which of the following is a valid double literal?",
         "options": [
             {
                 "letter": "A",
@@ -1129,7 +1129,7 @@
     },
     {
         "title": "DataTypes - Q0048",
-        "text": "[Data Types] Which of the following is a valid escape sequence for a new line?",
+        "text": "Which of the following is a valid escape sequence for a new line?",
         "options": [
             {
                 "letter": "A",
@@ -1153,7 +1153,7 @@
     },
     {
         "title": "DataTypes - Q0049",
-        "text": "[Data Types] Which of the following is a valid escape sequence for a tab?",
+        "text": "Which of the following is a valid escape sequence for a tab?",
         "options": [
             {
                 "letter": "A",
@@ -1177,7 +1177,7 @@
     },
     {
         "title": "DataTypes - Q0050",
-        "text": "[Data Types] Which of the following is the correct way to declare a variable of type double?",
+        "text": "Which of the following is the correct way to declare a variable of type double?",
         "options": [
             {
                 "letter": "A",

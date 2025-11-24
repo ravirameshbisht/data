@@ -1,7 +1,7 @@
 [
     {
         "title": "Operators - Q0001",
-        "text": "[Operators] Which operator is used for addition in Java?",
+        "text": "Which operator is used for addition in Java?",
         "options": [
             {
                 "letter": "A",
@@ -25,7 +25,7 @@
     },
     {
         "title": "Operators - Q0002",
-        "text": "[Operators] Which operator is used for subtraction in Java?",
+        "text": "Which operator is used for subtraction in Java?",
         "options": [
             {
                 "letter": "A",
@@ -49,7 +49,7 @@
     },
     {
         "title": "Operators - Q0003",
-        "text": "[Operators] Which operator is used for multiplication in Java?",
+        "text": "Which operator is used for multiplication in Java?",
         "options": [
             {
                 "letter": "A",
@@ -73,7 +73,7 @@
     },
     {
         "title": "Operators - Q0004",
-        "text": "[Operators] Which operator is used for division in Java?",
+        "text": "Which operator is used for division in Java?",
         "options": [
             {
                 "letter": "A",
@@ -97,7 +97,7 @@
     },
     {
         "title": "Operators - Q0005",
-        "text": "[Operators] Which operator is used to find the remainder of a division?",
+        "text": "Which operator is used to find the remainder of a division?",
         "options": [
             {
                 "letter": "A",
@@ -121,7 +121,7 @@
     },
     {
         "title": "Operators - Q0006",
-        "text": "[Operators] What is the result of 10 % 3?",
+        "text": "What is the result of 10 % 3?",
         "options": [
             {
                 "letter": "A",
@@ -145,7 +145,7 @@
     },
     {
         "title": "Operators - Q0007",
-        "text": "[Operators] Which operator is used to increment a value by 1?",
+        "text": "Which operator is used to increment a value by 1?",
         "options": [
             {
                 "letter": "A",
@@ -169,7 +169,7 @@
     },
     {
         "title": "Operators - Q0008",
-        "text": "[Operators] Which operator is used to decrement a value by 1?",
+        "text": "Which operator is used to decrement a value by 1?",
         "options": [
             {
                 "letter": "A",
@@ -193,7 +193,7 @@
     },
     {
         "title": "Operators - Q0009",
-        "text": "[Operators] What is the result of 5 + 2 * 3?",
+        "text": "What is the result of 5 + 2 * 3?",
         "options": [
             {
                 "letter": "A",
@@ -217,7 +217,7 @@
     },
     {
         "title": "Operators - Q0010",
-        "text": "[Operators] Which operator is used to compare two values for equality?",
+        "text": "Which operator is used to compare two values for equality?",
         "options": [
             {
                 "letter": "A",
@@ -241,7 +241,7 @@
     },
     {
         "title": "Operators - Q0011",
-        "text": "[Operators] Which operator is used to assign a value to a variable?",
+        "text": "Which operator is used to assign a value to a variable?",
         "options": [
             {
                 "letter": "A",
@@ -265,7 +265,7 @@
     },
     {
         "title": "Operators - Q0012",
-        "text": "[Operators] Which operator checks if two values are not equal?",
+        "text": "Which operator checks if two values are not equal?",
         "options": [
             {
                 "letter": "A",
@@ -289,7 +289,7 @@
     },
     {
         "title": "Operators - Q0013",
-        "text": "[Operators] Which operator is used for logical AND?",
+        "text": "Which operator is used for logical AND?",
         "options": [
             {
                 "letter": "A",
@@ -313,7 +313,7 @@
     },
     {
         "title": "Operators - Q0014",
-        "text": "[Operators] Which operator is used for logical OR?",
+        "text": "Which operator is used for logical OR?",
         "options": [
             {
                 "letter": "A",
@@ -337,7 +337,7 @@
     },
     {
         "title": "Operators - Q0015",
-        "text": "[Operators] Which operator is used for logical NOT?",
+        "text": "Which operator is used for logical NOT?",
         "options": [
             {
                 "letter": "A",
@@ -361,7 +361,7 @@
     },
     {
         "title": "Operators - Q0016",
-        "text": "[Operators] What is the result of !(5 > 3)?",
+        "text": "What is the result of !(5 > 3)?",
         "options": [
             {
                 "letter": "A",
@@ -385,7 +385,7 @@
     },
     {
         "title": "Operators - Q0017",
-        "text": "[Operators] Which operator is used to combine two strings?",
+        "text": "Which operator is used to combine two strings?",
         "options": [
             {
                 "letter": "A",
@@ -409,7 +409,7 @@
     },
     {
         "title": "Operators - Q0018",
-        "text": "[Operators] Which operator is used for bitwise AND?",
+        "text": "Which operator is used for bitwise AND?",
         "options": [
             {
                 "letter": "A",
@@ -433,7 +433,7 @@
     },
     {
         "title": "Operators - Q0019",
-        "text": "[Operators] Which operator is used for bitwise OR?",
+        "text": "Which operator is used for bitwise OR?",
         "options": [
             {
                 "letter": "A",
@@ -457,7 +457,7 @@
     },
     {
         "title": "Operators - Q0020",
-        "text": "[Operators] Which operator is used for bitwise XOR?",
+        "text": "Which operator is used for bitwise XOR?",
         "options": [
             {
                 "letter": "A",
@@ -481,7 +481,7 @@
     },
     {
         "title": "Operators - Q0021",
-        "text": "[Operators] Which operator inverts all bits of a number?",
+        "text": "Which operator inverts all bits of a number?",
         "options": [
             {
                 "letter": "A",
@@ -505,7 +505,7 @@
     },
     {
         "title": "Operators - Q0022",
-        "text": "[Operators] Which operator shifts bits to the left?",
+        "text": "Which operator shifts bits to the left?",
         "options": [
             {
                 "letter": "A",
@@ -529,7 +529,7 @@
     },
     {
         "title": "Operators - Q0023",
-        "text": "[Operators] Which operator shifts bits to the right?",
+        "text": "Which operator shifts bits to the right?",
         "options": [
             {
                 "letter": "A",
@@ -553,7 +553,7 @@
     },
     {
         "title": "Operators - Q0024",
-        "text": "[Operators] Which operator performs an unsigned right shift?",
+        "text": "Which operator performs an unsigned right shift?",
         "options": [
             {
                 "letter": "A",
@@ -577,7 +577,7 @@
     },
     {
         "title": "Operators - Q0025",
-        "text": "[Operators] Which operator is used to check if a value is greater than another?",
+        "text": "Which operator is used to check if a value is greater than another?",
         "options": [
             {
                 "letter": "A",
@@ -601,7 +601,7 @@
     },
     {
         "title": "Operators - Q0026",
-        "text": "[Operators] Which operator is used to check if a value is less than another?",
+        "text": "Which operator is used to check if a value is less than another?",
         "options": [
             {
                 "letter": "A",
@@ -625,7 +625,7 @@
     },
     {
         "title": "Operators - Q0027",
-        "text": "[Operators] Which operator is used to check if a value is greater than or equal to another?",
+        "text": "Which operator is used to check if a value is greater than or equal to another?",
         "options": [
             {
                 "letter": "A",
@@ -649,7 +649,7 @@
     },
     {
         "title": "Operators - Q0028",
-        "text": "[Operators] Which operator is used to check if a value is less than or equal to another?",
+        "text": "Which operator is used to check if a value is less than or equal to another?",
         "options": [
             {
                 "letter": "A",
@@ -673,7 +673,7 @@
     },
     {
         "title": "Operators - Q0029",
-        "text": "[Operators] Which operator is used for conditional assignment?",
+        "text": "Which operator is used for conditional assignment?",
         "options": [
             {
                 "letter": "A",
@@ -697,7 +697,7 @@
     },
     {
         "title": "Operators - Q0030",
-        "text": "[Operators] What is the result of 10 / 3 in Java?",
+        "text": "What is the result of 10 / 3 in Java?",
         "options": [
             {
                 "letter": "A",
@@ -721,7 +721,7 @@
     },
     {
         "title": "Operators - Q0031",
-        "text": "[Operators] What is the result of 10.0 / 3 in Java?",
+        "text": "What is the result of 10.0 / 3 in Java?",
         "options": [
             {
                 "letter": "A",
@@ -745,7 +745,7 @@
     },
     {
         "title": "Operators - Q0032",
-        "text": "[Operators] Which operator is used to add and assign a value?",
+        "text": "Which operator is used to add and assign a value?",
         "options": [
             {
                 "letter": "A",
@@ -769,7 +769,7 @@
     },
     {
         "title": "Operators - Q0033",
-        "text": "[Operators] Which operator is used to subtract and assign a value?",
+        "text": "Which operator is used to subtract and assign a value?",
         "options": [
             {
                 "letter": "A",
@@ -793,7 +793,7 @@
     },
     {
         "title": "Operators - Q0034",
-        "text": "[Operators] Which operator multiplies and assigns a value?",
+        "text": "Which operator multiplies and assigns a value?",
         "options": [
             {
                 "letter": "A",
@@ -817,7 +817,7 @@
     },
     {
         "title": "Operators - Q0035",
-        "text": "[Operators] Which operator divides and assigns a value?",
+        "text": "Which operator divides and assigns a value?",
         "options": [
             {
                 "letter": "A",
@@ -841,7 +841,7 @@
     },
     {
         "title": "Operators - Q0036",
-        "text": "[Operators] Which operator finds the remainder and assigns it?",
+        "text": "Which operator finds the remainder and assigns it?",
         "options": [
             {
                 "letter": "A",
@@ -865,7 +865,7 @@
     },
     {
         "title": "Operators - Q0037",
-        "text": "[Operators] What is the result of 5 == 5?",
+        "text": "What is the result of 5 == 5?",
         "options": [
             {
                 "letter": "A",
@@ -889,7 +889,7 @@
     },
     {
         "title": "Operators - Q0038",
-        "text": "[Operators] What is the result of 5 != 3?",
+        "text": "What is the result of 5 != 3?",
         "options": [
             {
                 "letter": "A",
@@ -913,7 +913,7 @@
     },
     {
         "title": "Operators - Q0039",
-        "text": "[Operators] What is the result of true && false?",
+        "text": "What is the result of true && false?",
         "options": [
             {
                 "letter": "A",
@@ -937,7 +937,7 @@
     },
     {
         "title": "Operators - Q0040",
-        "text": "[Operators] What is the result of true || false?",
+        "text": "What is the result of true || false?",
         "options": [
             {
                 "letter": "A",
@@ -961,7 +961,7 @@
     },
     {
         "title": "Operators - Q0041",
-        "text": "[Operators] What is the result of !(false)?",
+        "text": "What is the result of !(false)?",
         "options": [
             {
                 "letter": "A",
@@ -985,7 +985,7 @@
     },
     {
         "title": "Operators - Q0042",
-        "text": "[Operators] What is the result of 10 > 5 && 2 < 3?",
+        "text": "What is the result of 10 > 5 && 2 < 3?",
         "options": [
             {
                 "letter": "A",
@@ -1009,7 +1009,7 @@
     },
     {
         "title": "Operators - Q0043",
-        "text": "[Operators] What is the result of 10 > 5 || 2 > 3?",
+        "text": "What is the result of 10 > 5 || 2 > 3?",
         "options": [
             {
                 "letter": "A",
@@ -1033,7 +1033,7 @@
     },
     {
         "title": "Operators - Q0044",
-        "text": "[Operators] What is the result of 5 & 3?",
+        "text": "What is the result of 5 & 3?",
         "options": [
             {
                 "letter": "A",
@@ -1057,7 +1057,7 @@
     },
     {
         "title": "Operators - Q0045",
-        "text": "[Operators] What is the result of 5 | 3?",
+        "text": "What is the result of 5 | 3?",
         "options": [
             {
                 "letter": "A",
@@ -1081,7 +1081,7 @@
     },
     {
         "title": "Operators - Q0046",
-        "text": "[Operators] What is the result of 5 ^ 3?",
+        "text": "What is the result of 5 ^ 3?",
         "options": [
             {
                 "letter": "A",
@@ -1105,7 +1105,7 @@
     },
     {
         "title": "Operators - Q0047",
-        "text": "[Operators] What is the result of 5 << 1?",
+        "text": "What is the result of 5 << 1?",
         "options": [
             {
                 "letter": "A",
@@ -1129,7 +1129,7 @@
     },
     {
         "title": "Operators - Q0048",
-        "text": "[Operators] What is the result of 10 >> 1?",
+        "text": "What is the result of 10 >> 1?",
         "options": [
             {
                 "letter": "A",
@@ -1153,7 +1153,7 @@
     },
     {
         "title": "Operators - Q0049",
-        "text": "[Operators] What is the result of 10 >>> 1?",
+        "text": "What is the result of 10 >>> 1?",
         "options": [
             {
                 "letter": "A",
@@ -1177,7 +1177,7 @@
     },
     {
         "title": "Operators - Q0050",
-        "text": "[Operators] What is the result of the expression (5 > 3) ? 10 : 20?",
+        "text": "What is the result of the expression (5 > 3) ? 10 : 20?",
         "options": [
             {
                 "letter": "A",

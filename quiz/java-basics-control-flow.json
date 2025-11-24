@@ -1,7 +1,7 @@
 [
     {
         "title": "ControlFlow - Q0001",
-        "text": "[Control Flow] Which keyword is used to start a conditional statement in Java?",
+        "text": "Which keyword is used to start a conditional statement in Java?",
         "options": [
             {
                 "letter": "A",
@@ -25,7 +25,7 @@
     },
     {
         "title": "ControlFlow - Q0002",
-        "text": "[Control Flow] Which keyword is used to provide an alternative condition in an if statement?",
+        "text": "Which keyword is used to provide an alternative condition in an if statement?",
         "options": [
             {
                 "letter": "A",
@@ -49,7 +49,7 @@
     },
     {
         "title": "ControlFlow - Q0003",
-        "text": "[Control Flow] Which keyword is used to test multiple conditions in sequence?",
+        "text": "Which keyword is used to test multiple conditions in sequence?",
         "options": [
             {
                 "letter": "A",
@@ -73,7 +73,7 @@
     },
     {
         "title": "ControlFlow - Q0004",
-        "text": "[Control Flow] Which statement is used to execute one block of code among many options?",
+        "text": "Which statement is used to execute one block of code among many options?",
         "options": [
             {
                 "letter": "A",
@@ -97,7 +97,7 @@
     },
     {
         "title": "ControlFlow - Q0005",
-        "text": "[Control Flow] Which keyword is used inside a switch statement to specify a condition?",
+        "text": "Which keyword is used inside a switch statement to specify a condition?",
         "options": [
             {
                 "letter": "A",
@@ -121,7 +121,7 @@
     },
     {
         "title": "ControlFlow - Q0006",
-        "text": "[Control Flow] Which keyword is used to exit a switch statement?",
+        "text": "Which keyword is used to exit a switch statement?",
         "options": [
             {
                 "letter": "A",
@@ -145,7 +145,7 @@
     },
     {
         "title": "ControlFlow - Q0007",
-        "text": "[Control Flow] Which keyword is used to provide a default case in a switch statement?",
+        "text": "Which keyword is used to provide a default case in a switch statement?",
         "options": [
             {
                 "letter": "A",
@@ -169,7 +169,7 @@
     },
     {
         "title": "ControlFlow - Q0008",
-        "text": "[Control Flow] Which loop executes a block of code a fixed number of times?",
+        "text": "Which loop executes a block of code a fixed number of times?",
         "options": [
             {
                 "letter": "A",
@@ -193,7 +193,7 @@
     },
     {
         "title": "ControlFlow - Q0009",
-        "text": "[Control Flow] Which loop checks the condition before executing the block?",
+        "text": "Which loop checks the condition before executing the block?",
         "options": [
             {
                 "letter": "A",
@@ -217,7 +217,7 @@
     },
     {
         "title": "ControlFlow - Q0010",
-        "text": "[Control Flow] Which loop executes the block at least once?",
+        "text": "Which loop executes the block at least once?",
         "options": [
             {
                 "letter": "A",
@@ -241,7 +241,7 @@
     },
     {
         "title": "ControlFlow - Q0011",
-        "text": "[Control Flow] Which statement is used to skip the current iteration of a loop?",
+        "text": "Which statement is used to skip the current iteration of a loop?",
         "options": [
             {
                 "letter": "A",
@@ -265,7 +265,7 @@
     },
     {
         "title": "ControlFlow - Q0012",
-        "text": "[Control Flow] Which statement is used to terminate a loop immediately?",
+        "text": "Which statement is used to terminate a loop immediately?",
         "options": [
             {
                 "letter": "A",
@@ -289,7 +289,7 @@
     },
     {
         "title": "ControlFlow - Q0013",
-        "text": "[Control Flow] Which keyword is used to return a value from a method?",
+        "text": "Which keyword is used to return a value from a method?",
         "options": [
             {
                 "letter": "A",
@@ -313,7 +313,7 @@
     },
     {
         "title": "ControlFlow - Q0014",
-        "text": "[Control Flow] Which control statement is used to handle exceptions?",
+        "text": "Which control statement is used to handle exceptions?",
         "options": [
             {
                 "letter": "A",
@@ -337,7 +337,7 @@
     },
     {
         "title": "ControlFlow - Q0015",
-        "text": "[Control Flow] Which block always executes after try-catch?",
+        "text": "Which block always executes after try-catch?",
         "options": [
             {
                 "letter": "A",
@@ -361,7 +361,7 @@
     },
     {
         "title": "ControlFlow - Q0016",
-        "text": "[Control Flow] Which statement is used to throw an exception manually?",
+        "text": "Which statement is used to throw an exception manually?",
         "options": [
             {
                 "letter": "A",
@@ -385,7 +385,7 @@
     },
     {
         "title": "ControlFlow - Q0017",
-        "text": "[Control Flow] Which keyword is used in a method signature to declare exceptions?",
+        "text": "Which keyword is used in a method signature to declare exceptions?",
         "options": [
             {
                 "letter": "A",
@@ -409,7 +409,7 @@
     },
     {
         "title": "ControlFlow - Q0018",
-        "text": "[Control Flow] Which loop is best suited when the number of iterations is known?",
+        "text": "Which loop is best suited when the number of iterations is known?",
         "options": [
             {
                 "letter": "A",
@@ -433,7 +433,7 @@
     },
     {
         "title": "ControlFlow - Q0019",
-        "text": "[Control Flow] Which loop is best suited when the number of iterations is unknown?",
+        "text": "Which loop is best suited when the number of iterations is unknown?",
         "options": [
             {
                 "letter": "A",
@@ -457,7 +457,7 @@
     },
     {
         "title": "ControlFlow - Q0020",
-        "text": "[Control Flow] Which loop guarantees at least one execution of the loop body?",
+        "text": "Which loop guarantees at least one execution of the loop body?",
         "options": [
             {
                 "letter": "A",
@@ -481,7 +481,7 @@
     },
     {
         "title": "ControlFlow - Q0021",
-        "text": "[Control Flow] Which statement is used to exit from multiple nested loops at once?",
+        "text": "Which statement is used to exit from multiple nested loops at once?",
         "options": [
             {
                 "letter": "A",
@@ -505,7 +505,7 @@
     },
     {
         "title": "ControlFlow - Q0022",
-        "text": "[Control Flow] Which statement transfers control to the next iteration of the labeled loop?",
+        "text": "Which statement transfers control to the next iteration of the labeled loop?",
         "options": [
             {
                 "letter": "A",
@@ -529,7 +529,7 @@
     },
     {
         "title": "ControlFlow - Q0023",
-        "text": "[Control Flow] What will happen if the condition in a while loop is always true?",
+        "text": "What will happen if the condition in a while loop is always true?",
         "options": [
             {
                 "letter": "A",
@@ -553,7 +553,7 @@
     },
     {
         "title": "ControlFlow - Q0024",
-        "text": "[Control Flow] Which of the following is a valid for loop syntax?",
+        "text": "Which of the following is a valid for loop syntax?",
         "options": [
             {
                 "letter": "A",
@@ -577,7 +577,7 @@
     },
     {
         "title": "ControlFlow - Q0025",
-        "text": "[Control Flow] Which of the following is a valid while loop syntax?",
+        "text": "Which of the following is a valid while loop syntax?",
         "options": [
             {
                 "letter": "A",
@@ -601,7 +601,7 @@
     },
     {
         "title": "ControlFlow - Q0026",
-        "text": "[Control Flow] Which of the following is a valid do-while loop syntax?",
+        "text": "Which of the following is a valid do-while loop syntax?",
         "options": [
             {
                 "letter": "A",
@@ -625,7 +625,7 @@
     },
     {
         "title": "ControlFlow - Q0027",
-        "text": "[Control Flow] Which statement is used to terminate the program execution?",
+        "text": "Which statement is used to terminate the program execution?",
         "options": [
             {
                 "letter": "A",
@@ -649,7 +649,7 @@
     },
     {
         "title": "ControlFlow - Q0028",
-        "text": "[Control Flow] Which of the following is true about the switch statement?",
+        "text": "Which of the following is true about the switch statement?",
         "options": [
             {
                 "letter": "A",
@@ -673,7 +673,7 @@
     },
     {
         "title": "ControlFlow - Q0029",
-        "text": "[Control Flow] What happens if break is omitted in a switch case?",
+        "text": "What happens if break is omitted in a switch case?",
         "options": [
             {
                 "letter": "A",
@@ -697,7 +697,7 @@
     },
     {
         "title": "ControlFlow - Q0030",
-        "text": "[Control Flow] Which statement is used to handle multiple exceptions?",
+        "text": "Which statement is used to handle multiple exceptions?",
         "options": [
             {
                 "letter": "A",
@@ -721,7 +721,7 @@
     },
     {
         "title": "ControlFlow - Q0031",
-        "text": "[Control Flow] Which statement is used to rethrow an exception?",
+        "text": "Which statement is used to rethrow an exception?",
         "options": [
             {
                 "letter": "A",
@@ -745,7 +745,7 @@
     },
     {
         "title": "ControlFlow - Q0032",
-        "text": "[Control Flow] Which statement is used to execute code regardless of exceptions?",
+        "text": "Which statement is used to execute code regardless of exceptions?",
         "options": [
             {
                 "letter": "A",
@@ -769,7 +769,7 @@
     },
     {
         "title": "ControlFlow - Q0033",
-        "text": "[Control Flow] Which loop is used to iterate over arrays or collections?",
+        "text": "Which loop is used to iterate over arrays or collections?",
         "options": [
             {
                 "letter": "A",
@@ -793,7 +793,7 @@
     },
     {
         "title": "ControlFlow - Q0034",
-        "text": "[Control Flow] Which of the following is a valid for-each loop syntax?",
+        "text": "Which of the following is a valid for-each loop syntax?",
         "options": [
             {
                 "letter": "A",
@@ -817,7 +817,7 @@
     },
     {
         "title": "ControlFlow - Q0035",
-        "text": "[Control Flow] What is the output of the following code? int x = 5; if (x > 10) System.out.println(\"A\"); else System.out.println(\"B\");",
+        "text": "What is the output of the following code? int x = 5; if (x > 10) System.out.println(\"A\"); else System.out.println(\"B\");",
         "options": [
             {
                 "letter": "A",
@@ -841,7 +841,7 @@
     },
     {
         "title": "ControlFlow - Q0036",
-        "text": "[Control Flow] What is the output of the following code? int x = 10; while (x < 10) { x++; } System.out.println(x);",
+        "text": "What is the output of the following code? int x = 10; while (x < 10) { x++; } System.out.println(x);",
         "options": [
             {
                 "letter": "A",
@@ -865,7 +865,7 @@
     },
     {
         "title": "ControlFlow - Q0037",
-        "text": "[Control Flow] What is the output of the following code? int x = 0; do { x++; } while (x < 3); System.out.println(x);",
+        "text": "What is the output of the following code? int x = 0; do { x++; } while (x < 3); System.out.println(x);",
         "options": [
             {
                 "letter": "A",
@@ -889,7 +889,7 @@
     },
     {
         "title": "ControlFlow - Q0038",
-        "text": "[Control Flow] What is the output of the following code? for (int i = 0; i < 3; i++) { if (i == 1) continue; System.out.print(i); }",
+        "text": "What is the output of the following code? for (int i = 0; i < 3; i++) { if (i == 1) continue; System.out.print(i); }",
         "options": [
             {
                 "letter": "A",
@@ -913,7 +913,7 @@
     },
     {
         "title": "ControlFlow - Q0039",
-        "text": "[Control Flow] What is the output of the following code? for (int i = 0; i < 3; i++) { if (i == 1) break; System.out.print(i); }",
+        "text": "What is the output of the following code? for (int i = 0; i < 3; i++) { if (i == 1) break; System.out.print(i); }",
         "options": [
             {
                 "letter": "A",
@@ -937,7 +937,7 @@
     },
     {
         "title": "ControlFlow - Q0040",
-        "text": "[Control Flow] Which statement is used to handle multiple conditions more efficiently than if-else?",
+        "text": "Which statement is used to handle multiple conditions more efficiently than if-else?",
         "options": [
             {
                 "letter": "A",
@@ -961,7 +961,7 @@
     },
     {
         "title": "ControlFlow - Q0041",
-        "text": "[Control Flow] Which statement can be used to exit from a method early?",
+        "text": "Which statement can be used to exit from a method early?",
         "options": [
             {
                 "letter": "A",
@@ -985,7 +985,7 @@
     },
     {
         "title": "ControlFlow - Q0042",
-        "text": "[Control Flow] Which statement is used to handle exceptions that may occur in a block of code?",
+        "text": "Which statement is used to handle exceptions that may occur in a block of code?",
         "options": [
             {
                 "letter": "A",
@@ -1009,7 +1009,7 @@
     },
     {
         "title": "ControlFlow - Q0043",
-        "text": "[Control Flow] Which statement is used to handle the exception thrown by a try block?",
+        "text": "Which statement is used to handle the exception thrown by a try block?",
         "options": [
             {
                 "letter": "A",
@@ -1033,7 +1033,7 @@
     },
     {
         "title": "ControlFlow - Q0044",
-        "text": "[Control Flow] Which statement ensures that a block of code executes regardless of exceptions?",
+        "text": "Which statement ensures that a block of code executes regardless of exceptions?",
         "options": [
             {
                 "letter": "A",
@@ -1057,7 +1057,7 @@
     },
     {
         "title": "ControlFlow - Q0045",
-        "text": "[Control Flow] Which statement is used to handle multiple exceptions in a single catch block?",
+        "text": "Which statement is used to handle multiple exceptions in a single catch block?",
         "options": [
             {
                 "letter": "A",
@@ -1081,7 +1081,7 @@
     },
     {
         "title": "ControlFlow - Q0046",
-        "text": "[Control Flow] Which statement is used to rethrow an exception after handling it?",
+        "text": "Which statement is used to rethrow an exception after handling it?",
         "options": [
             {
                 "letter": "A",
@@ -1105,7 +1105,7 @@
     },
     {
         "title": "ControlFlow - Q0047",
-        "text": "[Control Flow] Which statement is used to define a block of code that must execute after try-catch?",
+        "text": "Which statement is used to define a block of code that must execute after try-catch?",
         "options": [
             {
                 "letter": "A",
@@ -1129,7 +1129,7 @@
     },
     {
         "title": "ControlFlow - Q0048",
-        "text": "[Control Flow] Which statement is used to handle specific types of exceptions?",
+        "text": "Which statement is used to handle specific types of exceptions?",
         "options": [
             {
                 "letter": "A",
@@ -1153,7 +1153,7 @@
     },
     {
         "title": "ControlFlow - Q0049",
-        "text": "[Control Flow] Which statement is used to define a block of code that may throw exceptions?",
+        "text": "Which statement is used to define a block of code that may throw exceptions?",
         "options": [
             {
                 "letter": "A",
@@ -1177,7 +1177,7 @@
     },
     {
         "title": "ControlFlow - Q0050",
-        "text": "[Control Flow] Which statement is used to handle multiple conditions compactly?",
+        "text": "Which statement is used to handle multiple conditions compactly?",
         "options": [
             {
                 "letter": "A",

@@ -1,7 +1,7 @@
 [
     {
         "title": "Syntax - Q0016",
-        "text": "[Syntax] Which of the following is the correct way to write a while loop in Java?",
+        "text": "Which of the following is the correct way to write a while loop in Java?",
         "options": [
             {
                 "letter": "A",
@@ -25,7 +25,7 @@
     },
     {
         "title": "Syntax - Q0017",
-        "text": "[Syntax] Which keyword is used to exit from a loop prematurely?",
+        "text": "Which keyword is used to exit from a loop prematurely?",
         "options": [
             {
                 "letter": "A",
@@ -49,7 +49,7 @@
     },
     {
         "title": "Syntax - Q0018",
-        "text": "[Syntax] Which keyword is used to skip the current iteration of a loop?",
+        "text": "Which keyword is used to skip the current iteration of a loop?",
         "options": [
             {
                 "letter": "A",
@@ -73,7 +73,7 @@
     },
     {
         "title": "Syntax - Q0019",
-        "text": "[Syntax] Which of the following is the correct way to declare a method in Java?",
+        "text": "Which of the following is the correct way to declare a method in Java?",
         "options": [
             {
                 "letter": "A",
@@ -97,7 +97,7 @@
     },
     {
         "title": "Syntax - Q0020",
-        "text": "[Syntax] Which keyword is used to inherit a class in Java?",
+        "text": "Which keyword is used to inherit a class in Java?",
         "options": [
             {
                 "letter": "A",
@@ -121,7 +121,7 @@
     },
     {
         "title": "Syntax - Q0021",
-        "text": "[Syntax] Which keyword is used to implement an interface in Java?",
+        "text": "Which keyword is used to implement an interface in Java?",
         "options": [
             {
                 "letter": "A",
@@ -145,7 +145,7 @@
     },
     {
         "title": "Syntax - Q0022",
-        "text": "[Syntax] Which of the following is the correct way to declare a package in Java?",
+        "text": "Which of the following is the correct way to declare a package in Java?",
         "options": [
             {
                 "letter": "A",
@@ -169,7 +169,7 @@
     },
     {
         "title": "Syntax - Q0023",
-        "text": "[Syntax] Which keyword is used to include another package in Java?",
+        "text": "Which keyword is used to include another package in Java?",
         "options": [
             {
                 "letter": "A",
@@ -193,7 +193,7 @@
     },
     {
         "title": "Syntax - Q0024",
-        "text": "[Syntax] Which of the following is the correct way to declare a string?",
+        "text": "Which of the following is the correct way to declare a string?",
         "options": [
             {
                 "letter": "A",
@@ -217,7 +217,7 @@
     },
     {
         "title": "Syntax - Q0025",
-        "text": "[Syntax] Which of the following is a valid Java keyword?",
+        "text": "Which of the following is a valid Java keyword?",
         "options": [
             {
                 "letter": "A",
@@ -241,7 +241,7 @@
     },
     {
         "title": "Syntax - Q0026",
-        "text": "[Syntax] Which of the following is NOT a valid Java keyword?",
+        "text": "Which of the following is NOT a valid Java keyword?",
         "options": [
             {
                 "letter": "A",
@@ -265,7 +265,7 @@
     },
     {
         "title": "Syntax - Q0027",
-        "text": "[Syntax] Which of the following is the correct way to write a switch statement?",
+        "text": "Which of the following is the correct way to write a switch statement?",
         "options": [
             {
                 "letter": "A",
@@ -289,7 +289,7 @@
     },
     {
         "title": "Syntax - Q0028",
-        "text": "[Syntax] Which of the following is the correct way to declare a boolean variable?",
+        "text": "Which of the following is the correct way to declare a boolean variable?",
         "options": [
             {
                 "letter": "A",
@@ -313,7 +313,7 @@
     },
     {
         "title": "Syntax - Q0029",
-        "text": "[Syntax] Which of the following is the correct way to declare a float variable?",
+        "text": "Which of the following is the correct way to declare a float variable?",
         "options": [
             {
                 "letter": "A",
@@ -337,7 +337,7 @@
     },
     {
         "title": "Syntax - Q0030",
-        "text": "[Syntax] Which of the following is the correct way to declare a character variable?",
+        "text": "Which of the following is the correct way to declare a character variable?",
         "options": [
             {
                 "letter": "A",
@@ -361,7 +361,7 @@
     },
     {
         "title": "Syntax - Q0031",
-        "text": "[Syntax] Which of the following is the correct way to concatenate strings?",
+        "text": "Which of the following is the correct way to concatenate strings?",
         "options": [
             {
                 "letter": "A",
@@ -385,7 +385,7 @@
     },
     {
         "title": "Syntax - Q0032",
-        "text": "[Syntax] Which of the following is the correct way to write a ternary operator?",
+        "text": "Which of the following is the correct way to write a ternary operator?",
         "options": [
             {
                 "letter": "A",
@@ -409,7 +409,7 @@
     },
     {
         "title": "Syntax - Q0033",
-        "text": "[Syntax] Which of the following is the correct way to declare a constant string?",
+        "text": "Which of the following is the correct way to declare a constant string?",
         "options": [
             {
                 "letter": "A",
@@ -433,7 +433,7 @@
     },
     {
         "title": "Syntax - Q0034",
-        "text": "[Syntax] Which of the following is the correct way to cast an int to a double?",
+        "text": "Which of the following is the correct way to cast an int to a double?",
         "options": [
             {
                 "letter": "A",
@@ -457,7 +457,7 @@
     },
     {
         "title": "Syntax - Q0035",
-        "text": "[Syntax] Which of the following is the correct way to declare a static variable?",
+        "text": "Which of the following is the correct way to declare a static variable?",
         "options": [
             {
                 "letter": "A",
@@ -481,7 +481,7 @@
     },
     {
         "title": "Syntax - Q0036",
-        "text": "[Syntax] Which of the following is the correct way to declare a public class?",
+        "text": "Which of the following is the correct way to declare a public class?",
         "options": [
             {
                 "letter": "A",
@@ -505,7 +505,7 @@
     },
     {
         "title": "Syntax - Q0037",
-        "text": "[Syntax] Which of the following is the correct way to declare a constructor?",
+        "text": "Which of the following is the correct way to declare a constructor?",
         "options": [
             {
                 "letter": "A",
@@ -529,7 +529,7 @@
     },
     {
         "title": "Syntax - Q0038",
-        "text": "[Syntax] Which of the following is the correct way to call a superclass constructor?",
+        "text": "Which of the following is the correct way to call a superclass constructor?",
         "options": [
             {
                 "letter": "A",
@@ -553,7 +553,7 @@
     },
     {
         "title": "Syntax - Q0039",
-        "text": "[Syntax] Which of the following is the correct way to call another constructor in the same class?",
+        "text": "Which of the following is the correct way to call another constructor in the same class?",
         "options": [
             {
                 "letter": "A",
@@ -577,7 +577,7 @@
     },
     {
         "title": "Syntax - Q0040",
-        "text": "[Syntax] Which of the following is the correct way to declare an interface?",
+        "text": "Which of the following is the correct way to declare an interface?",
         "options": [
             {
                 "letter": "A",
@@ -601,7 +601,7 @@
     },
     {
         "title": "Syntax - Q0041",
-        "text": "[Syntax] Which of the following is the correct way to declare an abstract class?",
+        "text": "Which of the following is the correct way to declare an abstract class?",
         "options": [
             {
                 "letter": "A",
@@ -625,7 +625,7 @@
     },
     {
         "title": "Syntax - Q0042",
-        "text": "[Syntax] Which of the following is the correct way to declare a method that returns an int?",
+        "text": "Which of the following is the correct way to declare a method that returns an int?",
         "options": [
             {
                 "letter": "A",
@@ -649,7 +649,7 @@
     },
     {
         "title": "Syntax - Q0043",
-        "text": "[Syntax] Which of the following is the correct way to handle exceptions?",
+        "text": "Which of the following is the correct way to handle exceptions?",
         "options": [
             {
                 "letter": "A",
@@ -673,7 +673,7 @@
     },
     {
         "title": "Syntax - Q0044",
-        "text": "[Syntax] Which of the following is the correct way to throw an exception?",
+        "text": "Which of the following is the correct way to throw an exception?",
         "options": [
             {
                 "letter": "A",
@@ -697,7 +697,7 @@
     },
     {
         "title": "Syntax - Q0045",
-        "text": "[Syntax] Which of the following is the correct way to define a package-private method?",
+        "text": "Which of the following is the correct way to define a package-private method?",
         "options": [
             {
                 "letter": "A",
@@ -721,7 +721,7 @@
     },
     {
         "title": "Syntax - Q0046",
-        "text": "[Syntax] Which of the following is the correct way to use the 'this' keyword?",
+        "text": "Which of the following is the correct way to use the 'this' keyword?",
         "options": [
             {
                 "letter": "A",
@@ -745,7 +745,7 @@
     },
     {
         "title": "Syntax - Q0047",
-        "text": "[Syntax] Which of the following is the correct way to use the 'super' keyword?",
+        "text": "Which of the following is the correct way to use the 'super' keyword?",
         "options": [
             {
                 "letter": "A",
@@ -769,7 +769,7 @@
     },
     {
         "title": "Syntax - Q0048",
-        "text": "[Syntax] Which of the following is the correct way to declare an enum?",
+        "text": "Which of the following is the correct way to declare an enum?",
         "options": [
             {
                 "letter": "A",
@@ -793,7 +793,7 @@
     },
     {
         "title": "Syntax - Q0049",
-        "text": "[Syntax] Which of the following is the correct way to use a switch expression (Java 14+)?",
+        "text": "Which of the following is the correct way to use a switch expression (Java 14+)?",
         "options": [
             {
                 "letter": "A",
@@ -817,7 +817,7 @@
     },
     {
         "title": "Syntax - Q0050",
-        "text": "[Syntax] Which of the following is the correct way to use a lambda expression?",
+        "text": "Which of the following is the correct way to use a lambda expression?",
         "options": [
             {
                 "letter": "A",
