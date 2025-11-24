@@ -1,7 +1,7 @@
 [
     {
         "title": "JavaJDK - Q0001",
-        "text": "[Java Basics - JDK] What does JDK stand for?",
+        "text": "What does JDK stand for?",
         "options": [
             {
                 "letter": "A",
@@ -25,7 +25,7 @@
     },
     {
         "title": "JavaJDK - Q0002",
-        "text": "[Java Basics - JDK] What is the main purpose of the JDK?",
+        "text": "What is the main purpose of the JDK?",
         "options": [
             {
                 "letter": "A",
@@ -49,7 +49,7 @@
     },
     {
         "title": "JavaJDK - Q0003",
-        "text": "[Java Basics - JDK] Which of the following components are included in the JDK?",
+        "text": "Which of the following components are included in the JDK?",
         "options": [
             {
                 "letter": "A",
@@ -73,7 +73,7 @@
     },
     {
         "title": "JavaJDK - Q0004",
-        "text": "[Java Basics - JDK] Which of the following tools is used to compile Java source code?",
+        "text": "Which of the following tools is used to compile Java source code?",
         "options": [
             {
                 "letter": "A",
@@ -97,7 +97,7 @@
     },
     {
         "title": "JavaJDK - Q0005",
-        "text": "[Java Basics - JDK] Which of the following tools is used to run compiled Java programs?",
+        "text": "Which of the following tools is used to run compiled Java programs?",
         "options": [
             {
                 "letter": "A",
@@ -121,7 +121,7 @@
     },
     {
         "title": "JavaJDK - Q0006",
-        "text": "[Java Basics - JDK] Which of the following tools is used to generate API documentation?",
+        "text": "Which of the following tools is used to generate API documentation?",
         "options": [
             {
                 "letter": "A",
@@ -145,7 +145,7 @@
     },
     {
         "title": "JavaJDK - Q0007",
-        "text": "[Java Basics - JDK] Which of the following tools is used to package Java classes into a JAR file?",
+        "text": "Which of the following tools is used to package Java classes into a JAR file?",
         "options": [
             {
                 "letter": "A",
@@ -169,7 +169,7 @@
     },
     {
         "title": "JavaJDK - Q0008",
-        "text": "[Java Basics - JDK] Which of the following is NOT part of the JDK?",
+        "text": "Which of the following is NOT part of the JDK?",
         "options": [
             {
                 "letter": "A",
@@ -193,7 +193,7 @@
     },
     {
         "title": "JavaJDK - Q0009",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK?",
+        "text": "Which of the following is true about the JDK?",
         "options": [
             {
                 "letter": "A",
@@ -217,7 +217,7 @@
     },
     {
         "title": "JavaJDK - Q0010",
-        "text": "[Java Basics - JDK] Which of the following is true about the relationship between JDK, JRE, and JVM?",
+        "text": "Which of the following is true about the relationship between JDK, JRE, and JVM?",
         "options": [
             {
                 "letter": "A",
@@ -241,7 +241,7 @@
     },
     {
         "title": "JavaJDK - Q0011",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's bin directory?",
+        "text": "Which of the following is true about the JDK's bin directory?",
         "options": [
             {
                 "letter": "A",
@@ -265,7 +265,7 @@
     },
     {
         "title": "JavaJDK - Q0012",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's lib directory?",
+        "text": "Which of the following is true about the JDK's lib directory?",
         "options": [
             {
                 "letter": "A",
@@ -289,7 +289,7 @@
     },
     {
         "title": "JavaJDK - Q0013",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's include directory?",
+        "text": "Which of the following is true about the JDK's include directory?",
         "options": [
             {
                 "letter": "A",
@@ -313,7 +313,7 @@
     },
     {
         "title": "JavaJDK - Q0014",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's demo directory?",
+        "text": "Which of the following is true about the JDK's demo directory?",
         "options": [
             {
                 "letter": "A",
@@ -337,7 +337,7 @@
     },
     {
         "title": "JavaJDK - Q0015",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's development tools?",
+        "text": "Which of the following is true about the JDK's development tools?",
         "options": [
             {
                 "letter": "A",
@@ -361,7 +361,7 @@
     },
     {
         "title": "JavaJDK - Q0016",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's role in Java development?",
+        "text": "Which of the following is true about the JDK's role in Java development?",
         "options": [
             {
                 "letter": "A",
@@ -385,7 +385,7 @@
     },
     {
         "title": "JavaJDK - Q0017",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's version command?",
+        "text": "Which of the following is true about the JDK's version command?",
         "options": [
             {
                 "letter": "A",
@@ -409,7 +409,7 @@
     },
     {
         "title": "JavaJDK - Q0018",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's environment variables?",
+        "text": "Which of the following is true about the JDK's environment variables?",
         "options": [
             {
                 "letter": "A",
@@ -433,7 +433,7 @@
     },
     {
         "title": "JavaJDK - Q0019",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's compatibility?",
+        "text": "Which of the following is true about the JDK's compatibility?",
         "options": [
             {
                 "letter": "A",
@@ -457,7 +457,7 @@
     },
     {
         "title": "JavaJDK - Q0020",
-        "text": "[Java Basics - JDK] Which of the following best describes the JDK?",
+        "text": "Which of the following best describes the JDK?",
         "options": [
             {
                 "letter": "A",
@@ -481,7 +481,7 @@
     },
     {
         "title": "JavaJDK - Q0021",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's relationship with the JRE?",
+        "text": "Which of the following is true about the JDK's relationship with the JRE?",
         "options": [
             {
                 "letter": "A",
@@ -505,7 +505,7 @@
     },
     {
         "title": "JavaJDK - Q0022",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's compiler?",
+        "text": "Which of the following is true about the JDK's compiler?",
         "options": [
             {
                 "letter": "A",
@@ -529,7 +529,7 @@
     },
     {
         "title": "JavaJDK - Q0023",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's debugger?",
+        "text": "Which of the following is true about the JDK's debugger?",
         "options": [
             {
                 "letter": "A",
@@ -553,7 +553,7 @@
     },
     {
         "title": "JavaJDK - Q0024",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jar tool?",
+        "text": "Which of the following is true about the JDK's jar tool?",
         "options": [
             {
                 "letter": "A",
@@ -577,7 +577,7 @@
     },
     {
         "title": "JavaJDK - Q0025",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jlink tool?",
+        "text": "Which of the following is true about the JDK's jlink tool?",
         "options": [
             {
                 "letter": "A",
@@ -601,7 +601,7 @@
     },
     {
         "title": "JavaJDK - Q0026",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jdeps tool?",
+        "text": "Which of the following is true about the JDK's jdeps tool?",
         "options": [
             {
                 "letter": "A",
@@ -625,7 +625,7 @@
     },
     {
         "title": "JavaJDK - Q0027",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jshell tool?",
+        "text": "Which of the following is true about the JDK's jshell tool?",
         "options": [
             {
                 "letter": "A",
@@ -649,7 +649,7 @@
     },
     {
         "title": "JavaJDK - Q0028",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jmod tool?",
+        "text": "Which of the following is true about the JDK's jmod tool?",
         "options": [
             {
                 "letter": "A",
@@ -673,7 +673,7 @@
     },
     {
         "title": "JavaJDK - Q0029",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jmap tool?",
+        "text": "Which of the following is true about the JDK's jmap tool?",
         "options": [
             {
                 "letter": "A",
@@ -697,7 +697,7 @@
     },
     {
         "title": "JavaJDK - Q0030",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jstat tool?",
+        "text": "Which of the following is true about the JDK's jstat tool?",
         "options": [
             {
                 "letter": "A",
@@ -721,7 +721,7 @@
     },
     {
         "title": "JavaJDK - Q0031",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jconsole tool?",
+        "text": "Which of the following is true about the JDK's jconsole tool?",
         "options": [
             {
                 "letter": "A",
@@ -745,7 +745,7 @@
     },
     {
         "title": "JavaJDK - Q0032",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jps tool?",
+        "text": "Which of the following is true about the JDK's jps tool?",
         "options": [
             {
                 "letter": "A",
@@ -769,7 +769,7 @@
     },
     {
         "title": "JavaJDK - Q0033",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jstack tool?",
+        "text": "Which of the following is true about the JDK's jstack tool?",
         "options": [
             {
                 "letter": "A",
@@ -793,7 +793,7 @@
     },
     {
         "title": "JavaJDK - Q0034",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jinfo tool?",
+        "text": "Which of the following is true about the JDK's jinfo tool?",
         "options": [
             {
                 "letter": "A",
@@ -817,7 +817,7 @@
     },
     {
         "title": "JavaJDK - Q0035",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jhat tool?",
+        "text": "Which of the following is true about the JDK's jhat tool?",
         "options": [
             {
                 "letter": "A",
@@ -841,7 +841,7 @@
     },
     {
         "title": "JavaJDK - Q0036",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jcmd tool?",
+        "text": "Which of the following is true about the JDK's jcmd tool?",
         "options": [
             {
                 "letter": "A",
@@ -865,7 +865,7 @@
     },
     {
         "title": "JavaJDK - Q0037",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jvisualvm tool?",
+        "text": "Which of the following is true about the JDK's jvisualvm tool?",
         "options": [
             {
                 "letter": "A",
@@ -889,7 +889,7 @@
     },
     {
         "title": "JavaJDK - Q0038",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's javap tool?",
+        "text": "Which of the following is true about the JDK's javap tool?",
         "options": [
             {
                 "letter": "A",
@@ -913,7 +913,7 @@
     },
     {
         "title": "JavaJDK - Q0039",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's javadoc tool?",
+        "text": "Which of the following is true about the JDK's javadoc tool?",
         "options": [
             {
                 "letter": "A",
@@ -937,7 +937,7 @@
     },
     {
         "title": "JavaJDK - Q0040",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's javah tool (deprecated)?",
+        "text": "Which of the following is true about the JDK's javah tool (deprecated)?",
         "options": [
             {
                 "letter": "A",
@@ -961,7 +961,7 @@
     },
     {
         "title": "JavaJDK - Q0041",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jpackage tool?",
+        "text": "Which of the following is true about the JDK's jpackage tool?",
         "options": [
             {
                 "letter": "A",
@@ -985,7 +985,7 @@
     },
     {
         "title": "JavaJDK - Q0042",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jfr tool?",
+        "text": "Which of the following is true about the JDK's jfr tool?",
         "options": [
             {
                 "letter": "A",
@@ -1009,7 +1009,7 @@
     },
     {
         "title": "JavaJDK - Q0043",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jstatd tool?",
+        "text": "Which of the following is true about the JDK's jstatd tool?",
         "options": [
             {
                 "letter": "A",
@@ -1033,7 +1033,7 @@
     },
     {
         "title": "JavaJDK - Q0044",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jlink tool?",
+        "text": "Which of the following is true about the JDK's jlink tool?",
         "options": [
             {
                 "letter": "A",
@@ -1057,7 +1057,7 @@
     },
     {
         "title": "JavaJDK - Q0045",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's javac tool?",
+        "text": "Which of the following is true about the JDK's javac tool?",
         "options": [
             {
                 "letter": "A",
@@ -1081,7 +1081,7 @@
     },
     {
         "title": "JavaJDK - Q0046",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's role in Java development?",
+        "text": "Which of the following is true about the JDK's role in Java development?",
         "options": [
             {
                 "letter": "A",
@@ -1105,7 +1105,7 @@
     },
     {
         "title": "JavaJDK - Q0047",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's version compatibility?",
+        "text": "Which of the following is true about the JDK's version compatibility?",
         "options": [
             {
                 "letter": "A",
@@ -1129,7 +1129,7 @@
     },
     {
         "title": "JavaJDK - Q0048",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's role in Java architecture?",
+        "text": "Which of the following is true about the JDK's role in Java architecture?",
         "options": [
             {
                 "letter": "A",
@@ -1153,7 +1153,7 @@
     },
     {
         "title": "JavaJDK - Q0049",
-        "text": "[Java Basics - JDK] Which of the following is true about the JDK's role in Java execution?",
+        "text": "Which of the following is true about the JDK's role in Java execution?",
         "options": [
             {
                 "letter": "A",
@@ -1177,7 +1177,7 @@
     },
     {
         "title": "JavaJDK - Q0050",
-        "text": "[Java Basics - JDK] Which of the following best describes the JDK?",
+        "text": "Which of the following best describes the JDK?",
         "options": [
             {
                 "letter": "A",

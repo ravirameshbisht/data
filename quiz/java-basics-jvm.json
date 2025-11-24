@@ -1,7 +1,7 @@
 [
     {
         "title": "JavaJVM - Q0001",
-        "text": "[Java Basics - JVM] What does JVM stand for?",
+        "text": "What does JVM stand for?",
         "options": [
             {
                 "letter": "A",
@@ -25,7 +25,7 @@
     },
     {
         "title": "JavaJVM - Q0002",
-        "text": "[Java Basics - JVM] What is the main function of the JVM?",
+        "text": "What is the main function of the JVM?",
         "options": [
             {
                 "letter": "A",
@@ -49,7 +49,7 @@
     },
     {
         "title": "JavaJVM - Q0003",
-        "text": "[Java Basics - JVM] Which component converts Java source code into bytecode?",
+        "text": "Which component converts Java source code into bytecode?",
         "options": [
             {
                 "letter": "A",
@@ -73,7 +73,7 @@
     },
     {
         "title": "JavaJVM - Q0004",
-        "text": "[Java Basics - JVM] What is bytecode?",
+        "text": "What is bytecode?",
         "options": [
             {
                 "letter": "A",
@@ -97,7 +97,7 @@
     },
     {
         "title": "JavaJVM - Q0005",
-        "text": "[Java Basics - JVM] Which file extension contains Java bytecode?",
+        "text": "Which file extension contains Java bytecode?",
         "options": [
             {
                 "letter": "A",
@@ -121,7 +121,7 @@
     },
     {
         "title": "JavaJVM - Q0006",
-        "text": "[Java Basics - JVM] Which component of the JVM loads class files?",
+        "text": "Which component of the JVM loads class files?",
         "options": [
             {
                 "letter": "A",
@@ -145,7 +145,7 @@
     },
     {
         "title": "JavaJVM - Q0007",
-        "text": "[Java Basics - JVM] Which component of the JVM checks the correctness of bytecode?",
+        "text": "Which component of the JVM checks the correctness of bytecode?",
         "options": [
             {
                 "letter": "A",
@@ -169,7 +169,7 @@
     },
     {
         "title": "JavaJVM - Q0008",
-        "text": "[Java Basics - JVM] Which component of the JVM executes bytecode line by line?",
+        "text": "Which component of the JVM executes bytecode line by line?",
         "options": [
             {
                 "letter": "A",
@@ -193,7 +193,7 @@
     },
     {
         "title": "JavaJVM - Q0009",
-        "text": "[Java Basics - JVM] What does JIT stand for in JVM?",
+        "text": "What does JIT stand for in JVM?",
         "options": [
             {
                 "letter": "A",
@@ -217,7 +217,7 @@
     },
     {
         "title": "JavaJVM - Q0010",
-        "text": "[Java Basics - JVM] What is the purpose of the JIT compiler?",
+        "text": "What is the purpose of the JIT compiler?",
         "options": [
             {
                 "letter": "A",
@@ -241,7 +241,7 @@
     },
     {
         "title": "JavaJVM - Q0011",
-        "text": "[Java Basics - JVM] Which memory area stores class-level data and method information?",
+        "text": "Which memory area stores class-level data and method information?",
         "options": [
             {
                 "letter": "A",
@@ -265,7 +265,7 @@
     },
     {
         "title": "JavaJVM - Q0012",
-        "text": "[Java Basics - JVM] Which memory area stores objects and arrays?",
+        "text": "Which memory area stores objects and arrays?",
         "options": [
             {
                 "letter": "A",
@@ -289,7 +289,7 @@
     },
     {
         "title": "JavaJVM - Q0013",
-        "text": "[Java Basics - JVM] Which memory area stores local variables and method call information?",
+        "text": "Which memory area stores local variables and method call information?",
         "options": [
             {
                 "letter": "A",
@@ -313,7 +313,7 @@
     },
     {
         "title": "JavaJVM - Q0014",
-        "text": "[Java Basics - JVM] Which memory area is used for native method execution?",
+        "text": "Which memory area is used for native method execution?",
         "options": [
             {
                 "letter": "A",
@@ -337,7 +337,7 @@
     },
     {
         "title": "JavaJVM - Q0015",
-        "text": "[Java Basics - JVM] Which memory area stores the address of the currently executing instruction?",
+        "text": "Which memory area stores the address of the currently executing instruction?",
         "options": [
             {
                 "letter": "A",
@@ -361,7 +361,7 @@
     },
     {
         "title": "JavaJVM - Q0016",
-        "text": "[Java Basics - JVM] What is the role of the Garbage Collector in JVM?",
+        "text": "What is the role of the Garbage Collector in JVM?",
         "options": [
             {
                 "letter": "A",
@@ -385,7 +385,7 @@
     },
     {
         "title": "JavaJVM - Q0017",
-        "text": "[Java Basics - JVM] Which part of the JVM is responsible for memory management?",
+        "text": "Which part of the JVM is responsible for memory management?",
         "options": [
             {
                 "letter": "A",
@@ -409,7 +409,7 @@
     },
     {
         "title": "JavaJVM - Q0018",
-        "text": "[Java Basics - JVM] Which of the following is not part of the JVM architecture?",
+        "text": "Which of the following is not part of the JVM architecture?",
         "options": [
             {
                 "letter": "A",
@@ -433,7 +433,7 @@
     },
     {
         "title": "JavaJVM - Q0019",
-        "text": "[Java Basics - JVM] Which component of JVM converts bytecode into native code?",
+        "text": "Which component of JVM converts bytecode into native code?",
         "options": [
             {
                 "letter": "A",
@@ -457,7 +457,7 @@
     },
     {
         "title": "JavaJVM - Q0020",
-        "text": "[Java Basics - JVM] Which of the following is true about JVM?",
+        "text": "Which of the following is true about JVM?",
         "options": [
             {
                 "letter": "A",
@@ -481,7 +481,7 @@
     },
     {
         "title": "JavaJVM - Q0021",
-        "text": "[Java Basics - JVM] Which of the following makes Java platform-independent?",
+        "text": "Which of the following makes Java platform-independent?",
         "options": [
             {
                 "letter": "A",
@@ -505,7 +505,7 @@
     },
     {
         "title": "JavaJVM - Q0022",
-        "text": "[Java Basics - JVM] Which of the following is responsible for loading classes into memory?",
+        "text": "Which of the following is responsible for loading classes into memory?",
         "options": [
             {
                 "letter": "A",
@@ -529,7 +529,7 @@
     },
     {
         "title": "JavaJVM - Q0023",
-        "text": "[Java Basics - JVM] Which of the following is not a type of Class Loader?",
+        "text": "Which of the following is not a type of Class Loader?",
         "options": [
             {
                 "letter": "A",
@@ -553,7 +553,7 @@
     },
     {
         "title": "JavaJVM - Q0024",
-        "text": "[Java Basics - JVM] Which Class Loader loads core Java classes?",
+        "text": "Which Class Loader loads core Java classes?",
         "options": [
             {
                 "letter": "A",
@@ -577,7 +577,7 @@
     },
     {
         "title": "JavaJVM - Q0025",
-        "text": "[Java Basics - JVM] Which Class Loader loads classes from the extensions directory?",
+        "text": "Which Class Loader loads classes from the extensions directory?",
         "options": [
             {
                 "letter": "A",
@@ -601,7 +601,7 @@
     },
     {
         "title": "JavaJVM - Q0026",
-        "text": "[Java Basics - JVM] Which Class Loader loads classes from the classpath?",
+        "text": "Which Class Loader loads classes from the classpath?",
         "options": [
             {
                 "letter": "A",
@@ -625,7 +625,7 @@
     },
     {
         "title": "JavaJVM - Q0027",
-        "text": "[Java Basics - JVM] Which of the following is responsible for converting bytecode into machine code?",
+        "text": "Which of the following is responsible for converting bytecode into machine code?",
         "options": [
             {
                 "letter": "A",
@@ -649,7 +649,7 @@
     },
     {
         "title": "JavaJVM - Q0028",
-        "text": "[Java Basics - JVM] Which of the following is responsible for executing native methods?",
+        "text": "Which of the following is responsible for executing native methods?",
         "options": [
             {
                 "letter": "A",
@@ -673,7 +673,7 @@
     },
     {
         "title": "JavaJVM - Q0029",
-        "text": "[Java Basics - JVM] Which of the following is responsible for managing memory in JVM?",
+        "text": "Which of the following is responsible for managing memory in JVM?",
         "options": [
             {
                 "letter": "A",
@@ -697,7 +697,7 @@
     },
     {
         "title": "JavaJVM - Q0030",
-        "text": "[Java Basics - JVM] Which of the following is not a memory area in JVM?",
+        "text": "Which of the following is not a memory area in JVM?",
         "options": [
             {
                 "letter": "A",
@@ -721,7 +721,7 @@
     },
     {
         "title": "JavaJVM - Q0031",
-        "text": "[Java Basics - JVM] Which memory area is shared among all threads?",
+        "text": "Which memory area is shared among all threads?",
         "options": [
             {
                 "letter": "A",
@@ -745,7 +745,7 @@
     },
     {
         "title": "JavaJVM - Q0032",
-        "text": "[Java Basics - JVM] Which memory area is private to each thread?",
+        "text": "Which memory area is private to each thread?",
         "options": [
             {
                 "letter": "A",
@@ -769,7 +769,7 @@
     },
     {
         "title": "JavaJVM - Q0033",
-        "text": "[Java Basics - JVM] Which of the following is responsible for verifying bytecode before execution?",
+        "text": "Which of the following is responsible for verifying bytecode before execution?",
         "options": [
             {
                 "letter": "A",
@@ -793,7 +793,7 @@
     },
     {
         "title": "JavaJVM - Q0034",
-        "text": "[Java Basics - JVM] Which of the following is true about the JVM?",
+        "text": "Which of the following is true about the JVM?",
         "options": [
             {
                 "letter": "A",
@@ -817,7 +817,7 @@
     },
     {
         "title": "JavaJVM - Q0035",
-        "text": "[Java Basics - JVM] Which of the following is responsible for converting .java files into .class files?",
+        "text": "Which of the following is responsible for converting .java files into .class files?",
         "options": [
             {
                 "letter": "A",
@@ -841,7 +841,7 @@
     },
     {
         "title": "JavaJVM - Q0036",
-        "text": "[Java Basics - JVM] Which of the following executes .class files?",
+        "text": "Which of the following executes .class files?",
         "options": [
             {
                 "letter": "A",
@@ -865,7 +865,7 @@
     },
     {
         "title": "JavaJVM - Q0037",
-        "text": "[Java Basics - JVM] Which of the following is responsible for optimizing performance during runtime?",
+        "text": "Which of the following is responsible for optimizing performance during runtime?",
         "options": [
             {
                 "letter": "A",
@@ -889,7 +889,7 @@
     },
     {
         "title": "JavaJVM - Q0038",
-        "text": "[Java Basics - JVM] Which of the following is responsible for executing bytecode instructions?",
+        "text": "Which of the following is responsible for executing bytecode instructions?",
         "options": [
             {
                 "letter": "A",
@@ -913,7 +913,7 @@
     },
     {
         "title": "JavaJVM - Q0039",
-        "text": "[Java Basics - JVM] Which of the following is responsible for freeing memory occupied by unused objects?",
+        "text": "Which of the following is responsible for freeing memory occupied by unused objects?",
         "options": [
             {
                 "letter": "A",
@@ -937,7 +937,7 @@
     },
     {
         "title": "JavaJVM - Q0040",
-        "text": "[Java Basics - JVM] Which of the following is true about the JVM memory model?",
+        "text": "Which of the following is true about the JVM memory model?",
         "options": [
             {
                 "letter": "A",
@@ -961,7 +961,7 @@
     },
     {
         "title": "JavaJVM - Q0041",
-        "text": "[Java Basics - JVM] Which of the following is responsible for managing thread execution?",
+        "text": "Which of the following is responsible for managing thread execution?",
         "options": [
             {
                 "letter": "A",
@@ -985,7 +985,7 @@
     },
     {
         "title": "JavaJVM - Q0042",
-        "text": "[Java Basics - JVM] Which of the following is responsible for converting bytecode into machine code only when needed?",
+        "text": "Which of the following is responsible for converting bytecode into machine code only when needed?",
         "options": [
             {
                 "letter": "A",
@@ -1009,7 +1009,7 @@
     },
     {
         "title": "JavaJVM - Q0043",
-        "text": "[Java Basics - JVM] Which of the following is responsible for verifying access rights of classes?",
+        "text": "Which of the following is responsible for verifying access rights of classes?",
         "options": [
             {
                 "letter": "A",
@@ -1033,7 +1033,7 @@
     },
     {
         "title": "JavaJVM - Q0044",
-        "text": "[Java Basics - JVM] Which of the following is responsible for executing native code?",
+        "text": "Which of the following is responsible for executing native code?",
         "options": [
             {
                 "letter": "A",
@@ -1057,7 +1057,7 @@
     },
     {
         "title": "JavaJVM - Q0045",
-        "text": "[Java Basics - JVM] Which of the following is responsible for managing method calls and returns?",
+        "text": "Which of the following is responsible for managing method calls and returns?",
         "options": [
             {
                 "letter": "A",
@@ -1081,7 +1081,7 @@
     },
     {
         "title": "JavaJVM - Q0046",
-        "text": "[Java Basics - JVM] Which of the following is responsible for storing class metadata?",
+        "text": "Which of the following is responsible for storing class metadata?",
         "options": [
             {
                 "letter": "A",
@@ -1105,7 +1105,7 @@
     },
     {
         "title": "JavaJVM - Q0047",
-        "text": "[Java Basics - JVM] Which of the following is responsible for storing object references?",
+        "text": "Which of the following is responsible for storing object references?",
         "options": [
             {
                 "letter": "A",
@@ -1129,7 +1129,7 @@
     },
     {
         "title": "JavaJVM - Q0048",
-        "text": "[Java Basics - JVM] Which of the following is responsible for storing actual object data?",
+        "text": "Which of the following is responsible for storing actual object data?",
         "options": [
             {
                 "letter": "A",
@@ -1153,7 +1153,7 @@
     },
     {
         "title": "JavaJVM - Q0049",
-        "text": "[Java Basics - JVM] Which of the following is responsible for storing the address of the next instruction?",
+        "text": "Which of the following is responsible for storing the address of the next instruction?",
         "options": [
             {
                 "letter": "A",
@@ -1177,7 +1177,7 @@
     },
     {
         "title": "JavaJVM - Q0050",
-        "text": "[Java Basics - JVM] Which of the following best describes the JVM?",
+        "text": "Which of the following best describes the JVM?",
         "options": [
             {
                 "letter": "A",
