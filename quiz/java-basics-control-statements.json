@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaControlStatements - Q0001",
+        "text": "[Java Basics - Control Statements] Which of the following is a conditional control statement in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "if"
+            },
+            {
+                "letter": "B",
+                "text": "for"
+            },
+            {
+                "letter": "C",
+                "text": "while"
+            },
+            {
+                "letter": "D",
+                "text": "do-while"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'if' statement is a conditional control statement used to make decisions."
+    },
+    {
+        "title": "JavaControlStatements - Q0002",
+        "text": "[Java Basics - Control Statements] Which of the following is an iterative control statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "if"
+            },
+            {
+                "letter": "B",
+                "text": "switch"
+            },
+            {
+                "letter": "C",
+                "text": "for"
+            },
+            {
+                "letter": "D",
+                "text": "break"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The 'for' loop is an iterative control statement used for repetition."
+    },
+    {
+        "title": "JavaControlStatements - Q0003",
+        "text": "[Java Basics - Control Statements] Which statement is used to terminate a loop prematurely?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "exit"
+            },
+            {
+                "letter": "B",
+                "text": "break"
+            },
+            {
+                "letter": "C",
+                "text": "continue"
+            },
+            {
+                "letter": "D",
+                "text": "return"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'break' statement terminates a loop or switch statement prematurely."
+    },
+    {
+        "title": "JavaControlStatements - Q0004",
+        "text": "[Java Basics - Control Statements] Which statement skips the current iteration of a loop?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "break"
+            },
+            {
+                "letter": "B",
+                "text": "continue"
+            },
+            {
+                "letter": "C",
+                "text": "exit"
+            },
+            {
+                "letter": "D",
+                "text": "return"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'continue' statement skips the current iteration and moves to the next."
+    },
+    {
+        "title": "JavaControlStatements - Q0005",
+        "text": "[Java Basics - Control Statements] Which statement is used to exit from a method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "break"
+            },
+            {
+                "letter": "B",
+                "text": "continue"
+            },
+            {
+                "letter": "C",
+                "text": "return"
+            },
+            {
+                "letter": "D",
+                "text": "exit"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The 'return' statement exits from a method and optionally returns a value."
+    },
+    {
+        "title": "JavaControlStatements - Q0006",
+        "text": "[Java Basics - Control Statements] Which statement is used to handle multiple conditions efficiently?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "if-else"
+            },
+            {
+                "letter": "B",
+                "text": "switch"
+            },
+            {
+                "letter": "C",
+                "text": "for"
+            },
+            {
+                "letter": "D",
+                "text": "while"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'switch' statement handles multiple conditions efficiently."
+    },
+    {
+        "title": "JavaControlStatements - Q0007",
+        "text": "[Java Basics - Control Statements] Which keyword is used to specify a default case in a switch statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "else"
+            },
+            {
+                "letter": "B",
+                "text": "default"
+            },
+            {
+                "letter": "C",
+                "text": "otherwise"
+            },
+            {
+                "letter": "D",
+                "text": "fallback"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'default' keyword specifies the block to execute if no case matches."
+    },
+    {
+        "title": "JavaControlStatements - Q0008",
+        "text": "[Java Basics - Control Statements] Which loop executes at least once regardless of the condition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for"
+            },
+            {
+                "letter": "B",
+                "text": "while"
+            },
+            {
+                "letter": "C",
+                "text": "do-while"
+            },
+            {
+                "letter": "D",
+                "text": "switch"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The 'do-while' loop executes the block at least once before checking the condition."
+    },
+    {
+        "title": "JavaControlStatements - Q0009",
+        "text": "[Java Basics - Control Statements] Which loop is best suited when the number of iterations is known?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for"
+            },
+            {
+                "letter": "B",
+                "text": "while"
+            },
+            {
+                "letter": "C",
+                "text": "do-while"
+            },
+            {
+                "letter": "D",
+                "text": "switch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'for' loop is best suited when the number of iterations is known."
+    },
+    {
+        "title": "JavaControlStatements - Q0010",
+        "text": "[Java Basics - Control Statements] Which loop is best suited when the number of iterations is unknown?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for"
+            },
+            {
+                "letter": "B",
+                "text": "while"
+            },
+            {
+                "letter": "C",
+                "text": "do-while"
+            },
+            {
+                "letter": "D",
+                "text": "switch"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'while' loop is used when the number of iterations is unknown."
+    },
+    {
+        "title": "JavaControlStatements - Q0011",
+        "text": "[Java Basics - Control Statements] Which statement is used to handle exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "try-catch"
+            },
+            {
+                "letter": "B",
+                "text": "if-else"
+            },
+            {
+                "letter": "C",
+                "text": "switch"
+            },
+            {
+                "letter": "D",
+                "text": "for"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'try-catch' block is used to handle exceptions."
+    },
+    {
+        "title": "JavaControlStatements - Q0012",
+        "text": "[Java Basics - Control Statements] Which block always executes after try-catch?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "finally"
+            },
+            {
+                "letter": "B",
+                "text": "default"
+            },
+            {
+                "letter": "C",
+                "text": "else"
+            },
+            {
+                "letter": "D",
+                "text": "end"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'finally' block always executes after try-catch, regardless of exceptions."
+    },
+    {
+        "title": "JavaControlStatements - Q0013",
+        "text": "[Java Basics - Control Statements] Which statement is used to throw an exception manually?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "throw"
+            },
+            {
+                "letter": "B",
+                "text": "throws"
+            },
+            {
+                "letter": "C",
+                "text": "raise"
+            },
+            {
+                "letter": "D",
+                "text": "error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'throw' keyword is used to manually throw an exception."
+    },
+    {
+        "title": "JavaControlStatements - Q0014",
+        "text": "[Java Basics - Control Statements] Which keyword is used in a method signature to declare exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "throw"
+            },
+            {
+                "letter": "B",
+                "text": "throws"
+            },
+            {
+                "letter": "C",
+                "text": "catch"
+            },
+            {
+                "letter": "D",
+                "text": "try"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'throws' keyword declares exceptions that a method can throw."
+    },
+    {
+        "title": "JavaControlStatements - Q0015",
+        "text": "[Java Basics - Control Statements] Which statement is used to handle multiple conditions compactly?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ternary operator"
+            },
+            {
+                "letter": "B",
+                "text": "if-else"
+            },
+            {
+                "letter": "C",
+                "text": "switch"
+            },
+            {
+                "letter": "D",
+                "text": "for"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ternary operator (condition ? value1 : value2) handles conditions compactly."
+    },
+    {
+        "title": "JavaControlStatements - Q0016",
+        "text": "[Java Basics - Control Statements] Which statement is used to exit from multiple nested loops?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "break label;"
+            },
+            {
+                "letter": "B",
+                "text": "continue label;"
+            },
+            {
+                "letter": "C",
+                "text": "exit;"
+            },
+            {
+                "letter": "D",
+                "text": "stop;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A labeled break statement can exit multiple nested loops."
+    },
+    {
+        "title": "JavaControlStatements - Q0017",
+        "text": "[Java Basics - Control Statements] Which statement transfers control to the next iteration of the labeled loop?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "break label;"
+            },
+            {
+                "letter": "B",
+                "text": "continue label;"
+            },
+            {
+                "letter": "C",
+                "text": "return;"
+            },
+            {
+                "letter": "D",
+                "text": "exit;"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A labeled continue statement skips to the next iteration of the labeled loop."
+    },
+    {
+        "title": "JavaControlStatements - Q0018",
+        "text": "[Java Basics - Control Statements] Which statement is used to terminate the program execution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "System.exit(0);"
+            },
+            {
+                "letter": "B",
+                "text": "break;"
+            },
+            {
+                "letter": "C",
+                "text": "return;"
+            },
+            {
+                "letter": "D",
+                "text": "stop;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "System.exit(0) terminates the program execution."
+    },
+    {
+        "title": "JavaControlStatements - Q0019",
+        "text": "[Java Basics - Control Statements] Which statement is used to handle multiple exceptions in one block?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "catch (IOException | SQLException e)"
+            },
+            {
+                "letter": "B",
+                "text": "catch (IOException, SQLException e)"
+            },
+            {
+                "letter": "C",
+                "text": "catch (IOException & SQLException e)"
+            },
+            {
+                "letter": "D",
+                "text": "catch (IOException || SQLException e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple exceptions can be handled using the '|' operator in a single catch block."
+    },
+    {
+        "title": "JavaControlStatements - Q0020",
+        "text": "[Java Basics - Control Statements] Which statement is used to rethrow an exception after handling it?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "throw e;"
+            },
+            {
+                "letter": "B",
+                "text": "throws e;"
+            },
+            {
+                "letter": "C",
+                "text": "raise e;"
+            },
+            {
+                "letter": "D",
+                "text": "error e;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'throw' statement can rethrow an exception after handling."
+    },
+    {
+        "title": "JavaControlStatements - Q0021",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the if-else statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can only check one condition"
+            },
+            {
+                "letter": "B",
+                "text": "It can check multiple conditions using else if"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot have an else block"
+            },
+            {
+                "letter": "D",
+                "text": "It must always have an else block"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The if-else statement can check multiple conditions using else if."
+    },
+    {
+        "title": "JavaControlStatements - Q0022",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the switch statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can evaluate strings and enums"
+            },
+            {
+                "letter": "B",
+                "text": "It can evaluate floating-point numbers"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot have a default case"
+            },
+            {
+                "letter": "D",
+                "text": "It can only evaluate integers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The switch statement can evaluate strings, enums, and integral types."
+    },
+    {
+        "title": "JavaControlStatements - Q0023",
+        "text": "[Java Basics - Control Statements] What happens if break is omitted in a switch case?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Only that case executes"
+            },
+            {
+                "letter": "B",
+                "text": "All subsequent cases execute"
+            },
+            {
+                "letter": "C",
+                "text": "Compilation error"
+            },
+            {
+                "letter": "D",
+                "text": "Program terminates"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Without break, execution falls through to subsequent cases."
+    },
+    {
+        "title": "JavaControlStatements - Q0024",
+        "text": "[Java Basics - Control Statements] Which of the following is a valid for loop syntax?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for (int i = 0; i < 5; i++)"
+            },
+            {
+                "letter": "B",
+                "text": "for i = 0 to 5"
+            },
+            {
+                "letter": "C",
+                "text": "loop (i < 5)"
+            },
+            {
+                "letter": "D",
+                "text": "for (i < 5; i++)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax is for(initialization; condition; increment)."
+    },
+    {
+        "title": "JavaControlStatements - Q0025",
+        "text": "[Java Basics - Control Statements] Which of the following is a valid while loop syntax?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "while (condition)"
+            },
+            {
+                "letter": "B",
+                "text": "while condition"
+            },
+            {
+                "letter": "C",
+                "text": "loop while condition"
+            },
+            {
+                "letter": "D",
+                "text": "while: condition"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The condition in a while loop must be enclosed in parentheses."
+    },
+    {
+        "title": "JavaControlStatements - Q0026",
+        "text": "[Java Basics - Control Statements] Which of the following is a valid do-while loop syntax?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "do { } while (condition);"
+            },
+            {
+                "letter": "B",
+                "text": "do while (condition);"
+            },
+            {
+                "letter": "C",
+                "text": "while (condition) do { }"
+            },
+            {
+                "letter": "D",
+                "text": "loop do (condition);"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax is do { } while (condition);"
+    },
+    {
+        "title": "JavaControlStatements - Q0027",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the for-each loop?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can iterate over arrays and collections"
+            },
+            {
+                "letter": "B",
+                "text": "It can only iterate over integers"
+            },
+            {
+                "letter": "C",
+                "text": "It can modify the collection size"
+            },
+            {
+                "letter": "D",
+                "text": "It cannot be used with arrays"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The for-each loop is used to iterate over arrays and collections."
+    },
+    {
+        "title": "JavaControlStatements - Q0028",
+        "text": "[Java Basics - Control Statements] Which of the following is a valid for-each loop syntax?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "for (int x : array)"
+            },
+            {
+                "letter": "B",
+                "text": "foreach (int x in array)"
+            },
+            {
+                "letter": "C",
+                "text": "for each (int x : array)"
+            },
+            {
+                "letter": "D",
+                "text": "loop (int x : array)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax is for (type variable : collection)."
+    },
+    {
+        "title": "JavaControlStatements - Q0029",
+        "text": "[Java Basics - Control Statements] Which of the following statements about break and continue is true?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "break skips the current iteration"
+            },
+            {
+                "letter": "B",
+                "text": "continue terminates the loop"
+            },
+            {
+                "letter": "C",
+                "text": "break terminates the loop"
+            },
+            {
+                "letter": "D",
+                "text": "continue exits the program"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The break statement terminates the loop immediately."
+    },
+    {
+        "title": "JavaControlStatements - Q0030",
+        "text": "[Java Basics - Control Statements] Which of the following is true about nested loops?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A loop inside another loop is not allowed"
+            },
+            {
+                "letter": "B",
+                "text": "The inner loop executes completely for each iteration of the outer loop"
+            },
+            {
+                "letter": "C",
+                "text": "The outer loop executes completely for each iteration of the inner loop"
+            },
+            {
+                "letter": "D",
+                "text": "Nested loops are only allowed in while loops"
+            }
+        ],
+        "correct": "B",
+        "explanation": "In nested loops, the inner loop executes completely for each iteration of the outer loop."
+    },
+    {
+        "title": "JavaControlStatements - Q0031",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the ternary operator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It replaces if-else statements"
+            },
+            {
+                "letter": "B",
+                "text": "It can only be used with integers"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot return values"
+            },
+            {
+                "letter": "D",
+                "text": "It requires three operands"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The ternary operator requires three operands: condition ? value1 : value2."
+    },
+    {
+        "title": "JavaControlStatements - Q0032",
+        "text": "[Java Basics - Control Statements] Which of the following is true about labeled loops?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They allow breaking out of multiple loops"
+            },
+            {
+                "letter": "B",
+                "text": "They are not supported in Java"
+            },
+            {
+                "letter": "C",
+                "text": "They can only be used with while loops"
+            },
+            {
+                "letter": "D",
+                "text": "They can only be used with for loops"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Labeled loops allow breaking or continuing specific outer loops."
+    },
+    {
+        "title": "JavaControlStatements - Q0033",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the return statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It exits from a loop"
+            },
+            {
+                "letter": "B",
+                "text": "It exits from a method"
+            },
+            {
+                "letter": "C",
+                "text": "It exits from a class"
+            },
+            {
+                "letter": "D",
+                "text": "It exits from the JVM"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The return statement exits from a method and optionally returns a value."
+    },
+    {
+        "title": "JavaControlStatements - Q0034",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the switch statement in Java 14 and later?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It supports arrow labels (->)"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot return values"
+            },
+            {
+                "letter": "C",
+                "text": "It does not support strings"
+            },
+            {
+                "letter": "D",
+                "text": "It requires break statements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java 14 introduced switch expressions with arrow labels (->)."
+    },
+    {
+        "title": "JavaControlStatements - Q0035",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the while loop?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It executes at least once"
+            },
+            {
+                "letter": "B",
+                "text": "It checks the condition before execution"
+            },
+            {
+                "letter": "C",
+                "text": "It checks the condition after execution"
+            },
+            {
+                "letter": "D",
+                "text": "It cannot contain break statements"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The while loop checks the condition before executing the loop body."
+    },
+    {
+        "title": "JavaControlStatements - Q0036",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the do-while loop?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It checks the condition before execution"
+            },
+            {
+                "letter": "B",
+                "text": "It executes at least once"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot contain break statements"
+            },
+            {
+                "letter": "D",
+                "text": "It cannot contain continue statements"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The do-while loop executes at least once before checking the condition."
+    },
+    {
+        "title": "JavaControlStatements - Q0037",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the for loop?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Initialization, condition, and increment are optional"
+            },
+            {
+                "letter": "B",
+                "text": "It must have all three parts"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot be infinite"
+            },
+            {
+                "letter": "D",
+                "text": "It cannot contain break statements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "All three parts of a for loop are optional, allowing infinite loops."
+    },
+    {
+        "title": "JavaControlStatements - Q0038",
+        "text": "[Java Basics - Control Statements] Which of the following is true about infinite loops?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be created using while(true)"
+            },
+            {
+                "letter": "B",
+                "text": "They can be created using for(;;)"
+            },
+            {
+                "letter": "C",
+                "text": "They can be terminated using break"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Infinite loops can be created using while(true) or for(;;) and terminated using break."
+    },
+    {
+        "title": "JavaControlStatements - Q0039",
+        "text": "[Java Basics - Control Statements] Which of the following is true about nested if statements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are not allowed in Java"
+            },
+            {
+                "letter": "B",
+                "text": "They allow multiple levels of condition checking"
+            },
+            {
+                "letter": "C",
+                "text": "They must have an else block"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot contain loops"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Nested if statements allow multiple levels of condition checking."
+    },
+    {
+        "title": "JavaControlStatements - Q0040",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the break statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can be used outside loops"
+            },
+            {
+                "letter": "B",
+                "text": "It can only be used inside loops or switch statements"
+            },
+            {
+                "letter": "C",
+                "text": "It can terminate the program"
+            },
+            {
+                "letter": "D",
+                "text": "It can skip iterations"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The break statement can only be used inside loops or switch statements."
+    },
+    {
+        "title": "JavaControlStatements - Q0041",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the continue statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It terminates the loop"
+            },
+            {
+                "letter": "B",
+                "text": "It skips the current iteration"
+            },
+            {
+                "letter": "C",
+                "text": "It exits the program"
+            },
+            {
+                "letter": "D",
+                "text": "It restarts the program"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The continue statement skips the current iteration and moves to the next."
+    },
+    {
+        "title": "JavaControlStatements - Q0042",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the return statement in a void method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can return a value"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot be used"
+            },
+            {
+                "letter": "C",
+                "text": "It can be used to exit the method early"
+            },
+            {
+                "letter": "D",
+                "text": "It restarts the method"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The return statement can be used to exit a void method early."
+    },
+    {
+        "title": "JavaControlStatements - Q0043",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the switch statement fall-through behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It executes only one case"
+            },
+            {
+                "letter": "B",
+                "text": "It executes all subsequent cases until a break"
+            },
+            {
+                "letter": "C",
+                "text": "It throws an exception"
+            },
+            {
+                "letter": "D",
+                "text": "It terminates the program"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Without a break, the switch statement falls through to subsequent cases."
+    },
+    {
+        "title": "JavaControlStatements - Q0044",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the default case in a switch statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It must be the first case"
+            },
+            {
+                "letter": "B",
+                "text": "It must be the last case"
+            },
+            {
+                "letter": "C",
+                "text": "It can appear anywhere"
+            },
+            {
+                "letter": "D",
+                "text": "It is mandatory"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The default case can appear anywhere in a switch statement."
+    },
+    {
+        "title": "JavaControlStatements - Q0045",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the enhanced switch expression?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can return a value"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot return a value"
+            },
+            {
+                "letter": "C",
+                "text": "It requires break statements"
+            },
+            {
+                "letter": "D",
+                "text": "It does not support strings"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Enhanced switch expressions can return values directly."
+    },
+    {
+        "title": "JavaControlStatements - Q0046",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the if statement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It must have an else block"
+            },
+            {
+                "letter": "B",
+                "text": "It can exist without an else block"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot contain loops"
+            },
+            {
+                "letter": "D",
+                "text": "It must contain a return statement"
+            }
+        ],
+        "correct": "B",
+        "explanation": "An if statement can exist without an else block."
+    },
+    {
+        "title": "JavaControlStatements - Q0047",
+        "text": "[Java Basics - Control Statements] Which of the following is true about nested switch statements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are not allowed"
+            },
+            {
+                "letter": "B",
+                "text": "They are allowed and can be nested inside cases"
+            },
+            {
+                "letter": "C",
+                "text": "They must have a default case"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot contain break statements"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Switch statements can be nested inside other switch cases."
+    },
+    {
+        "title": "JavaControlStatements - Q0048",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the for-each loop?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can modify the collection size"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot modify the collection size"
+            },
+            {
+                "letter": "C",
+                "text": "It can iterate over primitive types only"
+            },
+            {
+                "letter": "D",
+                "text": "It cannot iterate over arrays"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The for-each loop cannot modify the collection size."
+    },
+    {
+        "title": "JavaControlStatements - Q0049",
+        "text": "[Java Basics - Control Statements] Which of the following is true about the break statement in nested loops?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It breaks only the inner loop"
+            },
+            {
+                "letter": "B",
+                "text": "It breaks all loops"
+            },
+            {
+                "letter": "C",
+                "text": "It restarts the loop"
+            },
+            {
+                "letter": "D",
+                "text": "It skips the current iteration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The break statement breaks only the innermost loop unless labeled."
+    },
+    {
+        "title": "JavaControlStatements - Q0050",
+        "text": "[Java Basics - Control Statements] Which of the following best describes control statements in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They control the flow of execution in a program"
+            },
+            {
+                "letter": "B",
+                "text": "They define variables"
+            },
+            {
+                "letter": "C",
+                "text": "They handle exceptions only"
+            },
+            {
+                "letter": "D",
+                "text": "They are used for input and output"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Control statements control the flow of execution in a program."
+    }
+]
