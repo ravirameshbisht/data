@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaJDK - Q0001",
+        "text": "[Java Basics - JDK] What does JDK stand for?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Java Development Kit"
+            },
+            {
+                "letter": "B",
+                "text": "Java Deployment Kit"
+            },
+            {
+                "letter": "C",
+                "text": "Java Debugging Kit"
+            },
+            {
+                "letter": "D",
+                "text": "Java Data Kit"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JDK stands for Java Development Kit."
+    },
+    {
+        "title": "JavaJDK - Q0002",
+        "text": "[Java Basics - JDK] What is the main purpose of the JDK?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To develop and compile Java programs"
+            },
+            {
+                "letter": "B",
+                "text": "To execute Java bytecode"
+            },
+            {
+                "letter": "C",
+                "text": "To debug non-Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "To manage databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK provides tools to develop and compile Java programs."
+    },
+    {
+        "title": "JavaJDK - Q0003",
+        "text": "[Java Basics - JDK] Which of the following components are included in the JDK?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JRE, compiler, and development tools"
+            },
+            {
+                "letter": "B",
+                "text": "Only JVM"
+            },
+            {
+                "letter": "C",
+                "text": "Only JRE"
+            },
+            {
+                "letter": "D",
+                "text": "Only libraries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK includes the JRE, compiler, and other development tools."
+    },
+    {
+        "title": "JavaJDK - Q0004",
+        "text": "[Java Basics - JDK] Which of the following tools is used to compile Java source code?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "javac"
+            },
+            {
+                "letter": "B",
+                "text": "java"
+            },
+            {
+                "letter": "C",
+                "text": "jar"
+            },
+            {
+                "letter": "D",
+                "text": "javadoc"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'javac' tool compiles Java source code into bytecode."
+    },
+    {
+        "title": "JavaJDK - Q0005",
+        "text": "[Java Basics - JDK] Which of the following tools is used to run compiled Java programs?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java"
+            },
+            {
+                "letter": "B",
+                "text": "javac"
+            },
+            {
+                "letter": "C",
+                "text": "jar"
+            },
+            {
+                "letter": "D",
+                "text": "javadoc"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'java' command runs compiled Java bytecode using the JVM."
+    },
+    {
+        "title": "JavaJDK - Q0006",
+        "text": "[Java Basics - JDK] Which of the following tools is used to generate API documentation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "javadoc"
+            },
+            {
+                "letter": "B",
+                "text": "javac"
+            },
+            {
+                "letter": "C",
+                "text": "java"
+            },
+            {
+                "letter": "D",
+                "text": "jar"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'javadoc' tool generates API documentation from source code comments."
+    },
+    {
+        "title": "JavaJDK - Q0007",
+        "text": "[Java Basics - JDK] Which of the following tools is used to package Java classes into a JAR file?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "jar"
+            },
+            {
+                "letter": "B",
+                "text": "javac"
+            },
+            {
+                "letter": "C",
+                "text": "java"
+            },
+            {
+                "letter": "D",
+                "text": "javadoc"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'jar' tool packages compiled Java classes into a JAR file."
+    },
+    {
+        "title": "JavaJDK - Q0008",
+        "text": "[Java Basics - JDK] Which of the following is NOT part of the JDK?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JVM"
+            },
+            {
+                "letter": "B",
+                "text": "JRE"
+            },
+            {
+                "letter": "C",
+                "text": "Compiler"
+            },
+            {
+                "letter": "D",
+                "text": "Database engine"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The JDK does not include a database engine."
+    },
+    {
+        "title": "JavaJDK - Q0009",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It includes tools for developing Java applications"
+            },
+            {
+                "letter": "B",
+                "text": "It only runs Java applications"
+            },
+            {
+                "letter": "C",
+                "text": "It is used for debugging non-Java code"
+            },
+            {
+                "letter": "D",
+                "text": "It is used for database management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK includes tools for developing, compiling, and debugging Java applications."
+    },
+    {
+        "title": "JavaJDK - Q0010",
+        "text": "[Java Basics - JDK] Which of the following is true about the relationship between JDK, JRE, and JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JDK contains JRE, and JRE contains JVM"
+            },
+            {
+                "letter": "B",
+                "text": "JRE contains JDK, and JDK contains JVM"
+            },
+            {
+                "letter": "C",
+                "text": "JVM contains JRE, and JRE contains JDK"
+            },
+            {
+                "letter": "D",
+                "text": "They are independent of each other"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK contains the JRE, which in turn contains the JVM."
+    },
+    {
+        "title": "JavaJDK - Q0011",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's bin directory?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It contains executable tools like javac and java"
+            },
+            {
+                "letter": "B",
+                "text": "It contains source code"
+            },
+            {
+                "letter": "C",
+                "text": "It contains compiled bytecode"
+            },
+            {
+                "letter": "D",
+                "text": "It contains documentation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The bin directory contains executable tools like javac, java, and jar."
+    },
+    {
+        "title": "JavaJDK - Q0012",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's lib directory?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It contains core Java libraries"
+            },
+            {
+                "letter": "B",
+                "text": "It contains executables"
+            },
+            {
+                "letter": "C",
+                "text": "It contains source code"
+            },
+            {
+                "letter": "D",
+                "text": "It contains compiled bytecode"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lib directory contains core Java libraries required for development."
+    },
+    {
+        "title": "JavaJDK - Q0013",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's include directory?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It contains header files for native code integration"
+            },
+            {
+                "letter": "B",
+                "text": "It contains compiled Java classes"
+            },
+            {
+                "letter": "C",
+                "text": "It contains documentation"
+            },
+            {
+                "letter": "D",
+                "text": "It contains executables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The include directory contains header files for native code integration using JNI."
+    },
+    {
+        "title": "JavaJDK - Q0014",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's demo directory?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It contains sample Java programs"
+            },
+            {
+                "letter": "B",
+                "text": "It contains compiled bytecode"
+            },
+            {
+                "letter": "C",
+                "text": "It contains executables"
+            },
+            {
+                "letter": "D",
+                "text": "It contains documentation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The demo directory contains sample Java programs for learning and testing."
+    },
+    {
+        "title": "JavaJDK - Q0015",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's development tools?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They include javac, jar, and javadoc"
+            },
+            {
+                "letter": "B",
+                "text": "They include only java"
+            },
+            {
+                "letter": "C",
+                "text": "They include only jar"
+            },
+            {
+                "letter": "D",
+                "text": "They include only javadoc"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK includes development tools like javac, jar, and javadoc."
+    },
+    {
+        "title": "JavaJDK - Q0016",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's role in Java development?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides tools to develop, compile, and debug Java programs"
+            },
+            {
+                "letter": "B",
+                "text": "It only runs Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It only compiles Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It only debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK provides tools to develop, compile, and debug Java programs."
+    },
+    {
+        "title": "JavaJDK - Q0017",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's version command?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "javac -version displays the JDK version"
+            },
+            {
+                "letter": "B",
+                "text": "java -version displays the JDK version"
+            },
+            {
+                "letter": "C",
+                "text": "jar -version displays the JDK version"
+            },
+            {
+                "letter": "D",
+                "text": "javadoc -version displays the JDK version"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The javac -version command displays the JDK version."
+    },
+    {
+        "title": "JavaJDK - Q0018",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's environment variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JAVA_HOME points to the JDK installation directory"
+            },
+            {
+                "letter": "B",
+                "text": "PATH points to the JDK's bin directory"
+            },
+            {
+                "letter": "C",
+                "text": "Both A and B"
+            },
+            {
+                "letter": "D",
+                "text": "Neither A nor B"
+            }
+        ],
+        "correct": "C",
+        "explanation": "JAVA_HOME points to the JDK directory, and PATH includes the JDK's bin directory."
+    },
+    {
+        "title": "JavaJDK - Q0019",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's compatibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A newer JDK can compile code for older Java versions"
+            },
+            {
+                "letter": "B",
+                "text": "An older JDK can compile code for newer Java versions"
+            },
+            {
+                "letter": "C",
+                "text": "JDK versions are not backward compatible"
+            },
+            {
+                "letter": "D",
+                "text": "JDK versions are not forward compatible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A newer JDK can compile code for older Java versions using the -source and -target options."
+    },
+    {
+        "title": "JavaJDK - Q0020",
+        "text": "[Java Basics - JDK] Which of the following best describes the JDK?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A software package used to develop Java applications"
+            },
+            {
+                "letter": "B",
+                "text": "A runtime environment for executing Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "A debugger for Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "A text editor for Java files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK is a software package used to develop Java applications."
+    },
+    {
+        "title": "JavaJDK - Q0021",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's relationship with the JRE?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The JDK includes the JRE"
+            },
+            {
+                "letter": "B",
+                "text": "The JRE includes the JDK"
+            },
+            {
+                "letter": "C",
+                "text": "They are identical"
+            },
+            {
+                "letter": "D",
+                "text": "They are unrelated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK includes the JRE, which provides the runtime environment for Java programs."
+    },
+    {
+        "title": "JavaJDK - Q0022",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's compiler?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It converts Java source code into bytecode"
+            },
+            {
+                "letter": "B",
+                "text": "It converts bytecode into machine code"
+            },
+            {
+                "letter": "C",
+                "text": "It executes Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK compiler (javac) converts Java source code into bytecode."
+    },
+    {
+        "title": "JavaJDK - Q0023",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's debugger?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is used to debug Java programs"
+            },
+            {
+                "letter": "B",
+                "text": "It is used to compile Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It is used to run Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It is used to package Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK includes a debugger (jdb) to debug Java programs."
+    },
+    {
+        "title": "JavaJDK - Q0024",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jar tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It packages Java classes into JAR files"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java source code"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jar tool packages compiled Java classes into JAR files."
+    },
+    {
+        "title": "JavaJDK - Q0025",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jlink tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It creates custom runtime images"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jlink tool creates custom runtime images containing only required modules."
+    },
+    {
+        "title": "JavaJDK - Q0026",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jdeps tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It analyzes class dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jdeps tool analyzes class and package dependencies in Java applications."
+    },
+    {
+        "title": "JavaJDK - Q0027",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jshell tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides an interactive REPL for Java"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jshell tool provides an interactive REPL (Read-Eval-Print Loop) for Java."
+    },
+    {
+        "title": "JavaJDK - Q0028",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jmod tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It creates and manages Java module files"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jmod tool creates and manages Java module files (.jmod)."
+    },
+    {
+        "title": "JavaJDK - Q0029",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jmap tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It prints memory maps of Java processes"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jmap tool prints memory maps and heap details of Java processes."
+    },
+    {
+        "title": "JavaJDK - Q0030",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jstat tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It monitors JVM statistics"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jstat tool monitors JVM performance statistics."
+    },
+    {
+        "title": "JavaJDK - Q0031",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jconsole tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides a GUI for monitoring JVM performance"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jconsole tool provides a GUI for monitoring JVM performance and memory usage."
+    },
+    {
+        "title": "JavaJDK - Q0032",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jps tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It lists running Java processes"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jps tool lists all running Java processes on the system."
+    },
+    {
+        "title": "JavaJDK - Q0033",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jstack tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It prints stack traces of Java threads"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jstack tool prints stack traces of Java threads for debugging."
+    },
+    {
+        "title": "JavaJDK - Q0034",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jinfo tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It displays configuration information for Java processes"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jinfo tool displays configuration information for running Java processes."
+    },
+    {
+        "title": "JavaJDK - Q0035",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jhat tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It analyzes heap dumps"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jhat tool analyzes heap dumps generated by the JVM."
+    },
+    {
+        "title": "JavaJDK - Q0036",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jcmd tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It sends diagnostic commands to Java processes"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jcmd tool sends diagnostic commands to running Java processes."
+    },
+    {
+        "title": "JavaJDK - Q0037",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jvisualvm tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides a GUI for monitoring and profiling Java applications"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jvisualvm tool provides a GUI for monitoring and profiling Java applications."
+    },
+    {
+        "title": "JavaJDK - Q0038",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's javap tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It disassembles Java class files"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The javap tool disassembles Java class files to view bytecode."
+    },
+    {
+        "title": "JavaJDK - Q0039",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's javadoc tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It generates HTML documentation from source code comments"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The javadoc tool generates HTML documentation from Java source code comments."
+    },
+    {
+        "title": "JavaJDK - Q0040",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's javah tool (deprecated)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It generated C header files for native methods"
+            },
+            {
+                "letter": "B",
+                "text": "It compiled Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It ran Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packaged Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The javah tool (deprecated) generated C header files for native methods."
+    },
+    {
+        "title": "JavaJDK - Q0041",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jpackage tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It packages Java applications into native installers"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jpackage tool packages Java applications into native installers."
+    },
+    {
+        "title": "JavaJDK - Q0042",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jfr tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It records flight recordings for performance analysis"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jfr tool records flight recordings for performance analysis."
+    },
+    {
+        "title": "JavaJDK - Q0043",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jstatd tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It monitors JVM statistics remotely"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jstatd tool monitors JVM statistics remotely."
+    },
+    {
+        "title": "JavaJDK - Q0044",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's jlink tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It creates custom runtime images"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The jlink tool creates custom runtime images containing only required modules."
+    },
+    {
+        "title": "JavaJDK - Q0045",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's javac tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It compiles Java source code into bytecode"
+            },
+            {
+                "letter": "B",
+                "text": "It runs Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It debugs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The javac tool compiles Java source code into bytecode."
+    },
+    {
+        "title": "JavaJDK - Q0046",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's role in Java development?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides all tools required for Java development"
+            },
+            {
+                "letter": "B",
+                "text": "It only runs Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It only compiles Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It only debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK provides all tools required for Java development, including compilation and debugging."
+    },
+    {
+        "title": "JavaJDK - Q0047",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's version compatibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A newer JDK can compile code for older Java versions"
+            },
+            {
+                "letter": "B",
+                "text": "An older JDK can compile code for newer Java versions"
+            },
+            {
+                "letter": "C",
+                "text": "JDK versions are not backward compatible"
+            },
+            {
+                "letter": "D",
+                "text": "JDK versions are not forward compatible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A newer JDK can compile code for older Java versions using the -source and -target options."
+    },
+    {
+        "title": "JavaJDK - Q0048",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's role in Java architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides tools for developing and compiling Java programs"
+            },
+            {
+                "letter": "B",
+                "text": "It provides only runtime libraries"
+            },
+            {
+                "letter": "C",
+                "text": "It provides only debugging tools"
+            },
+            {
+                "letter": "D",
+                "text": "It provides only documentation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK provides tools for developing and compiling Java programs."
+    },
+    {
+        "title": "JavaJDK - Q0049",
+        "text": "[Java Basics - JDK] Which of the following is true about the JDK's role in Java execution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It includes the JRE to run compiled Java programs"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot run Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It only compiles Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It only debugs Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK includes the JRE, which allows running compiled Java programs."
+    },
+    {
+        "title": "JavaJDK - Q0050",
+        "text": "[Java Basics - JDK] Which of the following best describes the JDK?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A complete software package for developing, compiling, and running Java programs"
+            },
+            {
+                "letter": "B",
+                "text": "A runtime environment for executing Java programs only"
+            },
+            {
+                "letter": "C",
+                "text": "A debugger for Java programs only"
+            },
+            {
+                "letter": "D",
+                "text": "A text editor for Java files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK is a complete software package for developing, compiling, and running Java programs."
+    }
+]

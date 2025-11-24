@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaJVM - Q0001",
+        "text": "[Java Basics - JVM] What does JVM stand for?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Java Virtual Machine"
+            },
+            {
+                "letter": "B",
+                "text": "Java Variable Manager"
+            },
+            {
+                "letter": "C",
+                "text": "Java Version Manager"
+            },
+            {
+                "letter": "D",
+                "text": "Java Visual Model"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JVM stands for Java Virtual Machine."
+    },
+    {
+        "title": "JavaJVM - Q0002",
+        "text": "[Java Basics - JVM] What is the main function of the JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To compile Java code"
+            },
+            {
+                "letter": "B",
+                "text": "To interpret and execute bytecode"
+            },
+            {
+                "letter": "C",
+                "text": "To edit Java source files"
+            },
+            {
+                "letter": "D",
+                "text": "To debug Java programs"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The JVM interprets and executes Java bytecode."
+    },
+    {
+        "title": "JavaJVM - Q0003",
+        "text": "[Java Basics - JVM] Which component converts Java source code into bytecode?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JVM"
+            },
+            {
+                "letter": "B",
+                "text": "JRE"
+            },
+            {
+                "letter": "C",
+                "text": "JDK"
+            },
+            {
+                "letter": "D",
+                "text": "Java Compiler (javac)"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The Java compiler (javac) converts source code into bytecode."
+    },
+    {
+        "title": "JavaJVM - Q0004",
+        "text": "[Java Basics - JVM] What is bytecode?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Machine code"
+            },
+            {
+                "letter": "B",
+                "text": "Intermediate code executed by JVM"
+            },
+            {
+                "letter": "C",
+                "text": "Source code"
+            },
+            {
+                "letter": "D",
+                "text": "Assembly code"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Bytecode is intermediate code executed by the JVM."
+    },
+    {
+        "title": "JavaJVM - Q0005",
+        "text": "[Java Basics - JVM] Which file extension contains Java bytecode?",
+        "options": [
+            {
+                "letter": "A",
+                "text": ".java"
+            },
+            {
+                "letter": "B",
+                "text": ".class"
+            },
+            {
+                "letter": "C",
+                "text": ".jar"
+            },
+            {
+                "letter": "D",
+                "text": ".exe"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Java bytecode is stored in .class files."
+    },
+    {
+        "title": "JavaJVM - Q0006",
+        "text": "[Java Basics - JVM] Which component of the JVM loads class files?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "B",
+                "text": "Bytecode Verifier"
+            },
+            {
+                "letter": "C",
+                "text": "Interpreter"
+            },
+            {
+                "letter": "D",
+                "text": "JIT Compiler"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Class Loader loads class files into memory."
+    },
+    {
+        "title": "JavaJVM - Q0007",
+        "text": "[Java Basics - JVM] Which component of the JVM checks the correctness of bytecode?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "B",
+                "text": "Bytecode Verifier"
+            },
+            {
+                "letter": "C",
+                "text": "Interpreter"
+            },
+            {
+                "letter": "D",
+                "text": "JIT Compiler"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The Bytecode Verifier ensures bytecode is valid and secure."
+    },
+    {
+        "title": "JavaJVM - Q0008",
+        "text": "[Java Basics - JVM] Which component of the JVM executes bytecode line by line?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "B",
+                "text": "Bytecode Verifier"
+            },
+            {
+                "letter": "C",
+                "text": "Interpreter"
+            },
+            {
+                "letter": "D",
+                "text": "JIT Compiler"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The Interpreter executes bytecode line by line."
+    },
+    {
+        "title": "JavaJVM - Q0009",
+        "text": "[Java Basics - JVM] What does JIT stand for in JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Just In Time"
+            },
+            {
+                "letter": "B",
+                "text": "Java Internal Translator"
+            },
+            {
+                "letter": "C",
+                "text": "Java Instruction Table"
+            },
+            {
+                "letter": "D",
+                "text": "Java Integrated Tool"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JIT stands for Just In Time compiler."
+    },
+    {
+        "title": "JavaJVM - Q0010",
+        "text": "[Java Basics - JVM] What is the purpose of the JIT compiler?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To compile Java source code"
+            },
+            {
+                "letter": "B",
+                "text": "To convert bytecode into native machine code at runtime"
+            },
+            {
+                "letter": "C",
+                "text": "To verify bytecode"
+            },
+            {
+                "letter": "D",
+                "text": "To load classes"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The JIT compiler converts bytecode into native machine code at runtime for faster execution."
+    },
+    {
+        "title": "JavaJVM - Q0011",
+        "text": "[Java Basics - JVM] Which memory area stores class-level data and method information?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heap"
+            },
+            {
+                "letter": "B",
+                "text": "Stack"
+            },
+            {
+                "letter": "C",
+                "text": "Method Area"
+            },
+            {
+                "letter": "D",
+                "text": "PC Register"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The Method Area stores class-level data and method information."
+    },
+    {
+        "title": "JavaJVM - Q0012",
+        "text": "[Java Basics - JVM] Which memory area stores objects and arrays?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heap"
+            },
+            {
+                "letter": "B",
+                "text": "Stack"
+            },
+            {
+                "letter": "C",
+                "text": "Method Area"
+            },
+            {
+                "letter": "D",
+                "text": "PC Register"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Heap stores objects and arrays."
+    },
+    {
+        "title": "JavaJVM - Q0013",
+        "text": "[Java Basics - JVM] Which memory area stores local variables and method call information?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heap"
+            },
+            {
+                "letter": "B",
+                "text": "Stack"
+            },
+            {
+                "letter": "C",
+                "text": "Method Area"
+            },
+            {
+                "letter": "D",
+                "text": "Native Method Stack"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The Stack stores local variables and method call information."
+    },
+    {
+        "title": "JavaJVM - Q0014",
+        "text": "[Java Basics - JVM] Which memory area is used for native method execution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heap"
+            },
+            {
+                "letter": "B",
+                "text": "Stack"
+            },
+            {
+                "letter": "C",
+                "text": "Native Method Stack"
+            },
+            {
+                "letter": "D",
+                "text": "Method Area"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The Native Method Stack is used for native method execution."
+    },
+    {
+        "title": "JavaJVM - Q0015",
+        "text": "[Java Basics - JVM] Which memory area stores the address of the currently executing instruction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heap"
+            },
+            {
+                "letter": "B",
+                "text": "Stack"
+            },
+            {
+                "letter": "C",
+                "text": "PC Register"
+            },
+            {
+                "letter": "D",
+                "text": "Method Area"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The PC Register stores the address of the currently executing instruction."
+    },
+    {
+        "title": "JavaJVM - Q0016",
+        "text": "[Java Basics - JVM] What is the role of the Garbage Collector in JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To compile code"
+            },
+            {
+                "letter": "B",
+                "text": "To remove unused objects from memory"
+            },
+            {
+                "letter": "C",
+                "text": "To load classes"
+            },
+            {
+                "letter": "D",
+                "text": "To verify bytecode"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The Garbage Collector removes unused objects from memory to free space."
+    },
+    {
+        "title": "JavaJVM - Q0017",
+        "text": "[Java Basics - JVM] Which part of the JVM is responsible for memory management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "B",
+                "text": "Garbage Collector"
+            },
+            {
+                "letter": "C",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "D",
+                "text": "Interpreter"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The Garbage Collector manages memory by reclaiming unused objects."
+    },
+    {
+        "title": "JavaJVM - Q0018",
+        "text": "[Java Basics - JVM] Which of the following is not part of the JVM architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "B",
+                "text": "Bytecode Verifier"
+            },
+            {
+                "letter": "C",
+                "text": "Compiler"
+            },
+            {
+                "letter": "D",
+                "text": "Garbage Collector"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The compiler (javac) is part of the JDK, not the JVM."
+    },
+    {
+        "title": "JavaJVM - Q0019",
+        "text": "[Java Basics - JVM] Which component of JVM converts bytecode into native code?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interpreter"
+            },
+            {
+                "letter": "B",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "C",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "D",
+                "text": "Bytecode Verifier"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The JIT Compiler converts bytecode into native code for faster execution."
+    },
+    {
+        "title": "JavaJVM - Q0020",
+        "text": "[Java Basics - JVM] Which of the following is true about JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is platform-dependent"
+            },
+            {
+                "letter": "B",
+                "text": "It is platform-independent"
+            },
+            {
+                "letter": "C",
+                "text": "It is both platform-dependent and independent"
+            },
+            {
+                "letter": "D",
+                "text": "It is not related to platform"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JVM is platform-dependent because each OS has its own implementation."
+    },
+    {
+        "title": "JavaJVM - Q0021",
+        "text": "[Java Basics - JVM] Which of the following makes Java platform-independent?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JVM"
+            },
+            {
+                "letter": "B",
+                "text": "JRE"
+            },
+            {
+                "letter": "C",
+                "text": "JDK"
+            },
+            {
+                "letter": "D",
+                "text": "Compiler"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JVM allows Java bytecode to run on any platform, making Java platform-independent."
+    },
+    {
+        "title": "JavaJVM - Q0022",
+        "text": "[Java Basics - JVM] Which of the following is responsible for loading classes into memory?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "B",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "C",
+                "text": "Garbage Collector"
+            },
+            {
+                "letter": "D",
+                "text": "Interpreter"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Class Loader loads class files into memory for execution."
+    },
+    {
+        "title": "JavaJVM - Q0023",
+        "text": "[Java Basics - JVM] Which of the following is not a type of Class Loader?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bootstrap Class Loader"
+            },
+            {
+                "letter": "B",
+                "text": "Extension Class Loader"
+            },
+            {
+                "letter": "C",
+                "text": "Application Class Loader"
+            },
+            {
+                "letter": "D",
+                "text": "System Class Loader"
+            }
+        ],
+        "correct": "D",
+        "explanation": "System Class Loader is another name for Application Class Loader; all others are valid types."
+    },
+    {
+        "title": "JavaJVM - Q0024",
+        "text": "[Java Basics - JVM] Which Class Loader loads core Java classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bootstrap Class Loader"
+            },
+            {
+                "letter": "B",
+                "text": "Extension Class Loader"
+            },
+            {
+                "letter": "C",
+                "text": "Application Class Loader"
+            },
+            {
+                "letter": "D",
+                "text": "Custom Class Loader"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Bootstrap Class Loader loads core Java classes from the JRE."
+    },
+    {
+        "title": "JavaJVM - Q0025",
+        "text": "[Java Basics - JVM] Which Class Loader loads classes from the extensions directory?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bootstrap Class Loader"
+            },
+            {
+                "letter": "B",
+                "text": "Extension Class Loader"
+            },
+            {
+                "letter": "C",
+                "text": "Application Class Loader"
+            },
+            {
+                "letter": "D",
+                "text": "Custom Class Loader"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The Extension Class Loader loads classes from the extensions directory."
+    },
+    {
+        "title": "JavaJVM - Q0026",
+        "text": "[Java Basics - JVM] Which Class Loader loads classes from the classpath?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bootstrap Class Loader"
+            },
+            {
+                "letter": "B",
+                "text": "Extension Class Loader"
+            },
+            {
+                "letter": "C",
+                "text": "Application Class Loader"
+            },
+            {
+                "letter": "D",
+                "text": "Custom Class Loader"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The Application Class Loader loads classes from the classpath."
+    },
+    {
+        "title": "JavaJVM - Q0027",
+        "text": "[Java Basics - JVM] Which of the following is responsible for converting bytecode into machine code?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "B",
+                "text": "Interpreter"
+            },
+            {
+                "letter": "C",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "D",
+                "text": "Garbage Collector"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JIT Compiler converts bytecode into machine code for faster execution."
+    },
+    {
+        "title": "JavaJVM - Q0028",
+        "text": "[Java Basics - JVM] Which of the following is responsible for executing native methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Native Method Interface"
+            },
+            {
+                "letter": "B",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "C",
+                "text": "Interpreter"
+            },
+            {
+                "letter": "D",
+                "text": "Class Loader"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Native Method Interface (JNI) executes native methods written in other languages."
+    },
+    {
+        "title": "JavaJVM - Q0029",
+        "text": "[Java Basics - JVM] Which of the following is responsible for managing memory in JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Garbage Collector"
+            },
+            {
+                "letter": "B",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "C",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "D",
+                "text": "Interpreter"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Garbage Collector manages memory by reclaiming unused objects."
+    },
+    {
+        "title": "JavaJVM - Q0030",
+        "text": "[Java Basics - JVM] Which of the following is not a memory area in JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heap"
+            },
+            {
+                "letter": "B",
+                "text": "Stack"
+            },
+            {
+                "letter": "C",
+                "text": "Method Area"
+            },
+            {
+                "letter": "D",
+                "text": "Cache Memory"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Cache Memory is not part of JVM memory areas."
+    },
+    {
+        "title": "JavaJVM - Q0031",
+        "text": "[Java Basics - JVM] Which memory area is shared among all threads?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heap"
+            },
+            {
+                "letter": "B",
+                "text": "Stack"
+            },
+            {
+                "letter": "C",
+                "text": "PC Register"
+            },
+            {
+                "letter": "D",
+                "text": "Native Method Stack"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Heap is shared among all threads."
+    },
+    {
+        "title": "JavaJVM - Q0032",
+        "text": "[Java Basics - JVM] Which memory area is private to each thread?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heap"
+            },
+            {
+                "letter": "B",
+                "text": "Stack"
+            },
+            {
+                "letter": "C",
+                "text": "Method Area"
+            },
+            {
+                "letter": "D",
+                "text": "Heap and Stack"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Each thread has its own Stack memory."
+    },
+    {
+        "title": "JavaJVM - Q0033",
+        "text": "[Java Basics - JVM] Which of the following is responsible for verifying bytecode before execution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bytecode Verifier"
+            },
+            {
+                "letter": "B",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "C",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "D",
+                "text": "Garbage Collector"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Bytecode Verifier ensures bytecode is valid and secure before execution."
+    },
+    {
+        "title": "JavaJVM - Q0034",
+        "text": "[Java Basics - JVM] Which of the following is true about the JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is part of the JDK"
+            },
+            {
+                "letter": "B",
+                "text": "It is part of the JRE"
+            },
+            {
+                "letter": "C",
+                "text": "It is part of the compiler"
+            },
+            {
+                "letter": "D",
+                "text": "It is part of the OS"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The JVM is part of the JRE, which executes Java programs."
+    },
+    {
+        "title": "JavaJVM - Q0035",
+        "text": "[Java Basics - JVM] Which of the following is responsible for converting .java files into .class files?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "javac"
+            },
+            {
+                "letter": "B",
+                "text": "java"
+            },
+            {
+                "letter": "C",
+                "text": "JVM"
+            },
+            {
+                "letter": "D",
+                "text": "JIT Compiler"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The javac compiler converts .java files into .class files."
+    },
+    {
+        "title": "JavaJVM - Q0036",
+        "text": "[Java Basics - JVM] Which of the following executes .class files?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "javac"
+            },
+            {
+                "letter": "B",
+                "text": "java"
+            },
+            {
+                "letter": "C",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "D",
+                "text": "JRE"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The java command runs the JVM to execute .class files."
+    },
+    {
+        "title": "JavaJVM - Q0037",
+        "text": "[Java Basics - JVM] Which of the following is responsible for optimizing performance during runtime?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "B",
+                "text": "Interpreter"
+            },
+            {
+                "letter": "C",
+                "text": "Garbage Collector"
+            },
+            {
+                "letter": "D",
+                "text": "Class Loader"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JIT Compiler optimizes performance by compiling frequently used code into native code."
+    },
+    {
+        "title": "JavaJVM - Q0038",
+        "text": "[Java Basics - JVM] Which of the following is responsible for executing bytecode instructions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interpreter"
+            },
+            {
+                "letter": "B",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "C",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "D",
+                "text": "Garbage Collector"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Interpreter executes bytecode instructions line by line."
+    },
+    {
+        "title": "JavaJVM - Q0039",
+        "text": "[Java Basics - JVM] Which of the following is responsible for freeing memory occupied by unused objects?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Garbage Collector"
+            },
+            {
+                "letter": "B",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "C",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "D",
+                "text": "Interpreter"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Garbage Collector frees memory occupied by unused objects."
+    },
+    {
+        "title": "JavaJVM - Q0040",
+        "text": "[Java Basics - JVM] Which of the following is true about the JVM memory model?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heap is shared, Stack is private"
+            },
+            {
+                "letter": "B",
+                "text": "Stack is shared, Heap is private"
+            },
+            {
+                "letter": "C",
+                "text": "Both are shared"
+            },
+            {
+                "letter": "D",
+                "text": "Both are private"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Heap is shared among threads, while Stack is private to each thread."
+    },
+    {
+        "title": "JavaJVM - Q0041",
+        "text": "[Java Basics - JVM] Which of the following is responsible for managing thread execution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Thread Scheduler"
+            },
+            {
+                "letter": "B",
+                "text": "Garbage Collector"
+            },
+            {
+                "letter": "C",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "D",
+                "text": "Class Loader"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Thread Scheduler manages thread execution in the JVM."
+    },
+    {
+        "title": "JavaJVM - Q0042",
+        "text": "[Java Basics - JVM] Which of the following is responsible for converting bytecode into machine code only when needed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "B",
+                "text": "Interpreter"
+            },
+            {
+                "letter": "C",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "D",
+                "text": "Garbage Collector"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JIT Compiler compiles bytecode into machine code only when needed."
+    },
+    {
+        "title": "JavaJVM - Q0043",
+        "text": "[Java Basics - JVM] Which of the following is responsible for verifying access rights of classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bytecode Verifier"
+            },
+            {
+                "letter": "B",
+                "text": "Class Loader"
+            },
+            {
+                "letter": "C",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "D",
+                "text": "Garbage Collector"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Bytecode Verifier checks access rights and ensures security."
+    },
+    {
+        "title": "JavaJVM - Q0044",
+        "text": "[Java Basics - JVM] Which of the following is responsible for executing native code?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JNI"
+            },
+            {
+                "letter": "B",
+                "text": "JIT Compiler"
+            },
+            {
+                "letter": "C",
+                "text": "Interpreter"
+            },
+            {
+                "letter": "D",
+                "text": "Class Loader"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JNI (Java Native Interface) executes native code in the JVM."
+    },
+    {
+        "title": "JavaJVM - Q0045",
+        "text": "[Java Basics - JVM] Which of the following is responsible for managing method calls and returns?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Stack"
+            },
+            {
+                "letter": "B",
+                "text": "Heap"
+            },
+            {
+                "letter": "C",
+                "text": "Method Area"
+            },
+            {
+                "letter": "D",
+                "text": "PC Register"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Stack manages method calls and returns."
+    },
+    {
+        "title": "JavaJVM - Q0046",
+        "text": "[Java Basics - JVM] Which of the following is responsible for storing class metadata?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method Area"
+            },
+            {
+                "letter": "B",
+                "text": "Heap"
+            },
+            {
+                "letter": "C",
+                "text": "Stack"
+            },
+            {
+                "letter": "D",
+                "text": "PC Register"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Method Area stores class metadata and static variables."
+    },
+    {
+        "title": "JavaJVM - Q0047",
+        "text": "[Java Basics - JVM] Which of the following is responsible for storing object references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heap"
+            },
+            {
+                "letter": "B",
+                "text": "Stack"
+            },
+            {
+                "letter": "C",
+                "text": "Method Area"
+            },
+            {
+                "letter": "D",
+                "text": "PC Register"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The Stack stores references to objects located in the Heap."
+    },
+    {
+        "title": "JavaJVM - Q0048",
+        "text": "[Java Basics - JVM] Which of the following is responsible for storing actual object data?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heap"
+            },
+            {
+                "letter": "B",
+                "text": "Stack"
+            },
+            {
+                "letter": "C",
+                "text": "Method Area"
+            },
+            {
+                "letter": "D",
+                "text": "PC Register"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Heap stores actual object data."
+    },
+    {
+        "title": "JavaJVM - Q0049",
+        "text": "[Java Basics - JVM] Which of the following is responsible for storing the address of the next instruction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "PC Register"
+            },
+            {
+                "letter": "B",
+                "text": "Stack"
+            },
+            {
+                "letter": "C",
+                "text": "Heap"
+            },
+            {
+                "letter": "D",
+                "text": "Method Area"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The PC Register stores the address of the next instruction to execute."
+    },
+    {
+        "title": "JavaJVM - Q0050",
+        "text": "[Java Basics - JVM] Which of the following best describes the JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An abstract computing machine that enables Java bytecode to run on any platform"
+            },
+            {
+                "letter": "B",
+                "text": "A compiler for Java source code"
+            },
+            {
+                "letter": "C",
+                "text": "A debugger for Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "A text editor for Java files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JVM is an abstract computing machine that enables Java bytecode to run on any platform."
+    }
+]

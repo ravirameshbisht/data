@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "Q0001",
+        "text": "What does JRE stand for?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Java Runtime Environment"
+            },
+            {
+                "letter": "B",
+                "text": "Java Runtime Engine"
+            },
+            {
+                "letter": "C",
+                "text": "Java Resource Environment"
+            },
+            {
+                "letter": "D",
+                "text": "Java Resource Engine"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JRE stands for Java Runtime Environment."
+    },
+    {
+        "title": "Q0002",
+        "text": "What is the main purpose of the JRE?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To compile Java source code"
+            },
+            {
+                "letter": "B",
+                "text": "To execute Java bytecode"
+            },
+            {
+                "letter": "C",
+                "text": "To edit Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "To debug Java applications"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The JRE provides the environment required to execute Java bytecode."
+    },
+    {
+        "title": "Q0003",
+        "text": "Which of the following components are included in the JRE?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JVM and core libraries"
+            },
+            {
+                "letter": "B",
+                "text": "JVM and compiler"
+            },
+            {
+                "letter": "C",
+                "text": "Compiler and debugger"
+            },
+            {
+                "letter": "D",
+                "text": "JVM and JDK"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE includes the JVM and core class libraries required to run Java programs."
+    },
+    {
+        "title": "Q0004",
+        "text": "Which of the following is NOT part of the JRE?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JVM"
+            },
+            {
+                "letter": "B",
+                "text": "Java API libraries"
+            },
+            {
+                "letter": "C",
+                "text": "Java compiler (javac)"
+            },
+            {
+                "letter": "D",
+                "text": "Runtime class loader"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The Java compiler (javac) is part of the JDK, not the JRE."
+    },
+    {
+        "title": "Q0005",
+        "text": "Which of the following best describes the relationship between JDK, JRE, and JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JDK ⊃ JRE ⊃ JVM"
+            },
+            {
+                "letter": "B",
+                "text": "JRE ⊃ JDK ⊃ JVM"
+            },
+            {
+                "letter": "C",
+                "text": "JVM ⊃ JRE ⊃ JDK"
+            },
+            {
+                "letter": "D",
+                "text": "JDK ⊃ JVM ⊃ JRE"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JDK contains the JRE, and the JRE contains the JVM."
+    },
+    {
+        "title": "Q0006",
+        "text": "Which of the following is true about the JRE?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is used to develop Java programs"
+            },
+            {
+                "letter": "B",
+                "text": "It is used to run Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It is used to compile Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It is used to debug Java programs"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The JRE provides the environment to run Java programs."
+    },
+    {
+        "title": "Q0007",
+        "text": "Which of the following tools is part of the JRE?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java"
+            },
+            {
+                "letter": "B",
+                "text": "javac"
+            },
+            {
+                "letter": "C",
+                "text": "javadoc"
+            },
+            {
+                "letter": "D",
+                "text": "jar"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'java' command is part of the JRE and is used to run Java programs."
+    },
+    {
+        "title": "Q0008",
+        "text": "Which of the following tools is NOT part of the JRE?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java"
+            },
+            {
+                "letter": "B",
+                "text": "javac"
+            },
+            {
+                "letter": "C",
+                "text": "javaw"
+            },
+            {
+                "letter": "D",
+                "text": "javaws"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'javac' compiler is part of the JDK, not the JRE."
+    },
+    {
+        "title": "Q0009",
+        "text": "Which of the following is responsible for executing Java bytecode in the JRE?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JVM"
+            },
+            {
+                "letter": "B",
+                "text": "JDK"
+            },
+            {
+                "letter": "C",
+                "text": "Compiler"
+            },
+            {
+                "letter": "D",
+                "text": "Debugger"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JVM executes Java bytecode within the JRE."
+    },
+    {
+        "title": "Q0010",
+        "text": "Which of the following is true about the JRE installation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It includes development tools"
+            },
+            {
+                "letter": "B",
+                "text": "It includes only runtime libraries and JVM"
+            },
+            {
+                "letter": "C",
+                "text": "It includes source code"
+            },
+            {
+                "letter": "D",
+                "text": "It includes the Java compiler"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The JRE includes runtime libraries and the JVM but not development tools."
+    },
+    {
+        "title": "Q0011",
+        "text": "Which of the following is true about the JRE and JDK?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JRE is required to run Java programs, JDK is required to develop them"
+            },
+            {
+                "letter": "B",
+                "text": "JDK is required to run Java programs, JRE is required to develop them"
+            },
+            {
+                "letter": "C",
+                "text": "Both are required to run Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "Neither is required to run Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE runs Java programs, while the JDK is used to develop them."
+    },
+    {
+        "title": "Q0012",
+        "text": "Which of the following is NOT included in the JRE?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JVM"
+            },
+            {
+                "letter": "B",
+                "text": "Core libraries"
+            },
+            {
+                "letter": "C",
+                "text": "Development tools"
+            },
+            {
+                "letter": "D",
+                "text": "Runtime libraries"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Development tools like javac are part of the JDK, not the JRE."
+    },
+    {
+        "title": "Q0013",
+        "text": "Which of the following is true about the JRE version?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It must match the JDK version"
+            },
+            {
+                "letter": "B",
+                "text": "It can be different from the JDK version"
+            },
+            {
+                "letter": "C",
+                "text": "It is independent of the JDK"
+            },
+            {
+                "letter": "D",
+                "text": "It is not versioned"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE version typically matches the JDK version for compatibility."
+    },
+    {
+        "title": "Q0014",
+        "text": "Which of the following is true about the JRE and JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JRE contains the JVM"
+            },
+            {
+                "letter": "B",
+                "text": "JVM contains the JRE"
+            },
+            {
+                "letter": "C",
+                "text": "They are the same"
+            },
+            {
+                "letter": "D",
+                "text": "JRE is part of the JVM"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE contains the JVM and supporting libraries."
+    },
+    {
+        "title": "Q0015",
+        "text": "Which of the following is true about the JRE's role in Java execution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It compiles Java source code"
+            },
+            {
+                "letter": "B",
+                "text": "It provides the environment to run compiled bytecode"
+            },
+            {
+                "letter": "C",
+                "text": "It debugs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java applications"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The JRE provides the environment to run compiled Java bytecode."
+    },
+    {
+        "title": "Q0016",
+        "text": "Which of the following is true about the JRE's libraries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They include core Java classes like java.lang and java.util"
+            },
+            {
+                "letter": "B",
+                "text": "They include only user-defined classes"
+            },
+            {
+                "letter": "C",
+                "text": "They include only third-party libraries"
+            },
+            {
+                "letter": "D",
+                "text": "They include only GUI libraries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE includes core Java libraries like java.lang, java.util, and java.io."
+    },
+    {
+        "title": "Q0017",
+        "text": "Which of the following is true about the JRE's platform independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JRE is platform-independent"
+            },
+            {
+                "letter": "B",
+                "text": "JRE is platform-dependent"
+            },
+            {
+                "letter": "C",
+                "text": "JRE is both platform-dependent and independent"
+            },
+            {
+                "letter": "D",
+                "text": "JRE is not related to platform"
+            }
+        ],
+        "correct": "B",
+        "explanation": "JRE is platform-dependent because each OS has its own implementation."
+    },
+    {
+        "title": "Q0018",
+        "text": "Which of the following is true about the JRE's compatibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A newer JRE can run older Java programs"
+            },
+            {
+                "letter": "B",
+                "text": "An older JRE can run newer Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "JRE versions are not backward compatible"
+            },
+            {
+                "letter": "D",
+                "text": "JRE versions are not forward compatible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A newer JRE can usually run older Java programs due to backward compatibility."
+    },
+    {
+        "title": "Q0019",
+        "text": "Which of the following is true about the JRE's installation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It installs the compiler"
+            },
+            {
+                "letter": "B",
+                "text": "It installs only runtime components"
+            },
+            {
+                "letter": "C",
+                "text": "It installs development tools"
+            },
+            {
+                "letter": "D",
+                "text": "It installs source code"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The JRE installs only runtime components required to run Java programs."
+    },
+    {
+        "title": "Q0020",
+        "text": "Which of the following is true about the JRE's role in Java architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides the runtime environment for the JVM"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java code"
+            },
+            {
+                "letter": "C",
+                "text": "It provides debugging tools"
+            },
+            {
+                "letter": "D",
+                "text": "It provides development tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE provides the runtime environment for the JVM to execute Java programs."
+    },
+    {
+        "title": "Q0021",
+        "text": "Which of the following is true about the JRE's relationship with the JVM?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The JRE provides the JVM with necessary libraries and files"
+            },
+            {
+                "letter": "B",
+                "text": "The JVM provides the JRE with libraries"
+            },
+            {
+                "letter": "C",
+                "text": "They are completely independent"
+            },
+            {
+                "letter": "D",
+                "text": "The JRE compiles Java code for the JVM"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE provides the JVM with the libraries and files needed to run Java programs."
+    },
+    {
+        "title": "Q0022",
+        "text": "Which of the following is true about the JRE's role in Java execution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It converts source code to bytecode"
+            },
+            {
+                "letter": "B",
+                "text": "It executes bytecode using the JVM"
+            },
+            {
+                "letter": "C",
+                "text": "It compiles bytecode to machine code"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java programs"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The JRE executes bytecode using the JVM."
+    },
+    {
+        "title": "Q0023",
+        "text": "Which of the following is true about the JRE's libraries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They include Java API classes"
+            },
+            {
+                "letter": "B",
+                "text": "They include only user-defined classes"
+            },
+            {
+                "letter": "C",
+                "text": "They include only third-party libraries"
+            },
+            {
+                "letter": "D",
+                "text": "They include only GUI libraries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE includes Java API classes such as java.lang and java.util."
+    },
+    {
+        "title": "Q0024",
+        "text": "Which of the following is true about the JRE's platform dependency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each operating system has its own JRE implementation"
+            },
+            {
+                "letter": "B",
+                "text": "The JRE is the same for all platforms"
+            },
+            {
+                "letter": "C",
+                "text": "The JRE is platform-independent"
+            },
+            {
+                "letter": "D",
+                "text": "The JRE is not required for Java execution"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each operating system has its own JRE implementation to support platform-specific execution."
+    },
+    {
+        "title": "Q0025",
+        "text": "Which of the following is true about the JRE's compatibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A newer JRE can run older Java programs"
+            },
+            {
+                "letter": "B",
+                "text": "An older JRE can run newer Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "JRE versions are not backward compatible"
+            },
+            {
+                "letter": "D",
+                "text": "JRE versions are not forward compatible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A newer JRE can usually run older Java programs due to backward compatibility."
+    },
+    {
+        "title": "Q0026",
+        "text": "Which of the following is true about the JRE's memory management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is handled by the JVM's garbage collector"
+            },
+            {
+                "letter": "B",
+                "text": "It is handled manually by the programmer"
+            },
+            {
+                "letter": "C",
+                "text": "It is handled by the JDK"
+            },
+            {
+                "letter": "D",
+                "text": "It is not managed at all"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Memory management in the JRE is handled by the JVM's garbage collector."
+    },
+    {
+        "title": "Q0027",
+        "text": "Which of the following is true about the JRE's role in Java architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides the runtime environment for executing Java applications"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java source code"
+            },
+            {
+                "letter": "C",
+                "text": "It provides debugging tools"
+            },
+            {
+                "letter": "D",
+                "text": "It provides development tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE provides the runtime environment for executing Java applications."
+    },
+    {
+        "title": "Q0028",
+        "text": "Which of the following is true about the JRE's installation directory?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It contains bin and lib folders"
+            },
+            {
+                "letter": "B",
+                "text": "It contains only source code"
+            },
+            {
+                "letter": "C",
+                "text": "It contains only compiled classes"
+            },
+            {
+                "letter": "D",
+                "text": "It contains only documentation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE installation directory contains bin and lib folders for executables and libraries."
+    },
+    {
+        "title": "Q0029",
+        "text": "Which of the following is true about the JRE's bin folder?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It contains executable files like java.exe"
+            },
+            {
+                "letter": "B",
+                "text": "It contains source code"
+            },
+            {
+                "letter": "C",
+                "text": "It contains documentation"
+            },
+            {
+                "letter": "D",
+                "text": "It contains compiled bytecode"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The bin folder in the JRE contains executables like java.exe and javaw.exe."
+    },
+    {
+        "title": "Q0030",
+        "text": "Which of the following is true about the JRE's lib folder?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It contains core Java libraries"
+            },
+            {
+                "letter": "B",
+                "text": "It contains executables"
+            },
+            {
+                "letter": "C",
+                "text": "It contains source code"
+            },
+            {
+                "letter": "D",
+                "text": "It contains compiled bytecode"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lib folder in the JRE contains core Java libraries required for execution."
+    },
+    {
+        "title": "Q0031",
+        "text": "Which of the following is true about the JRE's java command?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It runs Java bytecode"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java source code"
+            },
+            {
+                "letter": "C",
+                "text": "It debugs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The java command runs Java bytecode using the JVM."
+    },
+    {
+        "title": "Q0032",
+        "text": "Which of the following is true about the JRE's javaw command?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It runs Java programs without a console window"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It debugs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The javaw command runs Java programs without opening a console window."
+    },
+    {
+        "title": "Q0033",
+        "text": "Which of the following is true about the JRE's javaws command?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It launches Java Web Start applications"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java programs"
+            },
+            {
+                "letter": "C",
+                "text": "It debugs Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The javaws command launches Java Web Start applications."
+    },
+    {
+        "title": "Q0034",
+        "text": "Which of the following is true about the JRE's environment variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JAVA_HOME points to the JRE installation directory"
+            },
+            {
+                "letter": "B",
+                "text": "PATH points to the JRE's bin directory"
+            },
+            {
+                "letter": "C",
+                "text": "Both A and B"
+            },
+            {
+                "letter": "D",
+                "text": "Neither A nor B"
+            }
+        ],
+        "correct": "C",
+        "explanation": "JAVA_HOME points to the JRE directory, and PATH includes the JRE's bin directory."
+    },
+    {
+        "title": "Q0035",
+        "text": "Which of the following is true about the JRE's version command?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java -version displays the JRE version"
+            },
+            {
+                "letter": "B",
+                "text": "javac -version displays the JRE version"
+            },
+            {
+                "letter": "C",
+                "text": "javaw -version displays the JRE version"
+            },
+            {
+                "letter": "D",
+                "text": "jar -version displays the JRE version"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The java -version command displays the installed JRE version."
+    },
+    {
+        "title": "Q0036",
+        "text": "Which of the following is true about the JRE's updates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They include security and performance improvements"
+            },
+            {
+                "letter": "B",
+                "text": "They include new development tools"
+            },
+            {
+                "letter": "C",
+                "text": "They include new compilers"
+            },
+            {
+                "letter": "D",
+                "text": "They include only documentation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JRE updates include security and performance improvements."
+    },
+    {
+        "title": "Q0037",
+        "text": "Which of the following is true about the JRE's compatibility with Java applications?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It ensures that Java applications run consistently across platforms"
+            },
+            {
+                "letter": "B",
+                "text": "It restricts Java applications to specific platforms"
+            },
+            {
+                "letter": "C",
+                "text": "It compiles Java applications"
+            },
+            {
+                "letter": "D",
+                "text": "It debugs Java applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE ensures consistent execution of Java applications across platforms."
+    },
+    {
+        "title": "Q0038",
+        "text": "Which of the following is true about the JRE's role in Java portability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows Java programs to run on any platform with a compatible JRE"
+            },
+            {
+                "letter": "B",
+                "text": "It restricts Java programs to Windows only"
+            },
+            {
+                "letter": "C",
+                "text": "It requires recompilation for each platform"
+            },
+            {
+                "letter": "D",
+                "text": "It disables cross-platform execution"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE enables Java's 'write once, run anywhere' capability."
+    },
+    {
+        "title": "Q0039",
+        "text": "Which of the following is true about the JRE's role in Java security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides a security manager and class loader"
+            },
+            {
+                "letter": "B",
+                "text": "It provides encryption tools"
+            },
+            {
+                "letter": "C",
+                "text": "It provides debugging tools"
+            },
+            {
+                "letter": "D",
+                "text": "It provides compilers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE provides a security manager and class loader to enforce security policies."
+    },
+    {
+        "title": "Q0040",
+        "text": "Which of the following is true about the JRE's role in Java updates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It ensures compatibility with new Java versions"
+            },
+            {
+                "letter": "B",
+                "text": "It removes old Java versions"
+            },
+            {
+                "letter": "C",
+                "text": "It compiles new Java code"
+            },
+            {
+                "letter": "D",
+                "text": "It disables old Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JRE updates ensure compatibility with new Java versions."
+    },
+    {
+        "title": "Q0041",
+        "text": "Which of the following is true about the JRE's role in Java applets?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides the environment to run Java applets"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles Java applets"
+            },
+            {
+                "letter": "C",
+                "text": "It debugs Java applets"
+            },
+            {
+                "letter": "D",
+                "text": "It packages Java applets"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE provides the environment to run Java applets in browsers."
+    },
+    {
+        "title": "Q0042",
+        "text": "Which of the following is true about the JRE's role in Java applications?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides the runtime environment for standalone applications"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles standalone applications"
+            },
+            {
+                "letter": "C",
+                "text": "It debugs standalone applications"
+            },
+            {
+                "letter": "D",
+                "text": "It packages standalone applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE provides the runtime environment for standalone Java applications."
+    },
+    {
+        "title": "Q0043",
+        "text": "Which of the following is true about the JRE's role in Java web applications?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides the runtime environment for server-side Java applications"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles server-side Java applications"
+            },
+            {
+                "letter": "C",
+                "text": "It debugs server-side Java applications"
+            },
+            {
+                "letter": "D",
+                "text": "It packages server-side Java applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE provides the runtime environment for server-side Java applications."
+    },
+    {
+        "title": "Q0044",
+        "text": "Which of the following is true about the JRE's role in Java GUI applications?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides the runtime environment for GUI applications"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles GUI applications"
+            },
+            {
+                "letter": "C",
+                "text": "It debugs GUI applications"
+            },
+            {
+                "letter": "D",
+                "text": "It packages GUI applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE provides the runtime environment for GUI-based Java applications."
+    },
+    {
+        "title": "Q0045",
+        "text": "Which of the following is true about the JRE's role in Java mobile applications?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides the runtime environment for mobile Java applications"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles mobile Java applications"
+            },
+            {
+                "letter": "C",
+                "text": "It debugs mobile Java applications"
+            },
+            {
+                "letter": "D",
+                "text": "It packages mobile Java applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE provides the runtime environment for mobile Java applications."
+    },
+    {
+        "title": "Q0046",
+        "text": "Which of the following is true about the JRE's role in Java enterprise applications?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides the runtime environment for enterprise Java applications"
+            },
+            {
+                "letter": "B",
+                "text": "It compiles enterprise Java applications"
+            },
+            {
+                "letter": "C",
+                "text": "It debugs enterprise Java applications"
+            },
+            {
+                "letter": "D",
+                "text": "It packages enterprise Java applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE provides the runtime environment for enterprise Java applications."
+    },
+    {
+        "title": "Q0047",
+        "text": "Which of the following is true about the JRE's role in Java updates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It ensures compatibility with new Java versions"
+            },
+            {
+                "letter": "B",
+                "text": "It removes old Java versions"
+            },
+            {
+                "letter": "C",
+                "text": "It compiles new Java code"
+            },
+            {
+                "letter": "D",
+                "text": "It disables old Java programs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JRE updates ensure compatibility with new Java versions."
+    },
+    {
+        "title": "Q0048",
+        "text": "Which of the following is true about the JRE's role in Java portability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows Java programs to run on any platform with a compatible JRE"
+            },
+            {
+                "letter": "B",
+                "text": "It restricts Java programs to Windows only"
+            },
+            {
+                "letter": "C",
+                "text": "It requires recompilation for each platform"
+            },
+            {
+                "letter": "D",
+                "text": "It disables cross-platform execution"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE enables Java's 'write once, run anywhere' capability."
+    },
+    {
+        "title": "Q0049",
+        "text": "Which of the following is true about the JRE's role in Java security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides a security manager and class loader"
+            },
+            {
+                "letter": "B",
+                "text": "It provides encryption tools"
+            },
+            {
+                "letter": "C",
+                "text": "It provides debugging tools"
+            },
+            {
+                "letter": "D",
+                "text": "It provides compilers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE provides a security manager and class loader to enforce security policies."
+    },
+    {
+        "title": "Q0050",
+        "text": "Which of the following best describes the JRE?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A software package that provides the environment to run Java programs"
+            },
+            {
+                "letter": "B",
+                "text": "A compiler for Java source code"
+            },
+            {
+                "letter": "C",
+                "text": "A debugger for Java programs"
+            },
+            {
+                "letter": "D",
+                "text": "A text editor for Java files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The JRE is a software package that provides the environment to run Java programs."
+    }
+]
