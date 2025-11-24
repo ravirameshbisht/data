@@ -1,430 +1,1202 @@
-{
-    "id": 2,
-    "name": "Java Variables",
-    "description": "Variable declaration, initialization, scope, types, and lifecycle in Java.",
-    "proLocked": false,
-    "isActive": true,
-    "orderIndex": 2,
-    "questions": [
-        {
-            "id": 1,
-            "title": "Variable Declaration",
-            "description": "Which of the following is a valid variable declaration in Java?",
-            "code": "",
-            "options": [
-                "int 2number = 5;",
-                "int number-2 = 5;",
-                "int number2 = 5;",
-                "int class = 5;"
-            ],
-            "correct": 2,
-            "explanation": "Variable names must start with a letter, underscore, or dollar sign, and cannot be Java keywords. 'number2' is the only valid identifier."
-        },
-        {
-            "id": 2,
-            "title": "Local Variable Scope",
-            "description": "Where can a local variable be accessed?",
-            "code": "public void method() {\n    int localVar = 10;\n    if (true) {\n        System.out.println(localVar);\n    }\n}",
-            "options": [
-                "Only in the if block",
-                "Only in the method",
-                "Anywhere in the class",
-                "Globally"
-            ],
-            "correct": 1,
-            "explanation": "Local variables are accessible within the method where they are declared and in any nested blocks within that method."
-        },
-        {
-            "id": 3,
-            "title": "Instance Variable Default",
-            "description": "What is the default value of an instance variable of type int?",
-            "code": "class Test {\n    int instanceVar;\n    public void display() {\n        System.out.println(instanceVar);\n    }\n}",
-            "options": [
-                "undefined",
-                "null",
-                "0",
-                "Random value"
-            ],
-            "correct": 2,
-            "explanation": "Instance variables are automatically initialized to default values. For int, the default value is 0."
-        },
-        {
-            "id": 4,
-            "title": "Static Variable",
-            "description": "What is true about static variables in Java?",
-            "code": "class MyClass {\n    static int count = 0;\n}",
-            "options": [
-                "Each object has its own copy",
-                "Shared among all instances of the class",
-                "Cannot be accessed without creating an object",
-                "Must be final"
-            ],
-            "correct": 1,
-            "explanation": "Static variables belong to the class rather than any instance. All objects of the class share the same static variable."
-        },
-        {
-            "id": 5,
-            "title": "Variable Initialization",
-            "description": "What happens when you compile this code?",
-            "code": "public void method() {\n    int x;\n    int y = x + 5;\n}",
-            "options": [
-                "Compiles successfully",
-                "Compilation error",
-                "Runtime error",
-                "Prints 5"
-            ],
-            "correct": 1,
-            "explanation": "Local variables must be initialized before use. Since 'x' is not initialized, this causes a compilation error."
-        },
-        {
-            "id": 6,
-            "title": "Final Variable",
-            "description": "What happens when you try to modify a final variable?",
-            "code": "final int x = 10;\nx = 20;",
-            "options": [
-                "x becomes 20",
-                "Compilation error",
-                "Runtime error",
-                "Warning only"
-            ],
-            "correct": 1,
-            "explanation": "Final variables cannot be reassigned after initialization. Attempting to do so results in a compilation error."
-        },
-        {
-            "id": 7,
-            "title": "Variable Naming Rules",
-            "description": "Which variable name is NOT valid in Java?",
-            "code": "",
-            "options": [
-                "_variable",
-                "$variable",
-                "variable123",
-                "123variable"
-            ],
-            "correct": 3,
-            "explanation": "Variable names cannot start with a digit. They must begin with a letter, underscore (_), or dollar sign ($)."
-        },
-        {
-            "id": 8,
-            "title": "Block Scope",
-            "description": "What is the output of this code?",
-            "code": "public void method() {\n    int x = 10;\n    {\n        int x = 20;\n        System.out.println(x);\n    }\n}",
-            "options": [
-                "10",
-                "20",
-                "Compilation error",
-                "Runtime error"
-            ],
-            "correct": 2,
-            "explanation": "This causes a compilation error because you cannot declare a variable with the same name in a nested block when it already exists in the outer scope."
-        },
-        {
-            "id": 9,
-            "title": "Class Variable Access",
-            "description": "How can you access a static variable?",
-            "code": "class MyClass {\n    static int count = 5;\n}",
-            "options": [
-                "Only through an object",
-                "Only through the class name",
-                "Both through class name and object",
-                "Cannot be accessed"
-            ],
-            "correct": 2,
-            "explanation": "Static variables can be accessed both through the class name (MyClass.count) and through an object reference, though class name access is preferred."
-        },
-        {
-            "id": 10,
-            "title": "Variable Shadowing",
-            "description": "What is variable shadowing in Java?",
-            "code": "class Test {\n    int x = 10;\n    public void method(int x) {\n        System.out.println(x);\n    }\n}",
-            "options": [
-                "Creating duplicate variables",
-                "Local variable hiding instance variable",
-                "Deleting a variable",
-                "Making a variable private"
-            ],
-            "correct": 1,
-            "explanation": "Variable shadowing occurs when a local variable or parameter has the same name as an instance variable, hiding the instance variable in that scope."
-        },
-        {
-            "id": 11,
-            "title": "Constant Declaration",
-            "description": "What is the conventional way to declare a constant in Java?",
-            "code": "",
-            "options": [
-                "const int MAX_SIZE = 100;",
-                "final int MAX_SIZE = 100;",
-                "static final int MAX_SIZE = 100;",
-                "readonly int MAX_SIZE = 100;"
-            ],
-            "correct": 2,
-            "explanation": "Constants are conventionally declared as 'static final' with uppercase names. Java doesn't have 'const' or 'readonly' keywords."
-        },
-        {
-            "id": 12,
-            "title": "Variable Lifecycle",
-            "description": "When is a local variable destroyed?",
-            "code": "public void method() {\n    int localVar = 10;\n    // some code\n}",
-            "options": [
-                "When the program ends",
-                "When the object is destroyed",
-                "When the method execution completes",
-                "When explicitly deleted"
-            ],
-            "correct": 2,
-            "explanation": "Local variables are destroyed when the method execution completes and the method's stack frame is removed."
-        },
-        {
-            "id": 13,
-            "title": "Multiple Variable Declaration",
-            "description": "Which is a valid way to declare multiple variables?",
-            "code": "",
-            "options": [
-                "int a, b, c = 5;",
-                "int a = b = c = 5;",
-                "int a = 5, b = 5, c = 5;",
-                "All of the above"
-            ],
-            "correct": 2,
-            "explanation": "Option C is correct. Option A only initializes 'c', leaving 'a' and 'b' uninitialized. Option B is invalid syntax in Java."
-        },
-        {
-            "id": 14,
-            "title": "Parameter Variables",
-            "description": "What type of variables are method parameters?",
-            "code": "public void method(int param) {\n    // method body\n}",
-            "options": [
-                "Instance variables",
-                "Static variables",
-                "Local variables",
-                "Global variables"
-            ],
-            "correct": 2,
-            "explanation": "Method parameters are treated as local variables within the method scope. They are automatically initialized with the values passed to the method."
-        },
-        {
-            "id": 15,
-            "title": "Variable Initialization Order",
-            "description": "In what order are variables initialized in a Java class?",
-            "code": "",
-            "options": [
-                "Instance variables, then static variables",
-                "Static variables, then instance variables",
-                "Constructor parameters, then instance variables",
-                "Random order"
-            ],
-            "correct": 1,
-            "explanation": "Static variables are initialized first when the class is loaded, then instance variables are initialized when an object is created."
-        },
-        {
-            "id": 16,
-            "title": "Blank Final Variable",
-            "description": "What is a blank final variable?",
-            "code": "class Test {\n    final int x;\n    Test(int value) {\n        x = value;\n    }\n}",
-            "options": [
-                "A final variable with no value",
-                "A final variable initialized in constructor",
-                "An uninitialized variable",
-                "A static final variable"
-            ],
-            "correct": 1,
-            "explanation": "A blank final variable is a final variable that is not initialized at declaration but must be initialized in the constructor."
-        },
-        {
-            "id": 17,
-            "title": "Variable Memory Location",
-            "description": "Where are local variables stored in memory?",
-            "code": "",
-            "options": [
-                "Heap",
-                "Stack",
-                "Method area",
-                "PC register"
-            ],
-            "correct": 1,
-            "explanation": "Local variables are stored in the stack memory. Each method call creates a new stack frame containing local variables and parameters."
-        },
-        {
-            "id": 18,
-            "title": "Instance Variable Access",
-            "description": "How do you access an instance variable when it's shadowed by a local variable?",
-            "code": "class Test {\n    int x = 10;\n    public void method() {\n        int x = 20;\n        // How to access instance variable x?\n    }\n}",
-            "options": [
-                "super.x",
-                "this.x",
-                "Test.x",
-                "Cannot access"
-            ],
-            "correct": 1,
-            "explanation": "Use 'this.x' to access the instance variable when it's shadowed by a local variable with the same name."
-        },
-        {
-            "id": 19,
-            "title": "Variable Type Inference",
-            "description": "What does the 'var' keyword do in Java 10+?",
-            "code": "var number = 42;",
-            "options": [
-                "Creates a dynamic variable",
-                "Infers the variable type from initializer",
-                "Creates a variant type",
-                "Makes the variable nullable"
-            ],
-            "correct": 1,
-            "explanation": "The 'var' keyword enables local variable type inference. The compiler determines the type from the initializer expression."
-        },
-        {
-            "id": 20,
-            "title": "Static Variable Initialization",
-            "description": "When are static variables initialized?",
-            "code": "class MyClass {\n    static int count = getInitialValue();\n    static int getInitialValue() {\n        return 100;\n    }\n}",
-            "options": [
-                "When an object is created",
-                "When the class is first loaded",
-                "When the method is called",
-                "At compile time"
-            ],
-            "correct": 1,
-            "explanation": "Static variables are initialized when the class is first loaded by the JVM, before any objects are created."
-        },
-        {
-            "id": 21,
-            "title": "Variable Modifier Combinations",
-            "description": "Which combination of modifiers is valid for a variable?",
-            "code": "",
-            "options": [
-                "static final",
-                "private static",
-                "public final",
-                "All of the above"
-            ],
-            "correct": 3,
-            "explanation": "All combinations are valid. Variables can have multiple modifiers like 'static final' for constants, 'private static' for class-level private variables, etc."
-        },
-        {
-            "id": 22,
-            "title": "Loop Variable Scope",
-            "description": "What is the scope of the loop variable 'i'?",
-            "code": "for (int i = 0; i < 10; i++) {\n    System.out.println(i);\n}\n// Can we access i here?",
-            "options": [
-                "Available after the loop",
-                "Only inside the loop",
-                "Available in the entire method",
-                "Compilation error"
-            ],
-            "correct": 1,
-            "explanation": "The loop variable 'i' is only accessible within the for loop block. It goes out of scope when the loop ends."
-        },
-        {
-            "id": 23,
-            "title": "Variable Default Values",
-            "description": "Which primitive type has 'false' as its default value?",
-            "code": "class Test {\n    // instance variables\n}",
-            "options": [
-                "int",
-                "char",
-                "boolean",
-                "double"
-            ],
-            "correct": 2,
-            "explanation": "The boolean primitive type has 'false' as its default value for instance and static variables."
-        },
-        {
-            "id": 24,
-            "title": "Reference Variable Default",
-            "description": "What is the default value of a reference variable?",
-            "code": "class Test {\n    String name;\n    Object obj;\n}",
-            "options": [
-                "Empty string",
-                "null",
-                "undefined",
-                "0"
-            ],
-            "correct": 1,
-            "explanation": "All reference variables (objects) have 'null' as their default value when declared as instance or static variables."
-        },
-        {
-            "id": 25,
-            "title": "Variable Reassignment",
-            "description": "What happens in this code?",
-            "code": "int x = 10;\nx = 20;\nSystem.out.println(x);",
-            "options": [
-                "Prints 10",
-                "Prints 20",
-                "Compilation error",
-                "Prints both values"
-            ],
-            "correct": 1,
-            "explanation": "Variables can be reassigned unless they are final. The variable 'x' is reassigned to 20, so it prints 20."
-        },
-        {
-            "id": 26,
-            "title": "Anonymous Block Variables",
-            "description": "What is the scope of variables declared in an anonymous block?",
-            "code": "class Test {\n    {\n        int blockVar = 5;\n    }\n    // Can blockVar be accessed here?\n}",
-            "options": [
-                "Available throughout the class",
-                "Only within the anonymous block",
-                "Available in all methods",
-                "Compilation error"
-            ],
-            "correct": 1,
-            "explanation": "Variables declared in anonymous blocks (instance initializer blocks) are only accessible within that block."
-        },
-        {
-            "id": 27,
-            "title": "Variable Hiding",
-            "description": "What concept is demonstrated in this code?",
-            "code": "class Parent {\n    int x = 10;\n}\nclass Child extends Parent {\n    int x = 20;\n}",
-            "options": [
-                "Variable overriding",
-                "Variable hiding",
-                "Variable shadowing",
-                "Variable polymorphism"
-            ],
-            "correct": 1,
-            "explanation": "This demonstrates variable hiding. The child class variable 'x' hides the parent class variable 'x'. Both variables exist but the child's version is accessed by default."
-        },
-        {
-            "id": 28,
-            "title": "Effective Final Variables",
-            "description": "What makes a variable 'effectively final' in Java?",
-            "code": "int x = 10;\n// x is never reassigned\nRunnable r = () -> System.out.println(x);",
-            "options": [
-                "Declared with final keyword",
-                "Never reassigned after initialization",
-                "Used in a lambda expression",
-                "Declared in a method"
-            ],
-            "correct": 1,
-            "explanation": "A variable is effectively final if it's not declared final but is never reassigned after initialization. Such variables can be used in lambda expressions and inner classes."
-        },
-        {
-            "id": 29,
-            "title": "Variable Memory Management",
-            "description": "When is memory for a local variable deallocated?",
-            "code": "public void method() {\n    int[] largeArray = new int[1000000];\n    // method ends\n}",
-            "options": [
-                "Immediately when method ends",
-                "When garbage collector runs",
-                "When program terminates",
-                "Never deallocated"
-            ],
-            "correct": 1,
-            "explanation": "The local variable reference is removed when the method ends, but the actual object memory is deallocated when the garbage collector runs and determines the object is no longer reachable."
-        },
-        {
-            "id": 30,
-            "title": "Variable Best Practices",
-            "description": "Which is considered a best practice for variable naming in Java?",
-            "code": "",
-            "options": [
-                "Use single letter names",
-                "Use camelCase for variable names",
-                "Use ALL_CAPS for all variables",
-                "Use underscores between words"
-            ],
-            "correct": 1,
-            "explanation": "Java convention uses camelCase for variable names (e.g., firstName, totalAmount). ALL_CAPS is reserved for constants, and single letters should be avoided except for short loop counters."
-        }
-    ]
-}
+[
+    {
+        "title": "JavaVariables - Q0001",
+        "text": "[Java Basics - Variables] What is a variable in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A reserved keyword"
+            },
+            {
+                "letter": "B",
+                "text": "A container for storing data values"
+            },
+            {
+                "letter": "C",
+                "text": "A method name"
+            },
+            {
+                "letter": "D",
+                "text": "A class name"
+            }
+        ],
+        "correct": "B",
+        "explanation": "A variable is a container that holds data values during program execution."
+    },
+    {
+        "title": "JavaVariables - Q0002",
+        "text": "[Java Basics - Variables] Which keyword is used to declare a variable in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "var"
+            },
+            {
+                "letter": "B",
+                "text": "let"
+            },
+            {
+                "letter": "C",
+                "text": "define"
+            },
+            {
+                "letter": "D",
+                "text": "declare"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'var' keyword can be used for local variable type inference in Java 10 and later."
+    },
+    {
+        "title": "JavaVariables - Q0003",
+        "text": "[Java Basics - Variables] Which of the following is a valid variable declaration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int 1num;"
+            },
+            {
+                "letter": "B",
+                "text": "int num1;"
+            },
+            {
+                "letter": "C",
+                "text": "int-num;"
+            },
+            {
+                "letter": "D",
+                "text": "int num-1;"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Variable names cannot start with a digit or contain hyphens."
+    },
+    {
+        "title": "JavaVariables - Q0004",
+        "text": "[Java Basics - Variables] Which of the following is not a valid variable name?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "total"
+            },
+            {
+                "letter": "B",
+                "text": "count"
+            },
+            {
+                "letter": "C",
+                "text": "2value"
+            },
+            {
+                "letter": "D",
+                "text": "value2"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Variable names cannot begin with a number."
+    },
+    {
+        "title": "JavaVariables - Q0005",
+        "text": "[Java Basics - Variables] What is the default value of an int variable in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "null"
+            },
+            {
+                "letter": "C",
+                "text": "undefined"
+            },
+            {
+                "letter": "D",
+                "text": "false"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The default value of an int variable is 0."
+    },
+    {
+        "title": "JavaVariables - Q0006",
+        "text": "[Java Basics - Variables] What is the default value of a boolean variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "0"
+            },
+            {
+                "letter": "D",
+                "text": "null"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The default value of a boolean variable is false."
+    },
+    {
+        "title": "JavaVariables - Q0007",
+        "text": "[Java Basics - Variables] What is the default value of a reference variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "false"
+            },
+            {
+                "letter": "C",
+                "text": "null"
+            },
+            {
+                "letter": "D",
+                "text": "undefined"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Reference variables default to null."
+    },
+    {
+        "title": "JavaVariables - Q0008",
+        "text": "[Java Basics - Variables] Which of the following is a valid way to declare multiple variables of the same type?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int a, b, c;"
+            },
+            {
+                "letter": "B",
+                "text": "int a; b; c;"
+            },
+            {
+                "letter": "C",
+                "text": "int a b c;"
+            },
+            {
+                "letter": "D",
+                "text": "int(a, b, c);"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple variables of the same type can be declared using commas."
+    },
+    {
+        "title": "JavaVariables - Q0009",
+        "text": "[Java Basics - Variables] Which of the following is a valid variable initialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int x = 10;"
+            },
+            {
+                "letter": "B",
+                "text": "int = 10;"
+            },
+            {
+                "letter": "C",
+                "text": "x int = 10;"
+            },
+            {
+                "letter": "D",
+                "text": "int x == 10;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax for initialization is 'type variable = value;'."
+    },
+    {
+        "title": "JavaVariables - Q0010",
+        "text": "[Java Basics - Variables] Which of the following is a valid variable name in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "class"
+            },
+            {
+                "letter": "B",
+                "text": "Class"
+            },
+            {
+                "letter": "C",
+                "text": "1class"
+            },
+            {
+                "letter": "D",
+                "text": "class!"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Variable names cannot be Java keywords, but 'Class' (capitalized) is valid."
+    },
+    {
+        "title": "JavaVariables - Q0011",
+        "text": "[Java Basics - Variables] Which of the following is a primitive data type variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "String"
+            },
+            {
+                "letter": "B",
+                "text": "int"
+            },
+            {
+                "letter": "C",
+                "text": "Integer"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList"
+            }
+        ],
+        "correct": "B",
+        "explanation": "int is a primitive data type variable."
+    },
+    {
+        "title": "JavaVariables - Q0012",
+        "text": "[Java Basics - Variables] Which of the following is a reference type variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int"
+            },
+            {
+                "letter": "B",
+                "text": "boolean"
+            },
+            {
+                "letter": "C",
+                "text": "String"
+            },
+            {
+                "letter": "D",
+                "text": "char"
+            }
+        ],
+        "correct": "C",
+        "explanation": "String is a reference type variable."
+    },
+    {
+        "title": "JavaVariables - Q0013",
+        "text": "[Java Basics - Variables] Which of the following statements declares a constant variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "final int MAX = 100;"
+            },
+            {
+                "letter": "B",
+                "text": "const int MAX = 100;"
+            },
+            {
+                "letter": "C",
+                "text": "static int MAX = 100;"
+            },
+            {
+                "letter": "D",
+                "text": "immutable int MAX = 100;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'final' keyword is used to declare constants in Java."
+    },
+    {
+        "title": "JavaVariables - Q0014",
+        "text": "[Java Basics - Variables] What is the scope of a local variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Throughout the class"
+            },
+            {
+                "letter": "B",
+                "text": "Within the method or block where it is declared"
+            },
+            {
+                "letter": "C",
+                "text": "Throughout the package"
+            },
+            {
+                "letter": "D",
+                "text": "Throughout the project"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Local variables are accessible only within the method or block where they are declared."
+    },
+    {
+        "title": "JavaVariables - Q0015",
+        "text": "[Java Basics - Variables] What is the scope of an instance variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Within the method"
+            },
+            {
+                "letter": "B",
+                "text": "Throughout the class"
+            },
+            {
+                "letter": "C",
+                "text": "Throughout the package"
+            },
+            {
+                "letter": "D",
+                "text": "Throughout the project"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Instance variables are accessible throughout the class."
+    },
+    {
+        "title": "JavaVariables - Q0016",
+        "text": "[Java Basics - Variables] What is the scope of a static variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Within the method"
+            },
+            {
+                "letter": "B",
+                "text": "Throughout the class and shared among all instances"
+            },
+            {
+                "letter": "C",
+                "text": "Only within the constructor"
+            },
+            {
+                "letter": "D",
+                "text": "Only within the package"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Static variables are shared among all instances of a class."
+    },
+    {
+        "title": "JavaVariables - Q0017",
+        "text": "[Java Basics - Variables] Which of the following is true about static variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They belong to the object"
+            },
+            {
+                "letter": "B",
+                "text": "They belong to the class"
+            },
+            {
+                "letter": "C",
+                "text": "They are local variables"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be accessed"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Static variables belong to the class, not to any specific object."
+    },
+    {
+        "title": "JavaVariables - Q0018",
+        "text": "[Java Basics - Variables] Which of the following is true about instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are declared inside methods"
+            },
+            {
+                "letter": "B",
+                "text": "They are declared inside a class but outside any method"
+            },
+            {
+                "letter": "C",
+                "text": "They are declared using the static keyword"
+            },
+            {
+                "letter": "D",
+                "text": "They are constants"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Instance variables are declared inside a class but outside any method."
+    },
+    {
+        "title": "JavaVariables - Q0019",
+        "text": "[Java Basics - Variables] Which of the following is true about local variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are initialized automatically"
+            },
+            {
+                "letter": "B",
+                "text": "They must be initialized before use"
+            },
+            {
+                "letter": "C",
+                "text": "They are static by default"
+            },
+            {
+                "letter": "D",
+                "text": "They are accessible outside the method"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Local variables must be initialized before use."
+    },
+    {
+        "title": "JavaVariables - Q0020",
+        "text": "[Java Basics - Variables] Which of the following can be used to access a static variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Using the class name"
+            },
+            {
+                "letter": "B",
+                "text": "Using an object reference"
+            },
+            {
+                "letter": "C",
+                "text": "Both A and B"
+            },
+            {
+                "letter": "D",
+                "text": "None of the above"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Static variables can be accessed using the class name or an object reference."
+    },
+    {
+        "title": "JavaVariables - Q0021",
+        "text": "[Java Basics - Variables] Which of the following is true about final variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be reassigned after initialization"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be reassigned once initialized"
+            },
+            {
+                "letter": "C",
+                "text": "They are automatically static"
+            },
+            {
+                "letter": "D",
+                "text": "They are local variables only"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Final variables cannot be reassigned once initialized."
+    },
+    {
+        "title": "JavaVariables - Q0022",
+        "text": "[Java Basics - Variables] Which of the following is a valid declaration of a static variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "static int count;"
+            },
+            {
+                "letter": "B",
+                "text": "int static count;"
+            },
+            {
+                "letter": "C",
+                "text": "count static int;"
+            },
+            {
+                "letter": "D",
+                "text": "int count static;"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax is 'static int count;'."
+    },
+    {
+        "title": "JavaVariables - Q0023",
+        "text": "[Java Basics - Variables] Which of the following is true about variable naming conventions in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Variable names can start with a number"
+            },
+            {
+                "letter": "B",
+                "text": "Variable names can contain spaces"
+            },
+            {
+                "letter": "C",
+                "text": "Variable names can start with a letter or underscore"
+            },
+            {
+                "letter": "D",
+                "text": "Variable names can contain special characters like @"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Variable names can start with a letter, underscore, or dollar sign."
+    },
+    {
+        "title": "JavaVariables - Q0024",
+        "text": "[Java Basics - Variables] Which of the following is a valid variable name?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "total_sum"
+            },
+            {
+                "letter": "B",
+                "text": "total sum"
+            },
+            {
+                "letter": "C",
+                "text": "total-sum"
+            },
+            {
+                "letter": "D",
+                "text": "1total"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Variable names cannot contain spaces or hyphens and cannot start with a number."
+    },
+    {
+        "title": "JavaVariables - Q0025",
+        "text": "[Java Basics - Variables] Which of the following is true about variable initialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Local variables are automatically initialized"
+            },
+            {
+                "letter": "B",
+                "text": "Instance variables are automatically initialized"
+            },
+            {
+                "letter": "C",
+                "text": "Static variables must be initialized manually"
+            },
+            {
+                "letter": "D",
+                "text": "Final variables are initialized automatically"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Instance variables are automatically initialized with default values."
+    },
+    {
+        "title": "JavaVariables - Q0026",
+        "text": "[Java Basics - Variables] Which of the following is true about variable shadowing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A local variable can hide an instance variable with the same name"
+            },
+            {
+                "letter": "B",
+                "text": "An instance variable can hide a local variable"
+            },
+            {
+                "letter": "C",
+                "text": "Static variables can hide local variables"
+            },
+            {
+                "letter": "D",
+                "text": "Shadowing is not allowed in Java"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A local variable can shadow an instance variable with the same name."
+    },
+    {
+        "title": "JavaVariables - Q0027",
+        "text": "[Java Basics - Variables] Which keyword is used to define a variable that cannot change its value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "final"
+            },
+            {
+                "letter": "B",
+                "text": "static"
+            },
+            {
+                "letter": "C",
+                "text": "const"
+            },
+            {
+                "letter": "D",
+                "text": "immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'final' keyword makes a variable constant."
+    },
+    {
+        "title": "JavaVariables - Q0028",
+        "text": "[Java Basics - Variables] Which of the following is true about static variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are created when an object is created"
+            },
+            {
+                "letter": "B",
+                "text": "They are created when the class is loaded"
+            },
+            {
+                "letter": "C",
+                "text": "They are destroyed when the object is destroyed"
+            },
+            {
+                "letter": "D",
+                "text": "They are local to a method"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Static variables are created when the class is loaded into memory."
+    },
+    {
+        "title": "JavaVariables - Q0029",
+        "text": "[Java Basics - Variables] Which of the following is true about instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are shared among all objects"
+            },
+            {
+                "letter": "B",
+                "text": "Each object has its own copy"
+            },
+            {
+                "letter": "C",
+                "text": "They are declared using static"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be initialized"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Each object has its own copy of instance variables."
+    },
+    {
+        "title": "JavaVariables - Q0030",
+        "text": "[Java Basics - Variables] Which of the following is true about local variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are stored in the heap"
+            },
+            {
+                "letter": "B",
+                "text": "They are stored in the stack"
+            },
+            {
+                "letter": "C",
+                "text": "They are stored in the method area"
+            },
+            {
+                "letter": "D",
+                "text": "They are stored in the constant pool"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Local variables are stored in the stack memory."
+    },
+    {
+        "title": "JavaVariables - Q0031",
+        "text": "[Java Basics - Variables] Which of the following is true about instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are stored in the heap"
+            },
+            {
+                "letter": "B",
+                "text": "They are stored in the stack"
+            },
+            {
+                "letter": "C",
+                "text": "They are stored in the method area"
+            },
+            {
+                "letter": "D",
+                "text": "They are stored in the constant pool"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are stored in the heap memory."
+    },
+    {
+        "title": "JavaVariables - Q0032",
+        "text": "[Java Basics - Variables] Which of the following is true about static variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are stored in the heap"
+            },
+            {
+                "letter": "B",
+                "text": "They are stored in the method area"
+            },
+            {
+                "letter": "C",
+                "text": "They are stored in the stack"
+            },
+            {
+                "letter": "D",
+                "text": "They are stored in the constant pool"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Static variables are stored in the method area."
+    },
+    {
+        "title": "JavaVariables - Q0033",
+        "text": "[Java Basics - Variables] Which of the following is true about final variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be initialized later in a constructor"
+            },
+            {
+                "letter": "B",
+                "text": "They must be initialized at declaration"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be initialized"
+            },
+            {
+                "letter": "D",
+                "text": "They can be reassigned"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Final instance variables can be initialized in a constructor."
+    },
+    {
+        "title": "JavaVariables - Q0034",
+        "text": "[Java Basics - Variables] Which of the following is true about variable types?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Java supports only primitive variables"
+            },
+            {
+                "letter": "B",
+                "text": "Java supports both primitive and reference variables"
+            },
+            {
+                "letter": "C",
+                "text": "Java supports only reference variables"
+            },
+            {
+                "letter": "D",
+                "text": "Java supports dynamic variable types"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Java supports both primitive and reference variables."
+    },
+    {
+        "title": "JavaVariables - Q0035",
+        "text": "[Java Basics - Variables] Which of the following is true about variable naming?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Variable names are case-insensitive"
+            },
+            {
+                "letter": "B",
+                "text": "Variable names are case-sensitive"
+            },
+            {
+                "letter": "C",
+                "text": "Variable names can contain spaces"
+            },
+            {
+                "letter": "D",
+                "text": "Variable names can start with a number"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Variable names in Java are case-sensitive."
+    },
+    {
+        "title": "JavaVariables - Q0036",
+        "text": "[Java Basics - Variables] Which of the following is true about variable initialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Local variables are automatically initialized"
+            },
+            {
+                "letter": "B",
+                "text": "Instance variables are automatically initialized"
+            },
+            {
+                "letter": "C",
+                "text": "Static variables are not initialized"
+            },
+            {
+                "letter": "D",
+                "text": "Final variables are initialized automatically"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Instance variables are automatically initialized with default values."
+    },
+    {
+        "title": "JavaVariables - Q0037",
+        "text": "[Java Basics - Variables] Which of the following is true about variable scope?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Local variables have class-level scope"
+            },
+            {
+                "letter": "B",
+                "text": "Instance variables have object-level scope"
+            },
+            {
+                "letter": "C",
+                "text": "Static variables have method-level scope"
+            },
+            {
+                "letter": "D",
+                "text": "All variables have global scope"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Instance variables have object-level scope."
+    },
+    {
+        "title": "JavaVariables - Q0038",
+        "text": "[Java Basics - Variables] Which of the following is true about variable lifetime?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Local variables exist until the method ends"
+            },
+            {
+                "letter": "B",
+                "text": "Instance variables exist until the object is destroyed"
+            },
+            {
+                "letter": "C",
+                "text": "Static variables exist until the class is unloaded"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Each variable type has a different lifetime as described."
+    },
+    {
+        "title": "JavaVariables - Q0039",
+        "text": "[Java Basics - Variables] Which of the following is true about variable accessibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Private variables are accessible everywhere"
+            },
+            {
+                "letter": "B",
+                "text": "Public variables are accessible everywhere"
+            },
+            {
+                "letter": "C",
+                "text": "Protected variables are accessible only within the same class"
+            },
+            {
+                "letter": "D",
+                "text": "Default variables are accessible only within the same method"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Public variables are accessible from any class."
+    },
+    {
+        "title": "JavaVariables - Q0040",
+        "text": "[Java Basics - Variables] Which of the following is true about variable declaration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Variables must be declared before use"
+            },
+            {
+                "letter": "B",
+                "text": "Variables can be used without declaration"
+            },
+            {
+                "letter": "C",
+                "text": "Variables can be declared after use"
+            },
+            {
+                "letter": "D",
+                "text": "Variables are optional in Java"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Variables must be declared before they are used in Java."
+    },
+    {
+        "title": "JavaVariables - Q0041",
+        "text": "[Java Basics - Variables] Which of the following is true about variable types?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Primitive variables store values directly"
+            },
+            {
+                "letter": "B",
+                "text": "Reference variables store memory addresses"
+            },
+            {
+                "letter": "C",
+                "text": "Both A and B"
+            },
+            {
+                "letter": "D",
+                "text": "None of the above"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Primitive variables store values directly, while reference variables store addresses."
+    },
+    {
+        "title": "JavaVariables - Q0042",
+        "text": "[Java Basics - Variables] Which of the following is true about variable reassignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Final variables can be reassigned"
+            },
+            {
+                "letter": "B",
+                "text": "Non-final variables can be reassigned"
+            },
+            {
+                "letter": "C",
+                "text": "Static variables cannot be reassigned"
+            },
+            {
+                "letter": "D",
+                "text": "Instance variables cannot be reassigned"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Non-final variables can be reassigned new values."
+    },
+    {
+        "title": "JavaVariables - Q0043",
+        "text": "[Java Basics - Variables] Which of the following is true about variable initialization order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static variables are initialized before instance variables"
+            },
+            {
+                "letter": "B",
+                "text": "Instance variables are initialized before static variables"
+            },
+            {
+                "letter": "C",
+                "text": "Local variables are initialized first"
+            },
+            {
+                "letter": "D",
+                "text": "Final variables are initialized first"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static variables are initialized when the class is loaded, before instance variables."
+    },
+    {
+        "title": "JavaVariables - Q0044",
+        "text": "[Java Basics - Variables] Which of the following is true about variable naming conventions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Variable names should start with uppercase letters"
+            },
+            {
+                "letter": "B",
+                "text": "Variable names should start with lowercase letters"
+            },
+            {
+                "letter": "C",
+                "text": "Variable names should be all uppercase"
+            },
+            {
+                "letter": "D",
+                "text": "Variable names should contain spaces"
+            }
+        ],
+        "correct": "B",
+        "explanation": "By convention, variable names start with lowercase letters."
+    },
+    {
+        "title": "JavaVariables - Q0045",
+        "text": "[Java Basics - Variables] Which of the following is true about variable scope in loops?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Variables declared inside a loop are accessible outside"
+            },
+            {
+                "letter": "B",
+                "text": "Variables declared inside a loop are accessible only within the loop"
+            },
+            {
+                "letter": "C",
+                "text": "Variables declared inside a loop are global"
+            },
+            {
+                "letter": "D",
+                "text": "Variables declared inside a loop are static"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Variables declared inside a loop are accessible only within that loop."
+    },
+    {
+        "title": "JavaVariables - Q0046",
+        "text": "[Java Basics - Variables] Which of the following is true about variable lifetime in methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Local variables exist until the method ends"
+            },
+            {
+                "letter": "B",
+                "text": "Local variables exist until the program ends"
+            },
+            {
+                "letter": "C",
+                "text": "Local variables exist until the class is unloaded"
+            },
+            {
+                "letter": "D",
+                "text": "Local variables exist until the object is destroyed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Local variables exist only during the method execution."
+    },
+    {
+        "title": "JavaVariables - Q0047",
+        "text": "[Java Basics - Variables] Which of the following is true about variable accessibility modifiers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Private variables are accessible only within the same class"
+            },
+            {
+                "letter": "B",
+                "text": "Protected variables are accessible everywhere"
+            },
+            {
+                "letter": "C",
+                "text": "Public variables are accessible only within the same package"
+            },
+            {
+                "letter": "D",
+                "text": "Default variables are accessible from any package"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Private variables are accessible only within the same class."
+    },
+    {
+        "title": "JavaVariables - Q0048",
+        "text": "[Java Basics - Variables] Which of the following is true about variable declaration using var?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "var can be used for instance variables"
+            },
+            {
+                "letter": "B",
+                "text": "var can be used only for local variables"
+            },
+            {
+                "letter": "C",
+                "text": "var can be used for static variables"
+            },
+            {
+                "letter": "D",
+                "text": "var can be used for method parameters"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'var' keyword can only be used for local variable type inference."
+    },
+    {
+        "title": "JavaVariables - Q0049",
+        "text": "[Java Basics - Variables] Which of the following is true about variable initialization using literals?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "int x = 10;"
+            },
+            {
+                "letter": "B",
+                "text": "boolean flag = true;"
+            },
+            {
+                "letter": "C",
+                "text": "char c = 'A';"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "All are valid examples of variable initialization using literals."
+    },
+    {
+        "title": "JavaVariables - Q0050",
+        "text": "[Java Basics - Variables] Which of the following best describes a variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A named memory location used to store data"
+            },
+            {
+                "letter": "B",
+                "text": "A constant value"
+            },
+            {
+                "letter": "C",
+                "text": "A method name"
+            },
+            {
+                "letter": "D",
+                "text": "A class name"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A variable is a named memory location used to store data."
+    }
+]
