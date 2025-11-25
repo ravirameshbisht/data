@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaOOPInstanceMethods - Q0001",
+        "text": "What is an instance method in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A method that belongs to the class"
+            },
+            {
+                "letter": "B",
+                "text": "A method that belongs to an object"
+            },
+            {
+                "letter": "C",
+                "text": "A static method"
+            },
+            {
+                "letter": "D",
+                "text": "A constructor"
+            }
+        ],
+        "correct": "B",
+        "explanation": "An instance method belongs to an object and can access instance variables."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0002",
+        "text": "Which keyword is used to define an instance method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "static"
+            },
+            {
+                "letter": "B",
+                "text": "void"
+            },
+            {
+                "letter": "C",
+                "text": "None, instance methods are defined without static"
+            },
+            {
+                "letter": "D",
+                "text": "instance"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Instance methods are defined without the static keyword."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0003",
+        "text": "Which of the following can access instance variables directly?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Instance methods"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors only"
+            },
+            {
+                "letter": "D",
+                "text": "None of the above"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can access instance variables directly because they belong to an object."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0004",
+        "text": "How are instance methods called?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Using the class name"
+            },
+            {
+                "letter": "B",
+                "text": "Using an object reference"
+            },
+            {
+                "letter": "C",
+                "text": "Automatically by JVM"
+            },
+            {
+                "letter": "D",
+                "text": "Using the static keyword"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Instance methods are called using an object reference because they belong to an object."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0005",
+        "text": "Which of the following is true about instance methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can access both static and instance variables"
+            },
+            {
+                "letter": "B",
+                "text": "They can access only static variables"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot access any variables"
+            },
+            {
+                "letter": "D",
+                "text": "They can access only local variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can access both static and instance variables."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0006",
+        "text": "Which of the following is true about static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot access instance methods directly"
+            },
+            {
+                "letter": "B",
+                "text": "They can access instance methods directly"
+            },
+            {
+                "letter": "C",
+                "text": "They can override instance methods"
+            },
+            {
+                "letter": "D",
+                "text": "They are the same as instance methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static methods cannot access instance methods directly because they do not belong to any object."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0007",
+        "text": "Which of the following is true about instance methods and memory?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are stored in the method area"
+            },
+            {
+                "letter": "B",
+                "text": "They are stored in the heap"
+            },
+            {
+                "letter": "C",
+                "text": "They are stored in the stack"
+            },
+            {
+                "letter": "D",
+                "text": "They are stored in registers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods are stored in the method area, but their invocation depends on the object in the heap."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0008",
+        "text": "Which of the following is true about instance methods and the 'this' keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can use 'this' to refer to the current object"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot use 'this'"
+            },
+            {
+                "letter": "C",
+                "text": "They must use 'super'"
+            },
+            {
+                "letter": "D",
+                "text": "They can use 'this' only in static context"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can use 'this' to refer to the current object."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0009",
+        "text": "Which of the following is true about instance methods and constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Constructors can call instance methods"
+            },
+            {
+                "letter": "B",
+                "text": "Constructors cannot call instance methods"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors are instance methods"
+            },
+            {
+                "letter": "D",
+                "text": "Constructors override instance methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors can call instance methods after the object is initialized."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0010",
+        "text": "Which of the following is true about instance methods and overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be overridden in subclasses"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "They are always final"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can be overridden in subclasses to provide specific implementations."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0011",
+        "text": "Which of the following is true about final instance methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "They can be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "They are abstract"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Final instance methods cannot be overridden by subclasses."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0012",
+        "text": "Which of the following is true about abstract instance methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They have no body"
+            },
+            {
+                "letter": "B",
+                "text": "They must be implemented by subclasses"
+            },
+            {
+                "letter": "C",
+                "text": "They are declared using the 'abstract' keyword"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Abstract instance methods have no body, must be implemented by subclasses, and are declared using 'abstract'."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0013",
+        "text": "Which of the following is true about instance methods and polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They support runtime polymorphism"
+            },
+            {
+                "letter": "B",
+                "text": "They support compile-time polymorphism only"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be polymorphic"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods support runtime polymorphism through method overriding."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0014",
+        "text": "Which of the following is true about instance methods and overloading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be overloaded within the same class"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be overloaded"
+            },
+            {
+                "letter": "C",
+                "text": "They must have the same parameters"
+            },
+            {
+                "letter": "D",
+                "text": "They must have different names"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can be overloaded within the same class by changing parameter lists."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0015",
+        "text": "Which of the following is true about instance methods and access modifiers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can have any access modifier"
+            },
+            {
+                "letter": "B",
+                "text": "They must be public"
+            },
+            {
+                "letter": "C",
+                "text": "They must be private"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot have access modifiers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can have any access modifier: public, private, protected, or default."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0016",
+        "text": "Which of the following is true about instance methods and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are inherited by subclasses"
+            },
+            {
+                "letter": "B",
+                "text": "They are not inherited"
+            },
+            {
+                "letter": "C",
+                "text": "They are deleted in subclasses"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods are inherited by subclasses unless they are private or final."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0017",
+        "text": "Which of the following is true about private instance methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are not inherited by subclasses"
+            },
+            {
+                "letter": "B",
+                "text": "They are inherited by subclasses"
+            },
+            {
+                "letter": "C",
+                "text": "They can be overridden"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Private instance methods are not inherited by subclasses."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0018",
+        "text": "Which of the following is true about protected instance methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are accessible in subclasses and same package"
+            },
+            {
+                "letter": "B",
+                "text": "They are accessible only in the same class"
+            },
+            {
+                "letter": "C",
+                "text": "They are accessible everywhere"
+            },
+            {
+                "letter": "D",
+                "text": "They are not accessible in subclasses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Protected instance methods are accessible in subclasses and within the same package."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0019",
+        "text": "Which of the following is true about public instance methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are accessible from anywhere"
+            },
+            {
+                "letter": "B",
+                "text": "They are accessible only in the same class"
+            },
+            {
+                "letter": "C",
+                "text": "They are accessible only in subclasses"
+            },
+            {
+                "letter": "D",
+                "text": "They are accessible only in the same package"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Public instance methods are accessible from anywhere in the program."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0020",
+        "text": "Which of the following is true about instance methods and encapsulation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are used to access and modify private instance variables"
+            },
+            {
+                "letter": "B",
+                "text": "They are used to declare variables"
+            },
+            {
+                "letter": "C",
+                "text": "They are used to define classes"
+            },
+            {
+                "letter": "D",
+                "text": "They are used to create objects"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods are used to access and modify private instance variables, supporting encapsulation."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0021",
+        "text": "Which of the following is true about instance methods and object references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are invoked using object references"
+            },
+            {
+                "letter": "B",
+                "text": "They are invoked using class names"
+            },
+            {
+                "letter": "C",
+                "text": "They are invoked automatically"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be invoked"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods are invoked using object references because they belong to specific objects."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0022",
+        "text": "Which of the following is true about instance methods and static context?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot be called directly from static methods"
+            },
+            {
+                "letter": "B",
+                "text": "They can be called directly from static methods"
+            },
+            {
+                "letter": "C",
+                "text": "They are static by default"
+            },
+            {
+                "letter": "D",
+                "text": "They are automatically loaded at compile time"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods cannot be called directly from static methods because they require an object reference."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0023",
+        "text": "Which of the following is true about instance methods and the 'super' keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can call superclass methods using 'super'"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot call superclass methods"
+            },
+            {
+                "letter": "C",
+                "text": "They can only call static methods"
+            },
+            {
+                "letter": "D",
+                "text": "They can only call constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can call superclass methods using the 'super' keyword."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0024",
+        "text": "Which of the following is true about instance methods and the 'this' keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can use 'this' to refer to the current object"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot use 'this'"
+            },
+            {
+                "letter": "C",
+                "text": "They must use 'super'"
+            },
+            {
+                "letter": "D",
+                "text": "They can use 'this' only in static context"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can use 'this' to refer to the current object."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0025",
+        "text": "Which of the following is true about instance methods and return types?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can return any data type or void"
+            },
+            {
+                "letter": "B",
+                "text": "They must return void"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot return objects"
+            },
+            {
+                "letter": "D",
+                "text": "They must return primitive types"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can return any data type, including objects, or void."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0026",
+        "text": "Which of the following is true about instance methods and parameters?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can accept parameters"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot accept parameters"
+            },
+            {
+                "letter": "C",
+                "text": "They must have parameters"
+            },
+            {
+                "letter": "D",
+                "text": "They can only accept primitive parameters"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can accept parameters of any type, including objects and primitives."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0027",
+        "text": "Which of the following is true about instance methods and recursion?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can call themselves recursively"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot call themselves"
+            },
+            {
+                "letter": "C",
+                "text": "They can only call static methods recursively"
+            },
+            {
+                "letter": "D",
+                "text": "They must be final to use recursion"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can call themselves recursively to perform repetitive tasks."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0028",
+        "text": "Which of the following is true about instance methods and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be synchronized to ensure thread safety"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be synchronized"
+            },
+            {
+                "letter": "C",
+                "text": "They are synchronized by default"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can be synchronized to ensure thread safety when accessed by multiple threads."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0029",
+        "text": "Which of the following is true about instance methods and overloading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be overloaded with different parameter lists"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be overloaded"
+            },
+            {
+                "letter": "C",
+                "text": "They must have the same parameters"
+            },
+            {
+                "letter": "D",
+                "text": "They must have different names"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can be overloaded by defining multiple methods with the same name but different parameters."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0030",
+        "text": "Which of the following is true about instance methods and overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be overridden in subclasses"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "They are always final"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can be overridden in subclasses to provide specific implementations."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0031",
+        "text": "Which of the following is true about instance methods and polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They support runtime polymorphism"
+            },
+            {
+                "letter": "B",
+                "text": "They support compile-time polymorphism only"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be polymorphic"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods support runtime polymorphism through method overriding."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0032",
+        "text": "Which of the following is true about instance methods and abstract classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract classes can have both abstract and concrete instance methods"
+            },
+            {
+                "letter": "B",
+                "text": "Abstract classes cannot have instance methods"
+            },
+            {
+                "letter": "C",
+                "text": "All methods in abstract classes must be static"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract classes can only have static methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have both abstract and concrete instance methods."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0033",
+        "text": "Which of the following is true about instance methods and interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces can have default instance methods"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces cannot have instance methods"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces can only have static methods"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces can only have abstract methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Since Java 8, interfaces can have default instance methods with implementations."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0034",
+        "text": "Which of the following is true about instance methods and access modifiers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can have any access modifier"
+            },
+            {
+                "letter": "B",
+                "text": "They must be public"
+            },
+            {
+                "letter": "C",
+                "text": "They must be private"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot have access modifiers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can have any access modifier: public, private, protected, or default."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0035",
+        "text": "Which of the following is true about instance methods and final keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Final instance methods cannot be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "Final instance methods can be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "Final instance methods are abstract"
+            },
+            {
+                "letter": "D",
+                "text": "Final instance methods are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Final instance methods cannot be overridden by subclasses."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0036",
+        "text": "Which of the following is true about instance methods and return statements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They must return a value if not declared void"
+            },
+            {
+                "letter": "B",
+                "text": "They can omit return statements"
+            },
+            {
+                "letter": "C",
+                "text": "They must always return void"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot return objects"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods must return a value if their return type is not void."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0037",
+        "text": "Which of the following is true about instance methods and exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can throw exceptions using the 'throws' clause"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot throw exceptions"
+            },
+            {
+                "letter": "C",
+                "text": "They can only throw runtime exceptions"
+            },
+            {
+                "letter": "D",
+                "text": "They must handle all exceptions internally"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can declare exceptions using the 'throws' clause."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0038",
+        "text": "Which of the following is true about instance methods and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be synchronized to prevent concurrent access"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be synchronized"
+            },
+            {
+                "letter": "C",
+                "text": "They are synchronized by default"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can be synchronized to prevent concurrent access by multiple threads."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0039",
+        "text": "Which of the following is true about instance methods and object state?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can modify the state of an object"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot modify the state of an object"
+            },
+            {
+                "letter": "C",
+                "text": "They only modify static variables"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot access instance variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can modify the state of an object by changing its instance variables."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0040",
+        "text": "Which of the following is true about instance methods and object behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They define the behavior of an object"
+            },
+            {
+                "letter": "B",
+                "text": "They define the state of an object"
+            },
+            {
+                "letter": "C",
+                "text": "They define the class name"
+            },
+            {
+                "letter": "D",
+                "text": "They define the constructor"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods define the behavior of an object by performing actions on its data."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0041",
+        "text": "Which of the following is true about instance methods and garbage collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are eligible for garbage collection when the object is destroyed"
+            },
+            {
+                "letter": "B",
+                "text": "They are garbage collected independently"
+            },
+            {
+                "letter": "C",
+                "text": "They are static"
+            },
+            {
+                "letter": "D",
+                "text": "They are deleted manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods are eligible for garbage collection when their associated object is destroyed."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0042",
+        "text": "Which of the following is true about instance methods and object creation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be called only after an object is created"
+            },
+            {
+                "letter": "B",
+                "text": "They can be called before object creation"
+            },
+            {
+                "letter": "C",
+                "text": "They are static"
+            },
+            {
+                "letter": "D",
+                "text": "They are constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can be called only after an object is created because they belong to that object."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0043",
+        "text": "Which of the following is true about instance methods and class loading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are loaded when the class is loaded"
+            },
+            {
+                "letter": "B",
+                "text": "They are loaded when the object is created"
+            },
+            {
+                "letter": "C",
+                "text": "They are loaded at compile time"
+            },
+            {
+                "letter": "D",
+                "text": "They are loaded in the stack"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods are loaded when the class is loaded into memory."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0044",
+        "text": "Which of the following is true about instance methods and default methods in interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Default methods in interfaces are instance methods"
+            },
+            {
+                "letter": "B",
+                "text": "Default methods are static"
+            },
+            {
+                "letter": "C",
+                "text": "Default methods are abstract"
+            },
+            {
+                "letter": "D",
+                "text": "Default methods cannot exist in interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Default methods in interfaces are instance methods with a default implementation."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0045",
+        "text": "Which of the following is true about instance methods and method references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be referenced using object::methodName syntax"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be referenced"
+            },
+            {
+                "letter": "C",
+                "text": "They can only be referenced using class names"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can be referenced using object::methodName syntax in Java 8 and later."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0046",
+        "text": "Which of the following is true about instance methods and lambda expressions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Lambda expressions can call instance methods"
+            },
+            {
+                "letter": "B",
+                "text": "Lambda expressions cannot call instance methods"
+            },
+            {
+                "letter": "C",
+                "text": "Lambda expressions are static"
+            },
+            {
+                "letter": "D",
+                "text": "Lambda expressions replace instance methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Lambda expressions can call instance methods within their scope."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0047",
+        "text": "Which of the following is true about instance methods and reflection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be invoked dynamically using reflection"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be accessed using reflection"
+            },
+            {
+                "letter": "C",
+                "text": "They are static"
+            },
+            {
+                "letter": "D",
+                "text": "They are deleted at runtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can be invoked dynamically using reflection APIs like Method.invoke()."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0048",
+        "text": "Which of the following is true about instance methods and object references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are invoked using object references"
+            },
+            {
+                "letter": "B",
+                "text": "They are invoked using class names"
+            },
+            {
+                "letter": "C",
+                "text": "They are invoked automatically"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be invoked"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods are invoked using object references because they belong to specific objects."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0049",
+        "text": "Which of the following is true about instance methods and object state?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can modify the state of an object"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot modify the state of an object"
+            },
+            {
+                "letter": "C",
+                "text": "They only modify static variables"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot access instance variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can modify the state of an object by changing its instance variables."
+    },
+    {
+        "title": "JavaOOPInstanceMethods - Q0050",
+        "text": "Which of the following best describes instance methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Methods that belong to an object and define its behavior"
+            },
+            {
+                "letter": "B",
+                "text": "Methods that belong to the class"
+            },
+            {
+                "letter": "C",
+                "text": "Methods that are static"
+            },
+            {
+                "letter": "D",
+                "text": "Methods that are constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods belong to an object and define its behavior by operating on instance variables."
+    }
+]

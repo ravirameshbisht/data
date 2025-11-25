@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaOOPSuperKeyword - Q0001",
+        "text": "What is the purpose of the 'super' keyword in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To refer to the current object"
+            },
+            {
+                "letter": "B",
+                "text": "To refer to the parent class object"
+            },
+            {
+                "letter": "C",
+                "text": "To refer to static members"
+            },
+            {
+                "letter": "D",
+                "text": "To refer to child class members"
+            }
+        ],
+        "correct": "B",
+        "explanation": "The 'super' keyword is used to refer to the parent class object."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0002",
+        "text": "Which of the following can 'super' be used for?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Accessing parent class variables"
+            },
+            {
+                "letter": "B",
+                "text": "Calling parent class methods"
+            },
+            {
+                "letter": "C",
+                "text": "Calling parent class constructors"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The 'super' keyword can be used to access parent class variables, methods, and constructors."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0003",
+        "text": "Which of the following is true about 'super' and constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It must be the first statement in a constructor"
+            },
+            {
+                "letter": "B",
+                "text": "It can appear anywhere in a constructor"
+            },
+            {
+                "letter": "C",
+                "text": "It can appear multiple times"
+            },
+            {
+                "letter": "D",
+                "text": "It is optional in all constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "When used to call a parent constructor, 'super()' must be the first statement in the subclass constructor."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0004",
+        "text": "What happens if 'super()' is not explicitly called in a subclass constructor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The compiler automatically inserts a call to the parent’s no-argument constructor"
+            },
+            {
+                "letter": "B",
+                "text": "The program fails to compile"
+            },
+            {
+                "letter": "C",
+                "text": "The parent constructor is never called"
+            },
+            {
+                "letter": "D",
+                "text": "The child constructor is skipped"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If 'super()' is not explicitly called, the compiler automatically inserts a call to the parent’s no-argument constructor."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0005",
+        "text": "Which of the following is true about using 'super' to access variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can access hidden variables from the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can access private variables of the parent class"
+            },
+            {
+                "letter": "C",
+                "text": "It can access static variables only"
+            },
+            {
+                "letter": "D",
+                "text": "It cannot access parent variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can access hidden variables from the parent class if they are not private."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0006",
+        "text": "Which of the following is true about 'super' and method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call the overridden method of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot call overridden methods"
+            },
+            {
+                "letter": "C",
+                "text": "It can only call static methods"
+            },
+            {
+                "letter": "D",
+                "text": "It can call private methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can be used to call the overridden method of the parent class."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0007",
+        "text": "Which of the following is true about 'super' and private members?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It cannot access private members of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can access private members directly"
+            },
+            {
+                "letter": "C",
+                "text": "It can modify private members"
+            },
+            {
+                "letter": "D",
+                "text": "It can override private methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Private members of a parent class are not accessible using 'super'."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0008",
+        "text": "Which of the following is true about 'super' and static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It cannot be used to call static methods"
+            },
+            {
+                "letter": "B",
+                "text": "It can call static methods"
+            },
+            {
+                "letter": "C",
+                "text": "It can override static methods"
+            },
+            {
+                "letter": "D",
+                "text": "It can hide static methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword cannot be used to call static methods because static methods belong to the class, not the object."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0009",
+        "text": "Which of the following is true about 'super' and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is used to access members of the immediate parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can access members of any ancestor class directly"
+            },
+            {
+                "letter": "C",
+                "text": "It can access members of sibling classes"
+            },
+            {
+                "letter": "D",
+                "text": "It can access members of unrelated classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword is used to access members of the immediate parent class only."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0010",
+        "text": "Which of the following is true about 'super' and constructor chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It helps in calling parent constructors in a chain"
+            },
+            {
+                "letter": "B",
+                "text": "It breaks the constructor chain"
+            },
+            {
+                "letter": "C",
+                "text": "It skips parent constructors"
+            },
+            {
+                "letter": "D",
+                "text": "It calls constructors randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword helps in constructor chaining by calling parent constructors."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0011",
+        "text": "Which of the following is true about 'super' and multiple inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It works only with single inheritance"
+            },
+            {
+                "letter": "B",
+                "text": "It supports multiple inheritance"
+            },
+            {
+                "letter": "C",
+                "text": "It can call constructors from multiple parents"
+            },
+            {
+                "letter": "D",
+                "text": "It is not allowed in inheritance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java supports single inheritance, so 'super' works only with one immediate parent class."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0012",
+        "text": "Which of the following is true about 'super' and method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call the overridden method of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot call overridden methods"
+            },
+            {
+                "letter": "C",
+                "text": "It can only call static methods"
+            },
+            {
+                "letter": "D",
+                "text": "It can call private methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can be used to call the overridden method of the parent class."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0013",
+        "text": "Which of the following is true about 'super' and variable hiding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can access hidden variables from the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot access hidden variables"
+            },
+            {
+                "letter": "C",
+                "text": "It can modify private variables"
+            },
+            {
+                "letter": "D",
+                "text": "It can hide static variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can access hidden variables from the parent class if they are not private."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0014",
+        "text": "Which of the following is true about 'super' and abstract classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call constructors of abstract classes"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot call constructors of abstract classes"
+            },
+            {
+                "letter": "C",
+                "text": "It can instantiate abstract classes"
+            },
+            {
+                "letter": "D",
+                "text": "It can override abstract methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can call constructors of abstract classes, though abstract classes cannot be instantiated directly."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0015",
+        "text": "Which of the following is true about 'super' and interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call default methods from interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot be used with interfaces"
+            },
+            {
+                "letter": "C",
+                "text": "It can call static methods from interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "It can access private methods of interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can be used to call default methods from interfaces using InterfaceName.super.methodName()."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0016",
+        "text": "Which of the following is true about 'super' and constructors in inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It ensures the parent constructor is called before the child constructor"
+            },
+            {
+                "letter": "B",
+                "text": "It ensures the child constructor is called first"
+            },
+            {
+                "letter": "C",
+                "text": "It skips parent constructors"
+            },
+            {
+                "letter": "D",
+                "text": "It calls constructors randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword ensures that the parent constructor is called before the child constructor executes."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0017",
+        "text": "Which of the following is true about 'super' and method resolution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It resolves to the immediate parent class method"
+            },
+            {
+                "letter": "B",
+                "text": "It resolves to the grandparent class method"
+            },
+            {
+                "letter": "C",
+                "text": "It resolves to the child class method"
+            },
+            {
+                "letter": "D",
+                "text": "It resolves to the interface method"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword resolves to the immediate parent class method."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0018",
+        "text": "Which of the following is true about 'super' and multiple levels of inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It accesses only the immediate parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can access any ancestor class directly"
+            },
+            {
+                "letter": "C",
+                "text": "It can access sibling classes"
+            },
+            {
+                "letter": "D",
+                "text": "It can access unrelated classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can access only the immediate parent class members."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0019",
+        "text": "Which of the following is true about 'super' and constructor overloading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call any overloaded constructor of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can call only the default constructor"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot call overloaded constructors"
+            },
+            {
+                "letter": "D",
+                "text": "It can call constructors of sibling classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can call any overloaded constructor of the parent class by passing appropriate arguments."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0020",
+        "text": "Which of the following is true about 'super' and final methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call final methods of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot call final methods"
+            },
+            {
+                "letter": "C",
+                "text": "It can override final methods"
+            },
+            {
+                "letter": "D",
+                "text": "It can modify final methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can call final methods of the parent class, but they cannot be overridden."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0021",
+        "text": "Which of the following is true about calling 'super()' in a subclass constructor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It must be the first statement in the constructor"
+            },
+            {
+                "letter": "B",
+                "text": "It can appear anywhere in the constructor"
+            },
+            {
+                "letter": "C",
+                "text": "It can appear multiple times"
+            },
+            {
+                "letter": "D",
+                "text": "It is optional and can be placed after other statements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "When used to call a parent constructor, 'super()' must be the first statement in the subclass constructor."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0022",
+        "text": "What happens if the parent class does not have a no-argument constructor and 'super()' is not explicitly called?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Compilation error occurs"
+            },
+            {
+                "letter": "B",
+                "text": "Parent constructor is skipped"
+            },
+            {
+                "letter": "C",
+                "text": "Default constructor is created automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Child constructor runs normally"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If the parent class lacks a no-argument constructor and 'super()' is not explicitly called, a compilation error occurs."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0023",
+        "text": "Which of the following is true about 'super' and method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call the overridden method of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot call overridden methods"
+            },
+            {
+                "letter": "C",
+                "text": "It can only call static methods"
+            },
+            {
+                "letter": "D",
+                "text": "It can call private methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can be used to call the overridden method of the parent class."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0024",
+        "text": "Which of the following is true about 'super' and variable hiding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can access hidden variables from the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot access hidden variables"
+            },
+            {
+                "letter": "C",
+                "text": "It can modify private variables"
+            },
+            {
+                "letter": "D",
+                "text": "It can hide static variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can access hidden variables from the parent class if they are not private."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0025",
+        "text": "Which of the following is true about 'super' and abstract classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call constructors of abstract classes"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot call constructors of abstract classes"
+            },
+            {
+                "letter": "C",
+                "text": "It can instantiate abstract classes"
+            },
+            {
+                "letter": "D",
+                "text": "It can override abstract methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can call constructors of abstract classes, though abstract classes cannot be instantiated directly."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0026",
+        "text": "Which of the following is true about 'super' and interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call default methods from interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot be used with interfaces"
+            },
+            {
+                "letter": "C",
+                "text": "It can call static methods from interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "It can access private methods of interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can be used to call default methods from interfaces using InterfaceName.super.methodName()."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0027",
+        "text": "Which of the following is true about 'super' and constructor chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It ensures the parent constructor is called before the child constructor"
+            },
+            {
+                "letter": "B",
+                "text": "It ensures the child constructor is called first"
+            },
+            {
+                "letter": "C",
+                "text": "It skips parent constructors"
+            },
+            {
+                "letter": "D",
+                "text": "It calls constructors randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword ensures that the parent constructor is called before the child constructor executes."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0028",
+        "text": "Which of the following is true about 'super' and method resolution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It resolves to the immediate parent class method"
+            },
+            {
+                "letter": "B",
+                "text": "It resolves to the grandparent class method"
+            },
+            {
+                "letter": "C",
+                "text": "It resolves to the child class method"
+            },
+            {
+                "letter": "D",
+                "text": "It resolves to the interface method"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword resolves to the immediate parent class method."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0029",
+        "text": "Which of the following is true about 'super' and multiple levels of inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It accesses only the immediate parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can access any ancestor class directly"
+            },
+            {
+                "letter": "C",
+                "text": "It can access sibling classes"
+            },
+            {
+                "letter": "D",
+                "text": "It can access unrelated classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can access only the immediate parent class members."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0030",
+        "text": "Which of the following is true about 'super' and constructor overloading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call any overloaded constructor of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can call only the default constructor"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot call overloaded constructors"
+            },
+            {
+                "letter": "D",
+                "text": "It can call constructors of sibling classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can call any overloaded constructor of the parent class by passing appropriate arguments."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0031",
+        "text": "Which of the following is true about 'super' and final methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call final methods of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot call final methods"
+            },
+            {
+                "letter": "C",
+                "text": "It can override final methods"
+            },
+            {
+                "letter": "D",
+                "text": "It can modify final methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can call final methods of the parent class, but they cannot be overridden."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0032",
+        "text": "Which of the following is true about 'super' and static context?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It cannot be used in static context"
+            },
+            {
+                "letter": "B",
+                "text": "It can be used in static context"
+            },
+            {
+                "letter": "C",
+                "text": "It can access static variables"
+            },
+            {
+                "letter": "D",
+                "text": "It can call static methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword cannot be used in a static context because it refers to an instance of the parent class."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0033",
+        "text": "Which of the following is true about 'super' and object creation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is used implicitly when creating subclass objects"
+            },
+            {
+                "letter": "B",
+                "text": "It creates objects directly"
+            },
+            {
+                "letter": "C",
+                "text": "It replaces the 'new' keyword"
+            },
+            {
+                "letter": "D",
+                "text": "It prevents object creation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword is used implicitly when creating subclass objects to call the parent constructor."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0034",
+        "text": "Which of the following is true about 'super' and polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can be used to access overridden methods in the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It disables polymorphism"
+            },
+            {
+                "letter": "C",
+                "text": "It hides overridden methods"
+            },
+            {
+                "letter": "D",
+                "text": "It can override static methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can be used to access overridden methods in the parent class, supporting polymorphism."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0035",
+        "text": "Which of the following is true about 'super' and encapsulation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It cannot access private members of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can access private members directly"
+            },
+            {
+                "letter": "C",
+                "text": "It can modify private members"
+            },
+            {
+                "letter": "D",
+                "text": "It can override private methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Private members of a parent class are not accessible using 'super', maintaining encapsulation."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0036",
+        "text": "Which of the following is true about 'super' and method hiding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can access hidden methods of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot access hidden methods"
+            },
+            {
+                "letter": "C",
+                "text": "It can override hidden methods"
+            },
+            {
+                "letter": "D",
+                "text": "It can hide static methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can access hidden methods of the parent class if they are not private."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0037",
+        "text": "Which of the following is true about 'super' and inheritance hierarchy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It refers to the immediate parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It refers to the grandparent class"
+            },
+            {
+                "letter": "C",
+                "text": "It refers to the child class"
+            },
+            {
+                "letter": "D",
+                "text": "It refers to the interface"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword refers to the immediate parent class in the inheritance hierarchy."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0038",
+        "text": "Which of the following is true about 'super' and constructor chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It ensures parent constructors are called before child constructors"
+            },
+            {
+                "letter": "B",
+                "text": "It ensures child constructors are called first"
+            },
+            {
+                "letter": "C",
+                "text": "It skips parent constructors"
+            },
+            {
+                "letter": "D",
+                "text": "It calls constructors randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword ensures that parent constructors are called before child constructors."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0039",
+        "text": "Which of the following is true about 'super' and object references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It refers to the parent class object"
+            },
+            {
+                "letter": "B",
+                "text": "It refers to the current object"
+            },
+            {
+                "letter": "C",
+                "text": "It refers to the static context"
+            },
+            {
+                "letter": "D",
+                "text": "It refers to the child class object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword refers to the parent class object."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0040",
+        "text": "Which of the following is true about 'super' and method invocation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can invoke parent class methods"
+            },
+            {
+                "letter": "B",
+                "text": "It can invoke child class methods"
+            },
+            {
+                "letter": "C",
+                "text": "It can invoke static methods only"
+            },
+            {
+                "letter": "D",
+                "text": "It cannot invoke any methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can invoke parent class methods, including overridden ones."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0041",
+        "text": "Which of the following is true about 'super' and constructor calls?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call parameterized constructors of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can call only default constructors"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot call constructors"
+            },
+            {
+                "letter": "D",
+                "text": "It can call constructors of sibling classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can call parameterized constructors of the parent class by passing arguments."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0042",
+        "text": "Which of the following is true about 'super' and method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call the overridden method of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot call overridden methods"
+            },
+            {
+                "letter": "C",
+                "text": "It can only call static methods"
+            },
+            {
+                "letter": "D",
+                "text": "It can call private methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can be used to call the overridden method of the parent class."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0043",
+        "text": "Which of the following is true about 'super' and inheritance depth?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It always refers to the immediate parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can refer to any ancestor class"
+            },
+            {
+                "letter": "C",
+                "text": "It can refer to sibling classes"
+            },
+            {
+                "letter": "D",
+                "text": "It can refer to unrelated classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword always refers to the immediate parent class in the inheritance chain."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0044",
+        "text": "Which of the following is true about 'super' and constructor chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It ensures parent constructors are called before child constructors"
+            },
+            {
+                "letter": "B",
+                "text": "It ensures child constructors are called first"
+            },
+            {
+                "letter": "C",
+                "text": "It skips parent constructors"
+            },
+            {
+                "letter": "D",
+                "text": "It calls constructors randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword ensures that parent constructors are called before child constructors."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0045",
+        "text": "Which of the following is true about 'super' and method access?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can access protected and public methods of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can access private methods"
+            },
+            {
+                "letter": "C",
+                "text": "It can access static methods"
+            },
+            {
+                "letter": "D",
+                "text": "It can access methods of sibling classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can access protected and public methods of the parent class."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0046",
+        "text": "Which of the following is true about 'super' and object references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It refers to the parent class object"
+            },
+            {
+                "letter": "B",
+                "text": "It refers to the current object"
+            },
+            {
+                "letter": "C",
+                "text": "It refers to the static context"
+            },
+            {
+                "letter": "D",
+                "text": "It refers to the child class object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword refers to the parent class object."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0047",
+        "text": "Which of the following is true about 'super' and constructor invocation order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Parent constructors are called before child constructors"
+            },
+            {
+                "letter": "B",
+                "text": "Child constructors are called before parent constructors"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors are called randomly"
+            },
+            {
+                "letter": "D",
+                "text": "Constructors are not related"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Parent constructors are always called before child constructors using 'super'."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0048",
+        "text": "Which of the following is true about 'super' and method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can call the overridden method of the parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It cannot call overridden methods"
+            },
+            {
+                "letter": "C",
+                "text": "It can only call static methods"
+            },
+            {
+                "letter": "D",
+                "text": "It can call private methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword can be used to call the overridden method of the parent class."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0049",
+        "text": "Which of the following is true about 'super' and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is used to access members of the immediate parent class"
+            },
+            {
+                "letter": "B",
+                "text": "It can access members of any ancestor class directly"
+            },
+            {
+                "letter": "C",
+                "text": "It can access members of sibling classes"
+            },
+            {
+                "letter": "D",
+                "text": "It can access members of unrelated classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword is used to access members of the immediate parent class only."
+    },
+    {
+        "title": "JavaOOPSuperKeyword - Q0050",
+        "text": "Which of the following best describes the 'super' keyword?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A reference variable used to refer to the immediate parent class object"
+            },
+            {
+                "letter": "B",
+                "text": "A keyword used to refer to the current object"
+            },
+            {
+                "letter": "C",
+                "text": "A keyword used to refer to static members"
+            },
+            {
+                "letter": "D",
+                "text": "A keyword used to refer to child class members"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'super' keyword is a reference variable used to refer to the immediate parent class object."
+    }
+]

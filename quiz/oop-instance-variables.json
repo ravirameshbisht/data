@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaOOPInstanceVariables - Q0001",
+        "text": "What is an instance variable in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A variable declared inside a method"
+            },
+            {
+                "letter": "B",
+                "text": "A variable declared inside a class but outside any method"
+            },
+            {
+                "letter": "C",
+                "text": "A variable declared as static"
+            },
+            {
+                "letter": "D",
+                "text": "A variable declared inside a constructor only"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Instance variables are declared inside a class but outside any method, constructor, or block."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0002",
+        "text": "Where are instance variables stored in memory?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Stack"
+            },
+            {
+                "letter": "B",
+                "text": "Heap"
+            },
+            {
+                "letter": "C",
+                "text": "Method area"
+            },
+            {
+                "letter": "D",
+                "text": "Registers"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Instance variables are stored in the heap memory as part of the object."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0003",
+        "text": "When are instance variables created?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "When the class is loaded"
+            },
+            {
+                "letter": "B",
+                "text": "When an object is created"
+            },
+            {
+                "letter": "C",
+                "text": "When the program starts"
+            },
+            {
+                "letter": "D",
+                "text": "When the JVM starts"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Instance variables are created when an object of the class is created."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0004",
+        "text": "When are instance variables destroyed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "When the object is garbage collected"
+            },
+            {
+                "letter": "B",
+                "text": "When the method ends"
+            },
+            {
+                "letter": "C",
+                "text": "When the class is unloaded"
+            },
+            {
+                "letter": "D",
+                "text": "When the JVM starts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are destroyed when the object they belong to is garbage collected."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0005",
+        "text": "What is the default value of an uninitialized instance variable of type int?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0"
+            },
+            {
+                "letter": "B",
+                "text": "null"
+            },
+            {
+                "letter": "C",
+                "text": "undefined"
+            },
+            {
+                "letter": "D",
+                "text": "NaN"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The default value of an uninitialized int instance variable is 0."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0006",
+        "text": "What is the default value of an uninitialized instance variable of type boolean?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "false"
+            },
+            {
+                "letter": "B",
+                "text": "true"
+            },
+            {
+                "letter": "C",
+                "text": "null"
+            },
+            {
+                "letter": "D",
+                "text": "0"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The default value of a boolean instance variable is false."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0007",
+        "text": "What is the default value of an uninitialized instance variable of type object?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "null"
+            },
+            {
+                "letter": "B",
+                "text": "0"
+            },
+            {
+                "letter": "C",
+                "text": "undefined"
+            },
+            {
+                "letter": "D",
+                "text": "empty string"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The default value of an object-type instance variable is null."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0008",
+        "text": "Which of the following is true about instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each object has its own copy"
+            },
+            {
+                "letter": "B",
+                "text": "They are shared among all objects"
+            },
+            {
+                "letter": "C",
+                "text": "They are static"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be initialized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each object has its own copy of instance variables."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0009",
+        "text": "Which of the following is true about static variables compared to instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static variables are shared, instance variables are not"
+            },
+            {
+                "letter": "B",
+                "text": "Instance variables are shared, static variables are not"
+            },
+            {
+                "letter": "C",
+                "text": "Both are shared"
+            },
+            {
+                "letter": "D",
+                "text": "Neither are shared"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static variables are shared among all objects, while instance variables are unique to each object."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0010",
+        "text": "Which of the following can access instance variables directly?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Instance methods"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors only"
+            },
+            {
+                "letter": "D",
+                "text": "None of the above"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance methods can access instance variables directly because they belong to an object."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0011",
+        "text": "Which of the following is true about static methods and instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static methods cannot access instance variables directly"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods can access instance variables directly"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods can modify instance variables"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods automatically create instance variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static methods cannot access instance variables directly because they do not belong to any object."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0012",
+        "text": "Which of the following is true about instance variable initialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be initialized when declared"
+            },
+            {
+                "letter": "B",
+                "text": "They can be initialized in constructors"
+            },
+            {
+                "letter": "C",
+                "text": "They can be initialized in instance blocks"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Instance variables can be initialized at declaration, in constructors, or in instance initialization blocks."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0013",
+        "text": "Which of the following is true about access modifiers for instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can have any access modifier"
+            },
+            {
+                "letter": "B",
+                "text": "They must be private"
+            },
+            {
+                "letter": "C",
+                "text": "They must be public"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot have access modifiers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables can have any access modifier: private, protected, public, or default."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0014",
+        "text": "Which of the following is true about encapsulation and instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Instance variables are usually private and accessed via getters/setters"
+            },
+            {
+                "letter": "B",
+                "text": "Instance variables are always public"
+            },
+            {
+                "letter": "C",
+                "text": "Instance variables cannot be private"
+            },
+            {
+                "letter": "D",
+                "text": "Encapsulation does not involve instance variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Encapsulation hides instance variables by making them private and providing public getters/setters."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0015",
+        "text": "Which of the following is true about instance variables and constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Constructors can initialize instance variables"
+            },
+            {
+                "letter": "B",
+                "text": "Constructors cannot access instance variables"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors delete instance variables"
+            },
+            {
+                "letter": "D",
+                "text": "Constructors make instance variables static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors are commonly used to initialize instance variables when an object is created."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0016",
+        "text": "Which of the following is true about instance variables and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Instance variables are inherited by subclasses"
+            },
+            {
+                "letter": "B",
+                "text": "Instance variables are not inherited"
+            },
+            {
+                "letter": "C",
+                "text": "Instance variables are shared among subclasses"
+            },
+            {
+                "letter": "D",
+                "text": "Instance variables are deleted in subclasses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are inherited by subclasses unless they are private."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0017",
+        "text": "Which of the following is true about private instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are accessible only within the same class"
+            },
+            {
+                "letter": "B",
+                "text": "They are accessible in subclasses"
+            },
+            {
+                "letter": "C",
+                "text": "They are accessible in the same package"
+            },
+            {
+                "letter": "D",
+                "text": "They are accessible everywhere"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Private instance variables are accessible only within the same class."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0018",
+        "text": "Which of the following is true about protected instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are accessible in subclasses and same package"
+            },
+            {
+                "letter": "B",
+                "text": "They are accessible only in the same class"
+            },
+            {
+                "letter": "C",
+                "text": "They are accessible everywhere"
+            },
+            {
+                "letter": "D",
+                "text": "They are not accessible in subclasses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Protected instance variables are accessible in subclasses and within the same package."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0019",
+        "text": "Which of the following is true about default access instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are accessible within the same package"
+            },
+            {
+                "letter": "B",
+                "text": "They are accessible everywhere"
+            },
+            {
+                "letter": "C",
+                "text": "They are accessible only in subclasses"
+            },
+            {
+                "letter": "D",
+                "text": "They are not accessible anywhere"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Default access instance variables are accessible within the same package."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0020",
+        "text": "Which of the following is true about public instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are accessible from anywhere"
+            },
+            {
+                "letter": "B",
+                "text": "They are accessible only in the same class"
+            },
+            {
+                "letter": "C",
+                "text": "They are accessible only in subclasses"
+            },
+            {
+                "letter": "D",
+                "text": "They are accessible only in the same package"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Public instance variables are accessible from anywhere in the program."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0021",
+        "text": "Which of the following statements about instance variables is true?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are unique to each object"
+            },
+            {
+                "letter": "B",
+                "text": "They are shared among all objects"
+            },
+            {
+                "letter": "C",
+                "text": "They are declared using the static keyword"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be initialized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each object has its own copy of instance variables, making them unique per object."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0022",
+        "text": "Which of the following can modify instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Instance methods"
+            },
+            {
+                "letter": "B",
+                "text": "Constructors"
+            },
+            {
+                "letter": "C",
+                "text": "Both A and B"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods only"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Instance variables can be modified by instance methods and constructors."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0023",
+        "text": "Which of the following is true about instance variables and memory allocation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are allocated when an object is created"
+            },
+            {
+                "letter": "B",
+                "text": "They are allocated when the class is loaded"
+            },
+            {
+                "letter": "C",
+                "text": "They are allocated at compile time"
+            },
+            {
+                "letter": "D",
+                "text": "They are allocated in the stack"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are allocated in heap memory when an object is created."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0024",
+        "text": "Which of the following is true about instance variables and default values?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are automatically initialized with default values"
+            },
+            {
+                "letter": "B",
+                "text": "They must be explicitly initialized"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot have default values"
+            },
+            {
+                "letter": "D",
+                "text": "They are initialized to random values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are automatically initialized with default values if not explicitly initialized."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0025",
+        "text": "Which of the following is true about instance variables and static context?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot be accessed directly from static methods"
+            },
+            {
+                "letter": "B",
+                "text": "They can be accessed directly from static methods"
+            },
+            {
+                "letter": "C",
+                "text": "They are static by default"
+            },
+            {
+                "letter": "D",
+                "text": "They are shared among all objects"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables cannot be accessed directly from static methods because they belong to objects."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0026",
+        "text": "Which of the following is true about instance variables and object references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are accessed using object references"
+            },
+            {
+                "letter": "B",
+                "text": "They are accessed using class names"
+            },
+            {
+                "letter": "C",
+                "text": "They are accessed using static methods"
+            },
+            {
+                "letter": "D",
+                "text": "They are accessed using constructors only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are accessed using object references because they belong to specific objects."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0027",
+        "text": "Which of the following is true about instance variables and encapsulation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are often private and accessed via getters and setters"
+            },
+            {
+                "letter": "B",
+                "text": "They are always public"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be private"
+            },
+            {
+                "letter": "D",
+                "text": "They are always static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Encapsulation is achieved by making instance variables private and providing public getters and setters."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0028",
+        "text": "Which of the following is true about instance variables and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are inherited by subclasses"
+            },
+            {
+                "letter": "B",
+                "text": "They are not inherited"
+            },
+            {
+                "letter": "C",
+                "text": "They are shared among subclasses"
+            },
+            {
+                "letter": "D",
+                "text": "They are deleted in subclasses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are inherited by subclasses unless declared private."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0029",
+        "text": "Which of the following is true about instance variables and overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "They can be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "They are always overridden"
+            },
+            {
+                "letter": "D",
+                "text": "They are overridden automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables cannot be overridden; only methods can be overridden in Java."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0030",
+        "text": "Which of the following is true about shadowing of instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A local variable can hide an instance variable with the same name"
+            },
+            {
+                "letter": "B",
+                "text": "Instance variables hide local variables"
+            },
+            {
+                "letter": "C",
+                "text": "Static variables hide instance variables"
+            },
+            {
+                "letter": "D",
+                "text": "Instance variables cannot be shadowed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A local variable with the same name as an instance variable hides it within the method scope."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0031",
+        "text": "Which keyword is used to refer to an instance variable hidden by a local variable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "this"
+            },
+            {
+                "letter": "B",
+                "text": "super"
+            },
+            {
+                "letter": "C",
+                "text": "static"
+            },
+            {
+                "letter": "D",
+                "text": "final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'this' keyword is used to refer to the current object's instance variable."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0032",
+        "text": "Which of the following is true about final instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be assigned only once"
+            },
+            {
+                "letter": "B",
+                "text": "They can be reassigned multiple times"
+            },
+            {
+                "letter": "C",
+                "text": "They are static by default"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be initialized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Final instance variables can be assigned only once, either at declaration or in the constructor."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0033",
+        "text": "Which of the following is true about transient instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are not serialized"
+            },
+            {
+                "letter": "B",
+                "text": "They are serialized"
+            },
+            {
+                "letter": "C",
+                "text": "They are static"
+            },
+            {
+                "letter": "D",
+                "text": "They are final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transient instance variables are not serialized during object serialization."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0034",
+        "text": "Which of the following is true about volatile instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They ensure visibility across threads"
+            },
+            {
+                "letter": "B",
+                "text": "They are static"
+            },
+            {
+                "letter": "C",
+                "text": "They are final"
+            },
+            {
+                "letter": "D",
+                "text": "They are transient"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Volatile instance variables ensure that changes are visible to all threads immediately."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0035",
+        "text": "Which of the following is true about instance variables and default initialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are automatically initialized with default values"
+            },
+            {
+                "letter": "B",
+                "text": "They must be initialized manually"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot have default values"
+            },
+            {
+                "letter": "D",
+                "text": "They are initialized to random values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are automatically initialized with default values if not explicitly initialized."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0036",
+        "text": "Which of the following is true about instance variables and object creation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each object gets its own copy of instance variables"
+            },
+            {
+                "letter": "B",
+                "text": "All objects share the same instance variables"
+            },
+            {
+                "letter": "C",
+                "text": "Instance variables are static"
+            },
+            {
+                "letter": "D",
+                "text": "Instance variables are deleted after constructor execution"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each object has its own copy of instance variables, ensuring independent state."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0037",
+        "text": "Which of the following is true about instance variables and garbage collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are destroyed when the object is garbage collected"
+            },
+            {
+                "letter": "B",
+                "text": "They are destroyed when the method ends"
+            },
+            {
+                "letter": "C",
+                "text": "They are destroyed when the class is unloaded"
+            },
+            {
+                "letter": "D",
+                "text": "They are destroyed manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are destroyed when the object they belong to is garbage collected."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0038",
+        "text": "Which of the following is true about instance variables and polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are not polymorphic"
+            },
+            {
+                "letter": "B",
+                "text": "They are polymorphic"
+            },
+            {
+                "letter": "C",
+                "text": "They can be overridden"
+            },
+            {
+                "letter": "D",
+                "text": "They are shared among subclasses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are not polymorphic; only methods exhibit polymorphism in Java."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0039",
+        "text": "Which of the following is true about instance variables and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are not thread-safe by default"
+            },
+            {
+                "letter": "B",
+                "text": "They are thread-safe by default"
+            },
+            {
+                "letter": "C",
+                "text": "They are static"
+            },
+            {
+                "letter": "D",
+                "text": "They are final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are not thread-safe by default; synchronization is required for thread safety."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0040",
+        "text": "Which of the following is true about instance variables and memory sharing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are not shared among objects"
+            },
+            {
+                "letter": "B",
+                "text": "They are shared among all objects"
+            },
+            {
+                "letter": "C",
+                "text": "They are static"
+            },
+            {
+                "letter": "D",
+                "text": "They are global variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are not shared among objects; each object has its own copy."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0041",
+        "text": "Which of the following is true about instance variables and constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Constructors can initialize instance variables"
+            },
+            {
+                "letter": "B",
+                "text": "Constructors cannot access instance variables"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors delete instance variables"
+            },
+            {
+                "letter": "D",
+                "text": "Constructors make instance variables static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors are commonly used to initialize instance variables when an object is created."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0042",
+        "text": "Which of the following is true about instance variables and default initialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are automatically initialized with default values"
+            },
+            {
+                "letter": "B",
+                "text": "They must be initialized manually"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot have default values"
+            },
+            {
+                "letter": "D",
+                "text": "They are initialized to random values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are automatically initialized with default values if not explicitly initialized."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0043",
+        "text": "Which of the following is true about instance variables and object references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are accessed using object references"
+            },
+            {
+                "letter": "B",
+                "text": "They are accessed using class names"
+            },
+            {
+                "letter": "C",
+                "text": "They are accessed using static methods"
+            },
+            {
+                "letter": "D",
+                "text": "They are accessed using constructors only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are accessed using object references because they belong to specific objects."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0044",
+        "text": "Which of the following is true about instance variables and encapsulation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are often private and accessed via getters and setters"
+            },
+            {
+                "letter": "B",
+                "text": "They are always public"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be private"
+            },
+            {
+                "letter": "D",
+                "text": "They are always static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Encapsulation is achieved by making instance variables private and providing public getters and setters."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0045",
+        "text": "Which of the following is true about instance variables and object state?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They define the state of an object"
+            },
+            {
+                "letter": "B",
+                "text": "They define the behavior of an object"
+            },
+            {
+                "letter": "C",
+                "text": "They define the class name"
+            },
+            {
+                "letter": "D",
+                "text": "They define the method signature"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables define the state of an object by holding its data."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0046",
+        "text": "Which of the following is true about instance variables and object behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They represent the data that methods operate on"
+            },
+            {
+                "letter": "B",
+                "text": "They represent the methods themselves"
+            },
+            {
+                "letter": "C",
+                "text": "They represent static data"
+            },
+            {
+                "letter": "D",
+                "text": "They represent constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables represent the data that methods operate on, defining object behavior."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0047",
+        "text": "Which of the following is true about instance variables and class loading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are created when an object is instantiated"
+            },
+            {
+                "letter": "B",
+                "text": "They are created when the class is loaded"
+            },
+            {
+                "letter": "C",
+                "text": "They are created at compile time"
+            },
+            {
+                "letter": "D",
+                "text": "They are created in the stack"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are created when an object is instantiated, not when the class is loaded."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0048",
+        "text": "Which of the following is true about instance variables and object references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are accessed using object references"
+            },
+            {
+                "letter": "B",
+                "text": "They are accessed using class names"
+            },
+            {
+                "letter": "C",
+                "text": "They are accessed using static methods"
+            },
+            {
+                "letter": "D",
+                "text": "They are accessed using constructors only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables are accessed using object references because they belong to specific objects."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0049",
+        "text": "Which of the following is true about instance variables and object creation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each object gets its own copy of instance variables"
+            },
+            {
+                "letter": "B",
+                "text": "All objects share the same instance variables"
+            },
+            {
+                "letter": "C",
+                "text": "Instance variables are static"
+            },
+            {
+                "letter": "D",
+                "text": "Instance variables are deleted after constructor execution"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each object has its own copy of instance variables, ensuring independent state."
+    },
+    {
+        "title": "JavaOOPInstanceVariables - Q0050",
+        "text": "Which of the following best describes instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Variables that define the state of an object and belong to each instance"
+            },
+            {
+                "letter": "B",
+                "text": "Variables that are shared among all objects"
+            },
+            {
+                "letter": "C",
+                "text": "Variables that are declared inside methods"
+            },
+            {
+                "letter": "D",
+                "text": "Variables that are static by default"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance variables define the state of an object and belong to each instance of a class."
+    }
+]
