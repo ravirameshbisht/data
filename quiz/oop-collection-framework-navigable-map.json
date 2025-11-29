@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0001",
+        "text": "Which package contains the NavigableMap interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The NavigableMap interface is part of the java.util package."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0002",
+        "text": "Which interface does NavigableMap extend?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedMap"
+            },
+            {
+                "letter": "B",
+                "text": "Map"
+            },
+            {
+                "letter": "C",
+                "text": "Collection"
+            },
+            {
+                "letter": "D",
+                "text": "Set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The NavigableMap interface extends the SortedMap interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0003",
+        "text": "What is the main characteristic of a NavigableMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides navigation methods for closest key matches"
+            },
+            {
+                "letter": "B",
+                "text": "It allows duplicate keys"
+            },
+            {
+                "letter": "C",
+                "text": "It maintains insertion order"
+            },
+            {
+                "letter": "D",
+                "text": "It stores keys randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableMap provides navigation methods to find closest matches for keys."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0004",
+        "text": "Which of the following classes implements the NavigableMap interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap"
+            },
+            {
+                "letter": "B",
+                "text": "HashMap"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashMap"
+            },
+            {
+                "letter": "D",
+                "text": "Hashtable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap is the main implementation of the NavigableMap interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0005",
+        "text": "Which of the following methods returns the greatest key less than the given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lowerKey(K key)"
+            },
+            {
+                "letter": "B",
+                "text": "floorKey(K key)"
+            },
+            {
+                "letter": "C",
+                "text": "ceilingKey(K key)"
+            },
+            {
+                "letter": "D",
+                "text": "higherKey(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lowerKey(K key) method returns the greatest key strictly less than the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0006",
+        "text": "Which of the following methods returns the greatest key less than or equal to the given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "floorKey(K key)"
+            },
+            {
+                "letter": "B",
+                "text": "lowerKey(K key)"
+            },
+            {
+                "letter": "C",
+                "text": "ceilingKey(K key)"
+            },
+            {
+                "letter": "D",
+                "text": "higherKey(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The floorKey(K key) method returns the greatest key less than or equal to the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0007",
+        "text": "Which of the following methods returns the least key greater than or equal to the given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ceilingKey(K key)"
+            },
+            {
+                "letter": "B",
+                "text": "higherKey(K key)"
+            },
+            {
+                "letter": "C",
+                "text": "floorKey(K key)"
+            },
+            {
+                "letter": "D",
+                "text": "lowerKey(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ceilingKey(K key) method returns the least key greater than or equal to the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0008",
+        "text": "Which of the following methods returns the least key strictly greater than the given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "higherKey(K key)"
+            },
+            {
+                "letter": "B",
+                "text": "ceilingKey(K key)"
+            },
+            {
+                "letter": "C",
+                "text": "floorKey(K key)"
+            },
+            {
+                "letter": "D",
+                "text": "lowerKey(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The higherKey(K key) method returns the least key strictly greater than the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0009",
+        "text": "Which of the following methods retrieves and removes the first entry of the map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollFirstEntry()"
+            },
+            {
+                "letter": "B",
+                "text": "removeFirstEntry()"
+            },
+            {
+                "letter": "C",
+                "text": "peekFirstEntry()"
+            },
+            {
+                "letter": "D",
+                "text": "getFirstEntry()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollFirstEntry() method retrieves and removes the first entry of the map, or returns null if empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0010",
+        "text": "Which of the following methods retrieves and removes the last entry of the map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollLastEntry()"
+            },
+            {
+                "letter": "B",
+                "text": "removeLastEntry()"
+            },
+            {
+                "letter": "C",
+                "text": "peekLastEntry()"
+            },
+            {
+                "letter": "D",
+                "text": "getLastEntry()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollLastEntry() method retrieves and removes the last entry of the map, or returns null if empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0011",
+        "text": "Which of the following methods returns a reverse order view of the map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingMap()"
+            },
+            {
+                "letter": "B",
+                "text": "reverseMap()"
+            },
+            {
+                "letter": "C",
+                "text": "inverseMap()"
+            },
+            {
+                "letter": "D",
+                "text": "backwardMap()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingMap() method returns a reverse order view of the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0012",
+        "text": "Which of the following methods returns a NavigableSet view of the keys in reverse order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingKeySet()"
+            },
+            {
+                "letter": "B",
+                "text": "reverseKeySet()"
+            },
+            {
+                "letter": "C",
+                "text": "inverseKeySet()"
+            },
+            {
+                "letter": "D",
+                "text": "backwardKeySet()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingKeySet() method returns a NavigableSet view of the keys in reverse order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0013",
+        "text": "Which of the following is true about NavigableMap and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableMap does not allow duplicate keys"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableMap allows duplicate keys"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableMap allows duplicate values"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableMap removes duplicates automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableMap does not allow duplicate keys, but values can be duplicated."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0014",
+        "text": "Which of the following is true about NavigableMap and null keys?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap does not allow null keys"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap allows one null key"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap allows multiple null keys"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap ignores null keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap does not allow null keys because it uses natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0015",
+        "text": "Which of the following is true about NavigableMap and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableMap maintains keys in ascending order by default"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableMap maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableMap stores keys randomly"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableMap maintains reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableMap maintains keys in ascending order by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0016",
+        "text": "Which of the following methods returns a view of the portion of the map less than a given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "headMap(K toKey, boolean inclusive)"
+            },
+            {
+                "letter": "B",
+                "text": "tailMap(K fromKey, boolean inclusive)"
+            },
+            {
+                "letter": "C",
+                "text": "subMap(K fromKey, K toKey)"
+            },
+            {
+                "letter": "D",
+                "text": "lowerMap(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The headMap(K toKey, boolean inclusive) method returns a view of the portion of the map less than the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0017",
+        "text": "Which of the following methods returns a view of the portion of the map greater than a given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "tailMap(K fromKey, boolean inclusive)"
+            },
+            {
+                "letter": "B",
+                "text": "headMap(K toKey, boolean inclusive)"
+            },
+            {
+                "letter": "C",
+                "text": "subMap(K fromKey, K toKey)"
+            },
+            {
+                "letter": "D",
+                "text": "upperMap(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The tailMap(K fromKey, boolean inclusive) method returns a view of the portion of the map greater than the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0018",
+        "text": "Which of the following methods returns a view of the portion of the map between two keys?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)"
+            },
+            {
+                "letter": "B",
+                "text": "headMap(K toKey, boolean inclusive)"
+            },
+            {
+                "letter": "C",
+                "text": "tailMap(K fromKey, boolean inclusive)"
+            },
+            {
+                "letter": "D",
+                "text": "rangeMap(K fromKey, K toKey)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive) method returns a view of the portion of the map between two keys."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0019",
+        "text": "Which of the following is true about NavigableMap and comparator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A custom Comparator can define the sorting order"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator cannot be used with NavigableMap"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator is mandatory for NavigableMap"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator is used only for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A custom Comparator can be provided to define the sorting order of keys in a NavigableMap."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0020",
+        "text": "Which of the following is true about NavigableMap and natural ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "If no comparator is provided, natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "Natural ordering is never used"
+            },
+            {
+                "letter": "C",
+                "text": "Natural ordering is optional"
+            },
+            {
+                "letter": "D",
+                "text": "Natural ordering is used only for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If no comparator is provided, NavigableMap uses the natural ordering of its keys."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0021",
+        "text": "Which of the following methods returns the first entry in the map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "firstEntry()"
+            },
+            {
+                "letter": "B",
+                "text": "getFirst()"
+            },
+            {
+                "letter": "C",
+                "text": "peekFirst()"
+            },
+            {
+                "letter": "D",
+                "text": "entryFirst()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The firstEntry() method returns the first (lowest) key-value mapping in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0022",
+        "text": "Which of the following methods returns the last entry in the map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lastEntry()"
+            },
+            {
+                "letter": "B",
+                "text": "getLast()"
+            },
+            {
+                "letter": "C",
+                "text": "peekLast()"
+            },
+            {
+                "letter": "D",
+                "text": "entryLast()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lastEntry() method returns the last (highest) key-value mapping in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0023",
+        "text": "Which of the following methods returns the entry with the greatest key less than the given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lowerEntry(K key)"
+            },
+            {
+                "letter": "B",
+                "text": "floorEntry(K key)"
+            },
+            {
+                "letter": "C",
+                "text": "ceilingEntry(K key)"
+            },
+            {
+                "letter": "D",
+                "text": "higherEntry(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lowerEntry(K key) method returns the entry with the greatest key strictly less than the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0024",
+        "text": "Which of the following methods returns the entry with the greatest key less than or equal to the given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "floorEntry(K key)"
+            },
+            {
+                "letter": "B",
+                "text": "lowerEntry(K key)"
+            },
+            {
+                "letter": "C",
+                "text": "ceilingEntry(K key)"
+            },
+            {
+                "letter": "D",
+                "text": "higherEntry(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The floorEntry(K key) method returns the entry with the greatest key less than or equal to the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0025",
+        "text": "Which of the following methods returns the entry with the least key greater than or equal to the given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ceilingEntry(K key)"
+            },
+            {
+                "letter": "B",
+                "text": "higherEntry(K key)"
+            },
+            {
+                "letter": "C",
+                "text": "floorEntry(K key)"
+            },
+            {
+                "letter": "D",
+                "text": "lowerEntry(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ceilingEntry(K key) method returns the entry with the least key greater than or equal to the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0026",
+        "text": "Which of the following methods returns the entry with the least key strictly greater than the given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "higherEntry(K key)"
+            },
+            {
+                "letter": "B",
+                "text": "ceilingEntry(K key)"
+            },
+            {
+                "letter": "C",
+                "text": "floorEntry(K key)"
+            },
+            {
+                "letter": "D",
+                "text": "lowerEntry(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The higherEntry(K key) method returns the entry with the least key strictly greater than the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0027",
+        "text": "Which of the following methods removes and returns the first entry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollFirstEntry()"
+            },
+            {
+                "letter": "B",
+                "text": "removeFirstEntry()"
+            },
+            {
+                "letter": "C",
+                "text": "deleteFirstEntry()"
+            },
+            {
+                "letter": "D",
+                "text": "clearFirstEntry()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollFirstEntry() method removes and returns the first entry in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0028",
+        "text": "Which of the following methods removes and returns the last entry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollLastEntry()"
+            },
+            {
+                "letter": "B",
+                "text": "removeLastEntry()"
+            },
+            {
+                "letter": "C",
+                "text": "deleteLastEntry()"
+            },
+            {
+                "letter": "D",
+                "text": "clearLastEntry()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollLastEntry() method removes and returns the last entry in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0029",
+        "text": "Which of the following methods returns a reverse order view of the map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingMap()"
+            },
+            {
+                "letter": "B",
+                "text": "reverseMap()"
+            },
+            {
+                "letter": "C",
+                "text": "inverseMap()"
+            },
+            {
+                "letter": "D",
+                "text": "backwardMap()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingMap() method returns a reverse order view of the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0030",
+        "text": "Which of the following methods returns a NavigableSet view of the keys in reverse order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingKeySet()"
+            },
+            {
+                "letter": "B",
+                "text": "reverseKeySet()"
+            },
+            {
+                "letter": "C",
+                "text": "inverseKeySet()"
+            },
+            {
+                "letter": "D",
+                "text": "backwardKeySet()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingKeySet() method returns a NavigableSet view of the keys in reverse order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0031",
+        "text": "Which of the following is true about NavigableMap and TreeMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap implements NavigableMap"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap extends HashMap"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap implements List"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap implements Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap implements the NavigableMap interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0032",
+        "text": "Which of the following is true about NavigableMap and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableMap is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableMap is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "All NavigableMap implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableMap cannot be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableMap is not synchronized by default; synchronization can be achieved using Collections.synchronizedNavigableMap()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0033",
+        "text": "Which of the following methods can be used to synchronize a NavigableMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.synchronizedNavigableMap()"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableMap.synchronize()"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableMap.lock()"
+            },
+            {
+                "letter": "D",
+                "text": "Collections.lockNavigableMap()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.synchronizedNavigableMap() method returns a synchronized (thread-safe) navigable map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0034",
+        "text": "Which of the following is true about NavigableMap and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterators of most NavigableMap implementations are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators of NavigableMap are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableMap never throws ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableMap is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterators of most NavigableMap implementations are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0035",
+        "text": "Which of the following is true about NavigableMap and comparator()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "comparator() returns null if natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "comparator() always returns a comparator"
+            },
+            {
+                "letter": "C",
+                "text": "comparator() throws exception if no comparator"
+            },
+            {
+                "letter": "D",
+                "text": "comparator() returns the first key"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If natural ordering is used, comparator() returns null."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0036",
+        "text": "Which of the following is true about NavigableMap and null keys?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap does not allow null keys"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap allows one null key"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap allows multiple null keys"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap ignores null keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap does not allow null keys because it uses natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0037",
+        "text": "Which of the following is true about NavigableMap and null values?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap allows null values"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap does not allow null values"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap allows only one null value"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap ignores null values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap allows null values but not null keys."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0038",
+        "text": "Which of the following is true about NavigableMap and descendingMap()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingMap() returns a reverse order view of the map"
+            },
+            {
+                "letter": "B",
+                "text": "descendingMap() removes all entries"
+            },
+            {
+                "letter": "C",
+                "text": "descendingMap() sorts entries randomly"
+            },
+            {
+                "letter": "D",
+                "text": "descendingMap() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingMap() method returns a reverse order view of the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0039",
+        "text": "Which of the following is true about NavigableMap and comparator chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator chaining allows multiple comparison criteria"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator chaining removes duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator chaining is not supported"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator chaining is used for synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator chaining allows multiple comparison criteria using methods like thenComparing()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0040",
+        "text": "Which of the following is true about NavigableMap and TreeMap performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap provides O(log n) performance for basic operations"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap provides O(1) performance"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap provides O(n^2) performance"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap provides O(n) performance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap provides O(log n) performance for add, remove, and containsKey operations."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0041",
+        "text": "Which of the following is true about NavigableMap and keySet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "keySet() returns a NavigableSet view of keys"
+            },
+            {
+                "letter": "B",
+                "text": "keySet() returns a List view of keys"
+            },
+            {
+                "letter": "C",
+                "text": "keySet() returns a Collection of values"
+            },
+            {
+                "letter": "D",
+                "text": "keySet() returns a Map of keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The keySet() method returns a NavigableSet view of the keys contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0042",
+        "text": "Which of the following is true about NavigableMap and entrySet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "entrySet() returns a Set view of key-value pairs"
+            },
+            {
+                "letter": "B",
+                "text": "entrySet() returns a List view of keys"
+            },
+            {
+                "letter": "C",
+                "text": "entrySet() returns a Collection of values"
+            },
+            {
+                "letter": "D",
+                "text": "entrySet() returns a Map of entries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The entrySet() method returns a Set view of the key-value pairs contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0043",
+        "text": "Which of the following is true about NavigableMap and values()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "values() returns a Collection view of values"
+            },
+            {
+                "letter": "B",
+                "text": "values() returns a Set view of values"
+            },
+            {
+                "letter": "C",
+                "text": "values() returns a Map of values"
+            },
+            {
+                "letter": "D",
+                "text": "values() returns a List of keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The values() method returns a Collection view of the values contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0044",
+        "text": "Which of the following is true about NavigableMap and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableMap can be made unmodifiable using Collections.unmodifiableNavigableMap()"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableMap is immutable by default"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableMap cannot be made immutable"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableMap is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableMap can be made unmodifiable using the Collections.unmodifiableNavigableMap() method."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0045",
+        "text": "Which of the following is true about NavigableMap and fail-fast iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fail-fast iterators throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "Fail-fast iterators ignore modifications"
+            },
+            {
+                "letter": "C",
+                "text": "Fail-fast iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "Fail-fast iterators are synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-fast iterators throw ConcurrentModificationException if the map is modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0046",
+        "text": "Which of the following is true about NavigableMap and comparator chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator chaining allows multiple comparison criteria"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator chaining removes duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator chaining is not supported"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator chaining is used for synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator chaining allows multiple comparison criteria using methods like thenComparing()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0047",
+        "text": "Which of the following is true about NavigableMap and TreeMap synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap cannot be synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap is always thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap is not synchronized by default; synchronization can be achieved using Collections.synchronizedNavigableMap()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0048",
+        "text": "Which of the following is true about NavigableMap and comparator() return value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Returns null if natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "Always returns a comparator"
+            },
+            {
+                "letter": "C",
+                "text": "Throws exception if no comparator"
+            },
+            {
+                "letter": "D",
+                "text": "Returns the first key"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If natural ordering is used, comparator() returns null."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0049",
+        "text": "Which of the following is true about NavigableMap and iteration order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iteration follows ascending key order by default"
+            },
+            {
+                "letter": "B",
+                "text": "Iteration follows insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "Iteration is random"
+            },
+            {
+                "letter": "D",
+                "text": "Iteration follows reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iteration over a NavigableMap follows ascending key order by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableMap - Q0050",
+        "text": "Which of the following best describes the NavigableMap interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A map that maintains keys in sorted order and provides navigation methods"
+            },
+            {
+                "letter": "B",
+                "text": "A map that maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "A map that allows duplicate keys"
+            },
+            {
+                "letter": "D",
+                "text": "A map that stores keys randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The NavigableMap interface represents a map that maintains keys in sorted order and provides navigation methods."
+    }
+]

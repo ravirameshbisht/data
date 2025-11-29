@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0001",
+        "text": "Which package contains the NavigableSet interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The NavigableSet interface is part of the java.util package."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0002",
+        "text": "Which interface does NavigableSet extend?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedSet"
+            },
+            {
+                "letter": "B",
+                "text": "Set"
+            },
+            {
+                "letter": "C",
+                "text": "Collection"
+            },
+            {
+                "letter": "D",
+                "text": "Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The NavigableSet interface extends the SortedSet interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0003",
+        "text": "What is the main characteristic of a NavigableSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides navigation methods for closest matches"
+            },
+            {
+                "letter": "B",
+                "text": "It allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "It maintains insertion order"
+            },
+            {
+                "letter": "D",
+                "text": "It stores elements randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableSet provides navigation methods to find closest matches for elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0004",
+        "text": "Which of the following classes implements the NavigableSet interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet"
+            },
+            {
+                "letter": "D",
+                "text": "EnumSet"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet is the main implementation of the NavigableSet interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0005",
+        "text": "Which of the following methods returns the greatest element less than the given element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lower(E e)"
+            },
+            {
+                "letter": "B",
+                "text": "floor(E e)"
+            },
+            {
+                "letter": "C",
+                "text": "ceiling(E e)"
+            },
+            {
+                "letter": "D",
+                "text": "higher(E e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lower(E e) method returns the greatest element strictly less than the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0006",
+        "text": "Which of the following methods returns the greatest element less than or equal to the given element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "floor(E e)"
+            },
+            {
+                "letter": "B",
+                "text": "lower(E e)"
+            },
+            {
+                "letter": "C",
+                "text": "ceiling(E e)"
+            },
+            {
+                "letter": "D",
+                "text": "higher(E e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The floor(E e) method returns the greatest element less than or equal to the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0007",
+        "text": "Which of the following methods returns the least element greater than or equal to the given element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ceiling(E e)"
+            },
+            {
+                "letter": "B",
+                "text": "higher(E e)"
+            },
+            {
+                "letter": "C",
+                "text": "floor(E e)"
+            },
+            {
+                "letter": "D",
+                "text": "lower(E e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ceiling(E e) method returns the least element greater than or equal to the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0008",
+        "text": "Which of the following methods returns the least element strictly greater than the given element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "higher(E e)"
+            },
+            {
+                "letter": "B",
+                "text": "ceiling(E e)"
+            },
+            {
+                "letter": "C",
+                "text": "floor(E e)"
+            },
+            {
+                "letter": "D",
+                "text": "lower(E e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The higher(E e) method returns the least element strictly greater than the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0009",
+        "text": "Which of the following methods retrieves and removes the first element of the set?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollFirst()"
+            },
+            {
+                "letter": "B",
+                "text": "removeFirst()"
+            },
+            {
+                "letter": "C",
+                "text": "peekFirst()"
+            },
+            {
+                "letter": "D",
+                "text": "getFirst()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollFirst() method retrieves and removes the first element of the set, or returns null if empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0010",
+        "text": "Which of the following methods retrieves and removes the last element of the set?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollLast()"
+            },
+            {
+                "letter": "B",
+                "text": "removeLast()"
+            },
+            {
+                "letter": "C",
+                "text": "peekLast()"
+            },
+            {
+                "letter": "D",
+                "text": "getLast()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollLast() method retrieves and removes the last element of the set, or returns null if empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0011",
+        "text": "Which of the following methods returns a reverse order view of the set?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingSet()"
+            },
+            {
+                "letter": "B",
+                "text": "reverseSet()"
+            },
+            {
+                "letter": "C",
+                "text": "inverseSet()"
+            },
+            {
+                "letter": "D",
+                "text": "backwardSet()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingSet() method returns a reverse order view of the elements in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0012",
+        "text": "Which of the following methods returns an iterator over the elements in descending order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingIterator()"
+            },
+            {
+                "letter": "B",
+                "text": "reverseIterator()"
+            },
+            {
+                "letter": "C",
+                "text": "backwardIterator()"
+            },
+            {
+                "letter": "D",
+                "text": "inverseIterator()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingIterator() method returns an iterator that traverses the set in descending order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0013",
+        "text": "Which of the following is true about NavigableSet and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableSet does not allow duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableSet allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableSet allows duplicates if sorted"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableSet allows duplicates if null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableSet does not allow duplicate elements, just like Set and SortedSet."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0014",
+        "text": "Which of the following is true about NavigableSet and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet allows one null element"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet, the main implementation of NavigableSet, does not allow null elements because it uses natural ordering."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0015",
+        "text": "Which of the following is true about NavigableSet and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableSet maintains elements in ascending order by default"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableSet stores elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableSet maintains reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableSet maintains elements in ascending order by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0016",
+        "text": "Which of the following methods returns a view of the portion of the set less than a given element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "headSet(E toElement, boolean inclusive)"
+            },
+            {
+                "letter": "B",
+                "text": "tailSet(E fromElement, boolean inclusive)"
+            },
+            {
+                "letter": "C",
+                "text": "subSet(E fromElement, E toElement)"
+            },
+            {
+                "letter": "D",
+                "text": "lowerSet(E element)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The headSet(E toElement, boolean inclusive) method returns a view of the portion of the set less than the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0017",
+        "text": "Which of the following methods returns a view of the portion of the set greater than a given element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "tailSet(E fromElement, boolean inclusive)"
+            },
+            {
+                "letter": "B",
+                "text": "headSet(E toElement, boolean inclusive)"
+            },
+            {
+                "letter": "C",
+                "text": "subSet(E fromElement, E toElement)"
+            },
+            {
+                "letter": "D",
+                "text": "upperSet(E element)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The tailSet(E fromElement, boolean inclusive) method returns a view of the portion of the set greater than the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0018",
+        "text": "Which of the following methods returns a view of the portion of the set between two elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subSet(E fromElement, boolean fromInclusive, E toElement, boolean toInclusive)"
+            },
+            {
+                "letter": "B",
+                "text": "headSet(E toElement, boolean inclusive)"
+            },
+            {
+                "letter": "C",
+                "text": "tailSet(E fromElement, boolean inclusive)"
+            },
+            {
+                "letter": "D",
+                "text": "rangeSet(E fromElement, E toElement)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subSet(E fromElement, boolean fromInclusive, E toElement, boolean toInclusive) method returns a view of the portion of the set between two elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0019",
+        "text": "Which of the following is true about NavigableSet and comparator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A custom Comparator can define the sorting order"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator cannot be used with NavigableSet"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator is mandatory for NavigableSet"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator is used only for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A custom Comparator can be provided to define the sorting order of elements in a NavigableSet."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0020",
+        "text": "Which of the following is true about NavigableSet and natural ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "If no comparator is provided, natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "Natural ordering is never used"
+            },
+            {
+                "letter": "C",
+                "text": "Natural ordering is optional"
+            },
+            {
+                "letter": "D",
+                "text": "Natural ordering is used only for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If no comparator is provided, NavigableSet uses the natural ordering of its elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0021",
+        "text": "Which of the following is true about NavigableSet and descendingSet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingSet() returns a reverse order view of the set"
+            },
+            {
+                "letter": "B",
+                "text": "descendingSet() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "descendingSet() sorts elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "descendingSet() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingSet() method returns a reverse order view of the elements in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0022",
+        "text": "Which of the following is true about NavigableSet and descendingIterator()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingIterator() iterates elements in reverse order"
+            },
+            {
+                "letter": "B",
+                "text": "descendingIterator() iterates elements in insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "descendingIterator() iterates elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "descendingIterator() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingIterator() method iterates elements in reverse order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0023",
+        "text": "Which of the following is true about NavigableSet and pollFirst()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollFirst() retrieves and removes the first element"
+            },
+            {
+                "letter": "B",
+                "text": "pollFirst() retrieves but does not remove the first element"
+            },
+            {
+                "letter": "C",
+                "text": "pollFirst() removes all elements"
+            },
+            {
+                "letter": "D",
+                "text": "pollFirst() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollFirst() method retrieves and removes the first element of the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0024",
+        "text": "Which of the following is true about NavigableSet and pollLast()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollLast() retrieves and removes the last element"
+            },
+            {
+                "letter": "B",
+                "text": "pollLast() retrieves but does not remove the last element"
+            },
+            {
+                "letter": "C",
+                "text": "pollLast() removes all elements"
+            },
+            {
+                "letter": "D",
+                "text": "pollLast() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollLast() method retrieves and removes the last element of the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0025",
+        "text": "Which of the following is true about NavigableSet and lower(E e)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lower(E e) returns the greatest element less than the given element"
+            },
+            {
+                "letter": "B",
+                "text": "lower(E e) returns the smallest element greater than the given element"
+            },
+            {
+                "letter": "C",
+                "text": "lower(E e) removes the given element"
+            },
+            {
+                "letter": "D",
+                "text": "lower(E e) clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lower(E e) method returns the greatest element strictly less than the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0026",
+        "text": "Which of the following is true about NavigableSet and floor(E e)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "floor(E e) returns the greatest element less than or equal to the given element"
+            },
+            {
+                "letter": "B",
+                "text": "floor(E e) returns the smallest element greater than the given element"
+            },
+            {
+                "letter": "C",
+                "text": "floor(E e) removes the given element"
+            },
+            {
+                "letter": "D",
+                "text": "floor(E e) clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The floor(E e) method returns the greatest element less than or equal to the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0027",
+        "text": "Which of the following is true about NavigableSet and ceiling(E e)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ceiling(E e) returns the least element greater than or equal to the given element"
+            },
+            {
+                "letter": "B",
+                "text": "ceiling(E e) returns the greatest element less than the given element"
+            },
+            {
+                "letter": "C",
+                "text": "ceiling(E e) removes the given element"
+            },
+            {
+                "letter": "D",
+                "text": "ceiling(E e) clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ceiling(E e) method returns the least element greater than or equal to the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0028",
+        "text": "Which of the following is true about NavigableSet and higher(E e)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "higher(E e) returns the least element greater than the given element"
+            },
+            {
+                "letter": "B",
+                "text": "higher(E e) returns the greatest element less than the given element"
+            },
+            {
+                "letter": "C",
+                "text": "higher(E e) removes the given element"
+            },
+            {
+                "letter": "D",
+                "text": "higher(E e) clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The higher(E e) method returns the least element strictly greater than the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0029",
+        "text": "Which of the following is true about NavigableSet and subSet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subSet() returns a view between two elements with inclusivity options"
+            },
+            {
+                "letter": "B",
+                "text": "subSet() removes elements"
+            },
+            {
+                "letter": "C",
+                "text": "subSet() clears the set"
+            },
+            {
+                "letter": "D",
+                "text": "subSet() returns all elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subSet() method returns a view between two elements with options for inclusivity."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0030",
+        "text": "Which of the following is true about NavigableSet and headSet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "headSet() returns elements less than a given element with inclusivity option"
+            },
+            {
+                "letter": "B",
+                "text": "headSet() returns elements greater than a given element"
+            },
+            {
+                "letter": "C",
+                "text": "headSet() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "headSet() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The headSet() method returns elements less than a given element with an option to include the boundary."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0031",
+        "text": "Which of the following is true about NavigableSet and tailSet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "tailSet() returns elements greater than or equal to a given element with inclusivity option"
+            },
+            {
+                "letter": "B",
+                "text": "tailSet() returns elements less than a given element"
+            },
+            {
+                "letter": "C",
+                "text": "tailSet() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "tailSet() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The tailSet() method returns elements greater than or equal to a given element with an option to include the boundary."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0032",
+        "text": "Which of the following is true about NavigableSet and comparator()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "comparator() returns null if natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "comparator() always returns a comparator"
+            },
+            {
+                "letter": "C",
+                "text": "comparator() throws exception if no comparator"
+            },
+            {
+                "letter": "D",
+                "text": "comparator() returns the first element"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If natural ordering is used, comparator() returns null."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0033",
+        "text": "Which of the following is true about NavigableSet and TreeSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet implements NavigableSet"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet extends HashSet"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet implements List"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet implements Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet implements the NavigableSet interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0034",
+        "text": "Which of the following is true about NavigableSet and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableSet is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableSet is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "All NavigableSet implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableSet cannot be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableSet is not synchronized by default; synchronization can be achieved using Collections.synchronizedNavigableSet()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0035",
+        "text": "Which of the following methods can be used to synchronize a NavigableSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.synchronizedNavigableSet()"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableSet.synchronize()"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableSet.lock()"
+            },
+            {
+                "letter": "D",
+                "text": "Collections.lockNavigableSet()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.synchronizedNavigableSet() method returns a synchronized (thread-safe) navigable set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0036",
+        "text": "Which of the following is true about NavigableSet and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterators of most NavigableSet implementations are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators of NavigableSet are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableSet never throws ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableSet is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterators of most NavigableSet implementations are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0037",
+        "text": "Which of the following is true about NavigableSet and descending order iteration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingIterator() iterates elements in reverse order"
+            },
+            {
+                "letter": "B",
+                "text": "descendingIterator() iterates elements in insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "descendingIterator() iterates elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "descendingIterator() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingIterator() method iterates elements in reverse order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0038",
+        "text": "Which of the following is true about NavigableSet and comparator chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator chaining allows multiple comparison criteria"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator chaining removes duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator chaining is not supported"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator chaining is used for synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator chaining allows multiple comparison criteria using methods like thenComparing()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0039",
+        "text": "Which of the following is true about NavigableSet and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableSet can be made unmodifiable using Collections.unmodifiableNavigableSet()"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableSet is immutable by default"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableSet cannot be made immutable"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableSet is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableSet can be made unmodifiable using the Collections.unmodifiableNavigableSet() method."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0040",
+        "text": "Which of the following is true about NavigableSet and TreeSet performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet provides O(log n) performance for basic operations"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet provides O(1) performance"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet provides O(n^2) performance"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet provides O(n) performance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet provides O(log n) performance for add, remove, and contains operations."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0041",
+        "text": "Which of the following is true about NavigableSet and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet allows one null element"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet does not allow null elements because it uses natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0042",
+        "text": "Which of the following is true about NavigableSet and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableSet maintains elements in ascending order by default"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableSet stores elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableSet maintains reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableSet maintains elements in ascending order by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0043",
+        "text": "Which of the following is true about NavigableSet and fail-fast iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fail-fast iterators throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "Fail-fast iterators ignore modifications"
+            },
+            {
+                "letter": "C",
+                "text": "Fail-fast iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "Fail-fast iterators are synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-fast iterators throw ConcurrentModificationException if the set is modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0044",
+        "text": "Which of the following is true about NavigableSet and comparator() return value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Returns null if natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "Always returns a comparator"
+            },
+            {
+                "letter": "C",
+                "text": "Throws exception if no comparator"
+            },
+            {
+                "letter": "D",
+                "text": "Returns the first element"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If natural ordering is used, comparator() returns null."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0045",
+        "text": "Which of the following is true about NavigableSet and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableSet does not allow duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableSet allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableSet allows duplicates if sorted"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableSet allows duplicates if null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableSet does not allow duplicate elements, just like Set and SortedSet."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0046",
+        "text": "Which of the following is true about NavigableSet and comparator chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator chaining allows multiple comparison criteria"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator chaining removes duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator chaining is not supported"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator chaining is used for synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator chaining allows multiple comparison criteria using methods like thenComparing()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0047",
+        "text": "Which of the following is true about NavigableSet and TreeSet synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet cannot be synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet is always thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet is not synchronized by default; synchronization can be achieved using Collections.synchronizedNavigableSet()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0048",
+        "text": "Which of the following is true about NavigableSet and comparator()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "comparator() returns null if natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "comparator() always returns a comparator"
+            },
+            {
+                "letter": "C",
+                "text": "comparator() throws exception if no comparator"
+            },
+            {
+                "letter": "D",
+                "text": "comparator() returns the first element"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If natural ordering is used, comparator() returns null."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0049",
+        "text": "Which of the following is true about NavigableSet and iteration order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iteration follows ascending order by default"
+            },
+            {
+                "letter": "B",
+                "text": "Iteration follows insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "Iteration is random"
+            },
+            {
+                "letter": "D",
+                "text": "Iteration follows reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iteration over a NavigableSet follows ascending order by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkNavigableSet - Q0050",
+        "text": "Which of the following best describes the NavigableSet interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A set that maintains elements in sorted order and provides navigation methods"
+            },
+            {
+                "letter": "B",
+                "text": "A set that maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "A set that allows duplicate elements"
+            },
+            {
+                "letter": "D",
+                "text": "A set that stores elements randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The NavigableSet interface represents a set that maintains elements in sorted order and provides navigation methods."
+    }
+]
