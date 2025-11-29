@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaOOPAbstractClasses - Q0001",
+        "text": "What is an abstract class in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class that cannot be instantiated"
+            },
+            {
+                "letter": "B",
+                "text": "A class that must have only abstract methods"
+            },
+            {
+                "letter": "C",
+                "text": "A class that cannot have constructors"
+            },
+            {
+                "letter": "D",
+                "text": "A class that must be final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An abstract class cannot be instantiated directly; it serves as a base for subclasses."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0002",
+        "text": "Which keyword is used to declare an abstract class in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "abstract"
+            },
+            {
+                "letter": "B",
+                "text": "interface"
+            },
+            {
+                "letter": "C",
+                "text": "extends"
+            },
+            {
+                "letter": "D",
+                "text": "implements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'abstract' keyword is used to declare an abstract class in Java."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0003",
+        "text": "Which of the following is true about abstract classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can have both abstract and concrete methods"
+            },
+            {
+                "letter": "B",
+                "text": "They can only have abstract methods"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot have constructors"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot have variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have both abstract (unimplemented) and concrete (implemented) methods."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0004",
+        "text": "Can an abstract class have a constructor?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Yes, it can"
+            },
+            {
+                "letter": "B",
+                "text": "No, it cannot"
+            },
+            {
+                "letter": "C",
+                "text": "Only if it has no abstract methods"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it is final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have constructors, which are called when a subclass object is created."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0005",
+        "text": "Which of the following is true about abstract methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They have no body"
+            },
+            {
+                "letter": "B",
+                "text": "They must be implemented by subclasses"
+            },
+            {
+                "letter": "C",
+                "text": "They are declared using the 'abstract' keyword"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Abstract methods have no body, must be implemented by subclasses, and are declared using 'abstract'."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0006",
+        "text": "Can an abstract class implement an interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Yes, it can"
+            },
+            {
+                "letter": "B",
+                "text": "No, it cannot"
+            },
+            {
+                "letter": "C",
+                "text": "Only if it is final"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it has no abstract methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An abstract class can implement an interface and may or may not provide implementations for its methods."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0007",
+        "text": "Can an abstract class extend another abstract class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Yes, it can"
+            },
+            {
+                "letter": "B",
+                "text": "No, it cannot"
+            },
+            {
+                "letter": "C",
+                "text": "Only if both have no abstract methods"
+            },
+            {
+                "letter": "D",
+                "text": "Only if the parent is final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An abstract class can extend another abstract class and inherit its abstract and concrete methods."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0008",
+        "text": "Can an abstract class have static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Yes, it can"
+            },
+            {
+                "letter": "B",
+                "text": "No, it cannot"
+            },
+            {
+                "letter": "C",
+                "text": "Only if it has no abstract methods"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it is final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have static methods because static methods belong to the class, not instances."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0009",
+        "text": "Can an abstract class have final methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Yes, it can"
+            },
+            {
+                "letter": "B",
+                "text": "No, it cannot"
+            },
+            {
+                "letter": "C",
+                "text": "Only if it has no abstract methods"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it is final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have final methods to prevent subclasses from overriding them."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0010",
+        "text": "Can an abstract class be declared final?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No, because it cannot be subclassed"
+            },
+            {
+                "letter": "B",
+                "text": "Yes, it can"
+            },
+            {
+                "letter": "C",
+                "text": "Only if it has no abstract methods"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it is static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An abstract class cannot be declared final because it must be subclassed to implement its abstract methods."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0011",
+        "text": "Can an abstract class have instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Yes, it can"
+            },
+            {
+                "letter": "B",
+                "text": "No, it cannot"
+            },
+            {
+                "letter": "C",
+                "text": "Only if they are static"
+            },
+            {
+                "letter": "D",
+                "text": "Only if they are final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have instance variables like any other class."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0012",
+        "text": "Can an abstract class have a main() method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Yes, it can"
+            },
+            {
+                "letter": "B",
+                "text": "No, it cannot"
+            },
+            {
+                "letter": "C",
+                "text": "Only if it is static"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it has no abstract methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An abstract class can have a main() method and can be executed like any other class."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0013",
+        "text": "Can an abstract class be instantiated directly?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No, it cannot"
+            },
+            {
+                "letter": "B",
+                "text": "Yes, it can"
+            },
+            {
+                "letter": "C",
+                "text": "Only if it has no abstract methods"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it is final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes cannot be instantiated directly; they must be subclassed."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0014",
+        "text": "Which of the following is true about abstract classes and interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract classes can have constructors, interfaces cannot"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces can have constructors"
+            },
+            {
+                "letter": "C",
+                "text": "Both can have constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Neither can have constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have constructors, but interfaces cannot."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0015",
+        "text": "Which of the following is true about abstract classes and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They must be extended by another class"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be extended"
+            },
+            {
+                "letter": "C",
+                "text": "They can only be implemented"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot have subclasses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes must be extended by another class to provide implementations for abstract methods."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0016",
+        "text": "Which of the following is true about abstract methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot be static"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot be final"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be private"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Abstract methods cannot be static, final, or private because they must be overridden."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0017",
+        "text": "Which of the following is true about abstract classes and multiple inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class can extend only one abstract class"
+            },
+            {
+                "letter": "B",
+                "text": "A class can extend multiple abstract classes"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes support multiple inheritance"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract classes cannot be extended"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java supports single inheritance, so a class can extend only one abstract class."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0018",
+        "text": "Which of the following is true about abstract classes and interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An abstract class can implement multiple interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "An abstract class can implement only one interface"
+            },
+            {
+                "letter": "C",
+                "text": "An abstract class cannot implement interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "An abstract class must implement all interface methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An abstract class can implement multiple interfaces and may choose not to implement all methods."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0019",
+        "text": "Which of the following is true about abstract classes and polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They support runtime polymorphism"
+            },
+            {
+                "letter": "B",
+                "text": "They support compile-time polymorphism only"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be used in polymorphism"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes support runtime polymorphism through method overriding."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0020",
+        "text": "Which of the following is true about abstract classes and object creation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot be instantiated directly"
+            },
+            {
+                "letter": "B",
+                "text": "They can be instantiated directly"
+            },
+            {
+                "letter": "C",
+                "text": "They can be instantiated using 'new'"
+            },
+            {
+                "letter": "D",
+                "text": "They can be instantiated if they have no abstract methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes cannot be instantiated directly; they must be subclassed."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0021",
+        "text": "Which of the following is true about abstract classes and constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Constructors in abstract classes are called when subclass objects are created"
+            },
+            {
+                "letter": "B",
+                "text": "Constructors in abstract classes are never called"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes cannot have constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Constructors in abstract classes must be abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors in abstract classes are called when subclass objects are created to initialize inherited members."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0022",
+        "text": "Which of the following is true about abstract classes and method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Subclasses must override all abstract methods"
+            },
+            {
+                "letter": "B",
+                "text": "Subclasses may ignore abstract methods"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract methods cannot be overridden"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract methods are automatically implemented"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Subclasses must override all abstract methods of the abstract class unless they are also declared abstract."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0023",
+        "text": "Which of the following is true about abstract classes and final methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Final methods in abstract classes cannot be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "Final methods in abstract classes must be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "Final methods in abstract classes are abstract"
+            },
+            {
+                "letter": "D",
+                "text": "Final methods in abstract classes are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Final methods in abstract classes cannot be overridden by subclasses."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0024",
+        "text": "Which of the following is true about abstract classes and static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static methods in abstract classes can be called without creating an object"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods in abstract classes cannot exist"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods in abstract classes must be abstract"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods in abstract classes must be overridden"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static methods in abstract classes can be called using the class name without creating an object."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0025",
+        "text": "Which of the following is true about abstract classes and access modifiers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract classes can have any access modifier"
+            },
+            {
+                "letter": "B",
+                "text": "Abstract classes must be public"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes must be private"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract classes cannot have access modifiers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have any access modifier: public, protected, or default."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0026",
+        "text": "Which of the following is true about abstract classes and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A subclass can extend only one abstract class"
+            },
+            {
+                "letter": "B",
+                "text": "A subclass can extend multiple abstract classes"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes cannot be extended"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract classes can be extended by interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java supports single inheritance, so a subclass can extend only one abstract class."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0027",
+        "text": "Which of the following is true about abstract classes and interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An abstract class can implement multiple interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "An abstract class can implement only one interface"
+            },
+            {
+                "letter": "C",
+                "text": "An abstract class cannot implement interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "An abstract class must implement all interface methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An abstract class can implement multiple interfaces and may choose not to implement all methods."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0028",
+        "text": "Which of the following is true about abstract classes and polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They support runtime polymorphism"
+            },
+            {
+                "letter": "B",
+                "text": "They support compile-time polymorphism only"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be used in polymorphism"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes support runtime polymorphism through method overriding."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0029",
+        "text": "Which of the following is true about abstract classes and object creation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot be instantiated directly"
+            },
+            {
+                "letter": "B",
+                "text": "They can be instantiated directly"
+            },
+            {
+                "letter": "C",
+                "text": "They can be instantiated using 'new'"
+            },
+            {
+                "letter": "D",
+                "text": "They can be instantiated if they have no abstract methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes cannot be instantiated directly; they must be subclassed."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0030",
+        "text": "Which of the following is true about abstract classes and constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Constructors in abstract classes are called when subclass objects are created"
+            },
+            {
+                "letter": "B",
+                "text": "Constructors in abstract classes are never called"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes cannot have constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Constructors in abstract classes must be abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors in abstract classes are called when subclass objects are created to initialize inherited members."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0031",
+        "text": "Which of the following is true about abstract classes and method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Subclasses must override all abstract methods"
+            },
+            {
+                "letter": "B",
+                "text": "Subclasses may ignore abstract methods"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract methods cannot be overridden"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract methods are automatically implemented"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Subclasses must override all abstract methods of the abstract class unless they are also declared abstract."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0032",
+        "text": "Which of the following is true about abstract classes and final methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Final methods in abstract classes cannot be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "Final methods in abstract classes must be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "Final methods in abstract classes are abstract"
+            },
+            {
+                "letter": "D",
+                "text": "Final methods in abstract classes are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Final methods in abstract classes cannot be overridden by subclasses."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0033",
+        "text": "Which of the following is true about abstract classes and static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static methods in abstract classes can be called without creating an object"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods in abstract classes cannot exist"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods in abstract classes must be abstract"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods in abstract classes must be overridden"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static methods in abstract classes can be called using the class name without creating an object."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0034",
+        "text": "Which of the following is true about abstract classes and access modifiers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract classes can have any access modifier"
+            },
+            {
+                "letter": "B",
+                "text": "Abstract classes must be public"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes must be private"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract classes cannot have access modifiers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have any access modifier: public, protected, or default."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0035",
+        "text": "Which of the following is true about abstract classes and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A subclass can extend only one abstract class"
+            },
+            {
+                "letter": "B",
+                "text": "A subclass can extend multiple abstract classes"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes cannot be extended"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract classes can be extended by interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java supports single inheritance, so a subclass can extend only one abstract class."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0036",
+        "text": "Which of the following is true about abstract classes and interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An abstract class can implement multiple interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "An abstract class can implement only one interface"
+            },
+            {
+                "letter": "C",
+                "text": "An abstract class cannot implement interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "An abstract class must implement all interface methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An abstract class can implement multiple interfaces and may choose not to implement all methods."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0037",
+        "text": "Which of the following is true about abstract classes and polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They support runtime polymorphism"
+            },
+            {
+                "letter": "B",
+                "text": "They support compile-time polymorphism only"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be used in polymorphism"
+            },
+            {
+                "letter": "D",
+                "text": "They are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes support runtime polymorphism through method overriding."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0038",
+        "text": "Which of the following is true about abstract classes and object creation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot be instantiated directly"
+            },
+            {
+                "letter": "B",
+                "text": "They can be instantiated directly"
+            },
+            {
+                "letter": "C",
+                "text": "They can be instantiated using 'new'"
+            },
+            {
+                "letter": "D",
+                "text": "They can be instantiated if they have no abstract methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes cannot be instantiated directly; they must be subclassed."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0039",
+        "text": "Which of the following is true about abstract classes and constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Constructors in abstract classes are called when subclass objects are created"
+            },
+            {
+                "letter": "B",
+                "text": "Constructors in abstract classes are never called"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes cannot have constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Constructors in abstract classes must be abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors in abstract classes are called when subclass objects are created to initialize inherited members."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0040",
+        "text": "Which of the following best describes an abstract class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class that cannot be instantiated and may contain abstract methods"
+            },
+            {
+                "letter": "B",
+                "text": "A class that must be instantiated"
+            },
+            {
+                "letter": "C",
+                "text": "A class that cannot have methods"
+            },
+            {
+                "letter": "D",
+                "text": "A class that must be final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An abstract class cannot be instantiated and may contain abstract and concrete methods."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0041",
+        "text": "Which of the following is true about abstract classes and method implementation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can have both implemented and unimplemented methods"
+            },
+            {
+                "letter": "B",
+                "text": "They can only have unimplemented methods"
+            },
+            {
+                "letter": "C",
+                "text": "They can only have implemented methods"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot have methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have both implemented (concrete) and unimplemented (abstract) methods."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0042",
+        "text": "Which of the following is true about abstract classes and inheritance hierarchy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be extended by concrete or abstract subclasses"
+            },
+            {
+                "letter": "B",
+                "text": "They can only be extended by concrete subclasses"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be extended"
+            },
+            {
+                "letter": "D",
+                "text": "They can only be extended by interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can be extended by both concrete and abstract subclasses."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0043",
+        "text": "Which of the following is true about abstract classes and method visibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract methods cannot be private"
+            },
+            {
+                "letter": "B",
+                "text": "Abstract methods can be private"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract methods must be static"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract methods must be final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract methods cannot be private because they must be overridden by subclasses."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0044",
+        "text": "Which of the following is true about abstract classes and default methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can have default implementations for methods"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot have default implementations"
+            },
+            {
+                "letter": "C",
+                "text": "They must have all methods abstract"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot have any methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have default implementations for methods, unlike interfaces before Java 8."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0045",
+        "text": "Which of the following is true about abstract classes and data members?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can have instance and static variables"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot have variables"
+            },
+            {
+                "letter": "C",
+                "text": "They can only have static variables"
+            },
+            {
+                "letter": "D",
+                "text": "They can only have final variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can have both instance and static variables."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0046",
+        "text": "Which of the following is true about abstract classes and method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Subclasses must override all abstract methods"
+            },
+            {
+                "letter": "B",
+                "text": "Subclasses may ignore abstract methods"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract methods cannot be overridden"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract methods are automatically implemented"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Subclasses must override all abstract methods of the abstract class unless they are also declared abstract."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0047",
+        "text": "Which of the following is true about abstract classes and object references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be used to reference subclass objects"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot reference subclass objects"
+            },
+            {
+                "letter": "C",
+                "text": "They can only reference abstract objects"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be used in polymorphism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract class references can be used to refer to subclass objects, enabling polymorphism."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0048",
+        "text": "Which of the following is true about abstract classes and method implementation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can provide partial implementation"
+            },
+            {
+                "letter": "B",
+                "text": "They must provide full implementation"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot provide any implementation"
+            },
+            {
+                "letter": "D",
+                "text": "They must be empty"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can provide partial implementation, leaving some methods abstract."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0049",
+        "text": "Which of the following is true about abstract classes and interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract classes can implement interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces can extend abstract classes"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes cannot implement interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces and abstract classes are identical"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can implement interfaces and may or may not provide implementations for their methods."
+    },
+    {
+        "title": "JavaOOPAbstractClasses - Q0050",
+        "text": "Which of the following best describes an abstract class in OOP?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A base class that defines common behavior and enforces implementation in subclasses"
+            },
+            {
+                "letter": "B",
+                "text": "A class that cannot have methods"
+            },
+            {
+                "letter": "C",
+                "text": "A class that must be final"
+            },
+            {
+                "letter": "D",
+                "text": "A class that cannot be extended"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An abstract class defines common behavior and enforces implementation of abstract methods in subclasses."
+    }
+]
