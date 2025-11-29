@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0001",
+        "text": "Which package contains the Set interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Set interface is part of the java.util package."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0002",
+        "text": "Which of the following interfaces does Set extend?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection"
+            },
+            {
+                "letter": "B",
+                "text": "List"
+            },
+            {
+                "letter": "C",
+                "text": "Map"
+            },
+            {
+                "letter": "D",
+                "text": "Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Set interface extends the Collection interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0003",
+        "text": "Which of the following is true about the Set interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set does not allow duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "Set allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "Set maintains insertion order"
+            },
+            {
+                "letter": "D",
+                "text": "Set allows null duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Set interface does not allow duplicate elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0004",
+        "text": "Which of the following classes implement the Set interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet, LinkedHashSet, TreeSet"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList, Vector, Stack"
+            },
+            {
+                "letter": "C",
+                "text": "HashMap, TreeMap"
+            },
+            {
+                "letter": "D",
+                "text": "PriorityQueue, ArrayDeque"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet, LinkedHashSet, and TreeSet are implementations of the Set interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0005",
+        "text": "Which of the following is true about HashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet does not maintain insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet sorts elements automatically"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet allows duplicate elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet does not maintain insertion order; it is based on hashing."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0006",
+        "text": "Which of the following is true about LinkedHashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedHashSet maintains insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedHashSet sorts elements automatically"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet allows duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedHashSet is synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedHashSet maintains insertion order using a linked list internally."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0007",
+        "text": "Which of the following is true about TreeSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet stores elements in sorted order"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet allows duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet stores elements in sorted order according to their natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0008",
+        "text": "Which of the following is true about the Set interface and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet allows one null element"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet allows null elements"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet does not allow null elements"
+            },
+            {
+                "letter": "D",
+                "text": "All Set implementations allow multiple nulls"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet allows one null element, while TreeSet does not allow nulls."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0009",
+        "text": "Which of the following is true about the Set interface and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set does not allow duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "Set allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "Set allows duplicates only if sorted"
+            },
+            {
+                "letter": "D",
+                "text": "Set allows duplicates if null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Set interface does not allow duplicate elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0010",
+        "text": "Which of the following is true about the Set interface and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet maintains sorted order"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet sorts elements automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Set always maintains insertion order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet maintains elements in sorted order, while HashSet and LinkedHashSet do not."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0011",
+        "text": "Which of the following is true about the Set interface and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "Set is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "All Set implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "Set cannot be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Set interface is not synchronized by default; synchronization can be achieved using Collections.synchronizedSet()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0012",
+        "text": "Which of the following methods can be used to synchronize a Set?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.synchronizedSet()"
+            },
+            {
+                "letter": "B",
+                "text": "Set.synchronize()"
+            },
+            {
+                "letter": "C",
+                "text": "Set.lock()"
+            },
+            {
+                "letter": "D",
+                "text": "Collections.lockSet()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.synchronizedSet() method returns a synchronized (thread-safe) set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0013",
+        "text": "Which of the following is true about the Set interface and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Sets can be made unmodifiable using Collections.unmodifiableSet()"
+            },
+            {
+                "letter": "B",
+                "text": "Sets are immutable by default"
+            },
+            {
+                "letter": "C",
+                "text": "Sets cannot be made immutable"
+            },
+            {
+                "letter": "D",
+                "text": "Sets are always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sets can be made unmodifiable using the Collections.unmodifiableSet() method."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0014",
+        "text": "Which of the following is true about the Set interface and iteration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set provides an iterator() method for traversal"
+            },
+            {
+                "letter": "B",
+                "text": "Set does not support iteration"
+            },
+            {
+                "letter": "C",
+                "text": "Set uses Enumeration for iteration"
+            },
+            {
+                "letter": "D",
+                "text": "Set uses index-based access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The iterator() method provides a way to traverse elements in a Set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0015",
+        "text": "Which of the following is true about the Set interface and null elements in TreeSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet allows one null element"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet does not allow null elements because it uses natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0016",
+        "text": "Which of the following is true about the Set interface and duplicates in HashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet does not allow duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet allows duplicates if sorted"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet allows duplicates if null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet does not allow duplicate elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0017",
+        "text": "Which of the following is true about the Set interface and ordering in LinkedHashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedHashSet maintains insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedHashSet sorts elements automatically"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet stores elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedHashSet maintains sorted order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedHashSet maintains insertion order using a linked list internally."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0018",
+        "text": "Which of the following is true about the Set interface and performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet provides constant-time performance for basic operations"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet provides constant-time performance"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet provides logarithmic-time performance"
+            },
+            {
+                "letter": "D",
+                "text": "All Set implementations have the same performance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet provides constant-time performance for basic operations like add, remove, and contains."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0019",
+        "text": "Which of the following is true about the Set interface and sorting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet sorts elements automatically"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet sorts elements automatically"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet sorts elements automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Set does not support sorting"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet sorts elements automatically according to their natural order or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0020",
+        "text": "Which of the following is true about the Set interface and equals()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals() compares sets based on elements only"
+            },
+            {
+                "letter": "B",
+                "text": "equals() compares sets based on order"
+            },
+            {
+                "letter": "C",
+                "text": "equals() compares sets based on references"
+            },
+            {
+                "letter": "D",
+                "text": "equals() compares sets based on hash codes only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares sets based on their elements, not order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0021",
+        "text": "Which of the following is true about the Set interface and hashCode()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hashCode() is based on the elements in the set"
+            },
+            {
+                "letter": "B",
+                "text": "hashCode() is random"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode() is based on insertion order"
+            },
+            {
+                "letter": "D",
+                "text": "hashCode() is constant for all sets"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() method of a Set is based on the elements it contains, not their order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0022",
+        "text": "Which of the following is true about the Set interface and duplicates in TreeSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet does not allow duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet allows duplicates if sorted"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet allows duplicates if null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet does not allow duplicate elements because it uses a sorted structure based on comparison."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0023",
+        "text": "Which of the following is true about the Set interface and iteration order in HashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet does not maintain insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet sorts elements automatically"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet maintains reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet does not maintain insertion order; it is based on hashing."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0024",
+        "text": "Which of the following is true about the Set interface and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterators of most Set implementations are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators of Set are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "Set never throws ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "Set is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterators of most Set implementations are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0025",
+        "text": "Which of the following is true about the Set interface and null elements in HashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet allows one null element"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet allows multiple null elements"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet does not allow null elements"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet allows one null element because it uses hashing and null has a fixed hash code."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0026",
+        "text": "Which of the following is true about the Set interface and ordering in TreeSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet maintains elements in sorted order"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet stores elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet maintains reverse insertion order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet maintains elements in sorted order according to their natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0027",
+        "text": "Which of the following is true about the Set interface and comparator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet can use a custom Comparator for sorting"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet uses Comparator for hashing"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet uses Comparator for ordering"
+            },
+            {
+                "letter": "D",
+                "text": "Set cannot use Comparator"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet can use a custom Comparator to define the sorting order of its elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0028",
+        "text": "Which of the following is true about the Set interface and generics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set is a generic interface"
+            },
+            {
+                "letter": "B",
+                "text": "Set does not support generics"
+            },
+            {
+                "letter": "C",
+                "text": "Set supports only primitive types"
+            },
+            {
+                "letter": "D",
+                "text": "Set supports only String type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Set interface is generic and can hold objects of any specified type."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0029",
+        "text": "Which of the following is true about the Set interface and immutability in Java 9?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set.of() creates an immutable set"
+            },
+            {
+                "letter": "B",
+                "text": "Set.of() creates a modifiable set"
+            },
+            {
+                "letter": "C",
+                "text": "Set.of() creates a synchronized set"
+            },
+            {
+                "letter": "D",
+                "text": "Set.of() creates a sorted set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Set.of() method introduced in Java 9 creates an immutable set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0030",
+        "text": "Which of the following is true about the Set interface and null elements in Set.of()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set.of() does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "Set.of() allows one null element"
+            },
+            {
+                "letter": "C",
+                "text": "Set.of() allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "Set.of() ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Set.of() method does not allow null elements and throws NullPointerException if null is passed."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0031",
+        "text": "Which of the following is true about the Set interface and equals() comparison?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals() compares sets based on elements only"
+            },
+            {
+                "letter": "B",
+                "text": "equals() compares sets based on order"
+            },
+            {
+                "letter": "C",
+                "text": "equals() compares sets based on references"
+            },
+            {
+                "letter": "D",
+                "text": "equals() compares sets based on hash codes only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares sets based on their elements, not order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0032",
+        "text": "Which of the following is true about the Set interface and iteration order in LinkedHashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedHashSet maintains insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedHashSet sorts elements automatically"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet stores elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedHashSet maintains reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedHashSet maintains insertion order using a linked list internally."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0033",
+        "text": "Which of the following is true about the Set interface and performance of TreeSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet provides O(log n) performance for basic operations"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet provides O(1) performance"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet provides O(n^2) performance"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet provides O(n) performance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet provides O(log n) performance for basic operations like add, remove, and contains."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0034",
+        "text": "Which of the following is true about the Set interface and fail-fast iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fail-fast iterators throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "Fail-fast iterators ignore modifications"
+            },
+            {
+                "letter": "C",
+                "text": "Fail-fast iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "Fail-fast iterators are synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-fast iterators throw ConcurrentModificationException if the set is modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0035",
+        "text": "Which of the following is true about the Set interface and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set is not thread-safe by default"
+            },
+            {
+                "letter": "B",
+                "text": "Set is thread-safe by default"
+            },
+            {
+                "letter": "C",
+                "text": "All Set implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "Set cannot be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Set interface is not thread-safe by default; synchronization can be achieved using Collections.synchronizedSet()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0036",
+        "text": "Which of the following is true about the Set interface and iteration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set provides an iterator() method for traversal"
+            },
+            {
+                "letter": "B",
+                "text": "Set does not support iteration"
+            },
+            {
+                "letter": "C",
+                "text": "Set uses Enumeration for iteration"
+            },
+            {
+                "letter": "D",
+                "text": "Set uses index-based access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The iterator() method provides a way to traverse elements in a Set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0037",
+        "text": "Which of the following is true about the Set interface and duplicates in LinkedHashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedHashSet does not allow duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedHashSet allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet allows duplicates if sorted"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedHashSet allows duplicates if null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedHashSet does not allow duplicate elements, just like other Set implementations."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0038",
+        "text": "Which of the following is true about the Set interface and ordering in HashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet does not maintain any order"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet maintains sorted order"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet maintains reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet does not maintain any order of elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0039",
+        "text": "Which of the following is true about the Set interface and null elements in LinkedHashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedHashSet allows one null element"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedHashSet allows multiple null elements"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet does not allow null elements"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedHashSet ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedHashSet allows one null element, similar to HashSet."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0040",
+        "text": "Which of the following is true about the Set interface and uniqueness?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set ensures all elements are unique"
+            },
+            {
+                "letter": "B",
+                "text": "Set allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "Set allows duplicates if sorted"
+            },
+            {
+                "letter": "D",
+                "text": "Set allows duplicates if null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Set interface ensures that all elements are unique."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0041",
+        "text": "Which of the following is true about the Set interface and add() method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "add() returns false if the element already exists"
+            },
+            {
+                "letter": "B",
+                "text": "add() throws an exception if the element exists"
+            },
+            {
+                "letter": "C",
+                "text": "add() replaces existing elements"
+            },
+            {
+                "letter": "D",
+                "text": "add() always returns true"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The add() method returns false if the element already exists in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0042",
+        "text": "Which of the following is true about the Set interface and remove()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove() removes the specified element if present"
+            },
+            {
+                "letter": "B",
+                "text": "remove() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "remove() removes elements by index"
+            },
+            {
+                "letter": "D",
+                "text": "remove() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove() method removes the specified element if it is present in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0043",
+        "text": "Which of the following is true about the Set interface and clear()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clear() removes all elements from the set"
+            },
+            {
+                "letter": "B",
+                "text": "clear() removes only null elements"
+            },
+            {
+                "letter": "C",
+                "text": "clear() removes duplicates only"
+            },
+            {
+                "letter": "D",
+                "text": "clear() removes elements conditionally"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clear() method removes all elements from the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0044",
+        "text": "Which of the following is true about the Set interface and contains()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "contains() checks if a specific element exists"
+            },
+            {
+                "letter": "B",
+                "text": "contains() removes an element"
+            },
+            {
+                "letter": "C",
+                "text": "contains() adds an element"
+            },
+            {
+                "letter": "D",
+                "text": "contains() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The contains() method checks if a specific element exists in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0045",
+        "text": "Which of the following is true about the Set interface and size()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "size() returns the number of elements in the set"
+            },
+            {
+                "letter": "B",
+                "text": "size() returns the capacity of the set"
+            },
+            {
+                "letter": "C",
+                "text": "size() returns the hash code"
+            },
+            {
+                "letter": "D",
+                "text": "size() returns the index"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The size() method returns the number of elements in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0046",
+        "text": "Which of the following is true about the Set interface and isEmpty()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isEmpty() returns true if the set has no elements"
+            },
+            {
+                "letter": "B",
+                "text": "isEmpty() returns false if the set has no elements"
+            },
+            {
+                "letter": "C",
+                "text": "isEmpty() throws an exception if empty"
+            },
+            {
+                "letter": "D",
+                "text": "isEmpty() returns the size of the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The isEmpty() method returns true if the set contains no elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0047",
+        "text": "Which of the following is true about the Set interface and retainAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "retainAll() keeps only elements present in another collection"
+            },
+            {
+                "letter": "B",
+                "text": "retainAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "retainAll() adds all elements"
+            },
+            {
+                "letter": "D",
+                "text": "retainAll() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The retainAll() method retains only the elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0048",
+        "text": "Which of the following is true about the Set interface and removeAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeAll() removes all elements that are also in another collection"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "removeAll() adds all elements"
+            },
+            {
+                "letter": "D",
+                "text": "removeAll() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeAll() method removes all elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0049",
+        "text": "Which of the following is true about the Set interface and containsAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "containsAll() checks if all elements of another collection are present"
+            },
+            {
+                "letter": "B",
+                "text": "containsAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "containsAll() adds all elements"
+            },
+            {
+                "letter": "D",
+                "text": "containsAll() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The containsAll() method checks if all elements of another collection are present in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSet - Q0050",
+        "text": "Which of the following best describes the Set interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A collection that does not allow duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "A collection that allows duplicates and maintains order"
+            },
+            {
+                "letter": "C",
+                "text": "A key-value mapping collection"
+            },
+            {
+                "letter": "D",
+                "text": "A collection that stores elements in insertion order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Set interface represents a collection that does not allow duplicate elements."
+    }
+]

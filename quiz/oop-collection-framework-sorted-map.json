@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0001",
+        "text": "Which package contains the SortedMap interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The SortedMap interface is part of the java.util package."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0002",
+        "text": "Which interface does SortedMap extend?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Map"
+            },
+            {
+                "letter": "B",
+                "text": "Collection"
+            },
+            {
+                "letter": "C",
+                "text": "Set"
+            },
+            {
+                "letter": "D",
+                "text": "List"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The SortedMap interface extends the Map interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0003",
+        "text": "What is the main characteristic of a SortedMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Keys are stored in ascending order"
+            },
+            {
+                "letter": "B",
+                "text": "Keys are stored in insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "Keys are stored randomly"
+            },
+            {
+                "letter": "D",
+                "text": "Keys are stored in reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A SortedMap stores keys in ascending order according to their natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0004",
+        "text": "Which of the following classes implements the SortedMap interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap"
+            },
+            {
+                "letter": "B",
+                "text": "HashMap"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashMap"
+            },
+            {
+                "letter": "D",
+                "text": "Hashtable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap is the main implementation of the SortedMap interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0005",
+        "text": "Which of the following is true about SortedMap and null keys?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap does not allow null keys"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap allows one null key"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap allows multiple null keys"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap ignores null keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap does not allow null keys because it uses natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0006",
+        "text": "Which of the following methods returns the first key in a SortedMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "firstKey()"
+            },
+            {
+                "letter": "B",
+                "text": "getFirstKey()"
+            },
+            {
+                "letter": "C",
+                "text": "peekKey()"
+            },
+            {
+                "letter": "D",
+                "text": "headKey()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The firstKey() method returns the first (lowest) key in the SortedMap."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0007",
+        "text": "Which of the following methods returns the last key in a SortedMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lastKey()"
+            },
+            {
+                "letter": "B",
+                "text": "getLastKey()"
+            },
+            {
+                "letter": "C",
+                "text": "peekLastKey()"
+            },
+            {
+                "letter": "D",
+                "text": "tailKey()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lastKey() method returns the last (highest) key in the SortedMap."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0008",
+        "text": "Which of the following methods returns a view of the portion of the map strictly less than a given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "headMap(K toKey)"
+            },
+            {
+                "letter": "B",
+                "text": "tailMap(K fromKey)"
+            },
+            {
+                "letter": "C",
+                "text": "subMap(K fromKey, K toKey)"
+            },
+            {
+                "letter": "D",
+                "text": "lowerMap(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The headMap(K toKey) method returns a view of the portion of the map strictly less than the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0009",
+        "text": "Which of the following methods returns a view of the portion of the map greater than or equal to a given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "tailMap(K fromKey)"
+            },
+            {
+                "letter": "B",
+                "text": "headMap(K toKey)"
+            },
+            {
+                "letter": "C",
+                "text": "subMap(K fromKey, K toKey)"
+            },
+            {
+                "letter": "D",
+                "text": "upperMap(K key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The tailMap(K fromKey) method returns a view of the portion of the map greater than or equal to the given key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0010",
+        "text": "Which of the following methods returns a view of the portion of the map between two keys?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subMap(K fromKey, K toKey)"
+            },
+            {
+                "letter": "B",
+                "text": "headMap(K toKey)"
+            },
+            {
+                "letter": "C",
+                "text": "tailMap(K fromKey)"
+            },
+            {
+                "letter": "D",
+                "text": "rangeMap(K fromKey, K toKey)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subMap(K fromKey, K toKey) method returns a view of the portion of the map between two keys."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0011",
+        "text": "Which of the following methods returns the comparator used to order the keys in a SortedMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "comparator()"
+            },
+            {
+                "letter": "B",
+                "text": "getComparator()"
+            },
+            {
+                "letter": "C",
+                "text": "order()"
+            },
+            {
+                "letter": "D",
+                "text": "sorter()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The comparator() method returns the comparator used to order the keys in the map, or null if natural ordering is used."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0012",
+        "text": "Which of the following is true about SortedMap and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedMap maintains keys in ascending order"
+            },
+            {
+                "letter": "B",
+                "text": "SortedMap maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "SortedMap stores keys randomly"
+            },
+            {
+                "letter": "D",
+                "text": "SortedMap maintains reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SortedMap maintains keys in ascending order by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0013",
+        "text": "Which of the following is true about SortedMap and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedMap does not allow duplicate keys"
+            },
+            {
+                "letter": "B",
+                "text": "SortedMap allows duplicate keys"
+            },
+            {
+                "letter": "C",
+                "text": "SortedMap allows duplicate values"
+            },
+            {
+                "letter": "D",
+                "text": "SortedMap removes duplicates automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SortedMap does not allow duplicate keys, but values can be duplicated."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0014",
+        "text": "Which of the following is true about SortedMap and TreeMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap implements SortedMap"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap extends HashMap"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap implements List"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap implements Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap implements the SortedMap interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0015",
+        "text": "Which of the following is true about SortedMap and comparator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A custom Comparator can define the sorting order"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator cannot be used with SortedMap"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator is mandatory for SortedMap"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator is used only for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A custom Comparator can be provided to define the sorting order of keys in a SortedMap."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0016",
+        "text": "Which of the following is true about SortedMap and natural ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "If no comparator is provided, natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "Natural ordering is never used"
+            },
+            {
+                "letter": "C",
+                "text": "Natural ordering is optional"
+            },
+            {
+                "letter": "D",
+                "text": "Natural ordering is used only for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If no comparator is provided, SortedMap uses the natural ordering of its keys."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0017",
+        "text": "Which of the following is true about SortedMap and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedMap is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "SortedMap is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "All SortedMap implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "SortedMap cannot be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SortedMap is not synchronized by default; synchronization can be achieved using Collections.synchronizedSortedMap()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0018",
+        "text": "Which of the following methods can be used to synchronize a SortedMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.synchronizedSortedMap()"
+            },
+            {
+                "letter": "B",
+                "text": "SortedMap.synchronize()"
+            },
+            {
+                "letter": "C",
+                "text": "SortedMap.lock()"
+            },
+            {
+                "letter": "D",
+                "text": "Collections.lockSortedMap()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.synchronizedSortedMap() method returns a synchronized (thread-safe) sorted map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0019",
+        "text": "Which of the following is true about SortedMap and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedMap can be made unmodifiable using Collections.unmodifiableSortedMap()"
+            },
+            {
+                "letter": "B",
+                "text": "SortedMap is immutable by default"
+            },
+            {
+                "letter": "C",
+                "text": "SortedMap cannot be made immutable"
+            },
+            {
+                "letter": "D",
+                "text": "SortedMap is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SortedMap can be made unmodifiable using the Collections.unmodifiableSortedMap() method."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0020",
+        "text": "Which of the following is true about SortedMap and iteration order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedMap iterates keys in ascending order"
+            },
+            {
+                "letter": "B",
+                "text": "SortedMap iterates keys in insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "SortedMap iterates keys randomly"
+            },
+            {
+                "letter": "D",
+                "text": "SortedMap iterates keys in reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SortedMap iterates keys in ascending order by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0021",
+        "text": "Which of the following is true about SortedMap and descending order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableMap provides descendingMap() for reverse order"
+            },
+            {
+                "letter": "B",
+                "text": "SortedMap provides descendingMap()"
+            },
+            {
+                "letter": "C",
+                "text": "SortedMap cannot be reversed"
+            },
+            {
+                "letter": "D",
+                "text": "SortedMap always maintains reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableMap, a subinterface of SortedMap, provides descendingMap() for reverse order views."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0022",
+        "text": "Which of the following is true about SortedMap and comparator() method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "comparator() returns null if natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "comparator() always returns a Comparator"
+            },
+            {
+                "letter": "C",
+                "text": "comparator() throws an exception if no comparator is set"
+            },
+            {
+                "letter": "D",
+                "text": "comparator() returns the first key"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If natural ordering is used, comparator() returns null."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0023",
+        "text": "Which of the following is true about SortedMap and subMap()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subMap() returns a view between two keys"
+            },
+            {
+                "letter": "B",
+                "text": "subMap() returns all entries"
+            },
+            {
+                "letter": "C",
+                "text": "subMap() removes entries"
+            },
+            {
+                "letter": "D",
+                "text": "subMap() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subMap() method returns a view of the portion of the map between two keys."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0024",
+        "text": "Which of the following is true about SortedMap and headMap()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "headMap() returns entries with keys less than a given key"
+            },
+            {
+                "letter": "B",
+                "text": "headMap() returns entries with keys greater than a given key"
+            },
+            {
+                "letter": "C",
+                "text": "headMap() removes entries"
+            },
+            {
+                "letter": "D",
+                "text": "headMap() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The headMap() method returns a view of entries with keys less than the specified key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0025",
+        "text": "Which of the following is true about SortedMap and tailMap()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "tailMap() returns entries with keys greater than or equal to a given key"
+            },
+            {
+                "letter": "B",
+                "text": "tailMap() returns entries with keys less than a given key"
+            },
+            {
+                "letter": "C",
+                "text": "tailMap() removes entries"
+            },
+            {
+                "letter": "D",
+                "text": "tailMap() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The tailMap() method returns a view of entries with keys greater than or equal to the specified key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0026",
+        "text": "Which of the following is true about SortedMap and TreeMap performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap provides O(log n) performance for basic operations"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap provides O(1) performance"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap provides O(n^2) performance"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap provides O(n) performance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap provides O(log n) performance for add, remove, and containsKey operations."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0027",
+        "text": "Which of the following is true about SortedMap and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterators of most SortedMap implementations are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators of SortedMap are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "SortedMap never throws ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "SortedMap is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterators of most SortedMap implementations are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0028",
+        "text": "Which of the following is true about SortedMap and comparator usage?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator defines custom sorting logic for keys"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator removes duplicate keys"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator is used for synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator is used for hashing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator defines custom sorting logic for keys in a SortedMap."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0029",
+        "text": "Which of the following is true about SortedMap and equals()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals() compares maps based on key-value pairs"
+            },
+            {
+                "letter": "B",
+                "text": "equals() compares maps based on order"
+            },
+            {
+                "letter": "C",
+                "text": "equals() compares maps based on references"
+            },
+            {
+                "letter": "D",
+                "text": "equals() compares maps based on hash codes only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares maps based on their key-value pairs, not order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0030",
+        "text": "Which of the following is true about SortedMap and hashCode()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hashCode() is based on the key-value pairs"
+            },
+            {
+                "letter": "B",
+                "text": "hashCode() is random"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode() is constant"
+            },
+            {
+                "letter": "D",
+                "text": "hashCode() is based only on keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() method of a SortedMap is based on its key-value pairs."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0031",
+        "text": "Which of the following is true about SortedMap and null values?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap allows null values"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap does not allow null values"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap allows only one null value"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap ignores null values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap allows null values but not null keys."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0032",
+        "text": "Which of the following is true about SortedMap and keySet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "keySet() returns a SortedSet view of keys"
+            },
+            {
+                "letter": "B",
+                "text": "keySet() returns a List view of keys"
+            },
+            {
+                "letter": "C",
+                "text": "keySet() returns a Collection of values"
+            },
+            {
+                "letter": "D",
+                "text": "keySet() returns a Map of keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The keySet() method returns a SortedSet view of the keys contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0033",
+        "text": "Which of the following is true about SortedMap and entrySet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "entrySet() returns a Set view of key-value pairs"
+            },
+            {
+                "letter": "B",
+                "text": "entrySet() returns a List view of keys"
+            },
+            {
+                "letter": "C",
+                "text": "entrySet() returns a Collection of values"
+            },
+            {
+                "letter": "D",
+                "text": "entrySet() returns a Map of entries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The entrySet() method returns a Set view of the key-value pairs contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0034",
+        "text": "Which of the following is true about SortedMap and values()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "values() returns a Collection view of values"
+            },
+            {
+                "letter": "B",
+                "text": "values() returns a Set view of values"
+            },
+            {
+                "letter": "C",
+                "text": "values() returns a Map of values"
+            },
+            {
+                "letter": "D",
+                "text": "values() returns a List of keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The values() method returns a Collection view of the values contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0035",
+        "text": "Which of the following is true about SortedMap and NavigableMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableMap extends SortedMap with navigation methods"
+            },
+            {
+                "letter": "B",
+                "text": "SortedMap extends NavigableMap"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableMap is unrelated to SortedMap"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableMap is a subtype of List"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableMap extends SortedMap and adds navigation methods like lowerKey(), higherKey(), and descendingMap()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0036",
+        "text": "Which of the following is true about SortedMap and subMap() boundaries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subMap() includes the lower bound and excludes the upper bound"
+            },
+            {
+                "letter": "B",
+                "text": "subMap() excludes both bounds"
+            },
+            {
+                "letter": "C",
+                "text": "subMap() includes both bounds"
+            },
+            {
+                "letter": "D",
+                "text": "subMap() includes only the upper bound"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subMap() method includes the lower bound and excludes the upper bound by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0037",
+        "text": "Which of the following is true about SortedMap and comparator chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator chaining allows multiple comparison criteria"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator chaining removes duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator chaining is not supported"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator chaining is used for synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator chaining allows multiple comparison criteria using methods like thenComparing()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0038",
+        "text": "Which of the following is true about SortedMap and fail-fast iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fail-fast iterators throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "Fail-fast iterators ignore modifications"
+            },
+            {
+                "letter": "C",
+                "text": "Fail-fast iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "Fail-fast iterators are synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-fast iterators throw ConcurrentModificationException if the map is modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0039",
+        "text": "Which of the following is true about SortedMap and comparator-based sorting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator defines custom sorting logic for keys"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator removes duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator is used for hashing"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator is used for synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator defines custom sorting logic for keys in a SortedMap."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0040",
+        "text": "Which of the following is true about SortedMap and TreeMap synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap cannot be synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap is always thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap is not synchronized by default; synchronization can be achieved using Collections.synchronizedSortedMap()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0041",
+        "text": "Which of the following is true about SortedMap and comparator() return value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Returns null if natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "Always returns a comparator"
+            },
+            {
+                "letter": "C",
+                "text": "Throws exception if no comparator"
+            },
+            {
+                "letter": "D",
+                "text": "Returns the first key"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If natural ordering is used, comparator() returns null."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0042",
+        "text": "Which of the following is true about SortedMap and key uniqueness?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Keys must be unique"
+            },
+            {
+                "letter": "B",
+                "text": "Keys can be duplicated"
+            },
+            {
+                "letter": "C",
+                "text": "Keys are optional"
+            },
+            {
+                "letter": "D",
+                "text": "Keys must be integers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Keys in a SortedMap must be unique; duplicate keys overwrite existing entries."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0043",
+        "text": "Which of the following is true about SortedMap and values duplication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Values can be duplicated"
+            },
+            {
+                "letter": "B",
+                "text": "Values must be unique"
+            },
+            {
+                "letter": "C",
+                "text": "Values cannot be null"
+            },
+            {
+                "letter": "D",
+                "text": "Values must be integers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Values in a SortedMap can be duplicated, but keys must be unique."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0044",
+        "text": "Which of the following is true about SortedMap and iteration order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iteration follows ascending key order"
+            },
+            {
+                "letter": "B",
+                "text": "Iteration follows insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "Iteration is random"
+            },
+            {
+                "letter": "D",
+                "text": "Iteration follows reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iteration over a SortedMap follows ascending key order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0045",
+        "text": "Which of the following is true about SortedMap and comparator chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator chaining allows multiple comparison criteria"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator chaining removes duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator chaining is not supported"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator chaining is used for synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator chaining allows multiple comparison criteria using methods like thenComparing()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0046",
+        "text": "Which of the following is true about SortedMap and NavigableMap methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableMap adds methods like lowerKey() and higherKey()"
+            },
+            {
+                "letter": "B",
+                "text": "NavigableMap removes methods from SortedMap"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableMap is unrelated to SortedMap"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableMap is a subtype of List"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableMap extends SortedMap and adds navigation methods like lowerKey() and higherKey()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0047",
+        "text": "Which of the following is true about SortedMap and comparator chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator chaining allows multiple comparison criteria"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator chaining removes duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator chaining is not supported"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator chaining is used for synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator chaining allows multiple comparison criteria using methods like thenComparing()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0048",
+        "text": "Which of the following is true about SortedMap and fail-fast iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fail-fast iterators throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "Fail-fast iterators ignore modifications"
+            },
+            {
+                "letter": "C",
+                "text": "Fail-fast iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "Fail-fast iterators are synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-fast iterators throw ConcurrentModificationException if the map is modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0049",
+        "text": "Which of the following is true about SortedMap and comparator() return value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Returns null if natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "Always returns a comparator"
+            },
+            {
+                "letter": "C",
+                "text": "Throws exception if no comparator"
+            },
+            {
+                "letter": "D",
+                "text": "Returns the first key"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If natural ordering is used, comparator() returns null."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedMap - Q0050",
+        "text": "Which of the following best describes the SortedMap interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A map that maintains keys in ascending order"
+            },
+            {
+                "letter": "B",
+                "text": "A map that maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "A map that allows duplicate keys"
+            },
+            {
+                "letter": "D",
+                "text": "A map that stores keys randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The SortedMap interface represents a map that maintains keys in ascending order."
+    }
+]

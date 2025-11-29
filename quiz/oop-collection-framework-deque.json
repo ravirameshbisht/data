@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0001",
+        "text": "Which package contains the Deque interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Deque interface is part of the java.util package."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0002",
+        "text": "Which of the following interfaces does Deque extend?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Queue"
+            },
+            {
+                "letter": "B",
+                "text": "Collection"
+            },
+            {
+                "letter": "C",
+                "text": "List"
+            },
+            {
+                "letter": "D",
+                "text": "Set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Deque interface extends the Queue interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0003",
+        "text": "What does 'Deque' stand for?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Double Ended Queue"
+            },
+            {
+                "letter": "B",
+                "text": "Dynamic Queue"
+            },
+            {
+                "letter": "C",
+                "text": "Data Queue"
+            },
+            {
+                "letter": "D",
+                "text": "Default Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque stands for Double Ended Queue, allowing insertion and removal at both ends."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0004",
+        "text": "Which of the following classes implement the Deque interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayDeque, LinkedList"
+            },
+            {
+                "letter": "B",
+                "text": "PriorityQueue, HashSet"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet, Vector"
+            },
+            {
+                "letter": "D",
+                "text": "HashMap, TreeMap"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayDeque and LinkedList are common implementations of the Deque interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0005",
+        "text": "Which of the following is true about Deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque allows insertion and removal at both ends"
+            },
+            {
+                "letter": "B",
+                "text": "Deque allows insertion only at the head"
+            },
+            {
+                "letter": "C",
+                "text": "Deque allows removal only at the tail"
+            },
+            {
+                "letter": "D",
+                "text": "Deque allows insertion only at one end"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque supports insertion and removal of elements at both ends."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0006",
+        "text": "Which of the following methods adds an element at the front of a Deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "addFirst(E e)"
+            },
+            {
+                "letter": "B",
+                "text": "addLast(E e)"
+            },
+            {
+                "letter": "C",
+                "text": "offer(E e)"
+            },
+            {
+                "letter": "D",
+                "text": "push(E e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The addFirst(E e) method inserts an element at the front of the deque."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0007",
+        "text": "Which of the following methods adds an element at the end of a Deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "addLast(E e)"
+            },
+            {
+                "letter": "B",
+                "text": "addFirst(E e)"
+            },
+            {
+                "letter": "C",
+                "text": "push(E e)"
+            },
+            {
+                "letter": "D",
+                "text": "insert(E e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The addLast(E e) method inserts an element at the end of the deque."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0008",
+        "text": "Which of the following methods removes the first element of a Deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeFirst()"
+            },
+            {
+                "letter": "B",
+                "text": "removeLast()"
+            },
+            {
+                "letter": "C",
+                "text": "pollLast()"
+            },
+            {
+                "letter": "D",
+                "text": "clear()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeFirst() method removes and returns the first element of the deque."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0009",
+        "text": "Which of the following methods removes the last element of a Deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeLast()"
+            },
+            {
+                "letter": "B",
+                "text": "removeFirst()"
+            },
+            {
+                "letter": "C",
+                "text": "pollFirst()"
+            },
+            {
+                "letter": "D",
+                "text": "clear()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeLast() method removes and returns the last element of the deque."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0010",
+        "text": "Which of the following methods retrieves but does not remove the first element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "peekFirst()"
+            },
+            {
+                "letter": "B",
+                "text": "pollFirst()"
+            },
+            {
+                "letter": "C",
+                "text": "removeFirst()"
+            },
+            {
+                "letter": "D",
+                "text": "getFirst()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The peekFirst() method retrieves but does not remove the first element of the deque."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0011",
+        "text": "Which of the following methods retrieves but does not remove the last element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "peekLast()"
+            },
+            {
+                "letter": "B",
+                "text": "pollLast()"
+            },
+            {
+                "letter": "C",
+                "text": "removeLast()"
+            },
+            {
+                "letter": "D",
+                "text": "getLast()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The peekLast() method retrieves but does not remove the last element of the deque."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0012",
+        "text": "Which of the following methods throws an exception if the deque is empty when removing the first element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeFirst()"
+            },
+            {
+                "letter": "B",
+                "text": "pollFirst()"
+            },
+            {
+                "letter": "C",
+                "text": "peekFirst()"
+            },
+            {
+                "letter": "D",
+                "text": "clear()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeFirst() method throws NoSuchElementException if the deque is empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0013",
+        "text": "Which of the following methods throws an exception if the deque is empty when removing the last element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeLast()"
+            },
+            {
+                "letter": "B",
+                "text": "pollLast()"
+            },
+            {
+                "letter": "C",
+                "text": "peekLast()"
+            },
+            {
+                "letter": "D",
+                "text": "clear()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeLast() method throws NoSuchElementException if the deque is empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0014",
+        "text": "Which of the following methods adds an element at the front without throwing an exception if full?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "offerFirst(E e)"
+            },
+            {
+                "letter": "B",
+                "text": "addFirst(E e)"
+            },
+            {
+                "letter": "C",
+                "text": "push(E e)"
+            },
+            {
+                "letter": "D",
+                "text": "insert(E e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The offerFirst(E e) method adds an element at the front and returns false if the deque is full."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0015",
+        "text": "Which of the following methods adds an element at the end without throwing an exception if full?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "offerLast(E e)"
+            },
+            {
+                "letter": "B",
+                "text": "addLast(E e)"
+            },
+            {
+                "letter": "C",
+                "text": "push(E e)"
+            },
+            {
+                "letter": "D",
+                "text": "insert(E e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The offerLast(E e) method adds an element at the end and returns false if the deque is full."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0016",
+        "text": "Which of the following is true about Deque and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Most Deque implementations do not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "All Deque implementations allow null elements"
+            },
+            {
+                "letter": "C",
+                "text": "Deque allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "Deque ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Most Deque implementations, such as ArrayDeque, do not allow null elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0017",
+        "text": "Which of the following is true about Deque and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque allows duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "Deque does not allow duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Deque removes duplicates automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Deque throws an exception for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque allows duplicate elements unless restricted by a specific implementation."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0018",
+        "text": "Which of the following is true about Deque and ArrayDeque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayDeque is faster than Stack for stack operations"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayDeque allows null elements"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayDeque is synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayDeque is slower than LinkedList"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayDeque is faster than Stack for stack operations and does not allow null elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0019",
+        "text": "Which of the following is true about Deque and LinkedList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedList implements both List and Deque"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedList implements only List"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedList implements only Queue"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedList does not implement Deque"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedList implements both List and Deque interfaces."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0020",
+        "text": "Which of the following is true about Deque and stack operations?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque can be used as a stack using push() and pop()"
+            },
+            {
+                "letter": "B",
+                "text": "Deque cannot be used as a stack"
+            },
+            {
+                "letter": "C",
+                "text": "Deque supports only queue operations"
+            },
+            {
+                "letter": "D",
+                "text": "Deque supports only FIFO operations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque can be used as a stack using push() and pop() methods."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0021",
+        "text": "Which of the following methods removes and returns the element at the front of the deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollFirst()"
+            },
+            {
+                "letter": "B",
+                "text": "peekFirst()"
+            },
+            {
+                "letter": "C",
+                "text": "removeLast()"
+            },
+            {
+                "letter": "D",
+                "text": "clear()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollFirst() method removes and returns the first element of the deque, or null if empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0022",
+        "text": "Which of the following methods removes and returns the element at the end of the deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollLast()"
+            },
+            {
+                "letter": "B",
+                "text": "peekLast()"
+            },
+            {
+                "letter": "C",
+                "text": "removeFirst()"
+            },
+            {
+                "letter": "D",
+                "text": "clear()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollLast() method removes and returns the last element of the deque, or null if empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0023",
+        "text": "Which of the following methods pushes an element onto the stack represented by the deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "push(E e)"
+            },
+            {
+                "letter": "B",
+                "text": "addFirst(E e)"
+            },
+            {
+                "letter": "C",
+                "text": "offerLast(E e)"
+            },
+            {
+                "letter": "D",
+                "text": "insert(E e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The push(E e) method inserts an element at the front of the deque, acting as a stack push operation."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0024",
+        "text": "Which of the following methods pops an element from the stack represented by the deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pop()"
+            },
+            {
+                "letter": "B",
+                "text": "pollFirst()"
+            },
+            {
+                "letter": "C",
+                "text": "removeLast()"
+            },
+            {
+                "letter": "D",
+                "text": "clear()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pop() method removes and returns the first element of the deque, acting as a stack pop operation."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0025",
+        "text": "Which of the following is true about Deque and LIFO behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque can act as a LIFO stack"
+            },
+            {
+                "letter": "B",
+                "text": "Deque cannot act as a LIFO stack"
+            },
+            {
+                "letter": "C",
+                "text": "Deque supports only FIFO operations"
+            },
+            {
+                "letter": "D",
+                "text": "Deque supports only random access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque can act as a LIFO stack using push() and pop() methods."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0026",
+        "text": "Which of the following is true about Deque and FIFO behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque can act as a FIFO queue"
+            },
+            {
+                "letter": "B",
+                "text": "Deque cannot act as a FIFO queue"
+            },
+            {
+                "letter": "C",
+                "text": "Deque supports only LIFO operations"
+            },
+            {
+                "letter": "D",
+                "text": "Deque supports only random access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque can act as a FIFO queue using offerLast() and pollFirst() methods."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0027",
+        "text": "Which of the following is true about Deque and null elements in ArrayDeque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayDeque does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayDeque allows one null element"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayDeque allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayDeque ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayDeque does not allow null elements because null is used as a special return value."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0028",
+        "text": "Which of the following is true about Deque and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque is not thread-safe by default"
+            },
+            {
+                "letter": "B",
+                "text": "Deque is thread-safe by default"
+            },
+            {
+                "letter": "C",
+                "text": "All Deque implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "Deque cannot be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque is not thread-safe by default; concurrent implementations like ConcurrentLinkedDeque are thread-safe."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0029",
+        "text": "Which of the following is a thread-safe implementation of Deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentLinkedDeque"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayDeque"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedList"
+            },
+            {
+                "letter": "D",
+                "text": "PriorityQueue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentLinkedDeque is a thread-safe implementation of the Deque interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0030",
+        "text": "Which of the following is true about Deque and BlockingDeque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "BlockingDeque extends Deque and supports blocking operations"
+            },
+            {
+                "letter": "B",
+                "text": "Deque extends BlockingDeque"
+            },
+            {
+                "letter": "C",
+                "text": "BlockingDeque is unrelated to Deque"
+            },
+            {
+                "letter": "D",
+                "text": "BlockingDeque is a subtype of Set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "BlockingDeque extends Deque and supports operations that wait for space or elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0031",
+        "text": "Which of the following is true about Deque and LinkedBlockingDeque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedBlockingDeque is a thread-safe implementation of BlockingDeque"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedBlockingDeque is not thread-safe"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedBlockingDeque allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedBlockingDeque is unbounded only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedBlockingDeque is a thread-safe implementation of the BlockingDeque interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0032",
+        "text": "Which of the following is true about Deque and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterators of most Deque implementations are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators of Deque are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "Deque never throws ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "Deque is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterators of most Deque implementations are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0033",
+        "text": "Which of the following is true about Deque and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque allows duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "Deque does not allow duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Deque removes duplicates automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Deque throws an exception for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque allows duplicate elements unless restricted by a specific implementation."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0034",
+        "text": "Which of the following is true about Deque and capacity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Some Deque implementations are bounded"
+            },
+            {
+                "letter": "B",
+                "text": "All Deque implementations are unbounded"
+            },
+            {
+                "letter": "C",
+                "text": "Deque cannot have capacity limits"
+            },
+            {
+                "letter": "D",
+                "text": "Deque always resizes automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Some Deque implementations like LinkedBlockingDeque are bounded, while others like ArrayDeque are unbounded."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0035",
+        "text": "Which of the following is true about Deque and peekFirst() vs getFirst()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "peekFirst() returns null if empty, getFirst() throws exception"
+            },
+            {
+                "letter": "B",
+                "text": "peekFirst() throws exception if empty, getFirst() returns null"
+            },
+            {
+                "letter": "C",
+                "text": "Both throw exceptions if empty"
+            },
+            {
+                "letter": "D",
+                "text": "Both return null if empty"
+            }
+        ],
+        "correct": "A",
+        "explanation": "peekFirst() returns null if the deque is empty, while getFirst() throws NoSuchElementException."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0036",
+        "text": "Which of the following is true about Deque and peekLast() vs getLast()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "peekLast() returns null if empty, getLast() throws exception"
+            },
+            {
+                "letter": "B",
+                "text": "peekLast() throws exception if empty, getLast() returns null"
+            },
+            {
+                "letter": "C",
+                "text": "Both throw exceptions if empty"
+            },
+            {
+                "letter": "D",
+                "text": "Both return null if empty"
+            }
+        ],
+        "correct": "A",
+        "explanation": "peekLast() returns null if the deque is empty, while getLast() throws NoSuchElementException."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0037",
+        "text": "Which of the following is true about Deque and push() vs addFirst()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "push() is equivalent to addFirst()"
+            },
+            {
+                "letter": "B",
+                "text": "push() is equivalent to addLast()"
+            },
+            {
+                "letter": "C",
+                "text": "push() is equivalent to offerLast()"
+            },
+            {
+                "letter": "D",
+                "text": "push() is equivalent to pollFirst()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The push() method is equivalent to addFirst(), inserting an element at the front."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0038",
+        "text": "Which of the following is true about Deque and pop() vs removeFirst()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pop() is equivalent to removeFirst()"
+            },
+            {
+                "letter": "B",
+                "text": "pop() is equivalent to removeLast()"
+            },
+            {
+                "letter": "C",
+                "text": "pop() is equivalent to pollLast()"
+            },
+            {
+                "letter": "D",
+                "text": "pop() is equivalent to clear()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pop() method is equivalent to removeFirst(), removing the element at the front."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0039",
+        "text": "Which of the following is true about Deque and iteration order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque iterates from first to last element"
+            },
+            {
+                "letter": "B",
+                "text": "Deque iterates from last to first element"
+            },
+            {
+                "letter": "C",
+                "text": "Deque iterates randomly"
+            },
+            {
+                "letter": "D",
+                "text": "Deque does not support iteration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque iterates from the first to the last element by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0040",
+        "text": "Which of the following is true about Deque and descendingIterator()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingIterator() iterates from last to first element"
+            },
+            {
+                "letter": "B",
+                "text": "descendingIterator() iterates from first to last element"
+            },
+            {
+                "letter": "C",
+                "text": "descendingIterator() iterates randomly"
+            },
+            {
+                "letter": "D",
+                "text": "descendingIterator() does not exist"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingIterator() method iterates from the last to the first element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0041",
+        "text": "Which of the following is true about Deque and clear()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clear() removes all elements from the deque"
+            },
+            {
+                "letter": "B",
+                "text": "clear() removes only null elements"
+            },
+            {
+                "letter": "C",
+                "text": "clear() removes duplicates only"
+            },
+            {
+                "letter": "D",
+                "text": "clear() removes elements conditionally"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clear() method removes all elements from the deque."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0042",
+        "text": "Which of the following is true about Deque and size()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "size() returns the number of elements in the deque"
+            },
+            {
+                "letter": "B",
+                "text": "size() returns the capacity of the deque"
+            },
+            {
+                "letter": "C",
+                "text": "size() returns the hash code"
+            },
+            {
+                "letter": "D",
+                "text": "size() returns the index"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The size() method returns the number of elements in the deque."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0043",
+        "text": "Which of the following is true about Deque and isEmpty()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isEmpty() returns true if the deque has no elements"
+            },
+            {
+                "letter": "B",
+                "text": "isEmpty() returns false if the deque has no elements"
+            },
+            {
+                "letter": "C",
+                "text": "isEmpty() throws an exception if empty"
+            },
+            {
+                "letter": "D",
+                "text": "isEmpty() returns the size of the deque"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The isEmpty() method returns true if the deque contains no elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0044",
+        "text": "Which of the following is true about Deque and contains()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "contains() checks if a specific element exists"
+            },
+            {
+                "letter": "B",
+                "text": "contains() removes an element"
+            },
+            {
+                "letter": "C",
+                "text": "contains() adds an element"
+            },
+            {
+                "letter": "D",
+                "text": "contains() clears the deque"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The contains() method checks if a specific element exists in the deque."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0045",
+        "text": "Which of the following is true about Deque and removeFirstOccurrence()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeFirstOccurrence() removes the first occurrence of a specified element"
+            },
+            {
+                "letter": "B",
+                "text": "removeFirstOccurrence() removes all occurrences"
+            },
+            {
+                "letter": "C",
+                "text": "removeFirstOccurrence() removes the last occurrence"
+            },
+            {
+                "letter": "D",
+                "text": "removeFirstOccurrence() clears the deque"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeFirstOccurrence() method removes the first occurrence of a specified element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0046",
+        "text": "Which of the following is true about Deque and removeLastOccurrence()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeLastOccurrence() removes the last occurrence of a specified element"
+            },
+            {
+                "letter": "B",
+                "text": "removeLastOccurrence() removes all occurrences"
+            },
+            {
+                "letter": "C",
+                "text": "removeLastOccurrence() removes the first occurrence"
+            },
+            {
+                "letter": "D",
+                "text": "removeLastOccurrence() clears the deque"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeLastOccurrence() method removes the last occurrence of a specified element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0047",
+        "text": "Which of the following is true about Deque and descendingIterator() order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingIterator() iterates from tail to head"
+            },
+            {
+                "letter": "B",
+                "text": "descendingIterator() iterates from head to tail"
+            },
+            {
+                "letter": "C",
+                "text": "descendingIterator() iterates randomly"
+            },
+            {
+                "letter": "D",
+                "text": "descendingIterator() is not supported"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingIterator() method iterates from the tail to the head of the deque."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0048",
+        "text": "Which of the following is true about Deque and fail-fast iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fail-fast iterators throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "Fail-fast iterators ignore modifications"
+            },
+            {
+                "letter": "C",
+                "text": "Fail-fast iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "Fail-fast iterators are synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-fast iterators throw ConcurrentModificationException if the deque is modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0049",
+        "text": "Which of the following is true about Deque and BlockingDeque methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "putFirst() and takeLast() block until space or elements are available"
+            },
+            {
+                "letter": "B",
+                "text": "putFirst() and takeLast() throw exceptions if full or empty"
+            },
+            {
+                "letter": "C",
+                "text": "putFirst() and takeLast() remove all elements"
+            },
+            {
+                "letter": "D",
+                "text": "putFirst() and takeLast() clear the deque"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The putFirst() and takeLast() methods in BlockingDeque block until space or elements are available."
+    },
+    {
+        "title": "JavaCollectionsFrameworkDeque - Q0050",
+        "text": "Which of the following best describes the Deque interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A double-ended queue supporting insertion and removal at both ends"
+            },
+            {
+                "letter": "B",
+                "text": "A queue that supports only FIFO operations"
+            },
+            {
+                "letter": "C",
+                "text": "A collection that stores unique elements only"
+            },
+            {
+                "letter": "D",
+                "text": "A key-value mapping collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Deque interface represents a double-ended queue supporting insertion and removal at both ends."
+    }
+]

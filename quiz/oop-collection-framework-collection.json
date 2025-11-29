@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0001",
+        "text": "What is the root interface of the Java Collections Framework?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection"
+            },
+            {
+                "letter": "B",
+                "text": "List"
+            },
+            {
+                "letter": "C",
+                "text": "Set"
+            },
+            {
+                "letter": "D",
+                "text": "Map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collection interface is the root interface of the Java Collections Framework hierarchy."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0002",
+        "text": "Which package contains the Collection interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collection interface is part of the java.util package."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0003",
+        "text": "Which of the following interfaces directly extends Collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List, Set, Queue"
+            },
+            {
+                "letter": "B",
+                "text": "Map, SortedMap"
+            },
+            {
+                "letter": "C",
+                "text": "Iterator, Enumeration"
+            },
+            {
+                "letter": "D",
+                "text": "Stream, Optional"
+            }
+        ],
+        "correct": "A",
+        "explanation": "List, Set, and Queue are the main subinterfaces that extend the Collection interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0004",
+        "text": "Which of the following is NOT a method in the Collection interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "add()"
+            },
+            {
+                "letter": "B",
+                "text": "remove()"
+            },
+            {
+                "letter": "C",
+                "text": "put()"
+            },
+            {
+                "letter": "D",
+                "text": "size()"
+            }
+        ],
+        "correct": "C",
+        "explanation": "The put() method belongs to the Map interface, not Collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0005",
+        "text": "Which of the following methods is used to add all elements from another collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "addAll()"
+            },
+            {
+                "letter": "B",
+                "text": "add()"
+            },
+            {
+                "letter": "C",
+                "text": "merge()"
+            },
+            {
+                "letter": "D",
+                "text": "combine()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The addAll() method adds all elements from another collection to the current collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0006",
+        "text": "Which of the following methods removes all elements from a collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clear()"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll()"
+            },
+            {
+                "letter": "C",
+                "text": "delete()"
+            },
+            {
+                "letter": "D",
+                "text": "empty()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clear() method removes all elements from the collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0007",
+        "text": "Which of the following methods checks if a collection is empty?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isEmpty()"
+            },
+            {
+                "letter": "B",
+                "text": "size()"
+            },
+            {
+                "letter": "C",
+                "text": "contains()"
+            },
+            {
+                "letter": "D",
+                "text": "equals()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The isEmpty() method returns true if the collection contains no elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0008",
+        "text": "Which of the following methods returns the number of elements in a collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "size()"
+            },
+            {
+                "letter": "B",
+                "text": "count()"
+            },
+            {
+                "letter": "C",
+                "text": "length()"
+            },
+            {
+                "letter": "D",
+                "text": "capacity()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The size() method returns the number of elements in the collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0009",
+        "text": "Which of the following methods checks if a specific element exists in a collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "contains()"
+            },
+            {
+                "letter": "B",
+                "text": "find()"
+            },
+            {
+                "letter": "C",
+                "text": "search()"
+            },
+            {
+                "letter": "D",
+                "text": "exists()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The contains() method checks if a specific element exists in the collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0010",
+        "text": "Which of the following methods converts a collection into an array?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toArray()"
+            },
+            {
+                "letter": "B",
+                "text": "asList()"
+            },
+            {
+                "letter": "C",
+                "text": "toList()"
+            },
+            {
+                "letter": "D",
+                "text": "arrayOf()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The toArray() method converts the collection into an array."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0011",
+        "text": "Which of the following methods removes a specific element from a collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove()"
+            },
+            {
+                "letter": "B",
+                "text": "delete()"
+            },
+            {
+                "letter": "C",
+                "text": "clear()"
+            },
+            {
+                "letter": "D",
+                "text": "discard()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove() method removes a specific element from the collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0012",
+        "text": "Which of the following methods retains only the elements that are also contained in another collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "retainAll()"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll()"
+            },
+            {
+                "letter": "C",
+                "text": "keepAll()"
+            },
+            {
+                "letter": "D",
+                "text": "filter()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The retainAll() method retains only the elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0013",
+        "text": "Which of the following methods removes all elements that are also contained in another collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeAll()"
+            },
+            {
+                "letter": "B",
+                "text": "clear()"
+            },
+            {
+                "letter": "C",
+                "text": "deleteAll()"
+            },
+            {
+                "letter": "D",
+                "text": "discardAll()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeAll() method removes all elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0014",
+        "text": "Which of the following methods returns an iterator over the elements in a collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "iterator()"
+            },
+            {
+                "letter": "B",
+                "text": "stream()"
+            },
+            {
+                "letter": "C",
+                "text": "forEach()"
+            },
+            {
+                "letter": "D",
+                "text": "enumeration()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The iterator() method returns an iterator over the elements in the collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0015",
+        "text": "Which of the following is true about the Collection interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It defines basic operations for all collections"
+            },
+            {
+                "letter": "B",
+                "text": "It defines only sorting operations"
+            },
+            {
+                "letter": "C",
+                "text": "It defines only searching operations"
+            },
+            {
+                "letter": "D",
+                "text": "It defines only mapping operations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collection interface defines basic operations such as add, remove, and iteration for all collections."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0016",
+        "text": "Which of the following is true about the Collection interface and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Some implementations allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "All implementations allow null elements"
+            },
+            {
+                "letter": "C",
+                "text": "No implementation allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "Only Set allows null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Some implementations like ArrayList allow null elements, while others like TreeSet do not."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0017",
+        "text": "Which of the following is true about the Collection interface and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Some implementations allow duplicates"
+            },
+            {
+                "letter": "B",
+                "text": "All implementations allow duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "No implementation allows duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "Only Queue allows duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Some implementations like List allow duplicates, while others like Set do not."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0018",
+        "text": "Which of the following is true about the Collection interface and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Some implementations maintain order"
+            },
+            {
+                "letter": "B",
+                "text": "All implementations maintain order"
+            },
+            {
+                "letter": "C",
+                "text": "No implementation maintains order"
+            },
+            {
+                "letter": "D",
+                "text": "Only Set maintains order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Some implementations like List maintain order, while others like HashSet do not."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0019",
+        "text": "Which of the following is true about the Collection interface and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection interface itself is not synchronized"
+            },
+            {
+                "letter": "B",
+                "text": "Collection interface is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "All implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "Only List implementations are synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collection interface is not synchronized by default; synchronization is provided by wrapper methods."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0020",
+        "text": "Which of the following methods was added to the Collection interface in Java 8?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "stream()"
+            },
+            {
+                "letter": "B",
+                "text": "addAll()"
+            },
+            {
+                "letter": "C",
+                "text": "clear()"
+            },
+            {
+                "letter": "D",
+                "text": "remove()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The stream() method was added in Java 8 to support functional-style operations on collections."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0021",
+        "text": "Which of the following methods was introduced in Java 8 for bulk operations?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "forEach()"
+            },
+            {
+                "letter": "B",
+                "text": "addAll()"
+            },
+            {
+                "letter": "C",
+                "text": "retainAll()"
+            },
+            {
+                "letter": "D",
+                "text": "clear()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The forEach() method was introduced in Java 8 to perform actions for each element using lambda expressions."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0022",
+        "text": "Which of the following methods returns a Spliterator for the collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "spliterator()"
+            },
+            {
+                "letter": "B",
+                "text": "iterator()"
+            },
+            {
+                "letter": "C",
+                "text": "stream()"
+            },
+            {
+                "letter": "D",
+                "text": "parallelStream()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The spliterator() method returns a Spliterator that can be used for parallel iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0023",
+        "text": "Which of the following methods was added in Java 8 to remove elements based on a condition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeIf()"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll()"
+            },
+            {
+                "letter": "C",
+                "text": "clear()"
+            },
+            {
+                "letter": "D",
+                "text": "filter()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeIf() method removes all elements that satisfy a given predicate condition."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0024",
+        "text": "Which of the following is true about the Collection interface and generics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection is a generic interface"
+            },
+            {
+                "letter": "B",
+                "text": "Collection does not support generics"
+            },
+            {
+                "letter": "C",
+                "text": "Collection supports only primitive types"
+            },
+            {
+                "letter": "D",
+                "text": "Collection supports only String type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collection interface is generic and can hold objects of any specified type."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0025",
+        "text": "Which of the following is true about the Collection interface and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections can be made unmodifiable using Collections.unmodifiableCollection()"
+            },
+            {
+                "letter": "B",
+                "text": "Collections are immutable by default"
+            },
+            {
+                "letter": "C",
+                "text": "Collections cannot be made immutable"
+            },
+            {
+                "letter": "D",
+                "text": "Collections are always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Collections can be made unmodifiable using the Collections.unmodifiableCollection() method."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0026",
+        "text": "Which of the following is true about the Collection interface and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections can be synchronized using Collections.synchronizedCollection()"
+            },
+            {
+                "letter": "B",
+                "text": "All collections are thread-safe by default"
+            },
+            {
+                "letter": "C",
+                "text": "Collections cannot be synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "Only List can be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Collections can be synchronized using the Collections.synchronizedCollection() method."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0027",
+        "text": "Which of the following is true about the Collection interface and iteration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection provides an iterator() method for traversal"
+            },
+            {
+                "letter": "B",
+                "text": "Collection does not support iteration"
+            },
+            {
+                "letter": "C",
+                "text": "Collection uses Enumeration for iteration"
+            },
+            {
+                "letter": "D",
+                "text": "Collection uses forEach loop only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The iterator() method provides a way to traverse elements in a collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0028",
+        "text": "Which of the following is true about the Collection interface and equality?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The equals() method compares collections based on elements"
+            },
+            {
+                "letter": "B",
+                "text": "The equals() method compares memory addresses"
+            },
+            {
+                "letter": "C",
+                "text": "The equals() method is not defined in Collection"
+            },
+            {
+                "letter": "D",
+                "text": "The equals() method compares hash codes only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares two collections based on their elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0029",
+        "text": "Which of the following is true about the Collection interface and hashCode()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hashCode() returns a hash based on the elements in the collection"
+            },
+            {
+                "letter": "B",
+                "text": "hashCode() returns a random number"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode() is not defined in Collection"
+            },
+            {
+                "letter": "D",
+                "text": "hashCode() returns the size of the collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() method returns a hash code based on the elements in the collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0030",
+        "text": "Which of the following is true about the Collection interface and streams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection provides stream() and parallelStream() methods"
+            },
+            {
+                "letter": "B",
+                "text": "Collection does not support streams"
+            },
+            {
+                "letter": "C",
+                "text": "Collection supports only sequential streams"
+            },
+            {
+                "letter": "D",
+                "text": "Collection supports only parallel streams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collection interface provides stream() and parallelStream() methods for stream processing."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0031",
+        "text": "Which of the following is true about the Collection interface and functional programming?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection supports functional operations like forEach and removeIf"
+            },
+            {
+                "letter": "B",
+                "text": "Collection does not support functional operations"
+            },
+            {
+                "letter": "C",
+                "text": "Collection supports only map-reduce operations"
+            },
+            {
+                "letter": "D",
+                "text": "Collection supports only filter operations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collection interface supports functional operations introduced in Java 8 such as forEach and removeIf."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0032",
+        "text": "Which of the following is true about the Collection interface and type safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Generics provide type safety in collections"
+            },
+            {
+                "letter": "B",
+                "text": "Collections are not type-safe"
+            },
+            {
+                "letter": "C",
+                "text": "Collections can store only Object type"
+            },
+            {
+                "letter": "D",
+                "text": "Collections can store only primitive types"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generics ensure type safety by restricting the type of elements stored in a collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0033",
+        "text": "Which of the following is true about the Collection interface and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Some implementations allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "All implementations allow null elements"
+            },
+            {
+                "letter": "C",
+                "text": "No implementation allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "Only Queue allows null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Some implementations like ArrayList allow null elements, while others like TreeSet do not."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0034",
+        "text": "Which of the following is true about the Collection interface and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Some implementations allow duplicates"
+            },
+            {
+                "letter": "B",
+                "text": "All implementations allow duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "No implementation allows duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "Only Set allows duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Some implementations like List allow duplicates, while others like Set do not."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0035",
+        "text": "Which of the following is true about the Collection interface and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Some implementations maintain order"
+            },
+            {
+                "letter": "B",
+                "text": "All implementations maintain order"
+            },
+            {
+                "letter": "C",
+                "text": "No implementation maintains order"
+            },
+            {
+                "letter": "D",
+                "text": "Only Set maintains order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Some implementations like List maintain order, while others like HashSet do not."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0036",
+        "text": "Which of the following is true about the Collection interface and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterators of most collections are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators of collections are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "Collections never throw ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "Collections are always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterators of most collections are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0037",
+        "text": "Which of the following is true about the Collection interface and bulk operations?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection supports bulk operations like addAll, removeAll, retainAll"
+            },
+            {
+                "letter": "B",
+                "text": "Collection supports only single-element operations"
+            },
+            {
+                "letter": "C",
+                "text": "Collection supports only read operations"
+            },
+            {
+                "letter": "D",
+                "text": "Collection supports only write operations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collection interface supports bulk operations such as addAll, removeAll, and retainAll."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0038",
+        "text": "Which of the following is true about the Collection interface and toArray()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toArray() converts the collection into an array"
+            },
+            {
+                "letter": "B",
+                "text": "toArray() converts the collection into a list"
+            },
+            {
+                "letter": "C",
+                "text": "toArray() converts the collection into a map"
+            },
+            {
+                "letter": "D",
+                "text": "toArray() converts the collection into a set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The toArray() method converts the collection into an array."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0039",
+        "text": "Which of the following is true about the Collection interface and removeIf()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeIf() removes elements that satisfy a given condition"
+            },
+            {
+                "letter": "B",
+                "text": "removeIf() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "removeIf() removes only null elements"
+            },
+            {
+                "letter": "D",
+                "text": "removeIf() removes duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeIf() method removes elements that satisfy a given predicate condition."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0040",
+        "text": "Which of the following is true about the Collection interface and stream processing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection supports stream processing via stream() and parallelStream()"
+            },
+            {
+                "letter": "B",
+                "text": "Collection does not support stream processing"
+            },
+            {
+                "letter": "C",
+                "text": "Collection supports only sequential streams"
+            },
+            {
+                "letter": "D",
+                "text": "Collection supports only parallel streams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collection interface supports stream processing through stream() and parallelStream() methods."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0041",
+        "text": "Which of the following is true about the Collection interface and default methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Java 8 introduced default methods like stream() and removeIf()"
+            },
+            {
+                "letter": "B",
+                "text": "Collection has no default methods"
+            },
+            {
+                "letter": "C",
+                "text": "Default methods were introduced in Java 7"
+            },
+            {
+                "letter": "D",
+                "text": "Default methods are abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java 8 introduced default methods in interfaces, including stream() and removeIf() in Collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0042",
+        "text": "Which of the following is true about the Collection interface and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List, Set, and Queue extend Collection"
+            },
+            {
+                "letter": "B",
+                "text": "Map extends Collection"
+            },
+            {
+                "letter": "C",
+                "text": "Iterator extends Collection"
+            },
+            {
+                "letter": "D",
+                "text": "Stream extends Collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "List, Set, and Queue are subinterfaces of the Collection interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0043",
+        "text": "Which of the following is true about the Collection interface and Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Map does not extend Collection"
+            },
+            {
+                "letter": "B",
+                "text": "Map extends Collection"
+            },
+            {
+                "letter": "C",
+                "text": "Map implements Collection"
+            },
+            {
+                "letter": "D",
+                "text": "Map is a subtype of Collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Map is not part of the Collection hierarchy; it is a separate interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0044",
+        "text": "Which of the following is true about the Collection interface and iteration order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iteration order depends on the implementation"
+            },
+            {
+                "letter": "B",
+                "text": "Iteration order is always sorted"
+            },
+            {
+                "letter": "C",
+                "text": "Iteration order is always random"
+            },
+            {
+                "letter": "D",
+                "text": "Iteration order is always insertion order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iteration order depends on the specific implementation, such as ArrayList or HashSet."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0045",
+        "text": "Which of the following is true about the Collection interface and modification?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection supports adding and removing elements"
+            },
+            {
+                "letter": "B",
+                "text": "Collection is immutable"
+            },
+            {
+                "letter": "C",
+                "text": "Collection supports only read operations"
+            },
+            {
+                "letter": "D",
+                "text": "Collection supports only write operations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collection interface supports adding and removing elements through methods like add() and remove()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0046",
+        "text": "Which of the following is true about the Collection interface and size?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The size() method returns the number of elements"
+            },
+            {
+                "letter": "B",
+                "text": "The size() method returns the capacity"
+            },
+            {
+                "letter": "C",
+                "text": "The size() method returns the hash code"
+            },
+            {
+                "letter": "D",
+                "text": "The size() method returns the index"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The size() method returns the number of elements in the collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0047",
+        "text": "Which of the following is true about the Collection interface and isEmpty()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isEmpty() returns true if the collection has no elements"
+            },
+            {
+                "letter": "B",
+                "text": "isEmpty() returns false if the collection has no elements"
+            },
+            {
+                "letter": "C",
+                "text": "isEmpty() returns the size of the collection"
+            },
+            {
+                "letter": "D",
+                "text": "isEmpty() throws an exception if empty"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The isEmpty() method returns true if the collection contains no elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0048",
+        "text": "Which of the following is true about the Collection interface and containsAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "containsAll() checks if all elements of another collection are present"
+            },
+            {
+                "letter": "B",
+                "text": "containsAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "containsAll() adds all elements"
+            },
+            {
+                "letter": "D",
+                "text": "containsAll() clears the collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The containsAll() method checks if all elements of another collection are present in the current collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0049",
+        "text": "Which of the following is true about the Collection interface and removeAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeAll() removes all elements that are also in another collection"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "removeAll() adds all elements"
+            },
+            {
+                "letter": "D",
+                "text": "removeAll() clears the collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeAll() method removes all elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkCollection - Q0050",
+        "text": "Which of the following best describes the Collection interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A root interface that defines basic operations for all collection types"
+            },
+            {
+                "letter": "B",
+                "text": "An interface that defines key-value pairs"
+            },
+            {
+                "letter": "C",
+                "text": "An interface that defines only sorting operations"
+            },
+            {
+                "letter": "D",
+                "text": "An interface that defines only iteration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collection interface is the root interface that defines basic operations for all collection types in Java."
+    }
+]

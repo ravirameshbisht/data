@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0001",
+        "text": "Which package contains the Queue interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Queue interface is part of the java.util package."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0002",
+        "text": "Which of the following interfaces does Queue extend?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection"
+            },
+            {
+                "letter": "B",
+                "text": "List"
+            },
+            {
+                "letter": "C",
+                "text": "Set"
+            },
+            {
+                "letter": "D",
+                "text": "Map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Queue interface extends the Collection interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0003",
+        "text": "Which of the following is the primary purpose of a Queue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To hold elements prior to processing"
+            },
+            {
+                "letter": "B",
+                "text": "To store key-value pairs"
+            },
+            {
+                "letter": "C",
+                "text": "To maintain sorted elements"
+            },
+            {
+                "letter": "D",
+                "text": "To store unique elements only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A Queue is used to hold elements prior to processing, typically in FIFO order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0004",
+        "text": "Which of the following classes implement the Queue interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedList, PriorityQueue, ArrayDeque"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet, TreeSet"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList, Vector"
+            },
+            {
+                "letter": "D",
+                "text": "HashMap, TreeMap"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedList, PriorityQueue, and ArrayDeque are common implementations of the Queue interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0005",
+        "text": "Which of the following methods inserts an element into a queue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "add()"
+            },
+            {
+                "letter": "B",
+                "text": "put()"
+            },
+            {
+                "letter": "C",
+                "text": "insert()"
+            },
+            {
+                "letter": "D",
+                "text": "offer()"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The offer() method inserts an element into the queue and returns false if the queue is full."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0006",
+        "text": "Which of the following methods retrieves and removes the head of the queue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "poll()"
+            },
+            {
+                "letter": "B",
+                "text": "peek()"
+            },
+            {
+                "letter": "C",
+                "text": "remove()"
+            },
+            {
+                "letter": "D",
+                "text": "get()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The poll() method retrieves and removes the head of the queue, returning null if the queue is empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0007",
+        "text": "Which of the following methods retrieves but does not remove the head of the queue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "peek()"
+            },
+            {
+                "letter": "B",
+                "text": "poll()"
+            },
+            {
+                "letter": "C",
+                "text": "remove()"
+            },
+            {
+                "letter": "D",
+                "text": "element()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The peek() method retrieves but does not remove the head of the queue, returning null if empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0008",
+        "text": "Which of the following methods throws an exception if the queue is empty when removing an element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove()"
+            },
+            {
+                "letter": "B",
+                "text": "poll()"
+            },
+            {
+                "letter": "C",
+                "text": "peek()"
+            },
+            {
+                "letter": "D",
+                "text": "offer()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove() method throws NoSuchElementException if the queue is empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0009",
+        "text": "Which of the following methods throws an exception if the queue is full when adding an element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "add()"
+            },
+            {
+                "letter": "B",
+                "text": "offer()"
+            },
+            {
+                "letter": "C",
+                "text": "put()"
+            },
+            {
+                "letter": "D",
+                "text": "insert()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The add() method throws an IllegalStateException if the queue is full."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0010",
+        "text": "Which of the following is true about the Queue interface and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Queue typically orders elements in FIFO order"
+            },
+            {
+                "letter": "B",
+                "text": "Queue orders elements in LIFO order"
+            },
+            {
+                "letter": "C",
+                "text": "Queue orders elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "Queue orders elements by hash code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Queue typically follows FIFO (First-In-First-Out) ordering."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0011",
+        "text": "Which of the following is true about PriorityQueue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "PriorityQueue orders elements according to their natural ordering"
+            },
+            {
+                "letter": "B",
+                "text": "PriorityQueue maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "PriorityQueue allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "PriorityQueue allows duplicates only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "PriorityQueue orders elements according to their natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0012",
+        "text": "Which of the following is true about the Queue interface and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Most Queue implementations do not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "All Queue implementations allow null elements"
+            },
+            {
+                "letter": "C",
+                "text": "Queue allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "Queue ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Most Queue implementations, such as PriorityQueue, do not allow null elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0013",
+        "text": "Which of the following is true about the Queue interface and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Queue allows duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "Queue does not allow duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Queue removes duplicates automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Queue throws an exception for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Queue allows duplicate elements unless restricted by a specific implementation."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0014",
+        "text": "Which of the following is true about the Queue interface and blocking behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "BlockingQueue implementations support waiting for space or elements"
+            },
+            {
+                "letter": "B",
+                "text": "Queue interface itself supports blocking"
+            },
+            {
+                "letter": "C",
+                "text": "Queue blocks all operations by default"
+            },
+            {
+                "letter": "D",
+                "text": "Queue cannot be blocking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "BlockingQueue implementations like ArrayBlockingQueue support waiting for space or elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0015",
+        "text": "Which of the following is true about the Queue interface and Deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque extends Queue and supports insertion/removal at both ends"
+            },
+            {
+                "letter": "B",
+                "text": "Queue extends Deque"
+            },
+            {
+                "letter": "C",
+                "text": "Deque and Queue are unrelated"
+            },
+            {
+                "letter": "D",
+                "text": "Deque is a subtype of List"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque extends Queue and supports insertion and removal at both ends."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0016",
+        "text": "Which of the following is true about the Queue interface and LinkedList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedList implements both List and Queue interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedList implements only List"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedList implements only Queue"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedList does not implement Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedList implements both List and Queue interfaces, allowing it to function as a queue."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0017",
+        "text": "Which of the following is true about the Queue interface and ArrayDeque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayDeque implements Deque and can be used as a Queue"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayDeque implements only List"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayDeque implements Set"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayDeque implements Map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayDeque implements Deque and can be used as a Queue or Stack."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0018",
+        "text": "Which of the following is true about the Queue interface and PriorityQueue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "PriorityQueue orders elements based on priority"
+            },
+            {
+                "letter": "B",
+                "text": "PriorityQueue maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "PriorityQueue allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "PriorityQueue is synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "PriorityQueue orders elements based on their natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0019",
+        "text": "Which of the following is true about the Queue interface and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Queue is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "Queue is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "All Queue implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "Queue cannot be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Queue interface is not synchronized by default; synchronization can be achieved using concurrent implementations."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0020",
+        "text": "Which of the following is true about the Queue interface and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentLinkedQueue is a thread-safe implementation"
+            },
+            {
+                "letter": "B",
+                "text": "PriorityQueue is thread-safe"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedList is thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayDeque is thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentLinkedQueue is a thread-safe implementation of the Queue interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0021",
+        "text": "Which of the following is true about the Queue interface and BlockingQueue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "BlockingQueue extends Queue and supports blocking operations"
+            },
+            {
+                "letter": "B",
+                "text": "Queue extends BlockingQueue"
+            },
+            {
+                "letter": "C",
+                "text": "BlockingQueue is unrelated to Queue"
+            },
+            {
+                "letter": "D",
+                "text": "BlockingQueue is a subtype of Set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "BlockingQueue extends Queue and supports operations that wait for the queue to become non-empty or non-full."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0022",
+        "text": "Which of the following is true about the Queue interface and null elements in PriorityQueue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "PriorityQueue does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "PriorityQueue allows one null element"
+            },
+            {
+                "letter": "C",
+                "text": "PriorityQueue allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "PriorityQueue ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "PriorityQueue does not allow null elements because null cannot be compared."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0023",
+        "text": "Which of the following is true about the Queue interface and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Queue allows duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "Queue does not allow duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Queue removes duplicates automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Queue throws an exception for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Queue allows duplicate elements unless restricted by a specific implementation."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0024",
+        "text": "Which of the following is true about the Queue interface and FIFO order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Queue follows FIFO order by default"
+            },
+            {
+                "letter": "B",
+                "text": "Queue follows LIFO order by default"
+            },
+            {
+                "letter": "C",
+                "text": "Queue stores elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "Queue sorts elements automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Queue follows FIFO (First-In-First-Out) order by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0025",
+        "text": "Which of the following is true about the Queue interface and Deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque supports insertion and removal at both ends"
+            },
+            {
+                "letter": "B",
+                "text": "Deque supports insertion only at the head"
+            },
+            {
+                "letter": "C",
+                "text": "Deque supports removal only at the tail"
+            },
+            {
+                "letter": "D",
+                "text": "Deque supports only random access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque extends Queue and supports insertion and removal at both ends."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0026",
+        "text": "Which of the following is true about the Queue interface and ArrayDeque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayDeque does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayDeque allows null elements"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayDeque allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayDeque ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayDeque does not allow null elements because null is used as a special return value."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0027",
+        "text": "Which of the following is true about the Queue interface and LinkedList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedList implements both Queue and Deque"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedList implements only Queue"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedList implements only Deque"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedList does not implement Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedList implements both Queue and Deque interfaces."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0028",
+        "text": "Which of the following is true about the Queue interface and BlockingQueue implementations?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayBlockingQueue and LinkedBlockingQueue implement BlockingQueue"
+            },
+            {
+                "letter": "B",
+                "text": "PriorityQueue implements BlockingQueue"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayDeque implements BlockingQueue"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedList implements BlockingQueue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayBlockingQueue and LinkedBlockingQueue are implementations of the BlockingQueue interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0029",
+        "text": "Which of the following is true about the Queue interface and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentLinkedQueue is thread-safe"
+            },
+            {
+                "letter": "B",
+                "text": "PriorityQueue is thread-safe"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayDeque is thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedList is thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentLinkedQueue is a thread-safe implementation of the Queue interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0030",
+        "text": "Which of the following is true about the Queue interface and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterators of most Queue implementations are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators of Queue are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "Queue never throws ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "Queue is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterators of most Queue implementations are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0031",
+        "text": "Which of the following is true about the Queue interface and peek()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "peek() retrieves but does not remove the head"
+            },
+            {
+                "letter": "B",
+                "text": "peek() removes the head"
+            },
+            {
+                "letter": "C",
+                "text": "peek() adds an element"
+            },
+            {
+                "letter": "D",
+                "text": "peek() clears the queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The peek() method retrieves but does not remove the head of the queue."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0032",
+        "text": "Which of the following is true about the Queue interface and poll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "poll() retrieves and removes the head"
+            },
+            {
+                "letter": "B",
+                "text": "poll() retrieves but does not remove the head"
+            },
+            {
+                "letter": "C",
+                "text": "poll() adds an element"
+            },
+            {
+                "letter": "D",
+                "text": "poll() clears the queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The poll() method retrieves and removes the head of the queue."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0033",
+        "text": "Which of the following is true about the Queue interface and element()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "element() retrieves but does not remove the head and throws exception if empty"
+            },
+            {
+                "letter": "B",
+                "text": "element() removes the head"
+            },
+            {
+                "letter": "C",
+                "text": "element() adds an element"
+            },
+            {
+                "letter": "D",
+                "text": "element() clears the queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The element() method retrieves but does not remove the head and throws NoSuchElementException if empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0034",
+        "text": "Which of the following is true about the Queue interface and add()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "add() inserts an element and throws exception if full"
+            },
+            {
+                "letter": "B",
+                "text": "add() inserts an element and returns false if full"
+            },
+            {
+                "letter": "C",
+                "text": "add() removes an element"
+            },
+            {
+                "letter": "D",
+                "text": "add() clears the queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The add() method inserts an element and throws IllegalStateException if the queue is full."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0035",
+        "text": "Which of the following is true about the Queue interface and offer()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "offer() inserts an element and returns false if full"
+            },
+            {
+                "letter": "B",
+                "text": "offer() throws exception if full"
+            },
+            {
+                "letter": "C",
+                "text": "offer() removes an element"
+            },
+            {
+                "letter": "D",
+                "text": "offer() clears the queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The offer() method inserts an element and returns false if the queue is full."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0036",
+        "text": "Which of the following is true about the Queue interface and remove()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove() retrieves and removes the head and throws exception if empty"
+            },
+            {
+                "letter": "B",
+                "text": "remove() retrieves but does not remove the head"
+            },
+            {
+                "letter": "C",
+                "text": "remove() adds an element"
+            },
+            {
+                "letter": "D",
+                "text": "remove() clears the queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove() method retrieves and removes the head and throws NoSuchElementException if empty."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0037",
+        "text": "Which of the following is true about the Queue interface and BlockingQueue methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "put() and take() block until space or elements are available"
+            },
+            {
+                "letter": "B",
+                "text": "put() and take() throw exceptions if full or empty"
+            },
+            {
+                "letter": "C",
+                "text": "put() and take() remove all elements"
+            },
+            {
+                "letter": "D",
+                "text": "put() and take() clear the queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The put() and take() methods in BlockingQueue block until space or elements are available."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0038",
+        "text": "Which of the following is true about the Queue interface and PriorityBlockingQueue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "PriorityBlockingQueue is an unbounded thread-safe queue"
+            },
+            {
+                "letter": "B",
+                "text": "PriorityBlockingQueue is bounded"
+            },
+            {
+                "letter": "C",
+                "text": "PriorityBlockingQueue allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "PriorityBlockingQueue is not thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "PriorityBlockingQueue is an unbounded thread-safe queue that orders elements according to their priority."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0039",
+        "text": "Which of the following is true about the Queue interface and DelayQueue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "DelayQueue holds elements until their delay expires"
+            },
+            {
+                "letter": "B",
+                "text": "DelayQueue removes elements immediately"
+            },
+            {
+                "letter": "C",
+                "text": "DelayQueue allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "DelayQueue is not thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "DelayQueue holds elements until their delay time has expired."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0040",
+        "text": "Which of the following is true about the Queue interface and SynchronousQueue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SynchronousQueue has no capacity and each insert must wait for a remove"
+            },
+            {
+                "letter": "B",
+                "text": "SynchronousQueue allows multiple elements"
+            },
+            {
+                "letter": "C",
+                "text": "SynchronousQueue allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "SynchronousQueue is not thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SynchronousQueue has no capacity; each insert operation must wait for a corresponding remove operation."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0041",
+        "text": "Which of the following is true about the Queue interface and LinkedBlockingQueue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedBlockingQueue is optionally bounded and thread-safe"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedBlockingQueue is unbounded and not thread-safe"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedBlockingQueue allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedBlockingQueue is not synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedBlockingQueue is optionally bounded and thread-safe."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0042",
+        "text": "Which of the following is true about the Queue interface and ArrayBlockingQueue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayBlockingQueue is a bounded blocking queue backed by an array"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayBlockingQueue is unbounded"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayBlockingQueue allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayBlockingQueue is not thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayBlockingQueue is a bounded blocking queue backed by an array."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0043",
+        "text": "Which of the following is true about the Queue interface and ConcurrentLinkedQueue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentLinkedQueue is an unbounded thread-safe queue"
+            },
+            {
+                "letter": "B",
+                "text": "ConcurrentLinkedQueue is bounded"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentLinkedQueue allows null elements"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentLinkedQueue is not thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentLinkedQueue is an unbounded thread-safe queue based on linked nodes."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0044",
+        "text": "Which of the following is true about the Queue interface and ordering in PriorityQueue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "PriorityQueue orders elements by natural order or comparator"
+            },
+            {
+                "letter": "B",
+                "text": "PriorityQueue maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "PriorityQueue stores elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "PriorityQueue maintains reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "PriorityQueue orders elements by their natural order or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0045",
+        "text": "Which of the following is true about the Queue interface and null elements in ArrayDeque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayDeque does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayDeque allows one null element"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayDeque allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayDeque ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayDeque does not allow null elements because null is used as a special return value."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0046",
+        "text": "Which of the following is true about the Queue interface and Deque methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque provides addFirst() and addLast() methods"
+            },
+            {
+                "letter": "B",
+                "text": "Deque provides only add()"
+            },
+            {
+                "letter": "C",
+                "text": "Deque provides only offer()"
+            },
+            {
+                "letter": "D",
+                "text": "Deque provides only remove()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque provides addFirst() and addLast() methods for insertion at both ends."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0047",
+        "text": "Which of the following is true about the Queue interface and poll() vs remove()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "poll() returns null if empty, remove() throws exception"
+            },
+            {
+                "letter": "B",
+                "text": "poll() throws exception if empty, remove() returns null"
+            },
+            {
+                "letter": "C",
+                "text": "Both throw exceptions if empty"
+            },
+            {
+                "letter": "D",
+                "text": "Both return null if empty"
+            }
+        ],
+        "correct": "A",
+        "explanation": "poll() returns null if the queue is empty, while remove() throws NoSuchElementException."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0048",
+        "text": "Which of the following is true about the Queue interface and peek() vs element()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "peek() returns null if empty, element() throws exception"
+            },
+            {
+                "letter": "B",
+                "text": "peek() throws exception if empty, element() returns null"
+            },
+            {
+                "letter": "C",
+                "text": "Both throw exceptions if empty"
+            },
+            {
+                "letter": "D",
+                "text": "Both return null if empty"
+            }
+        ],
+        "correct": "A",
+        "explanation": "peek() returns null if the queue is empty, while element() throws NoSuchElementException."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0049",
+        "text": "Which of the following is true about the Queue interface and capacity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Some Queue implementations are bounded"
+            },
+            {
+                "letter": "B",
+                "text": "All Queue implementations are unbounded"
+            },
+            {
+                "letter": "C",
+                "text": "Queue cannot have capacity limits"
+            },
+            {
+                "letter": "D",
+                "text": "Queue always resizes automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Some Queue implementations like ArrayBlockingQueue are bounded, while others like LinkedList are unbounded."
+    },
+    {
+        "title": "JavaCollectionsFrameworkQueue - Q0050",
+        "text": "Which of the following best describes the Queue interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A collection designed for holding elements prior to processing, typically in FIFO order"
+            },
+            {
+                "letter": "B",
+                "text": "A collection that stores unique elements only"
+            },
+            {
+                "letter": "C",
+                "text": "A collection that maps keys to values"
+            },
+            {
+                "letter": "D",
+                "text": "A collection that maintains sorted order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Queue interface represents a collection designed for holding elements prior to processing, typically in FIFO order."
+    }
+]

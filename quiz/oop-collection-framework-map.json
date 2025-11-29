@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0001",
+        "text": "Which package contains the Map interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Map interface is part of the java.util package."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0002",
+        "text": "Which of the following best describes the Map interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A collection that maps keys to values"
+            },
+            {
+                "letter": "B",
+                "text": "A collection that stores elements in order"
+            },
+            {
+                "letter": "C",
+                "text": "A collection that stores unique elements only"
+            },
+            {
+                "letter": "D",
+                "text": "A collection that allows duplicate keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Map interface represents a collection that maps unique keys to values."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0003",
+        "text": "Which of the following is true about keys in a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Keys must be unique"
+            },
+            {
+                "letter": "B",
+                "text": "Keys can be duplicated"
+            },
+            {
+                "letter": "C",
+                "text": "Keys are optional"
+            },
+            {
+                "letter": "D",
+                "text": "Keys must be integers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Keys in a Map must be unique; duplicate keys overwrite existing entries."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0004",
+        "text": "Which of the following is true about values in a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Values can be duplicated"
+            },
+            {
+                "letter": "B",
+                "text": "Values must be unique"
+            },
+            {
+                "letter": "C",
+                "text": "Values cannot be null"
+            },
+            {
+                "letter": "D",
+                "text": "Values must be integers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Values in a Map can be duplicated, but keys must be unique."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0005",
+        "text": "Which of the following classes implement the Map interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashMap, TreeMap, LinkedHashMap, Hashtable"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList, Vector, Stack"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet, TreeSet"
+            },
+            {
+                "letter": "D",
+                "text": "PriorityQueue, ArrayDeque"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashMap, TreeMap, LinkedHashMap, and Hashtable are implementations of the Map interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0006",
+        "text": "Which of the following is true about HashMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashMap does not maintain insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "HashMap maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "HashMap sorts keys automatically"
+            },
+            {
+                "letter": "D",
+                "text": "HashMap is synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashMap does not maintain insertion order; it is based on hashing."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0007",
+        "text": "Which of the following is true about LinkedHashMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedHashMap maintains insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedHashMap sorts keys automatically"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashMap allows duplicate keys"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedHashMap is synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedHashMap maintains insertion order using a linked list internally."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0008",
+        "text": "Which of the following is true about TreeMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap stores keys in sorted order"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap allows null keys"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap allows duplicate keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap stores keys in sorted order according to their natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0009",
+        "text": "Which of the following is true about Hashtable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Hashtable is synchronized"
+            },
+            {
+                "letter": "B",
+                "text": "Hashtable allows null keys"
+            },
+            {
+                "letter": "C",
+                "text": "Hashtable allows null values"
+            },
+            {
+                "letter": "D",
+                "text": "Hashtable is unsynchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Hashtable is synchronized and does not allow null keys or values."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0010",
+        "text": "Which of the following is true about HashMap and null keys?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashMap allows one null key"
+            },
+            {
+                "letter": "B",
+                "text": "HashMap allows multiple null keys"
+            },
+            {
+                "letter": "C",
+                "text": "HashMap does not allow null keys"
+            },
+            {
+                "letter": "D",
+                "text": "HashMap ignores null keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashMap allows one null key and multiple null values."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0011",
+        "text": "Which of the following is true about TreeMap and null keys?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap does not allow null keys"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap allows one null key"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap allows multiple null keys"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap ignores null keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap does not allow null keys because it uses natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0012",
+        "text": "Which of the following methods returns the number of key-value mappings in a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "size()"
+            },
+            {
+                "letter": "B",
+                "text": "length()"
+            },
+            {
+                "letter": "C",
+                "text": "count()"
+            },
+            {
+                "letter": "D",
+                "text": "capacity()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The size() method returns the number of key-value mappings in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0013",
+        "text": "Which of the following methods checks if a key exists in a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "containsKey(Object key)"
+            },
+            {
+                "letter": "B",
+                "text": "contains(Object key)"
+            },
+            {
+                "letter": "C",
+                "text": "hasKey(Object key)"
+            },
+            {
+                "letter": "D",
+                "text": "exists(Object key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The containsKey(Object key) method checks if a specific key exists in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0014",
+        "text": "Which of the following methods checks if a value exists in a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "containsValue(Object value)"
+            },
+            {
+                "letter": "B",
+                "text": "contains(Object value)"
+            },
+            {
+                "letter": "C",
+                "text": "hasValue(Object value)"
+            },
+            {
+                "letter": "D",
+                "text": "exists(Object value)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The containsValue(Object value) method checks if a specific value exists in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0015",
+        "text": "Which of the following methods retrieves a value for a given key?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "get(Object key)"
+            },
+            {
+                "letter": "B",
+                "text": "find(Object key)"
+            },
+            {
+                "letter": "C",
+                "text": "search(Object key)"
+            },
+            {
+                "letter": "D",
+                "text": "lookup(Object key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The get(Object key) method retrieves the value associated with the specified key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0016",
+        "text": "Which of the following methods inserts a key-value pair into a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "put(K key, V value)"
+            },
+            {
+                "letter": "B",
+                "text": "add(K key, V value)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(K key, V value)"
+            },
+            {
+                "letter": "D",
+                "text": "append(K key, V value)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The put(K key, V value) method inserts a key-value pair into the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0017",
+        "text": "Which of the following methods removes a key-value pair from a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove(Object key)"
+            },
+            {
+                "letter": "B",
+                "text": "delete(Object key)"
+            },
+            {
+                "letter": "C",
+                "text": "clear(Object key)"
+            },
+            {
+                "letter": "D",
+                "text": "discard(Object key)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove(Object key) method removes the mapping for the specified key."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0018",
+        "text": "Which of the following methods removes all mappings from a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clear()"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll()"
+            },
+            {
+                "letter": "C",
+                "text": "deleteAll()"
+            },
+            {
+                "letter": "D",
+                "text": "empty()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clear() method removes all key-value mappings from the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0019",
+        "text": "Which of the following methods returns a Set view of the keys in a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "keySet()"
+            },
+            {
+                "letter": "B",
+                "text": "keys()"
+            },
+            {
+                "letter": "C",
+                "text": "getKeys()"
+            },
+            {
+                "letter": "D",
+                "text": "allKeys()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The keySet() method returns a Set view of the keys contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0020",
+        "text": "Which of the following methods returns a Collection view of the values in a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "values()"
+            },
+            {
+                "letter": "B",
+                "text": "getValues()"
+            },
+            {
+                "letter": "C",
+                "text": "valueSet()"
+            },
+            {
+                "letter": "D",
+                "text": "allValues()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The values() method returns a Collection view of the values contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0021",
+        "text": "Which of the following methods returns a Set view of the key-value mappings in a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "entrySet()"
+            },
+            {
+                "letter": "B",
+                "text": "keySet()"
+            },
+            {
+                "letter": "C",
+                "text": "values()"
+            },
+            {
+                "letter": "D",
+                "text": "mapSet()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The entrySet() method returns a Set view of the key-value mappings contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0022",
+        "text": "Which of the following is true about Map and null values in HashMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashMap allows multiple null values"
+            },
+            {
+                "letter": "B",
+                "text": "HashMap allows only one null value"
+            },
+            {
+                "letter": "C",
+                "text": "HashMap does not allow null values"
+            },
+            {
+                "letter": "D",
+                "text": "HashMap ignores null values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashMap allows one null key and multiple null values."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0023",
+        "text": "Which of the following is true about Map and null keys in Hashtable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Hashtable does not allow null keys"
+            },
+            {
+                "letter": "B",
+                "text": "Hashtable allows one null key"
+            },
+            {
+                "letter": "C",
+                "text": "Hashtable allows multiple null keys"
+            },
+            {
+                "letter": "D",
+                "text": "Hashtable ignores null keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Hashtable does not allow null keys or values."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0024",
+        "text": "Which of the following is true about Map and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Map is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "Map is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "All Map implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "Map cannot be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Map is not synchronized by default; synchronization can be achieved using Collections.synchronizedMap()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0025",
+        "text": "Which of the following methods can be used to synchronize a Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.synchronizedMap()"
+            },
+            {
+                "letter": "B",
+                "text": "Map.synchronize()"
+            },
+            {
+                "letter": "C",
+                "text": "Map.lock()"
+            },
+            {
+                "letter": "D",
+                "text": "Collections.lockMap()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.synchronizedMap() method returns a synchronized (thread-safe) map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0026",
+        "text": "Which of the following is a thread-safe implementation of Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentHashMap"
+            },
+            {
+                "letter": "B",
+                "text": "HashMap"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedHashMap"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentHashMap is a thread-safe implementation of the Map interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0027",
+        "text": "Which of the following is true about Map and ordering in LinkedHashMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedHashMap maintains insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedHashMap sorts keys automatically"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashMap stores elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedHashMap maintains reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedHashMap maintains insertion order using a linked list internally."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0028",
+        "text": "Which of the following is true about Map and ordering in TreeMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap maintains keys in sorted order"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap stores keys randomly"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap maintains reverse insertion order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap maintains keys in sorted order according to their natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0029",
+        "text": "Which of the following is true about Map and iteration order in HashMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashMap does not maintain any order"
+            },
+            {
+                "letter": "B",
+                "text": "HashMap maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "HashMap maintains sorted order"
+            },
+            {
+                "letter": "D",
+                "text": "HashMap maintains reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashMap does not maintain any order of its elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0030",
+        "text": "Which of the following is true about Map and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterators of most Map implementations are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators of Map are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "Map never throws ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "Map is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterators of most Map implementations are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0031",
+        "text": "Which of the following is true about Map and entrySet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "entrySet() returns a Set view of key-value pairs"
+            },
+            {
+                "letter": "B",
+                "text": "entrySet() returns a List view of keys"
+            },
+            {
+                "letter": "C",
+                "text": "entrySet() returns a Collection of values"
+            },
+            {
+                "letter": "D",
+                "text": "entrySet() returns a Map of entries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The entrySet() method returns a Set view of the key-value pairs contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0032",
+        "text": "Which of the following is true about Map and keySet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "keySet() returns a Set view of keys"
+            },
+            {
+                "letter": "B",
+                "text": "keySet() returns a List view of keys"
+            },
+            {
+                "letter": "C",
+                "text": "keySet() returns a Collection of values"
+            },
+            {
+                "letter": "D",
+                "text": "keySet() returns a Map of keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The keySet() method returns a Set view of the keys contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0033",
+        "text": "Which of the following is true about Map and values()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "values() returns a Collection view of values"
+            },
+            {
+                "letter": "B",
+                "text": "values() returns a Set view of values"
+            },
+            {
+                "letter": "C",
+                "text": "values() returns a Map of values"
+            },
+            {
+                "letter": "D",
+                "text": "values() returns a List of keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The values() method returns a Collection view of the values contained in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0034",
+        "text": "Which of the following is true about Map and putIfAbsent()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "putIfAbsent() adds a key-value pair only if the key is not already present"
+            },
+            {
+                "letter": "B",
+                "text": "putIfAbsent() always overwrites existing values"
+            },
+            {
+                "letter": "C",
+                "text": "putIfAbsent() removes existing keys"
+            },
+            {
+                "letter": "D",
+                "text": "putIfAbsent() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The putIfAbsent() method adds a key-value pair only if the key is not already present."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0035",
+        "text": "Which of the following is true about Map and replace()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "replace() updates the value for a given key if it exists"
+            },
+            {
+                "letter": "B",
+                "text": "replace() adds a new key-value pair"
+            },
+            {
+                "letter": "C",
+                "text": "replace() removes a key-value pair"
+            },
+            {
+                "letter": "D",
+                "text": "replace() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The replace() method updates the value for a given key if it exists."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0036",
+        "text": "Which of the following is true about Map and computeIfAbsent()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "computeIfAbsent() computes a value if the key is not present"
+            },
+            {
+                "letter": "B",
+                "text": "computeIfAbsent() removes a key-value pair"
+            },
+            {
+                "letter": "C",
+                "text": "computeIfAbsent() clears the map"
+            },
+            {
+                "letter": "D",
+                "text": "computeIfAbsent() replaces all values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The computeIfAbsent() method computes a value for a key if it is not already present."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0037",
+        "text": "Which of the following is true about Map and computeIfPresent()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "computeIfPresent() computes a new value if the key is present"
+            },
+            {
+                "letter": "B",
+                "text": "computeIfPresent() adds a new key-value pair"
+            },
+            {
+                "letter": "C",
+                "text": "computeIfPresent() removes all keys"
+            },
+            {
+                "letter": "D",
+                "text": "computeIfPresent() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The computeIfPresent() method computes a new value for a key if it is already present."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0038",
+        "text": "Which of the following is true about Map and merge()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "merge() combines values for a given key using a remapping function"
+            },
+            {
+                "letter": "B",
+                "text": "merge() removes duplicate keys"
+            },
+            {
+                "letter": "C",
+                "text": "merge() clears the map"
+            },
+            {
+                "letter": "D",
+                "text": "merge() replaces all values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The merge() method combines values for a given key using a remapping function."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0039",
+        "text": "Which of the following is true about Map and forEach()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "forEach() performs an action for each key-value pair"
+            },
+            {
+                "letter": "B",
+                "text": "forEach() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "forEach() adds new elements"
+            },
+            {
+                "letter": "D",
+                "text": "forEach() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The forEach() method performs the given action for each key-value pair in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0040",
+        "text": "Which of the following is true about Map and getOrDefault()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getOrDefault() returns a default value if the key is not found"
+            },
+            {
+                "letter": "B",
+                "text": "getOrDefault() throws an exception if the key is not found"
+            },
+            {
+                "letter": "C",
+                "text": "getOrDefault() removes the key"
+            },
+            {
+                "letter": "D",
+                "text": "getOrDefault() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The getOrDefault() method returns a default value if the key is not found in the map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0041",
+        "text": "Which of the following is true about Map and replaceAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "replaceAll() replaces each value using a given function"
+            },
+            {
+                "letter": "B",
+                "text": "replaceAll() removes all keys"
+            },
+            {
+                "letter": "C",
+                "text": "replaceAll() clears the map"
+            },
+            {
+                "letter": "D",
+                "text": "replaceAll() adds new keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The replaceAll() method replaces each value using the given function."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0042",
+        "text": "Which of the following is true about Map and entry iteration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "entrySet() can be used to iterate over key-value pairs"
+            },
+            {
+                "letter": "B",
+                "text": "keySet() can be used to iterate over values"
+            },
+            {
+                "letter": "C",
+                "text": "values() can be used to iterate over keys"
+            },
+            {
+                "letter": "D",
+                "text": "Map does not support iteration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The entrySet() method provides a Set view that can be used to iterate over key-value pairs."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0043",
+        "text": "Which of the following is true about Map and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Map.of() creates an immutable map"
+            },
+            {
+                "letter": "B",
+                "text": "Map.of() creates a modifiable map"
+            },
+            {
+                "letter": "C",
+                "text": "Map.of() creates a synchronized map"
+            },
+            {
+                "letter": "D",
+                "text": "Map.of() creates a sorted map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Map.of() method introduced in Java 9 creates an immutable map."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0044",
+        "text": "Which of the following is true about Map.of() and null keys?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Map.of() does not allow null keys or values"
+            },
+            {
+                "letter": "B",
+                "text": "Map.of() allows one null key"
+            },
+            {
+                "letter": "C",
+                "text": "Map.of() allows multiple null keys"
+            },
+            {
+                "letter": "D",
+                "text": "Map.of() ignores null keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Map.of() method does not allow null keys or values and throws NullPointerException if null is passed."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0045",
+        "text": "Which of the following is true about Map and equals()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals() compares maps based on key-value pairs"
+            },
+            {
+                "letter": "B",
+                "text": "equals() compares maps based on order"
+            },
+            {
+                "letter": "C",
+                "text": "equals() compares maps based on references"
+            },
+            {
+                "letter": "D",
+                "text": "equals() compares maps based on hash codes only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares maps based on their key-value pairs, not order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0046",
+        "text": "Which of the following is true about Map and hashCode()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hashCode() is based on the key-value pairs"
+            },
+            {
+                "letter": "B",
+                "text": "hashCode() is random"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode() is constant"
+            },
+            {
+                "letter": "D",
+                "text": "hashCode() is based only on keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() method of a Map is based on its key-value pairs."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0047",
+        "text": "Which of the following is true about Map and ConcurrentModificationException?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Most Map iterators are fail-fast and throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "Map iterators are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "Map never throws ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "Map is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Most Map iterators are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0048",
+        "text": "Which of the following is true about Map and ConcurrentHashMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentHashMap is thread-safe and does not allow null keys or values"
+            },
+            {
+                "letter": "B",
+                "text": "ConcurrentHashMap allows null keys"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentHashMap allows null values"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentHashMap is not thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentHashMap is thread-safe and does not allow null keys or values."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0049",
+        "text": "Which of the following is true about Map and WeakHashMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "WeakHashMap uses weak references for keys"
+            },
+            {
+                "letter": "B",
+                "text": "WeakHashMap uses strong references for keys"
+            },
+            {
+                "letter": "C",
+                "text": "WeakHashMap does not allow null keys"
+            },
+            {
+                "letter": "D",
+                "text": "WeakHashMap is synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "WeakHashMap uses weak references for keys, allowing them to be garbage collected when not referenced elsewhere."
+    },
+    {
+        "title": "JavaCollectionsFrameworkMap - Q0050",
+        "text": "Which of the following best describes the Map interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A collection that maps unique keys to values"
+            },
+            {
+                "letter": "B",
+                "text": "A collection that stores elements in order"
+            },
+            {
+                "letter": "C",
+                "text": "A collection that allows duplicate keys"
+            },
+            {
+                "letter": "D",
+                "text": "A collection that stores only values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Map interface represents a collection that maps unique keys to values."
+    }
+]

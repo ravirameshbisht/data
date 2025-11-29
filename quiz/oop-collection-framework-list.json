@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaCollectionsFrameworkList - Q0001",
+        "text": "Which package contains the List interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List interface is part of the java.util package."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0002",
+        "text": "Which of the following interfaces does List extend?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collection"
+            },
+            {
+                "letter": "B",
+                "text": "Map"
+            },
+            {
+                "letter": "C",
+                "text": "Set"
+            },
+            {
+                "letter": "D",
+                "text": "Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List interface extends the Collection interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0003",
+        "text": "Which of the following is true about the List interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List allows duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "List does not allow duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "List elements are unordered"
+            },
+            {
+                "letter": "D",
+                "text": "List elements are unique"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List interface allows duplicate elements and maintains insertion order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0004",
+        "text": "Which of the following is true about the order of elements in a List?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List maintains insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "List does not maintain order"
+            },
+            {
+                "letter": "C",
+                "text": "List sorts elements automatically"
+            },
+            {
+                "letter": "D",
+                "text": "List stores elements randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "List maintains the order in which elements are inserted."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0005",
+        "text": "Which of the following classes implement the List interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList, LinkedList, Vector, Stack"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet, TreeSet"
+            },
+            {
+                "letter": "C",
+                "text": "HashMap, TreeMap"
+            },
+            {
+                "letter": "D",
+                "text": "PriorityQueue, ArrayDeque"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList, LinkedList, Vector, and Stack are implementations of the List interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0006",
+        "text": "Which of the following methods adds an element at a specific index in a List?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "add(int index, E element)"
+            },
+            {
+                "letter": "B",
+                "text": "insert(E element)"
+            },
+            {
+                "letter": "C",
+                "text": "put(E element)"
+            },
+            {
+                "letter": "D",
+                "text": "append(E element)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The add(int index, E element) method inserts an element at a specific position in the list."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0007",
+        "text": "Which of the following methods retrieves an element at a specific index?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "get(int index)"
+            },
+            {
+                "letter": "B",
+                "text": "find(int index)"
+            },
+            {
+                "letter": "C",
+                "text": "search(int index)"
+            },
+            {
+                "letter": "D",
+                "text": "elementAt(int index)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The get(int index) method retrieves the element at the specified index."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0008",
+        "text": "Which of the following methods replaces an element at a specific index?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "set(int index, E element)"
+            },
+            {
+                "letter": "B",
+                "text": "replace(int index, E element)"
+            },
+            {
+                "letter": "C",
+                "text": "update(int index, E element)"
+            },
+            {
+                "letter": "D",
+                "text": "change(int index, E element)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The set(int index, E element) method replaces the element at the specified index."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0009",
+        "text": "Which of the following methods returns the index of the first occurrence of an element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "indexOf(Object o)"
+            },
+            {
+                "letter": "B",
+                "text": "find(Object o)"
+            },
+            {
+                "letter": "C",
+                "text": "search(Object o)"
+            },
+            {
+                "letter": "D",
+                "text": "position(Object o)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The indexOf(Object o) method returns the index of the first occurrence of the specified element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0010",
+        "text": "Which of the following methods returns the index of the last occurrence of an element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lastIndexOf(Object o)"
+            },
+            {
+                "letter": "B",
+                "text": "findLast(Object o)"
+            },
+            {
+                "letter": "C",
+                "text": "searchLast(Object o)"
+            },
+            {
+                "letter": "D",
+                "text": "positionLast(Object o)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lastIndexOf(Object o) method returns the index of the last occurrence of the specified element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0011",
+        "text": "Which of the following methods removes an element at a specific index?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove(int index)"
+            },
+            {
+                "letter": "B",
+                "text": "delete(int index)"
+            },
+            {
+                "letter": "C",
+                "text": "clear(int index)"
+            },
+            {
+                "letter": "D",
+                "text": "discard(int index)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove(int index) method removes the element at the specified index."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0012",
+        "text": "Which of the following methods returns a portion of the list between two indices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subList(int fromIndex, int toIndex)"
+            },
+            {
+                "letter": "B",
+                "text": "slice(int fromIndex, int toIndex)"
+            },
+            {
+                "letter": "C",
+                "text": "range(int fromIndex, int toIndex)"
+            },
+            {
+                "letter": "D",
+                "text": "split(int fromIndex, int toIndex)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subList(int fromIndex, int toIndex) method returns a view of the portion of the list between the specified indices."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0013",
+        "text": "Which of the following is true about the List interface and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List allows null elements"
+            },
+            {
+                "letter": "B",
+                "text": "List does not allow null elements"
+            },
+            {
+                "letter": "C",
+                "text": "List allows only one null element"
+            },
+            {
+                "letter": "D",
+                "text": "List allows null elements only at the end"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Most List implementations, such as ArrayList, allow null elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0014",
+        "text": "Which of the following is true about the List interface and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List allows duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "List does not allow duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "List automatically removes duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "List throws an exception for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List interface allows duplicate elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0015",
+        "text": "Which of the following is true about the List interface and random access?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList provides fast random access"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedList provides fast random access"
+            },
+            {
+                "letter": "C",
+                "text": "Vector does not support random access"
+            },
+            {
+                "letter": "D",
+                "text": "Stack provides random access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList provides fast random access because it is backed by an array."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0016",
+        "text": "Which of the following is true about the List interface and iteration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List provides a ListIterator for bidirectional traversal"
+            },
+            {
+                "letter": "B",
+                "text": "List provides only forward iteration"
+            },
+            {
+                "letter": "C",
+                "text": "List does not support iteration"
+            },
+            {
+                "letter": "D",
+                "text": "List uses Enumeration for iteration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List interface provides a ListIterator that supports bidirectional traversal."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0017",
+        "text": "Which of the following methods returns a ListIterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "listIterator()"
+            },
+            {
+                "letter": "B",
+                "text": "iterator()"
+            },
+            {
+                "letter": "C",
+                "text": "enumeration()"
+            },
+            {
+                "letter": "D",
+                "text": "stream()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The listIterator() method returns a ListIterator for traversing the list."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0018",
+        "text": "Which of the following is true about the List interface and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "List is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "All List implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "List cannot be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List interface is not synchronized by default; synchronization can be achieved using Collections.synchronizedList()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0019",
+        "text": "Which of the following methods can be used to synchronize a List?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.synchronizedList()"
+            },
+            {
+                "letter": "B",
+                "text": "List.synchronize()"
+            },
+            {
+                "letter": "C",
+                "text": "List.lock()"
+            },
+            {
+                "letter": "D",
+                "text": "Collections.lockList()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.synchronizedList() method returns a synchronized (thread-safe) list."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0020",
+        "text": "Which of the following is true about the List interface and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Lists can be made unmodifiable using Collections.unmodifiableList()"
+            },
+            {
+                "letter": "B",
+                "text": "Lists are immutable by default"
+            },
+            {
+                "letter": "C",
+                "text": "Lists cannot be made immutable"
+            },
+            {
+                "letter": "D",
+                "text": "Lists are always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Lists can be made unmodifiable using the Collections.unmodifiableList() method."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0021",
+        "text": "Which of the following methods adds all elements from another list?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "addAll(Collection c)"
+            },
+            {
+                "letter": "B",
+                "text": "merge(Collection c)"
+            },
+            {
+                "letter": "C",
+                "text": "combine(Collection c)"
+            },
+            {
+                "letter": "D",
+                "text": "append(Collection c)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The addAll(Collection c) method adds all elements from another collection to the list."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0022",
+        "text": "Which of the following methods removes all elements from a list?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clear()"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll()"
+            },
+            {
+                "letter": "C",
+                "text": "deleteAll()"
+            },
+            {
+                "letter": "D",
+                "text": "empty()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clear() method removes all elements from the list."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0023",
+        "text": "Which of the following methods checks if a list contains a specific element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "contains(Object o)"
+            },
+            {
+                "letter": "B",
+                "text": "find(Object o)"
+            },
+            {
+                "letter": "C",
+                "text": "search(Object o)"
+            },
+            {
+                "letter": "D",
+                "text": "exists(Object o)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The contains(Object o) method checks if a specific element exists in the list."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0024",
+        "text": "Which of the following methods returns the number of elements in a list?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "size()"
+            },
+            {
+                "letter": "B",
+                "text": "count()"
+            },
+            {
+                "letter": "C",
+                "text": "length()"
+            },
+            {
+                "letter": "D",
+                "text": "capacity()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The size() method returns the number of elements in the list."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0025",
+        "text": "Which of the following methods checks if a list is empty?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isEmpty()"
+            },
+            {
+                "letter": "B",
+                "text": "size()"
+            },
+            {
+                "letter": "C",
+                "text": "contains()"
+            },
+            {
+                "letter": "D",
+                "text": "equals()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The isEmpty() method returns true if the list contains no elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0026",
+        "text": "Which of the following methods converts a list into an array?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toArray()"
+            },
+            {
+                "letter": "B",
+                "text": "asList()"
+            },
+            {
+                "letter": "C",
+                "text": "toList()"
+            },
+            {
+                "letter": "D",
+                "text": "arrayOf()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The toArray() method converts the list into an array."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0027",
+        "text": "Which of the following methods compares two lists for equality?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals(Object o)"
+            },
+            {
+                "letter": "B",
+                "text": "compare(Object o)"
+            },
+            {
+                "letter": "C",
+                "text": "match(Object o)"
+            },
+            {
+                "letter": "D",
+                "text": "same(Object o)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals(Object o) method compares two lists for equality based on their elements and order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0028",
+        "text": "Which of the following methods returns a stream of elements from a list?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "stream()"
+            },
+            {
+                "letter": "B",
+                "text": "iterator()"
+            },
+            {
+                "letter": "C",
+                "text": "spliterator()"
+            },
+            {
+                "letter": "D",
+                "text": "forEach()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The stream() method returns a sequential Stream with the list as its source."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0029",
+        "text": "Which of the following methods removes elements that satisfy a given condition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeIf(Predicate filter)"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll()"
+            },
+            {
+                "letter": "C",
+                "text": "clear()"
+            },
+            {
+                "letter": "D",
+                "text": "deleteIf()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeIf(Predicate filter) method removes all elements that satisfy the given condition."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0030",
+        "text": "Which of the following methods was added in Java 8 for iteration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "forEach(Consumer action)"
+            },
+            {
+                "letter": "B",
+                "text": "iterator()"
+            },
+            {
+                "letter": "C",
+                "text": "listIterator()"
+            },
+            {
+                "letter": "D",
+                "text": "enumeration()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The forEach(Consumer action) method was added in Java 8 to perform an action for each element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0031",
+        "text": "Which of the following is true about the List interface and random access?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList implements RandomAccess interface"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedList implements RandomAccess interface"
+            },
+            {
+                "letter": "C",
+                "text": "Vector does not support random access"
+            },
+            {
+                "letter": "D",
+                "text": "Stack does not support random access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList implements the RandomAccess interface for fast random access."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0032",
+        "text": "Which of the following is true about the List interface and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterators of most List implementations are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators of List are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "List never throws ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "List is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterators of most List implementations are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0033",
+        "text": "Which of the following is true about the List interface and sorting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.sort() can be used to sort a List"
+            },
+            {
+                "letter": "B",
+                "text": "List sorts elements automatically"
+            },
+            {
+                "letter": "C",
+                "text": "List cannot be sorted"
+            },
+            {
+                "letter": "D",
+                "text": "List sorts only numeric elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.sort() method can be used to sort a List."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0034",
+        "text": "Which of the following is true about the List interface and subList()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subList() returns a view of the specified range"
+            },
+            {
+                "letter": "B",
+                "text": "subList() returns a copy of the specified range"
+            },
+            {
+                "letter": "C",
+                "text": "subList() removes elements from the list"
+            },
+            {
+                "letter": "D",
+                "text": "subList() clears the list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subList() method returns a view of the specified range, not a copy."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0035",
+        "text": "Which of the following is true about the List interface and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List.of() creates an immutable list"
+            },
+            {
+                "letter": "B",
+                "text": "List.of() creates a modifiable list"
+            },
+            {
+                "letter": "C",
+                "text": "List.of() creates a synchronized list"
+            },
+            {
+                "letter": "D",
+                "text": "List.of() creates a sorted list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List.of() method introduced in Java 9 creates an immutable list."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0036",
+        "text": "Which of the following is true about the List interface and null elements in List.of()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List.of() does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "List.of() allows null elements"
+            },
+            {
+                "letter": "C",
+                "text": "List.of() replaces null with empty string"
+            },
+            {
+                "letter": "D",
+                "text": "List.of() ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List.of() method does not allow null elements and throws NullPointerException if null is passed."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0037",
+        "text": "Which of the following is true about the List interface and equals()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals() compares lists based on elements and order"
+            },
+            {
+                "letter": "B",
+                "text": "equals() compares only size"
+            },
+            {
+                "letter": "C",
+                "text": "equals() compares only references"
+            },
+            {
+                "letter": "D",
+                "text": "equals() compares only hash codes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares lists based on their elements and order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0038",
+        "text": "Which of the following is true about the List interface and hashCode()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hashCode() is based on the elements and their order"
+            },
+            {
+                "letter": "B",
+                "text": "hashCode() is random"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode() is based only on size"
+            },
+            {
+                "letter": "D",
+                "text": "hashCode() is constant"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() method of a List is based on the elements and their order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0039",
+        "text": "Which of the following is true about the List interface and iteration order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List maintains insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "List does not maintain order"
+            },
+            {
+                "letter": "C",
+                "text": "List sorts elements automatically"
+            },
+            {
+                "letter": "D",
+                "text": "List stores elements randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "List maintains the order in which elements are inserted."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0040",
+        "text": "Which of the following is true about the List interface and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List allows duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "List does not allow duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "List automatically removes duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "List throws an exception for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List interface allows duplicate elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0041",
+        "text": "Which of the following is true about the List interface and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List is not thread-safe by default"
+            },
+            {
+                "letter": "B",
+                "text": "List is thread-safe by default"
+            },
+            {
+                "letter": "C",
+                "text": "All List implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "List cannot be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List interface is not thread-safe by default; synchronization can be achieved using Collections.synchronizedList()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0042",
+        "text": "Which of the following is true about the List interface and fail-fast iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fail-fast iterators throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "Fail-fast iterators ignore modifications"
+            },
+            {
+                "letter": "C",
+                "text": "Fail-fast iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "Fail-fast iterators are synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-fast iterators throw ConcurrentModificationException if the list is modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0043",
+        "text": "Which of the following is true about the List interface and ListIterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ListIterator allows bidirectional traversal"
+            },
+            {
+                "letter": "B",
+                "text": "ListIterator allows only forward traversal"
+            },
+            {
+                "letter": "C",
+                "text": "ListIterator does not support modification"
+            },
+            {
+                "letter": "D",
+                "text": "ListIterator is fail-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ListIterator allows bidirectional traversal and modification of the list."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0044",
+        "text": "Which of the following is true about the List interface and subList() modifications?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changes in subList() reflect in the original list"
+            },
+            {
+                "letter": "B",
+                "text": "Changes in subList() do not affect the original list"
+            },
+            {
+                "letter": "C",
+                "text": "subList() creates a deep copy"
+            },
+            {
+                "letter": "D",
+                "text": "subList() creates a new independent list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Changes made to the subList() view are reflected in the original list."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0045",
+        "text": "Which of the following is true about the List interface and index-based access?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List supports index-based access"
+            },
+            {
+                "letter": "B",
+                "text": "List does not support index-based access"
+            },
+            {
+                "letter": "C",
+                "text": "List supports only key-based access"
+            },
+            {
+                "letter": "D",
+                "text": "List supports only sequential access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List interface supports index-based access to elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0046",
+        "text": "Which of the following is true about the List interface and removeAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeAll() removes all elements that are also in another collection"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "removeAll() adds all elements"
+            },
+            {
+                "letter": "D",
+                "text": "removeAll() clears the list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeAll() method removes all elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0047",
+        "text": "Which of the following is true about the List interface and retainAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "retainAll() keeps only elements present in another collection"
+            },
+            {
+                "letter": "B",
+                "text": "retainAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "retainAll() adds all elements"
+            },
+            {
+                "letter": "D",
+                "text": "retainAll() clears the list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The retainAll() method retains only the elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0048",
+        "text": "Which of the following is true about the List interface and containsAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "containsAll() checks if all elements of another collection are present"
+            },
+            {
+                "letter": "B",
+                "text": "containsAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "containsAll() adds all elements"
+            },
+            {
+                "letter": "D",
+                "text": "containsAll() clears the list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The containsAll() method checks if all elements of another collection are present in the list."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0049",
+        "text": "Which of the following is true about the List interface and parallelStream()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "parallelStream() returns a parallel stream of elements"
+            },
+            {
+                "letter": "B",
+                "text": "parallelStream() returns a sequential stream"
+            },
+            {
+                "letter": "C",
+                "text": "parallelStream() returns an iterator"
+            },
+            {
+                "letter": "D",
+                "text": "parallelStream() returns a subList"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The parallelStream() method returns a parallel stream for concurrent processing of elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkList - Q0050",
+        "text": "Which of the following best describes the List interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An ordered collection that allows duplicates and provides index-based access"
+            },
+            {
+                "letter": "B",
+                "text": "An unordered collection that disallows duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "A key-value mapping collection"
+            },
+            {
+                "letter": "D",
+                "text": "A collection that stores unique elements only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The List interface represents an ordered collection that allows duplicates and provides index-based access."
+    }
+]

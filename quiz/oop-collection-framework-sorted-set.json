@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0001",
+        "text": "Which package contains the SortedSet interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The SortedSet interface is part of the java.util package."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0002",
+        "text": "Which interface does SortedSet extend?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set"
+            },
+            {
+                "letter": "B",
+                "text": "Collection"
+            },
+            {
+                "letter": "C",
+                "text": "List"
+            },
+            {
+                "letter": "D",
+                "text": "Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The SortedSet interface extends the Set interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0003",
+        "text": "What is the main characteristic of a SortedSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Elements are stored in ascending order"
+            },
+            {
+                "letter": "B",
+                "text": "Elements are stored in insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "Elements are stored randomly"
+            },
+            {
+                "letter": "D",
+                "text": "Elements are stored in reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A SortedSet stores elements in ascending order according to their natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0004",
+        "text": "Which of the following classes implements the SortedSet interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet"
+            },
+            {
+                "letter": "D",
+                "text": "EnumSet"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet is the main implementation of the SortedSet interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0005",
+        "text": "Which of the following is true about SortedSet and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedSet does not allow duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "SortedSet allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "SortedSet allows duplicates if sorted"
+            },
+            {
+                "letter": "D",
+                "text": "SortedSet allows duplicates if null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SortedSet does not allow duplicate elements, just like Set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0006",
+        "text": "Which of the following methods returns the first element in a SortedSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "first()"
+            },
+            {
+                "letter": "B",
+                "text": "getFirst()"
+            },
+            {
+                "letter": "C",
+                "text": "peek()"
+            },
+            {
+                "letter": "D",
+                "text": "head()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The first() method returns the first (lowest) element in the SortedSet."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0007",
+        "text": "Which of the following methods returns the last element in a SortedSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "last()"
+            },
+            {
+                "letter": "B",
+                "text": "getLast()"
+            },
+            {
+                "letter": "C",
+                "text": "peekLast()"
+            },
+            {
+                "letter": "D",
+                "text": "tail()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The last() method returns the last (highest) element in the SortedSet."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0008",
+        "text": "Which of the following methods returns a view of the portion of the set strictly less than a given element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "headSet(E toElement)"
+            },
+            {
+                "letter": "B",
+                "text": "tailSet(E fromElement)"
+            },
+            {
+                "letter": "C",
+                "text": "subSet(E fromElement, E toElement)"
+            },
+            {
+                "letter": "D",
+                "text": "lowerSet(E element)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The headSet(E toElement) method returns a view of the portion of the set strictly less than the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0009",
+        "text": "Which of the following methods returns a view of the portion of the set greater than or equal to a given element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "tailSet(E fromElement)"
+            },
+            {
+                "letter": "B",
+                "text": "headSet(E toElement)"
+            },
+            {
+                "letter": "C",
+                "text": "subSet(E fromElement, E toElement)"
+            },
+            {
+                "letter": "D",
+                "text": "upperSet(E element)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The tailSet(E fromElement) method returns a view of the portion of the set greater than or equal to the given element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0010",
+        "text": "Which of the following methods returns a view of the portion of the set between two elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subSet(E fromElement, E toElement)"
+            },
+            {
+                "letter": "B",
+                "text": "headSet(E toElement)"
+            },
+            {
+                "letter": "C",
+                "text": "tailSet(E fromElement)"
+            },
+            {
+                "letter": "D",
+                "text": "rangeSet(E fromElement, E toElement)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subSet(E fromElement, E toElement) method returns a view of the portion of the set between two elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0011",
+        "text": "Which of the following is true about SortedSet and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet allows one null element"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet, the main implementation of SortedSet, does not allow null elements because it uses natural ordering."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0012",
+        "text": "Which of the following is true about SortedSet and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedSet maintains elements in ascending order"
+            },
+            {
+                "letter": "B",
+                "text": "SortedSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "SortedSet stores elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "SortedSet maintains reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SortedSet maintains elements in ascending order by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0013",
+        "text": "Which of the following methods returns the comparator used to order the elements in a SortedSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "comparator()"
+            },
+            {
+                "letter": "B",
+                "text": "getComparator()"
+            },
+            {
+                "letter": "C",
+                "text": "order()"
+            },
+            {
+                "letter": "D",
+                "text": "sorter()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The comparator() method returns the comparator used to order the elements in the set, or null if natural ordering is used."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0014",
+        "text": "Which of the following is true about SortedSet and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedSet does not allow duplicates"
+            },
+            {
+                "letter": "B",
+                "text": "SortedSet allows duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "SortedSet allows duplicates if sorted"
+            },
+            {
+                "letter": "D",
+                "text": "SortedSet allows duplicates if null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SortedSet does not allow duplicate elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0015",
+        "text": "Which of the following is true about SortedSet and TreeSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet implements SortedSet"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet extends HashSet"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet implements List"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet implements Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet implements the SortedSet interface."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0016",
+        "text": "Which of the following is true about SortedSet and comparator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A custom Comparator can define the sorting order"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator cannot be used with SortedSet"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator is mandatory for SortedSet"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator is used only for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A custom Comparator can be provided to define the sorting order of elements in a SortedSet."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0017",
+        "text": "Which of the following is true about SortedSet and natural ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "If no comparator is provided, natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "Natural ordering is never used"
+            },
+            {
+                "letter": "C",
+                "text": "Natural ordering is optional"
+            },
+            {
+                "letter": "D",
+                "text": "Natural ordering is used only for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If no comparator is provided, SortedSet uses the natural ordering of its elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0018",
+        "text": "Which of the following is true about SortedSet and null elements in TreeSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet allows one null element"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet does not allow null elements because it uses natural ordering or a comparator."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0019",
+        "text": "Which of the following is true about SortedSet and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedSet is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "SortedSet is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "All SortedSet implementations are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "SortedSet cannot be synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SortedSet is not synchronized by default; synchronization can be achieved using Collections.synchronizedSortedSet()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0020",
+        "text": "Which of the following methods can be used to synchronize a SortedSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.synchronizedSortedSet()"
+            },
+            {
+                "letter": "B",
+                "text": "SortedSet.synchronize()"
+            },
+            {
+                "letter": "C",
+                "text": "SortedSet.lock()"
+            },
+            {
+                "letter": "D",
+                "text": "Collections.lockSortedSet()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.synchronizedSortedSet() method returns a synchronized (thread-safe) sorted set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0021",
+        "text": "Which of the following is true about SortedSet and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedSet can be made unmodifiable using Collections.unmodifiableSortedSet()"
+            },
+            {
+                "letter": "B",
+                "text": "SortedSet is immutable by default"
+            },
+            {
+                "letter": "C",
+                "text": "SortedSet cannot be made immutable"
+            },
+            {
+                "letter": "D",
+                "text": "SortedSet is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SortedSet can be made unmodifiable using the Collections.unmodifiableSortedSet() method."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0022",
+        "text": "Which of the following is true about SortedSet and iteration order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "SortedSet iterates elements in ascending order"
+            },
+            {
+                "letter": "B",
+                "text": "SortedSet iterates elements in insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "SortedSet iterates elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "SortedSet iterates elements in reverse order only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "SortedSet iterates elements in ascending order by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0023",
+        "text": "Which of the following is true about SortedSet and descending order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableSet provides descendingSet() for reverse order"
+            },
+            {
+                "letter": "B",
+                "text": "SortedSet provides descendingSet()"
+            },
+            {
+                "letter": "C",
+                "text": "SortedSet cannot be reversed"
+            },
+            {
+                "letter": "D",
+                "text": "SortedSet always maintains reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableSet, a subinterface of SortedSet, provides descendingSet() for reverse order views."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0024",
+        "text": "Which of the following is true about SortedSet and comparator() method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "comparator() returns null if natural ordering is used"
+            },
+            {
+                "letter": "B",
+                "text": "comparator() always returns a Comparator"
+            },
+            {
+                "letter": "C",
+                "text": "comparator() throws an exception if no comparator is set"
+            },
+            {
+                "letter": "D",
+                "text": "comparator() returns the first element"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If natural ordering is used, comparator() returns null."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0025",
+        "text": "Which of the following is true about SortedSet and subSet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subSet() returns a view between two elements"
+            },
+            {
+                "letter": "B",
+                "text": "subSet() returns all elements"
+            },
+            {
+                "letter": "C",
+                "text": "subSet() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "subSet() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subSet() method returns a view of the portion of the set between two elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0026",
+        "text": "Which of the following is true about SortedSet and headSet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "headSet() returns elements less than a given element"
+            },
+            {
+                "letter": "B",
+                "text": "headSet() returns elements greater than a given element"
+            },
+            {
+                "letter": "C",
+                "text": "headSet() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "headSet() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The headSet() method returns a view of elements less than the specified element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0027",
+        "text": "Which of the following is true about SortedSet and tailSet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "tailSet() returns elements greater than or equal to a given element"
+            },
+            {
+                "letter": "B",
+                "text": "tailSet() returns elements less than a given element"
+            },
+            {
+                "letter": "C",
+                "text": "tailSet() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "tailSet() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The tailSet() method returns a view of elements greater than or equal to the specified element."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0028",
+        "text": "Which of the following is true about SortedSet and TreeSet performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet provides O(log n) performance for basic operations"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet provides O(1) performance"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet provides O(n^2) performance"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet provides O(n) performance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet provides O(log n) performance for add, remove, and contains operations."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0029",
+        "text": "Which of the following is true about SortedSet and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterators of most SortedSet implementations are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators of SortedSet are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "SortedSet never throws ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "SortedSet is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterators of most SortedSet implementations are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0030",
+        "text": "Which of the following is true about SortedSet and comparator usage?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator defines custom sorting logic"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator removes duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator is used for synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator is used for hashing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator defines custom sorting logic for elements in a SortedSet."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0031",
+        "text": "Which of the following is true about SortedSet and equals()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals() compares sets based on elements only"
+            },
+            {
+                "letter": "B",
+                "text": "equals() compares sets based on order"
+            },
+            {
+                "letter": "C",
+                "text": "equals() compares sets based on references"
+            },
+            {
+                "letter": "D",
+                "text": "equals() compares sets based on hash codes only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares sets based on their elements, not order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0032",
+        "text": "Which of the following is true about SortedSet and hashCode()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hashCode() is based on the elements in the set"
+            },
+            {
+                "letter": "B",
+                "text": "hashCode() is random"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode() is constant"
+            },
+            {
+                "letter": "D",
+                "text": "hashCode() is based on insertion order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() method of a SortedSet is based on the elements it contains."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0033",
+        "text": "Which of the following is true about SortedSet and null elements in comparator-based sets?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator must handle nulls explicitly if allowed"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator ignores nulls automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator always allows nulls"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator throws NullPointerException for nulls"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If nulls are allowed, the comparator must handle them explicitly to avoid exceptions."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0034",
+        "text": "Which of the following is true about SortedSet and iteration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterator traverses elements in sorted order"
+            },
+            {
+                "letter": "B",
+                "text": "Iterator traverses elements in insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "Iterator traverses elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "Iterator traverses elements in reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterator of a SortedSet traverses elements in sorted order."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0035",
+        "text": "Which of the following is true about SortedSet and size()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "size() returns the number of elements in the set"
+            },
+            {
+                "letter": "B",
+                "text": "size() returns the capacity of the set"
+            },
+            {
+                "letter": "C",
+                "text": "size() returns the hash code"
+            },
+            {
+                "letter": "D",
+                "text": "size() returns the index"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The size() method returns the number of elements in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0036",
+        "text": "Which of the following is true about SortedSet and isEmpty()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isEmpty() returns true if the set has no elements"
+            },
+            {
+                "letter": "B",
+                "text": "isEmpty() returns false if the set has no elements"
+            },
+            {
+                "letter": "C",
+                "text": "isEmpty() throws an exception if empty"
+            },
+            {
+                "letter": "D",
+                "text": "isEmpty() returns the size of the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The isEmpty() method returns true if the set contains no elements."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0037",
+        "text": "Which of the following is true about SortedSet and contains()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "contains() checks if a specific element exists"
+            },
+            {
+                "letter": "B",
+                "text": "contains() removes an element"
+            },
+            {
+                "letter": "C",
+                "text": "contains() adds an element"
+            },
+            {
+                "letter": "D",
+                "text": "contains() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The contains() method checks if a specific element exists in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0038",
+        "text": "Which of the following is true about SortedSet and clear()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clear() removes all elements from the set"
+            },
+            {
+                "letter": "B",
+                "text": "clear() removes only null elements"
+            },
+            {
+                "letter": "C",
+                "text": "clear() removes duplicates only"
+            },
+            {
+                "letter": "D",
+                "text": "clear() removes elements conditionally"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clear() method removes all elements from the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0039",
+        "text": "Which of the following is true about SortedSet and add()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "add() inserts an element if not already present"
+            },
+            {
+                "letter": "B",
+                "text": "add() replaces existing elements"
+            },
+            {
+                "letter": "C",
+                "text": "add() throws an exception for duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "add() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The add() method inserts an element if it is not already present in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0040",
+        "text": "Which of the following is true about SortedSet and remove()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove() removes the specified element if present"
+            },
+            {
+                "letter": "B",
+                "text": "remove() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "remove() removes elements by index"
+            },
+            {
+                "letter": "D",
+                "text": "remove() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove() method removes the specified element if it is present in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0041",
+        "text": "Which of the following is true about SortedSet and retainAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "retainAll() keeps only elements present in another collection"
+            },
+            {
+                "letter": "B",
+                "text": "retainAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "retainAll() adds all elements"
+            },
+            {
+                "letter": "D",
+                "text": "retainAll() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The retainAll() method retains only the elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0042",
+        "text": "Which of the following is true about SortedSet and removeAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeAll() removes all elements that are also in another collection"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "removeAll() adds all elements"
+            },
+            {
+                "letter": "D",
+                "text": "removeAll() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeAll() method removes all elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0043",
+        "text": "Which of the following is true about SortedSet and containsAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "containsAll() checks if all elements of another collection are present"
+            },
+            {
+                "letter": "B",
+                "text": "containsAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "containsAll() adds all elements"
+            },
+            {
+                "letter": "D",
+                "text": "containsAll() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The containsAll() method checks if all elements of another collection are present in the set."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0044",
+        "text": "Which of the following is true about SortedSet and comparator-based sorting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator defines custom sorting logic"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator removes duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator is used for hashing"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator is used for synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator defines custom sorting logic for elements in a SortedSet."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0045",
+        "text": "Which of the following is true about SortedSet and NavigableSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableSet extends SortedSet with navigation methods"
+            },
+            {
+                "letter": "B",
+                "text": "SortedSet extends NavigableSet"
+            },
+            {
+                "letter": "C",
+                "text": "NavigableSet is unrelated to SortedSet"
+            },
+            {
+                "letter": "D",
+                "text": "NavigableSet is a subtype of List"
+            }
+        ],
+        "correct": "A",
+        "explanation": "NavigableSet extends SortedSet and adds navigation methods like lower(), higher(), and descendingSet()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0046",
+        "text": "Which of the following is true about SortedSet and TreeSet synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet is not synchronized by default"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet is synchronized by default"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet cannot be synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet is always thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet is not synchronized by default; synchronization can be achieved using Collections.synchronizedSortedSet()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0047",
+        "text": "Which of the following is true about SortedSet and fail-fast iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fail-fast iterators throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "Fail-fast iterators ignore modifications"
+            },
+            {
+                "letter": "C",
+                "text": "Fail-fast iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "Fail-fast iterators are synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-fast iterators throw ConcurrentModificationException if the set is modified during iteration."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0048",
+        "text": "Which of the following is true about SortedSet and comparator chaining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator chaining allows multiple comparison criteria"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator chaining removes duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator chaining is not supported"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator chaining is used for synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator chaining allows multiple comparison criteria using methods like thenComparing()."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0049",
+        "text": "Which of the following is true about SortedSet and subSet() boundaries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subSet() includes the lower bound and excludes the upper bound"
+            },
+            {
+                "letter": "B",
+                "text": "subSet() excludes both bounds"
+            },
+            {
+                "letter": "C",
+                "text": "subSet() includes both bounds"
+            },
+            {
+                "letter": "D",
+                "text": "subSet() includes only the upper bound"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subSet() method includes the lower bound and excludes the upper bound by default."
+    },
+    {
+        "title": "JavaCollectionsFrameworkSortedSet - Q0050",
+        "text": "Which of the following best describes the SortedSet interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A set that maintains elements in ascending order"
+            },
+            {
+                "letter": "B",
+                "text": "A set that maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "A set that allows duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "A set that stores elements randomly"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The SortedSet interface represents a set that maintains elements in ascending order."
+    }
+]
