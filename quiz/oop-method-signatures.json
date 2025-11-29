@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0001",
+        "text": "What is a method signature in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The combination of method name and parameter list"
+            },
+            {
+                "letter": "B",
+                "text": "The combination of method name and return type"
+            },
+            {
+                "letter": "C",
+                "text": "The combination of method name and access modifier"
+            },
+            {
+                "letter": "D",
+                "text": "The combination of method name and body"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A method signature in Java consists of the method name and the parameter list."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0002",
+        "text": "Which of the following is NOT part of a method signature?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Return type"
+            },
+            {
+                "letter": "B",
+                "text": "Method name"
+            },
+            {
+                "letter": "C",
+                "text": "Parameter types"
+            },
+            {
+                "letter": "D",
+                "text": "Parameter order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The return type is not part of a method signature in Java."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0003",
+        "text": "Which of the following determines method overloading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Return type"
+            },
+            {
+                "letter": "C",
+                "text": "Access modifier"
+            },
+            {
+                "letter": "D",
+                "text": "Method body"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Method overloading is determined by the method signature (name and parameter list)."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0004",
+        "text": "Which of the following can differentiate two method signatures?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Different parameter types"
+            },
+            {
+                "letter": "B",
+                "text": "Different return types"
+            },
+            {
+                "letter": "C",
+                "text": "Different access modifiers"
+            },
+            {
+                "letter": "D",
+                "text": "Different method bodies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Different parameter types make method signatures unique."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0005",
+        "text": "Which of the following is true about method signatures and overloading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Overloading requires different method signatures"
+            },
+            {
+                "letter": "B",
+                "text": "Overloading requires different return types only"
+            },
+            {
+                "letter": "C",
+                "text": "Overloading requires different access modifiers"
+            },
+            {
+                "letter": "D",
+                "text": "Overloading requires different method names"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Overloading occurs when methods have the same name but different signatures."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0006",
+        "text": "Which of the following is true about method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Overriding requires the same method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Overriding requires different method signatures"
+            },
+            {
+                "letter": "C",
+                "text": "Overriding requires different return types"
+            },
+            {
+                "letter": "D",
+                "text": "Overriding requires different parameter lists"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Method overriding requires the same method signature in both parent and child classes."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0007",
+        "text": "Which of the following is part of a method signature?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Parameter types and order"
+            },
+            {
+                "letter": "B",
+                "text": "Return type"
+            },
+            {
+                "letter": "C",
+                "text": "Access modifier"
+            },
+            {
+                "letter": "D",
+                "text": "Throws clause"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Parameter types and their order are part of a method signature."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0008",
+        "text": "Which of the following is NOT used to differentiate overloaded methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Return type"
+            },
+            {
+                "letter": "B",
+                "text": "Parameter type"
+            },
+            {
+                "letter": "C",
+                "text": "Parameter order"
+            },
+            {
+                "letter": "D",
+                "text": "Parameter count"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Return type alone cannot differentiate overloaded methods."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0009",
+        "text": "Which of the following is true about method signatures and exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Throws clause is not part of the method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Throws clause is part of the method signature"
+            },
+            {
+                "letter": "C",
+                "text": "Throws clause determines overloading"
+            },
+            {
+                "letter": "D",
+                "text": "Throws clause determines overriding"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The throws clause is not part of the method signature in Java."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0010",
+        "text": "Which of the following is true about method signatures and access modifiers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Access modifiers are not part of the method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Access modifiers are part of the method signature"
+            },
+            {
+                "letter": "C",
+                "text": "Access modifiers determine overloading"
+            },
+            {
+                "letter": "D",
+                "text": "Access modifiers determine overriding"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access modifiers are not part of the method signature."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0011",
+        "text": "Which of the following is true about method signatures and return types in overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Return type can be covariant"
+            },
+            {
+                "letter": "B",
+                "text": "Return type must be identical"
+            },
+            {
+                "letter": "C",
+                "text": "Return type must be void"
+            },
+            {
+                "letter": "D",
+                "text": "Return type must be primitive"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In overriding, the return type can be covariant (a subclass of the original return type)."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0012",
+        "text": "Which of the following is true about method signatures and parameter order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changing parameter order changes the method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Changing parameter order does not affect the method signature"
+            },
+            {
+                "letter": "C",
+                "text": "Parameter order is ignored"
+            },
+            {
+                "letter": "D",
+                "text": "Parameter order affects only return type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Changing the order of parameters changes the method signature."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0013",
+        "text": "Which of the following is true about method signatures and parameter names?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Parameter names are not part of the method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Parameter names are part of the method signature"
+            },
+            {
+                "letter": "C",
+                "text": "Parameter names determine overloading"
+            },
+            {
+                "letter": "D",
+                "text": "Parameter names determine overriding"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Parameter names are not part of the method signature; only types and order matter."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0014",
+        "text": "Which of the following is true about method signatures and abstract methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract methods define only the method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Abstract methods define both signature and body"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract methods define only the body"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract methods define only return type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract methods define only the method signature without implementation."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0015",
+        "text": "Which of the following is true about method signatures and interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces define method signatures without implementation"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces define method bodies"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces define constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces define static blocks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces define method signatures that must be implemented by classes."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0016",
+        "text": "Which of the following is true about method signatures and polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Polymorphism relies on method signatures for overriding"
+            },
+            {
+                "letter": "B",
+                "text": "Polymorphism ignores method signatures"
+            },
+            {
+                "letter": "C",
+                "text": "Polymorphism depends on return type"
+            },
+            {
+                "letter": "D",
+                "text": "Polymorphism depends on access modifiers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Polymorphism relies on method signatures to determine which method to call at runtime."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0017",
+        "text": "Which of the following is true about method signatures and overloading resolution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The compiler uses method signatures to resolve overloaded methods"
+            },
+            {
+                "letter": "B",
+                "text": "The JVM uses method signatures to resolve overloaded methods"
+            },
+            {
+                "letter": "C",
+                "text": "The return type is used to resolve overloaded methods"
+            },
+            {
+                "letter": "D",
+                "text": "The access modifier is used to resolve overloaded methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The compiler uses method signatures to resolve which overloaded method to call."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0018",
+        "text": "Which of the following is true about method signatures and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Inherited methods retain their original signatures"
+            },
+            {
+                "letter": "B",
+                "text": "Inherited methods lose their signatures"
+            },
+            {
+                "letter": "C",
+                "text": "Inherited methods change their signatures automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Inherited methods cannot be overridden"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Inherited methods retain their original signatures in subclasses."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0019",
+        "text": "Which of the following is true about method signatures and static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static methods can have the same signature in different classes"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods cannot have the same signature"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods must have unique signatures globally"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods cannot be overloaded"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static methods can have the same signature in different classes because they belong to the class, not the object."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0020",
+        "text": "Which of the following is true about method signatures and constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Constructors have signatures similar to methods but no return type"
+            },
+            {
+                "letter": "B",
+                "text": "Constructors have return types"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors have access modifiers only"
+            },
+            {
+                "letter": "D",
+                "text": "Constructors have no parameters"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors have signatures similar to methods but do not include a return type."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0021",
+        "text": "Which of the following is true about method signatures and parameter count?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changing the number of parameters changes the method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Changing the number of parameters does not affect the method signature"
+            },
+            {
+                "letter": "C",
+                "text": "Parameter count is ignored in method signatures"
+            },
+            {
+                "letter": "D",
+                "text": "Parameter count affects only return type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Changing the number of parameters changes the method signature and can create an overloaded method."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0022",
+        "text": "Which of the following is true about method signatures and method body?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method body is not part of the method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Method body defines the method signature"
+            },
+            {
+                "letter": "C",
+                "text": "Method body determines overloading"
+            },
+            {
+                "letter": "D",
+                "text": "Method body determines overriding"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The method body is not part of the method signature; only the name and parameter list are."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0023",
+        "text": "Which of the following is true about method signatures and access modifiers in overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Access modifiers can be more permissive in overriding"
+            },
+            {
+                "letter": "B",
+                "text": "Access modifiers can be more restrictive in overriding"
+            },
+            {
+                "letter": "C",
+                "text": "Access modifiers must be identical"
+            },
+            {
+                "letter": "D",
+                "text": "Access modifiers are ignored"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In overriding, access modifiers can be more permissive but not more restrictive."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0024",
+        "text": "Which of the following is true about method signatures and abstract classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract classes can define method signatures without implementation"
+            },
+            {
+                "letter": "B",
+                "text": "Abstract classes cannot define method signatures"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract classes must define method bodies"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract classes cannot have abstract methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract classes can define method signatures without providing implementation."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0025",
+        "text": "Which of the following is true about method signatures and interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces define method signatures to be implemented by classes"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces define method bodies"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces define constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces define static blocks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces define method signatures that must be implemented by implementing classes."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0026",
+        "text": "Which of the following is true about method signatures and return type in overloading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Return type alone cannot differentiate overloaded methods"
+            },
+            {
+                "letter": "B",
+                "text": "Return type can differentiate overloaded methods"
+            },
+            {
+                "letter": "C",
+                "text": "Return type determines overloading"
+            },
+            {
+                "letter": "D",
+                "text": "Return type determines overriding"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Return type alone cannot differentiate overloaded methods; parameter list must differ."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0027",
+        "text": "Which of the following is true about method signatures and static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static methods can be overloaded based on signatures"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods cannot be overloaded"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods cannot have parameters"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods cannot have return types"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static methods can be overloaded if they have different method signatures."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0028",
+        "text": "Which of the following is true about method signatures and overriding static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static methods cannot be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods can be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods must be overridden"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods can be abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static methods cannot be overridden; they can only be hidden by another static method."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0029",
+        "text": "Which of the following is true about method signatures and final methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Final methods cannot be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "Final methods can be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "Final methods must be abstract"
+            },
+            {
+                "letter": "D",
+                "text": "Final methods must be static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Final methods cannot be overridden, even if the signature matches."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0030",
+        "text": "Which of the following is true about method signatures and private methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Private methods are not inherited and cannot be overridden"
+            },
+            {
+                "letter": "B",
+                "text": "Private methods can be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "Private methods are part of the subclass signature"
+            },
+            {
+                "letter": "D",
+                "text": "Private methods can be abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Private methods are not inherited and cannot be overridden, even if the signature matches."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0031",
+        "text": "Which of the following is true about method signatures and parameter data types?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changing parameter data types changes the method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Changing parameter data types does not affect the method signature"
+            },
+            {
+                "letter": "C",
+                "text": "Parameter data types are ignored"
+            },
+            {
+                "letter": "D",
+                "text": "Parameter data types affect only return type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Changing parameter data types changes the method signature and can create an overloaded method."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0032",
+        "text": "Which of the following is true about method signatures and method name?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method name is part of the method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Method name is not part of the method signature"
+            },
+            {
+                "letter": "C",
+                "text": "Method name determines return type"
+            },
+            {
+                "letter": "D",
+                "text": "Method name determines access modifier"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The method name is part of the method signature along with the parameter list."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0033",
+        "text": "Which of the following is true about method signatures and method overloading?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Overloading is based on different method signatures"
+            },
+            {
+                "letter": "B",
+                "text": "Overloading is based on different return types"
+            },
+            {
+                "letter": "C",
+                "text": "Overloading is based on different access modifiers"
+            },
+            {
+                "letter": "D",
+                "text": "Overloading is based on different method bodies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Overloading occurs when methods have the same name but different signatures."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0034",
+        "text": "Which of the following is true about method signatures and overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Overriding requires identical method signatures"
+            },
+            {
+                "letter": "B",
+                "text": "Overriding requires different method signatures"
+            },
+            {
+                "letter": "C",
+                "text": "Overriding requires different return types"
+            },
+            {
+                "letter": "D",
+                "text": "Overriding requires different parameter lists"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Overriding requires identical method signatures in both parent and child classes."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0035",
+        "text": "Which of the following is true about method signatures and exceptions in overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Overriding methods can throw fewer or narrower checked exceptions"
+            },
+            {
+                "letter": "B",
+                "text": "Overriding methods can throw broader exceptions"
+            },
+            {
+                "letter": "C",
+                "text": "Overriding methods must throw the same exceptions"
+            },
+            {
+                "letter": "D",
+                "text": "Overriding methods cannot throw exceptions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Overriding methods can throw fewer or narrower checked exceptions than the parent method."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0036",
+        "text": "Which of the following is true about method signatures and abstract methods in interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces define abstract method signatures without implementation"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces define method bodies"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces define constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces define static blocks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces define abstract method signatures that must be implemented by classes."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0037",
+        "text": "Which of the following is true about method signatures and method resolution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The compiler uses method signatures to resolve overloaded methods"
+            },
+            {
+                "letter": "B",
+                "text": "The JVM uses method signatures to resolve overloaded methods"
+            },
+            {
+                "letter": "C",
+                "text": "The return type is used to resolve overloaded methods"
+            },
+            {
+                "letter": "D",
+                "text": "The access modifier is used to resolve overloaded methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The compiler uses method signatures to determine which overloaded method to call."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0038",
+        "text": "Which of the following is true about method signatures and runtime polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Runtime polymorphism depends on identical method signatures"
+            },
+            {
+                "letter": "B",
+                "text": "Runtime polymorphism depends on different method signatures"
+            },
+            {
+                "letter": "C",
+                "text": "Runtime polymorphism depends on return type"
+            },
+            {
+                "letter": "D",
+                "text": "Runtime polymorphism depends on access modifiers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Runtime polymorphism depends on identical method signatures in parent and child classes."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0039",
+        "text": "Which of the following is true about method signatures and compile-time polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Compile-time polymorphism depends on different method signatures"
+            },
+            {
+                "letter": "B",
+                "text": "Compile-time polymorphism depends on identical method signatures"
+            },
+            {
+                "letter": "C",
+                "text": "Compile-time polymorphism depends on return type"
+            },
+            {
+                "letter": "D",
+                "text": "Compile-time polymorphism depends on access modifiers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Compile-time polymorphism (method overloading) depends on different method signatures."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0040",
+        "text": "Which of the following best describes a method signature?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A unique combination of method name and parameter list"
+            },
+            {
+                "letter": "B",
+                "text": "A combination of method name and return type"
+            },
+            {
+                "letter": "C",
+                "text": "A combination of method name and access modifier"
+            },
+            {
+                "letter": "D",
+                "text": "A combination of method name and body"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A method signature uniquely identifies a method by its name and parameter list."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0041",
+        "text": "Which of the following is true about method signatures and inheritance hierarchy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Inherited methods retain their original signatures"
+            },
+            {
+                "letter": "B",
+                "text": "Inherited methods lose their signatures"
+            },
+            {
+                "letter": "C",
+                "text": "Inherited methods change their signatures automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Inherited methods cannot be overridden"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Inherited methods retain their original signatures in subclasses."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0042",
+        "text": "Which of the following is true about method signatures and method hiding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static methods with the same signature hide parent methods"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods with the same signature override parent methods"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods cannot have the same signature"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods must have different signatures"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static methods with the same signature in a subclass hide the parent class methods."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0043",
+        "text": "Which of the following is true about method signatures and abstract methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract methods define only the method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Abstract methods define both signature and body"
+            },
+            {
+                "letter": "C",
+                "text": "Abstract methods define only the body"
+            },
+            {
+                "letter": "D",
+                "text": "Abstract methods define only return type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstract methods define only the method signature without implementation."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0044",
+        "text": "Which of the following is true about method signatures and method declaration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method declaration includes the method signature and return type"
+            },
+            {
+                "letter": "B",
+                "text": "Method declaration includes only the method body"
+            },
+            {
+                "letter": "C",
+                "text": "Method declaration includes only the return type"
+            },
+            {
+                "letter": "D",
+                "text": "Method declaration includes only the access modifier"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A method declaration includes the method signature and return type."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0045",
+        "text": "Which of the following is true about method signatures and method uniqueness?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each method in a class must have a unique signature"
+            },
+            {
+                "letter": "B",
+                "text": "Methods can have identical signatures"
+            },
+            {
+                "letter": "C",
+                "text": "Methods can differ only by return type"
+            },
+            {
+                "letter": "D",
+                "text": "Methods can differ only by access modifier"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each method in a class must have a unique signature to avoid ambiguity."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0046",
+        "text": "Which of the following is true about method signatures and parameter order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changing parameter order changes the method signature"
+            },
+            {
+                "letter": "B",
+                "text": "Changing parameter order does not affect the method signature"
+            },
+            {
+                "letter": "C",
+                "text": "Parameter order is ignored"
+            },
+            {
+                "letter": "D",
+                "text": "Parameter order affects only return type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Changing the order of parameters changes the method signature."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0047",
+        "text": "Which of the following is true about method signatures and method invocation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The compiler uses method signatures to match method calls"
+            },
+            {
+                "letter": "B",
+                "text": "The JVM uses method signatures to match method calls"
+            },
+            {
+                "letter": "C",
+                "text": "The return type is used to match method calls"
+            },
+            {
+                "letter": "D",
+                "text": "The access modifier is used to match method calls"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The compiler uses method signatures to determine which method to invoke."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0048",
+        "text": "Which of the following is true about method signatures and method overloading resolution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The compiler uses method signatures to resolve overloaded methods"
+            },
+            {
+                "letter": "B",
+                "text": "The JVM uses method signatures to resolve overloaded methods"
+            },
+            {
+                "letter": "C",
+                "text": "The return type is used to resolve overloaded methods"
+            },
+            {
+                "letter": "D",
+                "text": "The access modifier is used to resolve overloaded methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The compiler uses method signatures to determine which overloaded method to call."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0049",
+        "text": "Which of the following is true about method signatures and method abstraction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method signatures define the abstraction of behavior"
+            },
+            {
+                "letter": "B",
+                "text": "Method signatures define implementation details"
+            },
+            {
+                "letter": "C",
+                "text": "Method signatures define constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Method signatures define static blocks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Method signatures define the abstraction of behavior by specifying what a method does, not how."
+    },
+    {
+        "title": "JavaControlAbstractionMethodSignatures - Q0050",
+        "text": "Which of the following best describes a method signature in control abstraction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A unique identifier for a method based on its name and parameter list"
+            },
+            {
+                "letter": "B",
+                "text": "A combination of method name and return type"
+            },
+            {
+                "letter": "C",
+                "text": "A combination of method name and access modifier"
+            },
+            {
+                "letter": "D",
+                "text": "A combination of method name and body"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A method signature uniquely identifies a method by its name and parameter list, forming the basis of control abstraction."
+    }
+]

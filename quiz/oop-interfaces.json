@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaOOPInterfaces - Q0001",
+        "text": "What is an interface in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A blueprint of a class that contains abstract methods"
+            },
+            {
+                "letter": "B",
+                "text": "A class with only static methods"
+            },
+            {
+                "letter": "C",
+                "text": "A class that cannot be extended"
+            },
+            {
+                "letter": "D",
+                "text": "A class with only final variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An interface is a blueprint of a class that defines abstract methods to be implemented by classes."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0002",
+        "text": "Which keyword is used to declare an interface in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "interface"
+            },
+            {
+                "letter": "B",
+                "text": "implements"
+            },
+            {
+                "letter": "C",
+                "text": "abstract"
+            },
+            {
+                "letter": "D",
+                "text": "extends"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'interface' keyword is used to declare an interface in Java."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0003",
+        "text": "Which of the following can an interface contain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstract methods"
+            },
+            {
+                "letter": "B",
+                "text": "Default methods"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Interfaces can contain abstract, default, and static methods."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0004",
+        "text": "Can an interface have instance variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No, only public static final variables are allowed"
+            },
+            {
+                "letter": "B",
+                "text": "Yes, it can have instance variables"
+            },
+            {
+                "letter": "C",
+                "text": "Yes, but only private ones"
+            },
+            {
+                "letter": "D",
+                "text": "Yes, but only protected ones"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces can only have public static final variables, not instance variables."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0005",
+        "text": "Can an interface have constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No, interfaces cannot have constructors"
+            },
+            {
+                "letter": "B",
+                "text": "Yes, they can have constructors"
+            },
+            {
+                "letter": "C",
+                "text": "Yes, but only private ones"
+            },
+            {
+                "letter": "D",
+                "text": "Yes, but only protected ones"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces cannot have constructors because they cannot be instantiated."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0006",
+        "text": "Which of the following is true about methods in interfaces before Java 8?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "All methods are abstract and public"
+            },
+            {
+                "letter": "B",
+                "text": "Methods can be private"
+            },
+            {
+                "letter": "C",
+                "text": "Methods can be static"
+            },
+            {
+                "letter": "D",
+                "text": "Methods can be final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Before Java 8, all methods in interfaces were implicitly public and abstract."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0007",
+        "text": "Which of the following is true about variables in interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are public, static, and final by default"
+            },
+            {
+                "letter": "B",
+                "text": "They are private and static"
+            },
+            {
+                "letter": "C",
+                "text": "They are protected and final"
+            },
+            {
+                "letter": "D",
+                "text": "They are instance variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "All variables in interfaces are implicitly public, static, and final."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0008",
+        "text": "Can an interface extend another interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Yes, it can extend multiple interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "No, it cannot extend any interface"
+            },
+            {
+                "letter": "C",
+                "text": "Yes, but only one interface"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it is abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An interface can extend multiple interfaces, supporting multiple inheritance."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0009",
+        "text": "Can a class implement multiple interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Yes, a class can implement multiple interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "No, a class can implement only one interface"
+            },
+            {
+                "letter": "C",
+                "text": "Only if the interfaces have no methods"
+            },
+            {
+                "letter": "D",
+                "text": "Only if the interfaces are abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class can implement multiple interfaces, allowing multiple inheritance of type."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0010",
+        "text": "Which of the following is true about default methods in interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can have a body"
+            },
+            {
+                "letter": "B",
+                "text": "They must be overridden"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot have a body"
+            },
+            {
+                "letter": "D",
+                "text": "They must be static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Default methods in interfaces can have a body and provide default implementation."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0011",
+        "text": "Which keyword is used by a class to inherit an interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "implements"
+            },
+            {
+                "letter": "B",
+                "text": "extends"
+            },
+            {
+                "letter": "C",
+                "text": "inherits"
+            },
+            {
+                "letter": "D",
+                "text": "uses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class uses the 'implements' keyword to inherit an interface."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0012",
+        "text": "Can an interface extend a class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No, interfaces can only extend other interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "Yes, interfaces can extend classes"
+            },
+            {
+                "letter": "C",
+                "text": "Yes, but only abstract classes"
+            },
+            {
+                "letter": "D",
+                "text": "Yes, but only final classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces can only extend other interfaces, not classes."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0013",
+        "text": "Can an interface have private methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Yes, since Java 9"
+            },
+            {
+                "letter": "B",
+                "text": "No, never"
+            },
+            {
+                "letter": "C",
+                "text": "Yes, since Java 8"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it is abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Since Java 9, interfaces can have private methods to share code between default methods."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0014",
+        "text": "Can an interface have static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Yes, since Java 8"
+            },
+            {
+                "letter": "B",
+                "text": "No, never"
+            },
+            {
+                "letter": "C",
+                "text": "Yes, since Java 7"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it is abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Since Java 8, interfaces can have static methods with implementations."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0015",
+        "text": "Can an interface be declared final?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No, because it must be implemented"
+            },
+            {
+                "letter": "B",
+                "text": "Yes, it can"
+            },
+            {
+                "letter": "C",
+                "text": "Only if it has no methods"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it is abstract"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An interface cannot be declared final because it must be implemented by other classes."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0016",
+        "text": "Can an interface be instantiated directly?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No, it cannot"
+            },
+            {
+                "letter": "B",
+                "text": "Yes, it can"
+            },
+            {
+                "letter": "C",
+                "text": "Only if it has default methods"
+            },
+            {
+                "letter": "D",
+                "text": "Only if it has static methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces cannot be instantiated directly; they must be implemented by a class."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0017",
+        "text": "Which of the following is true about multiple inheritance in interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces support multiple inheritance"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces do not support multiple inheritance"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces can extend only one interface"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces can extend classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces support multiple inheritance by allowing one interface to extend multiple interfaces."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0018",
+        "text": "Which of the following is true about implementing multiple interfaces with same method signature?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The class needs to implement the method only once"
+            },
+            {
+                "letter": "B",
+                "text": "The class must implement the method multiple times"
+            },
+            {
+                "letter": "C",
+                "text": "The class cannot implement both interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "The compiler throws an error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If multiple interfaces have the same method signature, the implementing class needs to define it only once."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0019",
+        "text": "Which of the following is true about interface inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An interface can extend multiple interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "An interface can extend only one interface"
+            },
+            {
+                "letter": "C",
+                "text": "An interface cannot extend another interface"
+            },
+            {
+                "letter": "D",
+                "text": "An interface can extend classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An interface can extend multiple interfaces, supporting multiple inheritance."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0020",
+        "text": "Which of the following is true about interfaces and abstract classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces cannot have constructors, abstract classes can"
+            },
+            {
+                "letter": "B",
+                "text": "Both can have constructors"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces can have constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Neither can have constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces cannot have constructors, while abstract classes can."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0021",
+        "text": "Which of the following is true about implementing an interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class must implement all abstract methods of the interface"
+            },
+            {
+                "letter": "B",
+                "text": "A class can skip implementing methods"
+            },
+            {
+                "letter": "C",
+                "text": "A class can implement only one method"
+            },
+            {
+                "letter": "D",
+                "text": "A class cannot implement interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class must implement all abstract methods of the interface unless it is declared abstract."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0022",
+        "text": "Which of the following is true about interface variables?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are implicitly public, static, and final"
+            },
+            {
+                "letter": "B",
+                "text": "They are private and static"
+            },
+            {
+                "letter": "C",
+                "text": "They are protected and final"
+            },
+            {
+                "letter": "D",
+                "text": "They are instance variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "All variables in interfaces are implicitly public, static, and final."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0023",
+        "text": "Which of the following is true about default methods in interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can have a body"
+            },
+            {
+                "letter": "B",
+                "text": "They must be abstract"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot have a body"
+            },
+            {
+                "letter": "D",
+                "text": "They must be static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Default methods in interfaces can have a body and provide default implementation."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0024",
+        "text": "Which of the following is true about static methods in interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be called using the interface name"
+            },
+            {
+                "letter": "B",
+                "text": "They can be called using an object"
+            },
+            {
+                "letter": "C",
+                "text": "They must be overridden"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot have a body"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static methods in interfaces can be called using the interface name."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0025",
+        "text": "Which of the following is true about private methods in interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be used to share code between default methods"
+            },
+            {
+                "letter": "B",
+                "text": "They can be accessed by implementing classes"
+            },
+            {
+                "letter": "C",
+                "text": "They must be abstract"
+            },
+            {
+                "letter": "D",
+                "text": "They must be static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Private methods in interfaces can be used to share code between default methods."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0026",
+        "text": "Which of the following is true about multiple inheritance in interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces support multiple inheritance"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces do not support multiple inheritance"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces can extend only one interface"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces can extend classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces support multiple inheritance by allowing one interface to extend multiple interfaces."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0027",
+        "text": "Which of the following is true about implementing multiple interfaces with same method signature?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The class needs to implement the method only once"
+            },
+            {
+                "letter": "B",
+                "text": "The class must implement the method multiple times"
+            },
+            {
+                "letter": "C",
+                "text": "The class cannot implement both interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "The compiler throws an error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If multiple interfaces have the same method signature, the implementing class needs to define it only once."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0028",
+        "text": "Which of the following is true about interface inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An interface can extend multiple interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "An interface can extend only one interface"
+            },
+            {
+                "letter": "C",
+                "text": "An interface cannot extend another interface"
+            },
+            {
+                "letter": "D",
+                "text": "An interface can extend classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An interface can extend multiple interfaces, supporting multiple inheritance."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0029",
+        "text": "Which of the following is true about interfaces and abstract classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces cannot have constructors, abstract classes can"
+            },
+            {
+                "letter": "B",
+                "text": "Both can have constructors"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces can have constructors"
+            },
+            {
+                "letter": "D",
+                "text": "Neither can have constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces cannot have constructors, while abstract classes can."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0030",
+        "text": "Which of the following is true about interface methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are public and abstract by default"
+            },
+            {
+                "letter": "B",
+                "text": "They are private by default"
+            },
+            {
+                "letter": "C",
+                "text": "They are protected by default"
+            },
+            {
+                "letter": "D",
+                "text": "They are static by default"
+            }
+        ],
+        "correct": "A",
+        "explanation": "All methods in interfaces are public and abstract by default unless declared otherwise."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0031",
+        "text": "Which of the following is true about implementing interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class can implement multiple interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "A class can implement only one interface"
+            },
+            {
+                "letter": "C",
+                "text": "A class cannot implement interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "A class must implement all interfaces in the package"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class can implement multiple interfaces, allowing multiple inheritance of type."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0032",
+        "text": "Which of the following is true about interface constants?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are implicitly public, static, and final"
+            },
+            {
+                "letter": "B",
+                "text": "They are private and static"
+            },
+            {
+                "letter": "C",
+                "text": "They are protected and final"
+            },
+            {
+                "letter": "D",
+                "text": "They are instance variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "All constants in interfaces are implicitly public, static, and final."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0033",
+        "text": "Which of the following is true about interface inheritance and polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces support polymorphism through implementation"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces do not support polymorphism"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces can only support compile-time polymorphism"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces cannot be used in polymorphism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces support polymorphism by allowing objects of implementing classes to be referenced by interface type."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0034",
+        "text": "Which of the following is true about interface references?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can refer to objects of implementing classes"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot refer to any object"
+            },
+            {
+                "letter": "C",
+                "text": "They can refer only to interface objects"
+            },
+            {
+                "letter": "D",
+                "text": "They can refer only to abstract classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interface references can refer to objects of classes that implement the interface."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0035",
+        "text": "Which of the following is true about interface default methods and multiple inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "If two interfaces have the same default method, the implementing class must override it"
+            },
+            {
+                "letter": "B",
+                "text": "The compiler automatically resolves the conflict"
+            },
+            {
+                "letter": "C",
+                "text": "The class cannot implement both interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "The program will not compile"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If two interfaces have the same default method, the implementing class must override it to resolve ambiguity."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0036",
+        "text": "Which of the following is true about interface inheritance and abstract classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An abstract class can implement an interface"
+            },
+            {
+                "letter": "B",
+                "text": "An abstract class cannot implement an interface"
+            },
+            {
+                "letter": "C",
+                "text": "An interface can extend an abstract class"
+            },
+            {
+                "letter": "D",
+                "text": "An interface can implement an abstract class"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An abstract class can implement an interface and may or may not provide implementations for its methods."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0037",
+        "text": "Which of the following is true about interface methods and access modifiers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "All interface methods are public by default"
+            },
+            {
+                "letter": "B",
+                "text": "All interface methods are private by default"
+            },
+            {
+                "letter": "C",
+                "text": "All interface methods are protected by default"
+            },
+            {
+                "letter": "D",
+                "text": "All interface methods are static by default"
+            }
+        ],
+        "correct": "A",
+        "explanation": "All interface methods are implicitly public by default."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0038",
+        "text": "Which of the following is true about interface implementation and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class can extend another class and implement multiple interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "A class can extend multiple classes and implement one interface"
+            },
+            {
+                "letter": "C",
+                "text": "A class can extend multiple classes"
+            },
+            {
+                "letter": "D",
+                "text": "A class cannot implement interfaces if it extends a class"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class can extend one class and implement multiple interfaces in Java."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0039",
+        "text": "Which of the following is true about interface constants?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They must be initialized at declaration"
+            },
+            {
+                "letter": "B",
+                "text": "They can be initialized in constructors"
+            },
+            {
+                "letter": "C",
+                "text": "They can be initialized in static blocks"
+            },
+            {
+                "letter": "D",
+                "text": "They can be left uninitialized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interface constants must be initialized at the time of declaration because they are final."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0040",
+        "text": "Which of the following is true about interface and polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces enable polymorphism by allowing multiple implementations"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces disable polymorphism"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces are static"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces cannot be used in polymorphism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces enable polymorphism by allowing multiple classes to implement the same interface differently."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0041",
+        "text": "Which of the following is true about interface inheritance and method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Implementing classes must override all abstract methods"
+            },
+            {
+                "letter": "B",
+                "text": "Implementing classes can skip overriding methods"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces cannot have abstract methods"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces cannot be overridden"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Implementing classes must override all abstract methods of the interface."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0042",
+        "text": "Which of the following is true about interface references and objects?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interface references can refer to implementing class objects"
+            },
+            {
+                "letter": "B",
+                "text": "Interface references cannot refer to any object"
+            },
+            {
+                "letter": "C",
+                "text": "Interface references can refer only to abstract classes"
+            },
+            {
+                "letter": "D",
+                "text": "Interface references can refer only to interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interface references can refer to objects of classes that implement the interface."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0043",
+        "text": "Which of the following is true about interface and encapsulation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces define behavior but not state"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces define both behavior and state"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces define only state"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces define constructors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces define behavior (methods) but not state (variables)."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0044",
+        "text": "Which of the following is true about interface and abstraction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces provide 100% abstraction"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces provide partial abstraction"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces provide no abstraction"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces are concrete classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces provide 100% abstraction as they define only method signatures and constants."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0045",
+        "text": "Which of the following is true about interface and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces can extend multiple interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces can extend only one interface"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces cannot extend other interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces can extend classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces can extend multiple interfaces, supporting multiple inheritance."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0046",
+        "text": "Which of the following is true about interface and implementation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A class must implement all abstract methods of the interface"
+            },
+            {
+                "letter": "B",
+                "text": "A class can skip implementing methods"
+            },
+            {
+                "letter": "C",
+                "text": "A class can implement only one method"
+            },
+            {
+                "letter": "D",
+                "text": "A class cannot implement interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A class must implement all abstract methods of the interface unless it is declared abstract."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0047",
+        "text": "Which of the following is true about interface and method visibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "All interface methods are public by default"
+            },
+            {
+                "letter": "B",
+                "text": "All interface methods are private by default"
+            },
+            {
+                "letter": "C",
+                "text": "All interface methods are protected by default"
+            },
+            {
+                "letter": "D",
+                "text": "All interface methods are static by default"
+            }
+        ],
+        "correct": "A",
+        "explanation": "All interface methods are implicitly public by default."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0048",
+        "text": "Which of the following is true about interface and object creation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces cannot be instantiated directly"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces can be instantiated directly"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces can be instantiated using 'new'"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces can be instantiated if they have default methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces cannot be instantiated directly; they must be implemented by a class."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0049",
+        "text": "Which of the following is true about interface and method overriding?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Implementing classes must override all abstract methods"
+            },
+            {
+                "letter": "B",
+                "text": "Implementing classes can skip overriding methods"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces cannot have abstract methods"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces cannot be overridden"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Implementing classes must override all abstract methods of the interface."
+    },
+    {
+        "title": "JavaOOPInterfaces - Q0050",
+        "text": "Which of the following best describes an interface in OOP?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A contract that defines a set of methods to be implemented by classes"
+            },
+            {
+                "letter": "B",
+                "text": "A class that cannot be extended"
+            },
+            {
+                "letter": "C",
+                "text": "A class with only static methods"
+            },
+            {
+                "letter": "D",
+                "text": "A class with only final variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An interface defines a contract that specifies methods to be implemented by classes."
+    }
+]
