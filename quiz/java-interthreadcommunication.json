@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaInterThreadCommunication - Q0001",
+        "text": "Which methods are used for inter-thread communication in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait(), notify(), notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep(), yield(), join()"
+            },
+            {
+                "letter": "C",
+                "text": "start(), run(), stop()"
+            },
+            {
+                "letter": "D",
+                "text": "suspend(), resume(), stop()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The wait(), notify(), and notifyAll() methods are used for inter-thread communication in Java."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0002",
+        "text": "In which class are wait(), notify(), and notifyAll() defined?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.lang.Object"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang.Thread"
+            },
+            {
+                "letter": "C",
+                "text": "java.util.concurrent.ThreadPool"
+            },
+            {
+                "letter": "D",
+                "text": "java.lang.Runnable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "These methods are defined in the Object class because every object can be used as a monitor."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0003",
+        "text": "Which of the following statements about wait() is true?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It releases the lock and waits until notified"
+            },
+            {
+                "letter": "B",
+                "text": "It does not release the lock"
+            },
+            {
+                "letter": "C",
+                "text": "It terminates the thread"
+            },
+            {
+                "letter": "D",
+                "text": "It pauses the thread without releasing the lock"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The wait() method releases the lock and causes the thread to wait until another thread calls notify() or notifyAll()."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0004",
+        "text": "Which of the following methods wakes up a single waiting thread?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notify()"
+            },
+            {
+                "letter": "B",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "C",
+                "text": "signal()"
+            },
+            {
+                "letter": "D",
+                "text": "resume()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The notify() method wakes up one thread that is waiting on the object's monitor."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0005",
+        "text": "Which of the following methods wakes up all waiting threads?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "notify()"
+            },
+            {
+                "letter": "C",
+                "text": "signalAll()"
+            },
+            {
+                "letter": "D",
+                "text": "resumeAll()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The notifyAll() method wakes up all threads waiting on the object's monitor."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0006",
+        "text": "What happens if wait() is called without holding the object's lock?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "IllegalMonitorStateException"
+            },
+            {
+                "letter": "B",
+                "text": "InterruptedException"
+            },
+            {
+                "letter": "C",
+                "text": "NullPointerException"
+            },
+            {
+                "letter": "D",
+                "text": "ThreadDeath"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Calling wait(), notify(), or notifyAll() without owning the object's monitor throws IllegalMonitorStateException."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0007",
+        "text": "Which of the following methods must be called from a synchronized context?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait(), notify(), notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep(), yield(), join()"
+            },
+            {
+                "letter": "C",
+                "text": "start(), run()"
+            },
+            {
+                "letter": "D",
+                "text": "interrupt(), stop()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait(), notify(), and notifyAll() must be called from a synchronized block or method."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0008",
+        "text": "What is the difference between wait() and sleep()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait() releases the lock, sleep() does not"
+            },
+            {
+                "letter": "B",
+                "text": "sleep() releases the lock, wait() does not"
+            },
+            {
+                "letter": "C",
+                "text": "Both release the lock"
+            },
+            {
+                "letter": "D",
+                "text": "Neither releases the lock"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait() releases the lock and pauses the thread, while sleep() pauses without releasing the lock."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0009",
+        "text": "Which exception must be handled when calling wait()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "InterruptedException"
+            },
+            {
+                "letter": "B",
+                "text": "IllegalMonitorStateException"
+            },
+            {
+                "letter": "C",
+                "text": "IOException"
+            },
+            {
+                "letter": "D",
+                "text": "RuntimeException"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The wait() method throws InterruptedException if another thread interrupts the waiting thread."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0010",
+        "text": "Which of the following statements about notifyAll() is true?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It wakes up all threads waiting on the object's monitor"
+            },
+            {
+                "letter": "B",
+                "text": "It wakes up only one thread"
+            },
+            {
+                "letter": "C",
+                "text": "It terminates all waiting threads"
+            },
+            {
+                "letter": "D",
+                "text": "It releases the lock permanently"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notifyAll() wakes up all threads waiting on the object's monitor, allowing them to compete for the lock."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0011",
+        "text": "Which of the following methods causes a thread to wait for a specific time?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait(long timeout)"
+            },
+            {
+                "letter": "B",
+                "text": "sleep(long timeout)"
+            },
+            {
+                "letter": "C",
+                "text": "join(long timeout)"
+            },
+            {
+                "letter": "D",
+                "text": "pause(long timeout)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The wait(long timeout) method causes the thread to wait for the specified time or until notified."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0012",
+        "text": "What is the purpose of inter-thread communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To coordinate the execution of multiple threads"
+            },
+            {
+                "letter": "B",
+                "text": "To terminate threads"
+            },
+            {
+                "letter": "C",
+                "text": "To create new threads"
+            },
+            {
+                "letter": "D",
+                "text": "To increase thread priority"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Inter-thread communication allows threads to coordinate their actions and share resources efficiently."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0013",
+        "text": "Which of the following is true about the wait() method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It must be called from a synchronized context"
+            },
+            {
+                "letter": "B",
+                "text": "It can be called from any context"
+            },
+            {
+                "letter": "C",
+                "text": "It does not release the lock"
+            },
+            {
+                "letter": "D",
+                "text": "It cannot throw exceptions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait() must be called from a synchronized block or method; otherwise, it throws IllegalMonitorStateException."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0014",
+        "text": "Which of the following methods is used to notify all waiting threads?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "notify()"
+            },
+            {
+                "letter": "C",
+                "text": "signalAll()"
+            },
+            {
+                "letter": "D",
+                "text": "resumeAll()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notifyAll() wakes up all threads waiting on the object's monitor."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0015",
+        "text": "Which of the following statements about notify() is true?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It wakes up one waiting thread"
+            },
+            {
+                "letter": "B",
+                "text": "It wakes up all waiting threads"
+            },
+            {
+                "letter": "C",
+                "text": "It terminates the waiting thread"
+            },
+            {
+                "letter": "D",
+                "text": "It releases the lock permanently"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notify() wakes up one thread waiting on the object's monitor."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0016",
+        "text": "What happens if notify() is called when no thread is waiting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Nothing happens"
+            },
+            {
+                "letter": "B",
+                "text": "An exception is thrown"
+            },
+            {
+                "letter": "C",
+                "text": "The thread terminates"
+            },
+            {
+                "letter": "D",
+                "text": "The thread sleeps"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If no thread is waiting, notify() has no effect."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0017",
+        "text": "Which of the following methods can cause a thread to resume after waiting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notify() or notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "yield()"
+            },
+            {
+                "letter": "D",
+                "text": "join()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Threads waiting due to wait() can resume when notify() or notifyAll() is called."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0018",
+        "text": "Which of the following is true about the monitor concept in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Every object has an associated monitor"
+            },
+            {
+                "letter": "B",
+                "text": "Only threads have monitors"
+            },
+            {
+                "letter": "C",
+                "text": "Monitors are part of the Thread class"
+            },
+            {
+                "letter": "D",
+                "text": "Monitors are used only for I/O operations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Every Java object has an associated monitor used for synchronization and inter-thread communication."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0019",
+        "text": "Which of the following methods can be used to implement producer-consumer problems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait() and notify()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep() and yield()"
+            },
+            {
+                "letter": "C",
+                "text": "start() and stop()"
+            },
+            {
+                "letter": "D",
+                "text": "join() and interrupt()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The producer-consumer problem is solved using wait() and notify() for synchronization."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0020",
+        "text": "Which of the following statements about wait(long timeout) is true?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It waits for the specified time or until notified"
+            },
+            {
+                "letter": "B",
+                "text": "It waits indefinitely"
+            },
+            {
+                "letter": "C",
+                "text": "It does not release the lock"
+            },
+            {
+                "letter": "D",
+                "text": "It throws an exception immediately"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait(long timeout) waits for the specified time or until another thread calls notify() or notifyAll()."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0021",
+        "text": "Which of the following methods can be interrupted by another thread?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait()"
+            },
+            {
+                "letter": "B",
+                "text": "notify()"
+            },
+            {
+                "letter": "C",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "D",
+                "text": "start()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The wait() method can be interrupted by another thread using interrupt(), causing InterruptedException."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0022",
+        "text": "What is the state of a thread after calling wait()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Waiting"
+            },
+            {
+                "letter": "B",
+                "text": "Runnable"
+            },
+            {
+                "letter": "C",
+                "text": "Blocked"
+            },
+            {
+                "letter": "D",
+                "text": "Terminated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "When wait() is called, the thread enters the waiting state until notified."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0023",
+        "text": "Which of the following methods does not release the lock?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "sleep()"
+            },
+            {
+                "letter": "B",
+                "text": "wait()"
+            },
+            {
+                "letter": "C",
+                "text": "notify()"
+            },
+            {
+                "letter": "D",
+                "text": "notifyAll()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The sleep() method pauses the thread but does not release the lock."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0024",
+        "text": "Which of the following methods must be called inside a synchronized block?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait(), notify(), notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep(), yield()"
+            },
+            {
+                "letter": "C",
+                "text": "start(), run()"
+            },
+            {
+                "letter": "D",
+                "text": "join(), interrupt()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait(), notify(), and notifyAll() must be called from a synchronized context."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0025",
+        "text": "What happens if notify() is called before wait()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The notification is lost"
+            },
+            {
+                "letter": "B",
+                "text": "The waiting thread is immediately resumed"
+            },
+            {
+                "letter": "C",
+                "text": "An exception is thrown"
+            },
+            {
+                "letter": "D",
+                "text": "The thread terminates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If notify() is called before wait(), the notification is lost because no thread is waiting."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0026",
+        "text": "Which of the following is true about notifyAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It wakes up all waiting threads"
+            },
+            {
+                "letter": "B",
+                "text": "It wakes up one waiting thread"
+            },
+            {
+                "letter": "C",
+                "text": "It terminates all waiting threads"
+            },
+            {
+                "letter": "D",
+                "text": "It releases all locks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notifyAll() wakes up all threads waiting on the object's monitor."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0027",
+        "text": "Which of the following is a correct use of wait()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Inside a synchronized block"
+            },
+            {
+                "letter": "B",
+                "text": "Outside any synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Inside a static block"
+            },
+            {
+                "letter": "D",
+                "text": "Inside a constructor"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait() must be called inside a synchronized block or method."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0028",
+        "text": "Which of the following methods can cause a thread to move from waiting to runnable state?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notify()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "yield()"
+            },
+            {
+                "letter": "D",
+                "text": "join()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notify() wakes up a waiting thread, moving it to the runnable state."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0029",
+        "text": "Which of the following is true about the producer-consumer problem?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It uses wait() and notify() for synchronization"
+            },
+            {
+                "letter": "B",
+                "text": "It uses sleep() and yield()"
+            },
+            {
+                "letter": "C",
+                "text": "It uses join() and interrupt()"
+            },
+            {
+                "letter": "D",
+                "text": "It uses start() and stop()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The producer-consumer problem is solved using wait() and notify() for coordination."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0030",
+        "text": "Which of the following exceptions can be thrown by wait()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "InterruptedException"
+            },
+            {
+                "letter": "B",
+                "text": "IOException"
+            },
+            {
+                "letter": "C",
+                "text": "NullPointerException"
+            },
+            {
+                "letter": "D",
+                "text": "ArithmeticException"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait() throws InterruptedException if the thread is interrupted while waiting."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0031",
+        "text": "Which of the following methods is used to pause a thread without releasing the lock?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "sleep()"
+            },
+            {
+                "letter": "B",
+                "text": "wait()"
+            },
+            {
+                "letter": "C",
+                "text": "notify()"
+            },
+            {
+                "letter": "D",
+                "text": "yield()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "sleep() pauses the thread but does not release the lock."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0032",
+        "text": "Which of the following methods can be used to wake up all waiting threads?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "notify()"
+            },
+            {
+                "letter": "C",
+                "text": "resume()"
+            },
+            {
+                "letter": "D",
+                "text": "signalAll()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notifyAll() wakes up all threads waiting on the object's monitor."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0033",
+        "text": "Which of the following is true about wait(long timeout)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It waits for the specified time or until notified"
+            },
+            {
+                "letter": "B",
+                "text": "It waits indefinitely"
+            },
+            {
+                "letter": "C",
+                "text": "It does not release the lock"
+            },
+            {
+                "letter": "D",
+                "text": "It throws an exception immediately"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait(long timeout) waits for the specified time or until another thread calls notify() or notifyAll()."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0034",
+        "text": "Which of the following methods is used to notify one waiting thread?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notify()"
+            },
+            {
+                "letter": "B",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "C",
+                "text": "signal()"
+            },
+            {
+                "letter": "D",
+                "text": "resume()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notify() wakes up one thread waiting on the object's monitor."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0035",
+        "text": "Which of the following is true about the monitor concept?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Every object in Java has a monitor"
+            },
+            {
+                "letter": "B",
+                "text": "Only threads have monitors"
+            },
+            {
+                "letter": "C",
+                "text": "Monitors are part of Thread class"
+            },
+            {
+                "letter": "D",
+                "text": "Monitors are used only for I/O"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Every Java object has an associated monitor used for synchronization."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0036",
+        "text": "Which of the following methods can be used to implement thread coordination?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait(), notify(), notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep(), yield()"
+            },
+            {
+                "letter": "C",
+                "text": "start(), stop()"
+            },
+            {
+                "letter": "D",
+                "text": "join(), interrupt()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait(), notify(), and notifyAll() are used for thread coordination."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0037",
+        "text": "Which of the following methods can cause IllegalMonitorStateException?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait(), notify(), notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep(), yield()"
+            },
+            {
+                "letter": "C",
+                "text": "start(), run()"
+            },
+            {
+                "letter": "D",
+                "text": "join(), interrupt()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Calling wait(), notify(), or notifyAll() without owning the object's monitor throws IllegalMonitorStateException."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0038",
+        "text": "Which of the following methods is used to make a thread wait indefinitely?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "yield()"
+            },
+            {
+                "letter": "D",
+                "text": "join()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait() without arguments causes the thread to wait indefinitely until notified."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0039",
+        "text": "Which of the following methods can be used to resume a waiting thread?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notify()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "yield()"
+            },
+            {
+                "letter": "D",
+                "text": "join()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notify() wakes up a waiting thread, allowing it to resume execution."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0040",
+        "text": "Which of the following is true about wait() and notify()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They must be called from synchronized context"
+            },
+            {
+                "letter": "B",
+                "text": "They can be called from any context"
+            },
+            {
+                "letter": "C",
+                "text": "They are static methods"
+            },
+            {
+                "letter": "D",
+                "text": "They belong to Thread class"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait() and notify() must be called from synchronized blocks or methods."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0041",
+        "text": "Which of the following methods is used to wake up all waiting threads?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "notify()"
+            },
+            {
+                "letter": "C",
+                "text": "signalAll()"
+            },
+            {
+                "letter": "D",
+                "text": "resumeAll()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notifyAll() wakes up all threads waiting on the object's monitor."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0042",
+        "text": "Which of the following methods can be used to implement a bounded buffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait() and notify()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep() and yield()"
+            },
+            {
+                "letter": "C",
+                "text": "start() and stop()"
+            },
+            {
+                "letter": "D",
+                "text": "join() and interrupt()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A bounded buffer can be implemented using wait() and notify() for synchronization."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0043",
+        "text": "Which of the following methods can cause a thread to release the lock?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "yield()"
+            },
+            {
+                "letter": "D",
+                "text": "join()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait() releases the lock and pauses the thread until notified."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0044",
+        "text": "Which of the following methods can be used to notify multiple threads?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "notify()"
+            },
+            {
+                "letter": "C",
+                "text": "signal()"
+            },
+            {
+                "letter": "D",
+                "text": "resume()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notifyAll() wakes up all threads waiting on the object's monitor."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0045",
+        "text": "Which of the following methods can be used to implement thread synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "synchronized blocks with wait() and notify()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep() and yield()"
+            },
+            {
+                "letter": "C",
+                "text": "start() and stop()"
+            },
+            {
+                "letter": "D",
+                "text": "join() and interrupt()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Thread synchronization is achieved using synchronized blocks along with wait() and notify()."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0046",
+        "text": "Which of the following methods can be used to make a thread wait for a specific time?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait(long timeout)"
+            },
+            {
+                "letter": "B",
+                "text": "sleep(long timeout)"
+            },
+            {
+                "letter": "C",
+                "text": "join(long timeout)"
+            },
+            {
+                "letter": "D",
+                "text": "pause(long timeout)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait(long timeout) makes the thread wait for the specified time or until notified."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0047",
+        "text": "Which of the following methods can be used to resume a waiting thread?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notify()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "yield()"
+            },
+            {
+                "letter": "D",
+                "text": "join()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notify() wakes up a waiting thread, allowing it to resume execution."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0048",
+        "text": "Which of the following methods can be used to wake up all waiting threads?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "notify()"
+            },
+            {
+                "letter": "C",
+                "text": "signalAll()"
+            },
+            {
+                "letter": "D",
+                "text": "resumeAll()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "notifyAll() wakes up all threads waiting on the object's monitor."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0049",
+        "text": "Which of the following methods can be used to implement inter-thread communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "wait(), notify(), notifyAll()"
+            },
+            {
+                "letter": "B",
+                "text": "sleep(), yield()"
+            },
+            {
+                "letter": "C",
+                "text": "start(), stop()"
+            },
+            {
+                "letter": "D",
+                "text": "join(), interrupt()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "wait(), notify(), and notifyAll() are used for inter-thread communication."
+    },
+    {
+        "title": "JavaInterThreadCommunication - Q0050",
+        "text": "Which of the following best describes inter-thread communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A mechanism that allows synchronized threads to communicate with each other"
+            },
+            {
+                "letter": "B",
+                "text": "A method to terminate threads"
+            },
+            {
+                "letter": "C",
+                "text": "A way to create new threads"
+            },
+            {
+                "letter": "D",
+                "text": "A process to increase thread priority"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Inter-thread communication allows synchronized threads to coordinate and share resources efficiently."
+    }
+]
