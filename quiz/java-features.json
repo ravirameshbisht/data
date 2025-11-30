@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaFeatures - Q0001",
+        "text": "Which of the following best describes Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A high-level, object-oriented, platform-independent programming language"
+            },
+            {
+                "letter": "B",
+                "text": "A low-level assembly language"
+            },
+            {
+                "letter": "C",
+                "text": "A markup language"
+            },
+            {
+                "letter": "D",
+                "text": "A database query language"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java is a high-level, object-oriented, platform-independent programming language."
+    },
+    {
+        "title": "JavaFeatures - Q0002",
+        "text": "Which of the following features makes Java platform-independent?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bytecode and JVM"
+            },
+            {
+                "letter": "B",
+                "text": "Pointers"
+            },
+            {
+                "letter": "C",
+                "text": "Preprocessor directives"
+            },
+            {
+                "letter": "D",
+                "text": "Machine code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java achieves platform independence through bytecode executed by the JVM."
+    },
+    {
+        "title": "JavaFeatures - Q0003",
+        "text": "Which of the following is NOT a feature of Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pointer manipulation"
+            },
+            {
+                "letter": "B",
+                "text": "Object-oriented"
+            },
+            {
+                "letter": "C",
+                "text": "Platform-independent"
+            },
+            {
+                "letter": "D",
+                "text": "Robust"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java does not support pointer manipulation for security and simplicity."
+    },
+    {
+        "title": "JavaFeatures - Q0004",
+        "text": "Which of the following ensures Java’s security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bytecode verification and sandboxing"
+            },
+            {
+                "letter": "B",
+                "text": "Direct memory access"
+            },
+            {
+                "letter": "C",
+                "text": "Global variables"
+            },
+            {
+                "letter": "D",
+                "text": "Manual memory management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java ensures security through bytecode verification and sandboxing mechanisms."
+    },
+    {
+        "title": "JavaFeatures - Q0005",
+        "text": "Which of the following features allows Java to manage memory automatically?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Garbage Collection"
+            },
+            {
+                "letter": "B",
+                "text": "Manual memory allocation"
+            },
+            {
+                "letter": "C",
+                "text": "Pointers"
+            },
+            {
+                "letter": "D",
+                "text": "Memory registers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java uses garbage collection to automatically manage memory."
+    },
+    {
+        "title": "JavaFeatures - Q0006",
+        "text": "Which of the following makes Java architecture-neutral?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bytecode"
+            },
+            {
+                "letter": "B",
+                "text": "Native code"
+            },
+            {
+                "letter": "C",
+                "text": "Assembly code"
+            },
+            {
+                "letter": "D",
+                "text": "Machine code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java’s bytecode can run on any platform with a JVM, making it architecture-neutral."
+    },
+    {
+        "title": "JavaFeatures - Q0007",
+        "text": "Which of the following features makes Java robust?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Exception handling and garbage collection"
+            },
+            {
+                "letter": "B",
+                "text": "Pointers and macros"
+            },
+            {
+                "letter": "C",
+                "text": "Manual memory management"
+            },
+            {
+                "letter": "D",
+                "text": "Global variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java’s robustness comes from strong memory management and exception handling."
+    },
+    {
+        "title": "JavaFeatures - Q0008",
+        "text": "Which of the following features allows Java to support multiple threads?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multithreading"
+            },
+            {
+                "letter": "B",
+                "text": "Polymorphism"
+            },
+            {
+                "letter": "C",
+                "text": "Encapsulation"
+            },
+            {
+                "letter": "D",
+                "text": "Inheritance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java supports multithreading, allowing concurrent execution of multiple threads."
+    },
+    {
+        "title": "JavaFeatures - Q0009",
+        "text": "Which of the following features makes Java portable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bytecode and JVM"
+            },
+            {
+                "letter": "B",
+                "text": "Platform-specific compilation"
+            },
+            {
+                "letter": "C",
+                "text": "Machine-dependent code"
+            },
+            {
+                "letter": "D",
+                "text": "Native libraries only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java’s portability is achieved through bytecode that runs on any JVM."
+    },
+    {
+        "title": "JavaFeatures - Q0010",
+        "text": "Which of the following features makes Java dynamic?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Dynamic linking and class loading"
+            },
+            {
+                "letter": "B",
+                "text": "Static compilation"
+            },
+            {
+                "letter": "C",
+                "text": "Manual linking"
+            },
+            {
+                "letter": "D",
+                "text": "Preprocessor directives"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java supports dynamic linking and class loading at runtime, making it dynamic."
+    },
+    {
+        "title": "JavaFeatures - Q0011",
+        "text": "Which of the following is a key feature of Java’s object-oriented nature?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulation"
+            },
+            {
+                "letter": "B",
+                "text": "Pointers"
+            },
+            {
+                "letter": "C",
+                "text": "Macros"
+            },
+            {
+                "letter": "D",
+                "text": "Preprocessor"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Encapsulation is a core object-oriented feature supported by Java."
+    },
+    {
+        "title": "JavaFeatures - Q0012",
+        "text": "Which of the following features allows Java to handle runtime errors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Exception handling"
+            },
+            {
+                "letter": "B",
+                "text": "Pointers"
+            },
+            {
+                "letter": "C",
+                "text": "Macros"
+            },
+            {
+                "letter": "D",
+                "text": "Preprocessor directives"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java uses exception handling to manage runtime errors effectively."
+    },
+    {
+        "title": "JavaFeatures - Q0013",
+        "text": "Which of the following is NOT a Java feature?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Platform dependence"
+            },
+            {
+                "letter": "B",
+                "text": "Multithreading"
+            },
+            {
+                "letter": "C",
+                "text": "Object-oriented"
+            },
+            {
+                "letter": "D",
+                "text": "Robust"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java is platform-independent, not platform-dependent."
+    },
+    {
+        "title": "JavaFeatures - Q0014",
+        "text": "Which of the following features allows Java to run on any device?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Write Once, Run Anywhere"
+            },
+            {
+                "letter": "B",
+                "text": "Compile Once, Run Once"
+            },
+            {
+                "letter": "C",
+                "text": "Write Once, Compile Anywhere"
+            },
+            {
+                "letter": "D",
+                "text": "Run Once, Compile Anywhere"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java’s motto 'Write Once, Run Anywhere' highlights its platform independence."
+    },
+    {
+        "title": "JavaFeatures - Q0015",
+        "text": "Which of the following features makes Java secure from memory corruption?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No pointers and automatic memory management"
+            },
+            {
+                "letter": "B",
+                "text": "Direct memory access"
+            },
+            {
+                "letter": "C",
+                "text": "Manual memory allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Global variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java avoids memory corruption by eliminating pointers and using garbage collection."
+    },
+    {
+        "title": "JavaFeatures - Q0016",
+        "text": "Which of the following features allows Java to support distributed computing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RMI and networking APIs"
+            },
+            {
+                "letter": "B",
+                "text": "Pointers"
+            },
+            {
+                "letter": "C",
+                "text": "Macros"
+            },
+            {
+                "letter": "D",
+                "text": "Preprocessor directives"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java supports distributed computing through RMI and networking APIs."
+    },
+    {
+        "title": "JavaFeatures - Q0017",
+        "text": "Which of the following features ensures Java’s reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Strong type checking and exception handling"
+            },
+            {
+                "letter": "B",
+                "text": "Manual memory management"
+            },
+            {
+                "letter": "C",
+                "text": "Pointers"
+            },
+            {
+                "letter": "D",
+                "text": "Macros"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java’s reliability comes from strong type checking and exception handling."
+    },
+    {
+        "title": "JavaFeatures - Q0018",
+        "text": "Which of the following features allows Java to be extensible?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Dynamic class loading"
+            },
+            {
+                "letter": "B",
+                "text": "Static linking"
+            },
+            {
+                "letter": "C",
+                "text": "Preprocessor directives"
+            },
+            {
+                "letter": "D",
+                "text": "Macros"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java supports extensibility through dynamic class loading and interfaces."
+    },
+    {
+        "title": "JavaFeatures - Q0019",
+        "text": "Which of the following features allows Java to be interpreted?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JVM executes bytecode"
+            },
+            {
+                "letter": "B",
+                "text": "Compiler executes source code"
+            },
+            {
+                "letter": "C",
+                "text": "Assembler executes machine code"
+            },
+            {
+                "letter": "D",
+                "text": "Preprocessor executes macros"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java bytecode is interpreted by the JVM, making it an interpreted language."
+    },
+    {
+        "title": "JavaFeatures - Q0020",
+        "text": "Which of the following features allows Java to be compiled and interpreted?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Hybrid compilation model"
+            },
+            {
+                "letter": "B",
+                "text": "Static compilation only"
+            },
+            {
+                "letter": "C",
+                "text": "Interpretation only"
+            },
+            {
+                "letter": "D",
+                "text": "Manual linking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java uses a hybrid model: source code is compiled to bytecode and interpreted by the JVM."
+    },
+    {
+        "title": "JavaFeatures - Q0021",
+        "text": "Which of the following features makes Java simple to learn and use?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Elimination of pointers and operator overloading"
+            },
+            {
+                "letter": "B",
+                "text": "Use of macros"
+            },
+            {
+                "letter": "C",
+                "text": "Manual memory management"
+            },
+            {
+                "letter": "D",
+                "text": "Multiple inheritance through classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java is simple because it eliminates complex features like pointers and operator overloading."
+    },
+    {
+        "title": "JavaFeatures - Q0022",
+        "text": "Which of the following features allows Java to support reusability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Inheritance"
+            },
+            {
+                "letter": "B",
+                "text": "Encapsulation"
+            },
+            {
+                "letter": "C",
+                "text": "Abstraction"
+            },
+            {
+                "letter": "D",
+                "text": "Polymorphism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Inheritance allows Java classes to reuse code from other classes."
+    },
+    {
+        "title": "JavaFeatures - Q0023",
+        "text": "Which of the following features allows Java to support runtime polymorphism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Method overriding"
+            },
+            {
+                "letter": "B",
+                "text": "Method overloading"
+            },
+            {
+                "letter": "C",
+                "text": "Static binding"
+            },
+            {
+                "letter": "D",
+                "text": "Final methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Runtime polymorphism in Java is achieved through method overriding."
+    },
+    {
+        "title": "JavaFeatures - Q0024",
+        "text": "Which of the following features allows Java to hide implementation details?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Abstraction"
+            },
+            {
+                "letter": "B",
+                "text": "Encapsulation"
+            },
+            {
+                "letter": "C",
+                "text": "Inheritance"
+            },
+            {
+                "letter": "D",
+                "text": "Polymorphism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Abstraction hides implementation details and shows only essential features."
+    },
+    {
+        "title": "JavaFeatures - Q0025",
+        "text": "Which of the following features allows Java to bundle data and methods together?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulation"
+            },
+            {
+                "letter": "B",
+                "text": "Abstraction"
+            },
+            {
+                "letter": "C",
+                "text": "Inheritance"
+            },
+            {
+                "letter": "D",
+                "text": "Polymorphism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Encapsulation binds data and methods into a single unit called a class."
+    },
+    {
+        "title": "JavaFeatures - Q0026",
+        "text": "Which of the following features allows Java to support multiple forms of a method?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Polymorphism"
+            },
+            {
+                "letter": "B",
+                "text": "Encapsulation"
+            },
+            {
+                "letter": "C",
+                "text": "Abstraction"
+            },
+            {
+                "letter": "D",
+                "text": "Inheritance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Polymorphism allows methods to take multiple forms, such as overloading and overriding."
+    },
+    {
+        "title": "JavaFeatures - Q0027",
+        "text": "Which of the following features allows Java to support modular programming?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Packages"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces"
+            },
+            {
+                "letter": "C",
+                "text": "Inheritance"
+            },
+            {
+                "letter": "D",
+                "text": "Polymorphism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Packages in Java allow modular programming by grouping related classes."
+    },
+    {
+        "title": "JavaFeatures - Q0028",
+        "text": "Which of the following features allows Java to support functional programming?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Lambda expressions"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces"
+            },
+            {
+                "letter": "C",
+                "text": "Inheritance"
+            },
+            {
+                "letter": "D",
+                "text": "Polymorphism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Lambda expressions introduced in Java 8 enable functional programming."
+    },
+    {
+        "title": "JavaFeatures - Q0029",
+        "text": "Which of the following features allows Java to support stream-based processing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Streams API"
+            },
+            {
+                "letter": "B",
+                "text": "Collections API"
+            },
+            {
+                "letter": "C",
+                "text": "File API"
+            },
+            {
+                "letter": "D",
+                "text": "Thread API"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Streams API introduced in Java 8 supports stream-based data processing."
+    },
+    {
+        "title": "JavaFeatures - Q0030",
+        "text": "Which of the following features allows Java to support asynchronous programming?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "CompletableFuture"
+            },
+            {
+                "letter": "B",
+                "text": "Thread.sleep()"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronized blocks"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CompletableFuture introduced in Java 8 supports asynchronous programming."
+    },
+    {
+        "title": "JavaFeatures - Q0031",
+        "text": "Which of the following features allows Java to support modularization at runtime?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Java Platform Module System (JPMS)"
+            },
+            {
+                "letter": "B",
+                "text": "Packages"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "Annotations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JPMS introduced in Java 9 allows modularization at runtime."
+    },
+    {
+        "title": "JavaFeatures - Q0032",
+        "text": "Which of the following features allows Java to support metadata?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Annotations"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces"
+            },
+            {
+                "letter": "C",
+                "text": "Packages"
+            },
+            {
+                "letter": "D",
+                "text": "Threads"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Annotations provide metadata about the program to the compiler and runtime."
+    },
+    {
+        "title": "JavaFeatures - Q0033",
+        "text": "Which of the following features allows Java to support reflection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.lang.reflect package"
+            },
+            {
+                "letter": "B",
+                "text": "java.util package"
+            },
+            {
+                "letter": "C",
+                "text": "java.io package"
+            },
+            {
+                "letter": "D",
+                "text": "java.net package"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The java.lang.reflect package provides reflection capabilities in Java."
+    },
+    {
+        "title": "JavaFeatures - Q0034",
+        "text": "Which of the following features allows Java to support generics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Type parameters"
+            },
+            {
+                "letter": "B",
+                "text": "Raw types"
+            },
+            {
+                "letter": "C",
+                "text": "Casting"
+            },
+            {
+                "letter": "D",
+                "text": "Inheritance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generics use type parameters to ensure type safety at compile time."
+    },
+    {
+        "title": "JavaFeatures - Q0035",
+        "text": "Which of the following features allows Java to support automatic resource management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "try-with-resources"
+            },
+            {
+                "letter": "B",
+                "text": "finally block"
+            },
+            {
+                "letter": "C",
+                "text": "catch block"
+            },
+            {
+                "letter": "D",
+                "text": "throws clause"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The try-with-resources statement automatically closes resources after use."
+    },
+    {
+        "title": "JavaFeatures - Q0036",
+        "text": "Which of the following features allows Java to support functional interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "@FunctionalInterface annotation"
+            },
+            {
+                "letter": "B",
+                "text": "@Override annotation"
+            },
+            {
+                "letter": "C",
+                "text": "@Deprecated annotation"
+            },
+            {
+                "letter": "D",
+                "text": "@SuppressWarnings annotation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The @FunctionalInterface annotation ensures an interface has exactly one abstract method."
+    },
+    {
+        "title": "JavaFeatures - Q0037",
+        "text": "Which of the following features allows Java to support parallel processing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Parallel streams"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronized blocks"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods"
+            },
+            {
+                "letter": "D",
+                "text": "Final classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Parallel streams allow Java to process data in parallel using multiple threads."
+    },
+    {
+        "title": "JavaFeatures - Q0038",
+        "text": "Which of the following features allows Java to support immutable data structures?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Records"
+            },
+            {
+                "letter": "B",
+                "text": "Classes"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "Enums"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Records introduced in Java 14 provide immutable data structures."
+    },
+    {
+        "title": "JavaFeatures - Q0039",
+        "text": "Which of the following features allows Java to support pattern matching?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pattern matching for instanceof"
+            },
+            {
+                "letter": "B",
+                "text": "Regular expressions only"
+            },
+            {
+                "letter": "C",
+                "text": "Switch statements only"
+            },
+            {
+                "letter": "D",
+                "text": "Reflection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Pattern matching for instanceof simplifies type checks and casting."
+    },
+    {
+        "title": "JavaFeatures - Q0040",
+        "text": "Which of the following features allows Java to support text blocks?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multiline string literals"
+            },
+            {
+                "letter": "B",
+                "text": "StringBuilder"
+            },
+            {
+                "letter": "C",
+                "text": "StringBuffer"
+            },
+            {
+                "letter": "D",
+                "text": "Concatenation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Text blocks introduced in Java 13 allow multiline string literals."
+    },
+    {
+        "title": "JavaFeatures - Q0041",
+        "text": "Which of the following features allows Java to support sealed classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Restrict subclassing"
+            },
+            {
+                "letter": "B",
+                "text": "Allow unlimited inheritance"
+            },
+            {
+                "letter": "C",
+                "text": "Enable multiple inheritance"
+            },
+            {
+                "letter": "D",
+                "text": "Disable encapsulation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sealed classes restrict which classes can extend or implement them."
+    },
+    {
+        "title": "JavaFeatures - Q0042",
+        "text": "Which of the following features allows Java to support switch expressions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Return values from switch statements"
+            },
+            {
+                "letter": "B",
+                "text": "Break-only behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Goto statements"
+            },
+            {
+                "letter": "D",
+                "text": "Fall-through by default"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Switch expressions introduced in Java 12 allow returning values directly."
+    },
+    {
+        "title": "JavaFeatures - Q0043",
+        "text": "Which of the following features allows Java to support local variable type inference?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "var keyword"
+            },
+            {
+                "letter": "B",
+                "text": "auto keyword"
+            },
+            {
+                "letter": "C",
+                "text": "let keyword"
+            },
+            {
+                "letter": "D",
+                "text": "dynamic keyword"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The var keyword introduced in Java 10 allows local variable type inference."
+    },
+    {
+        "title": "JavaFeatures - Q0044",
+        "text": "Which of the following features allows Java to support enhanced null safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Optional class"
+            },
+            {
+                "letter": "B",
+                "text": "NullPointerException"
+            },
+            {
+                "letter": "C",
+                "text": "try-catch"
+            },
+            {
+                "letter": "D",
+                "text": "Assertions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Optional class helps avoid NullPointerExceptions by representing optional values."
+    },
+    {
+        "title": "JavaFeatures - Q0045",
+        "text": "Which of the following features allows Java to support record patterns?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deconstruct record objects in pattern matching"
+            },
+            {
+                "letter": "B",
+                "text": "Create mutable records"
+            },
+            {
+                "letter": "C",
+                "text": "Disable pattern matching"
+            },
+            {
+                "letter": "D",
+                "text": "Allow multiple inheritance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Record patterns allow deconstruction of record objects in pattern matching."
+    },
+    {
+        "title": "JavaFeatures - Q0046",
+        "text": "Which of the following features allows Java to support virtual threads?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Lightweight concurrency model"
+            },
+            {
+                "letter": "B",
+                "text": "Heavyweight OS threads"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronized blocks only"
+            },
+            {
+                "letter": "D",
+                "text": "Thread pools only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Virtual threads introduced in Project Loom provide lightweight concurrency."
+    },
+    {
+        "title": "JavaFeatures - Q0047",
+        "text": "Which of the following features allows Java to support foreign function access?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Foreign Function & Memory API"
+            },
+            {
+                "letter": "B",
+                "text": "JNI only"
+            },
+            {
+                "letter": "C",
+                "text": "Reflection"
+            },
+            {
+                "letter": "D",
+                "text": "Serialization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Foreign Function & Memory API allows Java to access native code safely."
+    },
+    {
+        "title": "JavaFeatures - Q0048",
+        "text": "Which of the following features allows Java to support vector computation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Vector API"
+            },
+            {
+                "letter": "B",
+                "text": "Math library"
+            },
+            {
+                "letter": "C",
+                "text": "Streams API"
+            },
+            {
+                "letter": "D",
+                "text": "Thread API"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Vector API enables high-performance vector computations."
+    },
+    {
+        "title": "JavaFeatures - Q0049",
+        "text": "Which of the following features allows Java to support record serialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Records implement Serializable"
+            },
+            {
+                "letter": "B",
+                "text": "Records are transient"
+            },
+            {
+                "letter": "C",
+                "text": "Records cannot be serialized"
+            },
+            {
+                "letter": "D",
+                "text": "Records use reflection only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Records can implement Serializable to support serialization."
+    },
+    {
+        "title": "JavaFeatures - Q0050",
+        "text": "Which of the following best describes Java’s evolution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A continuously evolving language with backward compatibility"
+            },
+            {
+                "letter": "B",
+                "text": "A static language with no updates"
+            },
+            {
+                "letter": "C",
+                "text": "A language that breaks compatibility often"
+            },
+            {
+                "letter": "D",
+                "text": "A language limited to desktop applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java evolves continuously with new features while maintaining backward compatibility."
+    }
+]

@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaStringBuffer - Q0001",
+        "text": "Which package contains the StringBuffer class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.lang"
+            },
+            {
+                "letter": "B",
+                "text": "java.util"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.text"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The StringBuffer class is part of the java.lang package."
+    },
+    {
+        "title": "JavaStringBuffer - Q0002",
+        "text": "Which of the following best describes StringBuffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A thread-safe, mutable sequence of characters"
+            },
+            {
+                "letter": "B",
+                "text": "An immutable sequence of characters"
+            },
+            {
+                "letter": "C",
+                "text": "A non-synchronized mutable sequence"
+            },
+            {
+                "letter": "D",
+                "text": "A fixed-length character array"
+            }
+        ],
+        "correct": "A",
+        "explanation": "StringBuffer is a thread-safe, mutable sequence of characters."
+    },
+    {
+        "title": "JavaStringBuffer - Q0003",
+        "text": "Which of the following is true about StringBuffer and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "StringBuffer is synchronized"
+            },
+            {
+                "letter": "B",
+                "text": "StringBuffer is not synchronized"
+            },
+            {
+                "letter": "C",
+                "text": "StringBuffer is immutable"
+            },
+            {
+                "letter": "D",
+                "text": "StringBuffer is non-thread-safe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "StringBuffer is synchronized, making it thread-safe."
+    },
+    {
+        "title": "JavaStringBuffer - Q0004",
+        "text": "Which class is a non-synchronized alternative to StringBuffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "StringBuilder"
+            },
+            {
+                "letter": "B",
+                "text": "String"
+            },
+            {
+                "letter": "C",
+                "text": "CharSequence"
+            },
+            {
+                "letter": "D",
+                "text": "StringTokenizer"
+            }
+        ],
+        "correct": "A",
+        "explanation": "StringBuilder is a non-synchronized alternative to StringBuffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0005",
+        "text": "What is the default capacity of a new StringBuffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "16"
+            },
+            {
+                "letter": "B",
+                "text": "10"
+            },
+            {
+                "letter": "C",
+                "text": "32"
+            },
+            {
+                "letter": "D",
+                "text": "0"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The default capacity of a new StringBuffer is 16 characters."
+    },
+    {
+        "title": "JavaStringBuffer - Q0006",
+        "text": "Which of the following constructors creates a StringBuffer with a specific capacity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "StringBuffer(int capacity)"
+            },
+            {
+                "letter": "B",
+                "text": "StringBuffer(String str)"
+            },
+            {
+                "letter": "C",
+                "text": "StringBuffer()"
+            },
+            {
+                "letter": "D",
+                "text": "StringBuffer(CharSequence seq)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The constructor StringBuffer(int capacity) creates a buffer with the specified capacity."
+    },
+    {
+        "title": "JavaStringBuffer - Q0007",
+        "text": "Which of the following methods appends a string to a StringBuffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append()"
+            },
+            {
+                "letter": "B",
+                "text": "concat()"
+            },
+            {
+                "letter": "C",
+                "text": "add()"
+            },
+            {
+                "letter": "D",
+                "text": "insert()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append() method adds text to the end of the StringBuffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0008",
+        "text": "Which of the following methods inserts text at a specific position?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "insert()"
+            },
+            {
+                "letter": "B",
+                "text": "append()"
+            },
+            {
+                "letter": "C",
+                "text": "replace()"
+            },
+            {
+                "letter": "D",
+                "text": "concat()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The insert() method inserts text at a specified index."
+    },
+    {
+        "title": "JavaStringBuffer - Q0009",
+        "text": "Which of the following methods reverses the contents of a StringBuffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "reverse()"
+            },
+            {
+                "letter": "B",
+                "text": "invert()"
+            },
+            {
+                "letter": "C",
+                "text": "flip()"
+            },
+            {
+                "letter": "D",
+                "text": "swap()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The reverse() method reverses the sequence of characters in the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0010",
+        "text": "Which of the following methods replaces a portion of the StringBuffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "replace(int start, int end, String str)"
+            },
+            {
+                "letter": "B",
+                "text": "setCharAt(int index, char ch)"
+            },
+            {
+                "letter": "C",
+                "text": "delete(int start, int end)"
+            },
+            {
+                "letter": "D",
+                "text": "substring(int start)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The replace() method replaces characters between start and end with the given string."
+    },
+    {
+        "title": "JavaStringBuffer - Q0011",
+        "text": "Which of the following methods deletes a range of characters?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "delete(int start, int end)"
+            },
+            {
+                "letter": "B",
+                "text": "remove(int start, int end)"
+            },
+            {
+                "letter": "C",
+                "text": "clear()"
+            },
+            {
+                "letter": "D",
+                "text": "trim()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The delete() method removes characters between the specified start and end indices."
+    },
+    {
+        "title": "JavaStringBuffer - Q0012",
+        "text": "Which of the following methods deletes a single character?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "deleteCharAt(int index)"
+            },
+            {
+                "letter": "B",
+                "text": "removeCharAt(int index)"
+            },
+            {
+                "letter": "C",
+                "text": "clearCharAt(int index)"
+            },
+            {
+                "letter": "D",
+                "text": "trimCharAt(int index)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The deleteCharAt() method removes the character at the specified index."
+    },
+    {
+        "title": "JavaStringBuffer - Q0013",
+        "text": "Which of the following methods returns the current length of the StringBuffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "length()"
+            },
+            {
+                "letter": "B",
+                "text": "size()"
+            },
+            {
+                "letter": "C",
+                "text": "capacity()"
+            },
+            {
+                "letter": "D",
+                "text": "count()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The length() method returns the number of characters currently in the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0014",
+        "text": "Which of the following methods returns the current capacity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "capacity()"
+            },
+            {
+                "letter": "B",
+                "text": "length()"
+            },
+            {
+                "letter": "C",
+                "text": "size()"
+            },
+            {
+                "letter": "D",
+                "text": "count()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The capacity() method returns the current capacity of the StringBuffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0015",
+        "text": "Which of the following methods ensures a minimum capacity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ensureCapacity(int minimumCapacity)"
+            },
+            {
+                "letter": "B",
+                "text": "setCapacity(int capacity)"
+            },
+            {
+                "letter": "C",
+                "text": "resize(int capacity)"
+            },
+            {
+                "letter": "D",
+                "text": "expand(int capacity)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ensureCapacity() method ensures that the capacity is at least the specified minimum."
+    },
+    {
+        "title": "JavaStringBuffer - Q0016",
+        "text": "Which of the following methods trims the capacity to the current length?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "trimToSize()"
+            },
+            {
+                "letter": "B",
+                "text": "shrink()"
+            },
+            {
+                "letter": "C",
+                "text": "compact()"
+            },
+            {
+                "letter": "D",
+                "text": "reduce()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The trimToSize() method reduces the capacity to match the current length."
+    },
+    {
+        "title": "JavaStringBuffer - Q0017",
+        "text": "Which of the following methods converts a StringBuffer to a String?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toString()"
+            },
+            {
+                "letter": "B",
+                "text": "convert()"
+            },
+            {
+                "letter": "C",
+                "text": "asString()"
+            },
+            {
+                "letter": "D",
+                "text": "stringify()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The toString() method converts the buffer’s content into a String."
+    },
+    {
+        "title": "JavaStringBuffer - Q0018",
+        "text": "Which of the following methods sets a character at a specific index?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setCharAt(int index, char ch)"
+            },
+            {
+                "letter": "B",
+                "text": "replaceCharAt(int index, char ch)"
+            },
+            {
+                "letter": "C",
+                "text": "updateCharAt(int index, char ch)"
+            },
+            {
+                "letter": "D",
+                "text": "insertCharAt(int index, char ch)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The setCharAt() method replaces the character at the specified index."
+    },
+    {
+        "title": "JavaStringBuffer - Q0019",
+        "text": "Which of the following methods returns a substring of the buffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "substring(int start, int end)"
+            },
+            {
+                "letter": "B",
+                "text": "subSequence(int start, int end)"
+            },
+            {
+                "letter": "C",
+                "text": "slice(int start, int end)"
+            },
+            {
+                "letter": "D",
+                "text": "extract(int start, int end)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The substring() method returns a new String containing the specified range of characters."
+    },
+    {
+        "title": "JavaStringBuffer - Q0020",
+        "text": "Which of the following is true about StringBuffer and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "StringBuffer is mutable"
+            },
+            {
+                "letter": "B",
+                "text": "StringBuffer is immutable"
+            },
+            {
+                "letter": "C",
+                "text": "StringBuffer is partially mutable"
+            },
+            {
+                "letter": "D",
+                "text": "StringBuffer is final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "StringBuffer is mutable, meaning its content can be changed after creation."
+    },
+    {
+        "title": "JavaStringBuffer - Q0021",
+        "text": "Which of the following is true about StringBuffer and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "StringBuffer is thread-safe"
+            },
+            {
+                "letter": "B",
+                "text": "StringBuffer is not thread-safe"
+            },
+            {
+                "letter": "C",
+                "text": "StringBuffer is immutable"
+            },
+            {
+                "letter": "D",
+                "text": "StringBuffer is non-synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "StringBuffer is synchronized, making it thread-safe for concurrent use."
+    },
+    {
+        "title": "JavaStringBuffer - Q0022",
+        "text": "Which of the following methods appends a boolean value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(boolean b)"
+            },
+            {
+                "letter": "B",
+                "text": "add(boolean b)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(boolean b)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(boolean b)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(boolean b) method appends a boolean value to the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0023",
+        "text": "Which of the following methods appends a character array?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(char[] str)"
+            },
+            {
+                "letter": "B",
+                "text": "add(char[] str)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(char[] str)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(char[] str)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(char[] str) method appends a character array to the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0024",
+        "text": "Which of the following methods appends a portion of a character array?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(char[] str, int offset, int len)"
+            },
+            {
+                "letter": "B",
+                "text": "add(char[] str, int offset, int len)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(char[] str, int offset, int len)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(char[] str, int offset, int len)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(char[] str, int offset, int len) method appends a portion of a character array."
+    },
+    {
+        "title": "JavaStringBuffer - Q0025",
+        "text": "Which of the following methods appends a CharSequence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(CharSequence s)"
+            },
+            {
+                "letter": "B",
+                "text": "add(CharSequence s)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(CharSequence s)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(CharSequence s)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(CharSequence s) method appends a CharSequence to the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0026",
+        "text": "Which of the following methods appends a substring of a CharSequence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(CharSequence s, int start, int end)"
+            },
+            {
+                "letter": "B",
+                "text": "add(CharSequence s, int start, int end)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(CharSequence s, int start, int end)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(CharSequence s, int start, int end)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(CharSequence s, int start, int end) method appends a substring of a CharSequence."
+    },
+    {
+        "title": "JavaStringBuffer - Q0027",
+        "text": "Which of the following methods appends an integer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(int i)"
+            },
+            {
+                "letter": "B",
+                "text": "add(int i)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(int i)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(int i)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(int i) method appends an integer value to the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0028",
+        "text": "Which of the following methods appends a float value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(float f)"
+            },
+            {
+                "letter": "B",
+                "text": "add(float f)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(float f)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(float f)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(float f) method appends a float value to the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0029",
+        "text": "Which of the following methods appends a double value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(double d)"
+            },
+            {
+                "letter": "B",
+                "text": "add(double d)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(double d)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(double d)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(double d) method appends a double value to the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0030",
+        "text": "Which of the following methods appends a long value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(long l)"
+            },
+            {
+                "letter": "B",
+                "text": "add(long l)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(long l)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(long l)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(long l) method appends a long value to the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0031",
+        "text": "Which of the following methods appends an object?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(Object obj)"
+            },
+            {
+                "letter": "B",
+                "text": "add(Object obj)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(Object obj)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(Object obj)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(Object obj) method appends the string representation of an object."
+    },
+    {
+        "title": "JavaStringBuffer - Q0032",
+        "text": "Which of the following methods returns a subsequence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subSequence(int start, int end)"
+            },
+            {
+                "letter": "B",
+                "text": "substring(int start, int end)"
+            },
+            {
+                "letter": "C",
+                "text": "slice(int start, int end)"
+            },
+            {
+                "letter": "D",
+                "text": "extract(int start, int end)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subSequence() method returns a CharSequence between the specified indices."
+    },
+    {
+        "title": "JavaStringBuffer - Q0033",
+        "text": "Which of the following methods changes the length of the buffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setLength(int newLength)"
+            },
+            {
+                "letter": "B",
+                "text": "resize(int newLength)"
+            },
+            {
+                "letter": "C",
+                "text": "expand(int newLength)"
+            },
+            {
+                "letter": "D",
+                "text": "grow(int newLength)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The setLength() method changes the length of the buffer, padding with null characters if needed."
+    },
+    {
+        "title": "JavaStringBuffer - Q0034",
+        "text": "Which of the following methods returns the character at a specific index?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "charAt(int index)"
+            },
+            {
+                "letter": "B",
+                "text": "getChar(int index)"
+            },
+            {
+                "letter": "C",
+                "text": "fetchChar(int index)"
+            },
+            {
+                "letter": "D",
+                "text": "readChar(int index)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The charAt() method returns the character at the specified index."
+    },
+    {
+        "title": "JavaStringBuffer - Q0035",
+        "text": "Which of the following methods copies characters into an array?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)"
+            },
+            {
+                "letter": "B",
+                "text": "copyChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)"
+            },
+            {
+                "letter": "C",
+                "text": "extractChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)"
+            },
+            {
+                "letter": "D",
+                "text": "moveChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The getChars() method copies characters from the buffer into a destination array."
+    },
+    {
+        "title": "JavaStringBuffer - Q0036",
+        "text": "Which of the following is true about StringBuffer and performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "StringBuffer is slower than StringBuilder due to synchronization"
+            },
+            {
+                "letter": "B",
+                "text": "StringBuffer is faster than StringBuilder"
+            },
+            {
+                "letter": "C",
+                "text": "StringBuffer and StringBuilder have identical performance"
+            },
+            {
+                "letter": "D",
+                "text": "StringBuffer is slower than String concatenation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "StringBuffer is slower than StringBuilder because it is synchronized."
+    },
+    {
+        "title": "JavaStringBuffer - Q0037",
+        "text": "Which of the following methods clears the content of a StringBuffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "setLength(0)"
+            },
+            {
+                "letter": "B",
+                "text": "clear()"
+            },
+            {
+                "letter": "C",
+                "text": "deleteAll()"
+            },
+            {
+                "letter": "D",
+                "text": "reset()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Setting the length to 0 clears the content of the StringBuffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0038",
+        "text": "Which of the following methods compares two StringBuffer objects?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "compareTo(StringBuffer another)"
+            },
+            {
+                "letter": "B",
+                "text": "equals(StringBuffer another)"
+            },
+            {
+                "letter": "C",
+                "text": "match(StringBuffer another)"
+            },
+            {
+                "letter": "D",
+                "text": "compare(StringBuffer another)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The compareTo() method compares two StringBuffer objects lexicographically."
+    },
+    {
+        "title": "JavaStringBuffer - Q0039",
+        "text": "Which of the following methods checks equality of content?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toString().equals()"
+            },
+            {
+                "letter": "B",
+                "text": "equals()"
+            },
+            {
+                "letter": "C",
+                "text": "compareTo()"
+            },
+            {
+                "letter": "D",
+                "text": "match()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "StringBuffer does not override equals(), so content comparison requires toString().equals()."
+    },
+    {
+        "title": "JavaStringBuffer - Q0040",
+        "text": "Which of the following methods appends a newline character?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append('\n')"
+            },
+            {
+                "letter": "B",
+                "text": "newLine()"
+            },
+            {
+                "letter": "C",
+                "text": "lineBreak()"
+            },
+            {
+                "letter": "D",
+                "text": "addLine()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Appending '\n' adds a newline character to the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0041",
+        "text": "Which of the following methods appends another StringBuffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(StringBuffer sb)"
+            },
+            {
+                "letter": "B",
+                "text": "add(StringBuffer sb)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(StringBuffer sb)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(StringBuffer sb)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(StringBuffer sb) method appends another StringBuffer’s content."
+    },
+    {
+        "title": "JavaStringBuffer - Q0042",
+        "text": "Which of the following methods returns a hash code?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hashCode()"
+            },
+            {
+                "letter": "B",
+                "text": "getHash()"
+            },
+            {
+                "letter": "C",
+                "text": "computeHash()"
+            },
+            {
+                "letter": "D",
+                "text": "generateHash()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() method returns the hash code of the StringBuffer object."
+    },
+    {
+        "title": "JavaStringBuffer - Q0043",
+        "text": "Which of the following methods appends a char?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(char c)"
+            },
+            {
+                "letter": "B",
+                "text": "add(char c)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(char c)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(char c)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(char c) method appends a single character to the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0044",
+        "text": "Which of the following methods appends a short value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(short s)"
+            },
+            {
+                "letter": "B",
+                "text": "add(short s)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(short s)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(short s)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(short s) method appends a short value to the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0045",
+        "text": "Which of the following methods appends a byte value?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(byte b)"
+            },
+            {
+                "letter": "B",
+                "text": "add(byte b)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(byte b)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(byte b)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(byte b) method appends a byte value to the buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0046",
+        "text": "Which of the following methods appends a code point?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "appendCodePoint(int codePoint)"
+            },
+            {
+                "letter": "B",
+                "text": "addCodePoint(int codePoint)"
+            },
+            {
+                "letter": "C",
+                "text": "insertCodePoint(int codePoint)"
+            },
+            {
+                "letter": "D",
+                "text": "concatCodePoint(int codePoint)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The appendCodePoint() method appends the string representation of a Unicode code point."
+    },
+    {
+        "title": "JavaStringBuffer - Q0047",
+        "text": "Which of the following methods returns the index of a substring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "indexOf(String str)"
+            },
+            {
+                "letter": "B",
+                "text": "find(String str)"
+            },
+            {
+                "letter": "C",
+                "text": "search(String str)"
+            },
+            {
+                "letter": "D",
+                "text": "locate(String str)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The indexOf() method returns the index of the first occurrence of a substring."
+    },
+    {
+        "title": "JavaStringBuffer - Q0048",
+        "text": "Which of the following methods returns the last index of a substring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lastIndexOf(String str)"
+            },
+            {
+                "letter": "B",
+                "text": "findLast(String str)"
+            },
+            {
+                "letter": "C",
+                "text": "searchLast(String str)"
+            },
+            {
+                "letter": "D",
+                "text": "locateLast(String str)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lastIndexOf() method returns the index of the last occurrence of a substring."
+    },
+    {
+        "title": "JavaStringBuffer - Q0049",
+        "text": "Which of the following methods appends a substring of another StringBuffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "append(StringBuffer sb, int start, int end)"
+            },
+            {
+                "letter": "B",
+                "text": "add(StringBuffer sb, int start, int end)"
+            },
+            {
+                "letter": "C",
+                "text": "insert(StringBuffer sb, int start, int end)"
+            },
+            {
+                "letter": "D",
+                "text": "concat(StringBuffer sb, int start, int end)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The append(StringBuffer sb, int start, int end) method appends a substring of another buffer."
+    },
+    {
+        "title": "JavaStringBuffer - Q0050",
+        "text": "Which of the following best describes StringBuffer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A mutable, synchronized sequence of characters"
+            },
+            {
+                "letter": "B",
+                "text": "An immutable, non-synchronized sequence of characters"
+            },
+            {
+                "letter": "C",
+                "text": "A fixed-length character array"
+            },
+            {
+                "letter": "D",
+                "text": "A thread-unsafe mutable string"
+            }
+        ],
+        "correct": "A",
+        "explanation": "StringBuffer is a mutable, synchronized sequence of characters used for thread-safe string manipulation."
+    }
+]
