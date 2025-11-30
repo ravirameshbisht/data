@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaArrayList - Q0001",
+        "text": "Which package contains the ArrayList class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ArrayList class is part of the java.util package."
+    },
+    {
+        "title": "JavaArrayList - Q0002",
+        "text": "Which interface does ArrayList implement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "List"
+            },
+            {
+                "letter": "B",
+                "text": "Set"
+            },
+            {
+                "letter": "C",
+                "text": "Queue"
+            },
+            {
+                "letter": "D",
+                "text": "Map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList implements the List interface."
+    },
+    {
+        "title": "JavaArrayList - Q0003",
+        "text": "What is the default initial capacity of an ArrayList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "10"
+            },
+            {
+                "letter": "B",
+                "text": "0"
+            },
+            {
+                "letter": "C",
+                "text": "5"
+            },
+            {
+                "letter": "D",
+                "text": "1"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The default initial capacity of an ArrayList is 10."
+    },
+    {
+        "title": "JavaArrayList - Q0004",
+        "text": "Which of the following is true about ArrayList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "It does not allow duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "It stores elements in sorted order"
+            },
+            {
+                "letter": "D",
+                "text": "It is synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList allows duplicate elements and maintains insertion order."
+    },
+    {
+        "title": "JavaArrayList - Q0005",
+        "text": "Which of the following is true about ArrayList and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList allows multiple null elements"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList allows only one null element"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList does not allow null elements"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList throws NullPointerException for null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList allows multiple null elements."
+    },
+    {
+        "title": "JavaArrayList - Q0006",
+        "text": "Which of the following constructors creates an empty ArrayList with default capacity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "new ArrayList<>()"
+            },
+            {
+                "letter": "B",
+                "text": "new ArrayList(0)"
+            },
+            {
+                "letter": "C",
+                "text": "new ArrayList(10)"
+            },
+            {
+                "letter": "D",
+                "text": "new ArrayList(Collection c)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The no-argument constructor creates an empty ArrayList with default capacity 10."
+    },
+    {
+        "title": "JavaArrayList - Q0007",
+        "text": "Which of the following methods adds an element to the end of an ArrayList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "add(E e)"
+            },
+            {
+                "letter": "B",
+                "text": "insert(E e)"
+            },
+            {
+                "letter": "C",
+                "text": "append(E e)"
+            },
+            {
+                "letter": "D",
+                "text": "push(E e)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The add(E e) method appends the specified element to the end of the list."
+    },
+    {
+        "title": "JavaArrayList - Q0008",
+        "text": "Which of the following methods inserts an element at a specific index?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "add(int index, E element)"
+            },
+            {
+                "letter": "B",
+                "text": "insert(int index, E element)"
+            },
+            {
+                "letter": "C",
+                "text": "put(int index, E element)"
+            },
+            {
+                "letter": "D",
+                "text": "set(int index, E element)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The add(int index, E element) method inserts an element at a specific position."
+    },
+    {
+        "title": "JavaArrayList - Q0009",
+        "text": "Which of the following methods replaces an element at a specific index?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "set(int index, E element)"
+            },
+            {
+                "letter": "B",
+                "text": "add(int index, E element)"
+            },
+            {
+                "letter": "C",
+                "text": "replace(int index, E element)"
+            },
+            {
+                "letter": "D",
+                "text": "update(int index, E element)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The set(int index, E element) method replaces the element at the specified index."
+    },
+    {
+        "title": "JavaArrayList - Q0010",
+        "text": "Which of the following methods removes an element by index?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove(int index)"
+            },
+            {
+                "letter": "B",
+                "text": "delete(int index)"
+            },
+            {
+                "letter": "C",
+                "text": "clear(int index)"
+            },
+            {
+                "letter": "D",
+                "text": "pop(int index)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove(int index) method removes the element at the specified position."
+    },
+    {
+        "title": "JavaArrayList - Q0011",
+        "text": "Which of the following methods removes the first occurrence of a specified element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove(Object o)"
+            },
+            {
+                "letter": "B",
+                "text": "delete(Object o)"
+            },
+            {
+                "letter": "C",
+                "text": "clear(Object o)"
+            },
+            {
+                "letter": "D",
+                "text": "pop(Object o)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove(Object o) method removes the first occurrence of the specified element."
+    },
+    {
+        "title": "JavaArrayList - Q0012",
+        "text": "Which of the following methods removes all elements from an ArrayList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clear()"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll()"
+            },
+            {
+                "letter": "C",
+                "text": "deleteAll()"
+            },
+            {
+                "letter": "D",
+                "text": "empty()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clear() method removes all elements from the list."
+    },
+    {
+        "title": "JavaArrayList - Q0013",
+        "text": "Which of the following methods returns the number of elements in an ArrayList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "size()"
+            },
+            {
+                "letter": "B",
+                "text": "length()"
+            },
+            {
+                "letter": "C",
+                "text": "count()"
+            },
+            {
+                "letter": "D",
+                "text": "capacity()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The size() method returns the number of elements in the list."
+    },
+    {
+        "title": "JavaArrayList - Q0014",
+        "text": "Which of the following methods checks if an element exists in an ArrayList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "contains(Object o)"
+            },
+            {
+                "letter": "B",
+                "text": "exists(Object o)"
+            },
+            {
+                "letter": "C",
+                "text": "has(Object o)"
+            },
+            {
+                "letter": "D",
+                "text": "find(Object o)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The contains(Object o) method checks if the list contains the specified element."
+    },
+    {
+        "title": "JavaArrayList - Q0015",
+        "text": "Which of the following methods retrieves an element at a specific index?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "get(int index)"
+            },
+            {
+                "letter": "B",
+                "text": "fetch(int index)"
+            },
+            {
+                "letter": "C",
+                "text": "find(int index)"
+            },
+            {
+                "letter": "D",
+                "text": "read(int index)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The get(int index) method retrieves the element at the specified position."
+    },
+    {
+        "title": "JavaArrayList - Q0016",
+        "text": "Which of the following methods returns the index of the first occurrence of an element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "indexOf(Object o)"
+            },
+            {
+                "letter": "B",
+                "text": "findIndex(Object o)"
+            },
+            {
+                "letter": "C",
+                "text": "search(Object o)"
+            },
+            {
+                "letter": "D",
+                "text": "position(Object o)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The indexOf(Object o) method returns the index of the first occurrence of the specified element."
+    },
+    {
+        "title": "JavaArrayList - Q0017",
+        "text": "Which of the following methods returns the index of the last occurrence of an element?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lastIndexOf(Object o)"
+            },
+            {
+                "letter": "B",
+                "text": "indexOfLast(Object o)"
+            },
+            {
+                "letter": "C",
+                "text": "findLast(Object o)"
+            },
+            {
+                "letter": "D",
+                "text": "searchLast(Object o)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lastIndexOf(Object o) method returns the index of the last occurrence of the specified element."
+    },
+    {
+        "title": "JavaArrayList - Q0018",
+        "text": "Which of the following methods converts an ArrayList to an array?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toArray()"
+            },
+            {
+                "letter": "B",
+                "text": "convertToArray()"
+            },
+            {
+                "letter": "C",
+                "text": "array()"
+            },
+            {
+                "letter": "D",
+                "text": "asArray()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The toArray() method converts the list into an array."
+    },
+    {
+        "title": "JavaArrayList - Q0019",
+        "text": "Which of the following is true about ArrayList and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList is not synchronized"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList is synchronized"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList is thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList is immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList is not synchronized and is not thread-safe by default."
+    },
+    {
+        "title": "JavaArrayList - Q0020",
+        "text": "Which of the following methods can be used to synchronize an ArrayList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.synchronizedList()"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList.synchronize()"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList.lock()"
+            },
+            {
+                "letter": "D",
+                "text": "Collections.lockList()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.synchronizedList() method returns a synchronized version of the list."
+    },
+    {
+        "title": "JavaArrayList - Q0021",
+        "text": "Which of the following is true about ArrayList and capacity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList increases capacity automatically when needed"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList has a fixed capacity"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList throws an exception when full"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList must be manually resized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList automatically increases its capacity when elements exceed the current size."
+    },
+    {
+        "title": "JavaArrayList - Q0022",
+        "text": "Which of the following methods trims the capacity of an ArrayList to its current size?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "trimToSize()"
+            },
+            {
+                "letter": "B",
+                "text": "reduceSize()"
+            },
+            {
+                "letter": "C",
+                "text": "shrink()"
+            },
+            {
+                "letter": "D",
+                "text": "compact()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The trimToSize() method reduces the capacity of the ArrayList to match its current size."
+    },
+    {
+        "title": "JavaArrayList - Q0023",
+        "text": "Which of the following methods increases the capacity of an ArrayList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ensureCapacity(int minCapacity)"
+            },
+            {
+                "letter": "B",
+                "text": "expand(int minCapacity)"
+            },
+            {
+                "letter": "C",
+                "text": "grow(int minCapacity)"
+            },
+            {
+                "letter": "D",
+                "text": "resize(int minCapacity)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ensureCapacity(int minCapacity) method increases the capacity of the ArrayList if needed."
+    },
+    {
+        "title": "JavaArrayList - Q0024",
+        "text": "Which of the following is true about ArrayList and order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList maintains insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList sorts elements automatically"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList stores elements randomly"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList reverses insertion order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList maintains the order in which elements are inserted."
+    },
+    {
+        "title": "JavaArrayList - Q0025",
+        "text": "Which of the following is true about ArrayList and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList allows duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList does not allow duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList removes duplicates automatically"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList throws an exception for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList allows duplicate elements."
+    },
+    {
+        "title": "JavaArrayList - Q0026",
+        "text": "Which of the following is true about ArrayList and random access?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList provides fast random access"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList provides slow random access"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList does not support random access"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList supports only sequential access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList provides fast random access because it is backed by an array."
+    },
+    {
+        "title": "JavaArrayList - Q0027",
+        "text": "Which of the following is true about ArrayList and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList is not thread-safe"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList is thread-safe"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList is synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList is immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList is not thread-safe; synchronization must be handled externally."
+    },
+    {
+        "title": "JavaArrayList - Q0028",
+        "text": "Which of the following is true about ArrayList and performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList provides O(1) access time"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList provides O(n) access time"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList provides O(log n) access time"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList provides O(n^2) access time"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList provides O(1) time complexity for random access operations."
+    },
+    {
+        "title": "JavaArrayList - Q0029",
+        "text": "Which of the following is true about ArrayList and insertion?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Insertion at the end is O(1)"
+            },
+            {
+                "letter": "B",
+                "text": "Insertion at the beginning is O(1)"
+            },
+            {
+                "letter": "C",
+                "text": "Insertion at the end is O(n)"
+            },
+            {
+                "letter": "D",
+                "text": "Insertion at the beginning is O(log n)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Insertion at the end of an ArrayList is O(1) on average."
+    },
+    {
+        "title": "JavaArrayList - Q0030",
+        "text": "Which of the following is true about ArrayList and removal?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Removing an element from the middle is O(n)"
+            },
+            {
+                "letter": "B",
+                "text": "Removing an element from the middle is O(1)"
+            },
+            {
+                "letter": "C",
+                "text": "Removing an element from the end is O(n)"
+            },
+            {
+                "letter": "D",
+                "text": "Removing an element from the beginning is O(1)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Removing an element from the middle requires shifting elements, making it O(n)."
+    },
+    {
+        "title": "JavaArrayList - Q0031",
+        "text": "Which of the following is true about ArrayList and iteration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList supports Iterator and ListIterator"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList supports only Iterator"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList supports only Enumeration"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList does not support iteration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList supports both Iterator and ListIterator for traversal."
+    },
+    {
+        "title": "JavaArrayList - Q0032",
+        "text": "Which of the following is true about ArrayList and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList iterators are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList iterators are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList iterators ignore modifications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList iterators are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaArrayList - Q0033",
+        "text": "Which of the following is true about ArrayList and cloning?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList supports shallow cloning"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList supports deep cloning"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList cannot be cloned"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList cloning throws exception"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList supports shallow cloning using the clone() method."
+    },
+    {
+        "title": "JavaArrayList - Q0034",
+        "text": "Which of the following is true about ArrayList and serialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList is serializable"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList is not serializable"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList requires custom serialization"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList cannot be written to a stream"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList implements Serializable, allowing it to be serialized."
+    },
+    {
+        "title": "JavaArrayList - Q0035",
+        "text": "Which of the following is true about ArrayList and RandomAccess?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList implements RandomAccess"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList does not implement RandomAccess"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList implements Cloneable only"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList implements Serializable only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList implements RandomAccess to indicate fast random access capability."
+    },
+    {
+        "title": "JavaArrayList - Q0036",
+        "text": "Which of the following is true about ArrayList and subList()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subList() returns a view of the specified range"
+            },
+            {
+                "letter": "B",
+                "text": "subList() returns a copy of the specified range"
+            },
+            {
+                "letter": "C",
+                "text": "subList() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "subList() clears the list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subList() method returns a view of the specified range, not a copy."
+    },
+    {
+        "title": "JavaArrayList - Q0037",
+        "text": "Which of the following is true about ArrayList and sorting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList can be sorted using Collections.sort()"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList sorts automatically"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList cannot be sorted"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList sorts only integers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList can be sorted using Collections.sort() or List.sort()."
+    },
+    {
+        "title": "JavaArrayList - Q0038",
+        "text": "Which of the following is true about ArrayList and Streams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList supports stream() and parallelStream()"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList does not support streams"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList supports only parallelStream()"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList supports only stream()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList supports both stream() and parallelStream() methods for stream processing."
+    },
+    {
+        "title": "JavaArrayList - Q0039",
+        "text": "Which of the following is true about ArrayList and equals()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals() compares elements in order"
+            },
+            {
+                "letter": "B",
+                "text": "equals() compares references only"
+            },
+            {
+                "letter": "C",
+                "text": "equals() compares hash codes"
+            },
+            {
+                "letter": "D",
+                "text": "equals() always returns false"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares elements in order for equality."
+    },
+    {
+        "title": "JavaArrayList - Q0040",
+        "text": "Which of the following is true about ArrayList and hashCode()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hashCode() depends on the elements"
+            },
+            {
+                "letter": "B",
+                "text": "hashCode() is constant"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode() depends on capacity"
+            },
+            {
+                "letter": "D",
+                "text": "hashCode() depends on memory address"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() of an ArrayList depends on the hash codes of its elements."
+    },
+    {
+        "title": "JavaArrayList - Q0041",
+        "text": "Which of the following is true about ArrayList and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList is mutable"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList is immutable"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList is read-only"
+            },
+            {
+                "letter": "D",
+                "text": "ArrayList is final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList is mutable; elements can be added, removed, or modified."
+    },
+    {
+        "title": "JavaArrayList - Q0042",
+        "text": "Which of the following is true about ArrayList and capacity growth?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Capacity increases by 50% when full"
+            },
+            {
+                "letter": "B",
+                "text": "Capacity doubles when full"
+            },
+            {
+                "letter": "C",
+                "text": "Capacity increases by 25% when full"
+            },
+            {
+                "letter": "D",
+                "text": "Capacity remains constant"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList increases its capacity by 50% when it becomes full."
+    },
+    {
+        "title": "JavaArrayList - Q0043",
+        "text": "Which of the following is true about ArrayList and toString()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toString() returns a string representation of elements"
+            },
+            {
+                "letter": "B",
+                "text": "toString() returns the class name"
+            },
+            {
+                "letter": "C",
+                "text": "toString() returns the hash code"
+            },
+            {
+                "letter": "D",
+                "text": "toString() returns null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The toString() method returns a string representation of the list elements."
+    },
+    {
+        "title": "JavaArrayList - Q0044",
+        "text": "Which of the following is true about ArrayList and removeAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeAll() removes all elements present in another collection"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "removeAll() removes duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "removeAll() clears the list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeAll() method removes all elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaArrayList - Q0045",
+        "text": "Which of the following is true about ArrayList and retainAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "retainAll() retains only elements present in another collection"
+            },
+            {
+                "letter": "B",
+                "text": "retainAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "retainAll() clears the list"
+            },
+            {
+                "letter": "D",
+                "text": "retainAll() adds new elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The retainAll() method retains only elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaArrayList - Q0046",
+        "text": "Which of the following is true about ArrayList and removeIf()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeIf() removes elements matching a condition"
+            },
+            {
+                "letter": "B",
+                "text": "removeIf() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "removeIf() removes duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "removeIf() clears the list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeIf() method removes elements that satisfy a given predicate condition."
+    },
+    {
+        "title": "JavaArrayList - Q0047",
+        "text": "Which of the following is true about ArrayList and forEach()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "forEach() performs an action for each element"
+            },
+            {
+                "letter": "B",
+                "text": "forEach() removes elements"
+            },
+            {
+                "letter": "C",
+                "text": "forEach() sorts elements"
+            },
+            {
+                "letter": "D",
+                "text": "forEach() clears the list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The forEach() method performs the specified action for each element in the list."
+    },
+    {
+        "title": "JavaArrayList - Q0048",
+        "text": "Which of the following is true about ArrayList and replaceAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "replaceAll() replaces each element using a unary operator"
+            },
+            {
+                "letter": "B",
+                "text": "replaceAll() replaces all elements with null"
+            },
+            {
+                "letter": "C",
+                "text": "replaceAll() removes duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "replaceAll() clears the list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The replaceAll() method replaces each element using the provided unary operator."
+    },
+    {
+        "title": "JavaArrayList - Q0049",
+        "text": "Which of the following is true about ArrayList and sort()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "sort() sorts elements using a comparator"
+            },
+            {
+                "letter": "B",
+                "text": "sort() sorts elements automatically"
+            },
+            {
+                "letter": "C",
+                "text": "sort() removes duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "sort() clears the list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The sort() method sorts elements using the specified comparator."
+    },
+    {
+        "title": "JavaArrayList - Q0050",
+        "text": "Which of the following best describes ArrayList?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A resizable array implementation of the List interface"
+            },
+            {
+                "letter": "B",
+                "text": "A fixed-size array implementation"
+            },
+            {
+                "letter": "C",
+                "text": "A linked list implementation"
+            },
+            {
+                "letter": "D",
+                "text": "A synchronized list implementation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ArrayList is a resizable array implementation of the List interface."
+    }
+]

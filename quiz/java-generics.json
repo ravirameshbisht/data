@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaGenerics - Q0001",
+        "text": "What is the main purpose of using generics in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To provide compile-time type safety"
+            },
+            {
+                "letter": "B",
+                "text": "To improve runtime performance"
+            },
+            {
+                "letter": "C",
+                "text": "To allow primitive types in collections"
+            },
+            {
+                "letter": "D",
+                "text": "To remove the need for inheritance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generics provide compile-time type safety by ensuring that only specific types can be used in a collection or class."
+    },
+    {
+        "title": "JavaGenerics - Q0002",
+        "text": "Which of the following is a valid generic class declaration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "class Box { private T item; }"
+            },
+            {
+                "letter": "B",
+                "text": "class Box(T) { private T item; }"
+            },
+            {
+                "letter": "C",
+                "text": "class Box<> { private T item; }"
+            },
+            {
+                "letter": "D",
+                "text": "class Box { private T item; }"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The correct syntax for declaring a generic class uses angle brackets with a type parameter."
+    },
+    {
+        "title": "JavaGenerics - Q0003",
+        "text": "Which of the following is a valid generic method declaration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "public void print(T item)"
+            },
+            {
+                "letter": "B",
+                "text": "public void print(T item)"
+            },
+            {
+                "letter": "C",
+                "text": "public void print(T item)"
+            },
+            {
+                "letter": "D",
+                "text": "public T void print(item)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The type parameter must be declared before the return type in a generic method."
+    },
+    {
+        "title": "JavaGenerics - Q0004",
+        "text": "What does the wildcard '?' represent in generics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An unknown type"
+            },
+            {
+                "letter": "B",
+                "text": "A null type"
+            },
+            {
+                "letter": "C",
+                "text": "A primitive type"
+            },
+            {
+                "letter": "D",
+                "text": "A specific class"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The wildcard '?' represents an unknown type in generics."
+    },
+    {
+        "title": "JavaGenerics - Q0005",
+        "text": "Which of the following is an upper bounded wildcard?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "? extends Number"
+            },
+            {
+                "letter": "B",
+                "text": "? super Number"
+            },
+            {
+                "letter": "C",
+                "text": "? extends Object"
+            },
+            {
+                "letter": "D",
+                "text": "? super Object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '? extends Number' wildcard restricts the type to Number or its subclasses."
+    },
+    {
+        "title": "JavaGenerics - Q0006",
+        "text": "Which of the following is a lower bounded wildcard?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "? super Integer"
+            },
+            {
+                "letter": "B",
+                "text": "? extends Integer"
+            },
+            {
+                "letter": "C",
+                "text": "? extends Number"
+            },
+            {
+                "letter": "D",
+                "text": "? super Object"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '? super Integer' wildcard restricts the type to Integer or its superclasses."
+    },
+    {
+        "title": "JavaGenerics - Q0007",
+        "text": "Which of the following statements about generics is true?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Generics are implemented using type erasure"
+            },
+            {
+                "letter": "B",
+                "text": "Generics exist at runtime"
+            },
+            {
+                "letter": "C",
+                "text": "Generics can be used with primitive types"
+            },
+            {
+                "letter": "D",
+                "text": "Generics require explicit casting"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generics are implemented using type erasure, meaning type information is removed at runtime."
+    },
+    {
+        "title": "JavaGenerics - Q0008",
+        "text": "Which of the following is not allowed in Java generics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Creating an array of a generic type"
+            },
+            {
+                "letter": "B",
+                "text": "Using wildcards"
+            },
+            {
+                "letter": "C",
+                "text": "Using bounded types"
+            },
+            {
+                "letter": "D",
+                "text": "Using multiple type parameters"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Creating arrays of generic types is not allowed due to type erasure and runtime type safety issues."
+    },
+    {
+        "title": "JavaGenerics - Q0009",
+        "text": "Which of the following is a valid multiple type parameter declaration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "<K, V>"
+            },
+            {
+                "letter": "B",
+                "text": "<T, U>"
+            },
+            {
+                "letter": "C",
+                "text": "<E, N>"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Any valid identifiers can be used as type parameters, such as <K, V> or <T, U>."
+    },
+    {
+        "title": "JavaGenerics - Q0010",
+        "text": "Which of the following is true about generic interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can have type parameters"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot have type parameters"
+            },
+            {
+                "letter": "C",
+                "text": "They must define all types explicitly"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be extended"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generic interfaces can have type parameters, allowing flexibility in implementation."
+    },
+    {
+        "title": "JavaGenerics - Q0011",
+        "text": "Which of the following is a valid generic interface declaration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "interface Pair<K, V> { K getKey(); V getValue(); }"
+            },
+            {
+                "letter": "B",
+                "text": "interface Pair { K getKey(); }"
+            },
+            {
+                "letter": "C",
+                "text": "interface Pair { Object getKey(); }"
+            },
+            {
+                "letter": "D",
+                "text": "interface Pair<K, V> { }"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Pair interface with two type parameters K and V is a valid generic interface."
+    },
+    {
+        "title": "JavaGenerics - Q0012",
+        "text": "Which of the following is true about generic classes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can define one or more type parameters"
+            },
+            {
+                "letter": "B",
+                "text": "They cannot define type parameters"
+            },
+            {
+                "letter": "C",
+                "text": "They must define exactly one type parameter"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot extend other classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generic classes can define one or more type parameters for flexibility."
+    },
+    {
+        "title": "JavaGenerics - Q0013",
+        "text": "Which of the following is true about bounded type parameters?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They restrict the types that can be used as arguments"
+            },
+            {
+                "letter": "B",
+                "text": "They allow any type"
+            },
+            {
+                "letter": "C",
+                "text": "They are used only in interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "They are used only in methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded type parameters restrict the types that can be used as arguments using 'extends' or 'super'."
+    },
+    {
+        "title": "JavaGenerics - Q0014",
+        "text": "Which of the following is a correct bounded type parameter declaration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": ""
+            },
+            {
+                "letter": "B",
+                "text": ""
+            },
+            {
+                "letter": "C",
+                "text": ""
+            },
+            {
+                "letter": "D",
+                "text": "<T extends Object, Number>"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'extends' keyword is used to declare an upper bound for a type parameter."
+    },
+    {
+        "title": "JavaGenerics - Q0015",
+        "text": "Which of the following is true about type erasure?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Generic type information is removed at runtime"
+            },
+            {
+                "letter": "B",
+                "text": "Generic type information is preserved at runtime"
+            },
+            {
+                "letter": "C",
+                "text": "Type erasure occurs at compile time"
+            },
+            {
+                "letter": "D",
+                "text": "Type erasure prevents compilation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Type erasure removes generic type information at runtime to maintain backward compatibility."
+    },
+    {
+        "title": "JavaGenerics - Q0016",
+        "text": "Which of the following is true about generic methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can define their own type parameters"
+            },
+            {
+                "letter": "B",
+                "text": "They must use the class's type parameters"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot define type parameters"
+            },
+            {
+                "letter": "D",
+                "text": "They must return a generic type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generic methods can define their own type parameters independent of the class."
+    },
+    {
+        "title": "JavaGenerics - Q0017",
+        "text": "Which of the following is true about raw types?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are generic types used without type parameters"
+            },
+            {
+                "letter": "B",
+                "text": "They are primitive types"
+            },
+            {
+                "letter": "C",
+                "text": "They are deprecated in Java 8"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be used in collections"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Raw types are generic types used without specifying type parameters, losing type safety."
+    },
+    {
+        "title": "JavaGenerics - Q0018",
+        "text": "Which of the following is true about generic constructors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Constructors can have their own type parameters"
+            },
+            {
+                "letter": "B",
+                "text": "Constructors cannot have type parameters"
+            },
+            {
+                "letter": "C",
+                "text": "Constructors must use the class's type parameters"
+            },
+            {
+                "letter": "D",
+                "text": "Constructors cannot be generic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Constructors can define their own type parameters independent of the class."
+    },
+    {
+        "title": "JavaGenerics - Q0019",
+        "text": "Which of the following is true about generic inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A subclass can specify or redefine type parameters"
+            },
+            {
+                "letter": "B",
+                "text": "A subclass must use the same type parameters"
+            },
+            {
+                "letter": "C",
+                "text": "A subclass cannot use generics"
+            },
+            {
+                "letter": "D",
+                "text": "A subclass must be non-generic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A subclass can specify or redefine type parameters when extending a generic class."
+    },
+    {
+        "title": "JavaGenerics - Q0020",
+        "text": "Which of the following is true about generic arrays?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Generic arrays cannot be created directly"
+            },
+            {
+                "letter": "B",
+                "text": "Generic arrays can be created directly"
+            },
+            {
+                "letter": "C",
+                "text": "Generic arrays are type-safe"
+            },
+            {
+                "letter": "D",
+                "text": "Generic arrays are allowed for all types"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generic arrays cannot be created directly due to type erasure and runtime type safety issues."
+    },
+    {
+        "title": "JavaGenerics - Q0021",
+        "text": "Which of the following is true about generic type inference?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The compiler can infer the type arguments automatically"
+            },
+            {
+                "letter": "B",
+                "text": "The programmer must always specify type arguments"
+            },
+            {
+                "letter": "C",
+                "text": "Type inference is not supported in Java"
+            },
+            {
+                "letter": "D",
+                "text": "Type inference works only with primitive types"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java compiler can infer generic type arguments automatically using the diamond operator or method context."
+    },
+    {
+        "title": "JavaGenerics - Q0022",
+        "text": "Which operator introduced in Java 7 helps with type inference?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Diamond operator <>"
+            },
+            {
+                "letter": "B",
+                "text": "Arrow operator ->"
+            },
+            {
+                "letter": "C",
+                "text": "Colon operator ::"
+            },
+            {
+                "letter": "D",
+                "text": "Ampersand operator &"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The diamond operator (<>) introduced in Java 7 allows the compiler to infer generic types automatically."
+    },
+    {
+        "title": "JavaGenerics - Q0023",
+        "text": "Which of the following is true about generic wildcards?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They allow flexibility when working with different generic types"
+            },
+            {
+                "letter": "B",
+                "text": "They restrict the use of generics"
+            },
+            {
+                "letter": "C",
+                "text": "They are used only in interfaces"
+            },
+            {
+                "letter": "D",
+                "text": "They are used only in methods"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Wildcards provide flexibility by allowing unknown or bounded types in generic declarations."
+    },
+    {
+        "title": "JavaGenerics - Q0024",
+        "text": "Which of the following is true about unbounded wildcards?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are declared using '?'"
+            },
+            {
+                "letter": "B",
+                "text": "They are declared using '? extends Object'"
+            },
+            {
+                "letter": "C",
+                "text": "They are declared using '? super Object'"
+            },
+            {
+                "letter": "D",
+                "text": "They are declared using ''"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An unbounded wildcard is declared using '?', representing an unknown type."
+    },
+    {
+        "title": "JavaGenerics - Q0025",
+        "text": "Which of the following is true about bounded wildcards?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They restrict the range of acceptable types"
+            },
+            {
+                "letter": "B",
+                "text": "They allow any type"
+            },
+            {
+                "letter": "C",
+                "text": "They are used only in classes"
+            },
+            {
+                "letter": "D",
+                "text": "They are used only in interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded wildcards restrict the range of acceptable types using 'extends' or 'super'."
+    },
+    {
+        "title": "JavaGenerics - Q0026",
+        "text": "Which of the following is true about generic type parameters?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They can be used as return types"
+            },
+            {
+                "letter": "B",
+                "text": "They can be used as method parameters"
+            },
+            {
+                "letter": "C",
+                "text": "They can be used as field types"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Generic type parameters can be used in fields, method parameters, and return types."
+    },
+    {
+        "title": "JavaGenerics - Q0027",
+        "text": "Which of the following is true about generic type bounds?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A type parameter can have multiple bounds"
+            },
+            {
+                "letter": "B",
+                "text": "A type parameter can have only one bound"
+            },
+            {
+                "letter": "C",
+                "text": "Type bounds are not allowed"
+            },
+            {
+                "letter": "D",
+                "text": "Type bounds must be interfaces only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A type parameter can have multiple bounds, but only one can be a class, and it must appear first."
+    },
+    {
+        "title": "JavaGenerics - Q0028",
+        "text": "Which of the following is a valid multiple bound declaration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "<T extends Number & Comparable>"
+            },
+            {
+                "letter": "B",
+                "text": "<T extends Comparable & Number>"
+            },
+            {
+                "letter": "C",
+                "text": "<T implements Number & Comparable>"
+            },
+            {
+                "letter": "D",
+                "text": "<T super Number & Comparable>"
+            }
+        ],
+        "correct": "A",
+        "explanation": "When multiple bounds are used, the class must appear first, followed by interfaces."
+    },
+    {
+        "title": "JavaGenerics - Q0029",
+        "text": "Which of the following is true about generic type casting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Explicit casting is not required with generics"
+            },
+            {
+                "letter": "B",
+                "text": "Explicit casting is always required"
+            },
+            {
+                "letter": "C",
+                "text": "Generics do not support casting"
+            },
+            {
+                "letter": "D",
+                "text": "Casting is required only for primitive types"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generics eliminate the need for explicit casting by enforcing type safety at compile time."
+    },
+    {
+        "title": "JavaGenerics - Q0030",
+        "text": "Which of the following is true about generic collections?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They store only objects of a specific type"
+            },
+            {
+                "letter": "B",
+                "text": "They can store any type of object"
+            },
+            {
+                "letter": "C",
+                "text": "They can store primitive types"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot store null values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generic collections store only objects of the specified type, ensuring type safety."
+    },
+    {
+        "title": "JavaGenerics - Q0031",
+        "text": "Which of the following is true about generic type parameters and inheritance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Generics are invariant"
+            },
+            {
+                "letter": "B",
+                "text": "Generics are covariant"
+            },
+            {
+                "letter": "C",
+                "text": "Generics are contravariant"
+            },
+            {
+                "letter": "D",
+                "text": "Generics are both covariant and contravariant"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generics in Java are invariant, meaning List is not a subtype of List."
+    },
+    {
+        "title": "JavaGenerics - Q0032",
+        "text": "Which of the following is true about generic wildcards and covariance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "? extends T provides covariance"
+            },
+            {
+                "letter": "B",
+                "text": "? super T provides covariance"
+            },
+            {
+                "letter": "C",
+                "text": "? extends T provides contravariance"
+            },
+            {
+                "letter": "D",
+                "text": "? super T provides invariance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '? extends T' wildcard provides covariance, allowing reading of subtype elements."
+    },
+    {
+        "title": "JavaGenerics - Q0033",
+        "text": "Which of the following is true about generic wildcards and contravariance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "? super T provides contravariance"
+            },
+            {
+                "letter": "B",
+                "text": "? extends T provides contravariance"
+            },
+            {
+                "letter": "C",
+                "text": "? super T provides covariance"
+            },
+            {
+                "letter": "D",
+                "text": "? extends T provides invariance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The '? super T' wildcard provides contravariance, allowing writing of subtype elements."
+    },
+    {
+        "title": "JavaGenerics - Q0034",
+        "text": "Which of the following is true about generic type parameters and static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static methods cannot use class-level type parameters"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods must use class-level type parameters"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods cannot be generic"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods must be non-generic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static methods cannot use class-level type parameters because they belong to the class, not an instance."
+    },
+    {
+        "title": "JavaGenerics - Q0035",
+        "text": "Which of the following is true about generic type parameters and static methods?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Static methods can define their own type parameters"
+            },
+            {
+                "letter": "B",
+                "text": "Static methods cannot define type parameters"
+            },
+            {
+                "letter": "C",
+                "text": "Static methods must use the class's type parameters"
+            },
+            {
+                "letter": "D",
+                "text": "Static methods cannot be generic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Static methods can define their own type parameters independent of the class."
+    },
+    {
+        "title": "JavaGenerics - Q0036",
+        "text": "Which of the following is true about generic type parameters and exceptions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Generic classes cannot extend Throwable"
+            },
+            {
+                "letter": "B",
+                "text": "Generic classes can extend Throwable"
+            },
+            {
+                "letter": "C",
+                "text": "Generic exceptions are allowed"
+            },
+            {
+                "letter": "D",
+                "text": "Generic exceptions can be thrown"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generic classes cannot extend Throwable because type information is erased at runtime."
+    },
+    {
+        "title": "JavaGenerics - Q0037",
+        "text": "Which of the following is true about generic type parameters and instanceof?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Generic type parameters cannot be used with instanceof"
+            },
+            {
+                "letter": "B",
+                "text": "Generic type parameters can be used with instanceof"
+            },
+            {
+                "letter": "C",
+                "text": "instanceof ignores generics"
+            },
+            {
+                "letter": "D",
+                "text": "instanceof supports generic arrays"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generic type parameters cannot be used with instanceof due to type erasure."
+    },
+    {
+        "title": "JavaGenerics - Q0038",
+        "text": "Which of the following is true about generic type parameters and reflection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Type information is not available at runtime"
+            },
+            {
+                "letter": "B",
+                "text": "Type information is preserved at runtime"
+            },
+            {
+                "letter": "C",
+                "text": "Reflection can access erased types"
+            },
+            {
+                "letter": "D",
+                "text": "Reflection can modify generic types"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Due to type erasure, generic type information is not available at runtime."
+    },
+    {
+        "title": "JavaGenerics - Q0039",
+        "text": "Which of the following is true about generic type parameters and primitive types?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Generics cannot be used with primitive types"
+            },
+            {
+                "letter": "B",
+                "text": "Generics can be used with primitive types"
+            },
+            {
+                "letter": "C",
+                "text": "Generics automatically box primitives"
+            },
+            {
+                "letter": "D",
+                "text": "Generics convert primitives to strings"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generics cannot be used with primitive types; wrapper classes must be used instead."
+    },
+    {
+        "title": "JavaGenerics - Q0040",
+        "text": "Which of the following is true about generic type parameters and autoboxing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Autoboxing allows primitives to be used with generics"
+            },
+            {
+                "letter": "B",
+                "text": "Autoboxing disables generics"
+            },
+            {
+                "letter": "C",
+                "text": "Autoboxing is unrelated to generics"
+            },
+            {
+                "letter": "D",
+                "text": "Autoboxing prevents type erasure"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Autoboxing allows primitives to be automatically converted to wrapper types for use with generics."
+    },
+    {
+        "title": "JavaGenerics - Q0041",
+        "text": "Which of the following is true about generic type parameters and collections?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections use generics to enforce type safety"
+            },
+            {
+                "letter": "B",
+                "text": "Collections cannot use generics"
+            },
+            {
+                "letter": "C",
+                "text": "Collections ignore generic types"
+            },
+            {
+                "letter": "D",
+                "text": "Collections require raw types"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Collections use generics to enforce type safety and eliminate the need for casting."
+    },
+    {
+        "title": "JavaGenerics - Q0042",
+        "text": "Which of the following is true about generic type parameters and interfaces?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Interfaces can define type parameters"
+            },
+            {
+                "letter": "B",
+                "text": "Interfaces cannot define type parameters"
+            },
+            {
+                "letter": "C",
+                "text": "Interfaces must use raw types"
+            },
+            {
+                "letter": "D",
+                "text": "Interfaces cannot extend generic classes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Interfaces can define type parameters, allowing flexibility in implementation."
+    },
+    {
+        "title": "JavaGenerics - Q0043",
+        "text": "Which of the following is true about generic type parameters and enums?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enums cannot be generic"
+            },
+            {
+                "letter": "B",
+                "text": "Enums can be generic"
+            },
+            {
+                "letter": "C",
+                "text": "Enums must use wildcards"
+            },
+            {
+                "letter": "D",
+                "text": "Enums must use bounded types"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Enums cannot be generic in Java."
+    },
+    {
+        "title": "JavaGenerics - Q0044",
+        "text": "Which of the following is true about generic type parameters and varargs?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Generic varargs can cause heap pollution"
+            },
+            {
+                "letter": "B",
+                "text": "Generic varargs are type-safe"
+            },
+            {
+                "letter": "C",
+                "text": "Generic varargs are not allowed"
+            },
+            {
+                "letter": "D",
+                "text": "Generic varargs prevent type erasure"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generic varargs can cause heap pollution because type information is erased at runtime."
+    },
+    {
+        "title": "JavaGenerics - Q0045",
+        "text": "Which of the following is true about heap pollution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It occurs when a variable of a parameterized type refers to an object of a different type"
+            },
+            {
+                "letter": "B",
+                "text": "It occurs when memory leaks happen"
+            },
+            {
+                "letter": "C",
+                "text": "It occurs when generics are used with primitives"
+            },
+            {
+                "letter": "D",
+                "text": "It occurs when type erasure fails"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Heap pollution occurs when a variable of a parameterized type refers to an object of a different type."
+    },
+    {
+        "title": "JavaGenerics - Q0046",
+        "text": "Which of the following annotations helps suppress warnings about heap pollution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "@SafeVarargs"
+            },
+            {
+                "letter": "B",
+                "text": "@SuppressWarnings"
+            },
+            {
+                "letter": "C",
+                "text": "@Deprecated"
+            },
+            {
+                "letter": "D",
+                "text": "@Override"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The @SafeVarargs annotation suppresses warnings about heap pollution in generic varargs methods."
+    },
+    {
+        "title": "JavaGenerics - Q0047",
+        "text": "Which of the following is true about generic type parameters and reification?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Java generics are non-reifiable"
+            },
+            {
+                "letter": "B",
+                "text": "Java generics are reifiable"
+            },
+            {
+                "letter": "C",
+                "text": "Reification preserves type information"
+            },
+            {
+                "letter": "D",
+                "text": "Reification removes type information"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java generics are non-reifiable because type information is erased at runtime."
+    },
+    {
+        "title": "JavaGenerics - Q0048",
+        "text": "Which of the following is true about generic type parameters and backward compatibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Generics maintain backward compatibility with older Java code"
+            },
+            {
+                "letter": "B",
+                "text": "Generics break backward compatibility"
+            },
+            {
+                "letter": "C",
+                "text": "Generics require rewriting old code"
+            },
+            {
+                "letter": "D",
+                "text": "Generics cannot be used with legacy code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Generics maintain backward compatibility through type erasure, allowing older code to work with generic classes."
+    },
+    {
+        "title": "JavaGenerics - Q0049",
+        "text": "Which of the following is true about generic type parameters and reflection APIs?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reflection can access generic type declarations"
+            },
+            {
+                "letter": "B",
+                "text": "Reflection cannot access generic type declarations"
+            },
+            {
+                "letter": "C",
+                "text": "Reflection ignores generics"
+            },
+            {
+                "letter": "D",
+                "text": "Reflection modifies generic types"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Reflection can access generic type declarations but not actual type arguments at runtime."
+    },
+    {
+        "title": "JavaGenerics - Q0050",
+        "text": "Which of the following best describes Java generics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A mechanism for enforcing type safety at compile time"
+            },
+            {
+                "letter": "B",
+                "text": "A runtime feature for dynamic typing"
+            },
+            {
+                "letter": "C",
+                "text": "A feature for automatic boxing of primitives"
+            },
+            {
+                "letter": "D",
+                "text": "A mechanism for reflection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Java generics provide compile-time type safety and eliminate the need for explicit casting."
+    }
+]

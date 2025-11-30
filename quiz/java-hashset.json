@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaHashSet - Q0001",
+        "text": "Which package contains the HashSet class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The HashSet class is part of the java.util package."
+    },
+    {
+        "title": "JavaHashSet - Q0002",
+        "text": "Which interface does HashSet implement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set"
+            },
+            {
+                "letter": "B",
+                "text": "List"
+            },
+            {
+                "letter": "C",
+                "text": "Queue"
+            },
+            {
+                "letter": "D",
+                "text": "Map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet implements the Set interface."
+    },
+    {
+        "title": "JavaHashSet - Q0003",
+        "text": "Which data structure does HashSet use internally?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashMap"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedList"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet uses a HashMap internally to store its elements."
+    },
+    {
+        "title": "JavaHashSet - Q0004",
+        "text": "Which of the following is true about HashSet and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet does not allow duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet allows duplicate keys"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet allows duplicate values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet does not allow duplicate elements."
+    },
+    {
+        "title": "JavaHashSet - Q0005",
+        "text": "Which of the following is true about HashSet and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet allows one null element"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet allows multiple null elements"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet does not allow null elements"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet throws NullPointerException for null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet allows only one null element."
+    },
+    {
+        "title": "JavaHashSet - Q0006",
+        "text": "What is the default initial capacity of a HashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "16"
+            },
+            {
+                "letter": "B",
+                "text": "10"
+            },
+            {
+                "letter": "C",
+                "text": "8"
+            },
+            {
+                "letter": "D",
+                "text": "32"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The default initial capacity of a HashSet is 16."
+    },
+    {
+        "title": "JavaHashSet - Q0007",
+        "text": "What is the default load factor of a HashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "0.75"
+            },
+            {
+                "letter": "B",
+                "text": "0.5"
+            },
+            {
+                "letter": "C",
+                "text": "1.0"
+            },
+            {
+                "letter": "D",
+                "text": "0.25"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The default load factor of a HashSet is 0.75."
+    },
+    {
+        "title": "JavaHashSet - Q0008",
+        "text": "Which of the following is true about HashSet and order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet does not maintain insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet maintains sorted order"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet maintains reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet does not maintain insertion order."
+    },
+    {
+        "title": "JavaHashSet - Q0009",
+        "text": "Which of the following is true about HashSet and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet is not synchronized"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet is synchronized"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet is thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet is immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet is not synchronized and is not thread-safe by default."
+    },
+    {
+        "title": "JavaHashSet - Q0010",
+        "text": "Which of the following methods can be used to synchronize a HashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.synchronizedSet()"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet.synchronize()"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet.lock()"
+            },
+            {
+                "letter": "D",
+                "text": "Collections.lockSet()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.synchronizedSet() method returns a synchronized version of the set."
+    },
+    {
+        "title": "JavaHashSet - Q0011",
+        "text": "Which of the following is true about HashSet and iteration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet supports Iterator"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet supports ListIterator"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet supports Enumeration"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet does not support iteration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet supports iteration using the Iterator interface."
+    },
+    {
+        "title": "JavaHashSet - Q0012",
+        "text": "Which of the following is true about HashSet and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet iterators are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet iterators are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet iterators ignore modifications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet iterators are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaHashSet - Q0013",
+        "text": "Which of the following is true about HashSet and performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet provides O(1) average time for add, remove, and contains"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet provides O(n) average time for add, remove, and contains"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet provides O(log n) average time for add, remove, and contains"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet provides O(n^2) average time for add, remove, and contains"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet provides O(1) average time complexity for add, remove, and contains operations."
+    },
+    {
+        "title": "JavaHashSet - Q0014",
+        "text": "Which of the following is true about HashSet and duplicates handling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet uses hashCode() and equals() to check duplicates"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet uses only equals() to check duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet uses only hashCode() to check duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet does not check duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet uses both hashCode() and equals() methods to check for duplicates."
+    },
+    {
+        "title": "JavaHashSet - Q0015",
+        "text": "Which of the following is true about HashSet and null handling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet allows one null element"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet allows multiple null elements"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet does not allow null elements"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet throws exception for null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet allows only one null element."
+    },
+    {
+        "title": "JavaHashSet - Q0016",
+        "text": "Which of the following is true about HashSet and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet does not maintain any order"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet maintains sorted order"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet maintains reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet does not maintain any specific order of elements."
+    },
+    {
+        "title": "JavaHashSet - Q0017",
+        "text": "Which of the following is true about HashSet and LinkedHashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "LinkedHashSet maintains insertion order"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedHashSet does not maintain order"
+            },
+            {
+                "letter": "C",
+                "text": "LinkedHashSet sorts elements"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedHashSet is synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "LinkedHashSet maintains insertion order, unlike HashSet."
+    },
+    {
+        "title": "JavaHashSet - Q0018",
+        "text": "Which of the following is true about HashSet and TreeSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet maintains sorted order"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet does not maintain order"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet allows duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet maintains elements in sorted order."
+    },
+    {
+        "title": "JavaHashSet - Q0019",
+        "text": "Which of the following is true about HashSet and capacity resizing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet increases capacity when load factor is exceeded"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet has fixed capacity"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet throws exception when full"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet must be manually resized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet automatically increases capacity when the load factor threshold is exceeded."
+    },
+    {
+        "title": "JavaHashSet - Q0020",
+        "text": "Which of the following is true about HashSet and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet is not thread-safe"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet is thread-safe"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet is synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet is immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet is not thread-safe; synchronization must be handled externally."
+    },
+    {
+        "title": "JavaHashSet - Q0021",
+        "text": "Which of the following is true about HashSet and iteration order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iteration order is unpredictable"
+            },
+            {
+                "letter": "B",
+                "text": "Iteration order is insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "Iteration order is sorted order"
+            },
+            {
+                "letter": "D",
+                "text": "Iteration order is reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet does not guarantee any predictable iteration order."
+    },
+    {
+        "title": "JavaHashSet - Q0022",
+        "text": "Which of the following is true about HashSet and duplicates detection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Duplicates are detected using hashCode() and equals()"
+            },
+            {
+                "letter": "B",
+                "text": "Duplicates are detected using compareTo()"
+            },
+            {
+                "letter": "C",
+                "text": "Duplicates are detected using reference equality"
+            },
+            {
+                "letter": "D",
+                "text": "Duplicates are not detected"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet uses hashCode() and equals() to detect duplicates."
+    },
+    {
+        "title": "JavaHashSet - Q0023",
+        "text": "Which of the following is true about HashSet and null handling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet allows one null element"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet allows multiple null elements"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet does not allow null elements"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet throws exception for null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet allows only one null element."
+    },
+    {
+        "title": "JavaHashSet - Q0024",
+        "text": "Which of the following is true about HashSet and internal storage?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet stores elements as keys in a HashMap"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet stores elements as values in a HashMap"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet stores elements in an array"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet stores elements in a linked list"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet stores elements as keys in an internal HashMap with dummy values."
+    },
+    {
+        "title": "JavaHashSet - Q0025",
+        "text": "Which of the following is true about HashSet and capacity growth?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Capacity doubles when load factor is exceeded"
+            },
+            {
+                "letter": "B",
+                "text": "Capacity increases by 50%"
+            },
+            {
+                "letter": "C",
+                "text": "Capacity remains constant"
+            },
+            {
+                "letter": "D",
+                "text": "Capacity decreases automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "When the load factor is exceeded, HashSet doubles its capacity."
+    },
+    {
+        "title": "JavaHashSet - Q0026",
+        "text": "Which of the following is true about HashSet and contains()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "contains() checks if an element exists in the set"
+            },
+            {
+                "letter": "B",
+                "text": "contains() adds an element"
+            },
+            {
+                "letter": "C",
+                "text": "contains() removes an element"
+            },
+            {
+                "letter": "D",
+                "text": "contains() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The contains() method checks if an element exists in the set."
+    },
+    {
+        "title": "JavaHashSet - Q0027",
+        "text": "Which of the following is true about HashSet and add()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "add() adds an element if not already present"
+            },
+            {
+                "letter": "B",
+                "text": "add() always adds duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "add() replaces existing elements"
+            },
+            {
+                "letter": "D",
+                "text": "add() throws exception for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The add() method adds an element only if it is not already present."
+    },
+    {
+        "title": "JavaHashSet - Q0028",
+        "text": "Which of the following is true about HashSet and remove()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove() deletes a specified element"
+            },
+            {
+                "letter": "B",
+                "text": "remove() deletes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "remove() adds a new element"
+            },
+            {
+                "letter": "D",
+                "text": "remove() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove() method deletes the specified element from the set."
+    },
+    {
+        "title": "JavaHashSet - Q0029",
+        "text": "Which of the following is true about HashSet and clear()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clear() removes all elements"
+            },
+            {
+                "letter": "B",
+                "text": "clear() removes one element"
+            },
+            {
+                "letter": "C",
+                "text": "clear() adds elements"
+            },
+            {
+                "letter": "D",
+                "text": "clear() sorts elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clear() method removes all elements from the set."
+    },
+    {
+        "title": "JavaHashSet - Q0030",
+        "text": "Which of the following is true about HashSet and size()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "size() returns the number of elements"
+            },
+            {
+                "letter": "B",
+                "text": "size() returns the capacity"
+            },
+            {
+                "letter": "C",
+                "text": "size() returns the load factor"
+            },
+            {
+                "letter": "D",
+                "text": "size() returns the hash code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The size() method returns the number of elements in the set."
+    },
+    {
+        "title": "JavaHashSet - Q0031",
+        "text": "Which of the following is true about HashSet and isEmpty()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isEmpty() checks if the set has no elements"
+            },
+            {
+                "letter": "B",
+                "text": "isEmpty() clears the set"
+            },
+            {
+                "letter": "C",
+                "text": "isEmpty() adds elements"
+            },
+            {
+                "letter": "D",
+                "text": "isEmpty() sorts elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The isEmpty() method checks if the set contains no elements."
+    },
+    {
+        "title": "JavaHashSet - Q0032",
+        "text": "Which of the following is true about HashSet and clone()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clone() creates a shallow copy"
+            },
+            {
+                "letter": "B",
+                "text": "clone() creates a deep copy"
+            },
+            {
+                "letter": "C",
+                "text": "clone() clears the set"
+            },
+            {
+                "letter": "D",
+                "text": "clone() sorts the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clone() method creates a shallow copy of the HashSet."
+    },
+    {
+        "title": "JavaHashSet - Q0033",
+        "text": "Which of the following is true about HashSet and serialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet is serializable"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet is not serializable"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet requires custom serialization"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet cannot be written to a stream"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet implements Serializable, allowing it to be serialized."
+    },
+    {
+        "title": "JavaHashSet - Q0034",
+        "text": "Which of the following is true about HashSet and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet is not thread-safe"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet is thread-safe"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet is synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet is immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet is not thread-safe; external synchronization is required."
+    },
+    {
+        "title": "JavaHashSet - Q0035",
+        "text": "Which of the following is true about HashSet and iteration performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iteration is O(n)"
+            },
+            {
+                "letter": "B",
+                "text": "Iteration is O(1)"
+            },
+            {
+                "letter": "C",
+                "text": "Iteration is O(log n)"
+            },
+            {
+                "letter": "D",
+                "text": "Iteration is O(n^2)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterating through a HashSet requires visiting each element, making it O(n)."
+    },
+    {
+        "title": "JavaHashSet - Q0036",
+        "text": "Which of the following is true about HashSet and ordering of elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet does not maintain any order"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet maintains sorted order"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet maintains reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet does not maintain any specific order of elements."
+    },
+    {
+        "title": "JavaHashSet - Q0037",
+        "text": "Which of the following is true about HashSet and equals()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals() compares elements for equality"
+            },
+            {
+                "letter": "B",
+                "text": "equals() compares references only"
+            },
+            {
+                "letter": "C",
+                "text": "equals() compares hash codes only"
+            },
+            {
+                "letter": "D",
+                "text": "equals() always returns false"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares elements for equality."
+    },
+    {
+        "title": "JavaHashSet - Q0038",
+        "text": "Which of the following is true about HashSet and hashCode()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hashCode() depends on the elements"
+            },
+            {
+                "letter": "B",
+                "text": "hashCode() is constant"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode() depends on capacity"
+            },
+            {
+                "letter": "D",
+                "text": "hashCode() depends on memory address"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() of a HashSet depends on the hash codes of its elements."
+    },
+    {
+        "title": "JavaHashSet - Q0039",
+        "text": "Which of the following is true about HashSet and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HashSet is mutable"
+            },
+            {
+                "letter": "B",
+                "text": "HashSet is immutable"
+            },
+            {
+                "letter": "C",
+                "text": "HashSet is read-only"
+            },
+            {
+                "letter": "D",
+                "text": "HashSet is final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet is mutable; elements can be added or removed."
+    },
+    {
+        "title": "JavaHashSet - Q0040",
+        "text": "Which of the following is true about HashSet and removeAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeAll() removes all elements present in another collection"
+            },
+            {
+                "letter": "B",
+                "text": "removeAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "removeAll() removes duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "removeAll() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeAll() method removes all elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaHashSet - Q0041",
+        "text": "Which of the following is true about HashSet and retainAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "retainAll() retains only elements present in another collection"
+            },
+            {
+                "letter": "B",
+                "text": "retainAll() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "retainAll() clears the set"
+            },
+            {
+                "letter": "D",
+                "text": "retainAll() adds new elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The retainAll() method retains only elements that are also contained in another collection."
+    },
+    {
+        "title": "JavaHashSet - Q0042",
+        "text": "Which of the following is true about HashSet and forEach()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "forEach() performs an action for each element"
+            },
+            {
+                "letter": "B",
+                "text": "forEach() removes elements"
+            },
+            {
+                "letter": "C",
+                "text": "forEach() sorts elements"
+            },
+            {
+                "letter": "D",
+                "text": "forEach() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The forEach() method performs the specified action for each element in the set."
+    },
+    {
+        "title": "JavaHashSet - Q0043",
+        "text": "Which of the following is true about HashSet and stream()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "stream() returns a sequential stream of elements"
+            },
+            {
+                "letter": "B",
+                "text": "stream() removes elements"
+            },
+            {
+                "letter": "C",
+                "text": "stream() sorts elements"
+            },
+            {
+                "letter": "D",
+                "text": "stream() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The stream() method returns a sequential stream of elements from the set."
+    },
+    {
+        "title": "JavaHashSet - Q0044",
+        "text": "Which of the following is true about HashSet and parallelStream()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "parallelStream() returns a parallel stream of elements"
+            },
+            {
+                "letter": "B",
+                "text": "parallelStream() removes elements"
+            },
+            {
+                "letter": "C",
+                "text": "parallelStream() sorts elements"
+            },
+            {
+                "letter": "D",
+                "text": "parallelStream() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The parallelStream() method returns a parallel stream of elements from the set."
+    },
+    {
+        "title": "JavaHashSet - Q0045",
+        "text": "Which of the following is true about HashSet and iterator()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "iterator() returns an iterator over the elements"
+            },
+            {
+                "letter": "B",
+                "text": "iterator() removes elements"
+            },
+            {
+                "letter": "C",
+                "text": "iterator() sorts elements"
+            },
+            {
+                "letter": "D",
+                "text": "iterator() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The iterator() method returns an iterator over the elements in the set."
+    },
+    {
+        "title": "JavaHashSet - Q0046",
+        "text": "Which of the following is true about HashSet and spliterator()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "spliterator() returns a Spliterator over the elements"
+            },
+            {
+                "letter": "B",
+                "text": "spliterator() removes elements"
+            },
+            {
+                "letter": "C",
+                "text": "spliterator() sorts elements"
+            },
+            {
+                "letter": "D",
+                "text": "spliterator() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The spliterator() method returns a Spliterator over the elements in the set."
+    },
+    {
+        "title": "JavaHashSet - Q0047",
+        "text": "Which of the following is true about HashSet and toString()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "toString() returns a string representation of elements"
+            },
+            {
+                "letter": "B",
+                "text": "toString() returns the class name"
+            },
+            {
+                "letter": "C",
+                "text": "toString() returns the hash code"
+            },
+            {
+                "letter": "D",
+                "text": "toString() returns null"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The toString() method returns a string representation of the set elements."
+    },
+    {
+        "title": "JavaHashSet - Q0048",
+        "text": "Which of the following is true about HashSet and removeIf()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeIf() removes elements matching a condition"
+            },
+            {
+                "letter": "B",
+                "text": "removeIf() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "removeIf() clears the set"
+            },
+            {
+                "letter": "D",
+                "text": "removeIf() adds elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeIf() method removes elements that satisfy a given predicate condition."
+    },
+    {
+        "title": "JavaHashSet - Q0049",
+        "text": "Which of the following is true about HashSet and capacity control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Capacity is managed automatically based on load factor"
+            },
+            {
+                "letter": "B",
+                "text": "Capacity must be manually set"
+            },
+            {
+                "letter": "C",
+                "text": "Capacity is fixed"
+            },
+            {
+                "letter": "D",
+                "text": "Capacity decreases automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet automatically manages capacity based on the load factor."
+    },
+    {
+        "title": "JavaHashSet - Q0050",
+        "text": "Which of the following best describes HashSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A collection that stores unique elements using hashing"
+            },
+            {
+                "letter": "B",
+                "text": "A collection that stores elements in sorted order"
+            },
+            {
+                "letter": "C",
+                "text": "A collection that allows duplicates"
+            },
+            {
+                "letter": "D",
+                "text": "A collection that maintains insertion order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HashSet is a collection that stores unique elements using hashing."
+    }
+]

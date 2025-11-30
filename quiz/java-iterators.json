@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaIterators - Q0001",
+        "text": "Which package contains the Iterator interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Iterator interface is part of the java.util package."
+    },
+    {
+        "title": "JavaIterators - Q0002",
+        "text": "Which of the following methods is defined in the Iterator interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hasNext()"
+            },
+            {
+                "letter": "B",
+                "text": "next()"
+            },
+            {
+                "letter": "C",
+                "text": "remove()"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The Iterator interface defines hasNext(), next(), and remove() methods."
+    },
+    {
+        "title": "JavaIterators - Q0003",
+        "text": "What does the hasNext() method of Iterator return?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "true if there are more elements to iterate"
+            },
+            {
+                "letter": "B",
+                "text": "false if there are more elements"
+            },
+            {
+                "letter": "C",
+                "text": "the next element"
+            },
+            {
+                "letter": "D",
+                "text": "the size of the collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hasNext() method returns true if the iteration has more elements."
+    },
+    {
+        "title": "JavaIterators - Q0004",
+        "text": "What does the next() method of Iterator do?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Returns the next element in the iteration"
+            },
+            {
+                "letter": "B",
+                "text": "Removes the current element"
+            },
+            {
+                "letter": "C",
+                "text": "Checks if there is a next element"
+            },
+            {
+                "letter": "D",
+                "text": "Resets the iterator"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The next() method returns the next element in the iteration."
+    },
+    {
+        "title": "JavaIterators - Q0005",
+        "text": "What exception is thrown if next() is called when no more elements exist?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NoSuchElementException"
+            },
+            {
+                "letter": "B",
+                "text": "NullPointerException"
+            },
+            {
+                "letter": "C",
+                "text": "IllegalStateException"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentModificationException"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Calling next() when no elements remain throws NoSuchElementException."
+    },
+    {
+        "title": "JavaIterators - Q0006",
+        "text": "Which method removes the last element returned by the iterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove()"
+            },
+            {
+                "letter": "B",
+                "text": "delete()"
+            },
+            {
+                "letter": "C",
+                "text": "clear()"
+            },
+            {
+                "letter": "D",
+                "text": "discard()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove() method removes the last element returned by the iterator."
+    },
+    {
+        "title": "JavaIterators - Q0007",
+        "text": "What exception is thrown if remove() is called before next()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "IllegalStateException"
+            },
+            {
+                "letter": "B",
+                "text": "NoSuchElementException"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "UnsupportedOperationException"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Calling remove() before next() throws IllegalStateException."
+    },
+    {
+        "title": "JavaIterators - Q0008",
+        "text": "Which of the following interfaces extends Iterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ListIterator"
+            },
+            {
+                "letter": "B",
+                "text": "Enumeration"
+            },
+            {
+                "letter": "C",
+                "text": "Iterable"
+            },
+            {
+                "letter": "D",
+                "text": "Spliterator"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ListIterator extends Iterator and adds bidirectional traversal methods."
+    },
+    {
+        "title": "JavaIterators - Q0009",
+        "text": "Which of the following methods is specific to ListIterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "previous()"
+            },
+            {
+                "letter": "B",
+                "text": "hasPrevious()"
+            },
+            {
+                "letter": "C",
+                "text": "add(E e)"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "ListIterator adds methods like previous(), hasPrevious(), and add(E e)."
+    },
+    {
+        "title": "JavaIterators - Q0010",
+        "text": "Which of the following collections provide a ListIterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedList"
+            },
+            {
+                "letter": "C",
+                "text": "Vector"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "ArrayList, LinkedList, and Vector provide ListIterator implementations."
+    },
+    {
+        "title": "JavaIterators - Q0011",
+        "text": "Which of the following is true about Iterator and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterator throws ConcurrentModificationException if modified during iteration"
+            },
+            {
+                "letter": "B",
+                "text": "Iterator ignores modifications"
+            },
+            {
+                "letter": "C",
+                "text": "Iterator automatically synchronizes"
+            },
+            {
+                "letter": "D",
+                "text": "Iterator restarts iteration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-fast iterators throw ConcurrentModificationException if the collection is modified during iteration."
+    },
+    {
+        "title": "JavaIterators - Q0012",
+        "text": "Which of the following is a fail-safe iterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "CopyOnWriteArrayList iterator"
+            },
+            {
+                "letter": "B",
+                "text": "ArrayList iterator"
+            },
+            {
+                "letter": "C",
+                "text": "HashMap iterator"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedList iterator"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CopyOnWriteArrayList provides a fail-safe iterator that works on a copy of the collection."
+    },
+    {
+        "title": "JavaIterators - Q0013",
+        "text": "Which of the following is true about fail-safe iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They do not throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "They throw ConcurrentModificationException"
+            },
+            {
+                "letter": "C",
+                "text": "They modify the original collection"
+            },
+            {
+                "letter": "D",
+                "text": "They are slower than fail-fast iterators"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-safe iterators work on a copy of the collection and do not throw ConcurrentModificationException."
+    },
+    {
+        "title": "JavaIterators - Q0014",
+        "text": "Which of the following is true about Enumeration and Iterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enumeration is legacy, Iterator is modern"
+            },
+            {
+                "letter": "B",
+                "text": "Enumeration allows element removal"
+            },
+            {
+                "letter": "C",
+                "text": "Iterator is slower than Enumeration"
+            },
+            {
+                "letter": "D",
+                "text": "Enumeration is fail-fast"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Enumeration is a legacy interface, while Iterator is the modern replacement."
+    },
+    {
+        "title": "JavaIterators - Q0015",
+        "text": "Which of the following methods is not part of the Iterator interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "forEachRemaining()"
+            },
+            {
+                "letter": "B",
+                "text": "next()"
+            },
+            {
+                "letter": "C",
+                "text": "hasNext()"
+            },
+            {
+                "letter": "D",
+                "text": "previous()"
+            }
+        ],
+        "correct": "D",
+        "explanation": "The previous() method is part of ListIterator, not Iterator."
+    },
+    {
+        "title": "JavaIterators - Q0016",
+        "text": "Which Java version introduced the forEachRemaining() method in Iterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Java 8"
+            },
+            {
+                "letter": "B",
+                "text": "Java 7"
+            },
+            {
+                "letter": "C",
+                "text": "Java 6"
+            },
+            {
+                "letter": "D",
+                "text": "Java 5"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The forEachRemaining() method was introduced in Java 8 to support lambda expressions."
+    },
+    {
+        "title": "JavaIterators - Q0017",
+        "text": "What is the return type of the next() method in Iterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Object"
+            },
+            {
+                "letter": "B",
+                "text": "boolean"
+            },
+            {
+                "letter": "C",
+                "text": "int"
+            },
+            {
+                "letter": "D",
+                "text": "void"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The next() method returns an Object, which can be cast to the appropriate type."
+    },
+    {
+        "title": "JavaIterators - Q0018",
+        "text": "Which of the following is true about Iterator and Iterable?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterable provides an iterator()"
+            },
+            {
+                "letter": "B",
+                "text": "Iterator provides an iterable()"
+            },
+            {
+                "letter": "C",
+                "text": "Both are the same"
+            },
+            {
+                "letter": "D",
+                "text": "Iterable extends Iterator"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Iterable interface provides the iterator() method to return an Iterator."
+    },
+    {
+        "title": "JavaIterators - Q0019",
+        "text": "Which of the following is true about the remove() method in Iterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It removes the last element returned by next()"
+            },
+            {
+                "letter": "B",
+                "text": "It removes the next element"
+            },
+            {
+                "letter": "C",
+                "text": "It removes all elements"
+            },
+            {
+                "letter": "D",
+                "text": "It resets the iterator"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove() method removes the last element returned by next()."
+    },
+    {
+        "title": "JavaIterators - Q0020",
+        "text": "Which of the following is true about Iterator and concurrent modification?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fail-fast iterators throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "Fail-safe iterators throw ConcurrentModificationException"
+            },
+            {
+                "letter": "C",
+                "text": "All iterators are fail-safe"
+            },
+            {
+                "letter": "D",
+                "text": "All iterators are fail-fast"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-fast iterators throw ConcurrentModificationException when the collection is modified during iteration."
+    },
+    {
+        "title": "JavaIterators - Q0021",
+        "text": "Which of the following is true about the Iterator interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterator is a generic interface"
+            },
+            {
+                "letter": "B",
+                "text": "Iterator is a class"
+            },
+            {
+                "letter": "C",
+                "text": "Iterator is abstract class"
+            },
+            {
+                "letter": "D",
+                "text": "Iterator is a final class"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterator is a generic interface that allows iteration over a collection of a specific type."
+    },
+    {
+        "title": "JavaIterators - Q0022",
+        "text": "Which of the following is true about the Iterable interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides the iterator() method"
+            },
+            {
+                "letter": "B",
+                "text": "It extends Iterator"
+            },
+            {
+                "letter": "C",
+                "text": "It provides next() method"
+            },
+            {
+                "letter": "D",
+                "text": "It provides remove() method"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Iterable interface provides the iterator() method to return an Iterator."
+    },
+    {
+        "title": "JavaIterators - Q0023",
+        "text": "Which of the following is true about the for-each loop in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It uses the Iterator internally"
+            },
+            {
+                "letter": "B",
+                "text": "It uses Enumeration internally"
+            },
+            {
+                "letter": "C",
+                "text": "It uses Spliterator internally"
+            },
+            {
+                "letter": "D",
+                "text": "It uses Stream internally"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The enhanced for-each loop uses the Iterator internally to traverse elements."
+    },
+    {
+        "title": "JavaIterators - Q0024",
+        "text": "Which of the following is true about ListIterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows bidirectional traversal"
+            },
+            {
+                "letter": "B",
+                "text": "It allows only forward traversal"
+            },
+            {
+                "letter": "C",
+                "text": "It cannot remove elements"
+            },
+            {
+                "letter": "D",
+                "text": "It is used only with Sets"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ListIterator allows bidirectional traversal of lists."
+    },
+    {
+        "title": "JavaIterators - Q0025",
+        "text": "Which of the following methods is unique to ListIterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "set(E e)"
+            },
+            {
+                "letter": "B",
+                "text": "add(E e)"
+            },
+            {
+                "letter": "C",
+                "text": "previous()"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "ListIterator adds methods like set(), add(), and previous() for enhanced control."
+    },
+    {
+        "title": "JavaIterators - Q0026",
+        "text": "Which of the following collections support ListIterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ArrayList"
+            },
+            {
+                "letter": "B",
+                "text": "LinkedList"
+            },
+            {
+                "letter": "C",
+                "text": "Vector"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "ArrayList, LinkedList, and Vector support ListIterator."
+    },
+    {
+        "title": "JavaIterators - Q0027",
+        "text": "Which of the following is true about Spliterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can traverse and partition elements"
+            },
+            {
+                "letter": "B",
+                "text": "It can only traverse elements"
+            },
+            {
+                "letter": "C",
+                "text": "It is used only for Maps"
+            },
+            {
+                "letter": "D",
+                "text": "It is a legacy interface"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Spliterator can traverse and partition elements for parallel processing."
+    },
+    {
+        "title": "JavaIterators - Q0028",
+        "text": "Which Java version introduced Spliterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Java 8"
+            },
+            {
+                "letter": "B",
+                "text": "Java 7"
+            },
+            {
+                "letter": "C",
+                "text": "Java 6"
+            },
+            {
+                "letter": "D",
+                "text": "Java 5"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Spliterator was introduced in Java 8 to support parallel stream processing."
+    },
+    {
+        "title": "JavaIterators - Q0029",
+        "text": "Which of the following methods is defined in Spliterator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "tryAdvance()"
+            },
+            {
+                "letter": "B",
+                "text": "forEachRemaining()"
+            },
+            {
+                "letter": "C",
+                "text": "trySplit()"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Spliterator defines methods like tryAdvance(), forEachRemaining(), and trySplit()."
+    },
+    {
+        "title": "JavaIterators - Q0030",
+        "text": "Which of the following is true about Enumeration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It is a legacy interface"
+            },
+            {
+                "letter": "B",
+                "text": "It allows element removal"
+            },
+            {
+                "letter": "C",
+                "text": "It is fail-fast"
+            },
+            {
+                "letter": "D",
+                "text": "It is used with Streams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Enumeration is a legacy interface used before Iterator was introduced."
+    },
+    {
+        "title": "JavaIterators - Q0031",
+        "text": "Which of the following methods are defined in Enumeration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hasMoreElements()"
+            },
+            {
+                "letter": "B",
+                "text": "nextElement()"
+            },
+            {
+                "letter": "C",
+                "text": "remove()"
+            },
+            {
+                "letter": "D",
+                "text": "A and B"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Enumeration defines hasMoreElements() and nextElement() methods."
+    },
+    {
+        "title": "JavaIterators - Q0032",
+        "text": "Which of the following is true about Iterator and Enumeration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterator can remove elements, Enumeration cannot"
+            },
+            {
+                "letter": "B",
+                "text": "Enumeration can remove elements, Iterator cannot"
+            },
+            {
+                "letter": "C",
+                "text": "Both can remove elements"
+            },
+            {
+                "letter": "D",
+                "text": "Neither can remove elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterator provides remove() method, while Enumeration does not."
+    },
+    {
+        "title": "JavaIterators - Q0033",
+        "text": "Which of the following is true about fail-fast iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They throw ConcurrentModificationException"
+            },
+            {
+                "letter": "B",
+                "text": "They ignore modifications"
+            },
+            {
+                "letter": "C",
+                "text": "They are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "They are slower than fail-safe iterators"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-fast iterators throw ConcurrentModificationException when the collection is modified."
+    },
+    {
+        "title": "JavaIterators - Q0034",
+        "text": "Which of the following is true about fail-safe iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They work on a copy of the collection"
+            },
+            {
+                "letter": "B",
+                "text": "They modify the original collection"
+            },
+            {
+                "letter": "C",
+                "text": "They throw ConcurrentModificationException"
+            },
+            {
+                "letter": "D",
+                "text": "They are faster than fail-fast iterators"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-safe iterators work on a copy of the collection, avoiding exceptions."
+    },
+    {
+        "title": "JavaIterators - Q0035",
+        "text": "Which of the following collections provide fail-safe iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "CopyOnWriteArrayList"
+            },
+            {
+                "letter": "B",
+                "text": "ConcurrentHashMap"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentLinkedQueue"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Concurrent collections like CopyOnWriteArrayList and ConcurrentHashMap provide fail-safe iterators."
+    },
+    {
+        "title": "JavaIterators - Q0036",
+        "text": "Which of the following is true about Iterator and Streams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Streams can be created from Iterators"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators can be created from Streams"
+            },
+            {
+                "letter": "C",
+                "text": "Both A and B"
+            },
+            {
+                "letter": "D",
+                "text": "Neither A nor B"
+            }
+        ],
+        "correct": "C",
+        "explanation": "Streams can be created from Iterators and vice versa using utility methods."
+    },
+    {
+        "title": "JavaIterators - Q0037",
+        "text": "Which of the following is true about Iterator and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterators are not thread-safe by default"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators are thread-safe"
+            },
+            {
+                "letter": "C",
+                "text": "Iterators are synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "Iterators are immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterators are not thread-safe by default; concurrent modifications can cause exceptions."
+    },
+    {
+        "title": "JavaIterators - Q0038",
+        "text": "Which of the following is true about Iterator and remove()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove() is optional and may throw UnsupportedOperationException"
+            },
+            {
+                "letter": "B",
+                "text": "remove() is mandatory"
+            },
+            {
+                "letter": "C",
+                "text": "remove() removes all elements"
+            },
+            {
+                "letter": "D",
+                "text": "remove() resets the iterator"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove() method is optional and may throw UnsupportedOperationException if not supported."
+    },
+    {
+        "title": "JavaIterators - Q0039",
+        "text": "Which of the following is true about Iterator and generics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterator is a generic interface"
+            },
+            {
+                "letter": "B",
+                "text": "Iterator cannot use generics"
+            },
+            {
+                "letter": "C",
+                "text": "Iterator uses raw types"
+            },
+            {
+                "letter": "D",
+                "text": "Iterator supports only Object type"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterator is a generic interface that allows type-safe iteration."
+    },
+    {
+        "title": "JavaIterators - Q0040",
+        "text": "Which of the following is true about Iterator and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterator can iterate over null elements"
+            },
+            {
+                "letter": "B",
+                "text": "Iterator skips null elements"
+            },
+            {
+                "letter": "C",
+                "text": "Iterator throws NullPointerException"
+            },
+            {
+                "letter": "D",
+                "text": "Iterator removes null elements automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterator can iterate over null elements if the collection allows them."
+    },
+    {
+        "title": "JavaIterators - Q0041",
+        "text": "Which of the following is true about Iterator and Map?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Map provides iterators for keys, values, and entries"
+            },
+            {
+                "letter": "B",
+                "text": "Map provides only key iterator"
+            },
+            {
+                "letter": "C",
+                "text": "Map provides only value iterator"
+            },
+            {
+                "letter": "D",
+                "text": "Map does not support iterators"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Map provides iterators for keys, values, and entries through keySet(), values(), and entrySet()."
+    },
+    {
+        "title": "JavaIterators - Q0042",
+        "text": "Which of the following is true about Iterator and Set?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Set provides an iterator for unique elements"
+            },
+            {
+                "letter": "B",
+                "text": "Set provides multiple iterators for duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "Set does not support iteration"
+            },
+            {
+                "letter": "D",
+                "text": "Set uses Enumeration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Set provides an iterator for unique elements since duplicates are not allowed."
+    },
+    {
+        "title": "JavaIterators - Q0043",
+        "text": "Which of the following is true about Iterator and Queue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Queue provides an iterator for its elements"
+            },
+            {
+                "letter": "B",
+                "text": "Queue does not support iteration"
+            },
+            {
+                "letter": "C",
+                "text": "Queue uses Enumeration"
+            },
+            {
+                "letter": "D",
+                "text": "Queue uses Spliterator only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Queue provides an iterator to traverse its elements in order."
+    },
+    {
+        "title": "JavaIterators - Q0044",
+        "text": "Which of the following is true about Iterator and Deque?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deque provides both forward and reverse iterators"
+            },
+            {
+                "letter": "B",
+                "text": "Deque provides only forward iterator"
+            },
+            {
+                "letter": "C",
+                "text": "Deque does not support iteration"
+            },
+            {
+                "letter": "D",
+                "text": "Deque uses Enumeration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Deque provides both forward and reverse iterators for traversal."
+    },
+    {
+        "title": "JavaIterators - Q0045",
+        "text": "Which of the following is true about Iterator and ConcurrentHashMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ConcurrentHashMap provides fail-safe iterators"
+            },
+            {
+                "letter": "B",
+                "text": "ConcurrentHashMap provides fail-fast iterators"
+            },
+            {
+                "letter": "C",
+                "text": "ConcurrentHashMap does not support iteration"
+            },
+            {
+                "letter": "D",
+                "text": "ConcurrentHashMap uses Enumeration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ConcurrentHashMap provides fail-safe iterators that do not throw ConcurrentModificationException."
+    },
+    {
+        "title": "JavaIterators - Q0046",
+        "text": "Which of the following is true about Iterator and remove() in fail-safe iterators?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove() is not supported"
+            },
+            {
+                "letter": "B",
+                "text": "remove() removes from the original collection"
+            },
+            {
+                "letter": "C",
+                "text": "remove() removes from the copy"
+            },
+            {
+                "letter": "D",
+                "text": "remove() resets the iterator"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fail-safe iterators do not support remove() because they operate on a copy of the collection."
+    },
+    {
+        "title": "JavaIterators - Q0047",
+        "text": "Which of the following is true about Iterator and lambda expressions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "forEachRemaining() supports lambda expressions"
+            },
+            {
+                "letter": "B",
+                "text": "next() supports lambda expressions"
+            },
+            {
+                "letter": "C",
+                "text": "remove() supports lambda expressions"
+            },
+            {
+                "letter": "D",
+                "text": "hasNext() supports lambda expressions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The forEachRemaining() method supports lambda expressions for iteration."
+    },
+    {
+        "title": "JavaIterators - Q0048",
+        "text": "Which of the following is true about Iterator and Streams interoperability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Streams can be created from Iterators using StreamSupport"
+            },
+            {
+                "letter": "B",
+                "text": "Iterators cannot be converted to Streams"
+            },
+            {
+                "letter": "C",
+                "text": "Streams automatically use Iterators"
+            },
+            {
+                "letter": "D",
+                "text": "Streams replace Iterators completely"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Streams can be created from Iterators using StreamSupport.stream()."
+    },
+    {
+        "title": "JavaIterators - Q0049",
+        "text": "Which of the following is true about Iterator and performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iterator traversal is generally faster than for-each loop"
+            },
+            {
+                "letter": "B",
+                "text": "Iterator traversal is slower than indexed access"
+            },
+            {
+                "letter": "C",
+                "text": "Iterator traversal is always constant time"
+            },
+            {
+                "letter": "D",
+                "text": "Iterator traversal is always O(n^2)"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Iterator traversal is slower than indexed access for random-access lists like ArrayList."
+    },
+    {
+        "title": "JavaIterators - Q0050",
+        "text": "Which of the following best describes the Iterator interface?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An interface for sequentially accessing elements of a collection"
+            },
+            {
+                "letter": "B",
+                "text": "A class for storing elements"
+            },
+            {
+                "letter": "C",
+                "text": "A method for sorting collections"
+            },
+            {
+                "letter": "D",
+                "text": "A mechanism for random access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Iterator interface provides a way to sequentially access elements of a collection."
+    }
+]

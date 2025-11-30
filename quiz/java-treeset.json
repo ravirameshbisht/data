@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaTreeSet - Q0001",
+        "text": "Which package contains the TreeSet class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The TreeSet class is part of the java.util package."
+    },
+    {
+        "title": "JavaTreeSet - Q0002",
+        "text": "Which interface does TreeSet implement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableSet"
+            },
+            {
+                "letter": "B",
+                "text": "List"
+            },
+            {
+                "letter": "C",
+                "text": "Queue"
+            },
+            {
+                "letter": "D",
+                "text": "Map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet implements the NavigableSet interface."
+    },
+    {
+        "title": "JavaTreeSet - Q0003",
+        "text": "Which data structure does TreeSet use internally?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap"
+            },
+            {
+                "letter": "B",
+                "text": "HashMap"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedList"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet uses a TreeMap internally to store its elements."
+    },
+    {
+        "title": "JavaTreeSet - Q0004",
+        "text": "Which of the following is true about TreeSet and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet does not allow duplicate elements"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet allows duplicate elements"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet allows duplicate keys"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet allows duplicate values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet does not allow duplicate elements."
+    },
+    {
+        "title": "JavaTreeSet - Q0005",
+        "text": "Which of the following is true about TreeSet and null elements?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet does not allow null elements"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet allows one null element"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet throws NullPointerException only for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet does not allow null elements because it uses natural ordering or a comparator."
+    },
+    {
+        "title": "JavaTreeSet - Q0006",
+        "text": "Which of the following is true about TreeSet and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet maintains elements in sorted order"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet maintains random order"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet maintains reverse insertion order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet maintains elements in sorted order according to their natural ordering or a comparator."
+    },
+    {
+        "title": "JavaTreeSet - Q0007",
+        "text": "Which of the following is true about TreeSet and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet is not synchronized"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet is synchronized"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet is thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet is immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet is not synchronized and is not thread-safe by default."
+    },
+    {
+        "title": "JavaTreeSet - Q0008",
+        "text": "Which of the following methods can be used to synchronize a TreeSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.synchronizedSortedSet()"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet.synchronize()"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet.lock()"
+            },
+            {
+                "letter": "D",
+                "text": "Collections.lockSet()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.synchronizedSortedSet() method returns a synchronized version of the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0009",
+        "text": "Which of the following is true about TreeSet and iteration order?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iteration order is sorted order"
+            },
+            {
+                "letter": "B",
+                "text": "Iteration order is insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "Iteration order is random"
+            },
+            {
+                "letter": "D",
+                "text": "Iteration order is reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet iterates elements in sorted order."
+    },
+    {
+        "title": "JavaTreeSet - Q0010",
+        "text": "Which of the following is true about TreeSet and performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet provides O(log n) time for add, remove, and contains"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet provides O(1) time for add, remove, and contains"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet provides O(n) time for add, remove, and contains"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet provides O(n^2) time for add, remove, and contains"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet provides O(log n) time complexity for add, remove, and contains operations."
+    },
+    {
+        "title": "JavaTreeSet - Q0011",
+        "text": "Which of the following is true about TreeSet and duplicates detection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Duplicates are detected using compareTo() or Comparator"
+            },
+            {
+                "letter": "B",
+                "text": "Duplicates are detected using equals()"
+            },
+            {
+                "letter": "C",
+                "text": "Duplicates are detected using hashCode()"
+            },
+            {
+                "letter": "D",
+                "text": "Duplicates are not detected"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet uses compareTo() or Comparator to detect duplicates."
+    },
+    {
+        "title": "JavaTreeSet - Q0012",
+        "text": "Which of the following is true about TreeSet and null handling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet throws NullPointerException for null elements"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet allows one null element"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet allows multiple null elements"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet ignores null elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet throws NullPointerException when null is added because it cannot compare null values."
+    },
+    {
+        "title": "JavaTreeSet - Q0013",
+        "text": "Which of the following is true about TreeSet and internal ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet uses natural ordering or a custom comparator"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet uses hash codes for ordering"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet uses insertion order"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet uses random ordering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet uses natural ordering or a custom comparator for sorting elements."
+    },
+    {
+        "title": "JavaTreeSet - Q0014",
+        "text": "Which of the following is true about TreeSet and comparator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet can use a custom comparator for sorting"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet cannot use a comparator"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet uses only natural ordering"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet ignores comparators"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet can use a custom comparator for sorting elements."
+    },
+    {
+        "title": "JavaTreeSet - Q0015",
+        "text": "Which of the following is true about TreeSet and first()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "first() returns the lowest element"
+            },
+            {
+                "letter": "B",
+                "text": "first() returns the highest element"
+            },
+            {
+                "letter": "C",
+                "text": "first() removes the lowest element"
+            },
+            {
+                "letter": "D",
+                "text": "first() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The first() method returns the lowest element in the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0016",
+        "text": "Which of the following is true about TreeSet and last()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "last() returns the highest element"
+            },
+            {
+                "letter": "B",
+                "text": "last() returns the lowest element"
+            },
+            {
+                "letter": "C",
+                "text": "last() removes the highest element"
+            },
+            {
+                "letter": "D",
+                "text": "last() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The last() method returns the highest element in the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0017",
+        "text": "Which of the following is true about TreeSet and headSet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "headSet() returns elements less than a given element"
+            },
+            {
+                "letter": "B",
+                "text": "headSet() returns elements greater than a given element"
+            },
+            {
+                "letter": "C",
+                "text": "headSet() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "headSet() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The headSet() method returns elements less than the specified element."
+    },
+    {
+        "title": "JavaTreeSet - Q0018",
+        "text": "Which of the following is true about TreeSet and tailSet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "tailSet() returns elements greater than or equal to a given element"
+            },
+            {
+                "letter": "B",
+                "text": "tailSet() returns elements less than a given element"
+            },
+            {
+                "letter": "C",
+                "text": "tailSet() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "tailSet() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The tailSet() method returns elements greater than or equal to the specified element."
+    },
+    {
+        "title": "JavaTreeSet - Q0019",
+        "text": "Which of the following is true about TreeSet and subSet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subSet() returns elements between two specified elements"
+            },
+            {
+                "letter": "B",
+                "text": "subSet() returns all elements"
+            },
+            {
+                "letter": "C",
+                "text": "subSet() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "subSet() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subSet() method returns elements between two specified elements."
+    },
+    {
+        "title": "JavaTreeSet - Q0020",
+        "text": "Which of the following is true about TreeSet and descendingSet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingSet() returns a reverse order view of the set"
+            },
+            {
+                "letter": "B",
+                "text": "descendingSet() returns a sorted order view"
+            },
+            {
+                "letter": "C",
+                "text": "descendingSet() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "descendingSet() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingSet() method returns a reverse order view of the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0021",
+        "text": "Which of the following is true about TreeSet and iterator()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "iterator() returns elements in ascending order"
+            },
+            {
+                "letter": "B",
+                "text": "iterator() returns elements in random order"
+            },
+            {
+                "letter": "C",
+                "text": "iterator() returns elements in insertion order"
+            },
+            {
+                "letter": "D",
+                "text": "iterator() returns elements in reverse order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The iterator() method of TreeSet returns elements in ascending order."
+    },
+    {
+        "title": "JavaTreeSet - Q0022",
+        "text": "Which of the following is true about TreeSet and descendingIterator()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingIterator() returns elements in reverse order"
+            },
+            {
+                "letter": "B",
+                "text": "descendingIterator() returns elements in ascending order"
+            },
+            {
+                "letter": "C",
+                "text": "descendingIterator() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "descendingIterator() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingIterator() method returns an iterator that traverses the set in reverse order."
+    },
+    {
+        "title": "JavaTreeSet - Q0023",
+        "text": "Which of the following is true about TreeSet and comparator()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "comparator() returns the comparator used for ordering"
+            },
+            {
+                "letter": "B",
+                "text": "comparator() sorts the set"
+            },
+            {
+                "letter": "C",
+                "text": "comparator() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "comparator() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The comparator() method returns the comparator used for ordering, or null if natural ordering is used."
+    },
+    {
+        "title": "JavaTreeSet - Q0024",
+        "text": "Which of the following is true about TreeSet and pollFirst()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollFirst() retrieves and removes the lowest element"
+            },
+            {
+                "letter": "B",
+                "text": "pollFirst() retrieves and removes the highest element"
+            },
+            {
+                "letter": "C",
+                "text": "pollFirst() retrieves but does not remove the lowest element"
+            },
+            {
+                "letter": "D",
+                "text": "pollFirst() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollFirst() method retrieves and removes the lowest element of the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0025",
+        "text": "Which of the following is true about TreeSet and pollLast()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollLast() retrieves and removes the highest element"
+            },
+            {
+                "letter": "B",
+                "text": "pollLast() retrieves and removes the lowest element"
+            },
+            {
+                "letter": "C",
+                "text": "pollLast() retrieves but does not remove the highest element"
+            },
+            {
+                "letter": "D",
+                "text": "pollLast() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollLast() method retrieves and removes the highest element of the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0026",
+        "text": "Which of the following is true about TreeSet and ceiling()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ceiling() returns the least element greater than or equal to the given element"
+            },
+            {
+                "letter": "B",
+                "text": "ceiling() returns the greatest element less than or equal to the given element"
+            },
+            {
+                "letter": "C",
+                "text": "ceiling() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "ceiling() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ceiling() method returns the least element greater than or equal to the given element."
+    },
+    {
+        "title": "JavaTreeSet - Q0027",
+        "text": "Which of the following is true about TreeSet and floor()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "floor() returns the greatest element less than or equal to the given element"
+            },
+            {
+                "letter": "B",
+                "text": "floor() returns the least element greater than or equal to the given element"
+            },
+            {
+                "letter": "C",
+                "text": "floor() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "floor() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The floor() method returns the greatest element less than or equal to the given element."
+    },
+    {
+        "title": "JavaTreeSet - Q0028",
+        "text": "Which of the following is true about TreeSet and higher()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "higher() returns the least element strictly greater than the given element"
+            },
+            {
+                "letter": "B",
+                "text": "higher() returns the greatest element less than the given element"
+            },
+            {
+                "letter": "C",
+                "text": "higher() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "higher() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The higher() method returns the least element strictly greater than the given element."
+    },
+    {
+        "title": "JavaTreeSet - Q0029",
+        "text": "Which of the following is true about TreeSet and lower()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lower() returns the greatest element strictly less than the given element"
+            },
+            {
+                "letter": "B",
+                "text": "lower() returns the least element greater than the given element"
+            },
+            {
+                "letter": "C",
+                "text": "lower() removes elements"
+            },
+            {
+                "letter": "D",
+                "text": "lower() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lower() method returns the greatest element strictly less than the given element."
+    },
+    {
+        "title": "JavaTreeSet - Q0030",
+        "text": "Which of the following is true about TreeSet and clone()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clone() creates a shallow copy of the set"
+            },
+            {
+                "letter": "B",
+                "text": "clone() creates a deep copy of the set"
+            },
+            {
+                "letter": "C",
+                "text": "clone() clears the set"
+            },
+            {
+                "letter": "D",
+                "text": "clone() sorts the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clone() method creates a shallow copy of the TreeSet."
+    },
+    {
+        "title": "JavaTreeSet - Q0031",
+        "text": "Which of the following is true about TreeSet and serialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet is serializable"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet is not serializable"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet requires custom serialization"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet cannot be written to a stream"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet implements Serializable, allowing it to be serialized."
+    },
+    {
+        "title": "JavaTreeSet - Q0032",
+        "text": "Which of the following is true about TreeSet and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet is not thread-safe"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet is thread-safe"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet is synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet is immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet is not thread-safe; external synchronization is required."
+    },
+    {
+        "title": "JavaTreeSet - Q0033",
+        "text": "Which of the following is true about TreeSet and iteration performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Iteration is O(n)"
+            },
+            {
+                "letter": "B",
+                "text": "Iteration is O(1)"
+            },
+            {
+                "letter": "C",
+                "text": "Iteration is O(log n)"
+            },
+            {
+                "letter": "D",
+                "text": "Iteration is O(n^2)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Iterating through a TreeSet requires visiting each element, making it O(n)."
+    },
+    {
+        "title": "JavaTreeSet - Q0034",
+        "text": "Which of the following is true about TreeSet and equals()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals() compares elements for equality"
+            },
+            {
+                "letter": "B",
+                "text": "equals() compares references only"
+            },
+            {
+                "letter": "C",
+                "text": "equals() compares hash codes only"
+            },
+            {
+                "letter": "D",
+                "text": "equals() always returns false"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares elements for equality."
+    },
+    {
+        "title": "JavaTreeSet - Q0035",
+        "text": "Which of the following is true about TreeSet and hashCode()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hashCode() depends on the elements"
+            },
+            {
+                "letter": "B",
+                "text": "hashCode() is constant"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode() depends on capacity"
+            },
+            {
+                "letter": "D",
+                "text": "hashCode() depends on memory address"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() of a TreeSet depends on the hash codes of its elements."
+    },
+    {
+        "title": "JavaTreeSet - Q0036",
+        "text": "Which of the following is true about TreeSet and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet is mutable"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet is immutable"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet is read-only"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet is final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet is mutable; elements can be added or removed."
+    },
+    {
+        "title": "JavaTreeSet - Q0037",
+        "text": "Which of the following is true about TreeSet and removeIf()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "removeIf() removes elements matching a condition"
+            },
+            {
+                "letter": "B",
+                "text": "removeIf() removes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "removeIf() clears the set"
+            },
+            {
+                "letter": "D",
+                "text": "removeIf() adds elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The removeIf() method removes elements that satisfy a given predicate condition."
+    },
+    {
+        "title": "JavaTreeSet - Q0038",
+        "text": "Which of the following is true about TreeSet and forEach()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "forEach() performs an action for each element"
+            },
+            {
+                "letter": "B",
+                "text": "forEach() removes elements"
+            },
+            {
+                "letter": "C",
+                "text": "forEach() sorts elements"
+            },
+            {
+                "letter": "D",
+                "text": "forEach() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The forEach() method performs the specified action for each element in the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0039",
+        "text": "Which of the following is true about TreeSet and stream()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "stream() returns a sequential stream of elements"
+            },
+            {
+                "letter": "B",
+                "text": "stream() removes elements"
+            },
+            {
+                "letter": "C",
+                "text": "stream() sorts elements"
+            },
+            {
+                "letter": "D",
+                "text": "stream() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The stream() method returns a sequential stream of elements from the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0040",
+        "text": "Which of the following is true about TreeSet and parallelStream()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "parallelStream() returns a parallel stream of elements"
+            },
+            {
+                "letter": "B",
+                "text": "parallelStream() removes elements"
+            },
+            {
+                "letter": "C",
+                "text": "parallelStream() sorts elements"
+            },
+            {
+                "letter": "D",
+                "text": "parallelStream() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The parallelStream() method returns a parallel stream of elements from the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0041",
+        "text": "Which of the following is true about TreeSet and comparator usage?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Comparator defines custom sorting logic"
+            },
+            {
+                "letter": "B",
+                "text": "Comparator defines hash codes"
+            },
+            {
+                "letter": "C",
+                "text": "Comparator defines equality"
+            },
+            {
+                "letter": "D",
+                "text": "Comparator defines insertion order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Comparator defines custom sorting logic for TreeSet elements."
+    },
+    {
+        "title": "JavaTreeSet - Q0042",
+        "text": "Which of the following is true about TreeSet and natural ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Natural ordering is based on Comparable interface"
+            },
+            {
+                "letter": "B",
+                "text": "Natural ordering is based on hashCode()"
+            },
+            {
+                "letter": "C",
+                "text": "Natural ordering is based on equals()"
+            },
+            {
+                "letter": "D",
+                "text": "Natural ordering is random"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Natural ordering in TreeSet is based on the Comparable interface implementation."
+    },
+    {
+        "title": "JavaTreeSet - Q0043",
+        "text": "Which of the following is true about TreeSet and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeSet iterators are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "TreeSet iterators are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "TreeSet iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "TreeSet iterators ignore modifications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet iterators are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaTreeSet - Q0044",
+        "text": "Which of the following is true about TreeSet and remove()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove() deletes a specified element"
+            },
+            {
+                "letter": "B",
+                "text": "remove() deletes all elements"
+            },
+            {
+                "letter": "C",
+                "text": "remove() adds a new element"
+            },
+            {
+                "letter": "D",
+                "text": "remove() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove() method deletes the specified element from the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0045",
+        "text": "Which of the following is true about TreeSet and clear()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clear() removes all elements"
+            },
+            {
+                "letter": "B",
+                "text": "clear() removes one element"
+            },
+            {
+                "letter": "C",
+                "text": "clear() adds elements"
+            },
+            {
+                "letter": "D",
+                "text": "clear() sorts elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clear() method removes all elements from the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0046",
+        "text": "Which of the following is true about TreeSet and size()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "size() returns the number of elements"
+            },
+            {
+                "letter": "B",
+                "text": "size() returns the capacity"
+            },
+            {
+                "letter": "C",
+                "text": "size() returns the load factor"
+            },
+            {
+                "letter": "D",
+                "text": "size() returns the hash code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The size() method returns the number of elements in the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0047",
+        "text": "Which of the following is true about TreeSet and isEmpty()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isEmpty() checks if the set has no elements"
+            },
+            {
+                "letter": "B",
+                "text": "isEmpty() clears the set"
+            },
+            {
+                "letter": "C",
+                "text": "isEmpty() adds elements"
+            },
+            {
+                "letter": "D",
+                "text": "isEmpty() sorts elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The isEmpty() method checks if the set contains no elements."
+    },
+    {
+        "title": "JavaTreeSet - Q0048",
+        "text": "Which of the following is true about TreeSet and contains()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "contains() checks if an element exists in the set"
+            },
+            {
+                "letter": "B",
+                "text": "contains() adds an element"
+            },
+            {
+                "letter": "C",
+                "text": "contains() removes an element"
+            },
+            {
+                "letter": "D",
+                "text": "contains() clears the set"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The contains() method checks if an element exists in the set."
+    },
+    {
+        "title": "JavaTreeSet - Q0049",
+        "text": "Which of the following is true about TreeSet and add()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "add() adds an element if not already present"
+            },
+            {
+                "letter": "B",
+                "text": "add() always adds duplicates"
+            },
+            {
+                "letter": "C",
+                "text": "add() replaces existing elements"
+            },
+            {
+                "letter": "D",
+                "text": "add() throws exception for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The add() method adds an element only if it is not already present."
+    },
+    {
+        "title": "JavaTreeSet - Q0050",
+        "text": "Which of the following best describes TreeSet?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A sorted set implementation based on a balanced tree"
+            },
+            {
+                "letter": "B",
+                "text": "A hash-based set implementation"
+            },
+            {
+                "letter": "C",
+                "text": "A list-based set implementation"
+            },
+            {
+                "letter": "D",
+                "text": "A synchronized set implementation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeSet is a sorted set implementation based on a balanced tree (Red-Black tree)."
+    }
+]

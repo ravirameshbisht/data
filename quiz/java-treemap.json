@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "JavaTreeMap - Q0001",
+        "text": "Which package contains the TreeMap class?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "java.util"
+            },
+            {
+                "letter": "B",
+                "text": "java.lang"
+            },
+            {
+                "letter": "C",
+                "text": "java.io"
+            },
+            {
+                "letter": "D",
+                "text": "java.sql"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The TreeMap class is part of the java.util package."
+    },
+    {
+        "title": "JavaTreeMap - Q0002",
+        "text": "Which interface does TreeMap implement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "NavigableMap"
+            },
+            {
+                "letter": "B",
+                "text": "List"
+            },
+            {
+                "letter": "C",
+                "text": "Set"
+            },
+            {
+                "letter": "D",
+                "text": "Queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap implements the NavigableMap interface."
+    },
+    {
+        "title": "JavaTreeMap - Q0003",
+        "text": "Which data structure does TreeMap use internally?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Red-Black Tree"
+            },
+            {
+                "letter": "B",
+                "text": "Hash Table"
+            },
+            {
+                "letter": "C",
+                "text": "ArrayList"
+            },
+            {
+                "letter": "D",
+                "text": "LinkedList"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap uses a Red-Black Tree internally to store key-value pairs in sorted order."
+    },
+    {
+        "title": "JavaTreeMap - Q0004",
+        "text": "Which of the following is true about TreeMap and ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap maintains keys in sorted order"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap maintains insertion order"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap maintains random order"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap maintains reverse insertion order"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap maintains keys in sorted order according to their natural ordering or a comparator."
+    },
+    {
+        "title": "JavaTreeMap - Q0005",
+        "text": "Which of the following is true about TreeMap and null keys?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap does not allow null keys"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap allows one null key"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap allows multiple null keys"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap ignores null keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap does not allow null keys because it uses comparisons for ordering."
+    },
+    {
+        "title": "JavaTreeMap - Q0006",
+        "text": "Which of the following is true about TreeMap and null values?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap allows multiple null values"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap allows only one null value"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap does not allow null values"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap throws exception for null values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap allows multiple null values but not null keys."
+    },
+    {
+        "title": "JavaTreeMap - Q0007",
+        "text": "Which of the following is true about TreeMap and duplicates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap does not allow duplicate keys"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap allows duplicate keys"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap allows duplicate key-value pairs"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap allows duplicate values only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap does not allow duplicate keys, but values can be duplicated."
+    },
+    {
+        "title": "JavaTreeMap - Q0008",
+        "text": "Which of the following is true about TreeMap and synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap is not synchronized"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap is synchronized"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap is thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap is immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap is not synchronized and is not thread-safe by default."
+    },
+    {
+        "title": "JavaTreeMap - Q0009",
+        "text": "Which of the following methods can be used to synchronize a TreeMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collections.synchronizedSortedMap()"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap.synchronize()"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap.lock()"
+            },
+            {
+                "letter": "D",
+                "text": "Collections.lockMap()"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Collections.synchronizedSortedMap() method returns a synchronized version of the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0010",
+        "text": "Which of the following is true about TreeMap and performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap provides O(log n) time for get, put, and remove"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap provides O(1) time for get, put, and remove"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap provides O(n) time for get, put, and remove"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap provides O(n^2) time for get, put, and remove"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap provides O(log n) time complexity for get, put, and remove operations."
+    },
+    {
+        "title": "JavaTreeMap - Q0011",
+        "text": "Which of the following is true about TreeMap and comparator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap can use a custom comparator for sorting keys"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap cannot use a comparator"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap uses only natural ordering"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap ignores comparators"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap can use a custom comparator for sorting keys."
+    },
+    {
+        "title": "JavaTreeMap - Q0012",
+        "text": "Which of the following is true about TreeMap and natural ordering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Natural ordering is based on Comparable interface"
+            },
+            {
+                "letter": "B",
+                "text": "Natural ordering is based on hashCode()"
+            },
+            {
+                "letter": "C",
+                "text": "Natural ordering is based on equals()"
+            },
+            {
+                "letter": "D",
+                "text": "Natural ordering is random"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Natural ordering in TreeMap is based on the Comparable interface implementation."
+    },
+    {
+        "title": "JavaTreeMap - Q0013",
+        "text": "Which of the following is true about TreeMap and firstKey()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "firstKey() returns the lowest key"
+            },
+            {
+                "letter": "B",
+                "text": "firstKey() returns the highest key"
+            },
+            {
+                "letter": "C",
+                "text": "firstKey() removes the lowest key"
+            },
+            {
+                "letter": "D",
+                "text": "firstKey() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The firstKey() method returns the lowest key in the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0014",
+        "text": "Which of the following is true about TreeMap and lastKey()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lastKey() returns the highest key"
+            },
+            {
+                "letter": "B",
+                "text": "lastKey() returns the lowest key"
+            },
+            {
+                "letter": "C",
+                "text": "lastKey() removes the highest key"
+            },
+            {
+                "letter": "D",
+                "text": "lastKey() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lastKey() method returns the highest key in the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0015",
+        "text": "Which of the following is true about TreeMap and headMap()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "headMap() returns keys less than a given key"
+            },
+            {
+                "letter": "B",
+                "text": "headMap() returns keys greater than a given key"
+            },
+            {
+                "letter": "C",
+                "text": "headMap() removes keys"
+            },
+            {
+                "letter": "D",
+                "text": "headMap() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The headMap() method returns keys less than the specified key."
+    },
+    {
+        "title": "JavaTreeMap - Q0016",
+        "text": "Which of the following is true about TreeMap and tailMap()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "tailMap() returns keys greater than or equal to a given key"
+            },
+            {
+                "letter": "B",
+                "text": "tailMap() returns keys less than a given key"
+            },
+            {
+                "letter": "C",
+                "text": "tailMap() removes keys"
+            },
+            {
+                "letter": "D",
+                "text": "tailMap() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The tailMap() method returns keys greater than or equal to the specified key."
+    },
+    {
+        "title": "JavaTreeMap - Q0017",
+        "text": "Which of the following is true about TreeMap and subMap()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "subMap() returns keys between two specified keys"
+            },
+            {
+                "letter": "B",
+                "text": "subMap() returns all keys"
+            },
+            {
+                "letter": "C",
+                "text": "subMap() removes keys"
+            },
+            {
+                "letter": "D",
+                "text": "subMap() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The subMap() method returns keys between two specified keys."
+    },
+    {
+        "title": "JavaTreeMap - Q0018",
+        "text": "Which of the following is true about TreeMap and descendingMap()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "descendingMap() returns a reverse order view of the map"
+            },
+            {
+                "letter": "B",
+                "text": "descendingMap() returns a sorted order view"
+            },
+            {
+                "letter": "C",
+                "text": "descendingMap() removes entries"
+            },
+            {
+                "letter": "D",
+                "text": "descendingMap() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The descendingMap() method returns a reverse order view of the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0019",
+        "text": "Which of the following is true about TreeMap and ceilingKey()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ceilingKey() returns the least key greater than or equal to the given key"
+            },
+            {
+                "letter": "B",
+                "text": "ceilingKey() returns the greatest key less than or equal to the given key"
+            },
+            {
+                "letter": "C",
+                "text": "ceilingKey() removes keys"
+            },
+            {
+                "letter": "D",
+                "text": "ceilingKey() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ceilingKey() method returns the least key greater than or equal to the given key."
+    },
+    {
+        "title": "JavaTreeMap - Q0020",
+        "text": "Which of the following is true about TreeMap and floorKey()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "floorKey() returns the greatest key less than or equal to the given key"
+            },
+            {
+                "letter": "B",
+                "text": "floorKey() returns the least key greater than or equal to the given key"
+            },
+            {
+                "letter": "C",
+                "text": "floorKey() removes keys"
+            },
+            {
+                "letter": "D",
+                "text": "floorKey() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The floorKey() method returns the greatest key less than or equal to the given key."
+    },
+    {
+        "title": "JavaTreeMap - Q0021",
+        "text": "Which of the following is true about TreeMap and higherKey()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "higherKey() returns the least key strictly greater than the given key"
+            },
+            {
+                "letter": "B",
+                "text": "higherKey() returns the greatest key less than the given key"
+            },
+            {
+                "letter": "C",
+                "text": "higherKey() removes keys"
+            },
+            {
+                "letter": "D",
+                "text": "higherKey() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The higherKey() method returns the least key strictly greater than the given key."
+    },
+    {
+        "title": "JavaTreeMap - Q0022",
+        "text": "Which of the following is true about TreeMap and lowerKey()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "lowerKey() returns the greatest key strictly less than the given key"
+            },
+            {
+                "letter": "B",
+                "text": "lowerKey() returns the least key greater than the given key"
+            },
+            {
+                "letter": "C",
+                "text": "lowerKey() removes keys"
+            },
+            {
+                "letter": "D",
+                "text": "lowerKey() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The lowerKey() method returns the greatest key strictly less than the given key."
+    },
+    {
+        "title": "JavaTreeMap - Q0023",
+        "text": "Which of the following is true about TreeMap and pollFirstEntry()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollFirstEntry() retrieves and removes the lowest entry"
+            },
+            {
+                "letter": "B",
+                "text": "pollFirstEntry() retrieves and removes the highest entry"
+            },
+            {
+                "letter": "C",
+                "text": "pollFirstEntry() retrieves but does not remove the lowest entry"
+            },
+            {
+                "letter": "D",
+                "text": "pollFirstEntry() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollFirstEntry() method retrieves and removes the lowest entry in the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0024",
+        "text": "Which of the following is true about TreeMap and pollLastEntry()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "pollLastEntry() retrieves and removes the highest entry"
+            },
+            {
+                "letter": "B",
+                "text": "pollLastEntry() retrieves and removes the lowest entry"
+            },
+            {
+                "letter": "C",
+                "text": "pollLastEntry() retrieves but does not remove the highest entry"
+            },
+            {
+                "letter": "D",
+                "text": "pollLastEntry() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pollLastEntry() method retrieves and removes the highest entry in the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0025",
+        "text": "Which of the following is true about TreeMap and comparator()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "comparator() returns the comparator used for ordering"
+            },
+            {
+                "letter": "B",
+                "text": "comparator() sorts the map"
+            },
+            {
+                "letter": "C",
+                "text": "comparator() removes entries"
+            },
+            {
+                "letter": "D",
+                "text": "comparator() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The comparator() method returns the comparator used for ordering, or null if natural ordering is used."
+    },
+    {
+        "title": "JavaTreeMap - Q0026",
+        "text": "Which of the following is true about TreeMap and entrySet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "entrySet() returns a set view of key-value pairs"
+            },
+            {
+                "letter": "B",
+                "text": "entrySet() returns only keys"
+            },
+            {
+                "letter": "C",
+                "text": "entrySet() returns only values"
+            },
+            {
+                "letter": "D",
+                "text": "entrySet() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The entrySet() method returns a set view of key-value pairs in the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0027",
+        "text": "Which of the following is true about TreeMap and keySet()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "keySet() returns a set view of keys"
+            },
+            {
+                "letter": "B",
+                "text": "keySet() returns a collection of values"
+            },
+            {
+                "letter": "C",
+                "text": "keySet() returns a map of entries"
+            },
+            {
+                "letter": "D",
+                "text": "keySet() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The keySet() method returns a set view of the keys contained in the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0028",
+        "text": "Which of the following is true about TreeMap and values()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "values() returns a collection view of all values"
+            },
+            {
+                "letter": "B",
+                "text": "values() returns a set of keys"
+            },
+            {
+                "letter": "C",
+                "text": "values() returns a map of entries"
+            },
+            {
+                "letter": "D",
+                "text": "values() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The values() method returns a collection view of all values in the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0029",
+        "text": "Which of the following is true about TreeMap and put()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "put() adds or replaces a key-value pair"
+            },
+            {
+                "letter": "B",
+                "text": "put() removes a key-value pair"
+            },
+            {
+                "letter": "C",
+                "text": "put() clears the map"
+            },
+            {
+                "letter": "D",
+                "text": "put() throws exception for duplicates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The put() method adds a new key-value pair or replaces the value if the key already exists."
+    },
+    {
+        "title": "JavaTreeMap - Q0030",
+        "text": "Which of the following is true about TreeMap and get()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "get() returns the value associated with a key"
+            },
+            {
+                "letter": "B",
+                "text": "get() removes the key"
+            },
+            {
+                "letter": "C",
+                "text": "get() adds a new key"
+            },
+            {
+                "letter": "D",
+                "text": "get() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The get() method returns the value associated with the specified key."
+    },
+    {
+        "title": "JavaTreeMap - Q0031",
+        "text": "Which of the following is true about TreeMap and remove()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "remove() deletes a key or key-value pair"
+            },
+            {
+                "letter": "B",
+                "text": "remove() adds a new key"
+            },
+            {
+                "letter": "C",
+                "text": "remove() clears the map"
+            },
+            {
+                "letter": "D",
+                "text": "remove() sorts the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The remove() method deletes a key or key-value pair from the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0032",
+        "text": "Which of the following is true about TreeMap and replace()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "replace() updates the value for a given key"
+            },
+            {
+                "letter": "B",
+                "text": "replace() removes the key"
+            },
+            {
+                "letter": "C",
+                "text": "replace() adds a new key"
+            },
+            {
+                "letter": "D",
+                "text": "replace() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The replace() method updates the value for a given key if it exists."
+    },
+    {
+        "title": "JavaTreeMap - Q0033",
+        "text": "Which of the following is true about TreeMap and containsKey()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "containsKey() checks if a key exists"
+            },
+            {
+                "letter": "B",
+                "text": "containsKey() checks if a value exists"
+            },
+            {
+                "letter": "C",
+                "text": "containsKey() removes a key"
+            },
+            {
+                "letter": "D",
+                "text": "containsKey() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The containsKey() method checks if a key exists in the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0034",
+        "text": "Which of the following is true about TreeMap and containsValue()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "containsValue() checks if a value exists"
+            },
+            {
+                "letter": "B",
+                "text": "containsValue() checks if a key exists"
+            },
+            {
+                "letter": "C",
+                "text": "containsValue() removes a value"
+            },
+            {
+                "letter": "D",
+                "text": "containsValue() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The containsValue() method checks if a value exists in the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0035",
+        "text": "Which of the following is true about TreeMap and clear()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clear() removes all key-value pairs"
+            },
+            {
+                "letter": "B",
+                "text": "clear() removes one key"
+            },
+            {
+                "letter": "C",
+                "text": "clear() adds new keys"
+            },
+            {
+                "letter": "D",
+                "text": "clear() sorts the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clear() method removes all key-value pairs from the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0036",
+        "text": "Which of the following is true about TreeMap and size()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "size() returns the number of key-value pairs"
+            },
+            {
+                "letter": "B",
+                "text": "size() returns the capacity"
+            },
+            {
+                "letter": "C",
+                "text": "size() returns the load factor"
+            },
+            {
+                "letter": "D",
+                "text": "size() returns the hash code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The size() method returns the number of key-value pairs in the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0037",
+        "text": "Which of the following is true about TreeMap and isEmpty()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "isEmpty() checks if the map has no entries"
+            },
+            {
+                "letter": "B",
+                "text": "isEmpty() clears the map"
+            },
+            {
+                "letter": "C",
+                "text": "isEmpty() adds entries"
+            },
+            {
+                "letter": "D",
+                "text": "isEmpty() sorts entries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The isEmpty() method checks if the map contains no key-value pairs."
+    },
+    {
+        "title": "JavaTreeMap - Q0038",
+        "text": "Which of the following is true about TreeMap and clone()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "clone() creates a shallow copy of the map"
+            },
+            {
+                "letter": "B",
+                "text": "clone() creates a deep copy of the map"
+            },
+            {
+                "letter": "C",
+                "text": "clone() clears the map"
+            },
+            {
+                "letter": "D",
+                "text": "clone() sorts the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The clone() method creates a shallow copy of the TreeMap."
+    },
+    {
+        "title": "JavaTreeMap - Q0039",
+        "text": "Which of the following is true about TreeMap and serialization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap is serializable"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap is not serializable"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap requires custom serialization"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap cannot be written to a stream"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap implements Serializable, allowing it to be serialized."
+    },
+    {
+        "title": "JavaTreeMap - Q0040",
+        "text": "Which of the following is true about TreeMap and thread safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap is not thread-safe"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap is thread-safe"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap is synchronized"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap is immutable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap is not thread-safe; external synchronization is required."
+    },
+    {
+        "title": "JavaTreeMap - Q0041",
+        "text": "Which of the following is true about TreeMap and fail-fast behavior?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap iterators are fail-fast"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap iterators are fail-safe"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap iterators are thread-safe"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap iterators ignore modifications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap iterators are fail-fast and throw ConcurrentModificationException if modified during iteration."
+    },
+    {
+        "title": "JavaTreeMap - Q0042",
+        "text": "Which of the following is true about TreeMap and equals()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "equals() compares two maps for key-value equality"
+            },
+            {
+                "letter": "B",
+                "text": "equals() compares hash codes only"
+            },
+            {
+                "letter": "C",
+                "text": "equals() compares references only"
+            },
+            {
+                "letter": "D",
+                "text": "equals() always returns false"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The equals() method compares two maps for key-value equality."
+    },
+    {
+        "title": "JavaTreeMap - Q0043",
+        "text": "Which of the following is true about TreeMap and hashCode()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "hashCode() depends on the entries"
+            },
+            {
+                "letter": "B",
+                "text": "hashCode() is constant"
+            },
+            {
+                "letter": "C",
+                "text": "hashCode() depends on capacity"
+            },
+            {
+                "letter": "D",
+                "text": "hashCode() depends on memory address"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The hashCode() of a TreeMap depends on the hash codes of its entries."
+    },
+    {
+        "title": "JavaTreeMap - Q0044",
+        "text": "Which of the following is true about TreeMap and replaceAll()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "replaceAll() replaces each value using a function"
+            },
+            {
+                "letter": "B",
+                "text": "replaceAll() removes all keys"
+            },
+            {
+                "letter": "C",
+                "text": "replaceAll() clears the map"
+            },
+            {
+                "letter": "D",
+                "text": "replaceAll() adds new keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The replaceAll() method replaces each value using the provided function."
+    },
+    {
+        "title": "JavaTreeMap - Q0045",
+        "text": "Which of the following is true about TreeMap and forEach()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "forEach() performs an action for each key-value pair"
+            },
+            {
+                "letter": "B",
+                "text": "forEach() removes entries"
+            },
+            {
+                "letter": "C",
+                "text": "forEach() sorts entries"
+            },
+            {
+                "letter": "D",
+                "text": "forEach() clears the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The forEach() method performs the specified action for each key-value pair in the map."
+    },
+    {
+        "title": "JavaTreeMap - Q0046",
+        "text": "Which of the following is true about TreeMap and computeIfAbsent()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "computeIfAbsent() computes a value if the key is not present"
+            },
+            {
+                "letter": "B",
+                "text": "computeIfAbsent() removes a key"
+            },
+            {
+                "letter": "C",
+                "text": "computeIfAbsent() clears the map"
+            },
+            {
+                "letter": "D",
+                "text": "computeIfAbsent() replaces all values"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The computeIfAbsent() method computes and inserts a value if the key is not already present."
+    },
+    {
+        "title": "JavaTreeMap - Q0047",
+        "text": "Which of the following is true about TreeMap and computeIfPresent()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "computeIfPresent() updates a value if the key is present"
+            },
+            {
+                "letter": "B",
+                "text": "computeIfPresent() adds a new key"
+            },
+            {
+                "letter": "C",
+                "text": "computeIfPresent() clears the map"
+            },
+            {
+                "letter": "D",
+                "text": "computeIfPresent() removes all keys"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The computeIfPresent() method updates a value using a remapping function if the key is present."
+    },
+    {
+        "title": "JavaTreeMap - Q0048",
+        "text": "Which of the following is true about TreeMap and merge()?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "merge() combines values for duplicate keys using a function"
+            },
+            {
+                "letter": "B",
+                "text": "merge() removes duplicate keys"
+            },
+            {
+                "letter": "C",
+                "text": "merge() clears the map"
+            },
+            {
+                "letter": "D",
+                "text": "merge() sorts the map"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The merge() method combines values for duplicate keys using a specified function."
+    },
+    {
+        "title": "JavaTreeMap - Q0049",
+        "text": "Which of the following is true about TreeMap and immutability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "TreeMap is mutable"
+            },
+            {
+                "letter": "B",
+                "text": "TreeMap is immutable"
+            },
+            {
+                "letter": "C",
+                "text": "TreeMap is read-only"
+            },
+            {
+                "letter": "D",
+                "text": "TreeMap is final"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap is mutable; elements can be added or removed."
+    },
+    {
+        "title": "JavaTreeMap - Q0050",
+        "text": "Which of the following best describes TreeMap?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A map implementation that stores key-value pairs in sorted order using a Red-Black tree"
+            },
+            {
+                "letter": "B",
+                "text": "A hash-based map implementation"
+            },
+            {
+                "letter": "C",
+                "text": "A list-based map implementation"
+            },
+            {
+                "letter": "D",
+                "text": "A synchronized map implementation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "TreeMap is a map implementation that stores key-value pairs in sorted order using a Red-Black tree."
+    }
+]
