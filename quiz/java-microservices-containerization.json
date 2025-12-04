@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceContainerization - Q0001",
+        "text": "What is containerization in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Packaging applications and their dependencies into isolated units"
+            },
+            {
+                "letter": "B",
+                "text": "Running applications directly on the host OS"
+            },
+            {
+                "letter": "C",
+                "text": "Combining multiple applications into a single binary"
+            },
+            {
+                "letter": "D",
+                "text": "Deploying applications without dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containerization packages applications and dependencies into isolated, portable units called containers."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0002",
+        "text": "Which of the following tools is most commonly used for containerization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Docker"
+            },
+            {
+                "letter": "B",
+                "text": "Jenkins"
+            },
+            {
+                "letter": "C",
+                "text": "Terraform"
+            },
+            {
+                "letter": "D",
+                "text": "Ansible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Docker is the most widely used platform for building, running, and managing containers."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0003",
+        "text": "What is the main advantage of containerization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Consistency across environments"
+            },
+            {
+                "letter": "B",
+                "text": "Increased hardware dependency"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced portability"
+            },
+            {
+                "letter": "D",
+                "text": "Manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers ensure consistent behavior across development, testing, and production environments."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0004",
+        "text": "Which of the following best describes a container image?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A lightweight, standalone, executable package"
+            },
+            {
+                "letter": "B",
+                "text": "A virtual machine snapshot"
+            },
+            {
+                "letter": "C",
+                "text": "A source code repository"
+            },
+            {
+                "letter": "D",
+                "text": "A configuration file"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A container image is a lightweight, standalone package that includes everything needed to run an application."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0005",
+        "text": "Which of the following is a key benefit of using containers in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Isolation and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Tight coupling between services"
+            },
+            {
+                "letter": "C",
+                "text": "Increased resource usage"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced portability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers provide isolation and scalability, allowing microservices to run independently."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0006",
+        "text": "Which of the following is NOT a characteristic of containers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Lightweight"
+            },
+            {
+                "letter": "B",
+                "text": "Portable"
+            },
+            {
+                "letter": "C",
+                "text": "Dependent on host OS kernel"
+            },
+            {
+                "letter": "D",
+                "text": "Requires full OS virtualization"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Containers share the host OS kernel and do not require full OS virtualization like virtual machines."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0007",
+        "text": "What is the purpose of a Dockerfile?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To define instructions for building a container image"
+            },
+            {
+                "letter": "B",
+                "text": "To store application logs"
+            },
+            {
+                "letter": "C",
+                "text": "To manage container orchestration"
+            },
+            {
+                "letter": "D",
+                "text": "To monitor container performance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A Dockerfile contains instructions for building a container image, including dependencies and configurations."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0008",
+        "text": "Which of the following commands is used to build a Docker image?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "docker build"
+            },
+            {
+                "letter": "B",
+                "text": "docker run"
+            },
+            {
+                "letter": "C",
+                "text": "docker start"
+            },
+            {
+                "letter": "D",
+                "text": "docker exec"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'docker build' command is used to create a Docker image from a Dockerfile."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0009",
+        "text": "Which of the following commands is used to run a container from an image?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "docker run"
+            },
+            {
+                "letter": "B",
+                "text": "docker build"
+            },
+            {
+                "letter": "C",
+                "text": "docker commit"
+            },
+            {
+                "letter": "D",
+                "text": "docker push"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'docker run' command creates and starts a container from a specified image."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0010",
+        "text": "Which of the following is a container orchestration tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Kubernetes"
+            },
+            {
+                "letter": "B",
+                "text": "Git"
+            },
+            {
+                "letter": "C",
+                "text": "Maven"
+            },
+            {
+                "letter": "D",
+                "text": "Gradle"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Kubernetes is a popular container orchestration platform for managing containerized applications."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0011",
+        "text": "What is the main purpose of container orchestration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automating deployment, scaling, and management of containers"
+            },
+            {
+                "letter": "B",
+                "text": "Building container images"
+            },
+            {
+                "letter": "C",
+                "text": "Monitoring network traffic"
+            },
+            {
+                "letter": "D",
+                "text": "Managing source code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Container orchestration automates deployment, scaling, and management of containerized applications."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0012",
+        "text": "Which of the following is a benefit of using containers over virtual machines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster startup and lower resource usage"
+            },
+            {
+                "letter": "B",
+                "text": "Full OS isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Higher overhead"
+            },
+            {
+                "letter": "D",
+                "text": "Slower deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers start faster and use fewer resources than virtual machines because they share the host OS kernel."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0013",
+        "text": "Which of the following is a key component of Docker architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Docker Engine"
+            },
+            {
+                "letter": "B",
+                "text": "Docker Compiler"
+            },
+            {
+                "letter": "C",
+                "text": "Docker Scheduler"
+            },
+            {
+                "letter": "D",
+                "text": "Docker IDE"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Docker Engine is the core component that builds and runs containers."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0014",
+        "text": "What is a Docker registry used for?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Storing and distributing container images"
+            },
+            {
+                "letter": "B",
+                "text": "Monitoring container logs"
+            },
+            {
+                "letter": "C",
+                "text": "Managing container orchestration"
+            },
+            {
+                "letter": "D",
+                "text": "Building Dockerfiles"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A Docker registry stores and distributes container images for deployment."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0015",
+        "text": "Which of the following is a public Docker registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Docker Hub"
+            },
+            {
+                "letter": "B",
+                "text": "GitHub"
+            },
+            {
+                "letter": "C",
+                "text": "Bitbucket"
+            },
+            {
+                "letter": "D",
+                "text": "Jenkins"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Docker Hub is a public registry for sharing and distributing Docker images."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0016",
+        "text": "Which of the following is a benefit of containerization for CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Consistent build and deployment environments"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced automation"
+            },
+            {
+                "letter": "D",
+                "text": "Increased configuration errors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers ensure consistent environments across CI/CD stages, reducing configuration issues."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0017",
+        "text": "Which of the following is a key advantage of container portability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can run on any system with a container runtime"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require specific hardware"
+            },
+            {
+                "letter": "C",
+                "text": "Containers depend on a single OS"
+            },
+            {
+                "letter": "D",
+                "text": "Containers are tied to one environment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers are portable and can run on any system that supports the container runtime."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0018",
+        "text": "Which of the following is a common container runtime?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "containerd"
+            },
+            {
+                "letter": "B",
+                "text": "Apache"
+            },
+            {
+                "letter": "C",
+                "text": "Tomcat"
+            },
+            {
+                "letter": "D",
+                "text": "Nginx"
+            }
+        ],
+        "correct": "A",
+        "explanation": "containerd is a popular container runtime used by Docker and Kubernetes."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0019",
+        "text": "Which of the following is a benefit of container isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents interference between applications"
+            },
+            {
+                "letter": "B",
+                "text": "Increases dependency conflicts"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces security"
+            },
+            {
+                "letter": "D",
+                "text": "Requires shared memory"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Container isolation ensures that applications run independently without affecting each other."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0020",
+        "text": "Which of the following best describes container orchestration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automating deployment, scaling, and management of containers"
+            },
+            {
+                "letter": "B",
+                "text": "Building container images"
+            },
+            {
+                "letter": "C",
+                "text": "Monitoring network traffic"
+            },
+            {
+                "letter": "D",
+                "text": "Managing source code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Container orchestration automates deployment, scaling, and management of containerized applications."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0021",
+        "text": "Which of the following is a key benefit of containerization for microservices architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplified deployment and scaling"
+            },
+            {
+                "letter": "B",
+                "text": "Tight coupling between services"
+            },
+            {
+                "letter": "C",
+                "text": "Manual configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers simplify deployment and scaling by packaging each microservice with its dependencies."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0022",
+        "text": "Which of the following is a difference between containers and virtual machines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers share the host OS kernel, while VMs include a full OS"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require more resources than VMs"
+            },
+            {
+                "letter": "C",
+                "text": "VMs start faster than containers"
+            },
+            {
+                "letter": "D",
+                "text": "Containers cannot run multiple applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers share the host OS kernel, making them lighter and faster than virtual machines."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0023",
+        "text": "Which of the following is a benefit of using Docker Compose?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Defining and running multi-container applications"
+            },
+            {
+                "letter": "B",
+                "text": "Building container images"
+            },
+            {
+                "letter": "C",
+                "text": "Monitoring container logs"
+            },
+            {
+                "letter": "D",
+                "text": "Managing container registries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Docker Compose allows defining and running multi-container applications using a YAML configuration file."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0024",
+        "text": "Which of the following is a benefit of containerization for resource utilization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Efficient use of system resources"
+            },
+            {
+                "letter": "B",
+                "text": "Increased overhead"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced performance"
+            },
+            {
+                "letter": "D",
+                "text": "Higher memory usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers use system resources efficiently by sharing the host OS kernel."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0025",
+        "text": "Which of the following is a common container orchestration platform?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Kubernetes"
+            },
+            {
+                "letter": "B",
+                "text": "GitLab"
+            },
+            {
+                "letter": "C",
+                "text": "Jenkins"
+            },
+            {
+                "letter": "D",
+                "text": "Terraform"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Kubernetes is the most widely used container orchestration platform for managing containerized workloads."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0026",
+        "text": "Which of the following is a benefit of containerization for portability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can run consistently across environments"
+            },
+            {
+                "letter": "B",
+                "text": "Containers depend on specific hardware"
+            },
+            {
+                "letter": "C",
+                "text": "Containers are tied to one OS"
+            },
+            {
+                "letter": "D",
+                "text": "Containers require manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers ensure consistent behavior across different environments, improving portability."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0027",
+        "text": "Which of the following is a benefit of containerization for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be easily scaled up or down"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot scale dynamically"
+            },
+            {
+                "letter": "D",
+                "text": "Containers depend on physical servers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers can be scaled dynamically to handle varying workloads efficiently."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0028",
+        "text": "Which of the following is a benefit of containerization for isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each container runs independently without affecting others"
+            },
+            {
+                "letter": "B",
+                "text": "Containers share the same runtime environment"
+            },
+            {
+                "letter": "C",
+                "text": "Containers depend on each other’s configurations"
+            },
+            {
+                "letter": "D",
+                "text": "Containers cannot isolate processes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers provide process and resource isolation, ensuring independent execution."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0029",
+        "text": "Which of the following is a benefit of containerization for deployment speed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers start quickly compared to virtual machines"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require full OS boot"
+            },
+            {
+                "letter": "C",
+                "text": "Containers are slower to deploy"
+            },
+            {
+                "letter": "D",
+                "text": "Containers depend on hardware initialization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers start almost instantly because they share the host OS kernel."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0030",
+        "text": "Which of the following is a benefit of containerization for CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Consistent build and deployment environments"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced automation"
+            },
+            {
+                "letter": "D",
+                "text": "Increased configuration errors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers ensure consistent environments across CI/CD stages, reducing configuration issues."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0031",
+        "text": "Which of the following is a benefit of containerization for microservice independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each microservice can be deployed and updated independently"
+            },
+            {
+                "letter": "B",
+                "text": "All microservices must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Microservices share the same runtime"
+            },
+            {
+                "letter": "D",
+                "text": "Microservices depend on a single database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers allow each microservice to be deployed and updated independently, improving agility."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0032",
+        "text": "Which of the following is a benefit of containerization for resource efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers use fewer resources than virtual machines"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require more memory"
+            },
+            {
+                "letter": "C",
+                "text": "Containers consume more CPU"
+            },
+            {
+                "letter": "D",
+                "text": "Containers need dedicated hardware"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers are lightweight and share the host OS kernel, using fewer resources than VMs."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0033",
+        "text": "Which of the following is a benefit of containerization for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers provide consistent test environments"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require manual setup"
+            },
+            {
+                "letter": "C",
+                "text": "Containers depend on physical servers"
+            },
+            {
+                "letter": "D",
+                "text": "Containers cannot be used for testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers provide consistent environments for testing, reducing environment-related issues."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0034",
+        "text": "Which of the following is a benefit of containerization for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers isolate applications from each other"
+            },
+            {
+                "letter": "B",
+                "text": "Containers share all resources"
+            },
+            {
+                "letter": "C",
+                "text": "Containers expose host OS directly"
+            },
+            {
+                "letter": "D",
+                "text": "Containers disable isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers provide process isolation, enhancing security by separating applications."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0035",
+        "text": "Which of the following is a challenge of containerization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing container orchestration at scale"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Improved monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing large numbers of containers requires orchestration tools like Kubernetes."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0036",
+        "text": "Which of the following is a benefit of containerization for version control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each image version can be tracked and rolled back"
+            },
+            {
+                "letter": "B",
+                "text": "Containers cannot be versioned"
+            },
+            {
+                "letter": "C",
+                "text": "Containers require manual rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Containers depend on external versioning tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Container images can be versioned, allowing easy rollback to previous versions."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0037",
+        "text": "Which of the following is a benefit of containerization for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be automatically built and deployed"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require manual deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be automated"
+            },
+            {
+                "letter": "D",
+                "text": "Containers depend on manual scaling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers integrate easily with CI/CD pipelines for automated builds and deployments."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0038",
+        "text": "Which of the following is a benefit of containerization for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers simplify updates and maintenance"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require manual updates"
+            },
+            {
+                "letter": "C",
+                "text": "Containers increase maintenance complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Containers depend on physical servers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers simplify maintenance by allowing easy updates and redeployments."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0039",
+        "text": "Which of the following is a benefit of containerization for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be monitored individually for performance"
+            },
+            {
+                "letter": "B",
+                "text": "Containers cannot be monitored"
+            },
+            {
+                "letter": "C",
+                "text": "Containers hide performance metrics"
+            },
+            {
+                "letter": "D",
+                "text": "Containers disable logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers can be monitored individually using tools like Prometheus and Grafana."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0040",
+        "text": "Which of the following is a benefit of containerization for disaster recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be quickly redeployed from images"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Containers depend on physical backups"
+            },
+            {
+                "letter": "D",
+                "text": "Containers cannot be redeployed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers can be redeployed quickly from stored images, improving disaster recovery."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0041",
+        "text": "Which of the following is a benefit of containerization for reproducibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers ensure consistent environments across deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Containers vary by environment"
+            },
+            {
+                "letter": "C",
+                "text": "Containers depend on manual configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Containers cannot reproduce environments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers ensure reproducibility by packaging all dependencies and configurations together."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0042",
+        "text": "Which of the following is a benefit of containerization for cost efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers use fewer resources, reducing infrastructure costs"
+            },
+            {
+                "letter": "B",
+                "text": "Containers increase hardware costs"
+            },
+            {
+                "letter": "C",
+                "text": "Containers require dedicated servers"
+            },
+            {
+                "letter": "D",
+                "text": "Containers consume more memory"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers are lightweight and efficient, reducing infrastructure and operational costs."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0043",
+        "text": "Which of the following is a challenge of containerization for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing vulnerabilities in container images"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified security management"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced attack surface"
+            },
+            {
+                "letter": "D",
+                "text": "Automatic patching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Container images can contain vulnerabilities that must be managed through scanning and updates."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0044",
+        "text": "Which of the following is a benefit of containerization for DevOps?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved collaboration between development and operations"
+            },
+            {
+                "letter": "B",
+                "text": "Increased manual intervention"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced automation"
+            },
+            {
+                "letter": "D",
+                "text": "Slower deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers bridge the gap between development and operations by providing consistent environments."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0045",
+        "text": "Which of the following is a benefit of containerization for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers enable faster and more reliable deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require manual deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Containers slow down delivery"
+            },
+            {
+                "letter": "D",
+                "text": "Containers depend on physical servers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers enable faster and more reliable deployments, supporting continuous delivery pipelines."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0046",
+        "text": "Which of the following is a benefit of containerization for environment consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers eliminate environment-specific issues"
+            },
+            {
+                "letter": "B",
+                "text": "Containers depend on host configurations"
+            },
+            {
+                "letter": "C",
+                "text": "Containers vary by environment"
+            },
+            {
+                "letter": "D",
+                "text": "Containers require manual setup"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers eliminate environment-specific issues by packaging dependencies and configurations together."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0047",
+        "text": "Which of the following is a benefit of containerization for rollback?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be rolled back easily using previous images"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require manual rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be rolled back"
+            },
+            {
+                "letter": "D",
+                "text": "Containers depend on physical backups"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers can be rolled back easily by redeploying previous image versions."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0048",
+        "text": "Which of the following is a benefit of containerization for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be monitored and logged individually"
+            },
+            {
+                "letter": "B",
+                "text": "Containers hide logs"
+            },
+            {
+                "letter": "C",
+                "text": "Containers disable monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "Containers merge all logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers can be monitored and logged individually, improving observability and debugging."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0049",
+        "text": "Which of the following is a benefit of containerization for reproducibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers ensure consistent environments across deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Containers vary by environment"
+            },
+            {
+                "letter": "C",
+                "text": "Containers depend on manual configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Containers cannot reproduce environments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers ensure reproducibility by packaging all dependencies and configurations together."
+    },
+    {
+        "title": "MicroserviceContainerization - Q0050",
+        "text": "Which of the following best describes containerization in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Packaging applications and dependencies into isolated, portable units"
+            },
+            {
+                "letter": "B",
+                "text": "Running applications directly on the host OS"
+            },
+            {
+                "letter": "C",
+                "text": "Combining multiple applications into a single binary"
+            },
+            {
+                "letter": "D",
+                "text": "Deploying applications without dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containerization packages applications and dependencies into isolated, portable units called containers."
+    }
+]

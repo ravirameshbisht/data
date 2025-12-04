@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceDataConsistency - Q0001",
+        "text": "What does data consistency mean in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring data remains accurate and synchronized across services"
+            },
+            {
+                "letter": "B",
+                "text": "Storing all data in a single database"
+            },
+            {
+                "letter": "C",
+                "text": "Using the same schema for all services"
+            },
+            {
+                "letter": "D",
+                "text": "Avoiding data replication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Data consistency ensures that all services have accurate and synchronized data, even when distributed."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0002",
+        "text": "Which of the following is a common challenge in maintaining data consistency in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Distributed data across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Single database usage"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "D",
+                "text": "Monolithic architecture"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Data is distributed across multiple services, making consistency difficult to maintain."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0003",
+        "text": "Which of the following patterns helps maintain data consistency across microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Saga pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized transaction pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Global rollback pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern coordinates distributed transactions to maintain eventual consistency."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0004",
+        "text": "What type of consistency is typically achieved in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Eventual consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Strong consistency"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate consistency"
+            },
+            {
+                "letter": "D",
+                "text": "No consistency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservices often achieve eventual consistency due to distributed data and asynchronous communication."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0005",
+        "text": "Which of the following is a key reason strong consistency is difficult in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Data is distributed across multiple databases"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a single schema"
+            },
+            {
+                "letter": "C",
+                "text": "Services use synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Data is stored in memory only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Strong consistency is hard to achieve because data is distributed across multiple independent databases."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0006",
+        "text": "Which of the following is a benefit of eventual consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved availability and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency improves availability and scalability by avoiding global locks."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0007",
+        "text": "Which of the following is a common approach to achieve data consistency in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event-driven architecture"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized schema"
+            },
+            {
+                "letter": "D",
+                "text": "Synchronous locking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture helps maintain consistency by propagating changes through events."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0008",
+        "text": "Which of the following is a challenge of eventual consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Temporary data inconsistency between services"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency can lead to temporary inconsistencies until all updates are propagated."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0009",
+        "text": "Which of the following is a benefit of using the Saga pattern for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Avoids global locks and blocking"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "C",
+                "text": "Requires a global transaction manager"
+            },
+            {
+                "letter": "D",
+                "text": "Enforces strict ACID properties"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern avoids global locks by using local transactions and compensations."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0010",
+        "text": "Which of the following is a key principle of data consistency in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service owns its data and ensures its consistency"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a single database"
+            },
+            {
+                "letter": "C",
+                "text": "Data is managed by a central team"
+            },
+            {
+                "letter": "D",
+                "text": "Data is replicated manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service is responsible for maintaining consistency within its own data domain."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0011",
+        "text": "Which of the following is a common tool used for event-driven consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Apache Kafka"
+            },
+            {
+                "letter": "B",
+                "text": "MySQL"
+            },
+            {
+                "letter": "C",
+                "text": "Redis Cache"
+            },
+            {
+                "letter": "D",
+                "text": "Nginx"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Apache Kafka is commonly used to propagate events and maintain eventual consistency."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0012",
+        "text": "Which of the following is a drawback of strong consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced availability and performance"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Improved scalability"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Strong consistency can reduce availability and performance due to synchronization overhead."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0013",
+        "text": "Which of the following is a benefit of eventual consistency for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency allows services to scale independently without global coordination."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0014",
+        "text": "Which of the following is a challenge of maintaining consistency across services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling distributed transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions are complex and can make maintaining consistency difficult."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0015",
+        "text": "Which of the following is a benefit of eventual consistency for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can continue operating during partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes error handling"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency allows services to operate independently, improving fault tolerance."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0016",
+        "text": "Which of the following is a benefit of using asynchronous communication for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved decoupling and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Asynchronous communication improves decoupling and scalability while maintaining eventual consistency."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0017",
+        "text": "Which of the following is a challenge of eventual consistency for developers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling temporary data inconsistencies"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Developers must handle temporary inconsistencies until data becomes consistent across services."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0018",
+        "text": "Which of the following is a benefit of eventual consistency for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced blocking and improved throughput"
+            },
+            {
+                "letter": "B",
+                "text": "Increased latency"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency reduces blocking, allowing higher throughput and better performance."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0019",
+        "text": "Which of the following is a benefit of using event sourcing for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Rebuilding state from a sequence of events"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event sourcing maintains consistency by rebuilding state from a sequence of recorded events."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0020",
+        "text": "Which of the following best describes data consistency in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring data remains accurate and synchronized across distributed services"
+            },
+            {
+                "letter": "B",
+                "text": "Storing all data in a single database"
+            },
+            {
+                "letter": "C",
+                "text": "Using the same schema for all services"
+            },
+            {
+                "letter": "D",
+                "text": "Avoiding data replication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Data consistency ensures that all services have accurate and synchronized data, even when distributed."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0021",
+        "text": "Which of the following is a key challenge in maintaining data consistency across microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Network latency and partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "Single-threaded execution"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Network latency and partial failures can cause temporary inconsistencies between distributed services."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0022",
+        "text": "Which of the following is a benefit of eventual consistency for availability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services remain available even during synchronization delays"
+            },
+            {
+                "letter": "B",
+                "text": "All services must wait for synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "It reduces availability"
+            },
+            {
+                "letter": "D",
+                "text": "It enforces strict locking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency allows services to remain available while updates propagate asynchronously."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0023",
+        "text": "Which of the following is a common technique to ensure consistency in distributed systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Idempotent operations"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized schema"
+            },
+            {
+                "letter": "D",
+                "text": "Synchronous locking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Idempotent operations ensure that repeated actions produce the same result, aiding consistency."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0024",
+        "text": "Which of the following is a drawback of eventual consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Temporary data discrepancies between services"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency can lead to temporary discrepancies until all updates are propagated."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0025",
+        "text": "Which of the following is a benefit of using asynchronous messaging for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved decoupling and fault tolerance"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Asynchronous messaging improves decoupling and fault tolerance while maintaining eventual consistency."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0026",
+        "text": "Which of the following is a benefit of using the Outbox pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures reliable event publishing with local transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Requires global locks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Outbox pattern ensures reliable event publishing by storing events in the same local transaction as data changes."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0027",
+        "text": "Which of the following is a challenge of maintaining consistency in distributed systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling concurrent updates across services"
+            },
+            {
+                "letter": "B",
+                "text": "Single-threaded execution"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Concurrent updates across services can lead to conflicts and inconsistencies."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0028",
+        "text": "Which of the following is a benefit of using distributed caching for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves read performance while maintaining eventual consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates the need for synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed caching improves read performance and supports eventual consistency through cache invalidation."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0029",
+        "text": "Which of the following is a benefit of using the CQRS pattern for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates read and write models to manage consistency efficiently"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Requires global locks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS separates read and write models, allowing better control over consistency and scalability."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0030",
+        "text": "Which of the following is a challenge of strong consistency in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced availability and performance"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Improved scalability"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Strong consistency can reduce availability and performance due to synchronization overhead."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0031",
+        "text": "Which of the following is a benefit of eventual consistency for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Disables scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes scaling decisions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency allows each service to scale independently based on workload."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0032",
+        "text": "Which of the following is a benefit of using message queues for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures reliable message delivery and eventual consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Requires global locks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Message queues ensure reliable delivery of events, helping maintain eventual consistency."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0033",
+        "text": "Which of the following is a challenge of eventual consistency for user experience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Users may see stale or outdated data temporarily"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency can cause users to see outdated data until synchronization completes."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0034",
+        "text": "Which of the following is a benefit of using distributed logs for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a reliable sequence of events for synchronization"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Requires global locks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed logs like Kafka provide a reliable event stream to synchronize data across services."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0035",
+        "text": "Which of the following is a benefit of using compensating transactions for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rollback of completed steps in case of failure"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates the need for rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies coordination"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Compensating transactions allow rollback of completed steps when a failure occurs later in the process."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0036",
+        "text": "Which of the following is a challenge of maintaining consistency in asynchronous systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring message ordering and delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Asynchronous systems must ensure correct message ordering and reliable delivery to maintain consistency."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0037",
+        "text": "Which of the following is a benefit of using distributed transactions for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures atomic updates across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Allows partial updates"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces data accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions ensure atomic updates across multiple services to maintain data integrity."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0038",
+        "text": "Which of the following is a challenge of maintaining consistency in event-driven systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling duplicate or out-of-order events"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems must handle duplicate or out-of-order events to maintain consistency."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0039",
+        "text": "Which of the following is a benefit of using eventual consistency for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows services to continue operating during partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes error handling"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency allows services to operate independently, improving fault tolerance."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0040",
+        "text": "Which of the following is a benefit of using asynchronous communication for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved decoupling and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Asynchronous communication improves decoupling and scalability while maintaining eventual consistency."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0041",
+        "text": "Which of the following is a challenge of eventual consistency for developers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling temporary data inconsistencies"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Developers must handle temporary inconsistencies until data becomes consistent across services."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0042",
+        "text": "Which of the following is a benefit of eventual consistency for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced blocking and improved throughput"
+            },
+            {
+                "letter": "B",
+                "text": "Increased latency"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency reduces blocking, allowing higher throughput and better performance."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0043",
+        "text": "Which of the following is a benefit of using event sourcing for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Rebuilding state from a sequence of events"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event sourcing maintains consistency by rebuilding state from a sequence of recorded events."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0044",
+        "text": "Which of the following is a challenge of maintaining consistency across services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling distributed transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions are complex and can make maintaining consistency difficult."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0045",
+        "text": "Which of the following is a benefit of eventual consistency for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency allows services to scale independently without global coordination."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0046",
+        "text": "Which of the following is a benefit of eventual consistency for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can continue operating during partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes error handling"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency allows services to operate independently, improving fault tolerance."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0047",
+        "text": "Which of the following is a benefit of using asynchronous communication for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved decoupling and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Asynchronous communication improves decoupling and scalability while maintaining eventual consistency."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0048",
+        "text": "Which of the following is a challenge of eventual consistency for developers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling temporary data inconsistencies"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Developers must handle temporary inconsistencies until data becomes consistent across services."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0049",
+        "text": "Which of the following is a benefit of eventual consistency for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced blocking and improved throughput"
+            },
+            {
+                "letter": "B",
+                "text": "Increased latency"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency reduces blocking, allowing higher throughput and better performance."
+    },
+    {
+        "title": "MicroserviceDataConsistency - Q0050",
+        "text": "Which of the following best describes data consistency in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring data remains accurate and synchronized across distributed services"
+            },
+            {
+                "letter": "B",
+                "text": "Storing all data in a single database"
+            },
+            {
+                "letter": "C",
+                "text": "Using the same schema for all services"
+            },
+            {
+                "letter": "D",
+                "text": "Avoiding data replication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Data consistency ensures that all services have accurate and synchronized data, even when distributed."
+    }
+]

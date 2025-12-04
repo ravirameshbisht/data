@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceCICD - Q0001",
+        "text": "What does CI/CD stand for in software development?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Continuous Integration and Continuous Deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Central Integration and Central Delivery"
+            },
+            {
+                "letter": "C",
+                "text": "Continuous Improvement and Continuous Design"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized Implementation and Continuous Delivery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD stands for Continuous Integration and Continuous Deployment (or Delivery), automating build, test, and release processes."
+    },
+    {
+        "title": "MicroserviceCICD - Q0002",
+        "text": "What is the main goal of Continuous Integration (CI)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To integrate code changes frequently and detect issues early"
+            },
+            {
+                "letter": "B",
+                "text": "To deploy code manually"
+            },
+            {
+                "letter": "C",
+                "text": "To delay integration until release"
+            },
+            {
+                "letter": "D",
+                "text": "To manage infrastructure manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Continuous Integration ensures frequent integration of code changes to detect and fix issues early."
+    },
+    {
+        "title": "MicroserviceCICD - Q0003",
+        "text": "What is the main goal of Continuous Delivery (CD)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To ensure code is always ready for deployment"
+            },
+            {
+                "letter": "B",
+                "text": "To deploy code manually"
+            },
+            {
+                "letter": "C",
+                "text": "To delay releases"
+            },
+            {
+                "letter": "D",
+                "text": "To manage infrastructure manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Continuous Delivery ensures that code is always in a deployable state through automated testing and packaging."
+    },
+    {
+        "title": "MicroserviceCICD - Q0004",
+        "text": "What is the main goal of Continuous Deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To automatically deploy every change that passes tests"
+            },
+            {
+                "letter": "B",
+                "text": "To deploy code manually"
+            },
+            {
+                "letter": "C",
+                "text": "To delay deployment until approval"
+            },
+            {
+                "letter": "D",
+                "text": "To manage infrastructure manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Continuous Deployment automatically deploys every change that passes automated tests to production."
+    },
+    {
+        "title": "MicroserviceCICD - Q0005",
+        "text": "Which of the following tools is commonly used for CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Jenkins"
+            },
+            {
+                "letter": "B",
+                "text": "Photoshop"
+            },
+            {
+                "letter": "C",
+                "text": "Excel"
+            },
+            {
+                "letter": "D",
+                "text": "Slack"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Jenkins is a popular open-source automation server used to build CI/CD pipelines."
+    },
+    {
+        "title": "MicroserviceCICD - Q0006",
+        "text": "Which of the following is a benefit of CI/CD?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster feedback and reduced integration issues"
+            },
+            {
+                "letter": "B",
+                "text": "Manual testing and delayed feedback"
+            },
+            {
+                "letter": "C",
+                "text": "Slower release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Increased manual errors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD provides faster feedback and reduces integration issues through automation."
+    },
+    {
+        "title": "MicroserviceCICD - Q0007",
+        "text": "Which of the following is a key practice in Continuous Integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Frequent code commits to a shared repository"
+            },
+            {
+                "letter": "B",
+                "text": "Manual code integration"
+            },
+            {
+                "letter": "C",
+                "text": "Delayed code merging"
+            },
+            {
+                "letter": "D",
+                "text": "Manual testing only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Frequent code commits help detect integration issues early in Continuous Integration."
+    },
+    {
+        "title": "MicroserviceCICD - Q0008",
+        "text": "Which of the following is a key practice in Continuous Delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automated testing and packaging"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Delayed release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Manual code review only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Continuous Delivery relies on automated testing and packaging to ensure deployable code."
+    },
+    {
+        "title": "MicroserviceCICD - Q0009",
+        "text": "Which of the following is a key benefit of Continuous Deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster delivery of features to users"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment delays"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced automation"
+            },
+            {
+                "letter": "D",
+                "text": "Increased downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Continuous Deployment enables faster delivery of new features to users through automation."
+    },
+    {
+        "title": "MicroserviceCICD - Q0010",
+        "text": "Which of the following is a common CI/CD pipeline stage?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Build, Test, Deploy"
+            },
+            {
+                "letter": "B",
+                "text": "Design, Draw, Deliver"
+            },
+            {
+                "letter": "C",
+                "text": "Plan, Paint, Publish"
+            },
+            {
+                "letter": "D",
+                "text": "Write, Wait, Work"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A typical CI/CD pipeline includes build, test, and deploy stages."
+    },
+    {
+        "title": "MicroserviceCICD - Q0011",
+        "text": "Which of the following is a benefit of automated testing in CI/CD?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects bugs early in the development cycle"
+            },
+            {
+                "letter": "B",
+                "text": "Delays bug detection"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Increases human error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automated testing detects bugs early, improving software quality and reducing manual effort."
+    },
+    {
+        "title": "MicroserviceCICD - Q0012",
+        "text": "Which of the following is a benefit of CI/CD for developers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster feedback on code changes"
+            },
+            {
+                "letter": "B",
+                "text": "Slower feedback"
+            },
+            {
+                "letter": "C",
+                "text": "Manual testing only"
+            },
+            {
+                "letter": "D",
+                "text": "Delayed integration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD provides developers with faster feedback on code changes through automated builds and tests."
+    },
+    {
+        "title": "MicroserviceCICD - Q0013",
+        "text": "Which of the following is a benefit of CI/CD for operations teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced deployment risk through automation"
+            },
+            {
+                "letter": "B",
+                "text": "Increased manual intervention"
+            },
+            {
+                "letter": "C",
+                "text": "Higher deployment errors"
+            },
+            {
+                "letter": "D",
+                "text": "Slower release cycles"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automation in CI/CD reduces deployment risk and operational overhead."
+    },
+    {
+        "title": "MicroserviceCICD - Q0014",
+        "text": "Which of the following is a benefit of CI/CD for business?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster time-to-market for new features"
+            },
+            {
+                "letter": "B",
+                "text": "Delayed releases"
+            },
+            {
+                "letter": "C",
+                "text": "Increased downtime"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced customer satisfaction"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD accelerates time-to-market by automating build, test, and deployment processes."
+    },
+    {
+        "title": "MicroserviceCICD - Q0015",
+        "text": "Which of the following is a common CI/CD tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "GitLab CI/CD"
+            },
+            {
+                "letter": "B",
+                "text": "Photoshop"
+            },
+            {
+                "letter": "C",
+                "text": "Excel"
+            },
+            {
+                "letter": "D",
+                "text": "Slack"
+            }
+        ],
+        "correct": "A",
+        "explanation": "GitLab CI/CD is a popular integrated tool for building and deploying pipelines."
+    },
+    {
+        "title": "MicroserviceCICD - Q0016",
+        "text": "Which of the following is a benefit of CI/CD for quality assurance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automated testing ensures consistent quality"
+            },
+            {
+                "letter": "B",
+                "text": "Manual testing only"
+            },
+            {
+                "letter": "C",
+                "text": "Delayed bug detection"
+            },
+            {
+                "letter": "D",
+                "text": "Increased human error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automated testing in CI/CD ensures consistent quality and reduces human error."
+    },
+    {
+        "title": "MicroserviceCICD - Q0017",
+        "text": "Which of the following is a benefit of CI/CD for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Frequent testing and deployment improve reliability"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment increases reliability"
+            },
+            {
+                "letter": "C",
+                "text": "Delayed testing improves reliability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced automation improves reliability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Frequent testing and deployment improve reliability by catching issues early."
+    },
+    {
+        "title": "MicroserviceCICD - Q0018",
+        "text": "Which of the following is a benefit of CI/CD for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automated pipelines scale easily with project size"
+            },
+            {
+                "letter": "B",
+                "text": "Manual pipelines scale better"
+            },
+            {
+                "letter": "C",
+                "text": "Automation reduces scalability"
+            },
+            {
+                "letter": "D",
+                "text": "CI/CD cannot scale"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automated pipelines in CI/CD scale easily as projects grow in complexity."
+    },
+    {
+        "title": "MicroserviceCICD - Q0019",
+        "text": "Which of the following is a benefit of CI/CD for collaboration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves collaboration between development and operations"
+            },
+            {
+                "letter": "B",
+                "text": "Increases silos between teams"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces communication"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD fosters collaboration between development and operations through shared automation pipelines."
+    },
+    {
+        "title": "MicroserviceCICD - Q0020",
+        "text": "Which of the following best describes CI/CD?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automating integration, testing, and deployment processes"
+            },
+            {
+                "letter": "B",
+                "text": "Manual integration and deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Delayed testing and release"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized manual operations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD automates integration, testing, and deployment to improve speed and reliability."
+    },
+    {
+        "title": "MicroserviceCICD - Q0021",
+        "text": "Which of the following is a key principle of Continuous Integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integrate code changes frequently into a shared repository"
+            },
+            {
+                "letter": "B",
+                "text": "Integrate code only before release"
+            },
+            {
+                "letter": "C",
+                "text": "Avoid automated testing"
+            },
+            {
+                "letter": "D",
+                "text": "Manually merge code changes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Continuous Integration encourages frequent integration of code changes to detect issues early."
+    },
+    {
+        "title": "MicroserviceCICD - Q0022",
+        "text": "Which of the following is a key principle of Continuous Delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensure software is always in a deployable state"
+            },
+            {
+                "letter": "B",
+                "text": "Deploy software manually"
+            },
+            {
+                "letter": "C",
+                "text": "Delay testing until production"
+            },
+            {
+                "letter": "D",
+                "text": "Avoid automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Continuous Delivery ensures that software is always ready for deployment through automation."
+    },
+    {
+        "title": "MicroserviceCICD - Q0023",
+        "text": "Which of the following is a key principle of Continuous Deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically deploy every change that passes tests"
+            },
+            {
+                "letter": "B",
+                "text": "Deploy only after manual approval"
+            },
+            {
+                "letter": "C",
+                "text": "Deploy once per quarter"
+            },
+            {
+                "letter": "D",
+                "text": "Avoid automated deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Continuous Deployment automatically deploys every change that passes automated tests."
+    },
+    {
+        "title": "MicroserviceCICD - Q0024",
+        "text": "Which of the following is a common CI/CD pipeline stage?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Source, Build, Test, Deploy"
+            },
+            {
+                "letter": "B",
+                "text": "Design, Draw, Deliver"
+            },
+            {
+                "letter": "C",
+                "text": "Plan, Paint, Publish"
+            },
+            {
+                "letter": "D",
+                "text": "Write, Wait, Work"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A typical CI/CD pipeline includes source, build, test, and deploy stages."
+    },
+    {
+        "title": "MicroserviceCICD - Q0025",
+        "text": "Which of the following tools is used for CI/CD automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "GitHub Actions"
+            },
+            {
+                "letter": "B",
+                "text": "MS Word"
+            },
+            {
+                "letter": "C",
+                "text": "Excel"
+            },
+            {
+                "letter": "D",
+                "text": "PowerPoint"
+            }
+        ],
+        "correct": "A",
+        "explanation": "GitHub Actions is a CI/CD automation tool integrated with GitHub repositories."
+    },
+    {
+        "title": "MicroserviceCICD - Q0026",
+        "text": "Which of the following is a benefit of CI/CD for microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Independent deployment of services"
+            },
+            {
+                "letter": "B",
+                "text": "Monolithic release cycles"
+            },
+            {
+                "letter": "C",
+                "text": "Manual integration"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD enables independent deployment of microservices, improving agility."
+    },
+    {
+        "title": "MicroserviceCICD - Q0027",
+        "text": "Which of the following is a benefit of CI/CD for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automated testing ensures faster feedback"
+            },
+            {
+                "letter": "B",
+                "text": "Manual testing only"
+            },
+            {
+                "letter": "C",
+                "text": "Delayed bug detection"
+            },
+            {
+                "letter": "D",
+                "text": "Increased human error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automated testing in CI/CD provides faster feedback and reduces human error."
+    },
+    {
+        "title": "MicroserviceCICD - Q0028",
+        "text": "Which of the following is a benefit of CI/CD for deployment frequency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables frequent and reliable deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Reduces deployment frequency"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Delays release cycles"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD enables frequent and reliable deployments through automation."
+    },
+    {
+        "title": "MicroserviceCICD - Q0029",
+        "text": "Which of the following is a benefit of CI/CD for rollback?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows quick rollback to previous versions"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables version control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD pipelines support quick rollback to previous versions in case of failure."
+    },
+    {
+        "title": "MicroserviceCICD - Q0030",
+        "text": "Which of the following is a benefit of CI/CD for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automated testing and deployment improve reliability"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment increases reliability"
+            },
+            {
+                "letter": "C",
+                "text": "Delayed testing improves reliability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced automation improves reliability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automation in CI/CD improves reliability by reducing human error and ensuring consistent processes."
+    },
+    {
+        "title": "MicroserviceCICD - Q0031",
+        "text": "Which of the following is a benefit of CI/CD for collaboration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves collaboration between development and operations"
+            },
+            {
+                "letter": "B",
+                "text": "Increases silos between teams"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces communication"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD fosters collaboration between development and operations through shared automation pipelines."
+    },
+    {
+        "title": "MicroserviceCICD - Q0032",
+        "text": "Which of the following is a benefit of CI/CD for quality assurance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent quality through automated testing"
+            },
+            {
+                "letter": "B",
+                "text": "Relies on manual testing only"
+            },
+            {
+                "letter": "C",
+                "text": "Delays bug detection"
+            },
+            {
+                "letter": "D",
+                "text": "Increases human error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automated testing in CI/CD ensures consistent quality and reduces human error."
+    },
+    {
+        "title": "MicroserviceCICD - Q0033",
+        "text": "Which of the following is a benefit of CI/CD for speed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Accelerates software delivery through automation"
+            },
+            {
+                "letter": "B",
+                "text": "Slows down release cycles"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Delays testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD accelerates software delivery by automating build, test, and deployment processes."
+    },
+    {
+        "title": "MicroserviceCICD - Q0034",
+        "text": "Which of the following is a benefit of CI/CD for cost efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces costs by automating repetitive tasks"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual labor costs"
+            },
+            {
+                "letter": "C",
+                "text": "Requires more resources"
+            },
+            {
+                "letter": "D",
+                "text": "Delays releases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automation in CI/CD reduces manual effort and operational costs."
+    },
+    {
+        "title": "MicroserviceCICD - Q0035",
+        "text": "Which of the following is a benefit of CI/CD for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Frequent testing reduces deployment risk"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment increases risk"
+            },
+            {
+                "letter": "C",
+                "text": "Delayed testing reduces risk"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced automation reduces risk"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Frequent testing and deployment reduce risk by catching issues early."
+    },
+    {
+        "title": "MicroserviceCICD - Q0036",
+        "text": "Which of the following is a benefit of CI/CD for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into build and deployment processes"
+            },
+            {
+                "letter": "B",
+                "text": "Hides build logs"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD provides transparency through logs and dashboards for builds and deployments."
+    },
+    {
+        "title": "MicroserviceCICD - Q0037",
+        "text": "Which of the following is a benefit of CI/CD for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance through automation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual maintenance"
+            },
+            {
+                "letter": "C",
+                "text": "Increases maintenance complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on manual updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automation in CI/CD simplifies maintenance by reducing manual intervention."
+    },
+    {
+        "title": "MicroserviceCICD - Q0038",
+        "text": "Which of the following is a benefit of CI/CD for feedback loops?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides rapid feedback on code changes"
+            },
+            {
+                "letter": "B",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual testing"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD provides rapid feedback through automated builds and tests."
+    },
+    {
+        "title": "MicroserviceCICD - Q0039",
+        "text": "Which of the following is a benefit of CI/CD for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pipelines can scale with project size"
+            },
+            {
+                "letter": "B",
+                "text": "Manual processes scale better"
+            },
+            {
+                "letter": "C",
+                "text": "Automation reduces scalability"
+            },
+            {
+                "letter": "D",
+                "text": "CI/CD cannot scale"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automated pipelines in CI/CD scale easily as projects grow in complexity."
+    },
+    {
+        "title": "MicroserviceCICD - Q0040",
+        "text": "Which of the following is a benefit of CI/CD for traceability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracks changes from commit to deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Hides change history"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD provides traceability by tracking changes from commit to deployment."
+    },
+    {
+        "title": "MicroserviceCICD - Q0041",
+        "text": "Which of the following is a benefit of CI/CD for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates build, test, and deployment processes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Disables automation"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on manual scaling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD automates build, test, and deployment processes, reducing manual effort."
+    },
+    {
+        "title": "MicroserviceCICD - Q0042",
+        "text": "Which of the following is a benefit of CI/CD for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encourages iterative development and feedback"
+            },
+            {
+                "letter": "B",
+                "text": "Delays iteration"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents feedback"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces iteration speed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD supports continuous improvement through iterative development and feedback loops."
+    },
+    {
+        "title": "MicroserviceCICD - Q0043",
+        "text": "Which of the following is a benefit of CI/CD for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integrates security checks into the pipeline"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores security testing"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual security audits only"
+            },
+            {
+                "letter": "D",
+                "text": "Delays vulnerability detection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD integrates security checks into the pipeline, enabling DevSecOps practices."
+    },
+    {
+        "title": "MicroserviceCICD - Q0044",
+        "text": "Which of the following is a benefit of CI/CD for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into pipeline performance"
+            },
+            {
+                "letter": "B",
+                "text": "Hides pipeline metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD provides observability through metrics and logs for pipeline performance."
+    },
+    {
+        "title": "MicroserviceCICD - Q0045",
+        "text": "Which of the following is a benefit of CI/CD for rollback?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows quick rollback to previous versions"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables version control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD pipelines support quick rollback to previous versions in case of failure."
+    },
+    {
+        "title": "MicroserviceCICD - Q0046",
+        "text": "Which of the following is a benefit of CI/CD for DevOps?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bridges the gap between development and operations"
+            },
+            {
+                "letter": "B",
+                "text": "Increases silos between teams"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces collaboration"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD bridges the gap between development and operations by automating workflows."
+    },
+    {
+        "title": "MicroserviceCICD - Q0047",
+        "text": "Which of the following is a benefit of CI/CD for continuous testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Runs automated tests continuously during integration"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual testing only"
+            },
+            {
+                "letter": "C",
+                "text": "Delays testing until release"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test coverage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Continuous testing ensures that automated tests run throughout the integration process."
+    },
+    {
+        "title": "MicroserviceCICD - Q0048",
+        "text": "Which of the following is a benefit of CI/CD for deployment speed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster and more reliable deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Slows down deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Delays release cycles"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD enables faster and more reliable deployments through automation."
+    },
+    {
+        "title": "MicroserviceCICD - Q0049",
+        "text": "Which of the following is a benefit of CI/CD for continuous feedback?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides immediate feedback on code quality"
+            },
+            {
+                "letter": "B",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual review"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD provides immediate feedback on code quality through automated testing and analysis."
+    },
+    {
+        "title": "MicroserviceCICD - Q0050",
+        "text": "Which of the following best describes CI/CD?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automating integration, testing, and deployment processes"
+            },
+            {
+                "letter": "B",
+                "text": "Manual integration and deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Delayed testing and release"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized manual operations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD automates integration, testing, and deployment to improve speed and reliability."
+    }
+]

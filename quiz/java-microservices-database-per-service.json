@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceDatabasePerService - Q0001",
+        "text": "What is the main principle of the Database per Service pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each microservice owns its own database"
+            },
+            {
+                "letter": "B",
+                "text": "All microservices share a single database"
+            },
+            {
+                "letter": "C",
+                "text": "Databases are managed by a central team"
+            },
+            {
+                "letter": "D",
+                "text": "Databases are optional for microservices"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In the Database per Service pattern, each microservice has its own database to ensure loose coupling and autonomy."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0002",
+        "text": "Which of the following is a key benefit of the Database per Service pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Loose coupling between services"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "C",
+                "text": "Shared schema across services"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified cross-service queries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Having separate databases for each service ensures that services are loosely coupled and can evolve independently."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0003",
+        "text": "Which of the following is a challenge of the Database per Service pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Implementing cross-service queries and transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Managing a single schema"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data governance"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Cross-service queries and transactions are complex because data is distributed across multiple databases."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0004",
+        "text": "Which of the following is a benefit of the Database per Service pattern for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale its database independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service can scale its database independently based on its own workload and performance needs."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0005",
+        "text": "Which of the following is a benefit of the Database per Service pattern for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failure in one service’s database does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service’s database is isolated, so a failure in one does not impact other services."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0006",
+        "text": "Which of the following is a benefit of the Database per Service pattern for technology diversity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can use the most suitable database technology"
+            },
+            {
+                "letter": "B",
+                "text": "All services must use the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Database technology is centrally decided"
+            },
+            {
+                "letter": "D",
+                "text": "Database changes require global approval"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern supports polyglot persistence, allowing each service to choose the best database for its needs."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0007",
+        "text": "Which of the following is a challenge of the Database per Service pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintaining data consistency across services"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Maintaining consistency across multiple databases is challenging because distributed transactions are complex."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0008",
+        "text": "Which of the following patterns helps maintain consistency across services with separate databases?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Saga pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized commit pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Global rollback pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern coordinates distributed transactions across services to maintain eventual consistency."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0009",
+        "text": "Which of the following is a benefit of the Database per Service pattern for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can manage and deploy their own databases"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all database changes"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single database"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on a central DBA team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each team can manage its own database, improving autonomy and agility."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0010",
+        "text": "Which of the following is a benefit of the Database per Service pattern for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changes in one service’s data model do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services must update their schemas together"
+            },
+            {
+                "letter": "C",
+                "text": "Schema changes require global coordination"
+            },
+            {
+                "letter": "D",
+                "text": "Data models are centrally managed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service’s schema is independent, so changes do not impact other services."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0011",
+        "text": "Which of the following is a benefit of the Database per Service pattern for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Data access can be restricted per service"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same credentials"
+            },
+            {
+                "letter": "C",
+                "text": "Security is managed centrally"
+            },
+            {
+                "letter": "D",
+                "text": "Data access is global"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service can enforce its own security policies and access controls."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0012",
+        "text": "Which of the following is a benefit of the Database per Service pattern for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can recover independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must recover together"
+            },
+            {
+                "letter": "C",
+                "text": "Recovery depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Recovery requires full system restart"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service can recover independently, improving overall system resilience."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0013",
+        "text": "Which of the following is a benefit of the Database per Service pattern for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can tune its database for its workload"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same tuning parameters"
+            },
+            {
+                "letter": "C",
+                "text": "Performance tuning depends on a central DBA"
+            },
+            {
+                "letter": "D",
+                "text": "Performance improvements require global changes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service can optimize its database independently for its specific performance needs."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0014",
+        "text": "Which of the following is a challenge of the Database per Service pattern for reporting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aggregating data across multiple databases"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Reporting across multiple databases is complex because data is distributed."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0015",
+        "text": "Which of the following is a benefit of the Database per Service pattern for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It promotes modular design by isolating data per service"
+            },
+            {
+                "letter": "B",
+                "text": "It enforces a single global schema"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "It merges multiple domains"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service’s database isolation supports modular design and domain separation."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0016",
+        "text": "Which of the following is a benefit of the Database per Service pattern for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can deploy database changes independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must deploy together"
+            },
+            {
+                "letter": "C",
+                "text": "Database changes require global coordination"
+            },
+            {
+                "letter": "D",
+                "text": "Database updates depend on a central team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent databases allow services to deploy changes without affecting others."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0017",
+        "text": "Which of the following is a benefit of the Database per Service pattern for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new database technologies"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must use the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires central approval"
+            },
+            {
+                "letter": "D",
+                "text": "Database changes are globally managed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Teams can innovate by experimenting with different database technologies suited to their needs."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0018",
+        "text": "Which of the following is a challenge of the Database per Service pattern for data integrity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintaining referential integrity across services"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Referential integrity across services is difficult because data is stored in separate databases."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0019",
+        "text": "Which of the following is a benefit of the Database per Service pattern for data ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service owns and controls its data"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a global data model"
+            },
+            {
+                "letter": "C",
+                "text": "Data ownership is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Data is managed by a single team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service has clear ownership and control over its data, improving accountability."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0020",
+        "text": "Which of the following best describes the Database per Service pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each microservice manages its own database independently"
+            },
+            {
+                "letter": "B",
+                "text": "All microservices share a single centralized database"
+            },
+            {
+                "letter": "C",
+                "text": "Data is stored in a single monolithic schema"
+            },
+            {
+                "letter": "D",
+                "text": "Data is managed by a central data warehouse"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each microservice owns and manages its own database, ensuring autonomy and loose coupling."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0021",
+        "text": "Which of the following is a benefit of the Database per Service pattern for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can evolve independently without affecting others"
+            },
+            {
+                "letter": "B",
+                "text": "All services must coordinate schema changes"
+            },
+            {
+                "letter": "C",
+                "text": "Database changes require global approval"
+            },
+            {
+                "letter": "D",
+                "text": "All services share the same schema"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent databases allow each service to evolve and deploy changes autonomously."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0022",
+        "text": "Which of the following is a challenge of the Database per Service pattern for transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Implementing distributed transactions across services"
+            },
+            {
+                "letter": "B",
+                "text": "Managing a single transaction log"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized rollback mechanism"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified commit process"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions are complex because each service manages its own database."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0023",
+        "text": "Which of the following is a benefit of the Database per Service pattern for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each database can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All databases must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent databases allow each service to scale based on its own performance needs."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0024",
+        "text": "Which of the following is a benefit of the Database per Service pattern for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A database failure affects only one service"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service’s database is isolated, so a failure in one does not impact others."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0025",
+        "text": "Which of the following is a challenge of the Database per Service pattern for data synchronization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Synchronizing data across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Managing a single schema"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data governance"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Synchronizing data across multiple independent databases can be complex."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0026",
+        "text": "Which of the following is a benefit of the Database per Service pattern for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can choose its own database type"
+            },
+            {
+                "letter": "B",
+                "text": "All services must use the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Database technology is fixed"
+            },
+            {
+                "letter": "D",
+                "text": "Database changes require global coordination"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern supports polyglot persistence, allowing services to use different database technologies."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0027",
+        "text": "Which of the following is a challenge of the Database per Service pattern for analytics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aggregating data from multiple databases"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Analytics across multiple databases is complex because data is distributed."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0028",
+        "text": "Which of the following is a benefit of the Database per Service pattern for data privacy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Sensitive data can be isolated per service"
+            },
+            {
+                "letter": "B",
+                "text": "All data is stored in a shared database"
+            },
+            {
+                "letter": "C",
+                "text": "Data access is global"
+            },
+            {
+                "letter": "D",
+                "text": "Security is managed centrally"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service can isolate and secure its own sensitive data."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0029",
+        "text": "Which of the following is a benefit of the Database per Service pattern for performance tuning?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can optimize its database independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same tuning parameters"
+            },
+            {
+                "letter": "C",
+                "text": "Performance tuning depends on a central DBA"
+            },
+            {
+                "letter": "D",
+                "text": "Performance improvements require global changes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service can tune its database for its specific workload and performance needs."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0030",
+        "text": "Which of the following is a challenge of the Database per Service pattern for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring eventual consistency across services"
+            },
+            {
+                "letter": "B",
+                "text": "Maintaining a single schema"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data governance"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency must be managed carefully when data is distributed across services."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0031",
+        "text": "Which of the following is a benefit of the Database per Service pattern for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can deploy database changes independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must deploy together"
+            },
+            {
+                "letter": "C",
+                "text": "Database changes require global coordination"
+            },
+            {
+                "letter": "D",
+                "text": "Database updates depend on a central team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent databases allow services to deploy changes without affecting others."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0032",
+        "text": "Which of the following is a benefit of the Database per Service pattern for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can test its database independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must test together"
+            },
+            {
+                "letter": "C",
+                "text": "Testing depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Testing requires full system integration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent databases allow services to test their data logic in isolation."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0033",
+        "text": "Which of the following is a challenge of the Database per Service pattern for data migration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Migrating data across multiple independent databases"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Data migration is complex because each service manages its own database schema."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0034",
+        "text": "Which of the following is a benefit of the Database per Service pattern for data governance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can enforce its own data policies"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a single governance model"
+            },
+            {
+                "letter": "C",
+                "text": "Governance is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Data policies are global"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service can define and enforce its own data governance policies."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0035",
+        "text": "Which of the following is a challenge of the Database per Service pattern for backups?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing backups for multiple databases"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized backup management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service’s database requires its own backup strategy, increasing operational complexity."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0036",
+        "text": "Which of the following is a benefit of the Database per Service pattern for data ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service owns and controls its data"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a global data model"
+            },
+            {
+                "letter": "C",
+                "text": "Data ownership is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Data is managed by a single team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service has clear ownership and control over its data, improving accountability."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0037",
+        "text": "Which of the following is a challenge of the Database per Service pattern for data duplication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Data may be duplicated across services"
+            },
+            {
+                "letter": "B",
+                "text": "Data is always centralized"
+            },
+            {
+                "letter": "C",
+                "text": "Data duplication is impossible"
+            },
+            {
+                "letter": "D",
+                "text": "Data is automatically synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Data duplication can occur when multiple services need similar data for their operations."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0038",
+        "text": "Which of the following is a benefit of the Database per Service pattern for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It promotes modular design by isolating data per service"
+            },
+            {
+                "letter": "B",
+                "text": "It enforces a single global schema"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "It merges multiple domains"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service’s database isolation supports modular design and domain separation."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0039",
+        "text": "Which of the following is a challenge of the Database per Service pattern for cross-service queries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Combining data from multiple databases is complex"
+            },
+            {
+                "letter": "B",
+                "text": "All data is stored in one place"
+            },
+            {
+                "letter": "C",
+                "text": "Queries are simplified"
+            },
+            {
+                "letter": "D",
+                "text": "Data is automatically joined"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Cross-service queries are difficult because data is distributed across multiple databases."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0040",
+        "text": "Which of the following is a benefit of the Database per Service pattern for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can recover independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must recover together"
+            },
+            {
+                "letter": "C",
+                "text": "Recovery depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Recovery requires full system restart"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service can recover independently, improving overall system resilience."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0041",
+        "text": "Which of the following is a challenge of the Database per Service pattern for data consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintaining consistency across multiple databases"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Maintaining consistency across multiple databases is challenging because distributed transactions are complex."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0042",
+        "text": "Which of the following is a benefit of the Database per Service pattern for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each database can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All databases must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent databases allow each service to scale based on its own performance needs."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0043",
+        "text": "Which of the following is a benefit of the Database per Service pattern for team independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can manage and deploy their own databases"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all database changes"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single database"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on a central DBA team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each team can manage its own database, improving autonomy and agility."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0044",
+        "text": "Which of the following is a challenge of the Database per Service pattern for reporting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aggregating data across multiple databases"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Reporting across multiple databases is complex because data is distributed."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0045",
+        "text": "Which of the following is a benefit of the Database per Service pattern for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It promotes modular design by isolating data per service"
+            },
+            {
+                "letter": "B",
+                "text": "It enforces a single global schema"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "It merges multiple domains"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service’s database isolation supports modular design and domain separation."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0046",
+        "text": "Which of the following is a challenge of the Database per Service pattern for data duplication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Data may be duplicated across services"
+            },
+            {
+                "letter": "B",
+                "text": "Data is always centralized"
+            },
+            {
+                "letter": "C",
+                "text": "Data duplication is impossible"
+            },
+            {
+                "letter": "D",
+                "text": "Data is automatically synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Data duplication can occur when multiple services need similar data for their operations."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0047",
+        "text": "Which of the following is a benefit of the Database per Service pattern for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can tune its database for its workload"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same tuning parameters"
+            },
+            {
+                "letter": "C",
+                "text": "Performance tuning depends on a central DBA"
+            },
+            {
+                "letter": "D",
+                "text": "Performance improvements require global changes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service can optimize its database independently for its specific performance needs."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0048",
+        "text": "Which of the following is a challenge of the Database per Service pattern for data integrity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintaining referential integrity across services"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Referential integrity across services is difficult because data is stored in separate databases."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0049",
+        "text": "Which of the following is a benefit of the Database per Service pattern for data ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service owns and controls its data"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a global data model"
+            },
+            {
+                "letter": "C",
+                "text": "Data ownership is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Data is managed by a single team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service has clear ownership and control over its data, improving accountability."
+    },
+    {
+        "title": "MicroserviceDatabasePerService - Q0050",
+        "text": "Which of the following best describes the Database per Service pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each microservice manages its own database independently"
+            },
+            {
+                "letter": "B",
+                "text": "All microservices share a single centralized database"
+            },
+            {
+                "letter": "C",
+                "text": "Data is stored in a single monolithic schema"
+            },
+            {
+                "letter": "D",
+                "text": "Data is managed by a central data warehouse"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each microservice owns and manages its own database, ensuring autonomy and loose coupling."
+    }
+]

@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceMonitoringLogging - Q0001",
+        "text": "What is the primary purpose of monitoring in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To track system performance and detect issues"
+            },
+            {
+                "letter": "B",
+                "text": "To store application data"
+            },
+            {
+                "letter": "C",
+                "text": "To manage user authentication"
+            },
+            {
+                "letter": "D",
+                "text": "To deploy new services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monitoring helps track performance, availability, and detect issues in microservices."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0002",
+        "text": "What is the main goal of logging in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To record events and errors for troubleshooting"
+            },
+            {
+                "letter": "B",
+                "text": "To store user credentials"
+            },
+            {
+                "letter": "C",
+                "text": "To manage deployments"
+            },
+            {
+                "letter": "D",
+                "text": "To balance network traffic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Logging records events and errors to help diagnose and troubleshoot issues."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0003",
+        "text": "Which of the following tools is commonly used for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prometheus"
+            },
+            {
+                "letter": "B",
+                "text": "Git"
+            },
+            {
+                "letter": "C",
+                "text": "Docker"
+            },
+            {
+                "letter": "D",
+                "text": "Jenkins"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Prometheus is a popular open-source monitoring tool for collecting and querying metrics."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0004",
+        "text": "Which of the following tools is commonly used for log aggregation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Elasticsearch"
+            },
+            {
+                "letter": "B",
+                "text": "Terraform"
+            },
+            {
+                "letter": "C",
+                "text": "Kubernetes"
+            },
+            {
+                "letter": "D",
+                "text": "Docker Compose"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Elasticsearch is used for storing and searching logs in centralized logging systems."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0005",
+        "text": "What is the purpose of alerting in monitoring systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To notify teams about performance or availability issues"
+            },
+            {
+                "letter": "B",
+                "text": "To deploy new services"
+            },
+            {
+                "letter": "C",
+                "text": "To store logs"
+            },
+            {
+                "letter": "D",
+                "text": "To manage configurations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Alerting notifies teams when metrics exceed thresholds or anomalies occur."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0006",
+        "text": "Which of the following is a key metric in application monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Latency"
+            },
+            {
+                "letter": "B",
+                "text": "Font size"
+            },
+            {
+                "letter": "C",
+                "text": "User interface color"
+            },
+            {
+                "letter": "D",
+                "text": "File path"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Latency measures response time and is a key performance metric in monitoring."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0007",
+        "text": "What does the acronym ELK stand for in logging systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Elasticsearch, Logstash, Kibana"
+            },
+            {
+                "letter": "B",
+                "text": "Elastic, Linux, Kubernetes"
+            },
+            {
+                "letter": "C",
+                "text": "Event, Log, Kernel"
+            },
+            {
+                "letter": "D",
+                "text": "Elastic, Logging, Kafka"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ELK stands for Elasticsearch, Logstash, and Kibana, used for centralized logging and visualization."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0008",
+        "text": "Which of the following is a visualization tool for monitoring metrics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Grafana"
+            },
+            {
+                "letter": "B",
+                "text": "GitHub"
+            },
+            {
+                "letter": "C",
+                "text": "Docker Hub"
+            },
+            {
+                "letter": "D",
+                "text": "Terraform"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Grafana is used to visualize metrics from monitoring tools like Prometheus."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0009",
+        "text": "What is the purpose of distributed tracing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To trace requests across multiple microservices"
+            },
+            {
+                "letter": "B",
+                "text": "To store logs locally"
+            },
+            {
+                "letter": "C",
+                "text": "To manage deployments"
+            },
+            {
+                "letter": "D",
+                "text": "To configure network policies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing tracks requests across microservices to identify performance bottlenecks."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0010",
+        "text": "Which of the following tools is used for distributed tracing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Jaeger"
+            },
+            {
+                "letter": "B",
+                "text": "Docker"
+            },
+            {
+                "letter": "C",
+                "text": "Git"
+            },
+            {
+                "letter": "D",
+                "text": "Ansible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Jaeger is a distributed tracing tool used to monitor and troubleshoot microservices."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0011",
+        "text": "What is the purpose of log aggregation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To collect logs from multiple sources into one location"
+            },
+            {
+                "letter": "B",
+                "text": "To delete old logs"
+            },
+            {
+                "letter": "C",
+                "text": "To compress log files"
+            },
+            {
+                "letter": "D",
+                "text": "To encrypt logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log aggregation collects logs from multiple services into a centralized system for analysis."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0012",
+        "text": "Which of the following is a benefit of centralized logging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies troubleshooting and analysis"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual effort"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Requires local log access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Centralized logging simplifies troubleshooting by consolidating logs from multiple services."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0013",
+        "text": "What is the purpose of metrics in monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To quantify system performance and health"
+            },
+            {
+                "letter": "B",
+                "text": "To store user data"
+            },
+            {
+                "letter": "C",
+                "text": "To manage configurations"
+            },
+            {
+                "letter": "D",
+                "text": "To deploy applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Metrics quantify performance and health, helping identify trends and issues."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0014",
+        "text": "Which of the following is a common metric type in monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "CPU usage"
+            },
+            {
+                "letter": "B",
+                "text": "Font size"
+            },
+            {
+                "letter": "C",
+                "text": "User interface color"
+            },
+            {
+                "letter": "D",
+                "text": "File path"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CPU usage is a common metric used to monitor system performance."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0015",
+        "text": "What is the purpose of log levels?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To categorize logs by severity"
+            },
+            {
+                "letter": "B",
+                "text": "To encrypt logs"
+            },
+            {
+                "letter": "C",
+                "text": "To compress log files"
+            },
+            {
+                "letter": "D",
+                "text": "To delete old logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log levels categorize logs by severity, such as INFO, WARN, and ERROR."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0016",
+        "text": "Which of the following is a common log level?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "ERROR"
+            },
+            {
+                "letter": "B",
+                "text": "COLOR"
+            },
+            {
+                "letter": "C",
+                "text": "FONT"
+            },
+            {
+                "letter": "D",
+                "text": "STYLE"
+            }
+        ],
+        "correct": "A",
+        "explanation": "ERROR is a common log level used to indicate critical issues."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0017",
+        "text": "What is the purpose of anomaly detection in monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To identify unusual patterns in metrics"
+            },
+            {
+                "letter": "B",
+                "text": "To store logs"
+            },
+            {
+                "letter": "C",
+                "text": "To manage configurations"
+            },
+            {
+                "letter": "D",
+                "text": "To deploy applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Anomaly detection identifies unusual patterns that may indicate issues or failures."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0018",
+        "text": "Which of the following is a benefit of monitoring dashboards?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides real-time visualization of system health"
+            },
+            {
+                "letter": "B",
+                "text": "Stores logs"
+            },
+            {
+                "letter": "C",
+                "text": "Manages deployments"
+            },
+            {
+                "letter": "D",
+                "text": "Configures networks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Dashboards provide real-time visualization of metrics and system health."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0019",
+        "text": "Which of the following is a benefit of log correlation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps trace related events across services"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes old logs"
+            },
+            {
+                "letter": "C",
+                "text": "Compresses log files"
+            },
+            {
+                "letter": "D",
+                "text": "Encrypts logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log correlation helps trace related events across multiple services for troubleshooting."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0020",
+        "text": "Which of the following best describes monitoring and logging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Monitoring tracks performance; logging records events"
+            },
+            {
+                "letter": "B",
+                "text": "Monitoring stores data; logging deletes data"
+            },
+            {
+                "letter": "C",
+                "text": "Monitoring manages users; logging manages networks"
+            },
+            {
+                "letter": "D",
+                "text": "Monitoring deploys apps; logging builds code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monitoring tracks performance and health, while logging records events and errors."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0021",
+        "text": "Which of the following is a benefit of proactive monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects issues before they impact users"
+            },
+            {
+                "letter": "B",
+                "text": "Waits for user complaints"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Increases downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Proactive monitoring helps identify and resolve issues before they affect end users."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0022",
+        "text": "Which of the following is a benefit of centralized monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a unified view of all system components"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual data collection"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Increases complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Centralized monitoring consolidates data from multiple sources for a unified system view."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0023",
+        "text": "Which of the following is a benefit of log retention policies?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Manages storage and compliance efficiently"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes logs immediately"
+            },
+            {
+                "letter": "C",
+                "text": "Stores logs indefinitely"
+            },
+            {
+                "letter": "D",
+                "text": "Ignores compliance requirements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log retention policies manage storage and ensure compliance with data regulations."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0024",
+        "text": "Which of the following is a benefit of anomaly detection in monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Identifies unusual patterns that may indicate issues"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores performance deviations"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual analysis"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces alert accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Anomaly detection identifies unusual patterns in metrics that may signal potential problems."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0025",
+        "text": "Which of the following is a benefit of real-time monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides immediate insights into system performance"
+            },
+            {
+                "letter": "B",
+                "text": "Delays issue detection"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces responsiveness"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Real-time monitoring provides immediate insights, enabling faster response to issues."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0026",
+        "text": "Which of the following is a benefit of log analysis?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify root causes of issues"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes logs automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Hides error details"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log analysis helps identify the root cause of issues by examining recorded events."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0027",
+        "text": "Which of the following is a benefit of alert thresholds?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Triggers alerts when metrics exceed defined limits"
+            },
+            {
+                "letter": "B",
+                "text": "Prevents alerts from being sent"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "Delays issue detection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Alert thresholds trigger notifications when metrics exceed acceptable limits."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0028",
+        "text": "Which of the following is a benefit of log standardization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent log formats across services"
+            },
+            {
+                "letter": "B",
+                "text": "Allows random log structures"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces readability"
+            },
+            {
+                "letter": "D",
+                "text": "Increases parsing errors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Standardized logs ensure consistency, making analysis and correlation easier."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0029",
+        "text": "Which of the following is a benefit of distributed logging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Collects logs from multiple microservices"
+            },
+            {
+                "letter": "B",
+                "text": "Stores logs locally only"
+            },
+            {
+                "letter": "C",
+                "text": "Ignores remote logs"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed logging collects logs from multiple microservices for centralized analysis."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0030",
+        "text": "Which of the following is a benefit of correlation IDs in logging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Links related log entries across services"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes unrelated logs"
+            },
+            {
+                "letter": "C",
+                "text": "Hides trace information"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Correlation IDs link related log entries across services, aiding in tracing requests."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0031",
+        "text": "Which of the following is a benefit of synthetic monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simulates user interactions to test performance"
+            },
+            {
+                "letter": "B",
+                "text": "Monitors only backend systems"
+            },
+            {
+                "letter": "C",
+                "text": "Ignores user experience"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Synthetic monitoring simulates user interactions to test performance and availability."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0032",
+        "text": "Which of the following is a benefit of anomaly-based alerting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects unusual patterns automatically"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual threshold setup"
+            },
+            {
+                "letter": "C",
+                "text": "Ignores deviations"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces alert accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Anomaly-based alerting automatically detects unusual patterns in metrics or logs."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0033",
+        "text": "Which of the following is a benefit of log indexing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables fast search and retrieval of logs"
+            },
+            {
+                "letter": "B",
+                "text": "Slows down log queries"
+            },
+            {
+                "letter": "C",
+                "text": "Deletes logs automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces search accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log indexing enables fast search and retrieval of logs for analysis."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0034",
+        "text": "Which of the following is a benefit of metrics aggregation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Combines data from multiple sources for analysis"
+            },
+            {
+                "letter": "B",
+                "text": "Stores metrics separately"
+            },
+            {
+                "letter": "C",
+                "text": "Ignores data from other services"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces data accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Metrics aggregation combines data from multiple sources for comprehensive analysis."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0035",
+        "text": "Which of the following is a benefit of log filtering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Removes unnecessary log entries for clarity"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes all logs"
+            },
+            {
+                "letter": "C",
+                "text": "Hides critical errors"
+            },
+            {
+                "letter": "D",
+                "text": "Increases noise"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log filtering removes unnecessary entries, improving clarity and focus during analysis."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0036",
+        "text": "Which of the following is a benefit of alert prioritization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps teams focus on critical issues first"
+            },
+            {
+                "letter": "B",
+                "text": "Treats all alerts equally"
+            },
+            {
+                "letter": "C",
+                "text": "Delays response time"
+            },
+            {
+                "letter": "D",
+                "text": "Increases alert fatigue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Alert prioritization ensures that critical issues are addressed before minor ones."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0037",
+        "text": "Which of the following is a benefit of log visualization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Makes log data easier to interpret"
+            },
+            {
+                "letter": "B",
+                "text": "Hides log details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual parsing"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces readability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log visualization tools make log data easier to interpret through charts and graphs."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0038",
+        "text": "Which of the following is a benefit of automated alerting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Notifies teams immediately when issues occur"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual checks"
+            },
+            {
+                "letter": "C",
+                "text": "Delays notifications"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces responsiveness"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automated alerting ensures teams are notified immediately when issues arise."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0039",
+        "text": "Which of the following is a benefit of log compression?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Saves storage space without losing data"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes logs permanently"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces log readability"
+            },
+            {
+                "letter": "D",
+                "text": "Increases storage costs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log compression saves storage space while retaining essential data."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0040",
+        "text": "Which of the following is a benefit of log encryption?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Protects sensitive information in logs"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes sensitive data"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces security"
+            },
+            {
+                "letter": "D",
+                "text": "Increases exposure"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log encryption protects sensitive information from unauthorized access."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0041",
+        "text": "Which of the following is a benefit of log rotation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents log files from growing too large"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes all logs"
+            },
+            {
+                "letter": "C",
+                "text": "Increases file size"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces performance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log rotation prevents log files from consuming excessive disk space."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0042",
+        "text": "Which of the following is a benefit of monitoring APIs?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracks API performance and availability"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores API errors"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual testing"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API monitoring tracks performance and availability to ensure reliability."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0043",
+        "text": "Which of the following is a benefit of event-driven monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Responds to specific system events in real time"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores event triggers"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual intervention"
+            },
+            {
+                "letter": "D",
+                "text": "Delays response"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven monitoring reacts to specific system events for faster issue resolution."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0044",
+        "text": "Which of the following is a benefit of log correlation with metrics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides context for performance issues"
+            },
+            {
+                "letter": "B",
+                "text": "Separates logs and metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual analysis"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Correlating logs with metrics provides context for identifying performance issues."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0045",
+        "text": "Which of the following is a benefit of monitoring SLAs?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures service performance meets agreed standards"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores service performance"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces accountability"
+            },
+            {
+                "letter": "D",
+                "text": "Delays issue detection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monitoring SLAs ensures that service performance meets contractual obligations."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0046",
+        "text": "Which of the following is a benefit of predictive monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Forecasts potential issues before they occur"
+            },
+            {
+                "letter": "B",
+                "text": "Waits for failures"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual prediction"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Predictive monitoring uses data trends to forecast potential issues before they occur."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0047",
+        "text": "Which of the following is a benefit of monitoring dashboards?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visual insights into system health"
+            },
+            {
+                "letter": "B",
+                "text": "Hides performance data"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual data collection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Dashboards provide visual insights into system health and performance metrics."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0048",
+        "text": "Which of the following is a benefit of log-based alerting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Triggers alerts based on specific log patterns"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores log data"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual checks"
+            },
+            {
+                "letter": "D",
+                "text": "Delays notifications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log-based alerting triggers notifications when specific patterns or errors appear in logs."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0049",
+        "text": "Which of the following is a benefit of monitoring microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracks performance and dependencies between services"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores service interactions"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monitoring microservices tracks performance and dependencies to ensure reliability."
+    },
+    {
+        "title": "MicroserviceMonitoringLogging - Q0050",
+        "text": "Which of the following best describes monitoring and logging in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Monitoring tracks performance; logging records events for analysis"
+            },
+            {
+                "letter": "B",
+                "text": "Monitoring stores data; logging deletes data"
+            },
+            {
+                "letter": "C",
+                "text": "Monitoring manages users; logging manages networks"
+            },
+            {
+                "letter": "D",
+                "text": "Monitoring deploys apps; logging builds code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monitoring tracks performance and health, while logging records events and errors for analysis."
+    }
+]

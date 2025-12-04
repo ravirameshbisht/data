@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceDistributedTransactions - Q0001",
+        "text": "What is a distributed transaction in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A transaction that spans multiple services or databases"
+            },
+            {
+                "letter": "B",
+                "text": "A transaction confined to a single database"
+            },
+            {
+                "letter": "C",
+                "text": "A transaction that only updates cache"
+            },
+            {
+                "letter": "D",
+                "text": "A transaction that runs on a single thread"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions involve multiple services or databases that must maintain data consistency across boundaries."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0002",
+        "text": "Why are distributed transactions challenging in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Because services are autonomous and have separate databases"
+            },
+            {
+                "letter": "B",
+                "text": "Because all services share the same schema"
+            },
+            {
+                "letter": "C",
+                "text": "Because transactions are always synchronous"
+            },
+            {
+                "letter": "D",
+                "text": "Because microservices use a single database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each microservice manages its own data, making it difficult to coordinate transactions across boundaries."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0003",
+        "text": "Which of the following protocols is traditionally used for distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Two-Phase Commit (2PC)"
+            },
+            {
+                "letter": "B",
+                "text": "HTTP"
+            },
+            {
+                "letter": "C",
+                "text": "AMQP"
+            },
+            {
+                "letter": "D",
+                "text": "REST"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Two-Phase Commit (2PC) protocol is a traditional approach to ensure atomicity in distributed transactions."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0004",
+        "text": "What is the main drawback of using Two-Phase Commit (2PC) in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It introduces blocking and reduces availability"
+            },
+            {
+                "letter": "B",
+                "text": "It improves performance"
+            },
+            {
+                "letter": "C",
+                "text": "It simplifies coordination"
+            },
+            {
+                "letter": "D",
+                "text": "It eliminates consistency issues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "2PC can block resources and reduce system availability, making it unsuitable for highly distributed systems."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0005",
+        "text": "Which pattern is commonly used in microservices to handle distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Saga pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized transaction pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Global rollback pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern is widely used to manage distributed transactions through a series of local transactions and compensations."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0006",
+        "text": "What is the main idea behind the Saga pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Breaking a distributed transaction into a sequence of local transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Using a single global transaction manager"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizing all data in one database"
+            },
+            {
+                "letter": "D",
+                "text": "Using synchronous communication for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern decomposes a distributed transaction into smaller local transactions coordinated through events or commands."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0007",
+        "text": "Which of the following is a type of Saga implementation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Choreography-based Saga"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized Saga"
+            },
+            {
+                "letter": "C",
+                "text": "Monolithic Saga"
+            },
+            {
+                "letter": "D",
+                "text": "Synchronous Saga"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Choreography-based Sagas use events to coordinate transactions among services without a central controller."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0008",
+        "text": "What is the other common type of Saga implementation besides choreography?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Orchestration-based Saga"
+            },
+            {
+                "letter": "B",
+                "text": "Replication-based Saga"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronous Saga"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized Saga"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Orchestration-based Sagas use a central coordinator to manage the sequence of local transactions."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0009",
+        "text": "In a choreography-based Saga, how do services communicate?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Through events"
+            },
+            {
+                "letter": "B",
+                "text": "Through direct API calls"
+            },
+            {
+                "letter": "C",
+                "text": "Through a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Through shared memory"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In choreography-based Sagas, services communicate asynchronously through events."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0010",
+        "text": "In an orchestration-based Saga, what is the role of the orchestrator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To coordinate and trigger local transactions in sequence"
+            },
+            {
+                "letter": "B",
+                "text": "To store all service data"
+            },
+            {
+                "letter": "C",
+                "text": "To manage a shared database"
+            },
+            {
+                "letter": "D",
+                "text": "To handle synchronous requests"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The orchestrator coordinates the execution of local transactions and compensations in an orchestration-based Saga."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0011",
+        "text": "What is a compensating transaction in the Saga pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A transaction that undoes the effects of a previous transaction"
+            },
+            {
+                "letter": "B",
+                "text": "A transaction that retries failed operations"
+            },
+            {
+                "letter": "C",
+                "text": "A transaction that commits all changes"
+            },
+            {
+                "letter": "D",
+                "text": "A transaction that locks resources"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Compensating transactions are used to undo the effects of previous successful transactions when a failure occurs later in the Saga."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0012",
+        "text": "Which of the following is a key benefit of the Saga pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It avoids global locks and blocking"
+            },
+            {
+                "letter": "B",
+                "text": "It centralizes all data"
+            },
+            {
+                "letter": "C",
+                "text": "It requires a global transaction manager"
+            },
+            {
+                "letter": "D",
+                "text": "It enforces strict ACID properties"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern avoids global locks and blocking by using local transactions and compensations."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0013",
+        "text": "Which of the following is a drawback of the Saga pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Complexity in designing compensating transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced scalability"
+            },
+            {
+                "letter": "D",
+                "text": "Synchronous blocking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Designing compensating transactions can be complex because each service must handle rollback logic."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0014",
+        "text": "What type of consistency does the Saga pattern provide?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Eventual consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Strong consistency"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate consistency"
+            },
+            {
+                "letter": "D",
+                "text": "No consistency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern provides eventual consistency, meaning data becomes consistent after all transactions complete."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0015",
+        "text": "Which of the following is a key challenge in distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintaining atomicity across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Using a single database"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Ensuring atomicity across multiple services is difficult because each service manages its own data."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0016",
+        "text": "Which of the following is a benefit of using distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures data consistency across services"
+            },
+            {
+                "letter": "B",
+                "text": "Simplifies service design"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates the need for compensations"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions help maintain data consistency across multiple services and databases."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0017",
+        "text": "Which of the following is a drawback of distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased complexity and coordination overhead"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified error handling"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced latency"
+            },
+            {
+                "letter": "D",
+                "text": "Improved performance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions add complexity due to coordination and potential network failures."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0018",
+        "text": "Which of the following is a common alternative to distributed transactions in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event-driven eventual consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized database"
+            },
+            {
+                "letter": "C",
+                "text": "Global transaction manager"
+            },
+            {
+                "letter": "D",
+                "text": "Shared schema"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven eventual consistency is often used instead of distributed transactions to maintain data integrity asynchronously."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0019",
+        "text": "What is the main goal of distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To ensure data consistency across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "To centralize all data"
+            },
+            {
+                "letter": "C",
+                "text": "To simplify service communication"
+            },
+            {
+                "letter": "D",
+                "text": "To reduce database usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions aim to maintain data consistency across multiple services and databases."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0020",
+        "text": "Which of the following best describes distributed transactions in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Transactions that span multiple services and databases"
+            },
+            {
+                "letter": "B",
+                "text": "Transactions confined to a single service"
+            },
+            {
+                "letter": "C",
+                "text": "Transactions that only update cache"
+            },
+            {
+                "letter": "D",
+                "text": "Transactions that run on a single thread"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions involve multiple services or databases that must maintain data consistency across boundaries."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0021",
+        "text": "Which of the following is a key property that distributed transactions aim to maintain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Atomicity"
+            },
+            {
+                "letter": "B",
+                "text": "Redundancy"
+            },
+            {
+                "letter": "C",
+                "text": "Duplication"
+            },
+            {
+                "letter": "D",
+                "text": "Caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Atomicity ensures that all parts of a distributed transaction either complete successfully or none do."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0022",
+        "text": "Which of the following is a common issue in distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Network latency and partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "Single-threaded execution"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Network latency and partial failures can disrupt distributed transactions across services."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0023",
+        "text": "Which of the following is a benefit of the Saga pattern over 2PC?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Non-blocking and more resilient"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas are non-blocking and more resilient than 2PC, which can block resources."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0024",
+        "text": "What is the main disadvantage of Two-Phase Commit (2PC)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can block resources and reduce availability"
+            },
+            {
+                "letter": "B",
+                "text": "It improves scalability"
+            },
+            {
+                "letter": "C",
+                "text": "It simplifies coordination"
+            },
+            {
+                "letter": "D",
+                "text": "It eliminates consistency issues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "2PC can block resources and reduce system availability, making it unsuitable for microservices."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0025",
+        "text": "Which of the following is a key difference between orchestration and choreography in Sagas?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Orchestration uses a central coordinator; choreography uses events"
+            },
+            {
+                "letter": "B",
+                "text": "Choreography uses a central coordinator; orchestration uses events"
+            },
+            {
+                "letter": "C",
+                "text": "Both use a central coordinator"
+            },
+            {
+                "letter": "D",
+                "text": "Both use synchronous calls"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Orchestration uses a central coordinator, while choreography relies on event-based communication."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0026",
+        "text": "Which of the following is a challenge in implementing compensating transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Designing logic to undo previous actions"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Compensating transactions require careful design to reverse previous successful operations."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0027",
+        "text": "Which of the following is a benefit of eventual consistency in distributed systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved availability and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate consistency"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eventual consistency improves availability and scalability by avoiding global locks."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0028",
+        "text": "Which of the following is a common tool for implementing distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Kafka or RabbitMQ for event coordination"
+            },
+            {
+                "letter": "B",
+                "text": "Single relational database"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized transaction manager"
+            },
+            {
+                "letter": "D",
+                "text": "Shared schema"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event brokers like Kafka or RabbitMQ are often used to coordinate distributed transactions asynchronously."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0029",
+        "text": "What is the main goal of distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To maintain data consistency across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "To centralize all data"
+            },
+            {
+                "letter": "C",
+                "text": "To simplify service communication"
+            },
+            {
+                "letter": "D",
+                "text": "To reduce database usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions ensure data consistency across multiple services and databases."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0030",
+        "text": "Which of the following is a key challenge in distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Partial failures can occur when one service succeeds and another fails, complicating rollback."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0031",
+        "text": "Which of the following is a benefit of using the Saga pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved fault tolerance and decoupling"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate consistency"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized coordination"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas improve fault tolerance and decoupling by using local transactions and compensations."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0032",
+        "text": "Which of the following is a drawback of distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased latency and complexity"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Immediate consistency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions increase latency and complexity due to coordination overhead."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0033",
+        "text": "Which of the following is a benefit of using asynchronous communication in distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved scalability and decoupling"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate consistency"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Asynchronous communication improves scalability and decoupling in distributed systems."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0034",
+        "text": "Which of the following is a key principle of distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Atomicity, Consistency, Isolation, Durability (ACID)"
+            },
+            {
+                "letter": "B",
+                "text": "Eventual consistency only"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate consistency only"
+            },
+            {
+                "letter": "D",
+                "text": "No consistency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions aim to maintain ACID properties across multiple systems."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0035",
+        "text": "Which of the following is a common alternative to 2PC in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Saga pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized transaction manager"
+            },
+            {
+                "letter": "D",
+                "text": "Global rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern is a common alternative to 2PC for managing distributed transactions."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0036",
+        "text": "Which of the following is a benefit of using event-driven architecture for distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved decoupling and fault tolerance"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate consistency"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized coordination"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture improves decoupling and fault tolerance in distributed transactions."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0037",
+        "text": "Which of the following is a challenge in distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring atomicity and consistency across services"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Ensuring atomicity and consistency across multiple services is a major challenge in distributed transactions."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0038",
+        "text": "Which of the following is a benefit of distributed transactions for data integrity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent data across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Allows inconsistent data"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces data accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions ensure data integrity by maintaining consistency across services."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0039",
+        "text": "Which of the following is a drawback of distributed transactions for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased latency due to coordination"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced fault tolerance"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Immediate consistency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions can increase latency due to coordination between services."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0040",
+        "text": "Which of the following is a benefit of distributed transactions for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures data consistency even in partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "Simplifies rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions maintain reliability by ensuring data consistency even during partial failures."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0041",
+        "text": "Which of the following is a benefit of using compensating transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rollback of completed steps in case of failure"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates the need for rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies coordination"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Compensating transactions allow rollback of completed steps when a failure occurs later in the process."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0042",
+        "text": "Which of the following is a challenge of distributed transactions for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Coordinating transactions across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Coordinating transactions across multiple services can limit scalability."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0043",
+        "text": "Which of the following is a benefit of distributed transactions for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent state across services"
+            },
+            {
+                "letter": "B",
+                "text": "Allows inconsistent data"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces data accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions ensure consistent state across multiple services and databases."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0044",
+        "text": "Which of the following is a drawback of distributed transactions for complexity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased coordination and error handling complexity"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Immediate consistency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions increase complexity due to coordination and error handling requirements."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0045",
+        "text": "Which of the following is a benefit of distributed transactions for data integrity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures atomic updates across services"
+            },
+            {
+                "letter": "B",
+                "text": "Allows partial updates"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces data accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions ensure atomic updates across multiple services to maintain data integrity."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0046",
+        "text": "Which of the following is a benefit of distributed transactions for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows recovery from partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "Simplifies rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions can recover from partial failures using compensating transactions."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0047",
+        "text": "Which of the following is a challenge of distributed transactions for latency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased latency due to coordination"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced latency"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Immediate consistency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions can increase latency because of coordination between services."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0048",
+        "text": "Which of the following is a benefit of distributed transactions for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures data consistency even in partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "Simplifies rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions maintain reliability by ensuring data consistency even during partial failures."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0049",
+        "text": "Which of the following is a benefit of distributed transactions for data consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent state across services"
+            },
+            {
+                "letter": "B",
+                "text": "Allows inconsistent data"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces data accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions ensure consistent state across multiple services and databases."
+    },
+    {
+        "title": "MicroserviceDistributedTransactions - Q0050",
+        "text": "Which of the following best describes distributed transactions in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Transactions that span multiple services and databases"
+            },
+            {
+                "letter": "B",
+                "text": "Transactions confined to a single service"
+            },
+            {
+                "letter": "C",
+                "text": "Transactions that only update cache"
+            },
+            {
+                "letter": "D",
+                "text": "Transactions that run on a single thread"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions involve multiple services or databases that must maintain data consistency across boundaries."
+    }
+]

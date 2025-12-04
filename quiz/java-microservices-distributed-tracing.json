@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceDistributedTracing - Q0001",
+        "text": "What is the primary purpose of distributed tracing in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To track requests across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "To store logs locally"
+            },
+            {
+                "letter": "C",
+                "text": "To manage deployments"
+            },
+            {
+                "letter": "D",
+                "text": "To configure network policies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing tracks requests as they flow through multiple microservices to identify performance bottlenecks."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0002",
+        "text": "Which of the following is a key component of distributed tracing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Trace ID"
+            },
+            {
+                "letter": "B",
+                "text": "User ID"
+            },
+            {
+                "letter": "C",
+                "text": "Session Token"
+            },
+            {
+                "letter": "D",
+                "text": "API Key"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A Trace ID uniquely identifies a single request as it travels through multiple services."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0003",
+        "text": "What is a span in distributed tracing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single operation within a trace"
+            },
+            {
+                "letter": "B",
+                "text": "A log file"
+            },
+            {
+                "letter": "C",
+                "text": "A network packet"
+            },
+            {
+                "letter": "D",
+                "text": "A database record"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A span represents a single operation or step within a distributed trace."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0004",
+        "text": "Which of the following tools is commonly used for distributed tracing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Jaeger"
+            },
+            {
+                "letter": "B",
+                "text": "Docker"
+            },
+            {
+                "letter": "C",
+                "text": "Terraform"
+            },
+            {
+                "letter": "D",
+                "text": "Ansible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Jaeger is a popular open-source distributed tracing tool used to monitor microservices."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0005",
+        "text": "Which of the following is another popular distributed tracing tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Zipkin"
+            },
+            {
+                "letter": "B",
+                "text": "Grafana"
+            },
+            {
+                "letter": "C",
+                "text": "Prometheus"
+            },
+            {
+                "letter": "D",
+                "text": "Kibana"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Zipkin is an open-source distributed tracing system that helps gather timing data for requests."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0006",
+        "text": "What is the purpose of a parent span?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To represent the main operation that triggers child spans"
+            },
+            {
+                "letter": "B",
+                "text": "To store logs"
+            },
+            {
+                "letter": "C",
+                "text": "To manage configurations"
+            },
+            {
+                "letter": "D",
+                "text": "To deploy applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A parent span represents the main operation that triggers other child spans in a trace."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0007",
+        "text": "What is the purpose of a child span?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To represent a sub-operation within a trace"
+            },
+            {
+                "letter": "B",
+                "text": "To store metrics"
+            },
+            {
+                "letter": "C",
+                "text": "To manage logs"
+            },
+            {
+                "letter": "D",
+                "text": "To configure alerts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A child span represents a sub-operation or step within a parent operation in a trace."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0008",
+        "text": "What is the purpose of context propagation in distributed tracing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To pass trace information between services"
+            },
+            {
+                "letter": "B",
+                "text": "To store logs"
+            },
+            {
+                "letter": "C",
+                "text": "To manage configurations"
+            },
+            {
+                "letter": "D",
+                "text": "To deploy applications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Context propagation ensures trace information is passed between services to maintain trace continuity."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0009",
+        "text": "Which of the following protocols is commonly used for trace context propagation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "W3C Trace Context"
+            },
+            {
+                "letter": "B",
+                "text": "HTTP/1.0"
+            },
+            {
+                "letter": "C",
+                "text": "FTP"
+            },
+            {
+                "letter": "D",
+                "text": "SMTP"
+            }
+        ],
+        "correct": "A",
+        "explanation": "W3C Trace Context is a standard for propagating trace information across services."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0010",
+        "text": "Which of the following is a benefit of distributed tracing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Identifies performance bottlenecks across services"
+            },
+            {
+                "letter": "B",
+                "text": "Stores user data"
+            },
+            {
+                "letter": "C",
+                "text": "Manages deployments"
+            },
+            {
+                "letter": "D",
+                "text": "Configures networks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing helps identify performance bottlenecks across multiple services."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0011",
+        "text": "Which of the following is a benefit of distributed tracing for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies root cause analysis"
+            },
+            {
+                "letter": "B",
+                "text": "Increases complexity"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual tracing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing simplifies debugging by providing end-to-end visibility of requests."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0012",
+        "text": "Which of the following is a benefit of distributed tracing for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify slow services or operations"
+            },
+            {
+                "letter": "B",
+                "text": "Hides performance data"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual analysis"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing helps identify slow services or operations affecting performance."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0013",
+        "text": "Which of the following is a benefit of distributed tracing for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides end-to-end visibility of requests"
+            },
+            {
+                "letter": "B",
+                "text": "Hides request flow"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces transparency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing provides end-to-end visibility of requests across microservices."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0014",
+        "text": "Which of the following is a benefit of distributed tracing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects failures and latency issues early"
+            },
+            {
+                "letter": "B",
+                "text": "Delays issue detection"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing detects failures and latency issues early, improving reliability."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0015",
+        "text": "Which of the following is a benefit of distributed tracing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Monitors performance as services scale"
+            },
+            {
+                "letter": "B",
+                "text": "Prevents scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces performance visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing monitors performance as services scale, ensuring consistent behavior."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0016",
+        "text": "Which of the following is a benefit of distributed tracing for DevOps?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves collaboration between development and operations"
+            },
+            {
+                "letter": "B",
+                "text": "Increases silos"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces communication"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing improves collaboration by providing shared visibility into system performance."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0017",
+        "text": "Which of the following is a benefit of distributed tracing for user experience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify latency affecting users"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores user performance"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual testing"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing helps identify latency issues that impact user experience."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0018",
+        "text": "Which of the following is a benefit of distributed tracing for root cause analysis?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pinpoints the exact service causing an issue"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual investigation"
+            },
+            {
+                "letter": "C",
+                "text": "Hides error details"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing pinpoints the exact service or operation causing an issue."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0019",
+        "text": "Which of the following is a benefit of distributed tracing for latency analysis?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Measures time spent in each service"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores response times"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual timing"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing measures time spent in each service to analyze latency."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0020",
+        "text": "Which of the following best describes distributed tracing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracking requests across multiple services to analyze performance"
+            },
+            {
+                "letter": "B",
+                "text": "Storing logs locally"
+            },
+            {
+                "letter": "C",
+                "text": "Managing deployments"
+            },
+            {
+                "letter": "D",
+                "text": "Configuring networks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing tracks requests across multiple services to analyze performance and identify issues."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0021",
+        "text": "Which of the following is a key benefit of distributed tracing for microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into inter-service communication"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing provides visibility into how microservices communicate and depend on each other."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0022",
+        "text": "Which of the following is a common standard for distributed tracing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "OpenTelemetry"
+            },
+            {
+                "letter": "B",
+                "text": "OpenSSL"
+            },
+            {
+                "letter": "C",
+                "text": "OpenStack"
+            },
+            {
+                "letter": "D",
+                "text": "OpenShift"
+            }
+        ],
+        "correct": "A",
+        "explanation": "OpenTelemetry is a standard framework for collecting traces, metrics, and logs."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0023",
+        "text": "What is the purpose of sampling in distributed tracing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To reduce the amount of trace data collected"
+            },
+            {
+                "letter": "B",
+                "text": "To collect all traces"
+            },
+            {
+                "letter": "C",
+                "text": "To delete old traces"
+            },
+            {
+                "letter": "D",
+                "text": "To encrypt trace data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sampling reduces the volume of trace data collected to manage storage and performance."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0024",
+        "text": "Which of the following is a benefit of trace visualization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps understand request flow and latency"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual analysis"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces transparency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Trace visualization helps understand request flow and latency across services."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0025",
+        "text": "Which of the following is a benefit of integrating tracing with logging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides context for logs within traces"
+            },
+            {
+                "letter": "B",
+                "text": "Separates logs and traces completely"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual effort"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Integrating tracing with logging provides context for logs within the trace timeline."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0026",
+        "text": "Which of the following is a benefit of integrating tracing with metrics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Correlates performance metrics with trace data"
+            },
+            {
+                "letter": "B",
+                "text": "Separates metrics from traces"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces observability"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual correlation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Integrating tracing with metrics correlates performance data with trace information for better insights."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0027",
+        "text": "Which of the following is a benefit of distributed tracing for SLA monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures service latency meets defined SLAs"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores SLA violations"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual SLA tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accountability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing helps ensure service latency and performance meet SLA requirements."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0028",
+        "text": "Which of the following is a benefit of distributed tracing for error detection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Identifies where errors occur in a request path"
+            },
+            {
+                "letter": "B",
+                "text": "Hides error details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual debugging"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing identifies where errors occur in a request path across services."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0029",
+        "text": "Which of the following is a benefit of distributed tracing for dependency mapping?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Shows relationships between microservices"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual mapping"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing shows relationships and dependencies between microservices."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0030",
+        "text": "Which of the following is a benefit of distributed tracing for capacity planning?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify resource usage patterns"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores resource utilization"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual estimation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing helps identify resource usage patterns for capacity planning."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0031",
+        "text": "Which of the following is a benefit of distributed tracing for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides data for performance optimization"
+            },
+            {
+                "letter": "B",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual analysis"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing provides data that supports continuous performance improvement."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0032",
+        "text": "Which of the following is a benefit of distributed tracing for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates detection of performance anomalies"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces automation"
+            },
+            {
+                "letter": "D",
+                "text": "Delays detection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing automates detection of performance anomalies across services."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0033",
+        "text": "Which of the following is a benefit of distributed tracing for incident response?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Speeds up identification of affected services"
+            },
+            {
+                "letter": "B",
+                "text": "Delays incident resolution"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracing"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing speeds up incident response by identifying affected services quickly."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0034",
+        "text": "Which of the following is a benefit of distributed tracing for service optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Highlights inefficient service interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Hides performance data"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual optimization"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing highlights inefficient service interactions for optimization."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0035",
+        "text": "Which of the following is a benefit of distributed tracing for security monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects unusual request patterns"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores anomalies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual inspection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing can detect unusual request patterns that may indicate security issues."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0036",
+        "text": "Which of the following is a benefit of distributed tracing for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Validates performance under load"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores test results"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual validation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test coverage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing validates performance and latency during testing."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0037",
+        "text": "Which of the following is a benefit of distributed tracing for compliance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides audit trails for transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes trace data"
+            },
+            {
+                "letter": "C",
+                "text": "Hides transaction details"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accountability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing provides audit trails that support compliance and accountability."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0038",
+        "text": "Which of the following is a benefit of distributed tracing for continuous deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Monitors performance after each deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores deployment impact"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual checks"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing monitors performance after deployments to detect regressions."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0039",
+        "text": "Which of the following is a benefit of distributed tracing for cloud environments?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility across distributed cloud services"
+            },
+            {
+                "letter": "B",
+                "text": "Hides cloud dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing provides visibility across distributed cloud services and regions."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0040",
+        "text": "Which of the following is a benefit of distributed tracing for hybrid environments?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracks requests across on-premises and cloud systems"
+            },
+            {
+                "letter": "B",
+                "text": "Restricts tracing to one environment"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual correlation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing tracks requests across hybrid environments for full visibility."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0041",
+        "text": "Which of the following is a benefit of distributed tracing for automation pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integrates with CI/CD for performance validation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual validation"
+            },
+            {
+                "letter": "C",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing integrates with CI/CD pipelines to validate performance automatically."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0042",
+        "text": "Which of the following is a benefit of distributed tracing for troubleshooting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides detailed insights into request failures"
+            },
+            {
+                "letter": "B",
+                "text": "Hides error details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual debugging"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing provides detailed insights into request failures for faster troubleshooting."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0043",
+        "text": "Which of the following is a benefit of distributed tracing for service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reveals how services interact dynamically"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service interactions"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual mapping"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing reveals dynamic interactions between services for discovery and optimization."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0044",
+        "text": "Which of the following is a benefit of distributed tracing for alerting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Triggers alerts based on trace anomalies"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores trace data"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual checks"
+            },
+            {
+                "letter": "D",
+                "text": "Delays notifications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing can trigger alerts when anomalies or latency spikes are detected."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0045",
+        "text": "Which of the following is a benefit of distributed tracing for predictive analysis?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Forecasts potential performance issues"
+            },
+            {
+                "letter": "B",
+                "text": "Waits for failures"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual prediction"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing data can be used for predictive analysis to forecast potential issues."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0046",
+        "text": "Which of the following is a benefit of distributed tracing for observability stacks?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Complements metrics and logs for full observability"
+            },
+            {
+                "letter": "B",
+                "text": "Replaces metrics entirely"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual correlation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing complements metrics and logs to provide full observability."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0047",
+        "text": "Which of the following is a benefit of distributed tracing for performance baselining?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Establishes normal performance patterns"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores baseline data"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual baselining"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing helps establish normal performance baselines for comparison."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0048",
+        "text": "Which of the following is a benefit of distributed tracing for multi-region systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracks latency across regions"
+            },
+            {
+                "letter": "B",
+                "text": "Restricts tracing to one region"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing tracks latency and performance across multiple regions."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0049",
+        "text": "Which of the following is a benefit of distributed tracing for continuous monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides ongoing visibility into service performance"
+            },
+            {
+                "letter": "B",
+                "text": "Stops monitoring after deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual observation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing provides continuous visibility into service performance and health."
+    },
+    {
+        "title": "MicroserviceDistributedTracing - Q0050",
+        "text": "Which of the following best describes distributed tracing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracking requests across multiple services to analyze performance and dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Storing logs locally"
+            },
+            {
+                "letter": "C",
+                "text": "Managing deployments"
+            },
+            {
+                "letter": "D",
+                "text": "Configuring networks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed tracing tracks requests across multiple services to analyze performance and dependencies."
+    }
+]
