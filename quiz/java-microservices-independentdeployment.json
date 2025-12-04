@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceIndependentDeployment - Q0001",
+        "text": "[Microservice Independent Deployment] What does independent deployment mean in microservices architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be deployed without affecting others"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Deployment depends on a central orchestrator"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment requires downtime for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows each microservice to be deployed separately without impacting other services."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0002",
+        "text": "[Microservice Independent Deployment] Which of the following is a key benefit of independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster release cycles"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized deployment control"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Increased coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment enables faster release cycles by allowing teams to deploy changes without coordination delays."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0003",
+        "text": "[Microservice Independent Deployment] Which of the following is a prerequisite for independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Loose coupling between services"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database between services"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized configuration management"
+            },
+            {
+                "letter": "D",
+                "text": "Tight integration between services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Loose coupling ensures that services can be deployed independently without breaking dependencies."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0004",
+        "text": "[Microservice Independent Deployment] Which of the following deployment strategies supports independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Blue-Green Deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Monolithic Deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized Deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Batch Deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Blue-Green deployment allows independent updates with minimal downtime, supporting microservice independence."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0005",
+        "text": "[Microservice Independent Deployment] Which of the following is a challenge in achieving independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing inter-service dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Using containerization"
+            },
+            {
+                "letter": "C",
+                "text": "Automating CI/CD pipelines"
+            },
+            {
+                "letter": "D",
+                "text": "Versioning APIs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Inter-service dependencies can make independent deployment difficult if not managed properly."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0006",
+        "text": "[Microservice Independent Deployment] Which of the following tools helps achieve independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Docker"
+            },
+            {
+                "letter": "B",
+                "text": "Excel"
+            },
+            {
+                "letter": "C",
+                "text": "FTP"
+            },
+            {
+                "letter": "D",
+                "text": "Telnet"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Docker enables containerization, allowing each service to be packaged and deployed independently."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0007",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can deploy without waiting for others"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single deployment pipeline"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on a central release manager"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows teams to deploy their services autonomously, improving agility."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0008",
+        "text": "[Microservice Independent Deployment] Which of the following is a key enabler of independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Continuous Integration and Continuous Deployment (CI/CD)"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment processes"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized release management"
+            },
+            {
+                "letter": "D",
+                "text": "Shared deployment scripts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CI/CD pipelines automate and streamline independent deployments for each microservice."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0009",
+        "text": "[Microservice Independent Deployment] Which of the following is a risk of poor independent deployment design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Service version incompatibility"
+            },
+            {
+                "letter": "B",
+                "text": "Improved scalability"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced downtime"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Without proper versioning and backward compatibility, independent deployments can cause service incompatibility."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0010",
+        "text": "[Microservice Independent Deployment] Which of the following is a best practice for independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Use backward-compatible APIs"
+            },
+            {
+                "letter": "B",
+                "text": "Use shared databases"
+            },
+            {
+                "letter": "C",
+                "text": "Deploy all services together"
+            },
+            {
+                "letter": "D",
+                "text": "Avoid version control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Backward-compatible APIs ensure that services can evolve independently without breaking others."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0011",
+        "text": "[Microservice Independent Deployment] Which of the following deployment patterns supports independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Canary Deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Big Bang Deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Monolithic Deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Batch Deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Canary deployment allows gradual rollout of changes, supporting independent service updates."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0012",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one service do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment isolates failures, preventing cascading issues across services."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0013",
+        "text": "[Microservice Independent Deployment] Which of the following is a key requirement for independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Service autonomy"
+            },
+            {
+                "letter": "B",
+                "text": "Shared state"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Tight coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service autonomy ensures that each service can be deployed and managed independently."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0014",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central controller"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows each service to scale based on its own demand."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0015",
+        "text": "[Microservice Independent Deployment] Which of the following is a common anti-pattern in independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Shared database between services"
+            },
+            {
+                "letter": "B",
+                "text": "Independent data ownership"
+            },
+            {
+                "letter": "C",
+                "text": "Loose coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Autonomous teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sharing databases creates tight coupling, making independent deployment difficult."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0016",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can release features faster"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all releases"
+            },
+            {
+                "letter": "C",
+                "text": "Teams depend on a central release manager"
+            },
+            {
+                "letter": "D",
+                "text": "Teams share a single release schedule"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment enables faster feature releases by removing cross-team dependencies."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0017",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failure in one service does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment isolates faults, preventing cascading failures across services."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0018",
+        "text": "[Microservice Independent Deployment] Which of the following is a key enabler of independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containerization and orchestration"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment processes"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized release management"
+            },
+            {
+                "letter": "D",
+                "text": "Shared deployment scripts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containerization and orchestration tools like Docker and Kubernetes enable independent deployments."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0019",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changes in one service do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be updated together"
+            },
+            {
+                "letter": "C",
+                "text": "Services share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Services depend on a central repository"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment isolates changes, improving maintainability and reducing side effects."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0020",
+        "text": "[Microservice Independent Deployment] Which of the following best describes independent deployment in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be deployed independently without affecting others"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Deployment depends on a central orchestrator"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment requires downtime for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows each microservice to be deployed separately without impacting other services."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0021",
+        "text": "[Microservice Independent Deployment] Which of the following is a key requirement for achieving independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decoupled service interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "Shared data models"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized deployment scripts"
+            },
+            {
+                "letter": "D",
+                "text": "Tightly coupled APIs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decoupled service interfaces ensure that changes in one service do not break others, enabling independent deployment."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0022",
+        "text": "[Microservice Independent Deployment] Which of the following deployment patterns minimizes downtime during updates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Blue-Green Deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Manual Deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Big Bang Deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized Deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Blue-Green deployment allows switching between environments with zero downtime, supporting independent updates."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0023",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster and more frequent releases"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized release management"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced automation"
+            },
+            {
+                "letter": "D",
+                "text": "Increased dependency between teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment supports continuous delivery by enabling faster and more frequent releases."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0024",
+        "text": "[Microservice Independent Deployment] Which of the following is a common anti-pattern in independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tightly coupled services"
+            },
+            {
+                "letter": "B",
+                "text": "Loose coupling"
+            },
+            {
+                "letter": "C",
+                "text": "Autonomous teams"
+            },
+            {
+                "letter": "D",
+                "text": "Independent pipelines"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Tightly coupled services prevent independent deployment because changes in one service affect others."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0025",
+        "text": "[Microservice Independent Deployment] Which of the following tools supports independent deployment through orchestration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Kubernetes"
+            },
+            {
+                "letter": "B",
+                "text": "Excel"
+            },
+            {
+                "letter": "C",
+                "text": "FTP"
+            },
+            {
+                "letter": "D",
+                "text": "SSH"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Kubernetes orchestrates containerized services, enabling independent deployment and scaling."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0026",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for risk management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced blast radius of failures"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Shared error handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment limits the impact of failures to a single service, reducing overall risk."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0027",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment and release features independently"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all releases"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single release schedule"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on a central release manager"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows teams to innovate and release features without waiting for others."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0028",
+        "text": "[Microservice Independent Deployment] Which of the following is a key principle for achieving independent deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Loose coupling and high cohesion"
+            },
+            {
+                "letter": "B",
+                "text": "Tight coupling and low cohesion"
+            },
+            {
+                "letter": "C",
+                "text": "Shared state and data"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Loose coupling and high cohesion ensure services can evolve and deploy independently."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0029",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central controller"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows each service to scale based on its own demand."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0030",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changes in one service do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be updated together"
+            },
+            {
+                "letter": "C",
+                "text": "Services share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Services depend on a central repository"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment isolates changes, improving maintainability and reducing side effects."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0031",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be tested independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be tested together"
+            },
+            {
+                "letter": "C",
+                "text": "Services share the same test suite"
+            },
+            {
+                "letter": "D",
+                "text": "Services depend on a central test framework"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows isolated testing, improving reliability and speed."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0032",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failure in one service does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment isolates faults, preventing cascading failures across services."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0033",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can release features faster"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all releases"
+            },
+            {
+                "letter": "C",
+                "text": "Teams depend on a central release manager"
+            },
+            {
+                "letter": "D",
+                "text": "Teams share a single release schedule"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment enables faster feature releases by removing cross-team dependencies."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0034",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one service do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment isolates failures, preventing cascading issues across services."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0035",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for continuous integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can have its own CI pipeline"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a single CI pipeline"
+            },
+            {
+                "letter": "C",
+                "text": "CI depends on a central orchestrator"
+            },
+            {
+                "letter": "D",
+                "text": "CI requires manual approval for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows each service to have its own CI/CD pipeline for faster delivery."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0036",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for rollback?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Only the affected service needs to be rolled back"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be rolled back together"
+            },
+            {
+                "letter": "C",
+                "text": "Rollback requires downtime for all services"
+            },
+            {
+                "letter": "D",
+                "text": "Rollback depends on a central controller"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows rolling back only the affected service, minimizing impact."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0037",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can deploy without waiting for others"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single deployment pipeline"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on a central release manager"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows teams to deploy their services autonomously, improving agility."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0038",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It promotes modular design by isolating services"
+            },
+            {
+                "letter": "B",
+                "text": "It enforces a single global model"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "It merges multiple domains"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment promotes modular design by isolating services and reducing dependencies."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0039",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be optimized and deployed separately"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be optimized together"
+            },
+            {
+                "letter": "C",
+                "text": "Performance tuning depends on a central team"
+            },
+            {
+                "letter": "D",
+                "text": "Performance improvements require full redeployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows performance tuning and optimization per service."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0040",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central controller"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows each service to scale based on its own demand."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0041",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one service do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment isolates faults, preventing cascading failures across services."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0042",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can iterate and deploy improvements frequently"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must wait for global releases"
+            },
+            {
+                "letter": "C",
+                "text": "Teams depend on a central release manager"
+            },
+            {
+                "letter": "D",
+                "text": "Teams share a single release schedule"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows teams to continuously improve and deploy updates frequently."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0043",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one service do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment isolates failures, preventing cascading issues across services."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0044",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can choose their own technology stack"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must use the same technology"
+            },
+            {
+                "letter": "C",
+                "text": "Technology decisions are centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on a central architecture team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows teams to choose technologies that best fit their service needs."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0045",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can recover independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must recover together"
+            },
+            {
+                "letter": "C",
+                "text": "Recovery depends on a central controller"
+            },
+            {
+                "letter": "D",
+                "text": "Recovery requires full system restart"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows each service to recover independently, improving resilience."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0046",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be monitored independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same monitoring system"
+            },
+            {
+                "letter": "C",
+                "text": "Monitoring depends on a central team"
+            },
+            {
+                "letter": "D",
+                "text": "Monitoring requires full system access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows independent monitoring and observability per service."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0047",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Resources can be allocated per service"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same resources"
+            },
+            {
+                "letter": "C",
+                "text": "Costs are centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires full system upgrade"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows cost optimization by allocating resources per service."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0048",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Security patches can be applied per service"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be patched together"
+            },
+            {
+                "letter": "C",
+                "text": "Security depends on a central team"
+            },
+            {
+                "letter": "D",
+                "text": "Security updates require full redeployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows applying security patches to individual services without affecting others."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0049",
+        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for version control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can maintain its own version"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same version"
+            },
+            {
+                "letter": "C",
+                "text": "Versioning depends on a central repository"
+            },
+            {
+                "letter": "D",
+                "text": "Versioning requires full system update"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows each service to maintain its own version, improving flexibility."
+    },
+    {
+        "title": "MicroserviceIndependentDeployment - Q0050",
+        "text": "[Microservice Independent Deployment] Which of the following best describes independent deployment in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be deployed independently without affecting others"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Deployment depends on a central orchestrator"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment requires downtime for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment allows each microservice to be deployed separately without impacting other services."
+    }
+]

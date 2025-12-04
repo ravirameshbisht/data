@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceAPIGateway - Q0001",
+        "text": "What is the primary purpose of an API Gateway in a microservices architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To act as a single entry point for all client requests"
+            },
+            {
+                "letter": "B",
+                "text": "To store data for all services"
+            },
+            {
+                "letter": "C",
+                "text": "To manage service-to-service communication"
+            },
+            {
+                "letter": "D",
+                "text": "To replace all microservices"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An API Gateway serves as a single entry point that routes client requests to the appropriate microservices."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0002",
+        "text": "Which of the following is a key function of an API Gateway?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Request routing and load balancing"
+            },
+            {
+                "letter": "B",
+                "text": "Database management"
+            },
+            {
+                "letter": "C",
+                "text": "Code compilation"
+            },
+            {
+                "letter": "D",
+                "text": "Data persistence"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways handle request routing, load balancing, and sometimes protocol translation."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0003",
+        "text": "Which of the following best describes the API Gateway pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single entry point that handles requests and forwards them to microservices"
+            },
+            {
+                "letter": "B",
+                "text": "A direct connection between clients and all microservices"
+            },
+            {
+                "letter": "C",
+                "text": "A shared database for all services"
+            },
+            {
+                "letter": "D",
+                "text": "A centralized data store"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The API Gateway pattern provides a single entry point for clients, simplifying communication with multiple services."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0004",
+        "text": "Which of the following is a common responsibility of an API Gateway?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Authentication and authorization"
+            },
+            {
+                "letter": "B",
+                "text": "Database indexing"
+            },
+            {
+                "letter": "C",
+                "text": "Service orchestration"
+            },
+            {
+                "letter": "D",
+                "text": "Data replication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways often handle authentication and authorization before forwarding requests to services."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0005",
+        "text": "Which of the following is a benefit of using an API Gateway?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplified client communication"
+            },
+            {
+                "letter": "B",
+                "text": "Increased direct client-service coupling"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced scalability"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized data storage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An API Gateway simplifies client communication by providing a unified interface to multiple services."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0006",
+        "text": "Which of the following is a potential drawback of using an API Gateway?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can become a single point of failure"
+            },
+            {
+                "letter": "B",
+                "text": "It improves fault tolerance"
+            },
+            {
+                "letter": "C",
+                "text": "It eliminates latency"
+            },
+            {
+                "letter": "D",
+                "text": "It decentralizes routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If not properly managed, the API Gateway can become a single point of failure in the system."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0007",
+        "text": "Which of the following is a common feature of API Gateways?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Rate limiting and throttling"
+            },
+            {
+                "letter": "B",
+                "text": "Database replication"
+            },
+            {
+                "letter": "C",
+                "text": "File storage"
+            },
+            {
+                "letter": "D",
+                "text": "Code compilation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways often implement rate limiting and throttling to control traffic and prevent abuse."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0008",
+        "text": "Which of the following is an example of an API Gateway product?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Kong"
+            },
+            {
+                "letter": "B",
+                "text": "MySQL"
+            },
+            {
+                "letter": "C",
+                "text": "Redis"
+            },
+            {
+                "letter": "D",
+                "text": "Kafka"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Kong is a popular open-source API Gateway used for managing and routing API traffic."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0009",
+        "text": "Which of the following is a key advantage of using an API Gateway for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized authentication and authorization"
+            },
+            {
+                "letter": "B",
+                "text": "Decentralized access control"
+            },
+            {
+                "letter": "C",
+                "text": "Direct client access to services"
+            },
+            {
+                "letter": "D",
+                "text": "No need for encryption"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways centralize authentication and authorization, simplifying security management."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0010",
+        "text": "Which of the following is a common pattern used with API Gateways?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Backend for Frontend (BFF)"
+            },
+            {
+                "letter": "B",
+                "text": "Shared Database Pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Monolithic Pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized Data Pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Backend for Frontend pattern uses separate API Gateways for different client types to optimize responses."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0011",
+        "text": "Which of the following is a benefit of using an API Gateway for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Caching responses to reduce load on services"
+            },
+            {
+                "letter": "B",
+                "text": "Increasing database queries"
+            },
+            {
+                "letter": "C",
+                "text": "Adding latency to requests"
+            },
+            {
+                "letter": "D",
+                "text": "Disabling load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can cache responses to reduce load on backend services and improve performance."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0012",
+        "text": "Which of the following is a common responsibility of an API Gateway?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Protocol translation (e.g., HTTP to gRPC)"
+            },
+            {
+                "letter": "B",
+                "text": "Database indexing"
+            },
+            {
+                "letter": "C",
+                "text": "Data persistence"
+            },
+            {
+                "letter": "D",
+                "text": "File storage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can perform protocol translation to allow clients and services using different protocols to communicate."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0013",
+        "text": "Which of the following is a potential disadvantage of using an API Gateway?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased latency due to additional network hop"
+            },
+            {
+                "letter": "B",
+                "text": "Improved scalability"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified client communication"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized security"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can introduce additional latency because all requests pass through them."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0014",
+        "text": "Which of the following is a common use case for an API Gateway?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aggregating responses from multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Storing data for all services"
+            },
+            {
+                "letter": "C",
+                "text": "Managing service databases"
+            },
+            {
+                "letter": "D",
+                "text": "Compiling application code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can aggregate responses from multiple services into a single response for the client."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0015",
+        "text": "Which of the following is a benefit of using an API Gateway for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized logging and metrics collection"
+            },
+            {
+                "letter": "B",
+                "text": "Distributed logging across clients"
+            },
+            {
+                "letter": "C",
+                "text": "No need for monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "Manual log collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can collect logs and metrics centrally, simplifying monitoring and analysis."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0016",
+        "text": "Which of the following is a common API Gateway implementation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AWS API Gateway"
+            },
+            {
+                "letter": "B",
+                "text": "PostgreSQL"
+            },
+            {
+                "letter": "C",
+                "text": "MongoDB"
+            },
+            {
+                "letter": "D",
+                "text": "RabbitMQ"
+            }
+        ],
+        "correct": "A",
+        "explanation": "AWS API Gateway is a managed service that provides API Gateway functionality in the AWS ecosystem."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0017",
+        "text": "Which of the following is a benefit of using an API Gateway for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized enforcement of security policies"
+            },
+            {
+                "letter": "B",
+                "text": "Decentralized access control"
+            },
+            {
+                "letter": "C",
+                "text": "Direct client access to services"
+            },
+            {
+                "letter": "D",
+                "text": "No need for encryption"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways centralize security policy enforcement, simplifying management and compliance."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0018",
+        "text": "Which of the following is a benefit of using an API Gateway for versioning?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can route requests to different service versions"
+            },
+            {
+                "letter": "B",
+                "text": "It enforces a single version for all services"
+            },
+            {
+                "letter": "C",
+                "text": "It disables version control"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all versions into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can route requests to different service versions, supporting backward compatibility."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0019",
+        "text": "Which of the following is a benefit of using an API Gateway for load balancing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It distributes requests across multiple service instances"
+            },
+            {
+                "letter": "B",
+                "text": "It sends all requests to a single instance"
+            },
+            {
+                "letter": "C",
+                "text": "It disables load balancing"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all traffic to one node"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can perform load balancing by distributing requests across multiple service instances."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0020",
+        "text": "Which of the following best describes the role of an API Gateway in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single entry point that manages and routes client requests"
+            },
+            {
+                "letter": "B",
+                "text": "A shared database for all services"
+            },
+            {
+                "letter": "C",
+                "text": "A direct connection between clients and services"
+            },
+            {
+                "letter": "D",
+                "text": "A centralized data store"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An API Gateway acts as a single entry point that manages and routes client requests to appropriate services."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0021",
+        "text": "Which of the following is a common API Gateway feature for traffic control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Rate limiting"
+            },
+            {
+                "letter": "B",
+                "text": "Database indexing"
+            },
+            {
+                "letter": "C",
+                "text": "File compression"
+            },
+            {
+                "letter": "D",
+                "text": "Schema migration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Rate limiting prevents overloading services by limiting the number of requests a client can make."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0022",
+        "text": "Which of the following is a benefit of using an API Gateway for analytics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized collection of usage metrics"
+            },
+            {
+                "letter": "B",
+                "text": "Decentralized logging"
+            },
+            {
+                "letter": "C",
+                "text": "Manual data collection"
+            },
+            {
+                "letter": "D",
+                "text": "No monitoring required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can collect and analyze metrics about API usage, latency, and errors."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0023",
+        "text": "Which of the following is a common API Gateway responsibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Request aggregation"
+            },
+            {
+                "letter": "B",
+                "text": "Database replication"
+            },
+            {
+                "letter": "C",
+                "text": "File storage"
+            },
+            {
+                "letter": "D",
+                "text": "Code compilation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can aggregate responses from multiple services into a single response for clients."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0024",
+        "text": "Which of the following is a potential risk of using an API Gateway?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "B",
+                "text": "Improved scalability"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified routing"
+            },
+            {
+                "letter": "D",
+                "text": "Enhanced security"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If not properly designed, the API Gateway can become a single point of failure."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0025",
+        "text": "Which of the following is a benefit of using an API Gateway for cross-cutting concerns?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized handling of logging, authentication, and monitoring"
+            },
+            {
+                "letter": "B",
+                "text": "Decentralized management of cross-cutting concerns"
+            },
+            {
+                "letter": "C",
+                "text": "Manual configuration per service"
+            },
+            {
+                "letter": "D",
+                "text": "No need for cross-cutting concerns"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways centralize cross-cutting concerns like logging, authentication, and monitoring."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0026",
+        "text": "Which of the following is a common API Gateway pattern for client optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Backend for Frontend (BFF)"
+            },
+            {
+                "letter": "B",
+                "text": "Shared Database Pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized Data Pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Monolithic Pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Backend for Frontend pattern uses separate API Gateways for different client types to optimize responses."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0027",
+        "text": "Which of the following is a benefit of using an API Gateway for protocol translation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows clients and services using different protocols to communicate"
+            },
+            {
+                "letter": "B",
+                "text": "It enforces a single protocol for all services"
+            },
+            {
+                "letter": "C",
+                "text": "It disables protocol conversion"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all protocols into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can translate between protocols like HTTP, WebSocket, and gRPC."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0028",
+        "text": "Which of the following is a benefit of using an API Gateway for caching?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It reduces load on backend services"
+            },
+            {
+                "letter": "B",
+                "text": "It increases database queries"
+            },
+            {
+                "letter": "C",
+                "text": "It disables caching"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes data storage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Caching responses at the API Gateway reduces load on backend services and improves performance."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0029",
+        "text": "Which of the following is a benefit of using an API Gateway for version management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can route requests to different service versions"
+            },
+            {
+                "letter": "B",
+                "text": "It enforces a single version for all services"
+            },
+            {
+                "letter": "C",
+                "text": "It disables version control"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all versions into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can route requests to different service versions, supporting backward compatibility."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0030",
+        "text": "Which of the following is a benefit of using an API Gateway for load balancing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It distributes requests across multiple service instances"
+            },
+            {
+                "letter": "B",
+                "text": "It sends all requests to a single instance"
+            },
+            {
+                "letter": "C",
+                "text": "It disables load balancing"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all traffic to one node"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can perform load balancing by distributing requests across multiple service instances."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0031",
+        "text": "Which of the following is a benefit of using an API Gateway for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized enforcement of security policies"
+            },
+            {
+                "letter": "B",
+                "text": "Decentralized access control"
+            },
+            {
+                "letter": "C",
+                "text": "Direct client access to services"
+            },
+            {
+                "letter": "D",
+                "text": "No need for encryption"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways centralize security policy enforcement, simplifying management and compliance."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0032",
+        "text": "Which of the following is a benefit of using an API Gateway for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized logging and metrics collection"
+            },
+            {
+                "letter": "B",
+                "text": "Distributed logging across clients"
+            },
+            {
+                "letter": "C",
+                "text": "No need for monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "Manual log collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can collect logs and metrics centrally, simplifying monitoring and analysis."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0033",
+        "text": "Which of the following is a benefit of using an API Gateway for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can implement circuit breakers and retries"
+            },
+            {
+                "letter": "B",
+                "text": "It disables error handling"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes all failures"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can implement circuit breakers and retries to improve fault tolerance."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0034",
+        "text": "Which of the following is a benefit of using an API Gateway for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can scale independently of backend services"
+            },
+            {
+                "letter": "B",
+                "text": "It requires scaling all services together"
+            },
+            {
+                "letter": "C",
+                "text": "It disables scaling"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes scaling decisions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can scale independently to handle increased client traffic."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0035",
+        "text": "Which of the following is a benefit of using an API Gateway for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides a single point for collecting metrics and logs"
+            },
+            {
+                "letter": "B",
+                "text": "It disables monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "It decentralizes logging"
+            },
+            {
+                "letter": "D",
+                "text": "It hides metrics from developers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways provide a single point for collecting metrics and logs, improving observability."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0036",
+        "text": "Which of the following is a benefit of using an API Gateway for request transformation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can modify requests and responses between clients and services"
+            },
+            {
+                "letter": "B",
+                "text": "It disables request modification"
+            },
+            {
+                "letter": "C",
+                "text": "It merges all requests into one"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes data storage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can transform requests and responses to match client and service expectations."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0037",
+        "text": "Which of the following is a benefit of using an API Gateway for client simplification?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients interact with a single endpoint instead of multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must call each service directly"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manage routing logic"
+            },
+            {
+                "letter": "D",
+                "text": "Clients handle authentication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways simplify client logic by providing a single endpoint for all service interactions."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0038",
+        "text": "Which of the following is a benefit of using an API Gateway for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can handle retries and fallbacks"
+            },
+            {
+                "letter": "B",
+                "text": "It disables error handling"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes all failures"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can handle retries and fallbacks to improve system resilience."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0039",
+        "text": "Which of the following is a benefit of using an API Gateway for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can enforce SSL/TLS for all requests"
+            },
+            {
+                "letter": "B",
+                "text": "It disables encryption"
+            },
+            {
+                "letter": "C",
+                "text": "It allows insecure connections"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all traffic to one node"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can enforce SSL/TLS to secure communication between clients and services."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0040",
+        "text": "Which of the following is a benefit of using an API Gateway for authentication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can validate tokens before forwarding requests"
+            },
+            {
+                "letter": "B",
+                "text": "It disables authentication"
+            },
+            {
+                "letter": "C",
+                "text": "It delegates authentication to clients"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all tokens into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can validate authentication tokens, reducing the burden on backend services."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0041",
+        "text": "Which of the following is a benefit of using an API Gateway for authorization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can enforce access control policies centrally"
+            },
+            {
+                "letter": "B",
+                "text": "It disables access control"
+            },
+            {
+                "letter": "C",
+                "text": "It delegates authorization to clients"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all roles into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can enforce access control policies centrally, improving security management."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0042",
+        "text": "Which of the following is a benefit of using an API Gateway for logging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can log all incoming and outgoing requests"
+            },
+            {
+                "letter": "B",
+                "text": "It disables logging"
+            },
+            {
+                "letter": "C",
+                "text": "It logs only client-side errors"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all logs into one file"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can log all requests and responses, providing visibility into system behavior."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0043",
+        "text": "Which of the following is a benefit of using an API Gateway for request validation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can validate request formats before forwarding"
+            },
+            {
+                "letter": "B",
+                "text": "It disables validation"
+            },
+            {
+                "letter": "C",
+                "text": "It delegates validation to clients"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all requests into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can validate request formats and parameters before forwarding them to services."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0044",
+        "text": "Which of the following is a benefit of using an API Gateway for response compression?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It reduces bandwidth usage"
+            },
+            {
+                "letter": "B",
+                "text": "It increases response size"
+            },
+            {
+                "letter": "C",
+                "text": "It disables compression"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes data storage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can compress responses to reduce bandwidth usage and improve performance."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0045",
+        "text": "Which of the following is a benefit of using an API Gateway for routing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It routes requests to the appropriate microservice"
+            },
+            {
+                "letter": "B",
+                "text": "It sends all requests to one service"
+            },
+            {
+                "letter": "C",
+                "text": "It disables routing"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all routes into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways route requests to the appropriate microservice based on the request path or headers."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0046",
+        "text": "Which of the following is a benefit of using an API Gateway for service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can integrate with service registries to locate services"
+            },
+            {
+                "letter": "B",
+                "text": "It disables service discovery"
+            },
+            {
+                "letter": "C",
+                "text": "It requires manual service configuration"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all services into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can integrate with service registries like Eureka or Consul to discover service endpoints."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0047",
+        "text": "Which of the following is a benefit of using an API Gateway for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can isolate failing services from clients"
+            },
+            {
+                "letter": "B",
+                "text": "It propagates all failures to clients"
+            },
+            {
+                "letter": "C",
+                "text": "It disables error handling"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can isolate failing services by returning fallback responses or error messages."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0048",
+        "text": "Which of the following is a benefit of using an API Gateway for throttling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It limits the number of requests per client"
+            },
+            {
+                "letter": "B",
+                "text": "It allows unlimited requests"
+            },
+            {
+                "letter": "C",
+                "text": "It disables rate limiting"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all requests into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can throttle requests to prevent abuse and protect backend services."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0049",
+        "text": "Which of the following is a benefit of using an API Gateway for centralized configuration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows configuration changes without redeploying services"
+            },
+            {
+                "letter": "B",
+                "text": "It disables configuration management"
+            },
+            {
+                "letter": "C",
+                "text": "It requires manual configuration per service"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all configurations into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Gateways can manage configuration centrally, simplifying updates and maintenance."
+    },
+    {
+        "title": "MicroserviceAPIGateway - Q0050",
+        "text": "Which of the following best describes the API Gateway pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single entry point that manages and routes client requests"
+            },
+            {
+                "letter": "B",
+                "text": "A shared database for all services"
+            },
+            {
+                "letter": "C",
+                "text": "A direct connection between clients and services"
+            },
+            {
+                "letter": "D",
+                "text": "A centralized data store"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An API Gateway acts as a single entry point that manages and routes client requests to appropriate services."
+    }
+]

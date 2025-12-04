@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceServiceDiscovery - Q0001",
+        "text": "What is the main purpose of service discovery in microservices architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To enable services to find and communicate with each other dynamically"
+            },
+            {
+                "letter": "B",
+                "text": "To store data for all services"
+            },
+            {
+                "letter": "C",
+                "text": "To compile service code"
+            },
+            {
+                "letter": "D",
+                "text": "To manage user authentication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery allows services to locate each other dynamically without hardcoded network addresses."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0002",
+        "text": "Which of the following best describes service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A mechanism for automatically detecting network locations of services"
+            },
+            {
+                "letter": "B",
+                "text": "A centralized database for storing user data"
+            },
+            {
+                "letter": "C",
+                "text": "A tool for compiling microservices"
+            },
+            {
+                "letter": "D",
+                "text": "A method for caching API responses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automatically detects and provides network locations of services in a distributed system."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0003",
+        "text": "Which of the following is a key benefit of service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Dynamic service registration and lookup"
+            },
+            {
+                "letter": "B",
+                "text": "Static IP configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Manual service mapping"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized data storage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery enables dynamic registration and lookup of services, reducing manual configuration."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0004",
+        "text": "Which of the following is a common service discovery tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Eureka"
+            },
+            {
+                "letter": "B",
+                "text": "MySQL"
+            },
+            {
+                "letter": "C",
+                "text": "Kafka"
+            },
+            {
+                "letter": "D",
+                "text": "Redis"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Eureka is a popular service discovery tool developed by Netflix for microservices."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0005",
+        "text": "Which of the following is a key component of service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Service registry"
+            },
+            {
+                "letter": "B",
+                "text": "Database index"
+            },
+            {
+                "letter": "C",
+                "text": "Message queue"
+            },
+            {
+                "letter": "D",
+                "text": "Cache layer"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The service registry stores information about available services and their network locations."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0006",
+        "text": "Which of the following is a responsibility of a service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintaining a list of available service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Storing user credentials"
+            },
+            {
+                "letter": "C",
+                "text": "Managing database transactions"
+            },
+            {
+                "letter": "D",
+                "text": "Handling file uploads"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry maintains a list of available service instances and their network addresses."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0007",
+        "text": "Which of the following is a common service discovery pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Client-side discovery"
+            },
+            {
+                "letter": "B",
+                "text": "Database replication"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized caching"
+            },
+            {
+                "letter": "D",
+                "text": "Static routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery allows clients to query the service registry and route requests directly to service instances."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0008",
+        "text": "Which of the following is another common service discovery pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Server-side discovery"
+            },
+            {
+                "letter": "B",
+                "text": "Manual discovery"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP mapping"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In server-side discovery, a load balancer or gateway queries the registry and routes requests to services."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0009",
+        "text": "Which of the following is a benefit of client-side service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients have full control over load balancing"
+            },
+            {
+                "letter": "B",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "C",
+                "text": "Clients use static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Clients cannot discover services dynamically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery allows clients to perform load balancing and routing based on registry data."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0010",
+        "text": "Which of the following is a benefit of server-side service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients are simplified and do not need to know service locations"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must manage routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Clients directly connect to all services"
+            },
+            {
+                "letter": "D",
+                "text": "Clients store service addresses locally"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery simplifies clients by delegating routing to a load balancer or gateway."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0011",
+        "text": "Which of the following is a popular service discovery tool used with Kubernetes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "CoreDNS"
+            },
+            {
+                "letter": "B",
+                "text": "PostgreSQL"
+            },
+            {
+                "letter": "C",
+                "text": "RabbitMQ"
+            },
+            {
+                "letter": "D",
+                "text": "Redis"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CoreDNS is used in Kubernetes for DNS-based service discovery."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0012",
+        "text": "Which of the following is a benefit of using service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic detection of service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of IP addresses"
+            },
+            {
+                "letter": "C",
+                "text": "Static routing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized data storage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automatically detects and registers service instances as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0013",
+        "text": "Which of the following is a challenge in service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Static IP configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Manual service registration"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized data management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Dynamic scaling requires the service registry to update frequently as instances are added or removed."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0014",
+        "text": "Which of the following is a benefit of using DNS-based service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It leverages existing DNS infrastructure"
+            },
+            {
+                "letter": "B",
+                "text": "It requires custom client logic"
+            },
+            {
+                "letter": "C",
+                "text": "It disables caching"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "DNS-based discovery uses standard DNS mechanisms, simplifying integration with existing systems."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0015",
+        "text": "Which of the following is a benefit of using a service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized management of service metadata"
+            },
+            {
+                "letter": "B",
+                "text": "Manual service configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP mapping"
+            },
+            {
+                "letter": "D",
+                "text": "Decentralized service tracking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry provides centralized management of service metadata and network locations."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0016",
+        "text": "Which of the following is a common open-source service discovery tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Consul"
+            },
+            {
+                "letter": "B",
+                "text": "MongoDB"
+            },
+            {
+                "letter": "C",
+                "text": "Kafka"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consul is an open-source tool for service discovery and configuration management."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0017",
+        "text": "Which of the following is a benefit of using Consul for service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Health checking and automatic deregistration"
+            },
+            {
+                "letter": "B",
+                "text": "Manual service registration"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized data storage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consul performs health checks and automatically deregisters unhealthy service instances."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0018",
+        "text": "Which of the following is a benefit of using service discovery for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "It requires manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "It disables scaling"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes scaling decisions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery supports dynamic scaling by automatically updating the registry as instances change."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0019",
+        "text": "Which of the following is a benefit of using service discovery for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It removes failed instances from the registry"
+            },
+            {
+                "letter": "B",
+                "text": "It keeps failed instances active"
+            },
+            {
+                "letter": "C",
+                "text": "It disables health checks"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all failures"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery improves fault tolerance by removing failed instances from the registry automatically."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0020",
+        "text": "Which of the following best describes the role of service discovery in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It enables dynamic communication between services"
+            },
+            {
+                "letter": "B",
+                "text": "It stores user data"
+            },
+            {
+                "letter": "C",
+                "text": "It compiles service code"
+            },
+            {
+                "letter": "D",
+                "text": "It manages database transactions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery enables dynamic communication between services by resolving their network locations."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0021",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0022",
+        "text": "Which of the following is a common protocol used in service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HTTP"
+            },
+            {
+                "letter": "B",
+                "text": "SMTP"
+            },
+            {
+                "letter": "C",
+                "text": "FTP"
+            },
+            {
+                "letter": "D",
+                "text": "POP3"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HTTP is commonly used for communication between services and the service registry."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0023",
+        "text": "Which of the following is a benefit of using service discovery for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can be updated without changing client configurations"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must manually update IP addresses"
+            },
+            {
+                "letter": "C",
+                "text": "All services share static endpoints"
+            },
+            {
+                "letter": "D",
+                "text": "Clients depend on hardcoded URLs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery decouples clients from service locations, improving maintainability."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0024",
+        "text": "Which of the following is a benefit of using service discovery for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can move between hosts without reconfiguration"
+            },
+            {
+                "letter": "B",
+                "text": "Services must remain on fixed IPs"
+            },
+            {
+                "letter": "C",
+                "text": "Clients must know all service addresses"
+            },
+            {
+                "letter": "D",
+                "text": "Services cannot scale dynamically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery allows services to move or scale without requiring client reconfiguration."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0025",
+        "text": "Which of the following is a benefit of using service discovery for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It supports dynamic scaling of service instances"
+            },
+            {
+                "letter": "B",
+                "text": "It requires manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "It disables scaling"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes scaling decisions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery supports dynamic scaling by automatically updating the registry as instances change."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0026",
+        "text": "Which of the following is a benefit of using service discovery for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It removes failed instances from the registry"
+            },
+            {
+                "letter": "B",
+                "text": "It keeps failed instances active"
+            },
+            {
+                "letter": "C",
+                "text": "It disables health checks"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all failures"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery improves fault tolerance by removing failed instances from the registry automatically."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0027",
+        "text": "Which of the following is a benefit of using service discovery for load balancing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It enables dynamic routing to healthy instances"
+            },
+            {
+                "letter": "B",
+                "text": "It disables load balancing"
+            },
+            {
+                "letter": "C",
+                "text": "It routes all traffic to one instance"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all requests"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery integrates with load balancers to route traffic to healthy service instances."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0028",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0029",
+        "text": "Which of the following is a benefit of using service discovery for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can reroute traffic away from failed instances"
+            },
+            {
+                "letter": "B",
+                "text": "It disables error handling"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes all failures"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery reroutes traffic to healthy instances, improving system resilience."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0030",
+        "text": "Which of the following is a benefit of using service discovery for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides visibility into service health and availability"
+            },
+            {
+                "letter": "B",
+                "text": "It hides service status from monitoring tools"
+            },
+            {
+                "letter": "C",
+                "text": "It disables logging"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all logs into one file"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery provides visibility into service health and availability through health checks."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0031",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0032",
+        "text": "Which of the following is a benefit of using service discovery for dynamic environments?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It adapts to changes in service instances automatically"
+            },
+            {
+                "letter": "B",
+                "text": "It requires manual updates for every change"
+            },
+            {
+                "letter": "C",
+                "text": "It disables dynamic scaling"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all configurations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery adapts automatically to changes in service instances in dynamic environments."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0033",
+        "text": "Which of the following is a benefit of using service discovery for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It simplifies deployment by removing static configurations"
+            },
+            {
+                "letter": "B",
+                "text": "It requires manual IP configuration"
+            },
+            {
+                "letter": "C",
+                "text": "It disables automation"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all deployments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery simplifies deployment by eliminating the need for static IP configurations."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0034",
+        "text": "Which of the following is a benefit of using service discovery for cloud environments?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It supports dynamic IP allocation and scaling"
+            },
+            {
+                "letter": "B",
+                "text": "It requires fixed IPs"
+            },
+            {
+                "letter": "C",
+                "text": "It disables scaling"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all configurations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery supports dynamic IP allocation and scaling, which are common in cloud environments."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0035",
+        "text": "Which of the following is a benefit of using service discovery for microservice communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It enables dynamic routing between services"
+            },
+            {
+                "letter": "B",
+                "text": "It requires static routing"
+            },
+            {
+                "letter": "C",
+                "text": "It disables communication"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all traffic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery enables dynamic routing between services, improving communication flexibility."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0036",
+        "text": "Which of the following is a benefit of using service discovery for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It isolates failed instances from the network"
+            },
+            {
+                "letter": "B",
+                "text": "It propagates failures to all services"
+            },
+            {
+                "letter": "C",
+                "text": "It disables error handling"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery isolates failed instances by removing them from the registry."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0037",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0038",
+        "text": "Which of the following is a benefit of using service discovery for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides real-time visibility into service health"
+            },
+            {
+                "letter": "B",
+                "text": "It disables monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "It hides service status"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all logs into one file"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery provides real-time visibility into service health and availability."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0039",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0040",
+        "text": "Which of the following is a benefit of using service discovery for dynamic scaling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It automatically updates the registry as instances scale"
+            },
+            {
+                "letter": "B",
+                "text": "It requires manual updates"
+            },
+            {
+                "letter": "C",
+                "text": "It disables scaling"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all configurations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automatically updates the registry as instances scale up or down."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0041",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0042",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0043",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0044",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0045",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0046",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0047",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0048",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0049",
+        "text": "Which of the following is a benefit of using service discovery for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration of service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroserviceServiceDiscovery - Q0050",
+        "text": "Which of the following best describes service discovery in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A mechanism that enables services to find and communicate with each other dynamically"
+            },
+            {
+                "letter": "B",
+                "text": "A centralized database for storing user data"
+            },
+            {
+                "letter": "C",
+                "text": "A tool for compiling microservices"
+            },
+            {
+                "letter": "D",
+                "text": "A method for caching API responses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery enables dynamic communication between services by resolving their network locations."
+    }
+]

@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0001",
+        "text": "What does decentralized data management mean in microservices architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service manages its own data independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a single centralized database"
+            },
+            {
+                "letter": "C",
+                "text": "Data is stored in a single monolithic schema"
+            },
+            {
+                "letter": "D",
+                "text": "Data is managed by a central data warehouse"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management means each microservice owns and manages its own data, ensuring autonomy and loose coupling."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0002",
+        "text": "Which of the following is a key benefit of decentralized data management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved service autonomy"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized data governance"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced data duplication"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified schema management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management improves autonomy by allowing services to manage their own data independently."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0003",
+        "text": "Which of the following is a common anti-pattern in decentralized data management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Sharing a single database between services"
+            },
+            {
+                "letter": "B",
+                "text": "Independent data ownership"
+            },
+            {
+                "letter": "C",
+                "text": "Loose coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Event-driven synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sharing a single database between services creates tight coupling and violates the principle of decentralized data management."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0004",
+        "text": "Which of the following is a challenge of decentralized data management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintaining data consistency across services"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema updates"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Maintaining consistency across multiple independent data stores is a major challenge in decentralized data management."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0005",
+        "text": "Which of the following patterns helps maintain consistency in decentralized data management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Saga pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized transaction pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Global commit pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern coordinates distributed transactions across services to maintain eventual consistency."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0006",
+        "text": "Which of the following is a benefit of decentralized data management for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale its database independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows each service to scale its data store independently based on demand."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0007",
+        "text": "Which of the following is a key principle of decentralized data management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service owns its data and schema"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a global schema"
+            },
+            {
+                "letter": "C",
+                "text": "Data is managed by a central team"
+            },
+            {
+                "letter": "D",
+                "text": "Data is stored in a single repository"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service owning its data and schema ensures autonomy and reduces coupling."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0008",
+        "text": "Which of the following is a common approach to synchronize data across services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event-driven architecture"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database triggers"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data replication"
+            },
+            {
+                "letter": "D",
+                "text": "Manual synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows services to publish and subscribe to events for data synchronization."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0009",
+        "text": "Which of the following is a benefit of decentralized data management for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failure in one service’s database does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management isolates failures, preventing cascading issues across services."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0010",
+        "text": "Which of the following is a benefit of decentralized data management for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can evolve their data models independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must use the same schema"
+            },
+            {
+                "letter": "C",
+                "text": "Schema changes require global coordination"
+            },
+            {
+                "letter": "D",
+                "text": "Data models are centrally managed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows services to evolve their data models independently without coordination."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0011",
+        "text": "Which of the following is a challenge of decentralized data management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring data consistency across services"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Ensuring consistency across multiple independent data stores is a key challenge in decentralized data management."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0012",
+        "text": "Which of the following patterns helps achieve eventual consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event sourcing"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized transaction"
+            },
+            {
+                "letter": "D",
+                "text": "Global commit"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event sourcing captures all changes as events, enabling eventual consistency across services."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0013",
+        "text": "Which of the following is a benefit of decentralized data management for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can optimize its database for its workload"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same database configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Performance tuning depends on a central team"
+            },
+            {
+                "letter": "D",
+                "text": "Performance improvements require global changes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service can optimize its database independently for its specific performance needs."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0014",
+        "text": "Which of the following is a benefit of decentralized data management for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale its data store independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows each service to scale its data store independently based on demand."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0015",
+        "text": "Which of the following is a benefit of decentralized data management for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changes in one service’s data model do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services must update their schemas together"
+            },
+            {
+                "letter": "C",
+                "text": "Schema changes require global coordination"
+            },
+            {
+                "letter": "D",
+                "text": "Data models are centrally managed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management isolates schema changes, improving maintainability and reducing side effects."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0016",
+        "text": "Which of the following is a benefit of decentralized data management for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failure in one service’s database does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management isolates failures, preventing cascading issues across services."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0017",
+        "text": "Which of the following is a benefit of decentralized data management for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can choose its own database technology"
+            },
+            {
+                "letter": "B",
+                "text": "All services must use the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Database technology is centrally decided"
+            },
+            {
+                "letter": "D",
+                "text": "Database changes require global approval"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows each service to choose the database technology that best fits its needs."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0018",
+        "text": "Which of the following is a benefit of decentralized data management for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Data access can be restricted per service"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same credentials"
+            },
+            {
+                "letter": "C",
+                "text": "Security is managed centrally"
+            },
+            {
+                "letter": "D",
+                "text": "Data access is global"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows each service to enforce its own security policies and access controls."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0019",
+        "text": "Which of the following is a benefit of decentralized data management for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can manage and deploy their own databases"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all database changes"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single database"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on a central DBA team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows teams to manage their own databases, improving autonomy and agility."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0020",
+        "text": "Which of the following best describes decentralized data management in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service manages its own data independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a single centralized database"
+            },
+            {
+                "letter": "C",
+                "text": "Data is stored in a single monolithic schema"
+            },
+            {
+                "letter": "D",
+                "text": "Data is managed by a central data warehouse"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management means each microservice owns and manages its own data, ensuring autonomy and loose coupling."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0021",
+        "text": "Which of the following is a challenge of decentralized data management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Implementing distributed transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Distributed transactions are complex to implement when each service manages its own data."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0022",
+        "text": "Which of the following patterns helps coordinate distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Saga pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized commit pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Global rollback pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern coordinates distributed transactions across services to maintain eventual consistency."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0023",
+        "text": "Which of the following is a benefit of decentralized data management for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can recover independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must recover together"
+            },
+            {
+                "letter": "C",
+                "text": "Recovery depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Recovery requires full system restart"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows each service to recover independently, improving resilience."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0024",
+        "text": "Which of the following is a benefit of decentralized data management for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can tune its database for its workload"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same tuning parameters"
+            },
+            {
+                "letter": "C",
+                "text": "Performance tuning depends on a central DBA"
+            },
+            {
+                "letter": "D",
+                "text": "Performance improvements require global changes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service can optimize its database independently for its specific performance needs."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0025",
+        "text": "Which of the following is a benefit of decentralized data management for technology diversity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can use the most suitable database technology"
+            },
+            {
+                "letter": "B",
+                "text": "All services must use the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Database technology is centrally decided"
+            },
+            {
+                "letter": "D",
+                "text": "Database changes require global approval"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows polyglot persistence, where each service uses the best database for its needs."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0026",
+        "text": "Which of the following is a benefit of decentralized data management for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failure in one service’s database does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management isolates failures, preventing cascading issues across services."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0027",
+        "text": "Which of the following is a benefit of decentralized data management for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can evolve their data models independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must coordinate schema changes"
+            },
+            {
+                "letter": "C",
+                "text": "Teams depend on a central DBA"
+            },
+            {
+                "letter": "D",
+                "text": "Teams share a single schema"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows teams to evolve their data models independently, improving agility."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0028",
+        "text": "Which of the following is a challenge of decentralized data management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Implementing cross-service queries"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Cross-service queries are difficult because data is distributed across multiple databases."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0029",
+        "text": "Which of the following is a benefit of decentralized data management for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changes in one service’s data model do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services must update their schemas together"
+            },
+            {
+                "letter": "C",
+                "text": "Schema changes require global coordination"
+            },
+            {
+                "letter": "D",
+                "text": "Data models are centrally managed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management isolates schema changes, improving maintainability and reducing side effects."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0030",
+        "text": "Which of the following is a benefit of decentralized data management for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale its data store independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows each service to scale its data store independently based on demand."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0031",
+        "text": "Which of the following is a benefit of decentralized data management for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Data access can be restricted per service"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same credentials"
+            },
+            {
+                "letter": "C",
+                "text": "Security is managed centrally"
+            },
+            {
+                "letter": "D",
+                "text": "Data access is global"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows each service to enforce its own security policies and access controls."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0032",
+        "text": "Which of the following is a benefit of decentralized data management for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can manage and deploy their own databases"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all database changes"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single database"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on a central DBA team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows teams to manage their own databases, improving autonomy and agility."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0033",
+        "text": "Which of the following is a benefit of decentralized data management for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failure in one service’s database does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management isolates failures, preventing cascading issues across services."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0034",
+        "text": "Which of the following is a benefit of decentralized data management for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can choose its own database technology"
+            },
+            {
+                "letter": "B",
+                "text": "All services must use the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Database technology is centrally decided"
+            },
+            {
+                "letter": "D",
+                "text": "Database changes require global approval"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows each service to choose the database technology that best fits its needs."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0035",
+        "text": "Which of the following is a challenge of decentralized data management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Implementing cross-service reporting"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized schema management"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Cross-service reporting is difficult because data is distributed across multiple databases."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0036",
+        "text": "Which of the following is a benefit of decentralized data management for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It promotes modular design by isolating data per service"
+            },
+            {
+                "letter": "B",
+                "text": "It enforces a single global schema"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "It merges multiple domains"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management promotes modular design by isolating data per service."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0037",
+        "text": "Which of the following is a benefit of decentralized data management for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can monitor its own data operations"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same monitoring system"
+            },
+            {
+                "letter": "C",
+                "text": "Monitoring depends on a central team"
+            },
+            {
+                "letter": "D",
+                "text": "Monitoring requires full system access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows independent monitoring and observability per service."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0038",
+        "text": "Which of the following is a benefit of decentralized data management for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Resources can be allocated per service"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same resources"
+            },
+            {
+                "letter": "C",
+                "text": "Costs are centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires full system upgrade"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows cost optimization by allocating resources per service."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0039",
+        "text": "Which of the following is a benefit of decentralized data management for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one service’s database do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management isolates failures, improving overall system reliability."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0040",
+        "text": "Which of the following is a benefit of decentralized data management for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can deploy database changes independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must deploy together"
+            },
+            {
+                "letter": "C",
+                "text": "Database changes require global coordination"
+            },
+            {
+                "letter": "D",
+                "text": "Database updates depend on a central team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows independent database deployments, supporting continuous delivery."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0041",
+        "text": "Which of the following is a benefit of decentralized data management for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new data technologies"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must use the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires central approval"
+            },
+            {
+                "letter": "D",
+                "text": "Database changes are globally managed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows teams to innovate by experimenting with new data technologies."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0042",
+        "text": "Which of the following is a benefit of decentralized data management for data ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service owns and controls its data"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a global data model"
+            },
+            {
+                "letter": "C",
+                "text": "Data ownership is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Data is managed by a single team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management ensures clear ownership and control of data per service."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0043",
+        "text": "Which of the following is a benefit of decentralized data management for data governance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service enforces its own governance policies"
+            },
+            {
+                "letter": "B",
+                "text": "All services follow a single global policy"
+            },
+            {
+                "letter": "C",
+                "text": "Governance is managed centrally"
+            },
+            {
+                "letter": "D",
+                "text": "Governance requires global approval"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows each service to enforce governance policies suited to its domain."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0044",
+        "text": "Which of the following is a benefit of decentralized data management for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one service’s database do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management isolates failures, preventing cascading issues across services."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0045",
+        "text": "Which of the following is a benefit of decentralized data management for data consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service ensures its own data consistency"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a single consistency model"
+            },
+            {
+                "letter": "C",
+                "text": "Consistency is managed centrally"
+            },
+            {
+                "letter": "D",
+                "text": "Consistency requires global transactions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service ensures its own data consistency, supporting autonomy and reliability."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0046",
+        "text": "Which of the following is a benefit of decentralized data management for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale its data store independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling depends on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows each service to scale its data store independently based on demand."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0047",
+        "text": "Which of the following is a benefit of decentralized data management for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one service’s database do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared rollback mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management isolates failures, improving overall system reliability."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0048",
+        "text": "Which of the following is a benefit of decentralized data management for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can iterate and deploy database improvements frequently"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must wait for global releases"
+            },
+            {
+                "letter": "C",
+                "text": "Teams depend on a central release manager"
+            },
+            {
+                "letter": "D",
+                "text": "Teams share a single release schedule"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows teams to continuously improve and deploy updates frequently."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0049",
+        "text": "Which of the following is a benefit of decentralized data management for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new data technologies"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must use the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires central approval"
+            },
+            {
+                "letter": "D",
+                "text": "Database changes are globally managed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management allows teams to innovate by experimenting with new data technologies."
+    },
+    {
+        "title": "MicroserviceDecentralizedDataManagement - Q0050",
+        "text": "Which of the following best describes decentralized data management in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service manages its own data independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services share a single centralized database"
+            },
+            {
+                "letter": "C",
+                "text": "Data is stored in a single monolithic schema"
+            },
+            {
+                "letter": "D",
+                "text": "Data is managed by a central data warehouse"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decentralized data management means each microservice owns and manages its own data, ensuring autonomy and loose coupling."
+    }
+]

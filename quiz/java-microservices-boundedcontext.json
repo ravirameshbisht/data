@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceBoundedContext - Q0001",
+        "text": "What is a bounded context in microservices architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A logical boundary that defines a specific domain model and its rules"
+            },
+            {
+                "letter": "B",
+                "text": "A shared database between multiple services"
+            },
+            {
+                "letter": "C",
+                "text": "A centralized configuration for all services"
+            },
+            {
+                "letter": "D",
+                "text": "A physical server boundary"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A bounded context defines a clear boundary around a domain model, ensuring consistency and isolation."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0002",
+        "text": "Which design approach introduces the concept of bounded context?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Domain-Driven Design (DDD)"
+            },
+            {
+                "letter": "B",
+                "text": "Event-Driven Architecture"
+            },
+            {
+                "letter": "C",
+                "text": "Model-View-Controller (MVC)"
+            },
+            {
+                "letter": "D",
+                "text": "Service-Oriented Architecture (SOA)"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded context is a core concept from Domain-Driven Design (DDD) used to define domain boundaries."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0003",
+        "text": "What is the main purpose of a bounded context?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To define clear boundaries for domain models and avoid ambiguity"
+            },
+            {
+                "letter": "B",
+                "text": "To share data between services"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize business logic"
+            },
+            {
+                "letter": "D",
+                "text": "To merge multiple services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts define clear boundaries for domain models, reducing ambiguity and coupling."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0004",
+        "text": "Which of the following best describes the relationship between bounded contexts and microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each microservice typically corresponds to one bounded context"
+            },
+            {
+                "letter": "B",
+                "text": "All microservices share a single bounded context"
+            },
+            {
+                "letter": "C",
+                "text": "Bounded contexts are unrelated to microservices"
+            },
+            {
+                "letter": "D",
+                "text": "A bounded context contains multiple unrelated microservices"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each microservice usually maps to a single bounded context to maintain domain integrity."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0005",
+        "text": "What problem does bounded context primarily solve?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ambiguity in domain models across different parts of the system"
+            },
+            {
+                "letter": "B",
+                "text": "Database normalization"
+            },
+            {
+                "letter": "C",
+                "text": "Network latency"
+            },
+            {
+                "letter": "D",
+                "text": "Load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts prevent ambiguity by defining clear boundaries for domain models and their meanings."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0006",
+        "text": "Which of the following is a key characteristic of a bounded context?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It has its own domain model and ubiquitous language"
+            },
+            {
+                "letter": "B",
+                "text": "It shares the same model with other contexts"
+            },
+            {
+                "letter": "C",
+                "text": "It depends on a global data schema"
+            },
+            {
+                "letter": "D",
+                "text": "It uses a centralized business logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each bounded context defines its own domain model and ubiquitous language to maintain clarity."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0007",
+        "text": "What is the relationship between bounded context and ubiquitous language?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each bounded context defines its own ubiquitous language"
+            },
+            {
+                "letter": "B",
+                "text": "All bounded contexts share a single ubiquitous language"
+            },
+            {
+                "letter": "C",
+                "text": "Ubiquitous language is unrelated to bounded contexts"
+            },
+            {
+                "letter": "D",
+                "text": "Ubiquitous language is defined globally for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each bounded context defines its own ubiquitous language to ensure consistent communication within that domain."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0008",
+        "text": "Which of the following is a benefit of using bounded contexts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced coupling between domains"
+            },
+            {
+                "letter": "B",
+                "text": "Increased dependency between services"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "D",
+                "text": "Shared domain models"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts reduce coupling by isolating domain models and their logic."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0009",
+        "text": "Which of the following is a sign of poor bounded context design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Frequent cross-context dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Independent domain models"
+            },
+            {
+                "letter": "C",
+                "text": "Clear context boundaries"
+            },
+            {
+                "letter": "D",
+                "text": "Autonomous teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Frequent cross-context dependencies indicate unclear boundaries and poor context separation."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0010",
+        "text": "What is the main risk of overlapping bounded contexts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ambiguous domain definitions and data conflicts"
+            },
+            {
+                "letter": "B",
+                "text": "Improved scalability"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified communication"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Overlapping contexts cause ambiguity and data conflicts due to unclear ownership."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0011",
+        "text": "Which of the following is a good practice when defining bounded contexts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Align contexts with business domains"
+            },
+            {
+                "letter": "B",
+                "text": "Define contexts based on technical layers"
+            },
+            {
+                "letter": "C",
+                "text": "Use a single context for all services"
+            },
+            {
+                "letter": "D",
+                "text": "Share the same data model across contexts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts should align with business domains to reflect real-world boundaries."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0012",
+        "text": "Which of the following is a common anti-pattern in bounded context design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Shared domain models across contexts"
+            },
+            {
+                "letter": "B",
+                "text": "Independent data ownership"
+            },
+            {
+                "letter": "C",
+                "text": "Loose coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Autonomous services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sharing domain models across contexts leads to tight coupling and violates context boundaries."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0013",
+        "text": "Which of the following is a key benefit of bounded contexts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved clarity and reduced ambiguity in domain models"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "C",
+                "text": "Shared business logic"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts improve clarity by defining clear boundaries for domain models."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0014",
+        "text": "Which of the following is a key principle of bounded context?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each context has its own model and language"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts share a global model"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts depend on a central database"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts share the same API"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each bounded context defines its own model and language to maintain independence."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0015",
+        "text": "Which of the following is a benefit of aligning bounded contexts with teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved ownership and accountability"
+            },
+            {
+                "letter": "B",
+                "text": "Increased dependency between teams"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized decision-making"
+            },
+            {
+                "letter": "D",
+                "text": "Shared responsibility for all contexts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Aligning bounded contexts with teams improves ownership and accountability for specific domains."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0016",
+        "text": "Which of the following is a sign of well-defined bounded contexts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Minimal overlap and clear boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Frequent cross-context dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Shared data models"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Well-defined bounded contexts have minimal overlap and clear boundaries between domains."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0017",
+        "text": "Which of the following is a common challenge in defining bounded contexts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Identifying correct domain boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Choosing a programming language"
+            },
+            {
+                "letter": "C",
+                "text": "Selecting a database vendor"
+            },
+            {
+                "letter": "D",
+                "text": "Configuring load balancers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Identifying correct domain boundaries is one of the most challenging aspects of defining bounded contexts."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0018",
+        "text": "Which of the following is a benefit of bounded contexts in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced coupling and improved modularity"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "C",
+                "text": "Shared business logic"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts reduce coupling and improve modularity by isolating domain models."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0019",
+        "text": "Which of the following is a key principle of bounded context design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Loose coupling and high cohesion"
+            },
+            {
+                "letter": "B",
+                "text": "Tight coupling and low cohesion"
+            },
+            {
+                "letter": "C",
+                "text": "Shared state and data"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts promote loose coupling and high cohesion for independent evolution."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0020",
+        "text": "Which of the following best describes the relationship between bounded contexts and subdomains?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each bounded context typically maps to a subdomain"
+            },
+            {
+                "letter": "B",
+                "text": "All subdomains share a single bounded context"
+            },
+            {
+                "letter": "C",
+                "text": "Bounded contexts are unrelated to subdomains"
+            },
+            {
+                "letter": "D",
+                "text": "A subdomain contains multiple unrelated bounded contexts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each bounded context usually corresponds to a subdomain in the business domain model."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0021",
+        "text": "Which of the following is a benefit of using bounded contexts in large systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They prevent model conflicts between different domains"
+            },
+            {
+                "letter": "B",
+                "text": "They enforce a single global model"
+            },
+            {
+                "letter": "C",
+                "text": "They centralize all business logic"
+            },
+            {
+                "letter": "D",
+                "text": "They merge multiple domains into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts prevent model conflicts by isolating domain models within defined boundaries."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0022",
+        "text": "What is the main risk of having unclear bounded context boundaries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ambiguous domain models and data inconsistencies"
+            },
+            {
+                "letter": "B",
+                "text": "Improved modularity"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified communication"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Unclear boundaries lead to ambiguity and inconsistencies between domain models."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0023",
+        "text": "Which of the following is a good practice when integrating multiple bounded contexts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Use well-defined APIs or events for communication"
+            },
+            {
+                "letter": "B",
+                "text": "Share the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Merge their domain models"
+            },
+            {
+                "letter": "D",
+                "text": "Use global variables for data exchange"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts should communicate via APIs or events, not shared databases or models."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0024",
+        "text": "Which of the following is a common anti-pattern in bounded context integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Direct database access between contexts"
+            },
+            {
+                "letter": "B",
+                "text": "Event-driven communication"
+            },
+            {
+                "letter": "C",
+                "text": "API-based integration"
+            },
+            {
+                "letter": "D",
+                "text": "Loose coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Direct database access between contexts breaks isolation and creates tight coupling."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0025",
+        "text": "Which of the following is a key benefit of aligning bounded contexts with business teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved domain ownership and autonomy"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized decision-making"
+            },
+            {
+                "letter": "C",
+                "text": "Shared responsibility for all contexts"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced team specialization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Aligning bounded contexts with teams improves ownership and autonomy for specific domains."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0026",
+        "text": "Which of the following is a sign of over-segmentation in bounded contexts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Too many small contexts with high communication overhead"
+            },
+            {
+                "letter": "B",
+                "text": "Clear domain boundaries"
+            },
+            {
+                "letter": "C",
+                "text": "Independent models"
+            },
+            {
+                "letter": "D",
+                "text": "Autonomous teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Over-segmentation leads to excessive communication and complexity between contexts."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0027",
+        "text": "Which of the following is a benefit of bounded contexts in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They allow independent evolution of domain models"
+            },
+            {
+                "letter": "B",
+                "text": "They enforce a single global schema"
+            },
+            {
+                "letter": "C",
+                "text": "They require shared data models"
+            },
+            {
+                "letter": "D",
+                "text": "They centralize all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts allow each domain model to evolve independently without affecting others."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0028",
+        "text": "Which of the following is a key principle of bounded context communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Explicit contracts between contexts"
+            },
+            {
+                "letter": "B",
+                "text": "Implicit data sharing"
+            },
+            {
+                "letter": "C",
+                "text": "Global variable usage"
+            },
+            {
+                "letter": "D",
+                "text": "Shared database access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts communicate through explicit contracts such as APIs or events."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0029",
+        "text": "Which of the following is a benefit of using bounded contexts in DDD?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They reduce model ambiguity and improve clarity"
+            },
+            {
+                "letter": "B",
+                "text": "They enforce a single global model"
+            },
+            {
+                "letter": "C",
+                "text": "They centralize all business logic"
+            },
+            {
+                "letter": "D",
+                "text": "They merge multiple domains"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts reduce ambiguity by defining clear boundaries for domain models."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0030",
+        "text": "Which of the following is a common challenge when defining bounded contexts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Determining the correct boundaries between domains"
+            },
+            {
+                "letter": "B",
+                "text": "Choosing a programming language"
+            },
+            {
+                "letter": "C",
+                "text": "Selecting a database vendor"
+            },
+            {
+                "letter": "D",
+                "text": "Configuring load balancers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Determining correct boundaries between domains is a key challenge in defining bounded contexts."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0031",
+        "text": "Which of the following is a benefit of bounded contexts for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each context can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts share the same scaling configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts depend on a central scaling policy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts allow independent scaling based on their specific workload and requirements."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0032",
+        "text": "Which of the following is a sign of poor bounded context design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Frequent cross-context data dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Independent domain models"
+            },
+            {
+                "letter": "C",
+                "text": "Clear boundaries"
+            },
+            {
+                "letter": "D",
+                "text": "Autonomous teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Frequent cross-context dependencies indicate unclear boundaries and poor design."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0033",
+        "text": "Which of the following is a benefit of bounded contexts for team organization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can work independently on their own contexts"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must coordinate on every change"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on a central architecture team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts allow teams to work independently, reducing coordination overhead."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0034",
+        "text": "Which of the following is a key principle of bounded context boundaries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Boundaries should align with business domains"
+            },
+            {
+                "letter": "B",
+                "text": "Boundaries should align with technical layers"
+            },
+            {
+                "letter": "C",
+                "text": "Boundaries should be based on database tables"
+            },
+            {
+                "letter": "D",
+                "text": "Boundaries should be defined by programming language"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded context boundaries should align with business domains to reflect real-world processes."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0035",
+        "text": "Which of the following is a benefit of bounded contexts for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changes in one context do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts must be updated together"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts depend on a central repository"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts isolate changes, improving maintainability and reducing side effects."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0036",
+        "text": "Which of the following is a benefit of bounded contexts for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each context can be tested independently"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts must be tested together"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts share the same test suite"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts depend on a central test framework"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts allow independent testing, improving test isolation and reliability."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0037",
+        "text": "Which of the following is a benefit of bounded contexts for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each context can be deployed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts share the same deployment pipeline"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts depend on a central deployment team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts enable independent deployment, improving agility and reducing risk."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0038",
+        "text": "Which of the following is a benefit of bounded contexts for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one context do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts share the same error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts depend on a central error handler"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts isolate faults, preventing failures from propagating across domains."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0039",
+        "text": "Which of the following is a benefit of bounded contexts for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each context can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts share the same scaling configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts depend on a central scaling policy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts allow independent scaling based on their specific workload and requirements."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0040",
+        "text": "Which of the following best describes the purpose of bounded contexts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To define clear boundaries for domain models and avoid ambiguity"
+            },
+            {
+                "letter": "B",
+                "text": "To share data between services"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize business logic"
+            },
+            {
+                "letter": "D",
+                "text": "To merge multiple services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts define clear boundaries for domain models, reducing ambiguity and coupling."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0041",
+        "text": "Which of the following is a benefit of bounded contexts for domain clarity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each context defines its own domain model and language"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts share a global model"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts depend on a central schema"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts share the same API"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each bounded context defines its own model and language to maintain domain clarity."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0042",
+        "text": "Which of the following is a benefit of bounded contexts for communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They reduce the need for cross-context communication"
+            },
+            {
+                "letter": "B",
+                "text": "They increase dependency between contexts"
+            },
+            {
+                "letter": "C",
+                "text": "They centralize all communication"
+            },
+            {
+                "letter": "D",
+                "text": "They merge multiple contexts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts reduce cross-context communication by isolating domain responsibilities."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0043",
+        "text": "Which of the following is a benefit of bounded contexts for data consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each context manages its own data consistency"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts share a single database"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts depend on a central data model"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts share the same schema"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each bounded context manages its own data consistency, ensuring autonomy and reliability."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0044",
+        "text": "Which of the following is a benefit of bounded contexts for evolution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each context can evolve independently"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts must evolve together"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts share the same evolution path"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts depend on a central evolution plan"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts allow independent evolution, enabling flexibility and adaptability."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0045",
+        "text": "Which of the following is a benefit of bounded contexts for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one context do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts share the same error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts depend on a central error handler"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts isolate faults, preventing failures from propagating across domains."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0046",
+        "text": "Which of the following is a benefit of bounded contexts for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can deliver changes independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must coordinate on every change"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on a central architecture team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts enable teams to deliver changes independently, improving agility."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0047",
+        "text": "Which of the following is a benefit of bounded contexts for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They promote modular design by isolating domains"
+            },
+            {
+                "letter": "B",
+                "text": "They enforce a single global model"
+            },
+            {
+                "letter": "C",
+                "text": "They centralize all logic"
+            },
+            {
+                "letter": "D",
+                "text": "They merge multiple domains"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts promote modular design by isolating domains and reducing dependencies."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0048",
+        "text": "Which of the following is a benefit of bounded contexts for domain alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They align technical boundaries with business domains"
+            },
+            {
+                "letter": "B",
+                "text": "They align all services under one domain"
+            },
+            {
+                "letter": "C",
+                "text": "They centralize all business logic"
+            },
+            {
+                "letter": "D",
+                "text": "They merge multiple domains"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts align technical boundaries with business domains, improving clarity and focus."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0049",
+        "text": "Which of the following is a benefit of bounded contexts for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each context can operate independently"
+            },
+            {
+                "letter": "B",
+                "text": "All contexts depend on a central system"
+            },
+            {
+                "letter": "C",
+                "text": "Contexts share the same dependencies"
+            },
+            {
+                "letter": "D",
+                "text": "Contexts require global coordination"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts enable autonomy by allowing each context to operate independently."
+    },
+    {
+        "title": "MicroserviceBoundedContext - Q0050",
+        "text": "Which of the following best describes bounded context in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A boundary that defines a specific domain model and its rules"
+            },
+            {
+                "letter": "B",
+                "text": "A shared database between multiple services"
+            },
+            {
+                "letter": "C",
+                "text": "A centralized configuration for all services"
+            },
+            {
+                "letter": "D",
+                "text": "A physical server boundary"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A bounded context defines a clear boundary around a domain model, ensuring consistency and isolation."
+    }
+]

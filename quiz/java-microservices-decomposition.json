@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceDecomposition - Q0001",
+        "text": "What is the primary goal of decomposition in microservices architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To break a monolithic system into smaller, independent services"
+            },
+            {
+                "letter": "B",
+                "text": "To increase the number of servers"
+            },
+            {
+                "letter": "C",
+                "text": "To reduce the number of APIs"
+            },
+            {
+                "letter": "D",
+                "text": "To merge multiple services into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition aims to split a monolithic application into smaller, manageable, and independently deployable services."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0002",
+        "text": "Which of the following is a common basis for decomposing a system into microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Business capabilities"
+            },
+            {
+                "letter": "B",
+                "text": "Programming language"
+            },
+            {
+                "letter": "C",
+                "text": "Database schema"
+            },
+            {
+                "letter": "D",
+                "text": "Server configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by business capability aligns services with business functions, improving autonomy and scalability."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0003",
+        "text": "Which principle helps identify service boundaries during decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Single Responsibility Principle"
+            },
+            {
+                "letter": "B",
+                "text": "Open/Closed Principle"
+            },
+            {
+                "letter": "C",
+                "text": "Dependency Inversion Principle"
+            },
+            {
+                "letter": "D",
+                "text": "Liskov Substitution Principle"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Single Responsibility Principle ensures each service focuses on one business function or capability."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0004",
+        "text": "What is a key challenge in decomposing a monolith into microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Identifying correct service boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Choosing a programming language"
+            },
+            {
+                "letter": "C",
+                "text": "Selecting a database vendor"
+            },
+            {
+                "letter": "D",
+                "text": "Configuring load balancers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Determining appropriate service boundaries is one of the most complex aspects of decomposition."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0005",
+        "text": "Which decomposition strategy focuses on splitting services based on business domains?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decomposition by business capability"
+            },
+            {
+                "letter": "B",
+                "text": "Decomposition by technical layer"
+            },
+            {
+                "letter": "C",
+                "text": "Decomposition by data type"
+            },
+            {
+                "letter": "D",
+                "text": "Decomposition by user interface"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by business capability aligns services with business domains, promoting autonomy and clarity."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0006",
+        "text": "Which decomposition approach focuses on the data each service owns?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decomposition by subdomain"
+            },
+            {
+                "letter": "B",
+                "text": "Decomposition by data ownership"
+            },
+            {
+                "letter": "C",
+                "text": "Decomposition by API"
+            },
+            {
+                "letter": "D",
+                "text": "Decomposition by UI component"
+            }
+        ],
+        "correct": "B",
+        "explanation": "Decomposition by data ownership ensures each service manages its own data, reducing coupling."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0007",
+        "text": "Which concept from Domain-Driven Design (DDD) supports microservice decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bounded Context"
+            },
+            {
+                "letter": "B",
+                "text": "Entity Framework"
+            },
+            {
+                "letter": "C",
+                "text": "Repository Pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Factory Pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded Context defines clear boundaries for business domains, helping identify microservice boundaries."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0008",
+        "text": "What is the main advantage of decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved alignment with business goals"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced number of APIs"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified database schema"
+            },
+            {
+                "letter": "D",
+                "text": "Easier UI development"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by business capability ensures services reflect business goals and processes."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0009",
+        "text": "Which of the following is a poor decomposition strategy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decomposition by technical layer"
+            },
+            {
+                "letter": "B",
+                "text": "Decomposition by business capability"
+            },
+            {
+                "letter": "C",
+                "text": "Decomposition by subdomain"
+            },
+            {
+                "letter": "D",
+                "text": "Decomposition by bounded context"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by technical layer (e.g., separating UI, logic, and data) leads to tightly coupled services."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0010",
+        "text": "What is the main risk of decomposing services too finely?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased communication overhead"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced scalability"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Improved fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Over-decomposition leads to excessive inter-service communication and complexity."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0011",
+        "text": "Which of the following is a key benefit of proper decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Independent deployment and scaling"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database access"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Single point of failure"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Proper decomposition allows services to be deployed and scaled independently."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0012",
+        "text": "Which of the following helps avoid tight coupling between services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Defining clear service boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Using shared databases"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizing business logic"
+            },
+            {
+                "letter": "D",
+                "text": "Using global variables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clear service boundaries ensure loose coupling and independent evolution of services."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0013",
+        "text": "Which of the following is a symptom of poor decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Frequent cross-service changes"
+            },
+            {
+                "letter": "B",
+                "text": "Independent deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Autonomous teams"
+            },
+            {
+                "letter": "D",
+                "text": "Decentralized data management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If changes in one service require changes in others, decomposition boundaries are likely incorrect."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0014",
+        "text": "Which decomposition approach is guided by user interactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decomposition by user journey"
+            },
+            {
+                "letter": "B",
+                "text": "Decomposition by data ownership"
+            },
+            {
+                "letter": "C",
+                "text": "Decomposition by technical layer"
+            },
+            {
+                "letter": "D",
+                "text": "Decomposition by database schema"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by user journey focuses on how users interact with the system to define service boundaries."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0015",
+        "text": "What is the main purpose of bounded contexts in decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To define clear domain boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "To share data between services"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize business logic"
+            },
+            {
+                "letter": "D",
+                "text": "To merge multiple services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts define clear boundaries for domain models, reducing ambiguity and coupling."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0016",
+        "text": "Which of the following is a key indicator of good decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Minimal inter-service communication"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database access"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Frequent cross-service dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Good decomposition minimizes inter-service communication, promoting independence."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0017",
+        "text": "Which of the following is a common anti-pattern in decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Shared database between services"
+            },
+            {
+                "letter": "B",
+                "text": "Independent data ownership"
+            },
+            {
+                "letter": "C",
+                "text": "Loose coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Autonomous services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sharing databases between services creates tight coupling and violates service autonomy."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0018",
+        "text": "Which decomposition approach aligns with Domain-Driven Design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decomposition by subdomain"
+            },
+            {
+                "letter": "B",
+                "text": "Decomposition by technical layer"
+            },
+            {
+                "letter": "C",
+                "text": "Decomposition by database schema"
+            },
+            {
+                "letter": "D",
+                "text": "Decomposition by UI component"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by subdomain aligns with DDD principles, mapping services to business subdomains."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0019",
+        "text": "What is the main drawback of decomposing by technical layer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tight coupling between services"
+            },
+            {
+                "letter": "B",
+                "text": "Improved scalability"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified testing"
+            },
+            {
+                "letter": "D",
+                "text": "Independent deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by technical layer leads to tight coupling and reduced autonomy."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0020",
+        "text": "Which of the following is a benefit of decomposition by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clear ownership and responsibility"
+            },
+            {
+                "letter": "B",
+                "text": "Shared data models"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized logic"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by subdomain ensures each team owns a specific business area, improving clarity and accountability."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0021",
+        "text": "Which of the following is a key benefit of decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved alignment with business goals"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced number of APIs"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified database schema"
+            },
+            {
+                "letter": "D",
+                "text": "Easier UI development"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by business capability ensures services reflect business goals and processes."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0022",
+        "text": "What is the main purpose of decomposing a monolith?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To improve scalability and maintainability"
+            },
+            {
+                "letter": "B",
+                "text": "To reduce the number of developers"
+            },
+            {
+                "letter": "C",
+                "text": "To increase code duplication"
+            },
+            {
+                "letter": "D",
+                "text": "To centralize data access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition improves scalability, maintainability, and agility by splitting large systems into smaller services."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0023",
+        "text": "Which of the following is a risk of poor decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tight coupling between services"
+            },
+            {
+                "letter": "B",
+                "text": "Independent deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Autonomous teams"
+            },
+            {
+                "letter": "D",
+                "text": "Decentralized data management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Poor decomposition can lead to tight coupling, making services dependent on each other."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0024",
+        "text": "Which of the following is a good indicator of proper decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be deployed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Services depend on each other for every request"
+            },
+            {
+                "letter": "D",
+                "text": "All services are managed by one team"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Independent deployment is a key indicator of well-defined service boundaries."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0025",
+        "text": "Which of the following decomposition strategies is most aligned with Domain-Driven Design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decomposition by subdomain"
+            },
+            {
+                "letter": "B",
+                "text": "Decomposition by technical layer"
+            },
+            {
+                "letter": "C",
+                "text": "Decomposition by database schema"
+            },
+            {
+                "letter": "D",
+                "text": "Decomposition by UI component"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by subdomain aligns with DDD principles, mapping services to business subdomains."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0026",
+        "text": "What is the main challenge when decomposing a legacy monolith?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Identifying service boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Choosing a programming language"
+            },
+            {
+                "letter": "C",
+                "text": "Selecting a cloud provider"
+            },
+            {
+                "letter": "D",
+                "text": "Configuring load balancers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Identifying appropriate service boundaries is the most complex part of decomposing a legacy monolith."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0027",
+        "text": "Which of the following is a benefit of decomposing by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clear ownership and responsibility"
+            },
+            {
+                "letter": "B",
+                "text": "Shared data models"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized logic"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by subdomain ensures each team owns a specific business area, improving clarity and accountability."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0028",
+        "text": "Which of the following is a sign of over-decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Too many small services with high communication overhead"
+            },
+            {
+                "letter": "B",
+                "text": "Independent deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Autonomous teams"
+            },
+            {
+                "letter": "D",
+                "text": "Decentralized data management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Over-decomposition leads to too many small services, increasing communication overhead and complexity."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0029",
+        "text": "Which of the following is a common pitfall in decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Sharing databases between services"
+            },
+            {
+                "letter": "B",
+                "text": "Independent data ownership"
+            },
+            {
+                "letter": "C",
+                "text": "Loose coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Autonomous services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sharing databases between services creates tight coupling and violates service autonomy."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0030",
+        "text": "Which of the following is a benefit of proper decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Independent scaling and deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "C",
+                "text": "Shared business logic"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Proper decomposition allows services to scale and deploy independently, improving flexibility."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0031",
+        "text": "Which of the following is a good practice during decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Define clear service boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Share the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Centralize all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Use one team for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clear service boundaries ensure loose coupling and independent evolution of services."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0032",
+        "text": "Which of the following is a decomposition anti-pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decomposition by technical layer"
+            },
+            {
+                "letter": "B",
+                "text": "Decomposition by business capability"
+            },
+            {
+                "letter": "C",
+                "text": "Decomposition by subdomain"
+            },
+            {
+                "letter": "D",
+                "text": "Decomposition by bounded context"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by technical layer leads to tightly coupled services and poor modularity."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0033",
+        "text": "Which of the following is a key principle guiding decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "High cohesion and low coupling"
+            },
+            {
+                "letter": "B",
+                "text": "Low cohesion and high coupling"
+            },
+            {
+                "letter": "C",
+                "text": "Shared state and data"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "High cohesion and low coupling ensure services are focused and independent."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0034",
+        "text": "Which of the following is a benefit of decomposition by bounded context?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clear domain boundaries and reduced ambiguity"
+            },
+            {
+                "letter": "B",
+                "text": "Shared data models"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized logic"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts define clear domain boundaries, reducing ambiguity and coupling."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0035",
+        "text": "Which of the following is a sign of under-decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Large services handling multiple responsibilities"
+            },
+            {
+                "letter": "B",
+                "text": "Independent deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Autonomous teams"
+            },
+            {
+                "letter": "D",
+                "text": "Decentralized data management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Under-decomposition results in large services that handle multiple responsibilities, reducing modularity."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0036",
+        "text": "Which of the following is a benefit of decomposition by user journey?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved user experience alignment"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Shared business logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by user journey ensures services align with user interactions and workflows."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0037",
+        "text": "Which of the following is a key factor in deciding service boundaries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Business domain and data ownership"
+            },
+            {
+                "letter": "B",
+                "text": "Programming language"
+            },
+            {
+                "letter": "C",
+                "text": "Server configuration"
+            },
+            {
+                "letter": "D",
+                "text": "UI design"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service boundaries should be defined based on business domains and data ownership."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0038",
+        "text": "Which of the following is a benefit of proper decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved scalability and fault isolation"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "C",
+                "text": "Shared business logic"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Proper decomposition improves scalability and isolates faults to individual services."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0039",
+        "text": "Which of the following is a common decomposition strategy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decomposition by business capability"
+            },
+            {
+                "letter": "B",
+                "text": "Decomposition by technical layer"
+            },
+            {
+                "letter": "C",
+                "text": "Decomposition by database schema"
+            },
+            {
+                "letter": "D",
+                "text": "Decomposition by UI component"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by business capability is a common and effective strategy for microservices."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0040",
+        "text": "Which of the following is a key challenge in decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Defining correct service boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Choosing a programming language"
+            },
+            {
+                "letter": "C",
+                "text": "Selecting a database vendor"
+            },
+            {
+                "letter": "D",
+                "text": "Configuring load balancers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Defining correct service boundaries is one of the most complex aspects of decomposition."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0041",
+        "text": "Which of the following is a benefit of decomposition by data ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced coupling and clear data responsibility"
+            },
+            {
+                "letter": "B",
+                "text": "Shared data models"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized logic"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by data ownership ensures each service manages its own data, reducing coupling."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0042",
+        "text": "Which of the following is a sign of good decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Minimal inter-service communication"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database access"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Frequent cross-service dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Good decomposition minimizes inter-service communication, promoting independence."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0043",
+        "text": "Which of the following is a key principle of decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Loose coupling and high cohesion"
+            },
+            {
+                "letter": "B",
+                "text": "Tight coupling and low cohesion"
+            },
+            {
+                "letter": "C",
+                "text": "Shared state and data"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Loose coupling and high cohesion ensure services are independent and focused."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0044",
+        "text": "Which of the following is a benefit of decomposition by bounded context?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clear domain boundaries and reduced ambiguity"
+            },
+            {
+                "letter": "B",
+                "text": "Shared data models"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized logic"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded contexts define clear domain boundaries, reducing ambiguity and coupling."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0045",
+        "text": "Which of the following is a benefit of decomposition by user journey?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved user experience alignment"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Shared business logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by user journey ensures services align with user interactions and workflows."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0046",
+        "text": "Which of the following is a key factor in deciding service boundaries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Business domain and data ownership"
+            },
+            {
+                "letter": "B",
+                "text": "Programming language"
+            },
+            {
+                "letter": "C",
+                "text": "Server configuration"
+            },
+            {
+                "letter": "D",
+                "text": "UI design"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service boundaries should be defined based on business domains and data ownership."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0047",
+        "text": "Which of the following is a benefit of proper decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved scalability and fault isolation"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "C",
+                "text": "Shared business logic"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Proper decomposition improves scalability and isolates faults to individual services."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0048",
+        "text": "Which of the following is a common decomposition strategy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decomposition by business capability"
+            },
+            {
+                "letter": "B",
+                "text": "Decomposition by technical layer"
+            },
+            {
+                "letter": "C",
+                "text": "Decomposition by database schema"
+            },
+            {
+                "letter": "D",
+                "text": "Decomposition by UI component"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposition by business capability is a common and effective strategy for microservices."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0049",
+        "text": "Which of the following is a key challenge in decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Defining correct service boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Choosing a programming language"
+            },
+            {
+                "letter": "C",
+                "text": "Selecting a database vendor"
+            },
+            {
+                "letter": "D",
+                "text": "Configuring load balancers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Defining correct service boundaries is one of the most complex aspects of decomposition."
+    },
+    {
+        "title": "MicroserviceDecomposition - Q0050",
+        "text": "Which of the following best describes microservice decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The process of breaking a monolithic system into smaller, independent services"
+            },
+            {
+                "letter": "B",
+                "text": "The process of merging multiple services into one"
+            },
+            {
+                "letter": "C",
+                "text": "The process of centralizing all business logic"
+            },
+            {
+                "letter": "D",
+                "text": "The process of sharing databases between services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice decomposition involves splitting a monolithic system into smaller, independent, and deployable services."
+    }
+]

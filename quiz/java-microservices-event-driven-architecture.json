@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0001",
+        "text": "What is the main purpose of event-driven architecture in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To enable asynchronous communication between services"
+            },
+            {
+                "letter": "B",
+                "text": "To enforce synchronous request-response communication"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize all service logic"
+            },
+            {
+                "letter": "D",
+                "text": "To store all data in a single database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows services to communicate asynchronously by producing and consuming events."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0002",
+        "text": "Which of the following best describes an event in event-driven architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A record of something that has happened within a service"
+            },
+            {
+                "letter": "B",
+                "text": "A request for data from another service"
+            },
+            {
+                "letter": "C",
+                "text": "A synchronous API call"
+            },
+            {
+                "letter": "D",
+                "text": "A static configuration file"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An event represents a state change or action that has occurred within a service."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0003",
+        "text": "Which of the following is a key component of event-driven architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event broker or message bus"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized database"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronous API gateway"
+            },
+            {
+                "letter": "D",
+                "text": "Static configuration manager"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An event broker or message bus facilitates communication by routing events between producers and consumers."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0004",
+        "text": "Which of the following is a common event broker used in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Apache Kafka"
+            },
+            {
+                "letter": "B",
+                "text": "MySQL"
+            },
+            {
+                "letter": "C",
+                "text": "Redis Cache"
+            },
+            {
+                "letter": "D",
+                "text": "Nginx"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Apache Kafka is a popular distributed event streaming platform used for event-driven communication."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0005",
+        "text": "Which of the following best describes an event producer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A service that publishes events when something happens"
+            },
+            {
+                "letter": "B",
+                "text": "A service that consumes events"
+            },
+            {
+                "letter": "C",
+                "text": "A service that stores events"
+            },
+            {
+                "letter": "D",
+                "text": "A service that deletes events"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An event producer publishes events to the event broker when a significant action occurs."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0006",
+        "text": "Which of the following best describes an event consumer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A service that subscribes to and processes events"
+            },
+            {
+                "letter": "B",
+                "text": "A service that generates events"
+            },
+            {
+                "letter": "C",
+                "text": "A service that stores events"
+            },
+            {
+                "letter": "D",
+                "text": "A service that deletes events"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An event consumer subscribes to events and performs actions based on them."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0007",
+        "text": "Which of the following is a key benefit of event-driven architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Loose coupling between services"
+            },
+            {
+                "letter": "B",
+                "text": "Tight coupling between services"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized control"
+            },
+            {
+                "letter": "D",
+                "text": "Synchronous communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture promotes loose coupling by allowing services to communicate indirectly through events."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0008",
+        "text": "Which of the following is a common pattern used in event-driven systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Publish-subscribe"
+            },
+            {
+                "letter": "B",
+                "text": "Request-response"
+            },
+            {
+                "letter": "C",
+                "text": "Polling"
+            },
+            {
+                "letter": "D",
+                "text": "Direct call"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The publish-subscribe pattern is commonly used in event-driven systems to decouple producers and consumers."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0009",
+        "text": "Which of the following is a benefit of using event-driven architecture for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can scale independently based on event load"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "It disables scaling"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes scaling decisions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows each service to scale independently based on the number of events it processes."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0010",
+        "text": "Which of the following is a challenge of event-driven architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring event ordering and consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronous response"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can face challenges with maintaining event ordering and data consistency."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0011",
+        "text": "Which of the following is a benefit of event-driven architecture for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one service do not block others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes error handling"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture isolates failures, preventing cascading issues across services."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0012",
+        "text": "Which of the following is a benefit of event-driven architecture for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services communicate indirectly through events"
+            },
+            {
+                "letter": "B",
+                "text": "Services depend on direct API calls"
+            },
+            {
+                "letter": "C",
+                "text": "Services share a single database"
+            },
+            {
+                "letter": "D",
+                "text": "Services are tightly integrated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture decouples services by allowing them to communicate through events rather than direct calls."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0013",
+        "text": "Which of the following is a common event-driven communication model?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Producer-consumer"
+            },
+            {
+                "letter": "B",
+                "text": "Client-server"
+            },
+            {
+                "letter": "C",
+                "text": "Master-slave"
+            },
+            {
+                "letter": "D",
+                "text": "Peer-to-peer"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The producer-consumer model is a fundamental communication model in event-driven systems."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0014",
+        "text": "Which of the following is a benefit of event-driven architecture for responsiveness?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows real-time reactions to events"
+            },
+            {
+                "letter": "B",
+                "text": "It delays responses"
+            },
+            {
+                "letter": "C",
+                "text": "It requires polling"
+            },
+            {
+                "letter": "D",
+                "text": "It disables event notifications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture enables services to react in real time to events as they occur."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0015",
+        "text": "Which of the following is a common challenge in event-driven systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event duplication and idempotency"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronous response"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems must handle duplicate events and ensure idempotent processing."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0016",
+        "text": "Which of the following is a benefit of event-driven architecture for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows independent scaling of producers and consumers"
+            },
+            {
+                "letter": "B",
+                "text": "It requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "It disables scaling"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes scaling decisions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows producers and consumers to scale independently based on workload."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0017",
+        "text": "Which of the following is a benefit of event-driven architecture for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It reduces blocking and improves throughput"
+            },
+            {
+                "letter": "B",
+                "text": "It increases latency"
+            },
+            {
+                "letter": "C",
+                "text": "It requires synchronous responses"
+            },
+            {
+                "letter": "D",
+                "text": "It disables parallel processing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems reduce blocking and allow parallel processing, improving throughput."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0018",
+        "text": "Which of the following is a benefit of event-driven architecture for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Events can be persisted and retried until processed"
+            },
+            {
+                "letter": "B",
+                "text": "Events are lost if a service fails"
+            },
+            {
+                "letter": "C",
+                "text": "It disables retries"
+            },
+            {
+                "letter": "D",
+                "text": "It requires synchronous responses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can persist events and retry delivery, improving reliability."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0019",
+        "text": "Which of the following is a benefit of event-driven architecture for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can operate independently without waiting for responses"
+            },
+            {
+                "letter": "B",
+                "text": "Services must wait for each other"
+            },
+            {
+                "letter": "C",
+                "text": "It increases dependency"
+            },
+            {
+                "letter": "D",
+                "text": "It disables message persistence"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture decouples services, allowing them to operate independently."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0020",
+        "text": "Which of the following best describes event-driven architecture in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A design where services communicate asynchronously through events"
+            },
+            {
+                "letter": "B",
+                "text": "A design where services communicate synchronously through APIs"
+            },
+            {
+                "letter": "C",
+                "text": "A design where all services share a single database"
+            },
+            {
+                "letter": "D",
+                "text": "A design where services are tightly coupled"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture enables asynchronous communication between services through events."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0021",
+        "text": "Which of the following is a common event-driven messaging pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Publish-subscribe"
+            },
+            {
+                "letter": "B",
+                "text": "Request-response"
+            },
+            {
+                "letter": "C",
+                "text": "Polling"
+            },
+            {
+                "letter": "D",
+                "text": "Direct call"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The publish-subscribe pattern is widely used in event-driven systems to decouple producers and consumers."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0022",
+        "text": "Which of the following is a benefit of event-driven architecture for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "New consumers can be added without changing producers"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be updated together"
+            },
+            {
+                "letter": "C",
+                "text": "It disables extensibility"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows new consumers to subscribe to events without modifying producers."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0023",
+        "text": "Which of the following is a challenge in event-driven systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring eventual consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate synchronous response"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified debugging"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems often rely on eventual consistency, which can be challenging to manage."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0024",
+        "text": "Which of the following is a benefit of event-driven architecture for responsiveness?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It enables near real-time updates"
+            },
+            {
+                "letter": "B",
+                "text": "It delays all responses"
+            },
+            {
+                "letter": "C",
+                "text": "It requires polling"
+            },
+            {
+                "letter": "D",
+                "text": "It disables event notifications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can react to events in near real-time, improving responsiveness."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0025",
+        "text": "Which of the following is a benefit of event-driven architecture for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Producers and consumers can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "It disables scaling"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes scaling decisions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows independent scaling of producers and consumers based on workload."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0026",
+        "text": "Which of the following is a benefit of event-driven architecture for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one service do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes error handling"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture isolates failures, preventing cascading issues across services."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0027",
+        "text": "Which of the following is a benefit of event-driven architecture for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services communicate indirectly through events"
+            },
+            {
+                "letter": "B",
+                "text": "Services depend on direct API calls"
+            },
+            {
+                "letter": "C",
+                "text": "Services share a single database"
+            },
+            {
+                "letter": "D",
+                "text": "Services are tightly integrated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture decouples services by allowing them to communicate through events rather than direct calls."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0028",
+        "text": "Which of the following is a benefit of event-driven architecture for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Events can be persisted and retried until processed"
+            },
+            {
+                "letter": "B",
+                "text": "Events are lost if a service fails"
+            },
+            {
+                "letter": "C",
+                "text": "It disables retries"
+            },
+            {
+                "letter": "D",
+                "text": "It requires synchronous responses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can persist events and retry delivery, improving reliability."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0029",
+        "text": "Which of the following is a benefit of event-driven architecture for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It reduces blocking and improves throughput"
+            },
+            {
+                "letter": "B",
+                "text": "It increases latency"
+            },
+            {
+                "letter": "C",
+                "text": "It requires synchronous responses"
+            },
+            {
+                "letter": "D",
+                "text": "It disables parallel processing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems reduce blocking and allow parallel processing, improving throughput."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0030",
+        "text": "Which of the following is a benefit of event-driven architecture for extensibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "New consumers can be added without changing producers"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be updated together"
+            },
+            {
+                "letter": "C",
+                "text": "It disables extensibility"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows new consumers to subscribe to events without modifying producers."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0031",
+        "text": "Which of the following is a challenge in event-driven systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Debugging and tracing event flows"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified error handling"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronous response"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Debugging and tracing event flows can be complex in distributed event-driven systems."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0032",
+        "text": "Which of the following is a benefit of event-driven architecture for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic triggering of actions based on events"
+            },
+            {
+                "letter": "B",
+                "text": "Manual triggering of all actions"
+            },
+            {
+                "letter": "C",
+                "text": "Static workflows"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can automatically trigger actions when specific events occur."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0033",
+        "text": "Which of the following is a benefit of event-driven architecture for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can evolve independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be updated together"
+            },
+            {
+                "letter": "C",
+                "text": "It disables modularity"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows services to evolve independently, improving maintainability."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0034",
+        "text": "Which of the following is a benefit of event-driven architecture for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides visibility into event flows and processing"
+            },
+            {
+                "letter": "B",
+                "text": "It hides event processing details"
+            },
+            {
+                "letter": "C",
+                "text": "It disables monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all logs into one file"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can provide detailed visibility into event flows and processing for monitoring."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0035",
+        "text": "Which of the following is a benefit of event-driven architecture for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can handle retries and recover from failures"
+            },
+            {
+                "letter": "B",
+                "text": "It disables error handling"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes all failures"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can handle retries and recover from transient failures, improving resilience."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0036",
+        "text": "Which of the following is a benefit of event-driven architecture for integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It simplifies integration between heterogeneous systems"
+            },
+            {
+                "letter": "B",
+                "text": "It requires all systems to use the same protocol"
+            },
+            {
+                "letter": "C",
+                "text": "It disables interoperability"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture simplifies integration between different systems through event-based communication."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0037",
+        "text": "Which of the following is a benefit of event-driven architecture for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can develop and deploy services independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must coordinate deployments"
+            },
+            {
+                "letter": "C",
+                "text": "It disables independent development"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all deployments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows teams to work independently, improving agility and speed of delivery."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0038",
+        "text": "Which of the following is a benefit of event-driven architecture for real-time analytics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It enables processing of data streams in real time"
+            },
+            {
+                "letter": "B",
+                "text": "It delays data processing"
+            },
+            {
+                "letter": "C",
+                "text": "It requires batch processing"
+            },
+            {
+                "letter": "D",
+                "text": "It disables event notifications"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can process data streams in real time, enabling real-time analytics."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0039",
+        "text": "Which of the following is a benefit of event-driven architecture for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services communicate indirectly through events"
+            },
+            {
+                "letter": "B",
+                "text": "Services depend on direct API calls"
+            },
+            {
+                "letter": "C",
+                "text": "Services share a single database"
+            },
+            {
+                "letter": "D",
+                "text": "Services are tightly integrated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture decouples services by allowing them to communicate through events rather than direct calls."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0040",
+        "text": "Which of the following is a benefit of event-driven architecture for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows independent scaling of producers and consumers"
+            },
+            {
+                "letter": "B",
+                "text": "It requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "It disables scaling"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes scaling decisions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows producers and consumers to scale independently based on workload."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0041",
+        "text": "Which of the following is a benefit of event-driven architecture for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It reduces blocking and improves throughput"
+            },
+            {
+                "letter": "B",
+                "text": "It increases latency"
+            },
+            {
+                "letter": "C",
+                "text": "It requires synchronous responses"
+            },
+            {
+                "letter": "D",
+                "text": "It disables parallel processing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems reduce blocking and allow parallel processing, improving throughput."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0042",
+        "text": "Which of the following is a benefit of event-driven architecture for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Events can be persisted and retried until processed"
+            },
+            {
+                "letter": "B",
+                "text": "Events are lost if a service fails"
+            },
+            {
+                "letter": "C",
+                "text": "It disables retries"
+            },
+            {
+                "letter": "D",
+                "text": "It requires synchronous responses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can persist events and retry delivery, improving reliability."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0043",
+        "text": "Which of the following is a benefit of event-driven architecture for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can operate independently without waiting for responses"
+            },
+            {
+                "letter": "B",
+                "text": "Services must wait for each other"
+            },
+            {
+                "letter": "C",
+                "text": "It increases dependency"
+            },
+            {
+                "letter": "D",
+                "text": "It disables message persistence"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture decouples services, allowing them to operate independently."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0044",
+        "text": "Which of the following is a benefit of event-driven architecture for extensibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "New consumers can be added without changing producers"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be updated together"
+            },
+            {
+                "letter": "C",
+                "text": "It disables extensibility"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows new consumers to subscribe to events without modifying producers."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0045",
+        "text": "Which of the following is a benefit of event-driven architecture for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic triggering of actions based on events"
+            },
+            {
+                "letter": "B",
+                "text": "Manual triggering of all actions"
+            },
+            {
+                "letter": "C",
+                "text": "Static workflows"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can automatically trigger actions when specific events occur."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0046",
+        "text": "Which of the following is a benefit of event-driven architecture for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can evolve independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be updated together"
+            },
+            {
+                "letter": "C",
+                "text": "It disables modularity"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture allows services to evolve independently, improving maintainability."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0047",
+        "text": "Which of the following is a benefit of event-driven architecture for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It provides visibility into event flows and processing"
+            },
+            {
+                "letter": "B",
+                "text": "It hides event processing details"
+            },
+            {
+                "letter": "C",
+                "text": "It disables monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all logs into one file"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can provide detailed visibility into event flows and processing for monitoring."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0048",
+        "text": "Which of the following is a benefit of event-driven architecture for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can handle retries and recover from failures"
+            },
+            {
+                "letter": "B",
+                "text": "It disables error handling"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes all failures"
+            },
+            {
+                "letter": "D",
+                "text": "It merges all errors into one"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven systems can handle retries and recover from transient failures, improving resilience."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0049",
+        "text": "Which of the following is a benefit of event-driven architecture for integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It simplifies integration between heterogeneous systems"
+            },
+            {
+                "letter": "B",
+                "text": "It requires all systems to use the same protocol"
+            },
+            {
+                "letter": "C",
+                "text": "It disables interoperability"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture simplifies integration between different systems through event-based communication."
+    },
+    {
+        "title": "MicroserviceEventDrivenArchitecture - Q0050",
+        "text": "Which of the following best describes event-driven architecture in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A design where services communicate asynchronously through events"
+            },
+            {
+                "letter": "B",
+                "text": "A design where services communicate synchronously through APIs"
+            },
+            {
+                "letter": "C",
+                "text": "A design where all services share a single database"
+            },
+            {
+                "letter": "D",
+                "text": "A design where services are tightly coupled"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven architecture enables asynchronous communication between services through events."
+    }
+]
