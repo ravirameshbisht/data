@@ -1,7 +1,7 @@
 [
     {
         "title": "MicroserviceIndependentDeployment - Q0001",
-        "text": "[Microservice Independent Deployment] What does independent deployment mean in microservices architecture?",
+        "text": "What does independent deployment mean in microservices architecture?",
         "options": [
             {
                 "letter": "A",
@@ -25,7 +25,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0002",
-        "text": "[Microservice Independent Deployment] Which of the following is a key benefit of independent deployment?",
+        "text": "Which of the following is a key benefit of independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -49,7 +49,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0003",
-        "text": "[Microservice Independent Deployment] Which of the following is a prerequisite for independent deployment?",
+        "text": "Which of the following is a prerequisite for independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -73,7 +73,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0004",
-        "text": "[Microservice Independent Deployment] Which of the following deployment strategies supports independent deployment?",
+        "text": "Which of the following deployment strategies supports independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -97,7 +97,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0005",
-        "text": "[Microservice Independent Deployment] Which of the following is a challenge in achieving independent deployment?",
+        "text": "Which of the following is a challenge in achieving independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -121,7 +121,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0006",
-        "text": "[Microservice Independent Deployment] Which of the following tools helps achieve independent deployment?",
+        "text": "Which of the following tools helps achieve independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -145,7 +145,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0007",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for teams?",
+        "text": "Which of the following is a benefit of independent deployment for teams?",
         "options": [
             {
                 "letter": "A",
@@ -169,7 +169,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0008",
-        "text": "[Microservice Independent Deployment] Which of the following is a key enabler of independent deployment?",
+        "text": "Which of the following is a key enabler of independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -193,7 +193,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0009",
-        "text": "[Microservice Independent Deployment] Which of the following is a risk of poor independent deployment design?",
+        "text": "Which of the following is a risk of poor independent deployment design?",
         "options": [
             {
                 "letter": "A",
@@ -217,7 +217,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0010",
-        "text": "[Microservice Independent Deployment] Which of the following is a best practice for independent deployment?",
+        "text": "Which of the following is a best practice for independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -241,7 +241,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0011",
-        "text": "[Microservice Independent Deployment] Which of the following deployment patterns supports independent deployment?",
+        "text": "Which of the following deployment patterns supports independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -265,7 +265,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0012",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for reliability?",
+        "text": "Which of the following is a benefit of independent deployment for reliability?",
         "options": [
             {
                 "letter": "A",
@@ -289,7 +289,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0013",
-        "text": "[Microservice Independent Deployment] Which of the following is a key requirement for independent deployment?",
+        "text": "Which of the following is a key requirement for independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -313,7 +313,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0014",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for scalability?",
+        "text": "Which of the following is a benefit of independent deployment for scalability?",
         "options": [
             {
                 "letter": "A",
@@ -337,7 +337,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0015",
-        "text": "[Microservice Independent Deployment] Which of the following is a common anti-pattern in independent deployment?",
+        "text": "Which of the following is a common anti-pattern in independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -361,7 +361,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0016",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for agility?",
+        "text": "Which of the following is a benefit of independent deployment for agility?",
         "options": [
             {
                 "letter": "A",
@@ -385,7 +385,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0017",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for fault isolation?",
+        "text": "Which of the following is a benefit of independent deployment for fault isolation?",
         "options": [
             {
                 "letter": "A",
@@ -409,7 +409,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0018",
-        "text": "[Microservice Independent Deployment] Which of the following is a key enabler of independent deployment?",
+        "text": "Which of the following is a key enabler of independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -433,7 +433,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0019",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for maintainability?",
+        "text": "Which of the following is a benefit of independent deployment for maintainability?",
         "options": [
             {
                 "letter": "A",
@@ -457,7 +457,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0020",
-        "text": "[Microservice Independent Deployment] Which of the following best describes independent deployment in microservices?",
+        "text": "Which of the following best describes independent deployment in microservices?",
         "options": [
             {
                 "letter": "A",
@@ -481,7 +481,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0021",
-        "text": "[Microservice Independent Deployment] Which of the following is a key requirement for achieving independent deployment?",
+        "text": "Which of the following is a key requirement for achieving independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -505,7 +505,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0022",
-        "text": "[Microservice Independent Deployment] Which of the following deployment patterns minimizes downtime during updates?",
+        "text": "Which of the following deployment patterns minimizes downtime during updates?",
         "options": [
             {
                 "letter": "A",
@@ -529,7 +529,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0023",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for continuous delivery?",
+        "text": "Which of the following is a benefit of independent deployment for continuous delivery?",
         "options": [
             {
                 "letter": "A",
@@ -553,7 +553,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0024",
-        "text": "[Microservice Independent Deployment] Which of the following is a common anti-pattern in independent deployment?",
+        "text": "Which of the following is a common anti-pattern in independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -577,7 +577,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0025",
-        "text": "[Microservice Independent Deployment] Which of the following tools supports independent deployment through orchestration?",
+        "text": "Which of the following tools supports independent deployment through orchestration?",
         "options": [
             {
                 "letter": "A",
@@ -601,7 +601,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0026",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for risk management?",
+        "text": "Which of the following is a benefit of independent deployment for risk management?",
         "options": [
             {
                 "letter": "A",
@@ -625,7 +625,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0027",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for innovation?",
+        "text": "Which of the following is a benefit of independent deployment for innovation?",
         "options": [
             {
                 "letter": "A",
@@ -649,7 +649,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0028",
-        "text": "[Microservice Independent Deployment] Which of the following is a key principle for achieving independent deployment?",
+        "text": "Which of the following is a key principle for achieving independent deployment?",
         "options": [
             {
                 "letter": "A",
@@ -673,7 +673,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0029",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for scalability?",
+        "text": "Which of the following is a benefit of independent deployment for scalability?",
         "options": [
             {
                 "letter": "A",
@@ -697,7 +697,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0030",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for maintainability?",
+        "text": "Which of the following is a benefit of independent deployment for maintainability?",
         "options": [
             {
                 "letter": "A",
@@ -721,7 +721,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0031",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for testing?",
+        "text": "Which of the following is a benefit of independent deployment for testing?",
         "options": [
             {
                 "letter": "A",
@@ -745,7 +745,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0032",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for fault isolation?",
+        "text": "Which of the following is a benefit of independent deployment for fault isolation?",
         "options": [
             {
                 "letter": "A",
@@ -769,7 +769,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0033",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for agility?",
+        "text": "Which of the following is a benefit of independent deployment for agility?",
         "options": [
             {
                 "letter": "A",
@@ -793,7 +793,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0034",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for reliability?",
+        "text": "Which of the following is a benefit of independent deployment for reliability?",
         "options": [
             {
                 "letter": "A",
@@ -817,7 +817,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0035",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for continuous integration?",
+        "text": "Which of the following is a benefit of independent deployment for continuous integration?",
         "options": [
             {
                 "letter": "A",
@@ -841,7 +841,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0036",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for rollback?",
+        "text": "Which of the following is a benefit of independent deployment for rollback?",
         "options": [
             {
                 "letter": "A",
@@ -865,7 +865,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0037",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for team autonomy?",
+        "text": "Which of the following is a benefit of independent deployment for team autonomy?",
         "options": [
             {
                 "letter": "A",
@@ -889,7 +889,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0038",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for modularity?",
+        "text": "Which of the following is a benefit of independent deployment for modularity?",
         "options": [
             {
                 "letter": "A",
@@ -913,7 +913,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0039",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for performance?",
+        "text": "Which of the following is a benefit of independent deployment for performance?",
         "options": [
             {
                 "letter": "A",
@@ -937,7 +937,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0040",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for scalability?",
+        "text": "Which of the following is a benefit of independent deployment for scalability?",
         "options": [
             {
                 "letter": "A",
@@ -961,7 +961,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0041",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for fault tolerance?",
+        "text": "Which of the following is a benefit of independent deployment for fault tolerance?",
         "options": [
             {
                 "letter": "A",
@@ -985,7 +985,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0042",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for continuous improvement?",
+        "text": "Which of the following is a benefit of independent deployment for continuous improvement?",
         "options": [
             {
                 "letter": "A",
@@ -1009,7 +1009,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0043",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for reliability?",
+        "text": "Which of the following is a benefit of independent deployment for reliability?",
         "options": [
             {
                 "letter": "A",
@@ -1033,7 +1033,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0044",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for flexibility?",
+        "text": "Which of the following is a benefit of independent deployment for flexibility?",
         "options": [
             {
                 "letter": "A",
@@ -1057,7 +1057,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0045",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for resilience?",
+        "text": "Which of the following is a benefit of independent deployment for resilience?",
         "options": [
             {
                 "letter": "A",
@@ -1081,7 +1081,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0046",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for observability?",
+        "text": "Which of the following is a benefit of independent deployment for observability?",
         "options": [
             {
                 "letter": "A",
@@ -1105,7 +1105,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0047",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for cost optimization?",
+        "text": "Which of the following is a benefit of independent deployment for cost optimization?",
         "options": [
             {
                 "letter": "A",
@@ -1129,7 +1129,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0048",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for security?",
+        "text": "Which of the following is a benefit of independent deployment for security?",
         "options": [
             {
                 "letter": "A",
@@ -1153,7 +1153,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0049",
-        "text": "[Microservice Independent Deployment] Which of the following is a benefit of independent deployment for version control?",
+        "text": "Which of the following is a benefit of independent deployment for version control?",
         "options": [
             {
                 "letter": "A",
@@ -1177,7 +1177,7 @@
     },
     {
         "title": "MicroserviceIndependentDeployment - Q0050",
-        "text": "[Microservice Independent Deployment] Which of the following best describes independent deployment in microservices?",
+        "text": "Which of the following best describes independent deployment in microservices?",
         "options": [
             {
                 "letter": "A",
