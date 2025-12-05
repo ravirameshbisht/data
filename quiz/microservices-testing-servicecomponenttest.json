@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0001",
+        "text": "What is the main goal of a service component test in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To verify the functionality of a single service in isolation"
+            },
+            {
+                "letter": "B",
+                "text": "To test the entire system end-to-end"
+            },
+            {
+                "letter": "C",
+                "text": "To monitor production performance"
+            },
+            {
+                "letter": "D",
+                "text": "To deploy microservices automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing focuses on verifying the functionality of a single microservice in isolation from others."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0002",
+        "text": "What is typically mocked in a service component test?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "External dependencies such as databases or APIs"
+            },
+            {
+                "letter": "B",
+                "text": "The internal logic of the service"
+            },
+            {
+                "letter": "C",
+                "text": "The user interface"
+            },
+            {
+                "letter": "D",
+                "text": "The deployment pipeline"
+            }
+        ],
+        "correct": "A",
+        "explanation": "External dependencies like databases or APIs are mocked to isolate the service under test."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0003",
+        "text": "Which of the following best describes a service component test?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A test that validates a microservice’s behavior independently of other services"
+            },
+            {
+                "letter": "B",
+                "text": "A test that validates the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "A test that checks UI rendering"
+            },
+            {
+                "letter": "D",
+                "text": "A test that monitors production logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component tests validate a microservice’s behavior independently of other services."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0004",
+        "text": "Which of the following tools can be used for service component testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JUnit"
+            },
+            {
+                "letter": "B",
+                "text": "Terraform"
+            },
+            {
+                "letter": "C",
+                "text": "Prometheus"
+            },
+            {
+                "letter": "D",
+                "text": "Grafana"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JUnit is commonly used for writing service component tests in Java-based microservices."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0005",
+        "text": "What is the main benefit of service component testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects issues within a service before integration"
+            },
+            {
+                "letter": "B",
+                "text": "Tests the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Monitors production metrics"
+            },
+            {
+                "letter": "D",
+                "text": "Deploys services automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing detects issues within a service before it is integrated with others."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0006",
+        "text": "What is typically included in a service component test?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Business logic and API endpoints"
+            },
+            {
+                "letter": "B",
+                "text": "UI rendering"
+            },
+            {
+                "letter": "C",
+                "text": "Network latency"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment scripts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component tests focus on business logic and API endpoints of a microservice."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0007",
+        "text": "What is the difference between a unit test and a service component test?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Service component tests include integration with external components"
+            },
+            {
+                "letter": "B",
+                "text": "Unit tests cover multiple services"
+            },
+            {
+                "letter": "C",
+                "text": "Service component tests are faster than unit tests"
+            },
+            {
+                "letter": "D",
+                "text": "Unit tests require network access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component tests may include integration with external components, unlike unit tests."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0008",
+        "text": "Which of the following is a key characteristic of service component testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tests the service in isolation with mocked dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Tests the entire system end-to-end"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses on UI validation"
+            },
+            {
+                "letter": "D",
+                "text": "Monitors production logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing isolates the service by mocking dependencies to focus on its internal behavior."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0009",
+        "text": "Which of the following is a benefit of service component testing for CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects service-level issues early in the pipeline"
+            },
+            {
+                "letter": "B",
+                "text": "Delays testing until production"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing detects service-level issues early in CI/CD pipelines, improving reliability."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0010",
+        "text": "Which of the following is a benefit of service component testing for microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables independent testing of each service"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling between services"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing enables independent testing of each microservice, supporting modular development."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0011",
+        "text": "What is the typical scope of a service component test?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single microservice"
+            },
+            {
+                "letter": "B",
+                "text": "The entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Multiple microservices"
+            },
+            {
+                "letter": "D",
+                "text": "The user interface"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component tests focus on a single microservice to ensure its correctness and reliability."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0012",
+        "text": "Which of the following is a common practice in service component testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Using mocks or stubs for external dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Testing all services together"
+            },
+            {
+                "letter": "C",
+                "text": "Running tests only in production"
+            },
+            {
+                "letter": "D",
+                "text": "Skipping database validation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Mocks or stubs are used to simulate external dependencies during service component testing."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0013",
+        "text": "Which of the following is a benefit of service component testing for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies debugging by isolating service issues"
+            },
+            {
+                "letter": "B",
+                "text": "Increases maintenance complexity"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing simplifies debugging by isolating issues within a single service."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0014",
+        "text": "Which of the following is a benefit of service component testing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent behavior across environments"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing ensures consistent behavior across environments by validating service logic."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0015",
+        "text": "Which of the following is a benefit of service component testing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports scaling by validating service boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing supports scalability by validating service boundaries and interactions."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0016",
+        "text": "Which of the following is a benefit of service component testing for CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates validation of service functionality"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "C",
+                "text": "Delays integration"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing automates validation of service functionality in CI/CD pipelines."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0017",
+        "text": "Which of the following is a benefit of service component testing for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk of breaking changes"
+            },
+            {
+                "letter": "B",
+                "text": "Increases deployment risk"
+            },
+            {
+                "letter": "C",
+                "text": "Delays issue detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test coverage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing reduces risk by detecting breaking changes before integration."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0018",
+        "text": "Which of the following is a benefit of service component testing for quality assurance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures high-quality service behavior"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores API behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing ensures high-quality service behavior by validating logic and responses."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0019",
+        "text": "Which of the following is a benefit of service component testing for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies identifying issues within a service"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Increases complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing simplifies debugging by isolating issues within a single service."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0020",
+        "text": "Which of the following best describes service component testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing that validates a microservice’s functionality in isolation"
+            },
+            {
+                "letter": "B",
+                "text": "Testing that validates the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Testing that monitors performance"
+            },
+            {
+                "letter": "D",
+                "text": "Testing that manages deployments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing validates a microservice’s functionality in isolation from other services."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0021",
+        "text": "Which of the following is a key benefit of service component testing for integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects integration issues before full system testing"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual integration testing"
+            },
+            {
+                "letter": "C",
+                "text": "Delays integration validation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing detects integration issues early by validating service behavior before full system testing."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0022",
+        "text": "Which of the following is a benefit of service component testing for version control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows tracking of service changes over time"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes old test cases automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents test updates"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Version control in service component testing allows tracking of service changes and ensures backward compatibility."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0023",
+        "text": "Which of the following is a benefit of service component testing for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates validation of service logic"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces automation"
+            },
+            {
+                "letter": "D",
+                "text": "Delays testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing automates validation of service logic and API behavior."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0024",
+        "text": "Which of the following is a benefit of service component testing for continuous integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integrates service validation into CI pipelines"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual integration"
+            },
+            {
+                "letter": "C",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing integrates seamlessly into CI pipelines for automated validation."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0025",
+        "text": "Which of the following is a benefit of service component testing for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures safe and reliable deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual deployment checks"
+            },
+            {
+                "letter": "C",
+                "text": "Delays release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces reliability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing ensures safe and reliable deployments by validating service functionality before release."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0026",
+        "text": "Which of the following is a benefit of service component testing for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating service issues"
+            },
+            {
+                "letter": "B",
+                "text": "Increases maintenance complexity"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing simplifies maintenance by isolating issues within a single service."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0027",
+        "text": "Which of the following is a benefit of service component testing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent service behavior across environments"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing ensures consistent service behavior across environments and deployments."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0028",
+        "text": "Which of the following is a benefit of service component testing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports scaling by validating service boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing supports scalability by validating service boundaries and interactions."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0029",
+        "text": "Which of the following is a benefit of service component testing for microservice independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent development and testing"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronized releases"
+            },
+            {
+                "letter": "C",
+                "text": "Increases dependency"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces autonomy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing allows independent development and testing of microservices."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0030",
+        "text": "Which of the following is a benefit of service component testing for communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves communication between development and QA teams"
+            },
+            {
+                "letter": "B",
+                "text": "Reduces collaboration"
+            },
+            {
+                "letter": "C",
+                "text": "Increases miscommunication"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing improves communication between development and QA teams by defining clear expectations."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0031",
+        "text": "Which of the following is a benefit of service component testing for feedback loops?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides faster feedback on service functionality"
+            },
+            {
+                "letter": "B",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual validation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing provides faster feedback on service functionality and reliability."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0032",
+        "text": "Which of the following is a benefit of service component testing for regression prevention?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents regressions by validating existing functionality"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing prevents regressions by validating existing functionality after changes."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0033",
+        "text": "Which of the following is a benefit of service component testing for quality assurance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures high-quality service behavior"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores API behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing ensures high-quality service behavior by validating logic and responses."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0034",
+        "text": "Which of the following is a benefit of service component testing for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encourages iterative testing and feedback"
+            },
+            {
+                "letter": "B",
+                "text": "Delays iteration"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents feedback"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces iteration speed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing supports continuous improvement through iterative testing and feedback."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0035",
+        "text": "Which of the following is a benefit of service component testing for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk of breaking changes"
+            },
+            {
+                "letter": "B",
+                "text": "Increases deployment risk"
+            },
+            {
+                "letter": "C",
+                "text": "Delays issue detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test coverage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing reduces risk by detecting breaking changes before integration."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0036",
+        "text": "Which of the following is a benefit of service component testing for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into service behavior"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces transparency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing provides visibility into how a service behaves under different conditions."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0037",
+        "text": "Which of the following is a benefit of service component testing for DevOps?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bridges the gap between development and operations"
+            },
+            {
+                "letter": "B",
+                "text": "Increases silos"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces collaboration"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing bridges the gap between development and operations by automating validation."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0038",
+        "text": "Which of the following is a benefit of service component testing for test reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent and repeatable test results"
+            },
+            {
+                "letter": "B",
+                "text": "Produces inconsistent results"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing ensures consistent and repeatable test results across environments."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0039",
+        "text": "Which of the following is a benefit of service component testing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Scales easily with multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces scalability"
+            },
+            {
+                "letter": "D",
+                "text": "Increases complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing scales easily as the number of services increases."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0040",
+        "text": "Which of the following is a benefit of service component testing for automation pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integrates with CI/CD for automated validation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual validation"
+            },
+            {
+                "letter": "C",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing integrates with CI/CD pipelines for automated validation of service functionality."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0041",
+        "text": "Which of the following is a benefit of service component testing for continuous monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Continuously validates service functionality"
+            },
+            {
+                "letter": "B",
+                "text": "Stops validation after deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual observation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing continuously validates service functionality across deployments."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0042",
+        "text": "Which of the following is a benefit of service component testing for test efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces time spent on integration testing"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual testing time"
+            },
+            {
+                "letter": "C",
+                "text": "Delays test execution"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing reduces time spent on integration testing by validating services early."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0043",
+        "text": "Which of the following is a benefit of service component testing for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into service expectations"
+            },
+            {
+                "letter": "B",
+                "text": "Hides test results"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing provides transparency into service expectations and compatibility."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0044",
+        "text": "Which of the following is a benefit of service component testing for collaboration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encourages collaboration between teams"
+            },
+            {
+                "letter": "B",
+                "text": "Increases silos"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces communication"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing encourages collaboration between development, QA, and operations teams."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0045",
+        "text": "Which of the following is a benefit of service component testing for predictability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Predicts service reliability before deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual prediction"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Delays validation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing predicts service reliability by validating functionality before deployment."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0046",
+        "text": "Which of the following is a benefit of service component testing for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent test results across environments"
+            },
+            {
+                "letter": "B",
+                "text": "Produces inconsistent results"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing ensures consistent test results across different environments."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0047",
+        "text": "Which of the following is a benefit of service component testing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures reliable service interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces reliability"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing ensures reliable service interactions by validating logic and responses."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0048",
+        "text": "Which of the following is a benefit of service component testing for traceability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracks changes from test creation to validation"
+            },
+            {
+                "letter": "B",
+                "text": "Hides test history"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing provides traceability by tracking changes from test creation to validation."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0049",
+        "text": "Which of the following is a benefit of service component testing for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates validation of service interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual testing"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces automation"
+            },
+            {
+                "letter": "D",
+                "text": "Delays testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing automates validation of service interactions, improving efficiency."
+    },
+    {
+        "title": "MicroserviceTestingServiceComponent - Q0050",
+        "text": "Which of the following best describes service component testing in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing that validates a microservice’s functionality in isolation"
+            },
+            {
+                "letter": "B",
+                "text": "Testing that validates provider-side logic"
+            },
+            {
+                "letter": "C",
+                "text": "Testing that monitors performance"
+            },
+            {
+                "letter": "D",
+                "text": "Testing that manages deployments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service component testing validates a microservice’s functionality in isolation from other services."
+    }
+]

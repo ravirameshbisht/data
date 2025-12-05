@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0001",
+        "text": "What is the main goal of consumer-driven contract testing in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To ensure service providers meet consumer expectations"
+            },
+            {
+                "letter": "B",
+                "text": "To test the user interface"
+            },
+            {
+                "letter": "C",
+                "text": "To monitor system performance"
+            },
+            {
+                "letter": "D",
+                "text": "To deploy microservices"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing ensures that service providers deliver APIs that meet the expectations defined by consumers."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0002",
+        "text": "Who defines the contract in consumer-driven contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The consumer of the service"
+            },
+            {
+                "letter": "B",
+                "text": "The provider of the service"
+            },
+            {
+                "letter": "C",
+                "text": "The DevOps team"
+            },
+            {
+                "letter": "D",
+                "text": "The database administrator"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In consumer-driven contract testing, the consumer defines the contract that specifies how it expects the provider to behave."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0003",
+        "text": "What is a contract in consumer-driven contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An agreement specifying expected API interactions"
+            },
+            {
+                "letter": "B",
+                "text": "A legal document"
+            },
+            {
+                "letter": "C",
+                "text": "A deployment script"
+            },
+            {
+                "letter": "D",
+                "text": "A monitoring configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A contract defines the expected interactions between a consumer and a provider, including request and response formats."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0004",
+        "text": "Which of the following tools is commonly used for consumer-driven contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pact"
+            },
+            {
+                "letter": "B",
+                "text": "Jenkins"
+            },
+            {
+                "letter": "C",
+                "text": "Prometheus"
+            },
+            {
+                "letter": "D",
+                "text": "Terraform"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Pact is a popular tool for implementing consumer-driven contract testing in microservice environments."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0005",
+        "text": "What is the main benefit of consumer-driven contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces integration issues between services"
+            },
+            {
+                "letter": "B",
+                "text": "Improves UI design"
+            },
+            {
+                "letter": "C",
+                "text": "Increases manual testing"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies database migrations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing reduces integration issues by validating that providers meet consumer expectations before deployment."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0006",
+        "text": "In consumer-driven contract testing, what does the provider verify?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "That its API responses match the consumer’s contract"
+            },
+            {
+                "letter": "B",
+                "text": "That the consumer’s UI is functional"
+            },
+            {
+                "letter": "C",
+                "text": "That the database schema is correct"
+            },
+            {
+                "letter": "D",
+                "text": "That the network configuration is valid"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The provider verifies that its API responses conform to the expectations defined in the consumer’s contract."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0007",
+        "text": "What is the role of a contract broker in consumer-driven contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To store and share contracts between consumers and providers"
+            },
+            {
+                "letter": "B",
+                "text": "To deploy microservices"
+            },
+            {
+                "letter": "C",
+                "text": "To monitor system logs"
+            },
+            {
+                "letter": "D",
+                "text": "To manage database connections"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A contract broker stores and shares contracts between consumers and providers, enabling collaboration and version control."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0008",
+        "text": "Which of the following best describes the workflow of consumer-driven contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Consumer defines contract → Provider verifies contract → Integration validated"
+            },
+            {
+                "letter": "B",
+                "text": "Provider defines contract → Consumer verifies contract → Deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Consumer tests provider → Provider deploys → Consumer updates"
+            },
+            {
+                "letter": "D",
+                "text": "Provider deploys → Consumer tests → Contract created"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The typical workflow involves the consumer defining the contract, the provider verifying it, and integration being validated automatically."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0009",
+        "text": "Which of the following is a key advantage of consumer-driven contract testing in CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects breaking changes early in the pipeline"
+            },
+            {
+                "letter": "B",
+                "text": "Delays testing until production"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing detects breaking changes early in CI/CD pipelines, preventing integration failures."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0010",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables independent deployment of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to deploy together"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling between services"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing enables independent deployment by ensuring compatibility between services through contracts."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0011",
+        "text": "What type of testing does consumer-driven contract testing replace or reduce?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "End-to-end integration testing"
+            },
+            {
+                "letter": "B",
+                "text": "Unit testing"
+            },
+            {
+                "letter": "C",
+                "text": "Performance testing"
+            },
+            {
+                "letter": "D",
+                "text": "Security testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing reduces the need for complex end-to-end integration tests by validating service interactions early."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0012",
+        "text": "Which of the following is a key characteristic of consumer-driven contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Contracts are versioned and shared between teams"
+            },
+            {
+                "letter": "B",
+                "text": "Contracts are deleted after each test"
+            },
+            {
+                "letter": "C",
+                "text": "Contracts are defined by the provider only"
+            },
+            {
+                "letter": "D",
+                "text": "Contracts are not stored"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Contracts are versioned and shared between teams to ensure compatibility and traceability."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0013",
+        "text": "Which of the following is a benefit of using Pact Broker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized management of contracts"
+            },
+            {
+                "letter": "B",
+                "text": "Manual contract distribution"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced automation"
+            },
+            {
+                "letter": "D",
+                "text": "Increased manual testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Pact Broker provides centralized management and sharing of contracts between consumers and providers."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0014",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for providers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures backward compatibility with consumers"
+            },
+            {
+                "letter": "B",
+                "text": "Allows breaking changes without notice"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Providers can ensure backward compatibility by verifying that their changes do not break existing consumer contracts."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0015",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for consumers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures provider APIs behave as expected"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested provider changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test automation"
+            },
+            {
+                "letter": "D",
+                "text": "Increases integration complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumers benefit by ensuring that provider APIs behave according to their expectations defined in the contract."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0016",
+        "text": "Which of the following is a key advantage of consumer-driven contract testing in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves communication between teams"
+            },
+            {
+                "letter": "B",
+                "text": "Reduces collaboration"
+            },
+            {
+                "letter": "C",
+                "text": "Increases dependency"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing improves communication between consumer and provider teams by defining clear expectations."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0017",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates compatibility checks between services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "C",
+                "text": "Delays integration"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing automates compatibility checks between services in CI/CD pipelines."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0018",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports scaling by reducing integration dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing supports scalability by reducing integration dependencies between services."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0019",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent behavior across deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing ensures consistent behavior across deployments by validating contracts automatically."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0020",
+        "text": "Which of the following best describes consumer-driven contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing that ensures providers meet consumer-defined expectations"
+            },
+            {
+                "letter": "B",
+                "text": "Testing that validates UI design"
+            },
+            {
+                "letter": "C",
+                "text": "Testing that monitors performance"
+            },
+            {
+                "letter": "D",
+                "text": "Testing that manages deployments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing ensures that providers meet the expectations defined by consumers."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0021",
+        "text": "Which of the following is a key benefit of consumer-driven contract testing for microservice integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects integration issues before deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual integration testing"
+            },
+            {
+                "letter": "C",
+                "text": "Delays integration validation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing detects integration issues early by validating contracts before deployment."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0022",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for version control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows tracking of contract changes over time"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes old contracts automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents contract updates"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Version control in contract testing allows tracking of changes and ensures backward compatibility."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0023",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates validation of API compatibility"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces automation"
+            },
+            {
+                "letter": "D",
+                "text": "Delays testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing automates API compatibility validation between consumers and providers."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0024",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for continuous integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integrates contract validation into CI pipelines"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual integration"
+            },
+            {
+                "letter": "C",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing integrates seamlessly into CI pipelines for automated validation."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0025",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures safe and reliable deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual deployment checks"
+            },
+            {
+                "letter": "C",
+                "text": "Delays release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces reliability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing ensures safe and reliable deployments by validating service compatibility."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0026",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for test coverage?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves coverage of service interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Reduces test coverage"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on UI tests"
+            },
+            {
+                "letter": "D",
+                "text": "Ignores API interactions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing improves test coverage by validating all service interactions."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0027",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by detecting breaking changes early"
+            },
+            {
+                "letter": "B",
+                "text": "Increases maintenance complexity"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing simplifies maintenance by detecting breaking changes early in development."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0028",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent API behavior across environments"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing ensures consistent API behavior across environments and deployments."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0029",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports scaling by reducing integration dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing supports scalability by reducing integration dependencies between services."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0030",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for microservice independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent development and deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronized releases"
+            },
+            {
+                "letter": "C",
+                "text": "Increases dependency"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces autonomy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing allows independent development and deployment of microservices."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0031",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves communication between consumer and provider teams"
+            },
+            {
+                "letter": "B",
+                "text": "Reduces collaboration"
+            },
+            {
+                "letter": "C",
+                "text": "Increases miscommunication"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing improves communication between teams by defining clear expectations."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0032",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for feedback loops?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides faster feedback on API compatibility"
+            },
+            {
+                "letter": "B",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual validation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing provides faster feedback on API compatibility between services."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0033",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for test automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates validation of service interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual testing"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces automation"
+            },
+            {
+                "letter": "D",
+                "text": "Delays testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing automates validation of service interactions, improving efficiency."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0034",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for regression prevention?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents regressions by validating existing contracts"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing prevents regressions by validating existing contracts after changes."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0035",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for quality assurance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures high-quality API interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores API behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing ensures high-quality API interactions by validating expectations."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0036",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encourages iterative testing and feedback"
+            },
+            {
+                "letter": "B",
+                "text": "Delays iteration"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents feedback"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces iteration speed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing supports continuous improvement through iterative testing and feedback."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0037",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk of breaking changes"
+            },
+            {
+                "letter": "B",
+                "text": "Increases deployment risk"
+            },
+            {
+                "letter": "C",
+                "text": "Delays issue detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test coverage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing reduces risk by detecting breaking changes before deployment."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0038",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into service interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces transparency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing provides visibility into how services interact and depend on each other."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0039",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for DevOps?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bridges the gap between development and operations"
+            },
+            {
+                "letter": "B",
+                "text": "Increases silos"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces collaboration"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing bridges the gap between development and operations by automating compatibility checks."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0040",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for test reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent and repeatable test results"
+            },
+            {
+                "letter": "B",
+                "text": "Produces inconsistent results"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing ensures consistent and repeatable test results across environments."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0041",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for test scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Scales easily with multiple consumers and providers"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces scalability"
+            },
+            {
+                "letter": "D",
+                "text": "Increases complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing scales easily as the number of consumers and providers increases."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0042",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for automation pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integrates with CI/CD for automated validation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual validation"
+            },
+            {
+                "letter": "C",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing integrates with CI/CD pipelines for automated validation of service compatibility."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0043",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for continuous monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Continuously validates service compatibility"
+            },
+            {
+                "letter": "B",
+                "text": "Stops validation after deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual observation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing continuously validates service compatibility across deployments."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0044",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for test efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces time spent on integration testing"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual testing time"
+            },
+            {
+                "letter": "C",
+                "text": "Delays test execution"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing reduces time spent on integration testing by validating contracts early."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0045",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for test reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures reliable API interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces reliability"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing ensures reliable API interactions by validating expectations automatically."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0046",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for test transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into service expectations"
+            },
+            {
+                "letter": "B",
+                "text": "Hides test results"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing provides transparency into service expectations and compatibility."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0047",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for test collaboration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encourages collaboration between teams"
+            },
+            {
+                "letter": "B",
+                "text": "Increases silos"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces communication"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing encourages collaboration between consumer and provider teams."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0048",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for test predictability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Predicts integration success before deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual prediction"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Delays validation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing predicts integration success by validating contracts before deployment."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0049",
+        "text": "Which of the following is a benefit of consumer-driven contract testing for test consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent test results across environments"
+            },
+            {
+                "letter": "B",
+                "text": "Produces inconsistent results"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing ensures consistent test results across different environments."
+    },
+    {
+        "title": "MicroserviceTestingConsumerDrivenContract - Q0050",
+        "text": "Which of the following best describes consumer-driven contract testing in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing that ensures providers meet consumer-defined API expectations"
+            },
+            {
+                "letter": "B",
+                "text": "Testing that validates UI design"
+            },
+            {
+                "letter": "C",
+                "text": "Testing that monitors performance"
+            },
+            {
+                "letter": "D",
+                "text": "Testing that manages deployments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-driven contract testing ensures that providers meet the API expectations defined by consumers."
+    }
+]

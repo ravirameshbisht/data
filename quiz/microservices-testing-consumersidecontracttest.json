@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0001",
+        "text": "What is the main goal of consumer-side contract testing in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To verify that the consumer correctly interacts with the provider API"
+            },
+            {
+                "letter": "B",
+                "text": "To test the provider’s internal logic"
+            },
+            {
+                "letter": "C",
+                "text": "To monitor system performance"
+            },
+            {
+                "letter": "D",
+                "text": "To deploy microservices"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing ensures that the consumer correctly interacts with the provider’s API according to the defined contract."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0002",
+        "text": "Who executes consumer-side contract tests?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The consumer team"
+            },
+            {
+                "letter": "B",
+                "text": "The provider team"
+            },
+            {
+                "letter": "C",
+                "text": "The DevOps team"
+            },
+            {
+                "letter": "D",
+                "text": "The database administrator"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract tests are executed by the consumer team to verify that their expectations of the provider are correct."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0003",
+        "text": "What does a consumer-side contract test validate?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "That the consumer’s code correctly handles provider responses"
+            },
+            {
+                "letter": "B",
+                "text": "That the provider’s database schema is valid"
+            },
+            {
+                "letter": "C",
+                "text": "That the network configuration is correct"
+            },
+            {
+                "letter": "D",
+                "text": "That the UI layout is consistent"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract tests validate that the consumer’s code correctly handles the provider’s expected responses."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0004",
+        "text": "Which of the following tools supports consumer-side contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pact"
+            },
+            {
+                "letter": "B",
+                "text": "JMeter"
+            },
+            {
+                "letter": "C",
+                "text": "Prometheus"
+            },
+            {
+                "letter": "D",
+                "text": "Terraform"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Pact is a widely used tool for implementing consumer-side contract testing in microservices."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0005",
+        "text": "What is the main benefit of consumer-side contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects integration issues early in development"
+            },
+            {
+                "letter": "B",
+                "text": "Improves UI design"
+            },
+            {
+                "letter": "C",
+                "text": "Increases manual testing"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies database migrations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing detects integration issues early by validating consumer expectations before provider deployment."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0006",
+        "text": "What is the output of a consumer-side contract test?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A contract file describing expected API interactions"
+            },
+            {
+                "letter": "B",
+                "text": "A deployment script"
+            },
+            {
+                "letter": "C",
+                "text": "A performance report"
+            },
+            {
+                "letter": "D",
+                "text": "A database schema"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract tests produce a contract file that describes the expected API interactions between consumer and provider."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0007",
+        "text": "What is the purpose of mocking in consumer-side contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To simulate provider responses for testing the consumer"
+            },
+            {
+                "letter": "B",
+                "text": "To deploy the provider service"
+            },
+            {
+                "letter": "C",
+                "text": "To monitor network traffic"
+            },
+            {
+                "letter": "D",
+                "text": "To manage configurations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Mocking simulates provider responses so that the consumer can be tested independently of the provider."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0008",
+        "text": "Which of the following best describes the workflow of consumer-side contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Consumer defines expectations → Generates contract → Provider verifies contract"
+            },
+            {
+                "letter": "B",
+                "text": "Provider defines contract → Consumer verifies contract → Deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Consumer tests provider → Provider deploys → Consumer updates"
+            },
+            {
+                "letter": "D",
+                "text": "Provider deploys → Consumer tests → Contract created"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In consumer-side contract testing, the consumer defines expectations, generates a contract, and the provider later verifies it."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0009",
+        "text": "Which of the following is a key advantage of consumer-side contract testing in CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects breaking changes before integration"
+            },
+            {
+                "letter": "B",
+                "text": "Delays testing until production"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing detects breaking changes early in CI/CD pipelines, preventing integration failures."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0010",
+        "text": "Which of the following is a benefit of consumer-side contract testing for microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables independent development of consumers"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to deploy together"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling between services"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing enables independent development and testing of consumers without needing the provider to be live."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0011",
+        "text": "What type of testing does consumer-side contract testing reduce the need for?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "End-to-end integration testing"
+            },
+            {
+                "letter": "B",
+                "text": "Unit testing"
+            },
+            {
+                "letter": "C",
+                "text": "Performance testing"
+            },
+            {
+                "letter": "D",
+                "text": "Security testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing reduces the need for complex end-to-end integration tests by validating service interactions early."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0012",
+        "text": "Which of the following is a key characteristic of consumer-side contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tests are written from the consumer’s perspective"
+            },
+            {
+                "letter": "B",
+                "text": "Tests are written by the provider"
+            },
+            {
+                "letter": "C",
+                "text": "Tests are executed after deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Tests are focused on UI behavior"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract tests are written from the consumer’s perspective to define expected provider behavior."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0013",
+        "text": "Which of the following is a benefit of consumer-side contract testing for consumers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures provider APIs behave as expected"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested provider changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test automation"
+            },
+            {
+                "letter": "D",
+                "text": "Increases integration complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumers benefit by ensuring that provider APIs behave according to their expectations defined in the contract."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0014",
+        "text": "Which of the following is a benefit of consumer-side contract testing for providers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear expectations from consumers"
+            },
+            {
+                "letter": "B",
+                "text": "Allows breaking changes without notice"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Providers benefit from clear expectations defined by consumers, reducing the risk of breaking changes."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0015",
+        "text": "Which of the following is a benefit of consumer-side contract testing for CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates compatibility checks between services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "C",
+                "text": "Delays integration"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing automates compatibility checks between services in CI/CD pipelines."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0016",
+        "text": "Which of the following is a benefit of consumer-side contract testing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports scaling by reducing integration dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing supports scalability by reducing integration dependencies between services."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0017",
+        "text": "Which of the following is a benefit of consumer-side contract testing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent behavior across deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing ensures consistent behavior across deployments by validating contracts automatically."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0018",
+        "text": "Which of the following is a benefit of consumer-side contract testing for communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves communication between consumer and provider teams"
+            },
+            {
+                "letter": "B",
+                "text": "Reduces collaboration"
+            },
+            {
+                "letter": "C",
+                "text": "Increases dependency"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing improves communication between consumer and provider teams by defining clear expectations."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0019",
+        "text": "Which of the following is a benefit of consumer-side contract testing for feedback loops?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides faster feedback on API compatibility"
+            },
+            {
+                "letter": "B",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual validation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing provides faster feedback on API compatibility between services."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0020",
+        "text": "Which of the following best describes consumer-side contract testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing that verifies the consumer’s expectations of the provider API"
+            },
+            {
+                "letter": "B",
+                "text": "Testing that validates provider-side logic"
+            },
+            {
+                "letter": "C",
+                "text": "Testing that monitors performance"
+            },
+            {
+                "letter": "D",
+                "text": "Testing that manages deployments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing verifies that the consumer’s expectations of the provider API are correct and consistent."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0021",
+        "text": "Which of the following is a key benefit of consumer-side contract testing for integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects integration issues before provider deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual integration testing"
+            },
+            {
+                "letter": "C",
+                "text": "Delays integration validation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing detects integration issues early by validating consumer expectations before provider deployment."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0022",
+        "text": "Which of the following is a benefit of consumer-side contract testing for version control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows tracking of contract changes over time"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes old contracts automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents contract updates"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Version control in contract testing allows tracking of changes and ensures backward compatibility between versions."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0023",
+        "text": "Which of the following is a benefit of consumer-side contract testing for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates validation of consumer expectations"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces automation"
+            },
+            {
+                "letter": "D",
+                "text": "Delays testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing automates validation of consumer expectations against provider responses."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0024",
+        "text": "Which of the following is a benefit of consumer-side contract testing for continuous integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integrates contract validation into CI pipelines"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual integration"
+            },
+            {
+                "letter": "C",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing integrates seamlessly into CI pipelines for automated validation."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0025",
+        "text": "Which of the following is a benefit of consumer-side contract testing for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures safe and reliable deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual deployment checks"
+            },
+            {
+                "letter": "C",
+                "text": "Delays release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces reliability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing ensures safe and reliable deployments by validating service compatibility."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0026",
+        "text": "Which of the following is a benefit of consumer-side contract testing for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by detecting breaking changes early"
+            },
+            {
+                "letter": "B",
+                "text": "Increases maintenance complexity"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing simplifies maintenance by detecting breaking changes early in development."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0027",
+        "text": "Which of the following is a benefit of consumer-side contract testing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent API behavior across environments"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing ensures consistent API behavior across environments and deployments."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0028",
+        "text": "Which of the following is a benefit of consumer-side contract testing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports scaling by reducing integration dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing supports scalability by reducing integration dependencies between services."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0029",
+        "text": "Which of the following is a benefit of consumer-side contract testing for microservice independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent development and deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronized releases"
+            },
+            {
+                "letter": "C",
+                "text": "Increases dependency"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces autonomy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing allows independent development and deployment of microservices."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0030",
+        "text": "Which of the following is a benefit of consumer-side contract testing for communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves communication between consumer and provider teams"
+            },
+            {
+                "letter": "B",
+                "text": "Reduces collaboration"
+            },
+            {
+                "letter": "C",
+                "text": "Increases miscommunication"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing improves communication between teams by defining clear expectations."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0031",
+        "text": "Which of the following is a benefit of consumer-side contract testing for feedback loops?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides faster feedback on API compatibility"
+            },
+            {
+                "letter": "B",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual validation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing provides faster feedback on API compatibility between services."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0032",
+        "text": "Which of the following is a benefit of consumer-side contract testing for regression prevention?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents regressions by validating existing contracts"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing prevents regressions by validating existing contracts after changes."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0033",
+        "text": "Which of the following is a benefit of consumer-side contract testing for quality assurance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures high-quality API interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores API behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces test accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing ensures high-quality API interactions by validating expectations."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0034",
+        "text": "Which of the following is a benefit of consumer-side contract testing for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encourages iterative testing and feedback"
+            },
+            {
+                "letter": "B",
+                "text": "Delays iteration"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents feedback"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces iteration speed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing supports continuous improvement through iterative testing and feedback."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0035",
+        "text": "Which of the following is a benefit of consumer-side contract testing for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk of breaking changes"
+            },
+            {
+                "letter": "B",
+                "text": "Increases deployment risk"
+            },
+            {
+                "letter": "C",
+                "text": "Delays issue detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test coverage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing reduces risk by detecting breaking changes before deployment."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0036",
+        "text": "Which of the following is a benefit of consumer-side contract testing for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into service interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces transparency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing provides visibility into how services interact and depend on each other."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0037",
+        "text": "Which of the following is a benefit of consumer-side contract testing for DevOps?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bridges the gap between development and operations"
+            },
+            {
+                "letter": "B",
+                "text": "Increases silos"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces collaboration"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing bridges the gap between development and operations by automating compatibility checks."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0038",
+        "text": "Which of the following is a benefit of consumer-side contract testing for test reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent and repeatable test results"
+            },
+            {
+                "letter": "B",
+                "text": "Produces inconsistent results"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing ensures consistent and repeatable test results across environments."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0039",
+        "text": "Which of the following is a benefit of consumer-side contract testing for test scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Scales easily with multiple consumers and providers"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces scalability"
+            },
+            {
+                "letter": "D",
+                "text": "Increases complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing scales easily as the number of consumers and providers increases."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0040",
+        "text": "Which of the following is a benefit of consumer-side contract testing for automation pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integrates with CI/CD for automated validation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual validation"
+            },
+            {
+                "letter": "C",
+                "text": "Delays feedback"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing integrates with CI/CD pipelines for automated validation of service compatibility."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0041",
+        "text": "Which of the following is a benefit of consumer-side contract testing for continuous monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Continuously validates service compatibility"
+            },
+            {
+                "letter": "B",
+                "text": "Stops validation after deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual observation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing continuously validates service compatibility across deployments."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0042",
+        "text": "Which of the following is a benefit of consumer-side contract testing for test efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces time spent on integration testing"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual testing time"
+            },
+            {
+                "letter": "C",
+                "text": "Delays test execution"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing reduces time spent on integration testing by validating contracts early."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0043",
+        "text": "Which of the following is a benefit of consumer-side contract testing for test transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into service expectations"
+            },
+            {
+                "letter": "B",
+                "text": "Hides test results"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing provides transparency into service expectations and compatibility."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0044",
+        "text": "Which of the following is a benefit of consumer-side contract testing for collaboration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encourages collaboration between teams"
+            },
+            {
+                "letter": "B",
+                "text": "Increases silos"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces communication"
+            },
+            {
+                "letter": "D",
+                "text": "Delays feedback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing encourages collaboration between consumer and provider teams."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0045",
+        "text": "Which of the following is a benefit of consumer-side contract testing for predictability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Predicts integration success before deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual prediction"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces accuracy"
+            },
+            {
+                "letter": "D",
+                "text": "Delays validation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing predicts integration success by validating contracts before deployment."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0046",
+        "text": "Which of the following is a benefit of consumer-side contract testing for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent test results across environments"
+            },
+            {
+                "letter": "B",
+                "text": "Produces inconsistent results"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces accuracy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing ensures consistent test results across different environments."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0047",
+        "text": "Which of the following is a benefit of consumer-side contract testing for test reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures reliable API interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untested changes"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces reliability"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing ensures reliable API interactions by validating expectations automatically."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0048",
+        "text": "Which of the following is a benefit of consumer-side contract testing for test traceability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracks changes from contract creation to validation"
+            },
+            {
+                "letter": "B",
+                "text": "Hides contract history"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing provides traceability by tracking changes from contract creation to validation."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0049",
+        "text": "Which of the following is a benefit of consumer-side contract testing for test automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates validation of service interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual testing"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces automation"
+            },
+            {
+                "letter": "D",
+                "text": "Delays testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing automates validation of service interactions, improving efficiency."
+    },
+    {
+        "title": "MicroserviceTestingConsumerSideContract - Q0050",
+        "text": "Which of the following best describes consumer-side contract testing in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing that verifies the consumer’s expectations of the provider API"
+            },
+            {
+                "letter": "B",
+                "text": "Testing that validates provider-side logic"
+            },
+            {
+                "letter": "C",
+                "text": "Testing that monitors performance"
+            },
+            {
+                "letter": "D",
+                "text": "Testing that manages deployments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consumer-side contract testing verifies that the consumer’s expectations of the provider API are correct and consistent."
+    }
+]
