@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0001",
+        "text": "What is the primary purpose of exception tracking in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To detect, record, and analyze application errors"
+            },
+            {
+                "letter": "B",
+                "text": "To manage service discovery"
+            },
+            {
+                "letter": "C",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "D",
+                "text": "To monitor CPU usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking helps detect, record, and analyze application errors to improve reliability and debugging."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0002",
+        "text": "Which of the following is a common tool for exception tracking?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Sentry"
+            },
+            {
+                "letter": "B",
+                "text": "Prometheus"
+            },
+            {
+                "letter": "C",
+                "text": "Grafana"
+            },
+            {
+                "letter": "D",
+                "text": "Jaeger"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sentry is a popular tool for real-time exception tracking and error monitoring in microservices."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0003",
+        "text": "Which of the following is a key benefit of exception tracking?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify and resolve application errors quickly"
+            },
+            {
+                "letter": "B",
+                "text": "Improves caching performance"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces network latency"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies service discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking helps identify and resolve application errors quickly, improving system stability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0004",
+        "text": "Which of the following is a common field in an exception log?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Stack trace"
+            },
+            {
+                "letter": "B",
+                "text": "Cache size"
+            },
+            {
+                "letter": "C",
+                "text": "Thread count"
+            },
+            {
+                "letter": "D",
+                "text": "Memory usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A stack trace provides detailed information about where an exception occurred in the code."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0005",
+        "text": "Which of the following is a benefit of centralized exception tracking?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a unified view of errors across services"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility into system behavior"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates monitoring needs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Centralized exception tracking provides a unified view of errors across multiple microservices."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0006",
+        "text": "Which of the following is a common challenge in exception tracking for microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Correlating exceptions across distributed services"
+            },
+            {
+                "letter": "B",
+                "text": "Generating logs manually"
+            },
+            {
+                "letter": "C",
+                "text": "Reducing log retention"
+            },
+            {
+                "letter": "D",
+                "text": "Disabling log rotation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Correlating exceptions across distributed services is challenging due to decentralized architectures."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0007",
+        "text": "Which of the following is a benefit of exception tracking for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects and resolves errors before they impact users"
+            },
+            {
+                "letter": "B",
+                "text": "Increases downtime"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking detects and resolves errors early, improving system reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0008",
+        "text": "Which of the following is a benefit of exception tracking for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides detailed error context and stack traces"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility into system behavior"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates monitoring needs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking provides detailed error context and stack traces, simplifying debugging."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0009",
+        "text": "Which of the following is a common metric in exception tracking?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Error rate"
+            },
+            {
+                "letter": "B",
+                "text": "CPU usage"
+            },
+            {
+                "letter": "C",
+                "text": "Memory consumption"
+            },
+            {
+                "letter": "D",
+                "text": "Network latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Error rate measures the frequency of exceptions, helping assess system stability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0010",
+        "text": "Which of the following is a benefit of exception tracking for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into application failures and their causes"
+            },
+            {
+                "letter": "B",
+                "text": "Hides system dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking provides visibility into application failures and their root causes, enhancing observability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0011",
+        "text": "Which of the following is a common tool for error aggregation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Rollbar"
+            },
+            {
+                "letter": "B",
+                "text": "Prometheus"
+            },
+            {
+                "letter": "C",
+                "text": "Grafana"
+            },
+            {
+                "letter": "D",
+                "text": "Jaeger"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Rollbar is a tool used for real-time error aggregation and exception tracking."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0012",
+        "text": "Which of the following is a benefit of exception tracking for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables automated alerts for new or recurring errors"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual error inspection"
+            },
+            {
+                "letter": "C",
+                "text": "Disables alerting"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking enables automated alerts when new or recurring errors are detected."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0013",
+        "text": "Which of the following is a benefit of exception tracking for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies tracking and fixing recurring issues"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual log rotation"
+            },
+            {
+                "letter": "C",
+                "text": "Increases configuration complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking simplifies maintenance by identifying recurring issues that need fixes."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0014",
+        "text": "Which of the following is a benefit of exception tracking for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into system errors and their impact"
+            },
+            {
+                "letter": "B",
+                "text": "Hides system behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking provides transparency by showing system errors and their impact on users."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0015",
+        "text": "Which of the following is a benefit of exception tracking for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects and resolves issues proactively"
+            },
+            {
+                "letter": "B",
+                "text": "Increases downtime"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking helps detect and resolve issues proactively, improving reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0016",
+        "text": "Which of the following is a benefit of exception tracking for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Monitors error rates as services scale dynamically"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits error collection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking monitors error rates even as services scale dynamically."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0017",
+        "text": "Which of the following is a benefit of exception tracking for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify which service caused an error"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all errors into one file"
+            },
+            {
+                "letter": "C",
+                "text": "Removes error tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Increases fault propagation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking helps isolate faults by identifying which service caused the error."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0018",
+        "text": "Which of the following is a benefit of exception tracking for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides insights for improving code quality"
+            },
+            {
+                "letter": "B",
+                "text": "Removes performance metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces monitoring coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual debugging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking provides insights that help teams improve code quality and reduce future errors."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0019",
+        "text": "Which of the following is a benefit of exception tracking for DevOps teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves collaboration and incident response"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility into system health"
+            },
+            {
+                "letter": "D",
+                "text": "Removes automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking improves collaboration and incident response by providing shared visibility into errors."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0020",
+        "text": "Which of the following best describes the purpose of exception tracking?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To detect, record, and analyze application errors for faster resolution"
+            },
+            {
+                "letter": "B",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "C",
+                "text": "To manage service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "To monitor CPU usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking detects, records, and analyzes application errors for faster resolution and improved reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0021",
+        "text": "Which of the following is a common challenge in exception tracking for distributed systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Correlating exceptions across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Reducing log verbosity"
+            },
+            {
+                "letter": "C",
+                "text": "Disabling error reporting"
+            },
+            {
+                "letter": "D",
+                "text": "Storing exceptions locally only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Correlating exceptions across multiple services is difficult due to distributed architectures and asynchronous communication."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0022",
+        "text": "Which of the following is a key metric for exception tracking?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Exception frequency"
+            },
+            {
+                "letter": "B",
+                "text": "CPU utilization"
+            },
+            {
+                "letter": "C",
+                "text": "Network throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Cache hit ratio"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception frequency measures how often exceptions occur, helping identify recurring issues."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0023",
+        "text": "Which of the following is a benefit of exception tracking for user experience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces user-facing errors by early detection"
+            },
+            {
+                "letter": "B",
+                "text": "Increases downtime"
+            },
+            {
+                "letter": "C",
+                "text": "Removes error visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Hides performance issues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking reduces user-facing errors by detecting and resolving issues early."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0024",
+        "text": "Which of the following is a common field in an exception event?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Error message"
+            },
+            {
+                "letter": "B",
+                "text": "CPU usage"
+            },
+            {
+                "letter": "C",
+                "text": "Memory allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Network latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An error message describes the nature of the exception and helps in debugging."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0025",
+        "text": "Which of the following is a benefit of exception tracking for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Triggers automated alerts when exceptions occur"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual error detection"
+            },
+            {
+                "letter": "C",
+                "text": "Disables alerting"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking can trigger automated alerts when exceptions occur, enabling faster response."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0026",
+        "text": "Which of the following is a benefit of exception tracking for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into system errors and their frequency"
+            },
+            {
+                "letter": "B",
+                "text": "Hides system behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking provides transparency by showing error frequency and impact."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0027",
+        "text": "Which of the following is a benefit of exception tracking for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects recurring issues that affect uptime"
+            },
+            {
+                "letter": "B",
+                "text": "Increases downtime"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking detects recurring issues that can affect uptime and reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0028",
+        "text": "Which of the following is a benefit of exception tracking for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies identifying and fixing recurring bugs"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual log inspection"
+            },
+            {
+                "letter": "C",
+                "text": "Increases configuration complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking simplifies maintenance by identifying recurring bugs and their causes."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0029",
+        "text": "Which of the following is a benefit of exception tracking for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Monitors error rates as services scale"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits error collection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking monitors error rates even as services scale dynamically."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0030",
+        "text": "Which of the following is a benefit of exception tracking for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify which service or component caused an error"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all errors into one file"
+            },
+            {
+                "letter": "C",
+                "text": "Removes error tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Increases fault propagation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking helps isolate faults by identifying which service or component caused the error."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0031",
+        "text": "Which of the following is a benefit of exception tracking for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides insights for improving code quality and stability"
+            },
+            {
+                "letter": "B",
+                "text": "Removes performance metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces monitoring coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual debugging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking provides insights that help improve code quality and system stability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0032",
+        "text": "Which of the following is a benefit of exception tracking for DevOps teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves collaboration and incident response"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility into system health"
+            },
+            {
+                "letter": "D",
+                "text": "Removes automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking improves collaboration and incident response by providing shared visibility into errors."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0033",
+        "text": "Which of the following is a benefit of exception tracking for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables automated alerting and error classification"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual error inspection"
+            },
+            {
+                "letter": "C",
+                "text": "Disables alerting"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking enables automated alerting and classification of errors for faster response."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0034",
+        "text": "Which of the following is a benefit of exception tracking for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear visibility into system errors and their impact"
+            },
+            {
+                "letter": "B",
+                "text": "Hides system behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking provides transparency by showing system errors and their impact on users."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0035",
+        "text": "Which of the following is a benefit of exception tracking for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects and resolves issues proactively"
+            },
+            {
+                "letter": "B",
+                "text": "Increases downtime"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking helps detect and resolve issues proactively, improving reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0036",
+        "text": "Which of the following is a benefit of exception tracking for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports distributed error collection across services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits error collection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking systems can scale to collect errors from multiple distributed services."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0037",
+        "text": "Which of the following is a benefit of exception tracking for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify the source of failures quickly"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all errors into one file"
+            },
+            {
+                "letter": "C",
+                "text": "Removes error tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Increases fault propagation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking helps isolate faults by identifying the source of failures quickly."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0038",
+        "text": "Which of the following is a benefit of exception tracking for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides insights for improving code quality"
+            },
+            {
+                "letter": "B",
+                "text": "Removes performance metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces monitoring coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual debugging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking provides insights that help teams continuously improve code quality and reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0039",
+        "text": "Which of the following is a benefit of exception tracking for governance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures adherence to error-handling policies"
+            },
+            {
+                "letter": "B",
+                "text": "Removes compliance requirements"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces accountability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides user activity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking ensures adherence to governance policies by recording and analyzing errors."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0040",
+        "text": "Which of the following is a benefit of exception tracking for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects security-related exceptions and anomalies"
+            },
+            {
+                "letter": "B",
+                "text": "Removes access control"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Disables monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking can detect security-related exceptions and anomalies, improving system security."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0041",
+        "text": "Which of the following is a benefit of exception tracking for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear visibility into system errors and their impact"
+            },
+            {
+                "letter": "B",
+                "text": "Hides system behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking provides transparency by offering visibility into system errors and their impact."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0042",
+        "text": "Which of the following is a benefit of exception tracking for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables automated alerting and error classification"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual error inspection"
+            },
+            {
+                "letter": "C",
+                "text": "Disables alerting"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking enables automated alerting and classification of errors for faster response."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0043",
+        "text": "Which of the following is a benefit of exception tracking for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies tracking of recurring issues"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual log rotation"
+            },
+            {
+                "letter": "C",
+                "text": "Increases configuration complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking simplifies maintenance by tracking recurring issues and their resolutions."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0044",
+        "text": "Which of the following is a benefit of exception tracking for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects and resolves issues proactively"
+            },
+            {
+                "letter": "B",
+                "text": "Increases downtime"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking helps detect and resolve issues proactively, improving reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0045",
+        "text": "Which of the following is a benefit of exception tracking for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports distributed error collection across services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits error collection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking systems can scale to collect errors from multiple distributed services."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0046",
+        "text": "Which of the following is a benefit of exception tracking for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify the source of failures quickly"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all errors into one file"
+            },
+            {
+                "letter": "C",
+                "text": "Removes error tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Increases fault propagation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking helps isolate faults by identifying the source of failures quickly."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0047",
+        "text": "Which of the following is a benefit of exception tracking for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides insights for improving code quality"
+            },
+            {
+                "letter": "B",
+                "text": "Removes performance metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces monitoring coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual debugging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking provides insights that help teams continuously improve code quality and reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0048",
+        "text": "Which of the following is a benefit of exception tracking for governance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures adherence to error-handling policies"
+            },
+            {
+                "letter": "B",
+                "text": "Removes compliance requirements"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces accountability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides user activity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking ensures adherence to governance policies by recording and analyzing errors."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0049",
+        "text": "Which of the following is a benefit of exception tracking for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects security-related exceptions and anomalies"
+            },
+            {
+                "letter": "B",
+                "text": "Removes access control"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Disables monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking can detect security-related exceptions and anomalies, improving system security."
+    },
+    {
+        "title": "MicroservicesObservabilityExceptionTracking - Q0050",
+        "text": "Which of the following best describes the purpose of exception tracking in microservices observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To detect, record, and analyze application errors for faster resolution and reliability"
+            },
+            {
+                "letter": "B",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "C",
+                "text": "To manage service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "To monitor CPU usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception tracking detects, records, and analyzes application errors for faster resolution and improved reliability."
+    }
+]
