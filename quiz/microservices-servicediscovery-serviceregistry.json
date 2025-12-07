@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0001",
+        "text": "What is the main purpose of a service registry in microservices architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To store and manage information about available service instances"
+            },
+            {
+                "letter": "B",
+                "text": "To handle client authentication"
+            },
+            {
+                "letter": "C",
+                "text": "To manage database connections"
+            },
+            {
+                "letter": "D",
+                "text": "To store application logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry stores and manages information about available service instances and their network locations."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0002",
+        "text": "Which of the following best describes the function of a service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It acts as a directory for service discovery"
+            },
+            {
+                "letter": "B",
+                "text": "It stores user credentials"
+            },
+            {
+                "letter": "C",
+                "text": "It manages API rate limits"
+            },
+            {
+                "letter": "D",
+                "text": "It handles message queuing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry acts as a directory that allows services to discover each other dynamically."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0003",
+        "text": "Which of the following is a common service registry tool?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Consul"
+            },
+            {
+                "letter": "B",
+                "text": "Kafka"
+            },
+            {
+                "letter": "C",
+                "text": "MongoDB"
+            },
+            {
+                "letter": "D",
+                "text": "Redis"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consul is a popular service registry used for service discovery and health checking."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0004",
+        "text": "Which of the following is a key feature of a service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Dynamic registration and deregistration of services"
+            },
+            {
+                "letter": "B",
+                "text": "Static IP configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Manual service mapping"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry supports dynamic registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0005",
+        "text": "Which of the following is a benefit of using a service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables dynamic service discovery"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates the need for load balancing"
+            },
+            {
+                "letter": "C",
+                "text": "Stores user data"
+            },
+            {
+                "letter": "D",
+                "text": "Handles message routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry enables dynamic service discovery by maintaining an up-to-date list of available services."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0006",
+        "text": "Which of the following is a common protocol used by service registries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HTTP or gRPC"
+            },
+            {
+                "letter": "B",
+                "text": "SMTP"
+            },
+            {
+                "letter": "C",
+                "text": "FTP"
+            },
+            {
+                "letter": "D",
+                "text": "POP3"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service registries often use HTTP or gRPC protocols for communication between services and the registry."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0007",
+        "text": "Which of the following is a common service registry used in cloud environments?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AWS Cloud Map"
+            },
+            {
+                "letter": "B",
+                "text": "MySQL"
+            },
+            {
+                "letter": "C",
+                "text": "RabbitMQ"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "AWS Cloud Map is a managed service registry used in cloud-based microservices architectures."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0008",
+        "text": "Which of the following is a key responsibility of a service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintaining a list of healthy service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Managing user sessions"
+            },
+            {
+                "letter": "C",
+                "text": "Handling database queries"
+            },
+            {
+                "letter": "D",
+                "text": "Storing application logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry maintains a list of healthy service instances for discovery and routing."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0009",
+        "text": "Which of the following is a benefit of using a service registry for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows services to scale dynamically without manual configuration"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static IP mapping"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all service logic"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates the need for orchestration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry allows services to scale dynamically by automatically updating available instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0010",
+        "text": "Which of the following is a challenge of using a service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Registry availability and consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Static service configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced scalability"
+            },
+            {
+                "letter": "D",
+                "text": "Manual service updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Maintaining registry availability and consistency is a key challenge in distributed environments."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0011",
+        "text": "Which of the following is a benefit of a service registry for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Removes failed instances from the registry automatically"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual removal of failed instances"
+            },
+            {
+                "letter": "C",
+                "text": "Ignores failed instances"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry improves fault tolerance by automatically removing failed instances from its list."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0012",
+        "text": "Which of the following is a common health check mechanism used by service registries?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heartbeat or periodic health check"
+            },
+            {
+                "letter": "B",
+                "text": "Manual verification"
+            },
+            {
+                "letter": "C",
+                "text": "Static configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Database polling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service registries use heartbeats or periodic health checks to verify the health of registered services."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0013",
+        "text": "Which of the following is a benefit of a service registry for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically registers and deregisters services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual service registration"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0014",
+        "text": "Which of the following is a benefit of a service registry for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralizes service instance information"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes configuration across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "D",
+                "text": "Stores user data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry centralizes service instance information, simplifying maintenance and updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0015",
+        "text": "Which of the following is a benefit of a service registry for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures clients connect only to healthy instances"
+            },
+            {
+                "letter": "B",
+                "text": "Allows clients to connect to failed instances"
+            },
+            {
+                "letter": "C",
+                "text": "Stores failed instance logs"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry ensures reliability by allowing clients to connect only to healthy service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0016",
+        "text": "Which of the following is a benefit of a service registry for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry supports dynamic scaling by automatically updating available service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0017",
+        "text": "Which of the following is a benefit of a service registry for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces latency by enabling direct service discovery"
+            },
+            {
+                "letter": "B",
+                "text": "Adds extra network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Increases client complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry reduces latency by enabling direct service discovery and routing."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0018",
+        "text": "Which of the following is a challenge of a service registry for availability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Registry must be highly available to prevent service discovery failures"
+            },
+            {
+                "letter": "B",
+                "text": "Registry can be offline without impact"
+            },
+            {
+                "letter": "C",
+                "text": "Clients cache all data permanently"
+            },
+            {
+                "letter": "D",
+                "text": "Registry does not affect availability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The service registry must be highly available to ensure continuous service discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0019",
+        "text": "Which of the following is a benefit of a service registry for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically updates service availability"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry automatically updates service availability as instances start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0020",
+        "text": "Which of the following best describes the outcome of using a service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can discover and communicate dynamically"
+            },
+            {
+                "letter": "B",
+                "text": "Services require static IPs"
+            },
+            {
+                "letter": "C",
+                "text": "Clients must manually configure endpoints"
+            },
+            {
+                "letter": "D",
+                "text": "Services cannot scale dynamically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry enables dynamic discovery and communication between services."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0021",
+        "text": "Which of the following is a benefit of a service registry for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically removes failed instances from the registry"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual removal of failed instances"
+            },
+            {
+                "letter": "C",
+                "text": "Ignores failed instances"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry improves fault tolerance by automatically removing failed instances from its list."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0022",
+        "text": "Which of the following is a common open-source service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Netflix Eureka"
+            },
+            {
+                "letter": "B",
+                "text": "Apache Kafka"
+            },
+            {
+                "letter": "C",
+                "text": "PostgreSQL"
+            },
+            {
+                "letter": "D",
+                "text": "Redis"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Netflix Eureka is a widely used open-source service registry for microservices discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0023",
+        "text": "Which of the following is a benefit of a service registry for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically registers and deregisters services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual service registration"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0024",
+        "text": "Which of the following is a benefit of a service registry for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry supports dynamic scaling by automatically updating available service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0025",
+        "text": "Which of the following is a benefit of a service registry for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralizes service instance information"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes configuration across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "D",
+                "text": "Stores user data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry centralizes service instance information, simplifying maintenance and updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0026",
+        "text": "Which of the following is a benefit of a service registry for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures clients connect only to healthy instances"
+            },
+            {
+                "letter": "B",
+                "text": "Allows clients to connect to failed instances"
+            },
+            {
+                "letter": "C",
+                "text": "Stores failed instance logs"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry ensures reliability by allowing clients to connect only to healthy service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0027",
+        "text": "Which of the following is a benefit of a service registry for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces latency by enabling direct service discovery"
+            },
+            {
+                "letter": "B",
+                "text": "Adds extra network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Increases client complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry reduces latency by enabling direct service discovery and routing."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0028",
+        "text": "Which of the following is a challenge of a service registry for availability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Registry must be highly available to prevent service discovery failures"
+            },
+            {
+                "letter": "B",
+                "text": "Registry can be offline without impact"
+            },
+            {
+                "letter": "C",
+                "text": "Clients cache all data permanently"
+            },
+            {
+                "letter": "D",
+                "text": "Registry does not affect availability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The service registry must be highly available to ensure continuous service discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0029",
+        "text": "Which of the following is a benefit of a service registry for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically updates service availability"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry automatically updates service availability as instances start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0030",
+        "text": "Which of the following is a benefit of a service registry for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into registered services and their health"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service status from monitoring tools"
+            },
+            {
+                "letter": "C",
+                "text": "Stores logs only"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry provides visibility into registered services and their health status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0031",
+        "text": "Which of the following is a benefit of a service registry for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Removes failed instances without affecting others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Registry stops all services"
+            },
+            {
+                "letter": "D",
+                "text": "Clients must manually isolate faults"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry isolates faults by removing failed instances without affecting others."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0032",
+        "text": "Which of the following is a benefit of a service registry for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a clear view of all active service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry provides transparency by showing all active service instances and their status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0033",
+        "text": "Which of the following is a benefit of a service registry for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows new services to register automatically after deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual registration after deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents new services from registering"
+            },
+            {
+                "letter": "D",
+                "text": "Requires static configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry supports continuous delivery by allowing new services to register automatically after deployment."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0034",
+        "text": "Which of the following is a benefit of a service registry for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports both client-side and server-side discovery"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a fixed discovery model"
+            },
+            {
+                "letter": "C",
+                "text": "Supports only static discovery"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry supports both client-side and server-side discovery, providing flexibility."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0035",
+        "text": "Which of the following is a benefit of a service registry for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically updates service health status"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual health checks"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry automatically updates service health status through periodic checks."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0036",
+        "text": "Which of the following is a benefit of a service registry for adaptability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Adapts dynamically to service scaling and failures"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Ignores service changes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry adapts dynamically to service scaling and failures, ensuring up-to-date discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0037",
+        "text": "Which of the following is a benefit of a service registry for alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aligns service discovery with infrastructure automation"
+            },
+            {
+                "letter": "B",
+                "text": "Separates discovery from infrastructure"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on backend layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry aligns service discovery with infrastructure automation and orchestration tools."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0038",
+        "text": "Which of the following is a benefit of a service registry for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables experimentation with new discovery mechanisms"
+            },
+            {
+                "letter": "B",
+                "text": "Fixes discovery logic permanently"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents new discovery models"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry enables experimentation with new discovery mechanisms and integration patterns."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0039",
+        "text": "Which of the following is a benefit of a service registry for accountability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracks service registration and health status"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service registration details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry tracks service registration and health status, ensuring accountability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0040",
+        "text": "Which of the following is a benefit of a service registry for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a clear view of all active service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry provides transparency by showing all active service instances and their status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0041",
+        "text": "Which of the following is a benefit of a service registry for business continuity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures continuous service discovery during scaling or failures"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual intervention during failures"
+            },
+            {
+                "letter": "C",
+                "text": "Stops discovery during scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on static configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry ensures continuous service discovery during scaling or failures, supporting business continuity."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0042",
+        "text": "Which of the following is a benefit of a service registry for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates discovery logic from business logic"
+            },
+            {
+                "letter": "B",
+                "text": "Combines discovery and business logic"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry separates discovery logic from business logic, improving modularity."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0043",
+        "text": "Which of the following is a benefit of a service registry for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows incremental updates to discovery mechanisms"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full redeployment for updates"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents discovery updates"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on static configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry allows incremental updates to discovery mechanisms, supporting continuous improvement."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0044",
+        "text": "Which of the following is a benefit of a service registry for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures clients connect only to healthy instances"
+            },
+            {
+                "letter": "B",
+                "text": "Allows clients to connect to failed instances"
+            },
+            {
+                "letter": "C",
+                "text": "Stores failed instance logs"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual verification"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry ensures reliability by allowing clients to connect only to healthy service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0045",
+        "text": "Which of the following is a benefit of a service registry for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry supports dynamic scaling by automatically updating available service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0046",
+        "text": "Which of the following is a benefit of a service registry for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces latency by enabling direct service discovery"
+            },
+            {
+                "letter": "B",
+                "text": "Adds extra network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Increases client complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry reduces latency by enabling direct service discovery and routing."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0047",
+        "text": "Which of the following is a benefit of a service registry for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically registers and deregisters services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual service registration"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0048",
+        "text": "Which of the following is a benefit of a service registry for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a clear view of all active service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry provides transparency by showing all active service instances and their status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0049",
+        "text": "Which of the following is a benefit of a service registry for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically removes failed instances from the registry"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual removal of failed instances"
+            },
+            {
+                "letter": "C",
+                "text": "Ignores failed instances"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry improves fault tolerance by automatically removing failed instances from its list."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServiceRegistry - Q0050",
+        "text": "Which of the following best describes the purpose of a service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To store and manage information about available service instances"
+            },
+            {
+                "letter": "B",
+                "text": "To handle client authentication"
+            },
+            {
+                "letter": "C",
+                "text": "To manage database connections"
+            },
+            {
+                "letter": "D",
+                "text": "To store application logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry stores and manages information about available service instances and their network locations."
+    }
+]

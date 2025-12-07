@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0001",
+        "text": "What is the main purpose of client-side service discovery in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To allow clients to locate service instances directly"
+            },
+            {
+                "letter": "B",
+                "text": "To centralize all routing decisions"
+            },
+            {
+                "letter": "C",
+                "text": "To store service configurations"
+            },
+            {
+                "letter": "D",
+                "text": "To manage database connections"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery allows clients to locate and connect directly to available service instances using a service registry."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0002",
+        "text": "Which component is essential for client-side service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Service registry"
+            },
+            {
+                "letter": "B",
+                "text": "Load balancer"
+            },
+            {
+                "letter": "C",
+                "text": "Message broker"
+            },
+            {
+                "letter": "D",
+                "text": "Database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A service registry is essential for client-side discovery, as it stores the network locations of service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0003",
+        "text": "In client-side discovery, who is responsible for load balancing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The client"
+            },
+            {
+                "letter": "B",
+                "text": "The API Gateway"
+            },
+            {
+                "letter": "C",
+                "text": "The service registry"
+            },
+            {
+                "letter": "D",
+                "text": "The database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In client-side discovery, the client performs load balancing by selecting a service instance from the registry."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0004",
+        "text": "Which of the following best describes the workflow of client-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Client queries registry → selects instance → sends request"
+            },
+            {
+                "letter": "B",
+                "text": "Client sends request → registry forwards to instance"
+            },
+            {
+                "letter": "C",
+                "text": "Registry queries client → sends response"
+            },
+            {
+                "letter": "D",
+                "text": "Client queries database → sends request"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In client-side discovery, the client queries the registry, selects an instance, and sends the request directly."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0005",
+        "text": "Which of the following is a common service registry used in client-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Netflix Eureka"
+            },
+            {
+                "letter": "B",
+                "text": "Apache Kafka"
+            },
+            {
+                "letter": "C",
+                "text": "Redis"
+            },
+            {
+                "letter": "D",
+                "text": "PostgreSQL"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Netflix Eureka is a popular service registry used for client-side service discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0006",
+        "text": "Which of the following is a key advantage of client-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced dependency on intermediaries"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized routing control"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified client logic"
+            },
+            {
+                "letter": "D",
+                "text": "No need for a registry"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery reduces dependency on intermediaries by allowing clients to handle routing directly."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0007",
+        "text": "Which of the following is a disadvantage of client-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients must implement discovery logic"
+            },
+            {
+                "letter": "B",
+                "text": "Increased latency"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized bottleneck"
+            },
+            {
+                "letter": "D",
+                "text": "Single point of failure"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A disadvantage of client-side discovery is that clients must implement discovery and load-balancing logic."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0008",
+        "text": "Which of the following best describes the role of the service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintains a list of available service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Executes client requests"
+            },
+            {
+                "letter": "C",
+                "text": "Balances network traffic"
+            },
+            {
+                "letter": "D",
+                "text": "Stores application logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The service registry maintains a list of available service instances and their network locations."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0009",
+        "text": "Which of the following is a common client library for client-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ribbon"
+            },
+            {
+                "letter": "B",
+                "text": "Kafka Streams"
+            },
+            {
+                "letter": "C",
+                "text": "Spring Data JPA"
+            },
+            {
+                "letter": "D",
+                "text": "Hibernate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Netflix Ribbon is a client library that provides client-side load balancing and service discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0010",
+        "text": "In client-side discovery, how does the client know which service instances are available?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "By querying the service registry"
+            },
+            {
+                "letter": "B",
+                "text": "By contacting the API Gateway"
+            },
+            {
+                "letter": "C",
+                "text": "By reading from a configuration file"
+            },
+            {
+                "letter": "D",
+                "text": "By polling the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The client queries the service registry to obtain a list of available service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0011",
+        "text": "Which of the following is a key responsibility of the client in client-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Selecting a service instance for each request"
+            },
+            {
+                "letter": "B",
+                "text": "Registering other services"
+            },
+            {
+                "letter": "C",
+                "text": "Managing the registry database"
+            },
+            {
+                "letter": "D",
+                "text": "Handling authentication for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The client is responsible for selecting a service instance from the registry for each request."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0012",
+        "text": "Which of the following is a benefit of client-side discovery for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients distribute load directly across instances"
+            },
+            {
+                "letter": "B",
+                "text": "All requests go through a central proxy"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires manual configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Clients depend on a single load balancer"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery allows clients to distribute load directly across service instances, improving scalability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0013",
+        "text": "Which of the following is a challenge of client-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients must handle service discovery logic"
+            },
+            {
+                "letter": "B",
+                "text": "Registry becomes a bottleneck"
+            },
+            {
+                "letter": "C",
+                "text": "Increased network latency"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A challenge of client-side discovery is that clients must implement discovery and load-balancing logic."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0014",
+        "text": "Which of the following is a benefit of client-side discovery for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can avoid failed instances"
+            },
+            {
+                "letter": "B",
+                "text": "All requests go through a single proxy"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "D",
+                "text": "Clients retry through the registry"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can detect and avoid failed instances, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0015",
+        "text": "Which of the following is a benefit of client-side discovery for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Eliminates extra network hops"
+            },
+            {
+                "letter": "B",
+                "text": "Adds an extra routing layer"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Increases latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery eliminates extra network hops by allowing direct communication between client and service."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0016",
+        "text": "Which of the following is a common drawback of client-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Complex client implementation"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized bottleneck"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery increases client complexity because clients must handle discovery and load balancing."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0017",
+        "text": "Which of the following is a typical registry update mechanism?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heartbeat or health check"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Static IP mapping"
+            },
+            {
+                "letter": "D",
+                "text": "Database polling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service instances send heartbeats or health checks to keep their registration active in the registry."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0018",
+        "text": "Which of the following is a benefit of client-side discovery for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can make independent routing decisions"
+            },
+            {
+                "letter": "B",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "C",
+                "text": "Clients share routing logic"
+            },
+            {
+                "letter": "D",
+                "text": "Clients require manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery gives clients autonomy to make independent routing decisions based on registry data."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0019",
+        "text": "Which of the following is a benefit of client-side discovery for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No central bottleneck for routing"
+            },
+            {
+                "letter": "B",
+                "text": "All requests go through a central proxy"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a single load balancer"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery avoids central bottlenecks by distributing routing logic to clients."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0020",
+        "text": "Which of the following best describes the outcome of using client-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients directly discover and connect to service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients depend on a central router for discovery"
+            },
+            {
+                "letter": "C",
+                "text": "Clients use static IPs for all services"
+            },
+            {
+                "letter": "D",
+                "text": "Clients communicate only through the API Gateway"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery enables clients to directly discover and connect to service instances using a registry."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0021",
+        "text": "Which of the following is a benefit of client-side discovery for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can choose the nearest or least-loaded instance"
+            },
+            {
+                "letter": "B",
+                "text": "All requests go through a central proxy"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on static routing"
+            },
+            {
+                "letter": "D",
+                "text": "Clients always use the same instance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery allows clients to select the nearest or least-loaded instance, optimizing performance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0022",
+        "text": "Which of the following is a common registry used with client-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Consul"
+            },
+            {
+                "letter": "B",
+                "text": "Kafka"
+            },
+            {
+                "letter": "C",
+                "text": "MongoDB"
+            },
+            {
+                "letter": "D",
+                "text": "Redis"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consul is a popular service registry that supports client-side service discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0023",
+        "text": "Which of the following is a benefit of client-side discovery for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can retry failed requests with other instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients depend on a single router"
+            },
+            {
+                "letter": "C",
+                "text": "Clients ignore failed instances"
+            },
+            {
+                "letter": "D",
+                "text": "Clients always use cached data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can retry failed requests with other available instances, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0024",
+        "text": "Which of the following is a challenge of client-side discovery for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients must handle authentication and authorization"
+            },
+            {
+                "letter": "B",
+                "text": "Registry manages all security policies"
+            },
+            {
+                "letter": "C",
+                "text": "Clients have no access to registry"
+            },
+            {
+                "letter": "D",
+                "text": "Security is handled by the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In client-side discovery, clients must handle authentication and authorization when connecting to services."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0025",
+        "text": "Which of the following is a benefit of client-side discovery for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients make independent routing decisions"
+            },
+            {
+                "letter": "B",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "C",
+                "text": "Clients share routing logic"
+            },
+            {
+                "letter": "D",
+                "text": "Clients require manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery gives clients autonomy to make independent routing decisions based on registry data."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0026",
+        "text": "Which of the following is a benefit of client-side discovery for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No central bottleneck for routing"
+            },
+            {
+                "letter": "B",
+                "text": "All requests go through a central proxy"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a single load balancer"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery avoids central bottlenecks by distributing routing logic to clients."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0027",
+        "text": "Which of the following is a benefit of client-side discovery for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can detect and avoid unhealthy instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients always use the same instance"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Clients ignore registry updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can detect and avoid unhealthy instances, improving reliability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0028",
+        "text": "Which of the following is a benefit of client-side discovery for latency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Direct communication reduces network hops"
+            },
+            {
+                "letter": "B",
+                "text": "Requests pass through multiple proxies"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "D",
+                "text": "Clients always use cached responses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery reduces latency by enabling direct communication between clients and services."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0029",
+        "text": "Which of the following is a challenge of client-side discovery for configuration management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients must maintain registry connection details"
+            },
+            {
+                "letter": "B",
+                "text": "Registry handles all configurations"
+            },
+            {
+                "letter": "C",
+                "text": "Clients have no configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Clients depend on static files only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients must maintain registry connection details and update configurations dynamically."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0030",
+        "text": "Which of the following is a benefit of client-side discovery for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one client do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All clients share the same routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "D",
+                "text": "Clients share the same cache"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each client operates independently, so failures in one do not affect others."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0031",
+        "text": "Which of the following is a benefit of client-side discovery for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can use custom load-balancing strategies"
+            },
+            {
+                "letter": "B",
+                "text": "Clients depend on a fixed routing algorithm"
+            },
+            {
+                "letter": "C",
+                "text": "Clients cannot modify routing logic"
+            },
+            {
+                "letter": "D",
+                "text": "Clients use static IPs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can implement custom load-balancing strategies, improving flexibility."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0032",
+        "text": "Which of the following is a benefit of client-side discovery for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can monitor their own routing and performance"
+            },
+            {
+                "letter": "B",
+                "text": "Registry handles all monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Clients have no visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Monitoring is centralized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can monitor their own routing and performance metrics, improving observability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0033",
+        "text": "Which of the following is a benefit of client-side discovery for independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients operate independently without a central router"
+            },
+            {
+                "letter": "B",
+                "text": "Clients depend on a single proxy"
+            },
+            {
+                "letter": "C",
+                "text": "Clients share routing logic"
+            },
+            {
+                "letter": "D",
+                "text": "Clients require manual routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients operate independently without relying on a central router or proxy."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0034",
+        "text": "Which of the following is a benefit of client-side discovery for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Routing load is distributed across clients"
+            },
+            {
+                "letter": "B",
+                "text": "All routing is centralized"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a single load balancer"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Routing load is distributed across clients, improving scalability and reducing bottlenecks."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0035",
+        "text": "Which of the following is a benefit of client-side discovery for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients have full visibility into routing decisions"
+            },
+            {
+                "letter": "B",
+                "text": "Routing is hidden from clients"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "D",
+                "text": "Clients cannot monitor routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients have full visibility into routing decisions, improving transparency and debugging."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0036",
+        "text": "Which of the following is a benefit of client-side discovery for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can switch to healthy instances automatically"
+            },
+            {
+                "letter": "B",
+                "text": "Clients always use the same instance"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Clients ignore registry updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can automatically switch to healthy instances, improving reliability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0037",
+        "text": "Which of the following is a benefit of client-side discovery for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can evolve routing logic independently"
+            },
+            {
+                "letter": "B",
+                "text": "All clients share the same routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Routing logic is fixed"
+            },
+            {
+                "letter": "D",
+                "text": "Clients depend on a central router"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can evolve and improve their routing logic independently, supporting continuous improvement."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0038",
+        "text": "Which of the following is a benefit of client-side discovery for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one client do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All clients share the same routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "D",
+                "text": "Clients share the same cache"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each client operates independently, so failures in one do not affect others."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0039",
+        "text": "Which of the following is a benefit of client-side discovery for adaptability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can adapt routing logic to network conditions"
+            },
+            {
+                "letter": "B",
+                "text": "Clients depend on static routing"
+            },
+            {
+                "letter": "C",
+                "text": "Clients cannot modify routing"
+            },
+            {
+                "letter": "D",
+                "text": "Clients use fixed endpoints"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can adapt routing logic dynamically based on network conditions and performance metrics."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0040",
+        "text": "Which of the following is a benefit of client-side discovery for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients make independent routing decisions"
+            },
+            {
+                "letter": "B",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "C",
+                "text": "Clients share routing logic"
+            },
+            {
+                "letter": "D",
+                "text": "Clients require manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery gives clients autonomy to make independent routing decisions based on registry data."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0041",
+        "text": "Which of the following is a benefit of client-side discovery for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can choose the nearest or least-loaded instance"
+            },
+            {
+                "letter": "B",
+                "text": "All requests go through a central proxy"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on static routing"
+            },
+            {
+                "letter": "D",
+                "text": "Clients always use the same instance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery allows clients to select the nearest or least-loaded instance, optimizing performance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0042",
+        "text": "Which of the following is a benefit of client-side discovery for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients have full visibility into routing decisions"
+            },
+            {
+                "letter": "B",
+                "text": "Routing is hidden from clients"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "D",
+                "text": "Clients cannot monitor routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients have full visibility into routing decisions, improving transparency and debugging."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0043",
+        "text": "Which of the following is a benefit of client-side discovery for business continuity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can reroute requests during failures"
+            },
+            {
+                "letter": "B",
+                "text": "Clients depend on a single router"
+            },
+            {
+                "letter": "C",
+                "text": "Clients stop processing during failures"
+            },
+            {
+                "letter": "D",
+                "text": "Clients require manual intervention"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can reroute requests to healthy instances during failures, ensuring business continuity."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0044",
+        "text": "Which of the following is a benefit of client-side discovery for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each client implements its own discovery logic"
+            },
+            {
+                "letter": "B",
+                "text": "All clients share the same discovery logic"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "D",
+                "text": "Clients use static IPs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each client can implement its own discovery logic, improving modularity and flexibility."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0045",
+        "text": "Which of the following is a benefit of client-side discovery for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can update routing logic independently"
+            },
+            {
+                "letter": "B",
+                "text": "All clients must update together"
+            },
+            {
+                "letter": "C",
+                "text": "Routing logic is fixed"
+            },
+            {
+                "letter": "D",
+                "text": "Clients depend on a central router"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can update routing logic independently, supporting continuous delivery and deployment."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0046",
+        "text": "Which of the following is a benefit of client-side discovery for alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aligns routing logic with client-specific needs"
+            },
+            {
+                "letter": "B",
+                "text": "Separates routing from client behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on backend layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side discovery aligns routing logic with client-specific needs and performance goals."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0047",
+        "text": "Which of the following is a benefit of client-side discovery for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can experiment with new routing algorithms"
+            },
+            {
+                "letter": "B",
+                "text": "Routing logic is fixed"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a central router"
+            },
+            {
+                "letter": "D",
+                "text": "Clients cannot modify routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can experiment with new routing algorithms independently, fostering innovation."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0048",
+        "text": "Which of the following is a benefit of client-side discovery for accountability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each client is responsible for its own routing logic"
+            },
+            {
+                "letter": "B",
+                "text": "Routing is shared across all clients"
+            },
+            {
+                "letter": "C",
+                "text": "Routing is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "No accountability boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each client is responsible for its own routing logic, ensuring accountability and ownership."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0049",
+        "text": "Which of the following is a benefit of client-side discovery for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients can detect and avoid unhealthy instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients always use the same instance"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Clients ignore registry updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients can detect and avoid unhealthy instances, improving reliability and uptime."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryClientSide - Q0050",
+        "text": "Which of the following best describes the purpose of client-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To enable clients to discover and connect directly to service instances using a registry"
+            },
+            {
+                "letter": "B",
+                "text": "To centralize all routing decisions"
+            },
+            {
+                "letter": "C",
+                "text": "To replace the API Gateway"
+            },
+            {
+                "letter": "D",
+                "text": "To store application data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The purpose of client-side discovery is to enable clients to discover and connect directly to service instances using a registry."
+    }
+]

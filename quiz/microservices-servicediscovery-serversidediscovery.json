@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0001",
+        "text": "What is the main purpose of server-side service discovery in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To delegate service instance selection to a load balancer or router"
+            },
+            {
+                "letter": "B",
+                "text": "To let clients directly locate service instances"
+            },
+            {
+                "letter": "C",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "D",
+                "text": "To manage database connections"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In server-side discovery, the load balancer or router selects the appropriate service instance on behalf of the client."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0002",
+        "text": "Which component is responsible for routing requests in server-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer or API Gateway"
+            },
+            {
+                "letter": "B",
+                "text": "Client application"
+            },
+            {
+                "letter": "C",
+                "text": "Database"
+            },
+            {
+                "letter": "D",
+                "text": "Message broker"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A load balancer or API Gateway routes client requests to available service instances in server-side discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0003",
+        "text": "In server-side discovery, who queries the service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The load balancer or router"
+            },
+            {
+                "letter": "B",
+                "text": "The client"
+            },
+            {
+                "letter": "C",
+                "text": "The database"
+            },
+            {
+                "letter": "D",
+                "text": "The message queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer or router queries the service registry to find available service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0004",
+        "text": "Which of the following best describes the workflow of server-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Client sends request → Load balancer queries registry → Routes to instance"
+            },
+            {
+                "letter": "B",
+                "text": "Client queries registry → Selects instance → Sends request"
+            },
+            {
+                "letter": "C",
+                "text": "Registry queries client → Sends response"
+            },
+            {
+                "letter": "D",
+                "text": "Client queries database → Sends request"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In server-side discovery, the client sends a request to a load balancer, which queries the registry and routes the request."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0005",
+        "text": "Which of the following is a common tool used for server-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AWS Elastic Load Balancer (ELB)"
+            },
+            {
+                "letter": "B",
+                "text": "Netflix Ribbon"
+            },
+            {
+                "letter": "C",
+                "text": "Consul client library"
+            },
+            {
+                "letter": "D",
+                "text": "Spring Cloud LoadBalancer"
+            }
+        ],
+        "correct": "A",
+        "explanation": "AWS Elastic Load Balancer (ELB) is a common example of a server-side discovery mechanism."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0006",
+        "text": "Which of the following is a key advantage of server-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies client logic"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates the need for a load balancer"
+            },
+            {
+                "letter": "C",
+                "text": "Removes the need for a registry"
+            },
+            {
+                "letter": "D",
+                "text": "Requires clients to manage routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery simplifies client logic because the client does not need to handle service discovery or load balancing."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0007",
+        "text": "Which of the following is a disadvantage of server-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Introduces an additional network hop"
+            },
+            {
+                "letter": "B",
+                "text": "Requires clients to manage routing"
+            },
+            {
+                "letter": "C",
+                "text": "Increases client complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery introduces an additional network hop because requests go through a load balancer or gateway."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0008",
+        "text": "Which of the following best describes the role of the service registry?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintains a list of available service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Executes client requests"
+            },
+            {
+                "letter": "C",
+                "text": "Balances network traffic"
+            },
+            {
+                "letter": "D",
+                "text": "Stores application logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The service registry maintains a list of available service instances and their network locations."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0009",
+        "text": "Which of the following is a benefit of server-side discovery for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer distributes traffic across instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients handle all routing"
+            },
+            {
+                "letter": "C",
+                "text": "Registry stores all data"
+            },
+            {
+                "letter": "D",
+                "text": "Clients connect directly to instances"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer distributes traffic across service instances, improving scalability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0010",
+        "text": "Which of the following is a benefit of server-side discovery for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients are decoupled from service instance details"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must manage service endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Clients store instance IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Clients handle load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery decouples clients from service instance details, simplifying maintenance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0011",
+        "text": "Which of the following is a benefit of server-side discovery for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer can avoid unhealthy instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients retry failed requests manually"
+            },
+            {
+                "letter": "C",
+                "text": "Registry handles all retries"
+            },
+            {
+                "letter": "D",
+                "text": "Clients use static IPs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer can detect and avoid unhealthy instances, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0012",
+        "text": "Which of the following is a common registry used in server-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Consul"
+            },
+            {
+                "letter": "B",
+                "text": "Kafka"
+            },
+            {
+                "letter": "C",
+                "text": "MongoDB"
+            },
+            {
+                "letter": "D",
+                "text": "Redis"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Consul is a popular service registry that supports both client-side and server-side discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0013",
+        "text": "Which of the following is a benefit of server-side discovery for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients do not directly access service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients manage authentication"
+            },
+            {
+                "letter": "C",
+                "text": "Clients store credentials"
+            },
+            {
+                "letter": "D",
+                "text": "Clients bypass the gateway"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery improves security by preventing clients from directly accessing service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0014",
+        "text": "Which of the following is a challenge of server-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer becomes a potential bottleneck"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must handle discovery logic"
+            },
+            {
+                "letter": "C",
+                "text": "Registry cannot scale"
+            },
+            {
+                "letter": "D",
+                "text": "Clients must store IPs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer can become a bottleneck if not properly scaled or configured."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0015",
+        "text": "Which of the following is a benefit of server-side discovery for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer optimizes routing decisions"
+            },
+            {
+                "letter": "B",
+                "text": "Clients handle all routing"
+            },
+            {
+                "letter": "C",
+                "text": "Registry stores performance metrics"
+            },
+            {
+                "letter": "D",
+                "text": "Clients use static endpoints"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer optimizes routing decisions to improve performance and reduce latency."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0016",
+        "text": "Which of the following is a benefit of server-side discovery for simplicity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients are unaware of service topology"
+            },
+            {
+                "letter": "B",
+                "text": "Clients manage routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Clients query the registry directly"
+            },
+            {
+                "letter": "D",
+                "text": "Clients store instance IPs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery simplifies clients by hiding service topology and routing logic."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0017",
+        "text": "Which of the following is a benefit of server-side discovery for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized routing logic simplifies updates"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must update routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Each client maintains its own registry"
+            },
+            {
+                "letter": "D",
+                "text": "Clients handle load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Centralized routing logic in the load balancer simplifies maintenance and updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0018",
+        "text": "Which of the following is a benefit of server-side discovery for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer can scale horizontally"
+            },
+            {
+                "letter": "B",
+                "text": "Clients handle all routing"
+            },
+            {
+                "letter": "C",
+                "text": "Registry stores all data"
+            },
+            {
+                "letter": "D",
+                "text": "Clients connect directly to instances"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Load balancers can scale horizontally to handle increased traffic and maintain performance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0019",
+        "text": "Which of the following is a benefit of server-side discovery for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one service do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "Clients share routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a single router"
+            },
+            {
+                "letter": "D",
+                "text": "Clients share the same cache"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery isolates faults by routing around failed instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0020",
+        "text": "Which of the following best describes the outcome of using server-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients send requests to a load balancer that routes to service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients directly discover and connect to service instances"
+            },
+            {
+                "letter": "C",
+                "text": "Clients use static IPs for all services"
+            },
+            {
+                "letter": "D",
+                "text": "Clients communicate only through the registry"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In server-side discovery, clients send requests to a load balancer, which routes them to available service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0021",
+        "text": "Which of the following is a benefit of server-side discovery for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients never directly access service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients manage authentication"
+            },
+            {
+                "letter": "C",
+                "text": "Clients store credentials"
+            },
+            {
+                "letter": "D",
+                "text": "Clients bypass the gateway"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery improves security by preventing clients from directly accessing service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0022",
+        "text": "Which of the following is a common registry used with server-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Eureka"
+            },
+            {
+                "letter": "B",
+                "text": "Kafka"
+            },
+            {
+                "letter": "C",
+                "text": "MongoDB"
+            },
+            {
+                "letter": "D",
+                "text": "Redis"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Netflix Eureka is a popular service registry that supports server-side discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0023",
+        "text": "Which of the following is a benefit of server-side discovery for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer can choose the nearest or least-loaded instance"
+            },
+            {
+                "letter": "B",
+                "text": "Clients always use the same instance"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on static routing"
+            },
+            {
+                "letter": "D",
+                "text": "Clients handle routing manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer optimizes performance by selecting the nearest or least-loaded instance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0024",
+        "text": "Which of the following is a challenge of server-side discovery for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer must scale with traffic"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must handle routing"
+            },
+            {
+                "letter": "C",
+                "text": "Registry cannot scale"
+            },
+            {
+                "letter": "D",
+                "text": "Clients store IPs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer must scale with traffic to avoid becoming a bottleneck."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0025",
+        "text": "Which of the following is a benefit of server-side discovery for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized routing logic simplifies updates"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must update routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Each client maintains its own registry"
+            },
+            {
+                "letter": "D",
+                "text": "Clients handle load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Centralized routing logic in the load balancer simplifies maintenance and updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0026",
+        "text": "Which of the following is a benefit of server-side discovery for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer can reroute traffic away from failed instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients retry failed requests manually"
+            },
+            {
+                "letter": "C",
+                "text": "Registry handles all retries"
+            },
+            {
+                "letter": "D",
+                "text": "Clients use static IPs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer can reroute traffic away from failed instances, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0027",
+        "text": "Which of the following is a benefit of server-side discovery for simplicity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients are unaware of service topology"
+            },
+            {
+                "letter": "B",
+                "text": "Clients manage routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Clients query the registry directly"
+            },
+            {
+                "letter": "D",
+                "text": "Clients store instance IPs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery simplifies clients by hiding service topology and routing logic."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0028",
+        "text": "Which of the following is a benefit of server-side discovery for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized routing allows unified monitoring"
+            },
+            {
+                "letter": "B",
+                "text": "Clients monitor their own routing"
+            },
+            {
+                "letter": "C",
+                "text": "Registry handles all metrics"
+            },
+            {
+                "letter": "D",
+                "text": "Clients have no visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Centralized routing through a load balancer allows unified monitoring and observability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0029",
+        "text": "Which of the following is a benefit of server-side discovery for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer ensures requests reach healthy instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients always use the same instance"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Clients ignore registry updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer ensures requests are routed only to healthy instances, improving reliability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0030",
+        "text": "Which of the following is a benefit of server-side discovery for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients never directly access service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients manage authentication"
+            },
+            {
+                "letter": "C",
+                "text": "Clients store credentials"
+            },
+            {
+                "letter": "D",
+                "text": "Clients bypass the gateway"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery improves security by preventing clients from directly accessing service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0031",
+        "text": "Which of the following is a benefit of server-side discovery for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer can scale horizontally"
+            },
+            {
+                "letter": "B",
+                "text": "Clients handle all routing"
+            },
+            {
+                "letter": "C",
+                "text": "Registry stores all data"
+            },
+            {
+                "letter": "D",
+                "text": "Clients connect directly to instances"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Load balancers can scale horizontally to handle increased traffic and maintain performance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0032",
+        "text": "Which of the following is a benefit of server-side discovery for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized routing logic simplifies updates"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must update routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Each client maintains its own registry"
+            },
+            {
+                "letter": "D",
+                "text": "Clients handle load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Centralized routing logic in the load balancer simplifies maintenance and updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0033",
+        "text": "Which of the following is a benefit of server-side discovery for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in one service do not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "Clients share routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on a single router"
+            },
+            {
+                "letter": "D",
+                "text": "Clients share the same cache"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery isolates faults by routing around failed instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0034",
+        "text": "Which of the following is a benefit of server-side discovery for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized routing provides visibility into traffic flow"
+            },
+            {
+                "letter": "B",
+                "text": "Routing is hidden from monitoring tools"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manage routing visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Clients have no access to metrics"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Centralized routing provides visibility into traffic flow and system performance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0035",
+        "text": "Which of the following is a benefit of server-side discovery for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Routing changes can be deployed independently"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must redeploy for routing changes"
+            },
+            {
+                "letter": "C",
+                "text": "Routing logic is fixed"
+            },
+            {
+                "letter": "D",
+                "text": "Clients depend on static endpoints"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Routing changes can be deployed independently of clients, supporting continuous delivery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0036",
+        "text": "Which of the following is a benefit of server-side discovery for adaptability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer can adapt routing based on traffic patterns"
+            },
+            {
+                "letter": "B",
+                "text": "Clients use static routing"
+            },
+            {
+                "letter": "C",
+                "text": "Clients cannot modify routing"
+            },
+            {
+                "letter": "D",
+                "text": "Clients use fixed endpoints"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer can adapt routing dynamically based on traffic patterns and performance metrics."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0037",
+        "text": "Which of the following is a benefit of server-side discovery for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients are independent of service topology"
+            },
+            {
+                "letter": "B",
+                "text": "Clients manage routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Clients query the registry directly"
+            },
+            {
+                "letter": "D",
+                "text": "Clients store instance IPs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Clients are independent of service topology, as routing is handled by the load balancer."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0038",
+        "text": "Which of the following is a benefit of server-side discovery for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Routing logic can evolve without client changes"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must update routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Routing logic is fixed"
+            },
+            {
+                "letter": "D",
+                "text": "Clients depend on static endpoints"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Routing logic can evolve independently of clients, fostering innovation and flexibility."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0039",
+        "text": "Which of the following is a benefit of server-side discovery for accountability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Routing responsibility is centralized in the load balancer"
+            },
+            {
+                "letter": "B",
+                "text": "Clients share routing responsibility"
+            },
+            {
+                "letter": "C",
+                "text": "Routing is distributed across clients"
+            },
+            {
+                "letter": "D",
+                "text": "No accountability boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Routing responsibility is centralized in the load balancer, ensuring clear accountability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0040",
+        "text": "Which of the following is a benefit of server-side discovery for alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aligns routing logic with infrastructure policies"
+            },
+            {
+                "letter": "B",
+                "text": "Separates routing from infrastructure"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on backend layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery aligns routing logic with infrastructure and operational policies."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0041",
+        "text": "Which of the following is a benefit of server-side discovery for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized routing provides visibility into traffic flow"
+            },
+            {
+                "letter": "B",
+                "text": "Routing is hidden from monitoring tools"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manage routing visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Clients have no access to metrics"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Centralized routing provides visibility into traffic flow and system performance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0042",
+        "text": "Which of the following is a benefit of server-side discovery for business continuity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer reroutes traffic during failures"
+            },
+            {
+                "letter": "B",
+                "text": "Clients stop processing during failures"
+            },
+            {
+                "letter": "C",
+                "text": "Clients require manual intervention"
+            },
+            {
+                "letter": "D",
+                "text": "Clients depend on static endpoints"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer reroutes traffic to healthy instances during failures, ensuring business continuity."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0043",
+        "text": "Which of the following is a benefit of server-side discovery for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Routing logic is modular and centralized"
+            },
+            {
+                "letter": "B",
+                "text": "Clients share routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Routing is distributed across clients"
+            },
+            {
+                "letter": "D",
+                "text": "Clients manage routing manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Routing logic is modular and centralized, improving maintainability and clarity."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0044",
+        "text": "Which of the following is a benefit of server-side discovery for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer can choose the nearest or least-loaded instance"
+            },
+            {
+                "letter": "B",
+                "text": "Clients always use the same instance"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on static routing"
+            },
+            {
+                "letter": "D",
+                "text": "Clients handle routing manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer optimizes performance by selecting the nearest or least-loaded instance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0045",
+        "text": "Which of the following is a benefit of server-side discovery for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer ensures requests reach healthy instances"
+            },
+            {
+                "letter": "B",
+                "text": "Clients always use the same instance"
+            },
+            {
+                "letter": "C",
+                "text": "Clients depend on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Clients ignore registry updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The load balancer ensures requests are routed only to healthy instances, improving reliability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0046",
+        "text": "Which of the following is a benefit of server-side discovery for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Routing logic can evolve independently of clients"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must update routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Routing logic is fixed"
+            },
+            {
+                "letter": "D",
+                "text": "Clients depend on static endpoints"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Routing logic can evolve independently of clients, supporting continuous improvement."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0047",
+        "text": "Which of the following is a benefit of server-side discovery for accountability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Routing responsibility is centralized in the load balancer"
+            },
+            {
+                "letter": "B",
+                "text": "Clients share routing responsibility"
+            },
+            {
+                "letter": "C",
+                "text": "Routing is distributed across clients"
+            },
+            {
+                "letter": "D",
+                "text": "No accountability boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Routing responsibility is centralized in the load balancer, ensuring clear accountability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0048",
+        "text": "Which of the following is a benefit of server-side discovery for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Routing logic can evolve without client changes"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must update routing logic"
+            },
+            {
+                "letter": "C",
+                "text": "Routing logic is fixed"
+            },
+            {
+                "letter": "D",
+                "text": "Clients depend on static endpoints"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Routing logic can evolve independently of clients, fostering innovation and flexibility."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0049",
+        "text": "Which of the following is a benefit of server-side discovery for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Load balancer can scale horizontally"
+            },
+            {
+                "letter": "B",
+                "text": "Clients handle all routing"
+            },
+            {
+                "letter": "C",
+                "text": "Registry stores all data"
+            },
+            {
+                "letter": "D",
+                "text": "Clients connect directly to instances"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Load balancers can scale horizontally to handle increased traffic and maintain performance."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryServerSide - Q0050",
+        "text": "Which of the following best describes the purpose of server-side discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To delegate service instance selection to a load balancer or router"
+            },
+            {
+                "letter": "B",
+                "text": "To let clients directly locate service instances"
+            },
+            {
+                "letter": "C",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "D",
+                "text": "To manage database connections"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side discovery delegates service instance selection to a load balancer or router, simplifying client logic."
+    }
+]

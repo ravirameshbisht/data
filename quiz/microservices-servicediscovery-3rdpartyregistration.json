@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0001",
+        "text": "What is the main purpose of third-party registration in microservices service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To delegate service registration to an external component"
+            },
+            {
+                "letter": "B",
+                "text": "To allow services to register themselves"
+            },
+            {
+                "letter": "C",
+                "text": "To let clients manually register services"
+            },
+            {
+                "letter": "D",
+                "text": "To store user credentials"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration delegates the responsibility of registering and deregistering services to an external component such as an orchestrator or agent."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0002",
+        "text": "Which component typically handles registration in third-party registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An external service or agent"
+            },
+            {
+                "letter": "B",
+                "text": "The service instance itself"
+            },
+            {
+                "letter": "C",
+                "text": "The client application"
+            },
+            {
+                "letter": "D",
+                "text": "The API Gateway"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In third-party registration, an external service or agent handles the registration and deregistration of service instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0003",
+        "text": "Which of the following best describes the workflow of third-party registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "External agent detects service → Registers it → Monitors health"
+            },
+            {
+                "letter": "B",
+                "text": "Service starts → Registers itself → Sends heartbeats"
+            },
+            {
+                "letter": "C",
+                "text": "Client starts → Registers service → Sends requests"
+            },
+            {
+                "letter": "D",
+                "text": "Registry starts → Registers all services manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In third-party registration, an external agent detects running services, registers them, and monitors their health."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0004",
+        "text": "Which of the following is a common tool that supports third-party registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Kubernetes"
+            },
+            {
+                "letter": "B",
+                "text": "Netflix Eureka"
+            },
+            {
+                "letter": "C",
+                "text": "Spring Boot"
+            },
+            {
+                "letter": "D",
+                "text": "Redis"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Kubernetes supports third-party registration by automatically managing service registration through its control plane."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0005",
+        "text": "Which of the following is a key advantage of third-party registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies service logic by offloading registration"
+            },
+            {
+                "letter": "B",
+                "text": "Requires each service to manage registration"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates the need for a registry"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes registration logic in services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration simplifies service logic by offloading registration responsibilities to an external component."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0006",
+        "text": "Which of the following is a disadvantage of third-party registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Adds dependency on external components"
+            },
+            {
+                "letter": "B",
+                "text": "Increases service complexity"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual registration"
+            },
+            {
+                "letter": "D",
+                "text": "Removes automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration introduces dependency on external components like orchestrators or agents."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0007",
+        "text": "Which of the following is a key responsibility of the third-party component?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Registering and deregistering services with the registry"
+            },
+            {
+                "letter": "B",
+                "text": "Handling client routing"
+            },
+            {
+                "letter": "C",
+                "text": "Managing database connections"
+            },
+            {
+                "letter": "D",
+                "text": "Storing registry data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The third-party component is responsible for registering and deregistering services with the registry."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0008",
+        "text": "Which of the following is a benefit of third-party registration for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically registers services when they start"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual registration"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration automates service registration when new instances start."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0009",
+        "text": "Which of the following is a benefit of third-party registration for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration supports dynamic scaling by automatically registering new instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0010",
+        "text": "Which of the following is a challenge of third-party registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "External component must remain highly available"
+            },
+            {
+                "letter": "B",
+                "text": "Services must handle registration manually"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manage registration"
+            },
+            {
+                "letter": "D",
+                "text": "No need for error handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The external component must remain highly available to ensure continuous registration and discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0011",
+        "text": "Which of the following is a benefit of third-party registration for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically deregisters failed instances"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual deregistration"
+            },
+            {
+                "letter": "C",
+                "text": "Ignores failed instances"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration improves fault tolerance by automatically deregistering failed instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0012",
+        "text": "Which of the following is a common health check mechanism used in third-party registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Agent-based health monitoring"
+            },
+            {
+                "letter": "B",
+                "text": "Manual verification"
+            },
+            {
+                "letter": "C",
+                "text": "Static configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Database polling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration often uses agent-based health monitoring to track service health."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0013",
+        "text": "Which of the following is a benefit of third-party registration for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralizes registration logic in one component"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes registration logic across services"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "D",
+                "text": "Stores user data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration centralizes registration logic, simplifying maintenance and updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0014",
+        "text": "Which of the following is a benefit of third-party registration for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures registry always reflects active instances"
+            },
+            {
+                "letter": "B",
+                "text": "Allows stale entries to persist"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration ensures the registry always reflects active instances through automated updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0015",
+        "text": "Which of the following is a benefit of third-party registration for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically registers and deregisters services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual service registration"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0016",
+        "text": "Which of the following is a challenge of third-party registration for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "External agent must authenticate with the registry"
+            },
+            {
+                "letter": "B",
+                "text": "Registry handles all authentication"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manage authentication"
+            },
+            {
+                "letter": "D",
+                "text": "No authentication required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In third-party registration, the external agent must authenticate with the registry to prevent unauthorized access."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0017",
+        "text": "Which of the following is a benefit of third-party registration for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration supports dynamic scaling by automatically registering new instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0018",
+        "text": "Which of the following is a benefit of third-party registration for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces service overhead by offloading registration"
+            },
+            {
+                "letter": "B",
+                "text": "Adds extra network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Increases client complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration reduces service overhead by offloading registration tasks to an external component."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0019",
+        "text": "Which of the following is a challenge of third-party registration for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "External agent must handle registry unavailability"
+            },
+            {
+                "letter": "B",
+                "text": "Services must handle registration manually"
+            },
+            {
+                "letter": "C",
+                "text": "Clients handle retries"
+            },
+            {
+                "letter": "D",
+                "text": "No retry mechanism needed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The external agent must handle registry unavailability and retry registration to maintain consistency."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0020",
+        "text": "Which of the following best describes the outcome of using third-party registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An external component automatically registers and deregisters services"
+            },
+            {
+                "letter": "B",
+                "text": "Services manually register themselves"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manually register services"
+            },
+            {
+                "letter": "D",
+                "text": "Registry manually updates entries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration enables an external component to automatically register and deregister services with the registry."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0021",
+        "text": "Which of the following is a benefit of third-party registration for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically updates service availability in the registry"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration automatically updates service availability as instances start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0022",
+        "text": "Which of the following is a benefit of third-party registration for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by centralizing registration logic"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual maintenance"
+            },
+            {
+                "letter": "C",
+                "text": "Distributes registration logic across services"
+            },
+            {
+                "letter": "D",
+                "text": "Stores user data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration simplifies maintenance by centralizing registration logic in one component."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0023",
+        "text": "Which of the following is a benefit of third-party registration for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures registry reflects only active instances"
+            },
+            {
+                "letter": "B",
+                "text": "Allows stale entries to persist"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration ensures the registry reflects only active instances through automated updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0024",
+        "text": "Which of the following is a challenge of third-party registration for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "External agent must authenticate with the registry"
+            },
+            {
+                "letter": "B",
+                "text": "Registry handles all authentication"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manage authentication"
+            },
+            {
+                "letter": "D",
+                "text": "No authentication required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In third-party registration, the external agent must authenticate with the registry to prevent unauthorized access."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0025",
+        "text": "Which of the following is a benefit of third-party registration for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration supports dynamic scaling by automatically registering new instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0026",
+        "text": "Which of the following is a benefit of third-party registration for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces service overhead by offloading registration"
+            },
+            {
+                "letter": "B",
+                "text": "Adds extra network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Increases client complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration reduces service overhead by offloading registration tasks to an external component."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0027",
+        "text": "Which of the following is a challenge of third-party registration for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "External agent must handle registry unavailability"
+            },
+            {
+                "letter": "B",
+                "text": "Services must handle registration manually"
+            },
+            {
+                "letter": "C",
+                "text": "Clients handle retries"
+            },
+            {
+                "letter": "D",
+                "text": "No retry mechanism needed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The external agent must handle registry unavailability and retry registration to maintain consistency."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0028",
+        "text": "Which of the following is a benefit of third-party registration for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into registered services and their health"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service status from monitoring tools"
+            },
+            {
+                "letter": "C",
+                "text": "Stores logs only"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration provides visibility into registered services and their health status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0029",
+        "text": "Which of the following is a benefit of third-party registration for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Removes failed instances without affecting others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Registry stops all services"
+            },
+            {
+                "letter": "D",
+                "text": "Clients must manually isolate faults"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration isolates faults by removing failed instances without affecting others."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0030",
+        "text": "Which of the following is a benefit of third-party registration for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a clear view of all active service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration provides transparency by showing all active service instances and their status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0031",
+        "text": "Which of the following is a benefit of third-party registration for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows new services to register automatically after deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual registration after deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents new services from registering"
+            },
+            {
+                "letter": "D",
+                "text": "Requires static configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration supports continuous delivery by allowing new services to register automatically after deployment."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0032",
+        "text": "Which of the following is a benefit of third-party registration for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports both client-side and server-side discovery"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a fixed discovery model"
+            },
+            {
+                "letter": "C",
+                "text": "Supports only static discovery"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration supports both client-side and server-side discovery, providing flexibility."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0033",
+        "text": "Which of the following is a benefit of third-party registration for adaptability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Adapts dynamically to service scaling and failures"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Ignores service changes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration adapts dynamically to service scaling and failures, ensuring up-to-date discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0034",
+        "text": "Which of the following is a benefit of third-party registration for alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aligns service discovery with infrastructure automation"
+            },
+            {
+                "letter": "B",
+                "text": "Separates discovery from infrastructure"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on backend layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration aligns service discovery with infrastructure automation and orchestration tools."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0035",
+        "text": "Which of the following is a benefit of third-party registration for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables experimentation with new discovery mechanisms"
+            },
+            {
+                "letter": "B",
+                "text": "Fixes discovery logic permanently"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents new discovery models"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration enables experimentation with new discovery mechanisms and integration patterns."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0036",
+        "text": "Which of the following is a benefit of third-party registration for accountability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracks service registration and health status"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service registration details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration tracks service registration and health status, ensuring accountability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0037",
+        "text": "Which of the following is a benefit of third-party registration for business continuity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures continuous service discovery during scaling or failures"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual intervention during failures"
+            },
+            {
+                "letter": "C",
+                "text": "Stops discovery during scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on static configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration ensures continuous service discovery during scaling or failures, supporting business continuity."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0038",
+        "text": "Which of the following is a benefit of third-party registration for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates discovery logic from business logic"
+            },
+            {
+                "letter": "B",
+                "text": "Combines discovery and business logic"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration separates discovery logic from business logic, improving modularity."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0039",
+        "text": "Which of the following is a benefit of third-party registration for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows incremental updates to discovery mechanisms"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full redeployment for updates"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents discovery updates"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on static configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration allows incremental updates to discovery mechanisms, supporting continuous improvement."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0040",
+        "text": "Which of the following is a benefit of third-party registration for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures registry reflects only active instances"
+            },
+            {
+                "letter": "B",
+                "text": "Allows stale entries to persist"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration ensures the registry reflects only active instances through automatic updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0041",
+        "text": "Which of the following is a benefit of third-party registration for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration supports dynamic scaling by automatically registering new instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0042",
+        "text": "Which of the following is a benefit of third-party registration for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces service overhead by offloading registration"
+            },
+            {
+                "letter": "B",
+                "text": "Adds extra network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Increases client complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration reduces service overhead by offloading registration tasks to an external component."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0043",
+        "text": "Which of the following is a benefit of third-party registration for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a clear view of all active service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration provides transparency by showing all active service instances and their status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0044",
+        "text": "Which of the following is a benefit of third-party registration for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically deregisters failed instances"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual deregistration"
+            },
+            {
+                "letter": "C",
+                "text": "Ignores failed instances"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration improves fault tolerance by automatically deregistering failed instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0045",
+        "text": "Which of the following is a benefit of third-party registration for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically registers and deregisters services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual service registration"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0046",
+        "text": "Which of the following is a benefit of third-party registration for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a clear view of all active service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration provides transparency by showing all active service instances and their status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0047",
+        "text": "Which of the following is a benefit of third-party registration for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures registry reflects only active instances"
+            },
+            {
+                "letter": "B",
+                "text": "Allows stale entries to persist"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration ensures the registry reflects only active instances through automatic updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0048",
+        "text": "Which of the following is a benefit of third-party registration for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration supports dynamic scaling by automatically registering new instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0049",
+        "text": "Which of the following is a benefit of third-party registration for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces service overhead by offloading registration"
+            },
+            {
+                "letter": "B",
+                "text": "Adds extra network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Increases client complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration reduces service overhead by offloading registration tasks to an external component."
+    },
+    {
+        "title": "MicroservicesServiceDiscoveryThirdPartyRegistration - Q0050",
+        "text": "Which of the following best describes the purpose of third-party registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To delegate service registration to an external component"
+            },
+            {
+                "letter": "B",
+                "text": "To allow services to register themselves"
+            },
+            {
+                "letter": "C",
+                "text": "To let clients manually register services"
+            },
+            {
+                "letter": "D",
+                "text": "To store user credentials"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Third-party registration delegates the responsibility of registering and deregistering services to an external component such as an orchestrator or agent."
+    }
+]

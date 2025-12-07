@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0001",
+        "text": "What is the main purpose of self-registration in microservices service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To allow services to register themselves with the service registry"
+            },
+            {
+                "letter": "B",
+                "text": "To let clients manually register services"
+            },
+            {
+                "letter": "C",
+                "text": "To store user credentials"
+            },
+            {
+                "letter": "D",
+                "text": "To manage database connections"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration allows each service instance to automatically register itself with the service registry when it starts."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0002",
+        "text": "Which component is responsible for registering a service in self-registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The service instance itself"
+            },
+            {
+                "letter": "B",
+                "text": "The load balancer"
+            },
+            {
+                "letter": "C",
+                "text": "The API Gateway"
+            },
+            {
+                "letter": "D",
+                "text": "The client application"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In self-registration, each service instance is responsible for registering itself with the registry."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0003",
+        "text": "Which of the following best describes the workflow of self-registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Service starts → Registers itself → Sends heartbeats"
+            },
+            {
+                "letter": "B",
+                "text": "Client starts → Registers service → Sends requests"
+            },
+            {
+                "letter": "C",
+                "text": "Registry starts → Registers all services manually"
+            },
+            {
+                "letter": "D",
+                "text": "Load balancer starts → Registers clients"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In self-registration, the service registers itself with the registry and maintains its status via heartbeats."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0004",
+        "text": "Which of the following is a common tool that supports self-registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Netflix Eureka"
+            },
+            {
+                "letter": "B",
+                "text": "Apache Kafka"
+            },
+            {
+                "letter": "C",
+                "text": "Redis"
+            },
+            {
+                "letter": "D",
+                "text": "PostgreSQL"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Netflix Eureka supports self-registration, allowing services to register and deregister automatically."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0005",
+        "text": "Which of the following is a key advantage of self-registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces manual configuration"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes registration logic"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates the need for a registry"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration reduces manual configuration by allowing services to register automatically."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0006",
+        "text": "Which of the following is a disadvantage of self-registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increases service complexity"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual registration"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration increases service complexity because each service must handle registration logic."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0007",
+        "text": "Which of the following is a key responsibility of a service in self-registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Registering and deregistering itself with the registry"
+            },
+            {
+                "letter": "B",
+                "text": "Managing other services"
+            },
+            {
+                "letter": "C",
+                "text": "Handling client routing"
+            },
+            {
+                "letter": "D",
+                "text": "Storing registry data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service is responsible for registering and deregistering itself with the registry."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0008",
+        "text": "Which of the following is a benefit of self-registration for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically registers services when they start"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual registration"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration automates the process of registering services when they start."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0009",
+        "text": "Which of the following is a benefit of self-registration for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration supports dynamic scaling by allowing new instances to register automatically."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0010",
+        "text": "Which of the following is a challenge of self-registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Service must handle registration failures"
+            },
+            {
+                "letter": "B",
+                "text": "Registry handles all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manage registration"
+            },
+            {
+                "letter": "D",
+                "text": "No need for error handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In self-registration, the service must handle registration failures and retries."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0011",
+        "text": "Which of the following is a benefit of self-registration for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically deregisters failed instances"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual deregistration"
+            },
+            {
+                "letter": "C",
+                "text": "Ignores failed instances"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration improves fault tolerance by automatically deregistering failed instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0012",
+        "text": "Which of the following is a common health check mechanism used in self-registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Heartbeat or periodic health check"
+            },
+            {
+                "letter": "B",
+                "text": "Manual verification"
+            },
+            {
+                "letter": "C",
+                "text": "Static configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Database polling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration uses heartbeats or periodic health checks to maintain registry accuracy."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0013",
+        "text": "Which of the following is a benefit of self-registration for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces manual intervention for service updates"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Stores user data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration reduces manual intervention by automating service updates in the registry."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0014",
+        "text": "Which of the following is a benefit of self-registration for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures registry always reflects active instances"
+            },
+            {
+                "letter": "B",
+                "text": "Allows stale entries to persist"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration ensures the registry always reflects active instances through automatic updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0015",
+        "text": "Which of the following is a benefit of self-registration for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically registers and deregisters services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual service registration"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0016",
+        "text": "Which of the following is a challenge of self-registration for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services must authenticate with the registry"
+            },
+            {
+                "letter": "B",
+                "text": "Registry handles all authentication"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manage authentication"
+            },
+            {
+                "letter": "D",
+                "text": "No authentication required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In self-registration, services must authenticate with the registry to prevent unauthorized registration."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0017",
+        "text": "Which of the following is a benefit of self-registration for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration supports dynamic scaling by allowing new instances to register automatically."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0018",
+        "text": "Which of the following is a benefit of self-registration for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces latency by enabling direct registration"
+            },
+            {
+                "letter": "B",
+                "text": "Adds extra network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Increases client complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration reduces latency by enabling direct registration without intermediaries."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0019",
+        "text": "Which of the following is a challenge of self-registration for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Service must handle registry unavailability"
+            },
+            {
+                "letter": "B",
+                "text": "Registry automatically retries"
+            },
+            {
+                "letter": "C",
+                "text": "Clients handle retries"
+            },
+            {
+                "letter": "D",
+                "text": "No retry mechanism needed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In self-registration, services must handle registry unavailability and retry registration."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0020",
+        "text": "Which of the following best describes the outcome of using self-registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services automatically register and deregister with the registry"
+            },
+            {
+                "letter": "B",
+                "text": "Clients manually register services"
+            },
+            {
+                "letter": "C",
+                "text": "Registry manually updates entries"
+            },
+            {
+                "letter": "D",
+                "text": "Services use static IPs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration enables services to automatically register and deregister with the registry."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0021",
+        "text": "Which of the following is a benefit of self-registration for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically updates service availability in the registry"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual updates"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration automatically updates service availability as instances start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0022",
+        "text": "Which of the following is a benefit of self-registration for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by automating registration"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual maintenance"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Stores user data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration simplifies maintenance by automating the registration process."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0023",
+        "text": "Which of the following is a benefit of self-registration for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures registry reflects only active instances"
+            },
+            {
+                "letter": "B",
+                "text": "Allows stale entries to persist"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration ensures the registry reflects only active instances through automatic updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0024",
+        "text": "Which of the following is a challenge of self-registration for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services must authenticate with the registry"
+            },
+            {
+                "letter": "B",
+                "text": "Registry handles all authentication"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manage authentication"
+            },
+            {
+                "letter": "D",
+                "text": "No authentication required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In self-registration, services must authenticate with the registry to prevent unauthorized registration."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0025",
+        "text": "Which of the following is a benefit of self-registration for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration supports dynamic scaling by allowing new instances to register automatically."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0026",
+        "text": "Which of the following is a benefit of self-registration for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces latency by enabling direct registration"
+            },
+            {
+                "letter": "B",
+                "text": "Adds extra network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Increases client complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration reduces latency by enabling direct registration without intermediaries."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0027",
+        "text": "Which of the following is a challenge of self-registration for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Service must handle registry unavailability"
+            },
+            {
+                "letter": "B",
+                "text": "Registry automatically retries"
+            },
+            {
+                "letter": "C",
+                "text": "Clients handle retries"
+            },
+            {
+                "letter": "D",
+                "text": "No retry mechanism needed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In self-registration, services must handle registry unavailability and retry registration."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0028",
+        "text": "Which of the following is a benefit of self-registration for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically registers and deregisters services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual service registration"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0029",
+        "text": "Which of the following is a benefit of self-registration for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into registered services and their health"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service status from monitoring tools"
+            },
+            {
+                "letter": "C",
+                "text": "Stores logs only"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration provides visibility into registered services and their health status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0030",
+        "text": "Which of the following is a benefit of self-registration for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Removes failed instances without affecting others"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Registry stops all services"
+            },
+            {
+                "letter": "D",
+                "text": "Clients must manually isolate faults"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration isolates faults by removing failed instances without affecting others."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0031",
+        "text": "Which of the following is a benefit of self-registration for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a clear view of all active service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration provides transparency by showing all active service instances and their status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0032",
+        "text": "Which of the following is a benefit of self-registration for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows new services to register automatically after deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual registration after deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents new services from registering"
+            },
+            {
+                "letter": "D",
+                "text": "Requires static configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration supports continuous delivery by allowing new services to register automatically after deployment."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0033",
+        "text": "Which of the following is a benefit of self-registration for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports both client-side and server-side discovery"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a fixed discovery model"
+            },
+            {
+                "letter": "C",
+                "text": "Supports only static discovery"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration supports both client-side and server-side discovery, providing flexibility."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0034",
+        "text": "Which of the following is a benefit of self-registration for adaptability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Adapts dynamically to service scaling and failures"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Ignores service changes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration adapts dynamically to service scaling and failures, ensuring up-to-date discovery."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0035",
+        "text": "Which of the following is a benefit of self-registration for alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aligns service discovery with infrastructure automation"
+            },
+            {
+                "letter": "B",
+                "text": "Separates discovery from infrastructure"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on backend layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration aligns service discovery with infrastructure automation and orchestration tools."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0036",
+        "text": "Which of the following is a benefit of self-registration for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables experimentation with new discovery mechanisms"
+            },
+            {
+                "letter": "B",
+                "text": "Fixes discovery logic permanently"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents new discovery models"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration enables experimentation with new discovery mechanisms and integration patterns."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0037",
+        "text": "Which of the following is a benefit of self-registration for accountability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracks service registration and health status"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service registration details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration tracks service registration and health status, ensuring accountability."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0038",
+        "text": "Which of the following is a benefit of self-registration for business continuity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures continuous service discovery during scaling or failures"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual intervention during failures"
+            },
+            {
+                "letter": "C",
+                "text": "Stops discovery during scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on static configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration ensures continuous service discovery during scaling or failures, supporting business continuity."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0039",
+        "text": "Which of the following is a benefit of self-registration for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates discovery logic from business logic"
+            },
+            {
+                "letter": "B",
+                "text": "Combines discovery and business logic"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration separates discovery logic from business logic, improving modularity."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0040",
+        "text": "Which of the following is a benefit of self-registration for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows incremental updates to discovery mechanisms"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full redeployment for updates"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents discovery updates"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on static configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration allows incremental updates to discovery mechanisms, supporting continuous improvement."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0041",
+        "text": "Which of the following is a benefit of self-registration for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures registry reflects only active instances"
+            },
+            {
+                "letter": "B",
+                "text": "Allows stale entries to persist"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration ensures the registry reflects only active instances through automatic updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0042",
+        "text": "Which of the following is a benefit of self-registration for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration supports dynamic scaling by allowing new instances to register automatically."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0043",
+        "text": "Which of the following is a benefit of self-registration for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces latency by enabling direct registration"
+            },
+            {
+                "letter": "B",
+                "text": "Adds extra network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Increases client complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration reduces latency by enabling direct registration without intermediaries."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0044",
+        "text": "Which of the following is a benefit of self-registration for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a clear view of all active service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration provides transparency by showing all active service instances and their status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0045",
+        "text": "Which of the following is a benefit of self-registration for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically deregisters failed instances"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual deregistration"
+            },
+            {
+                "letter": "C",
+                "text": "Ignores failed instances"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration improves fault tolerance by automatically deregistering failed instances."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0046",
+        "text": "Which of the following is a benefit of self-registration for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically registers and deregisters services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual service registration"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static IPs"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration automates the registration and deregistration of services as they start or stop."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0047",
+        "text": "Which of the following is a benefit of self-registration for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a clear view of all active service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Stores only static data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration provides transparency by showing all active service instances and their status."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0048",
+        "text": "Which of the following is a benefit of self-registration for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures registry reflects only active instances"
+            },
+            {
+                "letter": "B",
+                "text": "Allows stale entries to persist"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual verification"
+            },
+            {
+                "letter": "D",
+                "text": "Stores failed instance logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration ensures the registry reflects only active instances through automatic updates."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0049",
+        "text": "Which of the following is a benefit of self-registration for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits the number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all service logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration supports dynamic scaling by allowing new instances to register automatically."
+    },
+    {
+        "title": "MicroservicesServiceDiscoverySelfRegistration - Q0050",
+        "text": "Which of the following best describes the purpose of self-registration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To allow services to register themselves with the service registry automatically"
+            },
+            {
+                "letter": "B",
+                "text": "To let clients manually register services"
+            },
+            {
+                "letter": "C",
+                "text": "To store user credentials"
+            },
+            {
+                "letter": "D",
+                "text": "To manage database connections"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-registration allows each service instance to automatically register itself with the service registry when it starts."
+    }
+]
