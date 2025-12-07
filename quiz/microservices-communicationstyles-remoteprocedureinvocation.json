@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0001",
+        "text": "What is the primary purpose of Remote Procedure Invocation (RPI) in microservices communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To allow one service to execute a function in another service as if it were local"
+            },
+            {
+                "letter": "B",
+                "text": "To transfer files between services"
+            },
+            {
+                "letter": "C",
+                "text": "To store data in a shared database"
+            },
+            {
+                "letter": "D",
+                "text": "To monitor service health"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI allows a service to invoke a method on another service as if it were a local function call."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0002",
+        "text": "Which of the following protocols is commonly used for RPI in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "gRPC"
+            },
+            {
+                "letter": "B",
+                "text": "SMTP"
+            },
+            {
+                "letter": "C",
+                "text": "FTP"
+            },
+            {
+                "letter": "D",
+                "text": "IMAP"
+            }
+        ],
+        "correct": "A",
+        "explanation": "gRPC is a popular protocol for implementing Remote Procedure Invocation in microservices."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0003",
+        "text": "Which of the following best describes the nature of RPI communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Synchronous request-response"
+            },
+            {
+                "letter": "B",
+                "text": "Asynchronous event-driven"
+            },
+            {
+                "letter": "C",
+                "text": "Batch processing"
+            },
+            {
+                "letter": "D",
+                "text": "Stream-based messaging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI typically follows a synchronous request-response pattern where the caller waits for a response."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0004",
+        "text": "Which of the following is a common challenge with RPI?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tight coupling between services"
+            },
+            {
+                "letter": "B",
+                "text": "Loose coupling between services"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced latency"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified error handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI can lead to tight coupling because services depend on each other’s availability and interfaces."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0005",
+        "text": "Which of the following is a benefit of RPI?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies inter-service communication through well-defined interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates network latency"
+            },
+            {
+                "letter": "C",
+                "text": "Removes the need for service contracts"
+            },
+            {
+                "letter": "D",
+                "text": "Avoids serialization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI simplifies communication by using well-defined interfaces for service interactions."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0006",
+        "text": "Which of the following is a common serialization format used in RPI?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Protocol Buffers"
+            },
+            {
+                "letter": "B",
+                "text": "CSV"
+            },
+            {
+                "letter": "C",
+                "text": "INI"
+            },
+            {
+                "letter": "D",
+                "text": "YAML"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Protocol Buffers are commonly used in RPI frameworks like gRPC for efficient serialization."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0007",
+        "text": "Which of the following is a key characteristic of RPI?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Direct invocation of remote methods"
+            },
+            {
+                "letter": "B",
+                "text": "Message queue-based communication"
+            },
+            {
+                "letter": "C",
+                "text": "Event-driven architecture"
+            },
+            {
+                "letter": "D",
+                "text": "File-based integration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI involves direct invocation of remote methods over the network."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0008",
+        "text": "Which of the following is a disadvantage of RPI?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased latency due to network calls"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced coupling between services"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Improved fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI introduces network latency because each call involves a remote network request."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0009",
+        "text": "Which of the following is a common implementation of RPI in RESTful systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HTTP-based API calls"
+            },
+            {
+                "letter": "B",
+                "text": "Message queues"
+            },
+            {
+                "letter": "C",
+                "text": "File transfers"
+            },
+            {
+                "letter": "D",
+                "text": "Database triggers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HTTP-based API calls are a common form of RPI in RESTful microservices."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0010",
+        "text": "Which of the following is a benefit of using gRPC for RPI?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports bi-directional streaming and efficient binary serialization"
+            },
+            {
+                "letter": "B",
+                "text": "Uses plain text for all communication"
+            },
+            {
+                "letter": "C",
+                "text": "Requires no schema definition"
+            },
+            {
+                "letter": "D",
+                "text": "Does not support multiple languages"
+            }
+        ],
+        "correct": "A",
+        "explanation": "gRPC supports bi-directional streaming and uses Protocol Buffers for efficient binary serialization."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0011",
+        "text": "Which of the following is a key difference between RPI and messaging-based communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RPI is synchronous, while messaging is asynchronous"
+            },
+            {
+                "letter": "B",
+                "text": "RPI is asynchronous, while messaging is synchronous"
+            },
+            {
+                "letter": "C",
+                "text": "Both are asynchronous"
+            },
+            {
+                "letter": "D",
+                "text": "Both are synchronous"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI is typically synchronous, whereas messaging-based communication is asynchronous."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0012",
+        "text": "Which of the following is a common issue when using RPI in distributed systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Network failures causing cascading errors"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced dependency between services"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified retry logic"
+            },
+            {
+                "letter": "D",
+                "text": "Improved fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Network failures in RPI can cause cascading errors if not handled properly."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0013",
+        "text": "Which of the following is a best practice for RPI error handling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Implement retries with exponential backoff"
+            },
+            {
+                "letter": "B",
+                "text": "Retry immediately without delay"
+            },
+            {
+                "letter": "C",
+                "text": "Ignore network errors"
+            },
+            {
+                "letter": "D",
+                "text": "Disable timeouts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Retries with exponential backoff help prevent overwhelming the network during transient failures."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0014",
+        "text": "Which of the following is a benefit of using RPI for service integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a clear contract between services"
+            },
+            {
+                "letter": "B",
+                "text": "Removes the need for contracts"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates versioning"
+            },
+            {
+                "letter": "D",
+                "text": "Avoids schema validation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI enforces clear contracts between services through defined interfaces."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0015",
+        "text": "Which of the following is a common performance optimization for RPI?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Batching multiple requests into one call"
+            },
+            {
+                "letter": "B",
+                "text": "Sending each request separately"
+            },
+            {
+                "letter": "C",
+                "text": "Disabling compression"
+            },
+            {
+                "letter": "D",
+                "text": "Using plain text serialization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Batching multiple requests reduces network overhead and improves performance."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0016",
+        "text": "Which of the following is a benefit of using RPI for synchronous workflows?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures immediate response from dependent services"
+            },
+            {
+                "letter": "B",
+                "text": "Removes dependency on other services"
+            },
+            {
+                "letter": "C",
+                "text": "Avoids blocking calls"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates network latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI ensures immediate responses, making it suitable for synchronous workflows."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0017",
+        "text": "Which of the following is a disadvantage of RPI in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased coupling and reduced resilience"
+            },
+            {
+                "letter": "B",
+                "text": "Improved fault tolerance"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI can increase coupling and reduce resilience due to synchronous dependencies."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0018",
+        "text": "Which of the following is a common mitigation for RPI failures?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Circuit breaker pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database"
+            },
+            {
+                "letter": "C",
+                "text": "Polling mechanism"
+            },
+            {
+                "letter": "D",
+                "text": "Static configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The circuit breaker pattern prevents cascading failures by stopping calls to failing services temporarily."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0019",
+        "text": "Which of the following is a benefit of using RPI with service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically locates service instances at runtime"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual endpoint configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Removes dynamic routing"
+            },
+            {
+                "letter": "D",
+                "text": "Disables load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service discovery allows RPI clients to locate service instances dynamically at runtime."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0020",
+        "text": "Which of the following best describes the purpose of RPI in microservices communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To enable synchronous, contract-based communication between services"
+            },
+            {
+                "letter": "B",
+                "text": "To asynchronously publish events"
+            },
+            {
+                "letter": "C",
+                "text": "To store shared data"
+            },
+            {
+                "letter": "D",
+                "text": "To manage service logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI enables synchronous, contract-based communication between microservices."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0021",
+        "text": "Which of the following is a common transport protocol used in RPI?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HTTP/2"
+            },
+            {
+                "letter": "B",
+                "text": "SMTP"
+            },
+            {
+                "letter": "C",
+                "text": "FTP"
+            },
+            {
+                "letter": "D",
+                "text": "POP3"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HTTP/2 is commonly used in RPI frameworks like gRPC for efficient communication."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0022",
+        "text": "Which of the following is a benefit of using RPI for interoperability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports multiple programming languages"
+            },
+            {
+                "letter": "B",
+                "text": "Restricts communication to one language"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared memory"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates schema definitions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI frameworks like gRPC support multiple languages, improving interoperability."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0023",
+        "text": "Which of the following is a common issue with synchronous RPI calls?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Blocking threads while waiting for responses"
+            },
+            {
+                "letter": "B",
+                "text": "Non-blocking execution"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced latency"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified concurrency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Synchronous RPI calls block threads while waiting for responses, which can reduce scalability."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0024",
+        "text": "Which of the following is a benefit of asynchronous RPI?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves concurrency and responsiveness"
+            },
+            {
+                "letter": "B",
+                "text": "Increases blocking behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies synchronous workflows"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Asynchronous RPI improves concurrency and responsiveness by not blocking threads."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0025",
+        "text": "Which of the following is a common design pattern used with RPI?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "API Gateway pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Event sourcing"
+            },
+            {
+                "letter": "C",
+                "text": "CQRS"
+            },
+            {
+                "letter": "D",
+                "text": "Saga pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The API Gateway pattern is often used to manage and route RPI calls between services."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0026",
+        "text": "Which of the following is a benefit of RPI for service contracts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Defines strict interfaces between services"
+            },
+            {
+                "letter": "B",
+                "text": "Removes interface definitions"
+            },
+            {
+                "letter": "C",
+                "text": "Allows dynamic schema changes"
+            },
+            {
+                "letter": "D",
+                "text": "Avoids versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI enforces strict service contracts through defined interfaces and schemas."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0027",
+        "text": "Which of the following is a disadvantage of RPI for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Synchronous dependencies can limit scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Improves horizontal scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Synchronous dependencies in RPI can limit scalability because services must wait for responses."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0028",
+        "text": "Which of the following is a benefit of RPI for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear call traces between services"
+            },
+            {
+                "letter": "B",
+                "text": "Hides call stack information"
+            },
+            {
+                "letter": "C",
+                "text": "Removes logging"
+            },
+            {
+                "letter": "D",
+                "text": "Disables tracing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI provides clear call traces that help in debugging inter-service communication."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0029",
+        "text": "Which of the following is a benefit of RPI for type safety?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enforces strict type contracts between services"
+            },
+            {
+                "letter": "B",
+                "text": "Allows untyped communication"
+            },
+            {
+                "letter": "C",
+                "text": "Removes schema validation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables type checking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI frameworks like gRPC enforce strict type contracts, ensuring type safety between services."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0030",
+        "text": "Which of the following is a common reliability pattern used with RPI?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Retry pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Polling pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Observer pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Decorator pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The retry pattern is used to handle transient failures in RPI communication."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0031",
+        "text": "Which of the following is a benefit of RPI for synchronous workflows?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides immediate feedback to the caller"
+            },
+            {
+                "letter": "B",
+                "text": "Removes dependency on responses"
+            },
+            {
+                "letter": "C",
+                "text": "Avoids blocking"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI provides immediate feedback, making it suitable for synchronous workflows."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0032",
+        "text": "Which of the following is a disadvantage of RPI for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failure in one service can cascade to others"
+            },
+            {
+                "letter": "B",
+                "text": "Improves isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI can cause cascading failures because dependent services wait for responses."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0033",
+        "text": "Which of the following is a benefit of RPI for contract enforcement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures both client and server adhere to the same schema"
+            },
+            {
+                "letter": "B",
+                "text": "Allows schema mismatches"
+            },
+            {
+                "letter": "C",
+                "text": "Removes validation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI enforces schema consistency between client and server, ensuring contract adherence."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0034",
+        "text": "Which of the following is a benefit of RPI for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows tracing of request paths across services"
+            },
+            {
+                "letter": "B",
+                "text": "Hides request flow"
+            },
+            {
+                "letter": "C",
+                "text": "Removes logging"
+            },
+            {
+                "letter": "D",
+                "text": "Disables metrics"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI allows tracing of request paths across services, improving observability."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0035",
+        "text": "Which of the following is a benefit of RPI for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports authentication and encryption"
+            },
+            {
+                "letter": "B",
+                "text": "Removes authentication"
+            },
+            {
+                "letter": "C",
+                "text": "Disables encryption"
+            },
+            {
+                "letter": "D",
+                "text": "Exposes internal APIs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI frameworks like gRPC support authentication and encryption for secure communication."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0036",
+        "text": "Which of the following is a benefit of RPI for interoperability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports cross-language communication"
+            },
+            {
+                "letter": "B",
+                "text": "Restricts to one language"
+            },
+            {
+                "letter": "C",
+                "text": "Removes schema definitions"
+            },
+            {
+                "letter": "D",
+                "text": "Disables cross-platform support"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI supports cross-language communication, enabling interoperability between heterogeneous systems."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0037",
+        "text": "Which of the following is a benefit of RPI for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encourages modular service design with clear interfaces"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all logic into one service"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modular boundaries"
+            },
+            {
+                "letter": "D",
+                "text": "Disables versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI encourages modular service design by defining clear interfaces between services."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0038",
+        "text": "Which of the following is a benefit of RPI for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Uses binary serialization for faster communication"
+            },
+            {
+                "letter": "B",
+                "text": "Uses plain text for all data"
+            },
+            {
+                "letter": "C",
+                "text": "Increases payload size"
+            },
+            {
+                "letter": "D",
+                "text": "Removes compression"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Binary serialization in RPI frameworks like gRPC improves performance by reducing payload size."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0039",
+        "text": "Which of the following is a benefit of RPI for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent data exchange formats"
+            },
+            {
+                "letter": "B",
+                "text": "Allows inconsistent schemas"
+            },
+            {
+                "letter": "C",
+                "text": "Removes validation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables schema enforcement"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI ensures consistent data exchange formats through schema enforcement."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0040",
+        "text": "Which of the following best describes the purpose of RPI in microservices communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To enable synchronous, contract-based communication between distributed services"
+            },
+            {
+                "letter": "B",
+                "text": "To asynchronously publish events"
+            },
+            {
+                "letter": "C",
+                "text": "To store shared data"
+            },
+            {
+                "letter": "D",
+                "text": "To manage service logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI enables synchronous, contract-based communication between distributed microservices."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0041",
+        "text": "Which of the following is a benefit of RPI for load balancing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports client-side and server-side load balancing"
+            },
+            {
+                "letter": "B",
+                "text": "Removes load balancing"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual routing"
+            },
+            {
+                "letter": "D",
+                "text": "Disables service discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI frameworks like gRPC support both client-side and server-side load balancing."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0042",
+        "text": "Which of the following is a benefit of RPI for versioning?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports backward-compatible schema evolution"
+            },
+            {
+                "letter": "B",
+                "text": "Requires breaking changes"
+            },
+            {
+                "letter": "C",
+                "text": "Removes version control"
+            },
+            {
+                "letter": "D",
+                "text": "Disables schema evolution"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI frameworks like gRPC support backward-compatible schema evolution for versioning."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0043",
+        "text": "Which of the following is a benefit of RPI for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides metrics for request latency and error rates"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides performance data"
+            },
+            {
+                "letter": "D",
+                "text": "Disables tracing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI provides metrics for request latency and error rates, improving monitoring."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0044",
+        "text": "Which of the following is a benefit of RPI for hybrid environments?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports communication across cloud and on-prem systems"
+            },
+            {
+                "letter": "B",
+                "text": "Removes hybrid support"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI supports communication across hybrid environments, enabling interoperability."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0045",
+        "text": "Which of the following is a benefit of RPI for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables automated client generation from service definitions"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual client coding"
+            },
+            {
+                "letter": "C",
+                "text": "Removes schema definitions"
+            },
+            {
+                "letter": "D",
+                "text": "Disables code generation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI frameworks like gRPC generate client code automatically from service definitions."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0046",
+        "text": "Which of the following is a benefit of RPI for consistency in distributed systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent request-response semantics"
+            },
+            {
+                "letter": "B",
+                "text": "Allows inconsistent responses"
+            },
+            {
+                "letter": "C",
+                "text": "Removes response validation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables consistency checks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI ensures consistent request-response semantics across distributed systems."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0047",
+        "text": "Which of the following is a benefit of RPI for developer productivity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies client integration through generated stubs"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual serialization"
+            },
+            {
+                "letter": "C",
+                "text": "Increases boilerplate code"
+            },
+            {
+                "letter": "D",
+                "text": "Removes interface definitions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI simplifies client integration by generating stubs from service definitions."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0048",
+        "text": "Which of the following is a benefit of RPI for latency optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Uses efficient binary protocols to reduce latency"
+            },
+            {
+                "letter": "B",
+                "text": "Uses verbose text formats"
+            },
+            {
+                "letter": "C",
+                "text": "Increases payload size"
+            },
+            {
+                "letter": "D",
+                "text": "Removes compression"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Binary protocols like Protocol Buffers reduce latency by minimizing payload size."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0049",
+        "text": "Which of the following is a benefit of RPI for hybrid communication models?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports both synchronous and streaming communication"
+            },
+            {
+                "letter": "B",
+                "text": "Restricts to synchronous only"
+            },
+            {
+                "letter": "C",
+                "text": "Removes streaming support"
+            },
+            {
+                "letter": "D",
+                "text": "Disables duplex communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI frameworks like gRPC support both synchronous and streaming communication models."
+    },
+    {
+        "title": "MicroservicesCommunicationRemoteProcedureInvocation - Q0050",
+        "text": "Which of the following best summarizes the role of RPI in microservices communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RPI enables synchronous, contract-based, and efficient communication between distributed microservices"
+            },
+            {
+                "letter": "B",
+                "text": "RPI is used for asynchronous event broadcasting"
+            },
+            {
+                "letter": "C",
+                "text": "RPI stores shared data between services"
+            },
+            {
+                "letter": "D",
+                "text": "RPI manages service discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RPI enables synchronous, contract-based, and efficient communication between distributed microservices."
+    }
+]
