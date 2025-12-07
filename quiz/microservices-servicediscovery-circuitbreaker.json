@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0001",
+        "text": "What is the main purpose of a circuit breaker in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To prevent cascading failures between services"
+            },
+            {
+                "letter": "B",
+                "text": "To increase request throughput"
+            },
+            {
+                "letter": "C",
+                "text": "To manage database transactions"
+            },
+            {
+                "letter": "D",
+                "text": "To handle user authentication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A circuit breaker prevents cascading failures by stopping requests to a failing service until it recovers."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0002",
+        "text": "Which of the following best describes the 'open' state of a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Requests are blocked and fail immediately"
+            },
+            {
+                "letter": "B",
+                "text": "Requests are allowed to pass through"
+            },
+            {
+                "letter": "C",
+                "text": "Requests are queued for retry"
+            },
+            {
+                "letter": "D",
+                "text": "Requests are redirected to another service"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In the open state, the circuit breaker blocks requests to prevent further load on a failing service."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0003",
+        "text": "What happens when a circuit breaker transitions to the 'half-open' state?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A limited number of test requests are allowed through"
+            },
+            {
+                "letter": "B",
+                "text": "All requests are blocked"
+            },
+            {
+                "letter": "C",
+                "text": "All requests are allowed through"
+            },
+            {
+                "letter": "D",
+                "text": "Requests are redirected to a fallback service"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In the half-open state, a few test requests are allowed to check if the service has recovered."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0004",
+        "text": "What triggers a circuit breaker to move from 'closed' to 'open'?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A threshold of consecutive failures is reached"
+            },
+            {
+                "letter": "B",
+                "text": "A successful request is made"
+            },
+            {
+                "letter": "C",
+                "text": "The service restarts"
+            },
+            {
+                "letter": "D",
+                "text": "The timeout period expires"
+            }
+        ],
+        "correct": "A",
+        "explanation": "When the number of consecutive failures exceeds a threshold, the circuit breaker opens to prevent further failures."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0005",
+        "text": "Which of the following best describes the 'closed' state of a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "All requests are allowed through"
+            },
+            {
+                "letter": "B",
+                "text": "Requests are blocked"
+            },
+            {
+                "letter": "C",
+                "text": "Requests are partially allowed"
+            },
+            {
+                "letter": "D",
+                "text": "Requests are redirected to a fallback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In the closed state, all requests are allowed through because the service is considered healthy."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0006",
+        "text": "Which of the following is a key benefit of using a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves system resilience by isolating failures"
+            },
+            {
+                "letter": "B",
+                "text": "Increases request latency"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces service availability"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates the need for retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers improve resilience by isolating failing services and preventing cascading failures."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0007",
+        "text": "Which of the following is a common library implementing the circuit breaker pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Netflix Hystrix"
+            },
+            {
+                "letter": "B",
+                "text": "Apache Kafka"
+            },
+            {
+                "letter": "C",
+                "text": "Redis"
+            },
+            {
+                "letter": "D",
+                "text": "Spring Data JPA"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Netflix Hystrix is a well-known library that implements the circuit breaker pattern for microservices."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0008",
+        "text": "What is the main purpose of the 'timeout' setting in a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To define how long to wait for a response before marking a failure"
+            },
+            {
+                "letter": "B",
+                "text": "To define how long the circuit stays open"
+            },
+            {
+                "letter": "C",
+                "text": "To define retry intervals"
+            },
+            {
+                "letter": "D",
+                "text": "To define the number of allowed requests"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The timeout setting defines how long the circuit breaker waits for a response before considering it a failure."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0009",
+        "text": "What happens when a circuit breaker remains open for too long?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Requests continue to fail fast until the reset timeout expires"
+            },
+            {
+                "letter": "B",
+                "text": "Requests are queued for retry"
+            },
+            {
+                "letter": "C",
+                "text": "Requests are automatically retried"
+            },
+            {
+                "letter": "D",
+                "text": "Requests are redirected to another service"
+            }
+        ],
+        "correct": "A",
+        "explanation": "When open, the circuit breaker fails requests immediately until the reset timeout allows testing again."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0010",
+        "text": "Which of the following is a key metric monitored by a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failure rate"
+            },
+            {
+                "letter": "B",
+                "text": "CPU usage"
+            },
+            {
+                "letter": "C",
+                "text": "Memory consumption"
+            },
+            {
+                "letter": "D",
+                "text": "Network bandwidth"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers monitor failure rates to decide when to open or close the circuit."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0011",
+        "text": "What is the purpose of the 'reset timeout' in a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To determine when to transition from open to half-open"
+            },
+            {
+                "letter": "B",
+                "text": "To define the maximum number of retries"
+            },
+            {
+                "letter": "C",
+                "text": "To define the number of allowed failures"
+            },
+            {
+                "letter": "D",
+                "text": "To define the request timeout"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The reset timeout defines how long the circuit remains open before transitioning to half-open for testing."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0012",
+        "text": "Which of the following is a benefit of using a circuit breaker for user experience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides faster failure responses instead of long timeouts"
+            },
+            {
+                "letter": "B",
+                "text": "Increases response time"
+            },
+            {
+                "letter": "C",
+                "text": "Delays all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Blocks all user requests"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers improve user experience by failing fast instead of waiting for long timeouts."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0013",
+        "text": "Which of the following is a common fallback strategy used with circuit breakers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Return cached or default data"
+            },
+            {
+                "letter": "B",
+                "text": "Retry indefinitely"
+            },
+            {
+                "letter": "C",
+                "text": "Drop all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Redirect to a random service"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fallback strategies often return cached or default data when the circuit is open."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0014",
+        "text": "Which of the following is a disadvantage of using a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Adds complexity to service communication"
+            },
+            {
+                "letter": "B",
+                "text": "Improves fault isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces cascading failures"
+            },
+            {
+                "letter": "D",
+                "text": "Improves response time"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers add complexity because they require additional logic for state management and monitoring."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0015",
+        "text": "Which of the following is a key difference between a retry mechanism and a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Circuit breaker stops retries after repeated failures"
+            },
+            {
+                "letter": "B",
+                "text": "Retry mechanism prevents failures"
+            },
+            {
+                "letter": "C",
+                "text": "Circuit breaker increases retry attempts"
+            },
+            {
+                "letter": "D",
+                "text": "Retry mechanism isolates failures"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A circuit breaker stops retries after repeated failures to prevent overloading a failing service."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0016",
+        "text": "Which of the following is a common state transition in a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Closed → Open → Half-Open → Closed"
+            },
+            {
+                "letter": "B",
+                "text": "Open → Closed → Open"
+            },
+            {
+                "letter": "C",
+                "text": "Half-Open → Open → Closed"
+            },
+            {
+                "letter": "D",
+                "text": "Closed → Half-Open → Open"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The typical state transition is Closed → Open → Half-Open → Closed as the service recovers."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0017",
+        "text": "Which of the following is a benefit of circuit breakers for system stability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents resource exhaustion by failing fast"
+            },
+            {
+                "letter": "B",
+                "text": "Increases load on failing services"
+            },
+            {
+                "letter": "C",
+                "text": "Allows unlimited retries"
+            },
+            {
+                "letter": "D",
+                "text": "Removes fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers prevent resource exhaustion by failing fast when a service is unavailable."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0018",
+        "text": "Which of the following is a common metric used to open a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failure percentage threshold"
+            },
+            {
+                "letter": "B",
+                "text": "CPU usage"
+            },
+            {
+                "letter": "C",
+                "text": "Memory usage"
+            },
+            {
+                "letter": "D",
+                "text": "Network latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers often open when the failure percentage exceeds a defined threshold."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0019",
+        "text": "Which of the following is a benefit of circuit breakers for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Isolates failing services to prevent cascading failures"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all service failures"
+            },
+            {
+                "letter": "C",
+                "text": "Increases dependency coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers isolate failing services to prevent cascading failures across the system."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0020",
+        "text": "Which of the following best describes the outcome of using a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved resilience and fault tolerance"
+            },
+            {
+                "letter": "B",
+                "text": "Increased latency"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced scalability"
+            },
+            {
+                "letter": "D",
+                "text": "Increased coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers improve resilience and fault tolerance by preventing cascading failures and isolating faults."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0021",
+        "text": "Which of the following is a common fallback mechanism used with circuit breakers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Return cached data or default response"
+            },
+            {
+                "letter": "B",
+                "text": "Retry indefinitely"
+            },
+            {
+                "letter": "C",
+                "text": "Drop all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Redirect to random service"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fallback mechanisms like cached or default responses maintain user experience when a service fails."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0022",
+        "text": "What is the main benefit of the half-open state in a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To test if the failing service has recovered"
+            },
+            {
+                "letter": "B",
+                "text": "To block all requests"
+            },
+            {
+                "letter": "C",
+                "text": "To permanently disable the circuit"
+            },
+            {
+                "letter": "D",
+                "text": "To reset all metrics"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The half-open state allows limited requests to test if the service is healthy again."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0023",
+        "text": "Which of the following is a common configuration parameter for circuit breakers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failure threshold"
+            },
+            {
+                "letter": "B",
+                "text": "Database pool size"
+            },
+            {
+                "letter": "C",
+                "text": "Cache eviction time"
+            },
+            {
+                "letter": "D",
+                "text": "Thread pool size"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The failure threshold defines how many failures trigger the circuit to open."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0024",
+        "text": "Which of the following is a key advantage of circuit breakers in distributed systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents cascading failures across services"
+            },
+            {
+                "letter": "B",
+                "text": "Increases dependency coupling"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault isolation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring needs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers prevent cascading failures by isolating failing services."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0025",
+        "text": "Which of the following is a common library for implementing circuit breakers in Java?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Resilience4j"
+            },
+            {
+                "letter": "B",
+                "text": "Log4j"
+            },
+            {
+                "letter": "C",
+                "text": "JUnit"
+            },
+            {
+                "letter": "D",
+                "text": "Mockito"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Resilience4j is a lightweight Java library for implementing circuit breakers and other resilience patterns."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0026",
+        "text": "What happens when a circuit breaker transitions from half-open to closed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The service is considered healthy again"
+            },
+            {
+                "letter": "B",
+                "text": "All requests are blocked"
+            },
+            {
+                "letter": "C",
+                "text": "The circuit breaker is disabled"
+            },
+            {
+                "letter": "D",
+                "text": "The fallback is triggered"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If test requests succeed in half-open state, the circuit closes and normal traffic resumes."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0027",
+        "text": "Which of the following is a disadvantage of circuit breakers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Requires careful tuning of thresholds"
+            },
+            {
+                "letter": "B",
+                "text": "Improves fault isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces cascading failures"
+            },
+            {
+                "letter": "D",
+                "text": "Improves response time"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Improper threshold tuning can cause premature or delayed circuit opening."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0028",
+        "text": "Which of the following is a common metric used to close a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Success rate threshold"
+            },
+            {
+                "letter": "B",
+                "text": "CPU usage"
+            },
+            {
+                "letter": "C",
+                "text": "Memory usage"
+            },
+            {
+                "letter": "D",
+                "text": "Network latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers close when the success rate exceeds a defined threshold."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0029",
+        "text": "Which of the following is a benefit of circuit breakers for user experience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides immediate feedback on service unavailability"
+            },
+            {
+                "letter": "B",
+                "text": "Increases waiting time"
+            },
+            {
+                "letter": "C",
+                "text": "Delays all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Blocks all user requests"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers fail fast, providing immediate feedback instead of long timeouts."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0030",
+        "text": "Which of the following is a common use case for circuit breakers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Protecting dependent services from overload"
+            },
+            {
+                "letter": "B",
+                "text": "Caching static content"
+            },
+            {
+                "letter": "C",
+                "text": "Managing user sessions"
+            },
+            {
+                "letter": "D",
+                "text": "Logging application events"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers protect dependent services from overload by stopping requests during failures."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0031",
+        "text": "Which of the following is a key difference between a circuit breaker and a bulkhead pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Circuit breaker isolates failing calls; bulkhead isolates resources"
+            },
+            {
+                "letter": "B",
+                "text": "Circuit breaker manages threads; bulkhead manages retries"
+            },
+            {
+                "letter": "C",
+                "text": "Circuit breaker caches data; bulkhead stores logs"
+            },
+            {
+                "letter": "D",
+                "text": "Circuit breaker handles load balancing; bulkhead handles routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers isolate failing calls, while bulkheads isolate resources to prevent total failure."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0032",
+        "text": "Which of the following is a benefit of circuit breakers for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents overloading downstream services"
+            },
+            {
+                "letter": "B",
+                "text": "Increases dependency coupling"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault isolation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers prevent overloading downstream services by cutting off failing requests."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0033",
+        "text": "Which of the following is a common fallback approach when a circuit is open?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Return a default response or cached data"
+            },
+            {
+                "letter": "B",
+                "text": "Retry indefinitely"
+            },
+            {
+                "letter": "C",
+                "text": "Drop all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Redirect to random service"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fallbacks like cached or default responses maintain service continuity when the circuit is open."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0034",
+        "text": "Which of the following is a benefit of circuit breakers for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Isolates failing services to prevent cascading failures"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all service failures"
+            },
+            {
+                "letter": "C",
+                "text": "Increases dependency coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers isolate failing services to prevent cascading failures across the system."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0035",
+        "text": "Which of the following is a benefit of circuit breakers for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows systems to recover gracefully from failures"
+            },
+            {
+                "letter": "B",
+                "text": "Increases failure propagation"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers allow systems to recover gracefully by controlling failure propagation."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0036",
+        "text": "Which of the following is a common metric used to open a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failure rate threshold"
+            },
+            {
+                "letter": "B",
+                "text": "CPU usage"
+            },
+            {
+                "letter": "C",
+                "text": "Memory usage"
+            },
+            {
+                "letter": "D",
+                "text": "Network latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers open when the failure rate exceeds a defined threshold."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0037",
+        "text": "Which of the following is a benefit of circuit breakers for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides metrics on service health and failure rates"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service failures"
+            },
+            {
+                "letter": "C",
+                "text": "Removes logging"
+            },
+            {
+                "letter": "D",
+                "text": "Disables metrics collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers provide metrics that help monitor service health and failure rates."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0038",
+        "text": "Which of the following is a benefit of circuit breakers for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces latency by failing fast"
+            },
+            {
+                "letter": "B",
+                "text": "Increases waiting time"
+            },
+            {
+                "letter": "C",
+                "text": "Delays all requests"
+            },
+            {
+                "letter": "D",
+                "text": "Blocks all user requests"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers reduce latency by failing fast instead of waiting for timeouts."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0039",
+        "text": "Which of the following is a benefit of circuit breakers for system stability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents resource exhaustion by cutting off failing requests"
+            },
+            {
+                "letter": "B",
+                "text": "Increases load on failing services"
+            },
+            {
+                "letter": "C",
+                "text": "Allows unlimited retries"
+            },
+            {
+                "letter": "D",
+                "text": "Removes fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers prevent resource exhaustion by cutting off failing requests early."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0040",
+        "text": "Which of the following is a benefit of circuit breakers for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows gradual recovery through half-open state"
+            },
+            {
+                "letter": "B",
+                "text": "Blocks all recovery attempts"
+            },
+            {
+                "letter": "C",
+                "text": "Retries indefinitely"
+            },
+            {
+                "letter": "D",
+                "text": "Disables recovery monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The half-open state allows gradual recovery by testing limited requests."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0041",
+        "text": "Which of the following is a benefit of circuit breakers for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures system continues to function despite partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "Stops all services on failure"
+            },
+            {
+                "letter": "C",
+                "text": "Increases dependency coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Removes fault detection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers ensure system reliability by isolating failures and allowing partial functionality."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0042",
+        "text": "Which of the following is a benefit of circuit breakers for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents overloading downstream services"
+            },
+            {
+                "letter": "B",
+                "text": "Increases dependency coupling"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault isolation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers prevent overloading downstream services by cutting off failing requests."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0043",
+        "text": "Which of the following is a benefit of circuit breakers for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear visibility into service health"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service failures"
+            },
+            {
+                "letter": "C",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "Disables metrics collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers provide transparency by exposing metrics on service health and failures."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0044",
+        "text": "Which of the following is a benefit of circuit breakers for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically opens and closes based on service health"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual intervention"
+            },
+            {
+                "letter": "C",
+                "text": "Depends on static configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Uses manual monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers automatically open and close based on service health metrics."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0045",
+        "text": "Which of the following is a benefit of circuit breakers for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows tuning based on observed failure patterns"
+            },
+            {
+                "letter": "B",
+                "text": "Prevents configuration changes"
+            },
+            {
+                "letter": "C",
+                "text": "Requires static thresholds"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers can be tuned based on observed failure patterns to improve reliability."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0046",
+        "text": "Which of the following is a benefit of circuit breakers for fault detection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects repeated failures and isolates them"
+            },
+            {
+                "letter": "B",
+                "text": "Ignores all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Combines all failures"
+            },
+            {
+                "letter": "D",
+                "text": "Removes error tracking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers detect repeated failures and isolate them to prevent system-wide impact."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0047",
+        "text": "Which of the following is a benefit of circuit breakers for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows gradual recovery through half-open state"
+            },
+            {
+                "letter": "B",
+                "text": "Blocks all recovery attempts"
+            },
+            {
+                "letter": "C",
+                "text": "Retries indefinitely"
+            },
+            {
+                "letter": "D",
+                "text": "Disables recovery monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The half-open state allows gradual recovery by testing limited requests."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0048",
+        "text": "Which of the following is a benefit of circuit breakers for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows systems to recover gracefully from failures"
+            },
+            {
+                "letter": "B",
+                "text": "Increases failure propagation"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers allow systems to recover gracefully by controlling failure propagation."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0049",
+        "text": "Which of the following is a benefit of circuit breakers for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures system continues to function despite partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "Stops all services on failure"
+            },
+            {
+                "letter": "C",
+                "text": "Increases dependency coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Removes fault detection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Circuit breakers ensure system reliability by isolating failures and allowing partial functionality."
+    },
+    {
+        "title": "MicroservicesReliabilityCircuitBreaker - Q0050",
+        "text": "Which of the following best describes the purpose of a circuit breaker?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To prevent cascading failures between services"
+            },
+            {
+                "letter": "B",
+                "text": "To increase request throughput"
+            },
+            {
+                "letter": "C",
+                "text": "To manage database transactions"
+            },
+            {
+                "letter": "D",
+                "text": "To handle user authentication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A circuit breaker prevents cascading failures by stopping requests to a failing service until it recovers."
+    }
+]
