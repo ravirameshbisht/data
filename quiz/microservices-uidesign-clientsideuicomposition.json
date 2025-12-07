@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0001",
+        "text": "What is the primary purpose of client-side UI composition in microservices architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To assemble UI fragments from multiple microservices in the browser"
+            },
+            {
+                "letter": "B",
+                "text": "To render all UI components on the server"
+            },
+            {
+                "letter": "C",
+                "text": "To manage backend service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "To store static assets in a CDN"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side UI composition assembles UI fragments from multiple microservices directly in the browser."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0002",
+        "text": "Which of the following technologies is commonly used for client-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Web Components"
+            },
+            {
+                "letter": "B",
+                "text": "JDBC"
+            },
+            {
+                "letter": "C",
+                "text": "SOAP"
+            },
+            {
+                "letter": "D",
+                "text": "Servlets"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Web Components allow independent UI fragments to be composed dynamically in the browser."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0003",
+        "text": "Which of the following is a key benefit of client-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved runtime flexibility and dynamic updates"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced client interactivity"
+            },
+            {
+                "letter": "C",
+                "text": "Increased server load"
+            },
+            {
+                "letter": "D",
+                "text": "Slower rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows dynamic updates and flexible rendering without full page reloads."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0004",
+        "text": "Which of the following is a common challenge in client-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing shared state across fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Reducing server-side rendering time"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifying backend orchestration"
+            },
+            {
+                "letter": "D",
+                "text": "Improving SEO automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing shared state across independently loaded fragments is a major challenge in client-side composition."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0005",
+        "text": "Which of the following frameworks supports micro frontends for client-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Single-SPA"
+            },
+            {
+                "letter": "B",
+                "text": "Spring Boot"
+            },
+            {
+                "letter": "C",
+                "text": "Hibernate"
+            },
+            {
+                "letter": "D",
+                "text": "Express.js"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Single-SPA is a framework that enables micro frontends and client-side UI composition."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0006",
+        "text": "Which of the following is a benefit of client-side composition for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each UI fragment can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All fragments must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is manual"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows each UI fragment to scale independently, improving scalability."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0007",
+        "text": "Which of the following is a benefit of client-side composition for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables lazy loading of UI fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full page reloads"
+            },
+            {
+                "letter": "C",
+                "text": "Increases initial load time"
+            },
+            {
+                "letter": "D",
+                "text": "Removes caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition supports lazy loading, improving performance by loading fragments on demand."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0008",
+        "text": "Which of the following is a drawback of client-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced SEO performance"
+            },
+            {
+                "letter": "B",
+                "text": "Improved server-side caching"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced interactivity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition can reduce SEO performance because content is rendered dynamically in the browser."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0009",
+        "text": "Which of the following is a benefit of client-side composition for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can develop and deploy UI fragments independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must deploy together"
+            },
+            {
+                "letter": "C",
+                "text": "UI fragments are tightly coupled"
+            },
+            {
+                "letter": "D",
+                "text": "Composition logic is centralized on the server"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows independent development and deployment of UI fragments by different teams."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0010",
+        "text": "Which of the following is a benefit of client-side composition for user experience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables dynamic updates without full page reloads"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full page reloads for every change"
+            },
+            {
+                "letter": "C",
+                "text": "Removes interactivity"
+            },
+            {
+                "letter": "D",
+                "text": "Disables animations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows dynamic updates and smooth transitions without reloading the entire page."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0011",
+        "text": "Which of the following is a common pattern for client-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Micro frontends"
+            },
+            {
+                "letter": "B",
+                "text": "Monolithic UI"
+            },
+            {
+                "letter": "C",
+                "text": "Server-side includes"
+            },
+            {
+                "letter": "D",
+                "text": "Static HTML templates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Micro frontends are a common pattern for implementing client-side UI composition."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0012",
+        "text": "Which of the following is a benefit of client-side composition for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failing fragment does not affect the entire page"
+            },
+            {
+                "letter": "B",
+                "text": "All fragments fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Errors propagate to all services"
+            },
+            {
+                "letter": "D",
+                "text": "No fallback mechanism is possible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition isolates faults so that one failing fragment does not break the entire page."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0013",
+        "text": "Which of the following is a benefit of client-side composition for personalization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows dynamic rendering of personalized content"
+            },
+            {
+                "letter": "B",
+                "text": "Removes user-specific content"
+            },
+            {
+                "letter": "C",
+                "text": "Disables dynamic rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Hides personalization logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows dynamic rendering of personalized content for each user."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0014",
+        "text": "Which of the following is a benefit of client-side composition for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports code splitting and lazy loading"
+            },
+            {
+                "letter": "B",
+                "text": "Requires loading all fragments at once"
+            },
+            {
+                "letter": "C",
+                "text": "Increases bundle size"
+            },
+            {
+                "letter": "D",
+                "text": "Removes caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition supports code splitting and lazy loading to optimize performance."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0015",
+        "text": "Which of the following is a benefit of client-side composition for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows runtime integration of new fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static composition"
+            },
+            {
+                "letter": "C",
+                "text": "Disables dynamic updates"
+            },
+            {
+                "letter": "D",
+                "text": "Hides runtime configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows runtime integration of new fragments without redeploying the entire application."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0016",
+        "text": "Which of the following is a benefit of client-side composition for DevOps?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies independent deployment of UI fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires monolithic deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Removes CI/CD integration"
+            },
+            {
+                "letter": "D",
+                "text": "Disables testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition simplifies DevOps by allowing independent deployment of UI fragments."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0017",
+        "text": "Which of the following is a benefit of client-side composition for hybrid rendering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Combines client rendering with server-side pre-rendering"
+            },
+            {
+                "letter": "B",
+                "text": "Disables server rendering"
+            },
+            {
+                "letter": "C",
+                "text": "Removes dynamic content"
+            },
+            {
+                "letter": "D",
+                "text": "Hides interactive elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition can be combined with server-side pre-rendering for hybrid rendering strategies."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0018",
+        "text": "Which of the following is a benefit of client-side composition for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows tracking of fragment load times and errors"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides performance data"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows tracking of fragment load times and errors for observability."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0019",
+        "text": "Which of the following is a benefit of client-side composition for user experience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides seamless navigation and dynamic updates"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full page reloads"
+            },
+            {
+                "letter": "C",
+                "text": "Removes interactivity"
+            },
+            {
+                "letter": "D",
+                "text": "Disables animations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition provides seamless navigation and dynamic updates for better user experience."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0020",
+        "text": "Which of the following best describes the purpose of client-side UI composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To assemble UI fragments from multiple microservices dynamically in the browser"
+            },
+            {
+                "letter": "B",
+                "text": "To render all UI components on the server"
+            },
+            {
+                "letter": "C",
+                "text": "To manage backend service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "To store static assets in a CDN"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side UI composition assembles UI fragments dynamically in the browser for flexibility and interactivity."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0021",
+        "text": "Which of the following is a benefit of client-side composition for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encourages separation of concerns between UI fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all UI logic into one file"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared global state"
+            },
+            {
+                "letter": "D",
+                "text": "Removes component boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition promotes modularity by separating UI fragments into independent, reusable components."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0022",
+        "text": "Which of the following is a challenge of client-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring consistent styling across fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Reducing client interactivity"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifying backend orchestration"
+            },
+            {
+                "letter": "D",
+                "text": "Improving SEO automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Ensuring consistent styling across independently developed fragments is a common challenge in client-side composition."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0023",
+        "text": "Which of the following is a benefit of client-side composition for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent deployment of UI fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires monolithic deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition supports continuous delivery by allowing independent deployment of UI fragments."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0024",
+        "text": "Which of the following is a benefit of client-side composition for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failing fragment can be replaced dynamically"
+            },
+            {
+                "letter": "B",
+                "text": "All fragments fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Errors propagate to all services"
+            },
+            {
+                "letter": "D",
+                "text": "No fallback mechanism is possible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows dynamic replacement of failing fragments, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0025",
+        "text": "Which of the following is a benefit of client-side composition for analytics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables tracking of user interactions per fragment"
+            },
+            {
+                "letter": "B",
+                "text": "Removes analytics tracking"
+            },
+            {
+                "letter": "C",
+                "text": "Hides user behavior"
+            },
+            {
+                "letter": "D",
+                "text": "Disables event logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition enables tracking of user interactions per fragment for detailed analytics."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0026",
+        "text": "Which of the following is a benefit of client-side composition for caching?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows caching of static assets and fragments in the browser"
+            },
+            {
+                "letter": "B",
+                "text": "Disables caching"
+            },
+            {
+                "letter": "C",
+                "text": "Caches only full pages"
+            },
+            {
+                "letter": "D",
+                "text": "Removes cache headers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows caching of static assets and fragments in the browser for faster load times."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0027",
+        "text": "Which of the following is a benefit of client-side composition for responsiveness?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports adaptive rendering for different devices"
+            },
+            {
+                "letter": "B",
+                "text": "Requires fixed layouts"
+            },
+            {
+                "letter": "C",
+                "text": "Removes responsive design"
+            },
+            {
+                "letter": "D",
+                "text": "Disables CSS media queries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition supports adaptive rendering, enabling responsive design across devices."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0028",
+        "text": "Which of the following is a benefit of client-side composition for hybrid rendering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Combines client rendering with server pre-rendering"
+            },
+            {
+                "letter": "B",
+                "text": "Disables server rendering"
+            },
+            {
+                "letter": "C",
+                "text": "Removes dynamic content"
+            },
+            {
+                "letter": "D",
+                "text": "Hides interactive elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition can be combined with server pre-rendering for hybrid rendering strategies."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0029",
+        "text": "Which of the following is a benefit of client-side composition for modular testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows testing of individual fragments independently"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full-page integration tests only"
+            },
+            {
+                "letter": "C",
+                "text": "Removes test automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables unit testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows testing of individual fragments independently before integration."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0030",
+        "text": "Which of the following is a benefit of client-side composition for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides metrics for fragment load times and errors"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides performance data"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition provides metrics for fragment load times and errors, improving observability."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0031",
+        "text": "Which of the following is a benefit of client-side composition for accessibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports ARIA roles and semantic HTML in fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Removes accessibility features"
+            },
+            {
+                "letter": "C",
+                "text": "Requires JavaScript for accessibility"
+            },
+            {
+                "letter": "D",
+                "text": "Hides content from screen readers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition supports ARIA roles and semantic HTML, improving accessibility."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0032",
+        "text": "Which of the following is a benefit of client-side composition for personalization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows dynamic assembly of personalized fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Removes user-specific content"
+            },
+            {
+                "letter": "C",
+                "text": "Disables dynamic rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Hides personalization logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows dynamic assembly of personalized fragments for each user."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0033",
+        "text": "Which of the following is a benefit of client-side composition for A/B testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports serving different fragments to different user groups"
+            },
+            {
+                "letter": "B",
+                "text": "Removes experiment tracking"
+            },
+            {
+                "letter": "C",
+                "text": "Disables variation rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Hides test results"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition supports A/B testing by serving different fragments to different user groups."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0034",
+        "text": "Which of the following is a benefit of client-side composition for governance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent UI policies across fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Removes compliance requirements"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces accountability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides user activity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition enforces consistent UI policies and governance across fragments."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0035",
+        "text": "Which of the following is a benefit of client-side composition for hybrid environments?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides unified rendering across cloud and on-prem systems"
+            },
+            {
+                "letter": "B",
+                "text": "Removes hybrid support"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition provides unified rendering across hybrid environments."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0036",
+        "text": "Which of the following is a benefit of client-side composition for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces server load by offloading rendering to the client"
+            },
+            {
+                "letter": "B",
+                "text": "Increases server-side computation"
+            },
+            {
+                "letter": "C",
+                "text": "Removes caching"
+            },
+            {
+                "letter": "D",
+                "text": "Hides performance metrics"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition reduces server load by offloading rendering to the client."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0037",
+        "text": "Which of the following is a benefit of client-side composition for modular architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encourages independent development of UI modules"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized UI logic"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modular boundaries"
+            },
+            {
+                "letter": "D",
+                "text": "Disables component reuse"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition encourages independent development and reuse of UI modules."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0038",
+        "text": "Which of the following is a benefit of client-side composition for version control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent versioning of UI fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires global versioning"
+            },
+            {
+                "letter": "C",
+                "text": "Removes version tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Hides version metadata"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each UI fragment can be versioned independently, allowing flexible updates and rollbacks."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0039",
+        "text": "Which of the following is a benefit of client-side composition for CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables independent deployment of UI fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires monolithic deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition enables independent deployment of UI fragments in CI/CD pipelines."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0040",
+        "text": "Which of the following is a benefit of client-side composition for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports graceful degradation when fragments fail"
+            },
+            {
+                "letter": "B",
+                "text": "Stops rendering on any error"
+            },
+            {
+                "letter": "C",
+                "text": "Requires all fragments to succeed"
+            },
+            {
+                "letter": "D",
+                "text": "Disables fallback logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition supports graceful degradation by handling fragment failures gracefully."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0041",
+        "text": "Which of the following is a benefit of client-side composition for dynamic updates?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows real-time updates without reloading the page"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full page reloads"
+            },
+            {
+                "letter": "C",
+                "text": "Removes dynamic rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Hides live data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows real-time updates without reloading the entire page."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0042",
+        "text": "Which of the following is a benefit of client-side composition for hybrid rendering strategies?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Combines server rendering with client-side updates"
+            },
+            {
+                "letter": "B",
+                "text": "Removes client interactivity"
+            },
+            {
+                "letter": "C",
+                "text": "Disables dynamic updates"
+            },
+            {
+                "letter": "D",
+                "text": "Hides client logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition can combine server rendering with client-side updates for hybrid rendering."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0043",
+        "text": "Which of the following is a benefit of client-side composition for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent layout across fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Allows inconsistent styling"
+            },
+            {
+                "letter": "C",
+                "text": "Removes layout templates"
+            },
+            {
+                "letter": "D",
+                "text": "Disables shared components"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition ensures consistent layout and styling across fragments."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0044",
+        "text": "Which of the following is a benefit of client-side composition for modular reuse?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows reuse of UI fragments across multiple applications"
+            },
+            {
+                "letter": "B",
+                "text": "Requires unique fragments per app"
+            },
+            {
+                "letter": "C",
+                "text": "Removes reusability"
+            },
+            {
+                "letter": "D",
+                "text": "Disables shared libraries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows reuse of UI fragments across multiple applications."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0045",
+        "text": "Which of the following is a benefit of client-side composition for hybrid apps?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports integration with native mobile shells"
+            },
+            {
+                "letter": "B",
+                "text": "Removes mobile compatibility"
+            },
+            {
+                "letter": "C",
+                "text": "Disables responsive design"
+            },
+            {
+                "letter": "D",
+                "text": "Hides mobile fragments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition supports integration with native mobile shells for hybrid apps."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0046",
+        "text": "Which of the following is a benefit of client-side composition for cost efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces server rendering costs"
+            },
+            {
+                "letter": "B",
+                "text": "Increases backend load"
+            },
+            {
+                "letter": "C",
+                "text": "Removes caching"
+            },
+            {
+                "letter": "D",
+                "text": "Hides performance metrics"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition reduces server rendering costs by offloading rendering to the browser."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0047",
+        "text": "Which of the following is a benefit of client-side composition for modular governance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows enforcing UI standards across fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Removes compliance requirements"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces accountability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides user activity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows enforcing UI standards and governance across fragments."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0048",
+        "text": "Which of the following is a benefit of client-side composition for hybrid cloud environments?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides unified rendering across multiple cloud providers"
+            },
+            {
+                "letter": "B",
+                "text": "Removes hybrid support"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition provides unified rendering across multiple cloud providers in hybrid environments."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0049",
+        "text": "Which of the following is a benefit of client-side composition for modular analytics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows tracking of user interactions per fragment"
+            },
+            {
+                "letter": "B",
+                "text": "Removes analytics tracking"
+            },
+            {
+                "letter": "C",
+                "text": "Hides user behavior"
+            },
+            {
+                "letter": "D",
+                "text": "Disables event logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side composition allows tracking of user interactions per fragment for modular analytics."
+    },
+    {
+        "title": "MicroservicesUIDesignClientSideUIComposition - Q0050",
+        "text": "Which of the following best describes the purpose of client-side UI composition in microservices UI design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To dynamically assemble UI fragments from multiple microservices in the browser for flexibility, scalability, and interactivity"
+            },
+            {
+                "letter": "B",
+                "text": "To render all UI components on the server"
+            },
+            {
+                "letter": "C",
+                "text": "To manage backend service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "To store static assets in a CDN"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client-side UI composition dynamically assembles UI fragments from multiple microservices in the browser for flexibility, scalability, and interactivity."
+    }
+]
