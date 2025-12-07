@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0001",
+        "text": "What is the primary purpose of server-side page fragment composition in microservices UI design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To assemble UI fragments from multiple services on the server before sending to the client"
+            },
+            {
+                "letter": "B",
+                "text": "To render all UI components on the client side"
+            },
+            {
+                "letter": "C",
+                "text": "To store static assets in a CDN"
+            },
+            {
+                "letter": "D",
+                "text": "To manage API routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side page fragment composition assembles UI fragments from multiple microservices on the server before delivering a complete page to the client."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0002",
+        "text": "Which of the following best describes a 'page fragment'?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A self-contained UI component rendered by a microservice"
+            },
+            {
+                "letter": "B",
+                "text": "A static HTML file"
+            },
+            {
+                "letter": "C",
+                "text": "A database record"
+            },
+            {
+                "letter": "D",
+                "text": "A CSS stylesheet"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A page fragment is a self-contained UI component rendered by a microservice and combined with others to form a complete page."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0003",
+        "text": "Which of the following is a key benefit of server-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved initial load performance"
+            },
+            {
+                "letter": "B",
+                "text": "Increased client-side rendering time"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced caching efficiency"
+            },
+            {
+                "letter": "D",
+                "text": "More complex client logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition improves initial load performance by delivering a fully assembled page to the client."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0004",
+        "text": "Which of the following technologies is commonly used for server-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Edge Side Includes (ESI)"
+            },
+            {
+                "letter": "B",
+                "text": "WebSockets"
+            },
+            {
+                "letter": "C",
+                "text": "Service Workers"
+            },
+            {
+                "letter": "D",
+                "text": "GraphQL"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Edge Side Includes (ESI) is a markup language used for assembling page fragments on the server or CDN edge."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0005",
+        "text": "Which of the following is a challenge of server-side page fragment composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Coordinating rendering latency across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Reducing client-side caching"
+            },
+            {
+                "letter": "C",
+                "text": "Increasing client-side rendering complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifying backend orchestration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Coordinating rendering latency across multiple services is a challenge because each fragment may have different response times."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0006",
+        "text": "Which of the following best describes the role of a composition service?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aggregates and merges fragments from multiple microservices into a single page"
+            },
+            {
+                "letter": "B",
+                "text": "Stores static assets"
+            },
+            {
+                "letter": "C",
+                "text": "Handles client-side routing"
+            },
+            {
+                "letter": "D",
+                "text": "Manages database transactions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A composition service aggregates and merges fragments from multiple microservices into a single page response."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0007",
+        "text": "Which of the following is a benefit of server-side composition for SEO?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Search engines can index fully rendered pages"
+            },
+            {
+                "letter": "B",
+                "text": "Pages are hidden from crawlers"
+            },
+            {
+                "letter": "C",
+                "text": "JavaScript execution is required for indexing"
+            },
+            {
+                "letter": "D",
+                "text": "Metadata is removed from responses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition delivers fully rendered HTML, making it easier for search engines to index content."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0008",
+        "text": "Which of the following is a common pattern for composing fragments?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Template-based composition"
+            },
+            {
+                "letter": "B",
+                "text": "Client-side hydration"
+            },
+            {
+                "letter": "C",
+                "text": "Event sourcing"
+            },
+            {
+                "letter": "D",
+                "text": "CQRS"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Template-based composition uses predefined templates to assemble fragments into a complete page."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0009",
+        "text": "Which of the following is a drawback of server-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased server load"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced SEO visibility"
+            },
+            {
+                "letter": "C",
+                "text": "Increased client-side complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Slower initial render"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition increases server load because the server must assemble fragments before responding."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0010",
+        "text": "Which of the following is a benefit of server-side composition for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces client-side rendering time"
+            },
+            {
+                "letter": "B",
+                "text": "Increases network latency"
+            },
+            {
+                "letter": "C",
+                "text": "Requires more client-side computation"
+            },
+            {
+                "letter": "D",
+                "text": "Delays time-to-first-byte"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition reduces client-side rendering time by sending a preassembled page."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0011",
+        "text": "Which of the following is a common tool for server-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tailor"
+            },
+            {
+                "letter": "B",
+                "text": "React Router"
+            },
+            {
+                "letter": "C",
+                "text": "Webpack"
+            },
+            {
+                "letter": "D",
+                "text": "Nginx"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Tailor is a Node.js-based layout service used for server-side page fragment composition."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0012",
+        "text": "Which of the following is a benefit of server-side composition for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Sensitive data stays on the server"
+            },
+            {
+                "letter": "B",
+                "text": "All data is exposed to the client"
+            },
+            {
+                "letter": "C",
+                "text": "Client handles authentication"
+            },
+            {
+                "letter": "D",
+                "text": "Cookies are disabled"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition keeps sensitive data on the server, reducing exposure to the client."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0013",
+        "text": "Which of the following is a benefit of server-side composition for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team can own and deploy its own UI fragment independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must deploy together"
+            },
+            {
+                "letter": "C",
+                "text": "UI fragments are tightly coupled"
+            },
+            {
+                "letter": "D",
+                "text": "Composition logic is centralized in the client"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition allows teams to own and deploy their UI fragments independently, improving maintainability."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0014",
+        "text": "Which of the following is a benefit of server-side composition for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failing fragment can be replaced with a fallback"
+            },
+            {
+                "letter": "B",
+                "text": "All fragments fail together"
+            },
+            {
+                "letter": "C",
+                "text": "Errors propagate to all services"
+            },
+            {
+                "letter": "D",
+                "text": "No fallback mechanism is possible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition can replace failing fragments with fallbacks, improving fault isolation."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0015",
+        "text": "Which of the following is a benefit of server-side composition for caching?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fragments can be cached independently"
+            },
+            {
+                "letter": "B",
+                "text": "Caching is disabled"
+            },
+            {
+                "letter": "C",
+                "text": "Only full pages can be cached"
+            },
+            {
+                "letter": "D",
+                "text": "Cache invalidation is impossible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition allows caching of individual fragments, improving performance and flexibility."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0016",
+        "text": "Which of the following is a challenge in server-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Synchronizing fragment rendering times"
+            },
+            {
+                "letter": "B",
+                "text": "Reducing client-side rendering"
+            },
+            {
+                "letter": "C",
+                "text": "Improving SEO"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifying caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Synchronizing fragment rendering times is challenging because fragments may have different response latencies."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0017",
+        "text": "Which of the following is a benefit of server-side composition for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows tracking of fragment rendering times and errors"
+            },
+            {
+                "letter": "B",
+                "text": "Hides fragment performance metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Removes logging"
+            },
+            {
+                "letter": "D",
+                "text": "Disables monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition allows tracking of fragment rendering times and errors for observability."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0018",
+        "text": "Which of the following is a benefit of server-side composition for accessibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Delivers fully rendered HTML to assistive technologies"
+            },
+            {
+                "letter": "B",
+                "text": "Requires JavaScript for accessibility"
+            },
+            {
+                "letter": "C",
+                "text": "Removes semantic markup"
+            },
+            {
+                "letter": "D",
+                "text": "Hides content from screen readers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition delivers fully rendered HTML, improving accessibility for assistive technologies."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0019",
+        "text": "Which of the following is a benefit of server-side composition for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each fragment can be deployed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All fragments must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Deployment is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment is manual"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition allows independent deployment of fragments, enabling faster releases."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0020",
+        "text": "Which of the following best describes the purpose of server-side page fragment composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To assemble UI fragments from multiple microservices into a single page on the server"
+            },
+            {
+                "letter": "B",
+                "text": "To render all UI components on the client side"
+            },
+            {
+                "letter": "C",
+                "text": "To store static assets in a CDN"
+            },
+            {
+                "letter": "D",
+                "text": "To manage API routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side page fragment composition assembles UI fragments from multiple microservices into a single page before sending it to the client."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0021",
+        "text": "Which of the following is a benefit of server-side composition for latency management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces perceived latency by parallelizing fragment rendering"
+            },
+            {
+                "letter": "B",
+                "text": "Increases network round trips"
+            },
+            {
+                "letter": "C",
+                "text": "Requires sequential rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Delays time-to-first-byte"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition can parallelize fragment rendering, reducing perceived latency."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0022",
+        "text": "Which of the following is a common architectural pattern used with server-side composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Backend for Frontend (BFF)"
+            },
+            {
+                "letter": "B",
+                "text": "Event sourcing"
+            },
+            {
+                "letter": "C",
+                "text": "CQRS"
+            },
+            {
+                "letter": "D",
+                "text": "Saga pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Backend for Frontend (BFF) is often used to tailor server-side composition for specific clients."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0023",
+        "text": "Which of the following is a benefit of server-side composition for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows centralized tracking of fragment performance"
+            },
+            {
+                "letter": "B",
+                "text": "Removes logging"
+            },
+            {
+                "letter": "C",
+                "text": "Hides fragment metrics"
+            },
+            {
+                "letter": "D",
+                "text": "Disables observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition allows centralized tracking of fragment performance and errors."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0024",
+        "text": "Which of the following is a benefit of server-side composition for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows fallback fragments when a service fails"
+            },
+            {
+                "letter": "B",
+                "text": "Stops rendering on any error"
+            },
+            {
+                "letter": "C",
+                "text": "Requires all fragments to succeed"
+            },
+            {
+                "letter": "D",
+                "text": "Disables error handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition can use fallback fragments to maintain page integrity when a service fails."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0025",
+        "text": "Which of the following is a benefit of server-side composition for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents direct client access to internal APIs"
+            },
+            {
+                "letter": "B",
+                "text": "Exposes all backend endpoints"
+            },
+            {
+                "letter": "C",
+                "text": "Removes authentication"
+            },
+            {
+                "letter": "D",
+                "text": "Disables authorization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition hides internal APIs from clients, improving security."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0026",
+        "text": "Which of the following is a benefit of server-side composition for caching?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows caching of individual fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Disables caching"
+            },
+            {
+                "letter": "C",
+                "text": "Caches only full pages"
+            },
+            {
+                "letter": "D",
+                "text": "Removes cache headers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition allows caching of individual fragments, improving performance."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0027",
+        "text": "Which of the following is a benefit of server-side composition for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each fragment can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All fragments must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is manual"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each fragment service can scale independently, improving scalability and resource efficiency."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0028",
+        "text": "Which of the following is a benefit of server-side composition for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can update fragments without affecting others"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must deploy together"
+            },
+            {
+                "letter": "C",
+                "text": "UI fragments are tightly coupled"
+            },
+            {
+                "letter": "D",
+                "text": "Composition logic is centralized in the client"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition allows teams to update fragments independently, improving maintainability."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0029",
+        "text": "Which of the following is a benefit of server-side composition for DevOps?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies deployment pipelines for UI fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Increases deployment coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Removes CI/CD integration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition simplifies DevOps by allowing independent deployment of UI fragments."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0030",
+        "text": "Which of the following is a benefit of server-side composition for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides metrics for fragment rendering times"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides performance data"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition provides metrics for fragment rendering times, improving observability."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0031",
+        "text": "Which of the following is a benefit of server-side composition for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows testing of individual fragments in isolation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full-page integration tests only"
+            },
+            {
+                "letter": "C",
+                "text": "Removes test automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables unit testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition allows testing of individual fragments independently before integration."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0032",
+        "text": "Which of the following is a benefit of server-side composition for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports graceful degradation when fragments fail"
+            },
+            {
+                "letter": "B",
+                "text": "Stops rendering on any error"
+            },
+            {
+                "letter": "C",
+                "text": "Requires all fragments to succeed"
+            },
+            {
+                "letter": "D",
+                "text": "Disables fallback logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition supports graceful degradation by using fallback fragments when failures occur."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0033",
+        "text": "Which of the following is a benefit of server-side composition for analytics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralizes tracking of user interactions across fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Removes analytics tracking"
+            },
+            {
+                "letter": "C",
+                "text": "Hides user behavior"
+            },
+            {
+                "letter": "D",
+                "text": "Disables event logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition centralizes analytics tracking across fragments for unified insights."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0034",
+        "text": "Which of the following is a benefit of server-side composition for governance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent UI policies across fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Removes compliance requirements"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces accountability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides user activity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition enforces consistent UI policies and governance across fragments."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0035",
+        "text": "Which of the following is a benefit of server-side composition for accessibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Delivers semantic HTML for assistive technologies"
+            },
+            {
+                "letter": "B",
+                "text": "Removes ARIA attributes"
+            },
+            {
+                "letter": "C",
+                "text": "Requires JavaScript for accessibility"
+            },
+            {
+                "letter": "D",
+                "text": "Hides content from screen readers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition delivers semantic HTML, improving accessibility for assistive technologies."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0036",
+        "text": "Which of the following is a benefit of server-side composition for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces client-side rendering overhead"
+            },
+            {
+                "letter": "B",
+                "text": "Increases JavaScript execution time"
+            },
+            {
+                "letter": "C",
+                "text": "Adds extra network requests"
+            },
+            {
+                "letter": "D",
+                "text": "Delays page rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition reduces client-side rendering overhead by delivering pre-rendered pages."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0037",
+        "text": "Which of the following is a benefit of server-side composition for hybrid rendering?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Combines server rendering with client-side interactivity"
+            },
+            {
+                "letter": "B",
+                "text": "Disables client-side rendering"
+            },
+            {
+                "letter": "C",
+                "text": "Removes dynamic content"
+            },
+            {
+                "letter": "D",
+                "text": "Hides interactive elements"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition can be combined with client-side hydration for hybrid rendering."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0038",
+        "text": "Which of the following is a benefit of server-side composition for content delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports CDN caching of assembled pages"
+            },
+            {
+                "letter": "B",
+                "text": "Disables CDN caching"
+            },
+            {
+                "letter": "C",
+                "text": "Removes cache headers"
+            },
+            {
+                "letter": "D",
+                "text": "Increases cache misses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition supports CDN caching of assembled pages for faster delivery."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0039",
+        "text": "Which of the following is a benefit of server-side composition for version control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent versioning of fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires global versioning"
+            },
+            {
+                "letter": "C",
+                "text": "Removes version tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Hides version metadata"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each fragment can be versioned independently, allowing flexible updates and rollbacks."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0040",
+        "text": "Which of the following is a benefit of server-side composition for CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables independent deployment of UI fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Requires monolithic deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition enables independent deployment of UI fragments in CI/CD pipelines."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0041",
+        "text": "Which of the following is a benefit of server-side composition for error handling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows graceful degradation of failing fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Stops rendering on any error"
+            },
+            {
+                "letter": "C",
+                "text": "Removes error tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Disables fallback logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition allows graceful degradation by replacing failing fragments with fallbacks."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0042",
+        "text": "Which of the following is a benefit of server-side composition for hybrid environments?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides unified rendering across cloud and on-prem systems"
+            },
+            {
+                "letter": "B",
+                "text": "Removes hybrid support"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition provides unified rendering across hybrid environments."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0043",
+        "text": "Which of the following is a benefit of server-side composition for personalization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows dynamic assembly of personalized fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Removes user-specific content"
+            },
+            {
+                "letter": "C",
+                "text": "Disables dynamic rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Hides personalization logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition allows dynamic assembly of personalized fragments for each user."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0044",
+        "text": "Which of the following is a benefit of server-side composition for A/B testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports serving different fragments to different user groups"
+            },
+            {
+                "letter": "B",
+                "text": "Removes experiment tracking"
+            },
+            {
+                "letter": "C",
+                "text": "Disables variation rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Hides test results"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition supports A/B testing by serving different fragments to different user groups."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0045",
+        "text": "Which of the following is a benefit of server-side composition for content management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Integrates CMS-driven fragments into pages"
+            },
+            {
+                "letter": "B",
+                "text": "Removes CMS integration"
+            },
+            {
+                "letter": "C",
+                "text": "Disables dynamic content"
+            },
+            {
+                "letter": "D",
+                "text": "Hides editorial updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition integrates CMS-driven fragments into pages for dynamic content management."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0046",
+        "text": "Which of the following is a benefit of server-side composition for multi-tenancy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports tenant-specific fragment rendering"
+            },
+            {
+                "letter": "B",
+                "text": "Removes tenant isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Disables customization"
+            },
+            {
+                "letter": "D",
+                "text": "Hides tenant data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition supports tenant-specific fragment rendering for multi-tenant applications."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0047",
+        "text": "Which of the following is a benefit of server-side composition for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces client-side compute and bandwidth usage"
+            },
+            {
+                "letter": "B",
+                "text": "Increases resource consumption"
+            },
+            {
+                "letter": "C",
+                "text": "Removes caching"
+            },
+            {
+                "letter": "D",
+                "text": "Hides performance metrics"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition reduces client-side compute and bandwidth usage, optimizing costs."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0048",
+        "text": "Which of the following is a benefit of server-side composition for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures consistent layout across fragments"
+            },
+            {
+                "letter": "B",
+                "text": "Allows inconsistent styling"
+            },
+            {
+                "letter": "C",
+                "text": "Removes layout templates"
+            },
+            {
+                "letter": "D",
+                "text": "Disables shared components"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition ensures consistent layout and styling across fragments."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0049",
+        "text": "Which of the following is a benefit of server-side composition for hybrid rendering strategies?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Combines server rendering with client-side updates"
+            },
+            {
+                "letter": "B",
+                "text": "Removes client interactivity"
+            },
+            {
+                "letter": "C",
+                "text": "Disables dynamic updates"
+            },
+            {
+                "letter": "D",
+                "text": "Hides client logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side composition can combine server rendering with client-side updates for hybrid rendering."
+    },
+    {
+        "title": "MicroservicesUIDesignServerSidePageFragmentComposition - Q0050",
+        "text": "Which of the following best describes the purpose of server-side page fragment composition in microservices UI design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To assemble UI fragments from multiple microservices into a single page on the server for performance, scalability, and maintainability"
+            },
+            {
+                "letter": "B",
+                "text": "To render all UI components on the client side"
+            },
+            {
+                "letter": "C",
+                "text": "To store static assets in a CDN"
+            },
+            {
+                "letter": "D",
+                "text": "To manage API routing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server-side page fragment composition assembles UI fragments from multiple microservices into a single page for performance, scalability, and maintainability."
+    }
+]
