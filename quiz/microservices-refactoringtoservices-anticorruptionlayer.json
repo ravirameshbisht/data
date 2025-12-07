@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0001",
+        "text": "What is the main purpose of an Anti-Corruption Layer (ACL) in microservices refactoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To isolate a new microservice from legacy system dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "To merge legacy and new systems directly"
+            },
+            {
+                "letter": "C",
+                "text": "To replace the legacy system entirely"
+            },
+            {
+                "letter": "D",
+                "text": "To store data for both systems"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An Anti-Corruption Layer isolates new microservices from legacy systems, preventing direct dependency and model corruption."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0002",
+        "text": "Which design pattern does the Anti-Corruption Layer concept originate from?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Domain-Driven Design (DDD)"
+            },
+            {
+                "letter": "B",
+                "text": "Model-View-Controller (MVC)"
+            },
+            {
+                "letter": "C",
+                "text": "Observer Pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Factory Pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Anti-Corruption Layer concept originates from Domain-Driven Design (DDD) to protect domain models from external influence."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0003",
+        "text": "What problem does an Anti-Corruption Layer primarily solve?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Model corruption due to direct integration with legacy systems"
+            },
+            {
+                "letter": "B",
+                "text": "Database normalization issues"
+            },
+            {
+                "letter": "C",
+                "text": "Network latency"
+            },
+            {
+                "letter": "D",
+                "text": "Load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL prevents model corruption by avoiding direct integration between new and legacy systems."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0004",
+        "text": "Which of the following best describes the function of an Anti-Corruption Layer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It translates and adapts communication between systems"
+            },
+            {
+                "letter": "B",
+                "text": "It stores data for both systems"
+            },
+            {
+                "letter": "C",
+                "text": "It merges domain models"
+            },
+            {
+                "letter": "D",
+                "text": "It replaces the legacy system"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL acts as a translator and adapter between systems, ensuring model and data consistency."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0005",
+        "text": "What is a key benefit of using an Anti-Corruption Layer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It prevents legacy system complexity from leaking into new services"
+            },
+            {
+                "letter": "B",
+                "text": "It increases coupling between systems"
+            },
+            {
+                "letter": "C",
+                "text": "It eliminates the need for testing"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL prevents legacy complexity from leaking into new microservices by isolating and translating interactions."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0006",
+        "text": "Which of the following components are typically part of an Anti-Corruption Layer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Adapters, translators, and facades"
+            },
+            {
+                "letter": "B",
+                "text": "Controllers and repositories"
+            },
+            {
+                "letter": "C",
+                "text": "Load balancers and caches"
+            },
+            {
+                "letter": "D",
+                "text": "Schedulers and queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL typically includes adapters, translators, and facades to mediate between systems."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0007",
+        "text": "In which scenario is an Anti-Corruption Layer most useful?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "When integrating a new microservice with a legacy system"
+            },
+            {
+                "letter": "B",
+                "text": "When building a monolithic application"
+            },
+            {
+                "letter": "C",
+                "text": "When scaling databases horizontally"
+            },
+            {
+                "letter": "D",
+                "text": "When implementing caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL is most useful when integrating new microservices with legacy systems to prevent model contamination."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0008",
+        "text": "What is the main risk of not using an Anti-Corruption Layer during migration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The new system becomes tightly coupled to the legacy system"
+            },
+            {
+                "letter": "B",
+                "text": "The legacy system becomes faster"
+            },
+            {
+                "letter": "C",
+                "text": "The new system becomes isolated"
+            },
+            {
+                "letter": "D",
+                "text": "The legacy system stops working"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Without an ACL, the new system can become tightly coupled to the legacy system, inheriting its complexity."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0009",
+        "text": "Which of the following best describes the communication flow with an Anti-Corruption Layer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "New service → ACL → Legacy system"
+            },
+            {
+                "letter": "B",
+                "text": "New service → Legacy system directly"
+            },
+            {
+                "letter": "C",
+                "text": "Legacy system → New service directly"
+            },
+            {
+                "letter": "D",
+                "text": "New service → Database → Legacy system"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL sits between the new service and the legacy system, mediating all communication."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0010",
+        "text": "Which of the following is a key principle of the Anti-Corruption Layer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Translation between different domain models"
+            },
+            {
+                "letter": "B",
+                "text": "Direct data sharing between systems"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data storage"
+            },
+            {
+                "letter": "D",
+                "text": "Shared database schema"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL translates between different domain models to maintain separation and integrity."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0011",
+        "text": "Which of the following is a benefit of using an Anti-Corruption Layer for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating legacy dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all maintenance tasks"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between systems"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL simplifies maintenance by isolating legacy dependencies and reducing coupling."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0012",
+        "text": "Which of the following is a benefit of using an Anti-Corruption Layer for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows testing of new services independently from legacy systems"
+            },
+            {
+                "letter": "B",
+                "text": "Requires testing the entire system at once"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates the need for testing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all test cases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL allows independent testing of new services without affecting the legacy system."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0013",
+        "text": "Which of the following is a benefit of using an Anti-Corruption Layer for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk by decoupling new and old systems"
+            },
+            {
+                "letter": "B",
+                "text": "Increases risk through direct integration"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates testing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL reduces risk by decoupling new and old systems, allowing safe incremental migration."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0014",
+        "text": "Which of the following is a benefit of using an Anti-Corruption Layer for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "New services can scale independently of legacy systems"
+            },
+            {
+                "letter": "B",
+                "text": "All systems must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL allows new services to scale independently, improving flexibility and performance."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0015",
+        "text": "Which of the following is a benefit of using an Anti-Corruption Layer for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster delivery of new features"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down development"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL enables faster delivery of new features by allowing independent development of new services."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0016",
+        "text": "Which of the following is a benefit of using an Anti-Corruption Layer for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in the legacy system do not affect new services"
+            },
+            {
+                "letter": "B",
+                "text": "Failures propagate to all systems"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL improves fault isolation by preventing failures in the legacy system from affecting new services."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0017",
+        "text": "Which of the following is a benefit of using an Anti-Corruption Layer for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent evolution of new services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL allows independent evolution of new services without being constrained by legacy systems."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0018",
+        "text": "Which of the following is a benefit of using an Anti-Corruption Layer for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service can recover independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL improves resilience by allowing independent recovery of new services."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0019",
+        "text": "Which of the following is a benefit of using an Anti-Corruption Layer for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new technologies independently"
+            },
+            {
+                "letter": "B",
+                "text": "Technology stack is fixed"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires system-wide changes"
+            },
+            {
+                "letter": "D",
+                "text": "All teams must use the same tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL fosters innovation by allowing teams to experiment independently with new technologies."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0020",
+        "text": "Which of the following best describes the outcome of using an Anti-Corruption Layer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "New services remain cleanly separated from legacy systems"
+            },
+            {
+                "letter": "B",
+                "text": "New services depend directly on legacy systems"
+            },
+            {
+                "letter": "C",
+                "text": "Legacy systems are merged into new services"
+            },
+            {
+                "letter": "D",
+                "text": "All systems share the same data model"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An ACL ensures new services remain cleanly separated from legacy systems, maintaining domain integrity."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0021",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for business continuity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows integration without disrupting existing users"
+            },
+            {
+                "letter": "B",
+                "text": "It requires complete downtime during migration"
+            },
+            {
+                "letter": "C",
+                "text": "It stops all new feature development"
+            },
+            {
+                "letter": "D",
+                "text": "It forces a full rewrite before deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Anti-Corruption Layer ensures business continuity by allowing integration without disrupting existing users."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0022",
+        "text": "Which of the following is a common risk when not using an Anti-Corruption Layer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tight coupling between new and legacy systems"
+            },
+            {
+                "letter": "B",
+                "text": "Improved modularity"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified testing"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Without an ACL, new and legacy systems can become tightly coupled, increasing complexity and risk."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0023",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "New services can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All systems must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL allows new services to scale independently from legacy systems."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0024",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating legacy dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all maintenance tasks"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between systems"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL simplifies maintenance by isolating legacy dependencies and reducing coupling."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0025",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk by decoupling new and old systems"
+            },
+            {
+                "letter": "B",
+                "text": "Increases risk through direct integration"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates testing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL reduces risk by decoupling new and old systems, allowing safe incremental migration."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0026",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows incremental deployment of new services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full system redeployment"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates version control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL allows incremental deployment of new services, reducing deployment risk."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0027",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows testing of new services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Requires testing the entire system at once"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates the need for testing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all test cases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL allows independent testing of new services before full integration."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0028",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster delivery of new features"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down development"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL enables faster delivery of new features by allowing independent development of new services."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0029",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures in the legacy system do not affect new services"
+            },
+            {
+                "letter": "B",
+                "text": "Failures propagate to all systems"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL improves fault isolation by preventing failures in the legacy system from affecting new services."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0030",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent evolution of new services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL allows independent evolution of new services without being constrained by legacy systems."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0031",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service can recover independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL improves resilience by allowing independent recovery of new services."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0032",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new technologies independently"
+            },
+            {
+                "letter": "B",
+                "text": "Technology stack is fixed"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires system-wide changes"
+            },
+            {
+                "letter": "D",
+                "text": "All teams must use the same tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL fosters innovation by allowing teams to experiment independently with new technologies."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0033",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables frequent and independent releases"
+            },
+            {
+                "letter": "B",
+                "text": "Requires redeploying the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL supports continuous delivery by enabling frequent and independent releases."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0034",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service is modular and focused on a single business function"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL promotes modularity by designing each new service around a single business function."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0035",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into both old and new systems"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL improves observability by providing visibility into both old and new systems during migration."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0036",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aligns technical architecture with business goals"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL aligns technical architecture with business goals by enabling gradual modernization."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0037",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for adaptability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows quick adaptation to business changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires system-wide updates"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL allows quick adaptation to business changes without affecting the entire system."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0038",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clear ownership of new services by specific teams"
+            },
+            {
+                "letter": "B",
+                "text": "Shared ownership across all teams"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized ownership"
+            },
+            {
+                "letter": "D",
+                "text": "No ownership boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL provides clear ownership of new services by specific teams, improving accountability."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0039",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces inter-team communication by defining clear boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Increases cross-team dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized messaging"
+            },
+            {
+                "letter": "D",
+                "text": "Encourages tight coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL reduces inter-team communication by defining clear boundaries between old and new systems."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0040",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for clarity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear separation of old and new functionality"
+            },
+            {
+                "letter": "B",
+                "text": "Blurs system boundaries"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Increases ambiguity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL provides clear separation of old and new functionality during migration."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0041",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service can handle failures independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL improves reliability by allowing independent failure handling for new services."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0042",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can iterate and improve new services independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must coordinate improvements"
+            },
+            {
+                "letter": "C",
+                "text": "Improvements require system-wide updates"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized approval"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL allows teams to iterate and improve new services independently."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0043",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for accountability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team is accountable for its new services"
+            },
+            {
+                "letter": "B",
+                "text": "Accountability is shared across all teams"
+            },
+            {
+                "letter": "C",
+                "text": "Accountability is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "No accountability boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL ensures accountability by assigning responsibility for new services to specific teams."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0044",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can optimize performance for new services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Performance tuning affects all services"
+            },
+            {
+                "letter": "C",
+                "text": "Performance is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "No performance isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL allows teams to optimize performance for new services independently."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0045",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into integration boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Hides integration details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL improves transparency by providing visibility into integration boundaries and data flow."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0046",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for business alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures new services align with business priorities"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL ensures that new services align with business priorities and goals."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0047",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service can operate independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services depend on each other"
+            },
+            {
+                "letter": "C",
+                "text": "Services share the same database"
+            },
+            {
+                "letter": "D",
+                "text": "Services require orchestration for every call"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL allows each new service to operate independently without relying on the legacy system."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0048",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL allows independent scaling of new services based on their specific performance needs."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0049",
+        "text": "Which of the following is a benefit of the Anti-Corruption Layer for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service can handle failures independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The ACL improves reliability by allowing independent failure handling for new services."
+    },
+    {
+        "title": "MicroservicesRefactoringAntiCorruptionLayer - Q0050",
+        "text": "Which of the following best describes the purpose of the Anti-Corruption Layer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To protect new microservices from legacy system complexity and model corruption"
+            },
+            {
+                "letter": "B",
+                "text": "To merge legacy and new systems directly"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize all business logic"
+            },
+            {
+                "letter": "D",
+                "text": "To replace the legacy system immediately"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The purpose of the ACL is to protect new microservices from legacy system complexity and model corruption."
+    }
+]

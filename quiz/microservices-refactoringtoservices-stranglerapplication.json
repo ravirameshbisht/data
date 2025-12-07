@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0001",
+        "text": "What is the Strangler Application pattern in microservices refactoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A pattern for incrementally replacing a monolith with microservices"
+            },
+            {
+                "letter": "B",
+                "text": "A pattern for merging multiple microservices into one"
+            },
+            {
+                "letter": "C",
+                "text": "A pattern for scaling databases horizontally"
+            },
+            {
+                "letter": "D",
+                "text": "A pattern for caching API responses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler Application pattern incrementally replaces parts of a monolithic system with microservices until the monolith is fully retired."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0002",
+        "text": "What is the main goal of the Strangler Application pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To gradually migrate from a monolith to microservices"
+            },
+            {
+                "letter": "B",
+                "text": "To rewrite the entire system at once"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize all business logic"
+            },
+            {
+                "letter": "D",
+                "text": "To reduce the number of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The goal is to gradually migrate from a monolithic architecture to microservices without disrupting existing functionality."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0003",
+        "text": "The Strangler Application pattern is inspired by which natural phenomenon?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A strangler fig tree growing around a host tree"
+            },
+            {
+                "letter": "B",
+                "text": "A coral reef expanding over time"
+            },
+            {
+                "letter": "C",
+                "text": "A vine spreading across a wall"
+            },
+            {
+                "letter": "D",
+                "text": "A glacier slowly moving downhill"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern is inspired by the strangler fig tree, which grows around a host tree and eventually replaces it."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0004",
+        "text": "What is the first step in applying the Strangler Application pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Identify a small, independent functionality to extract"
+            },
+            {
+                "letter": "B",
+                "text": "Rewrite the entire monolith"
+            },
+            {
+                "letter": "C",
+                "text": "Deploy all microservices at once"
+            },
+            {
+                "letter": "D",
+                "text": "Remove the monolith immediately"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The first step is to identify a small, independent functionality that can be safely extracted into a microservice."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0005",
+        "text": "Which of the following best describes the migration process in the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Gradually replace monolith components with microservices"
+            },
+            {
+                "letter": "B",
+                "text": "Replace the entire monolith in one release"
+            },
+            {
+                "letter": "C",
+                "text": "Duplicate all monolith functionality in microservices"
+            },
+            {
+                "letter": "D",
+                "text": "Run both systems indefinitely"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The migration process involves gradually replacing monolith components with microservices until the monolith is obsolete."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0006",
+        "text": "What role does an API Gateway play in the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It routes requests between the monolith and new microservices"
+            },
+            {
+                "letter": "B",
+                "text": "It stores all application data"
+            },
+            {
+                "letter": "C",
+                "text": "It compiles the monolith code"
+            },
+            {
+                "letter": "D",
+                "text": "It manages database migrations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An API Gateway routes requests to either the monolith or the new microservices during the migration process."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0007",
+        "text": "Which of the following is a key advantage of the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows incremental migration with minimal risk"
+            },
+            {
+                "letter": "B",
+                "text": "It requires no testing"
+            },
+            {
+                "letter": "C",
+                "text": "It eliminates the need for version control"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows incremental migration, reducing risk and enabling continuous delivery."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0008",
+        "text": "What is a common challenge when using the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing data consistency between the monolith and microservices"
+            },
+            {
+                "letter": "B",
+                "text": "Deploying all services simultaneously"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizing all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Reducing the number of APIs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A common challenge is maintaining data consistency between the monolith and the new microservices during migration."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0009",
+        "text": "Which of the following best describes the end state of a successful Strangler migration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The monolith is fully replaced by microservices"
+            },
+            {
+                "letter": "B",
+                "text": "The monolith and microservices coexist permanently"
+            },
+            {
+                "letter": "C",
+                "text": "The monolith is expanded with new features"
+            },
+            {
+                "letter": "D",
+                "text": "The microservices are merged back into the monolith"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In a successful Strangler migration, the monolith is fully replaced by microservices and eventually retired."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0010",
+        "text": "Which of the following is a benefit of using the Strangler pattern for legacy systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It avoids a risky big-bang rewrite"
+            },
+            {
+                "letter": "B",
+                "text": "It requires no testing"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes all services"
+            },
+            {
+                "letter": "D",
+                "text": "It eliminates the need for version control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern avoids the risks of a big-bang rewrite by enabling gradual migration."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0011",
+        "text": "What is the typical role of a proxy in the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To route traffic between the old and new systems"
+            },
+            {
+                "letter": "B",
+                "text": "To store application logs"
+            },
+            {
+                "letter": "C",
+                "text": "To manage database schemas"
+            },
+            {
+                "letter": "D",
+                "text": "To compile the monolith code"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A proxy routes traffic between the old monolith and the new microservices during the migration process."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0012",
+        "text": "Which of the following is a key principle of the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Incremental replacement of functionality"
+            },
+            {
+                "letter": "B",
+                "text": "Complete rewrite of the system"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Shared database for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern is based on the principle of incrementally replacing functionality rather than rewriting everything at once."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0013",
+        "text": "Which of the following is a risk of not using the Strangler pattern when refactoring a monolith?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "High risk of failure due to big-bang rewrites"
+            },
+            {
+                "letter": "B",
+                "text": "Gradual migration with low risk"
+            },
+            {
+                "letter": "C",
+                "text": "Improved maintainability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Without the Strangler pattern, a big-bang rewrite can lead to high risk and potential project failure."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0014",
+        "text": "Which of the following best describes the transition phase in the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Both the monolith and microservices coexist temporarily"
+            },
+            {
+                "letter": "B",
+                "text": "The monolith is immediately shut down"
+            },
+            {
+                "letter": "C",
+                "text": "Only microservices handle all requests"
+            },
+            {
+                "letter": "D",
+                "text": "The monolith is duplicated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "During the transition phase, both the monolith and microservices coexist until the migration is complete."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0015",
+        "text": "Which of the following is a benefit of the Strangler pattern for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows incremental deployment of new services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full system redeployment"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates version control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows incremental deployment of new services, reducing deployment risk."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0016",
+        "text": "Which of the following is a common tool used to implement the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "API Gateway or reverse proxy"
+            },
+            {
+                "letter": "B",
+                "text": "Database migration tool"
+            },
+            {
+                "letter": "C",
+                "text": "Load balancer only"
+            },
+            {
+                "letter": "D",
+                "text": "Message queue"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An API Gateway or reverse proxy is commonly used to route traffic between the monolith and microservices."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0017",
+        "text": "Which of the following is a benefit of the Strangler pattern for risk management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk by allowing gradual migration"
+            },
+            {
+                "letter": "B",
+                "text": "Increases risk through big-bang changes"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates testing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern reduces risk by allowing gradual migration and continuous testing."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0018",
+        "text": "Which of the following is a key indicator that a system is ready for the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The monolith has well-defined modules or boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "The monolith has no modular structure"
+            },
+            {
+                "letter": "C",
+                "text": "The system is already fully microservices-based"
+            },
+            {
+                "letter": "D",
+                "text": "The system has no external interfaces"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A monolith with well-defined modules or boundaries is easier to refactor using the Strangler pattern."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0019",
+        "text": "Which of the following is a benefit of the Strangler pattern for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows testing of new services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Requires testing the entire system at once"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates the need for testing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all test cases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows independent testing of new services before full integration."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0020",
+        "text": "Which of the following best describes the final step in the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decommission the monolith after all functionality is migrated"
+            },
+            {
+                "letter": "B",
+                "text": "Expand the monolith with new features"
+            },
+            {
+                "letter": "C",
+                "text": "Merge microservices back into the monolith"
+            },
+            {
+                "letter": "D",
+                "text": "Duplicate all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The final step is to decommission the monolith once all functionality has been migrated to microservices."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0021",
+        "text": "Which of the following is a benefit of the Strangler pattern for business continuity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows migration without disrupting existing users"
+            },
+            {
+                "letter": "B",
+                "text": "It requires complete downtime during migration"
+            },
+            {
+                "letter": "C",
+                "text": "It stops all new feature development"
+            },
+            {
+                "letter": "D",
+                "text": "It forces a full rewrite before deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern ensures business continuity by allowing migration without disrupting existing users."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0022",
+        "text": "Which of the following is a common risk when applying the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Inconsistent data between old and new systems"
+            },
+            {
+                "letter": "B",
+                "text": "Immediate system replacement"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Data inconsistency between the monolith and new microservices is a common risk during migration."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0023",
+        "text": "Which of the following is a benefit of the Strangler pattern for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "New microservices can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "The monolith must scale as a whole"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows new microservices to scale independently, improving performance and flexibility."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0024",
+        "text": "Which of the following is a benefit of the Strangler pattern for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating new services"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all maintenance tasks"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between systems"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern simplifies maintenance by isolating new services from the legacy system."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0025",
+        "text": "Which of the following is a benefit of the Strangler pattern for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk by allowing gradual migration"
+            },
+            {
+                "letter": "B",
+                "text": "Increases risk through big-bang changes"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates testing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern reduces risk by allowing gradual migration and continuous testing."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0026",
+        "text": "Which of the following is a benefit of the Strangler pattern for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows incremental deployment of new services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full system redeployment"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates version control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows incremental deployment of new services, reducing deployment risk."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0027",
+        "text": "Which of the following is a benefit of the Strangler pattern for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows testing of new services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Requires testing the entire system at once"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates the need for testing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all test cases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows independent testing of new services before full integration."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0028",
+        "text": "Which of the following is a benefit of the Strangler pattern for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster delivery of new features"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down development"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern enables faster delivery of new features by allowing incremental changes."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0029",
+        "text": "Which of the following is a benefit of the Strangler pattern for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within new microservices"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all systems"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern improves fault isolation by containing failures within new microservices."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0030",
+        "text": "Which of the following is a benefit of the Strangler pattern for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent evolution of new services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows independent evolution of new services without affecting the legacy system."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0031",
+        "text": "Which of the following is a benefit of the Strangler pattern for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service can recover independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern improves resilience by allowing independent recovery of new services."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0032",
+        "text": "Which of the following is a benefit of the Strangler pattern for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new technologies independently"
+            },
+            {
+                "letter": "B",
+                "text": "Technology stack is fixed"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires system-wide changes"
+            },
+            {
+                "letter": "D",
+                "text": "All teams must use the same tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern fosters innovation by allowing teams to experiment independently with new technologies."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0033",
+        "text": "Which of the following is a benefit of the Strangler pattern for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables frequent and independent releases"
+            },
+            {
+                "letter": "B",
+                "text": "Requires redeploying the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern supports continuous delivery by enabling frequent and independent releases."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0034",
+        "text": "Which of the following is a benefit of the Strangler pattern for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service is modular and focused on a single business function"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern promotes modularity by designing each new service around a single business function."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0035",
+        "text": "Which of the following is a benefit of the Strangler pattern for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into both old and new systems"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern improves observability by providing visibility into both old and new systems during migration."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0036",
+        "text": "Which of the following is a benefit of the Strangler pattern for alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aligns technical architecture with business goals"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern aligns technical architecture with business goals by enabling gradual modernization."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0037",
+        "text": "Which of the following is a benefit of the Strangler pattern for adaptability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows quick adaptation to business changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires system-wide updates"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows quick adaptation to business changes without affecting the entire system."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0038",
+        "text": "Which of the following is a benefit of the Strangler pattern for ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clear ownership of new services by specific teams"
+            },
+            {
+                "letter": "B",
+                "text": "Shared ownership across all teams"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized ownership"
+            },
+            {
+                "letter": "D",
+                "text": "No ownership boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern provides clear ownership of new services by specific teams, improving accountability."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0039",
+        "text": "Which of the following is a benefit of the Strangler pattern for communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces inter-team communication by defining clear boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Increases cross-team dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized messaging"
+            },
+            {
+                "letter": "D",
+                "text": "Encourages tight coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern reduces inter-team communication by defining clear boundaries between old and new systems."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0040",
+        "text": "Which of the following is a benefit of the Strangler pattern for clarity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear separation of old and new functionality"
+            },
+            {
+                "letter": "B",
+                "text": "Blurs system boundaries"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Increases ambiguity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern provides clear separation of old and new functionality during migration."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0041",
+        "text": "Which of the following is a benefit of the Strangler pattern for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service can handle failures independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern improves reliability by allowing independent failure handling for new services."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0042",
+        "text": "Which of the following is a benefit of the Strangler pattern for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can iterate and improve new services independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must coordinate improvements"
+            },
+            {
+                "letter": "C",
+                "text": "Improvements require system-wide updates"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized approval"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows teams to iterate and improve new services independently."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0043",
+        "text": "Which of the following is a benefit of the Strangler pattern for accountability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team is accountable for its new services"
+            },
+            {
+                "letter": "B",
+                "text": "Accountability is shared across all teams"
+            },
+            {
+                "letter": "C",
+                "text": "Accountability is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "No accountability boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern ensures accountability by assigning responsibility for new services to specific teams."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0044",
+        "text": "Which of the following is a benefit of the Strangler pattern for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can optimize performance for new services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Performance tuning affects all services"
+            },
+            {
+                "letter": "C",
+                "text": "Performance is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "No performance isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows teams to optimize performance for new services independently."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0045",
+        "text": "Which of the following is a benefit of the Strangler pattern for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into migration progress"
+            },
+            {
+                "letter": "B",
+                "text": "Hides migration details"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern improves transparency by providing visibility into migration progress and system state."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0046",
+        "text": "Which of the following is a benefit of the Strangler pattern for business alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures new services align with business priorities"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern ensures that new services align with business priorities and goals."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0047",
+        "text": "Which of the following is a benefit of the Strangler pattern for independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service can operate independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services depend on each other"
+            },
+            {
+                "letter": "C",
+                "text": "Services share the same database"
+            },
+            {
+                "letter": "D",
+                "text": "Services require orchestration for every call"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows each new service to operate independently without relying on the monolith."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0048",
+        "text": "Which of the following is a benefit of the Strangler pattern for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern allows independent scaling of new services based on their specific performance needs."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0049",
+        "text": "Which of the following is a benefit of the Strangler pattern for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each new service can handle failures independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Strangler pattern improves reliability by allowing independent failure handling for new services."
+    },
+    {
+        "title": "MicroservicesRefactoringStranglerApplication - Q0050",
+        "text": "Which of the following best describes the purpose of the Strangler pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To incrementally replace a monolith with microservices while minimizing risk"
+            },
+            {
+                "letter": "B",
+                "text": "To rewrite the entire system at once"
+            },
+            {
+                "letter": "C",
+                "text": "To merge microservices into a monolith"
+            },
+            {
+                "letter": "D",
+                "text": "To centralize all business logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The purpose of the Strangler pattern is to incrementally replace a monolith with microservices while minimizing risk and disruption."
+    }
+]
