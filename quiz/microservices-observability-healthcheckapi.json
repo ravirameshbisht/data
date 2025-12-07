@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0001",
+        "text": "What is the primary purpose of a health check API in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To report the operational status of a service"
+            },
+            {
+                "letter": "B",
+                "text": "To manage service discovery"
+            },
+            {
+                "letter": "C",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "D",
+                "text": "To monitor CPU usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A health check API reports whether a service is operational and ready to handle requests."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0002",
+        "text": "Which HTTP status code typically indicates a healthy service?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "200 OK"
+            },
+            {
+                "letter": "B",
+                "text": "404 Not Found"
+            },
+            {
+                "letter": "C",
+                "text": "500 Internal Server Error"
+            },
+            {
+                "letter": "D",
+                "text": "503 Service Unavailable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A 200 OK response indicates that the service is healthy and functioning properly."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0003",
+        "text": "Which of the following is a common endpoint name for a health check API?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "/health"
+            },
+            {
+                "letter": "B",
+                "text": "/status"
+            },
+            {
+                "letter": "C",
+                "text": "/ping"
+            },
+            {
+                "letter": "D",
+                "text": "All of the above"
+            }
+        ],
+        "correct": "D",
+        "explanation": "Common health check endpoints include /health, /status, and /ping depending on conventions."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0004",
+        "text": "What is the purpose of a liveness probe?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To check if the service process is running"
+            },
+            {
+                "letter": "B",
+                "text": "To check if the service is ready to accept traffic"
+            },
+            {
+                "letter": "C",
+                "text": "To monitor CPU usage"
+            },
+            {
+                "letter": "D",
+                "text": "To test network latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A liveness probe checks if the service process is alive and running."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0005",
+        "text": "What is the purpose of a readiness probe?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To check if the service is ready to handle requests"
+            },
+            {
+                "letter": "B",
+                "text": "To check if the service process is running"
+            },
+            {
+                "letter": "C",
+                "text": "To monitor memory usage"
+            },
+            {
+                "letter": "D",
+                "text": "To test network throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A readiness probe determines if the service is ready to handle incoming traffic."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0006",
+        "text": "Which of the following is a benefit of implementing health check APIs?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables automated service monitoring and recovery"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility into system health"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates monitoring tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs enable automated monitoring and recovery by reporting service health."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0007",
+        "text": "Which of the following is a common tool that uses health check APIs for orchestration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Kubernetes"
+            },
+            {
+                "letter": "B",
+                "text": "Redis"
+            },
+            {
+                "letter": "C",
+                "text": "MySQL"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Kubernetes uses health check APIs (liveness and readiness probes) to manage container lifecycles."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0008",
+        "text": "Which of the following is a benefit of health check APIs for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects and restarts unhealthy services automatically"
+            },
+            {
+                "letter": "B",
+                "text": "Increases downtime"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs help detect and restart unhealthy services, improving reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0009",
+        "text": "Which of the following is a benefit of health check APIs for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides real-time visibility into service health"
+            },
+            {
+                "letter": "B",
+                "text": "Hides system dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs provide real-time visibility into the operational status of services."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0010",
+        "text": "Which of the following is a common response field in a health check API?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "status"
+            },
+            {
+                "letter": "B",
+                "text": "cacheSize"
+            },
+            {
+                "letter": "C",
+                "text": "threadCount"
+            },
+            {
+                "letter": "D",
+                "text": "memoryUsage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'status' field typically indicates whether the service is healthy or unhealthy."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0011",
+        "text": "Which of the following is a best practice for health check APIs?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Keep responses lightweight and fast"
+            },
+            {
+                "letter": "B",
+                "text": "Include full database dumps"
+            },
+            {
+                "letter": "C",
+                "text": "Perform heavy computations"
+            },
+            {
+                "letter": "D",
+                "text": "Return large payloads"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs should be lightweight and fast to avoid adding load to the system."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0012",
+        "text": "Which of the following is a benefit of health check APIs for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables automated scaling and failover decisions"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Disables alerting"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs enable automated scaling and failover decisions in orchestration systems."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0013",
+        "text": "Which of the following is a benefit of health check APIs for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies identifying unhealthy services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual log inspection"
+            },
+            {
+                "letter": "C",
+                "text": "Increases configuration complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs simplify maintenance by identifying unhealthy services quickly."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0014",
+        "text": "Which of the following is a benefit of health check APIs for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into service health and dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Hides system behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs provide transparency by showing service health and dependency status."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0015",
+        "text": "Which of the following is a benefit of health check APIs for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling decisions based on health"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits monitoring coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs support dynamic scaling decisions by reporting service health in real time."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0016",
+        "text": "Which of the following is a benefit of health check APIs for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify failing services quickly"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all logs into one file"
+            },
+            {
+                "letter": "C",
+                "text": "Removes error tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Increases fault propagation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs help isolate faults by identifying failing services quickly."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0017",
+        "text": "Which of the following is a benefit of health check APIs for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides insights for improving service reliability"
+            },
+            {
+                "letter": "B",
+                "text": "Removes performance metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces monitoring coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual debugging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs provide insights that help improve service reliability and uptime."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0018",
+        "text": "Which of the following is a benefit of health check APIs for DevOps teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves collaboration and incident response"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility into system health"
+            },
+            {
+                "letter": "D",
+                "text": "Removes automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs improve collaboration and incident response by providing shared visibility into service health."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0019",
+        "text": "Which of the following is a benefit of health check APIs for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables automated alerting and recovery"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Disables alerting"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs enable automated alerting and recovery when services become unhealthy."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0020",
+        "text": "Which of the following best describes the purpose of a health check API?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To report the operational and readiness status of a service"
+            },
+            {
+                "letter": "B",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "C",
+                "text": "To manage service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "To monitor CPU usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A health check API reports the operational and readiness status of a service for observability and automation."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0021",
+        "text": "Which of the following is a common type of health check used in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Startup probe"
+            },
+            {
+                "letter": "B",
+                "text": "Shutdown probe"
+            },
+            {
+                "letter": "C",
+                "text": "Cache probe"
+            },
+            {
+                "letter": "D",
+                "text": "Thread probe"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A startup probe checks if the application has started successfully before other probes run."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0022",
+        "text": "Which of the following HTTP status codes indicates an unhealthy service?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "503 Service Unavailable"
+            },
+            {
+                "letter": "B",
+                "text": "200 OK"
+            },
+            {
+                "letter": "C",
+                "text": "201 Created"
+            },
+            {
+                "letter": "D",
+                "text": "204 No Content"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A 503 status code indicates that the service is unavailable or unhealthy."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0023",
+        "text": "Which of the following is a benefit of health check APIs for orchestration systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows orchestrators to restart unhealthy containers automatically"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual intervention"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs allow orchestrators like Kubernetes to restart unhealthy containers automatically."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0024",
+        "text": "Which of the following is a best practice for designing health check APIs?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Return minimal data to reduce overhead"
+            },
+            {
+                "letter": "B",
+                "text": "Perform deep database queries"
+            },
+            {
+                "letter": "C",
+                "text": "Include large payloads"
+            },
+            {
+                "letter": "D",
+                "text": "Run complex computations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs should return minimal data to reduce overhead and latency."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0025",
+        "text": "Which of the following is a benefit of health check APIs for load balancers?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps route traffic only to healthy instances"
+            },
+            {
+                "letter": "B",
+                "text": "Increases load on unhealthy instances"
+            },
+            {
+                "letter": "C",
+                "text": "Removes routing logic"
+            },
+            {
+                "letter": "D",
+                "text": "Disables failover"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Load balancers use health check APIs to route traffic only to healthy service instances."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0026",
+        "text": "Which of the following is a common tool for monitoring health check endpoints?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prometheus"
+            },
+            {
+                "letter": "B",
+                "text": "Kafka"
+            },
+            {
+                "letter": "C",
+                "text": "Redis"
+            },
+            {
+                "letter": "D",
+                "text": "MySQL"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Prometheus can monitor health check endpoints and alert when services become unhealthy."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0027",
+        "text": "Which of the following is a benefit of health check APIs for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects and isolates failing components"
+            },
+            {
+                "letter": "B",
+                "text": "Increases fault propagation"
+            },
+            {
+                "letter": "C",
+                "text": "Removes error tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault detection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs detect and isolate failing components, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0028",
+        "text": "Which of the following is a benefit of health check APIs for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear visibility into service health"
+            },
+            {
+                "letter": "B",
+                "text": "Hides system behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs provide transparency by showing the current health of services."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0029",
+        "text": "Which of the following is a benefit of health check APIs for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables automated scaling and recovery"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Disables alerting"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs enable automated scaling and recovery in orchestration systems."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0030",
+        "text": "Which of the following is a benefit of health check APIs for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies identifying unhealthy services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual log inspection"
+            },
+            {
+                "letter": "C",
+                "text": "Increases configuration complexity"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs simplify maintenance by identifying unhealthy services quickly."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0031",
+        "text": "Which of the following is a benefit of health check APIs for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures continuous monitoring of service health"
+            },
+            {
+                "letter": "B",
+                "text": "Increases downtime"
+            },
+            {
+                "letter": "C",
+                "text": "Removes fault detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs ensure continuous monitoring of service health, improving reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0032",
+        "text": "Which of the following is a benefit of health check APIs for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports dynamic scaling decisions based on health"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits monitoring coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs support dynamic scaling decisions by reporting service health in real time."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0033",
+        "text": "Which of the following is a benefit of health check APIs for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify failing services quickly"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all logs into one file"
+            },
+            {
+                "letter": "C",
+                "text": "Removes error tracking"
+            },
+            {
+                "letter": "D",
+                "text": "Increases fault propagation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs help isolate faults by identifying failing services quickly."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0034",
+        "text": "Which of the following is a benefit of health check APIs for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides insights for improving service reliability"
+            },
+            {
+                "letter": "B",
+                "text": "Removes performance metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces monitoring coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Increases manual debugging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs provide insights that help improve service reliability and uptime."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0035",
+        "text": "Which of the following is a benefit of health check APIs for DevOps teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves collaboration and incident response"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility into system health"
+            },
+            {
+                "letter": "D",
+                "text": "Removes automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs improve collaboration and incident response by providing shared visibility into service health."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0036",
+        "text": "Which of the following is a benefit of health check APIs for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables automated alerting and recovery"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Disables alerting"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs enable automated alerting and recovery when services become unhealthy."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0037",
+        "text": "Which of the following is a benefit of health check APIs for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear visibility into service health and dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Hides system behavior"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces observability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs provide transparency by showing service health and dependency status."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0038",
+        "text": "Which of the following is a benefit of health check APIs for governance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures adherence to uptime and reliability policies"
+            },
+            {
+                "letter": "B",
+                "text": "Removes compliance requirements"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces accountability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides user activity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs ensure adherence to governance policies by tracking uptime and reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0039",
+        "text": "Which of the following is a benefit of health check APIs for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects anomalies in service behavior"
+            },
+            {
+                "letter": "B",
+                "text": "Removes access control"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Disables monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs can detect anomalies in service behavior that may indicate security issues."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0040",
+        "text": "Which of the following is a benefit of health check APIs for SLA management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Monitors uptime and availability against SLAs"
+            },
+            {
+                "letter": "B",
+                "text": "Removes SLA tracking"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces accountability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides performance data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs monitor uptime and availability metrics to ensure SLA compliance."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0041",
+        "text": "Which of the following is a benefit of health check APIs for cloud-native systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides observability across dynamic, ephemeral services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Limits monitoring coverage"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs provide observability across dynamic, ephemeral services in cloud-native systems."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0042",
+        "text": "Which of the following is a benefit of health check APIs for hybrid environments?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides unified visibility across on-prem and cloud services"
+            },
+            {
+                "letter": "B",
+                "text": "Removes hybrid connectivity"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs provide unified visibility across on-premises and cloud services in hybrid environments."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0043",
+        "text": "Which of the following is a benefit of health check APIs for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Identifies underutilized or failing services"
+            },
+            {
+                "letter": "B",
+                "text": "Increases resource usage"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs identify underutilized or failing services, aiding cost optimization."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0044",
+        "text": "Which of the following is a benefit of health check APIs for error tracking?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Correlates health failures with specific components"
+            },
+            {
+                "letter": "B",
+                "text": "Removes error logs"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs correlate health failures with specific components, improving error tracking."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0045",
+        "text": "Which of the following is a benefit of health check APIs for performance monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Detects degraded performance before failure"
+            },
+            {
+                "letter": "B",
+                "text": "Increases latency"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility"
+            },
+            {
+                "letter": "D",
+                "text": "Removes monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs detect degraded performance before complete failure, improving uptime."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0046",
+        "text": "Which of the following is a benefit of health check APIs for automation pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Validates service readiness before deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Removes testing requirements"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides deployment issues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs validate service readiness before deployment in CI/CD pipelines."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0047",
+        "text": "Which of the following is a benefit of health check APIs for SRE teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improves incident detection and resolution"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility into system health"
+            },
+            {
+                "letter": "D",
+                "text": "Removes automation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs improve incident detection and resolution by providing real-time service health data."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0048",
+        "text": "Which of the following is a benefit of health check APIs for monitoring systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides consistent health data for dashboards"
+            },
+            {
+                "letter": "B",
+                "text": "Removes metrics collection"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs provide consistent health data that can be visualized in monitoring dashboards."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0049",
+        "text": "Which of the following is a benefit of health check APIs for resilience testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Validates system recovery under failure conditions"
+            },
+            {
+                "letter": "B",
+                "text": "Removes fault injection"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces observability"
+            },
+            {
+                "letter": "D",
+                "text": "Hides system behavior"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs validate system recovery and resilience under failure conditions."
+    },
+    {
+        "title": "MicroservicesObservabilityHealthCheckAPI - Q0050",
+        "text": "Which of the following best describes the purpose of health check APIs in microservices observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To provide real-time visibility and automation for service health and readiness"
+            },
+            {
+                "letter": "B",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "C",
+                "text": "To manage service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "To monitor CPU usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Health check APIs provide real-time visibility and automation for service health and readiness in microservices."
+    }
+]

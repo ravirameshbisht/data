@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0001",
+        "text": "What is the primary purpose of application metrics in microservices observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To measure and monitor the performance and health of applications"
+            },
+            {
+                "letter": "B",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "C",
+                "text": "To manage service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "To handle user authentication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Application metrics provide quantitative data about performance and health, enabling monitoring and optimization."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0002",
+        "text": "Which of the following is a common type of application metric?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Latency"
+            },
+            {
+                "letter": "B",
+                "text": "Configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Schema"
+            },
+            {
+                "letter": "D",
+                "text": "Cache key"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Latency measures the time taken to process a request, a key performance metric in microservices."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0003",
+        "text": "Which of the following tools is commonly used to collect application metrics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prometheus"
+            },
+            {
+                "letter": "B",
+                "text": "Elasticsearch"
+            },
+            {
+                "letter": "C",
+                "text": "Kafka"
+            },
+            {
+                "letter": "D",
+                "text": "Redis"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Prometheus is a popular open-source tool for collecting and querying application metrics."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0004",
+        "text": "Which of the following is a benefit of collecting application metrics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Helps identify performance bottlenecks"
+            },
+            {
+                "letter": "B",
+                "text": "Increases manual debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces visibility into system health"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates monitoring needs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Application metrics help identify performance bottlenecks and optimize system performance."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0005",
+        "text": "Which of the following is a common metric type used in observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Counter"
+            },
+            {
+                "letter": "B",
+                "text": "Configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Schema"
+            },
+            {
+                "letter": "D",
+                "text": "Cache key"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Counters are metrics that increase over time, often used to track events like requests or errors."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0006",
+        "text": "Which of the following is a metric that measures the number of requests per second?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Throughput"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Error rate"
+            },
+            {
+                "letter": "D",
+                "text": "Availability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Throughput measures the number of requests processed per second, indicating system capacity."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0007",
+        "text": "Which of the following is a metric that measures the percentage of failed requests?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Error rate"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Uptime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Error rate measures the percentage of failed requests, helping identify reliability issues."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0008",
+        "text": "Which of the following is a metric that measures the time taken to process a request?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Latency"
+            },
+            {
+                "letter": "B",
+                "text": "Throughput"
+            },
+            {
+                "letter": "C",
+                "text": "Error rate"
+            },
+            {
+                "letter": "D",
+                "text": "Availability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Latency measures the time taken to process a request, a key performance indicator."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0009",
+        "text": "Which of the following is a metric that measures system uptime?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Availability"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Availability measures the percentage of time a system is operational and accessible."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0010",
+        "text": "Which of the following is a metric that measures resource utilization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "CPU usage"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Error rate"
+            },
+            {
+                "letter": "D",
+                "text": "Throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CPU usage measures how much processing power is being used by the application."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0011",
+        "text": "Which of the following is a metric that measures memory consumption?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Memory usage"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Memory usage measures the amount of memory consumed by the application."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0012",
+        "text": "Which of the following is a metric that measures the number of active threads?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Concurrency"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Concurrency measures the number of active threads or processes running simultaneously."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0013",
+        "text": "Which of the following is a metric that measures the number of requests waiting to be processed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Queue length"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Queue length measures the number of pending requests, indicating potential bottlenecks."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0014",
+        "text": "Which of the following is a metric that measures the time between request and response?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Response time"
+            },
+            {
+                "letter": "B",
+                "text": "Throughput"
+            },
+            {
+                "letter": "C",
+                "text": "Error rate"
+            },
+            {
+                "letter": "D",
+                "text": "Availability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Response time measures the duration between sending a request and receiving a response."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0015",
+        "text": "Which of the following is a metric that measures the number of errors per second?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Error rate"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Availability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Error rate measures the number of errors per second, indicating system reliability."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0016",
+        "text": "Which of the following is a metric that measures the number of successful requests?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Success rate"
+            },
+            {
+                "letter": "B",
+                "text": "Error rate"
+            },
+            {
+                "letter": "C",
+                "text": "Latency"
+            },
+            {
+                "letter": "D",
+                "text": "Throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Success rate measures the percentage of successful requests processed by the system."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0017",
+        "text": "Which of the following is a metric that measures the number of requests handled concurrently?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Concurrency"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Concurrency measures how many requests are being processed simultaneously."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0018",
+        "text": "Which of the following is a metric that measures the number of requests dropped due to overload?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Dropped requests"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Dropped requests measure how many requests were rejected due to system overload."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0019",
+        "text": "Which of the following is a metric that measures the number of active connections?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Connection count"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Connection count measures the number of active connections to the application."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0020",
+        "text": "Which of the following best describes the purpose of application metrics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To measure and monitor application performance and health"
+            },
+            {
+                "letter": "B",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "C",
+                "text": "To manage service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "To handle user authentication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Application metrics measure and monitor performance and health, enabling proactive management."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0021",
+        "text": "Which of the following is a metric that measures the percentage of time a service is available?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Uptime"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Uptime measures the percentage of time a service is operational and accessible."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0022",
+        "text": "Which of the following is a metric that measures the average time between failures?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "MTBF (Mean Time Between Failures)"
+            },
+            {
+                "letter": "B",
+                "text": "MTTR (Mean Time To Repair)"
+            },
+            {
+                "letter": "C",
+                "text": "Latency"
+            },
+            {
+                "letter": "D",
+                "text": "Throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "MTBF measures the average time between system or component failures."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0023",
+        "text": "Which of the following is a metric that measures the average time to recover from a failure?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "MTTR (Mean Time To Repair)"
+            },
+            {
+                "letter": "B",
+                "text": "MTBF"
+            },
+            {
+                "letter": "C",
+                "text": "Latency"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "MTTR measures the average time required to recover from a failure or outage."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0024",
+        "text": "Which of the following is a metric that measures the number of requests served successfully per second?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Request rate"
+            },
+            {
+                "letter": "B",
+                "text": "Error rate"
+            },
+            {
+                "letter": "C",
+                "text": "Latency"
+            },
+            {
+                "letter": "D",
+                "text": "Queue length"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Request rate measures how many requests are successfully processed per second."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0025",
+        "text": "Which of the following is a metric that measures the number of requests waiting in a queue?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Queue depth"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Queue depth measures how many requests are waiting to be processed, indicating potential bottlenecks."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0026",
+        "text": "Which of the following is a metric that measures the number of active user sessions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Active sessions"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Error rate"
+            },
+            {
+                "letter": "D",
+                "text": "Throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Active sessions measure the number of concurrent user sessions in the application."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0027",
+        "text": "Which of the following is a metric that measures the number of database queries executed per second?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Query rate"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Error rate"
+            },
+            {
+                "letter": "D",
+                "text": "Throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Query rate measures how many database queries are executed per second."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0028",
+        "text": "Which of the following is a metric that measures the number of cache hits versus misses?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cache hit ratio"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Error rate"
+            },
+            {
+                "letter": "D",
+                "text": "Throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Cache hit ratio measures the percentage of requests served from cache versus total requests."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0029",
+        "text": "Which of the following is a metric that measures the number of garbage collection events?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "GC count"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "GC count measures how many garbage collection events occur, affecting performance."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0030",
+        "text": "Which of the following is a metric that measures the time spent in garbage collection?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "GC pause time"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "GC pause time measures how long the application is paused during garbage collection."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0031",
+        "text": "Which of the following is a metric that measures the number of threads currently running?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Thread count"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Error rate"
+            },
+            {
+                "letter": "D",
+                "text": "Throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Thread count measures the number of active threads in the application."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0032",
+        "text": "Which of the following is a metric that measures the number of open file descriptors?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "File descriptor count"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Error rate"
+            },
+            {
+                "letter": "D",
+                "text": "Throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "File descriptor count measures how many file handles are open, indicating resource usage."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0033",
+        "text": "Which of the following is a metric that measures the number of HTTP 5xx responses?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Server error rate"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Availability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Server error rate measures the percentage of HTTP 5xx responses, indicating backend issues."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0034",
+        "text": "Which of the following is a metric that measures the number of HTTP 4xx responses?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Client error rate"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Availability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Client error rate measures the percentage of HTTP 4xx responses, indicating client-side issues."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0035",
+        "text": "Which of the following is a metric that measures the number of HTTP 2xx responses?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Success rate"
+            },
+            {
+                "letter": "B",
+                "text": "Error rate"
+            },
+            {
+                "letter": "C",
+                "text": "Latency"
+            },
+            {
+                "letter": "D",
+                "text": "Throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Success rate measures the percentage of HTTP 2xx responses, indicating successful requests."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0036",
+        "text": "Which of the following is a metric that measures the number of retries attempted?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Retry count"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Retry count measures how many times a request was retried, indicating transient failures."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0037",
+        "text": "Which of the following is a metric that measures the number of exceptions thrown?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Exception count"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Exception count measures how many exceptions were thrown, helping identify code-level issues."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0038",
+        "text": "Which of the following is a metric that measures the number of log entries generated per second?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Log rate"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Log rate measures how many log entries are generated per second, indicating system activity."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0039",
+        "text": "Which of the following is a metric that measures the number of active goroutines or threads in Go applications?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Goroutine count"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Goroutine count measures the number of active goroutines, indicating concurrency levels in Go applications."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0040",
+        "text": "Which of the following is a metric that measures the number of open network sockets?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Socket count"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Socket count measures how many network sockets are open, indicating network resource usage."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0041",
+        "text": "Which of the following is a metric that measures the number of requests per endpoint?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Endpoint request count"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Endpoint request count measures how many requests each endpoint receives, useful for load analysis."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0042",
+        "text": "Which of the following is a metric that measures the number of requests exceeding a latency threshold?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Slow request count"
+            },
+            {
+                "letter": "B",
+                "text": "Error rate"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Availability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Slow request count measures how many requests exceed a defined latency threshold."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0043",
+        "text": "Which of the following is a metric that measures the number of requests timed out?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Timeout count"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Timeout count measures how many requests failed due to timeout, indicating performance issues."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0044",
+        "text": "Which of the following is a metric that measures the number of retries that succeeded?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Successful retry count"
+            },
+            {
+                "letter": "B",
+                "text": "Error rate"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Successful retry count measures how many retries eventually succeeded, indicating transient recovery."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0045",
+        "text": "Which of the following is a metric that measures the number of requests per user?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "User request rate"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "User request rate measures how many requests each user generates, useful for usage analysis."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0046",
+        "text": "Which of the following is a metric that measures the number of requests per service instance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Instance request rate"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instance request rate measures how many requests each service instance handles, aiding load balancing."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0047",
+        "text": "Which of the following is a metric that measures the number of requests per region or data center?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Regional request rate"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Regional request rate measures how many requests are processed per region, useful for geo-distributed systems."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0048",
+        "text": "Which of the following is a metric that measures the number of requests per API version?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "API version request rate"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API version request rate measures how many requests are made to each API version, aiding version management."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0049",
+        "text": "Which of the following is a metric that measures the number of requests per endpoint method (GET, POST, etc.)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HTTP method request rate"
+            },
+            {
+                "letter": "B",
+                "text": "Latency"
+            },
+            {
+                "letter": "C",
+                "text": "Throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Error rate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HTTP method request rate measures how many requests are made per HTTP method, useful for API usage analysis."
+    },
+    {
+        "title": "MicroservicesObservabilityApplicationMetrics - Q0050",
+        "text": "Which of the following best describes the purpose of application metrics in observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To quantify and monitor application performance and reliability"
+            },
+            {
+                "letter": "B",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "C",
+                "text": "To manage service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "To handle user authentication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Application metrics quantify and monitor performance and reliability, enabling proactive system management."
+    }
+]
