@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesArchitecture - Q0001",
+        "text": "What is the main goal of microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To build applications as a collection of small, independent services"
+            },
+            {
+                "letter": "B",
+                "text": "To create a single, unified application"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize all business logic in one module"
+            },
+            {
+                "letter": "D",
+                "text": "To eliminate the need for APIs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture structures an application as a collection of small, independent services that communicate through APIs."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0002",
+        "text": "Which of the following best describes a microservice?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A small, independently deployable service focused on a specific business capability"
+            },
+            {
+                "letter": "B",
+                "text": "A shared library used by multiple applications"
+            },
+            {
+                "letter": "C",
+                "text": "A database schema shared across modules"
+            },
+            {
+                "letter": "D",
+                "text": "A monolithic component"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A microservice is a small, independently deployable service that focuses on a specific business capability."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0003",
+        "text": "Which of the following is a key characteristic of microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Loose coupling between services"
+            },
+            {
+                "letter": "B",
+                "text": "Tight coupling between modules"
+            },
+            {
+                "letter": "C",
+                "text": "Single shared database"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture promotes loose coupling between services to ensure flexibility and scalability."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0004",
+        "text": "Which of the following is a benefit of microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Independent deployment of services"
+            },
+            {
+                "letter": "B",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Shared codebase for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture allows independent deployment of services, enabling faster updates and scalability."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0005",
+        "text": "Which of the following is a disadvantage of microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased complexity in managing distributed systems"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Single deployment unit"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized data management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture introduces complexity in managing distributed systems and inter-service communication."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0006",
+        "text": "Which of the following is a common communication method between microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RESTful APIs"
+            },
+            {
+                "letter": "B",
+                "text": "Shared memory"
+            },
+            {
+                "letter": "C",
+                "text": "Direct database access"
+            },
+            {
+                "letter": "D",
+                "text": "File sharing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservices commonly communicate using RESTful APIs or messaging protocols."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0007",
+        "text": "Which of the following is a key principle of microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Single Responsibility Principle"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized control"
+            },
+            {
+                "letter": "C",
+                "text": "Shared database schema"
+            },
+            {
+                "letter": "D",
+                "text": "Tight coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each microservice should follow the Single Responsibility Principle, focusing on one business capability."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0008",
+        "text": "Which of the following is a benefit of microservice architecture for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be scaled independently"
+            },
+            {
+                "letter": "B",
+                "text": "The entire application must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying all services"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database layer"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture allows independent scaling of services based on their specific load and requirements."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0009",
+        "text": "Which of the following is a challenge in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing inter-service communication"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Single codebase management"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing inter-service communication and ensuring reliability are major challenges in microservice architecture."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0010",
+        "text": "Which of the following is a common pattern used in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "API Gateway pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Single-tier pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Monolithic pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The API Gateway pattern is commonly used to manage requests and routing between clients and microservices."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0011",
+        "text": "Which of the following is a benefit of microservice architecture for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failure in one service does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "A single failure can crash the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture provides fault isolation, so a failure in one service does not affect others."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0012",
+        "text": "Which of the following is a benefit of microservice architecture for development teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can work independently on different services"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must work on the same codebase"
+            },
+            {
+                "letter": "C",
+                "text": "Teams depend on centralized deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Teams cannot use different technologies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture allows teams to work independently on different services, improving productivity."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0013",
+        "text": "Which of the following is a common data management approach in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Database per service"
+            },
+            {
+                "letter": "B",
+                "text": "Single shared database"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data warehouse"
+            },
+            {
+                "letter": "D",
+                "text": "Shared schema across services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each microservice typically manages its own database to ensure loose coupling and data independence."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0014",
+        "text": "Which of the following is a disadvantage of microservice architecture for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing requires coordination across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Testing is limited to a single module"
+            },
+            {
+                "letter": "C",
+                "text": "Testing is simpler due to single deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Testing does not require integration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Testing microservices can be complex because it requires coordination across multiple services and environments."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0015",
+        "text": "Which of the following is a benefit of microservice architecture for technology diversity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can use a different technology stack"
+            },
+            {
+                "letter": "B",
+                "text": "All services must use the same technology"
+            },
+            {
+                "letter": "C",
+                "text": "Technology is fixed for all modules"
+            },
+            {
+                "letter": "D",
+                "text": "Technology changes require redeploying all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture allows each service to use the most suitable technology stack for its needs."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0016",
+        "text": "Which of the following is a common deployment approach for microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containerization using Docker"
+            },
+            {
+                "letter": "B",
+                "text": "Single server deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Manual deployment of all services"
+            },
+            {
+                "letter": "D",
+                "text": "Shared runtime environment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservices are often deployed using containers like Docker for isolation and scalability."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0017",
+        "text": "Which of the following is a key advantage of microservice architecture for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture allows independent scaling of services based on their specific performance needs."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0018",
+        "text": "Which of the following is a common challenge in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Distributed data management"
+            },
+            {
+                "letter": "B",
+                "text": "Single database management"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized logging"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing distributed data across multiple services is a major challenge in microservice architecture."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0019",
+        "text": "Which of the following is a benefit of microservice architecture for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within individual services"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture provides fault isolation, ensuring that failures in one service do not affect others."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0020",
+        "text": "Which of the following best describes microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An architecture where applications are built as a collection of small, independent services"
+            },
+            {
+                "letter": "B",
+                "text": "A single deployable unit with tightly coupled components"
+            },
+            {
+                "letter": "C",
+                "text": "A centralized system with shared resources"
+            },
+            {
+                "letter": "D",
+                "text": "A monolithic design pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture builds applications as a collection of small, independent services that communicate via APIs."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0021",
+        "text": "Which of the following is a benefit of microservice architecture for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be deployed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Deployment requires downtime"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment is centralized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture allows independent deployment of services, enabling faster and safer releases."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0022",
+        "text": "Which of the following is a disadvantage of microservice architecture for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Debugging is complex due to distributed nature"
+            },
+            {
+                "letter": "B",
+                "text": "Debugging is simple due to single process"
+            },
+            {
+                "letter": "C",
+                "text": "Debugging requires no logs"
+            },
+            {
+                "letter": "D",
+                "text": "Debugging is centralized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Debugging microservices is complex because logs and errors are distributed across multiple services."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0023",
+        "text": "Which of the following is a benefit of microservice architecture for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can develop, test, and deploy independently"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all changes"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture promotes team autonomy by allowing independent development and deployment."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0024",
+        "text": "Which of the following is a common communication pattern in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Synchronous REST or asynchronous messaging"
+            },
+            {
+                "letter": "B",
+                "text": "Shared memory access"
+            },
+            {
+                "letter": "C",
+                "text": "Direct database queries"
+            },
+            {
+                "letter": "D",
+                "text": "File-based communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservices communicate using synchronous REST APIs or asynchronous messaging systems like Kafka."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0025",
+        "text": "Which of the following is a benefit of microservice architecture for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failure in one service does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "A single failure crashes the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture provides fault isolation, ensuring that one service failure does not impact others."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0026",
+        "text": "Which of the following is a disadvantage of microservice architecture for data consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintaining consistency across distributed databases is difficult"
+            },
+            {
+                "letter": "B",
+                "text": "All data is stored in one place"
+            },
+            {
+                "letter": "C",
+                "text": "Consistency is automatic"
+            },
+            {
+                "letter": "D",
+                "text": "Data is always synchronized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservices often use separate databases, making it challenging to maintain strong consistency."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0027",
+        "text": "Which of the following is a benefit of microservice architecture for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture allows independent scaling of services based on their specific performance needs."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0028",
+        "text": "Which of the following is a common pattern used to manage communication between microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Service Mesh"
+            },
+            {
+                "letter": "B",
+                "text": "Shared memory"
+            },
+            {
+                "letter": "C",
+                "text": "File transfer"
+            },
+            {
+                "letter": "D",
+                "text": "Direct database access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A Service Mesh manages communication, security, and observability between microservices."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0029",
+        "text": "Which of the following is a benefit of microservice architecture for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables frequent and independent releases"
+            },
+            {
+                "letter": "B",
+                "text": "Requires redeploying the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture supports continuous delivery by allowing frequent and independent releases."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0030",
+        "text": "Which of the following is a disadvantage of microservice architecture for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Monitoring is complex due to distributed services"
+            },
+            {
+                "letter": "B",
+                "text": "Monitoring is centralized"
+            },
+            {
+                "letter": "C",
+                "text": "Monitoring is unnecessary"
+            },
+            {
+                "letter": "D",
+                "text": "Monitoring is simple"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monitoring microservices is complex because logs and metrics are distributed across multiple services."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0031",
+        "text": "Which of the following is a benefit of microservice architecture for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Easier to maintain small, focused services"
+            },
+            {
+                "letter": "B",
+                "text": "Harder to maintain due to single codebase"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized maintenance"
+            },
+            {
+                "letter": "D",
+                "text": "Involves large code dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture improves maintainability by dividing the system into small, manageable services."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0032",
+        "text": "Which of the following is a common deployment platform for microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Kubernetes"
+            },
+            {
+                "letter": "B",
+                "text": "Single server"
+            },
+            {
+                "letter": "C",
+                "text": "Desktop environment"
+            },
+            {
+                "letter": "D",
+                "text": "Shared runtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Kubernetes is a popular platform for deploying and managing containerized microservices."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0033",
+        "text": "Which of the following is a benefit of microservice architecture for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within individual services"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture provides fault isolation, ensuring that failures in one service do not affect others."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0034",
+        "text": "Which of the following is a disadvantage of microservice architecture for latency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Network calls between services can increase latency"
+            },
+            {
+                "letter": "B",
+                "text": "All communication is in-process"
+            },
+            {
+                "letter": "C",
+                "text": "Latency is always constant"
+            },
+            {
+                "letter": "D",
+                "text": "No network communication is required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservices communicate over the network, which can introduce latency compared to in-process calls."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0035",
+        "text": "Which of the following is a benefit of microservice architecture for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows using different technologies for different services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single technology stack"
+            },
+            {
+                "letter": "C",
+                "text": "Restricts technology choices"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes technology decisions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture allows flexibility by enabling different technologies for different services."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0036",
+        "text": "Which of the following is a common pattern for managing service discovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Service Registry"
+            },
+            {
+                "letter": "B",
+                "text": "Static IP configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Manual routing"
+            },
+            {
+                "letter": "D",
+                "text": "Hardcoded endpoints"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A Service Registry helps microservices discover each other dynamically without hardcoded endpoints."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0037",
+        "text": "Which of the following is a benefit of microservice architecture for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services can recover independently from failures"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture improves resilience by allowing services to recover independently from failures."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0038",
+        "text": "Which of the following is a disadvantage of microservice architecture for transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Distributed transactions are complex to manage"
+            },
+            {
+                "letter": "B",
+                "text": "Transactions are simple and local"
+            },
+            {
+                "letter": "C",
+                "text": "Transactions are always atomic"
+            },
+            {
+                "letter": "D",
+                "text": "Transactions are centralized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing distributed transactions across multiple services is complex in microservice architecture."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0039",
+        "text": "Which of the following is a benefit of microservice architecture for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster development and deployment cycles"
+            },
+            {
+                "letter": "B",
+                "text": "Slows down release cycles"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "D",
+                "text": "Prevents independent releases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture increases agility by enabling faster development and deployment cycles."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0040",
+        "text": "Which of the following is a common tool for API management in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Kong"
+            },
+            {
+                "letter": "B",
+                "text": "Jenkins"
+            },
+            {
+                "letter": "C",
+                "text": "Prometheus"
+            },
+            {
+                "letter": "D",
+                "text": "Terraform"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Kong is a popular API gateway used for managing APIs in microservice architecture."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0041",
+        "text": "Which of the following is a benefit of microservice architecture for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within individual services"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture provides fault isolation, ensuring that failures in one service do not affect others."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0042",
+        "text": "Which of the following is a disadvantage of microservice architecture for deployment complexity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing multiple deployments is complex"
+            },
+            {
+                "letter": "B",
+                "text": "Deployment is simple and centralized"
+            },
+            {
+                "letter": "C",
+                "text": "Deployment requires no automation"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment is manual"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture increases deployment complexity due to multiple independent services."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0043",
+        "text": "Which of the following is a benefit of microservice architecture for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides detailed monitoring and tracing per service"
+            },
+            {
+                "letter": "B",
+                "text": "No need for monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized logs only"
+            },
+            {
+                "letter": "D",
+                "text": "Limited visibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture supports observability through detailed monitoring and distributed tracing."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0044",
+        "text": "Which of the following is a common pattern for handling failures in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Circuit Breaker pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared memory pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized retry pattern"
+            },
+            {
+                "letter": "D",
+                "text": "Single point of failure pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Circuit Breaker pattern prevents cascading failures by stopping calls to failing services temporarily."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0045",
+        "text": "Which of the following is a benefit of microservice architecture for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service is modular and focused on a single business capability"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture promotes modularity by designing each service around a single business capability."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0046",
+        "text": "Which of the following is a disadvantage of microservice architecture for network overhead?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased network calls between services"
+            },
+            {
+                "letter": "B",
+                "text": "No network communication"
+            },
+            {
+                "letter": "C",
+                "text": "All communication is local"
+            },
+            {
+                "letter": "D",
+                "text": "Network usage is minimal"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservices communicate over the network, which increases network overhead compared to monolithic systems."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0047",
+        "text": "Which of the following is a benefit of microservice architecture for continuous integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports independent CI pipelines per service"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single CI pipeline for all services"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents automation"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture supports independent CI pipelines, allowing faster and isolated builds."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0048",
+        "text": "Which of the following is a common tool for distributed tracing in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Jaeger"
+            },
+            {
+                "letter": "B",
+                "text": "Terraform"
+            },
+            {
+                "letter": "C",
+                "text": "Docker Compose"
+            },
+            {
+                "letter": "D",
+                "text": "Ansible"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Jaeger is a popular tool for distributed tracing in microservice architectures."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0049",
+        "text": "Which of the following is a benefit of microservice architecture for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new technologies independently"
+            },
+            {
+                "letter": "B",
+                "text": "Technology stack is fixed"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires system-wide changes"
+            },
+            {
+                "letter": "D",
+                "text": "All teams must use the same tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture fosters innovation by allowing teams to experiment with new technologies independently."
+    },
+    {
+        "title": "MicroservicesArchitecture - Q0050",
+        "text": "Which of the following best describes microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An architecture where applications are built as a collection of small, independent services"
+            },
+            {
+                "letter": "B",
+                "text": "A single deployable unit with tightly coupled components"
+            },
+            {
+                "letter": "C",
+                "text": "A centralized system with shared resources"
+            },
+            {
+                "letter": "D",
+                "text": "A monolithic design pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservice architecture builds applications as a collection of small, independent services that communicate via APIs."
+    }
+]

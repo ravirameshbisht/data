@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0001",
+        "text": "What does 'decompose by subdomain' mean in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Splitting services based on distinct subdomains within a business domain"
+            },
+            {
+                "letter": "B",
+                "text": "Dividing services by technical layers like UI and database"
+            },
+            {
+                "letter": "C",
+                "text": "Grouping all services into a single monolith"
+            },
+            {
+                "letter": "D",
+                "text": "Organizing services by programming language"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain means structuring services around distinct subdomains within a larger business domain."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0002",
+        "text": "What is the main goal of decomposing by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To align services with domain-driven design principles"
+            },
+            {
+                "letter": "B",
+                "text": "To reduce the number of services"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize all business logic"
+            },
+            {
+                "letter": "D",
+                "text": "To simplify database design"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The goal is to align services with domain-driven design principles by mapping them to subdomains."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0003",
+        "text": "Which of the following best describes a subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A smaller, cohesive part of a larger business domain"
+            },
+            {
+                "letter": "B",
+                "text": "A technical component like a database"
+            },
+            {
+                "letter": "C",
+                "text": "A user interface module"
+            },
+            {
+                "letter": "D",
+                "text": "A network configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A subdomain is a smaller, cohesive part of a larger business domain that represents a specific area of functionality."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0004",
+        "text": "Which of the following is an example of a subdomain in an e-commerce system?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Inventory Management"
+            },
+            {
+                "letter": "B",
+                "text": "Database Connection Pooling"
+            },
+            {
+                "letter": "C",
+                "text": "Logging Service"
+            },
+            {
+                "letter": "D",
+                "text": "Authentication Middleware"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Inventory Management is a subdomain within the broader e-commerce domain."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0005",
+        "text": "Which concept from Domain-Driven Design (DDD) supports decomposition by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bounded Context"
+            },
+            {
+                "letter": "B",
+                "text": "Entity Framework"
+            },
+            {
+                "letter": "C",
+                "text": "Data Warehouse"
+            },
+            {
+                "letter": "D",
+                "text": "Service Registry"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bounded Context is a DDD concept that helps define clear boundaries for subdomains."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0006",
+        "text": "What is the relationship between subdomains and bounded contexts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each subdomain is implemented within a bounded context"
+            },
+            {
+                "letter": "B",
+                "text": "Bounded contexts are unrelated to subdomains"
+            },
+            {
+                "letter": "C",
+                "text": "A bounded context contains multiple unrelated subdomains"
+            },
+            {
+                "letter": "D",
+                "text": "Subdomains are technical layers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each subdomain is implemented within a bounded context that defines its boundaries and models."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0007",
+        "text": "Which of the following is a benefit of decomposing by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved alignment between business and technical architecture"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Shared databases across services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain improves alignment between business and technical architecture."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0008",
+        "text": "Which of the following is a challenge when decomposing by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Identifying clear subdomain boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Reducing code duplication"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifying UI design"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizing data access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Identifying clear subdomain boundaries is often challenging when decomposing by subdomain."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0009",
+        "text": "Which of the following is a benefit of decomposing by subdomain for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each subdomain can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling is limited to the database"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires redeploying all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain allows independent scaling of services based on business needs."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0010",
+        "text": "Which of the following is a key principle when decomposing by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service should encapsulate a single subdomain"
+            },
+            {
+                "letter": "B",
+                "text": "Each service should handle multiple unrelated subdomains"
+            },
+            {
+                "letter": "C",
+                "text": "All services should share the same database"
+            },
+            {
+                "letter": "D",
+                "text": "Services should be grouped by technology"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service should encapsulate a single subdomain to maintain clear boundaries and autonomy."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0011",
+        "text": "Which of the following is a benefit of decomposing by subdomain for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating domain logic"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all logic in one service"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain simplifies maintenance by isolating domain logic within each service."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0012",
+        "text": "Which of the following is a benefit of decomposing by subdomain for team structure?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can own and manage specific subdomains"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must share ownership of all services"
+            },
+            {
+                "letter": "C",
+                "text": "Teams are organized by technology stack"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain allows teams to own and manage specific subdomains independently."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0013",
+        "text": "Which of the following is a benefit of decomposing by subdomain for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster delivery of domain-specific features"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down development"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain enables faster delivery of domain-specific features by reducing dependencies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0014",
+        "text": "Which of the following is a common mistake when decomposing by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Splitting services by technical layers instead of domain boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Aligning services with domain models"
+            },
+            {
+                "letter": "C",
+                "text": "Creating independent data stores"
+            },
+            {
+                "letter": "D",
+                "text": "Defining clear ownership"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A common mistake is splitting services by technical layers instead of aligning them with domain boundaries."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0015",
+        "text": "Which of the following is a benefit of decomposing by subdomain for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within specific subdomains"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all services"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain improves fault isolation by containing failures within specific subdomains."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0016",
+        "text": "Which of the following is a benefit of decomposing by subdomain for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each subdomain can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain allows independent scaling of services based on domain-specific demand."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0017",
+        "text": "Which of the following is a benefit of decomposing by subdomain for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service is modular and focused on a single domain area"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain promotes modularity by designing each service around a single domain area."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0018",
+        "text": "Which of the following is a benefit of decomposing by subdomain for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating domain logic"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all logic in one service"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain simplifies maintenance by isolating domain logic within each service."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0019",
+        "text": "Which of the following is a benefit of decomposing by subdomain for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can own and deploy their subdomain services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain allows teams to own and deploy their subdomain services independently."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0020",
+        "text": "Which of the following best describes the outcome of decomposing by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services aligned with domain boundaries and independently deployable"
+            },
+            {
+                "letter": "B",
+                "text": "Services grouped by technical layers"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data and logic"
+            },
+            {
+                "letter": "D",
+                "text": "Single deployment unit"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain results in services aligned with domain boundaries and independently deployable."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0021",
+        "text": "Which of the following is a benefit of decomposing by subdomain for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are isolated within specific subdomains"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all services"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain improves fault tolerance by isolating failures within specific subdomains."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0022",
+        "text": "Which of the following is a challenge when decomposing by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Determining the correct domain boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Reducing the number of services"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizing data access"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifying UI design"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Determining the correct domain boundaries is one of the most challenging aspects of subdomain decomposition."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0023",
+        "text": "Which of the following is a benefit of decomposing by subdomain for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each subdomain can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain allows independent scaling of services based on domain-specific demand."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0024",
+        "text": "Which of the following is a benefit of decomposing by subdomain for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service is modular and focused on a single domain area"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain promotes modularity by designing each service around a single domain area."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0025",
+        "text": "Which of the following is a benefit of decomposing by subdomain for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating domain logic"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all logic in one service"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain simplifies maintenance by isolating domain logic within each service."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0026",
+        "text": "Which of the following is a benefit of decomposing by subdomain for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can own and deploy their subdomain services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain allows teams to own and deploy their subdomain services independently."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0027",
+        "text": "Which of the following is a benefit of decomposing by subdomain for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster delivery of domain-specific features"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down development"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain enables faster delivery of domain-specific features by reducing dependencies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0028",
+        "text": "Which of the following is a benefit of decomposing by subdomain for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within specific subdomains"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all services"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain improves fault isolation by containing failures within specific subdomains."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0029",
+        "text": "Which of the following is a benefit of decomposing by subdomain for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent evolution of domain areas"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain allows independent evolution of domain areas without affecting others."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0030",
+        "text": "Which of the following is a benefit of decomposing by subdomain for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each subdomain can recover independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain improves resilience by allowing independent recovery of services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0031",
+        "text": "Which of the following is a benefit of decomposing by subdomain for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new technologies independently"
+            },
+            {
+                "letter": "B",
+                "text": "Technology stack is fixed"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires system-wide changes"
+            },
+            {
+                "letter": "D",
+                "text": "All teams must use the same tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain fosters innovation by allowing teams to experiment independently."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0032",
+        "text": "Which of the following is a benefit of decomposing by subdomain for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables frequent and independent releases"
+            },
+            {
+                "letter": "B",
+                "text": "Requires redeploying the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain supports continuous delivery by enabling frequent and independent releases."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0033",
+        "text": "Which of the following is a benefit of decomposing by subdomain for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service is modular and focused on a single domain area"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain promotes modularity by designing each service around a single domain area."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0034",
+        "text": "Which of the following is a benefit of decomposing by subdomain for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into specific domain areas"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain improves observability by providing visibility into specific domain areas."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0035",
+        "text": "Which of the following is a benefit of decomposing by subdomain for alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aligns technical architecture with business domains"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain aligns technical architecture with business domains and goals."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0036",
+        "text": "Which of the following is a benefit of decomposing by subdomain for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing can focus on individual domain areas"
+            },
+            {
+                "letter": "B",
+                "text": "Testing requires the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Testing is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Testing is manual only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain allows testing to focus on individual domain areas, improving efficiency."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0037",
+        "text": "Which of the following is a benefit of decomposing by subdomain for continuous integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports independent CI pipelines per service"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single CI pipeline for all services"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents automation"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain supports independent CI pipelines, allowing faster and isolated builds."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0038",
+        "text": "Which of the following is a benefit of decomposing by subdomain for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk of breaking unrelated domain areas"
+            },
+            {
+                "letter": "B",
+                "text": "Increases deployment risk"
+            },
+            {
+                "letter": "C",
+                "text": "Delays issue detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test coverage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain reduces risk by isolating changes to specific domain areas."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0039",
+        "text": "Which of the following is a benefit of decomposing by subdomain for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Optimizations can be applied to specific domain services"
+            },
+            {
+                "letter": "B",
+                "text": "Performance tuning affects all services"
+            },
+            {
+                "letter": "C",
+                "text": "Performance is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "No performance isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain allows performance optimizations to target specific domain services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0040",
+        "text": "Which of the following is a benefit of decomposing by subdomain for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into domain operations"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain improves transparency by providing visibility into domain operations."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0041",
+        "text": "Which of the following is a benefit of decomposing by subdomain for adaptability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows quick adaptation to domain changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires system-wide updates"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain allows quick adaptation to domain changes without affecting other services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0042",
+        "text": "Which of the following is a benefit of decomposing by subdomain for alignment with business strategy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures technical architecture supports business goals"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain ensures that technical architecture supports business goals and strategy."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0043",
+        "text": "Which of the following is a benefit of decomposing by subdomain for ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clear ownership of domain functions"
+            },
+            {
+                "letter": "B",
+                "text": "Shared ownership across all teams"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized ownership"
+            },
+            {
+                "letter": "D",
+                "text": "No ownership boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain provides clear ownership of domain functions to specific teams."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0044",
+        "text": "Which of the following is a benefit of decomposing by subdomain for domain modeling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encourages accurate domain modeling within bounded contexts"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all domain logic"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces domain understanding"
+            },
+            {
+                "letter": "D",
+                "text": "Combines unrelated domains"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain encourages accurate domain modeling within bounded contexts."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0045",
+        "text": "Which of the following is a benefit of decomposing by subdomain for communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces inter-service communication by aligning with domain boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Increases cross-service dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized messaging"
+            },
+            {
+                "letter": "D",
+                "text": "Encourages tight coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain reduces inter-service communication by aligning with domain boundaries."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0046",
+        "text": "Which of the following is a benefit of decomposing by subdomain for clarity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear separation of domain responsibilities"
+            },
+            {
+                "letter": "B",
+                "text": "Blurs domain boundaries"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Increases ambiguity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain provides clear separation of domain responsibilities and boundaries."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0047",
+        "text": "Which of the following best summarizes decomposing by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Structuring services around domain subareas rather than technical layers"
+            },
+            {
+                "letter": "B",
+                "text": "Grouping services by database schema"
+            },
+            {
+                "letter": "C",
+                "text": "Organizing services by programming language"
+            },
+            {
+                "letter": "D",
+                "text": "Combining all services into one monolith"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain structures services around domain subareas rather than technical layers."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0048",
+        "text": "Which of the following is a benefit of decomposing by subdomain for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each subdomain can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain allows independent scaling of services based on domain-specific demand."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0049",
+        "text": "Which of the following is a benefit of decomposing by subdomain for business alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures services reflect business domain structure"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by subdomain ensures services reflect the structure and logic of the business domain."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSubdomain - Q0050",
+        "text": "Which of the following best describes the purpose of decomposing by subdomain?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To align microservices with domain-driven design and business subdomains"
+            },
+            {
+                "letter": "B",
+                "text": "To group services by technical layers"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize all business logic"
+            },
+            {
+                "letter": "D",
+                "text": "To reduce the number of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The purpose of decomposing by subdomain is to align microservices with domain-driven design and business subdomains."
+    }
+]

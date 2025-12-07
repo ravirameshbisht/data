@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0001",
+        "text": "What does 'service per team' mean in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team owns and manages one or more services independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams share ownership of all services"
+            },
+            {
+                "letter": "C",
+                "text": "Each service is managed by multiple teams"
+            },
+            {
+                "letter": "D",
+                "text": "Teams are assigned based on technology stack"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team means each team owns and manages one or more services independently, ensuring clear ownership and accountability."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0002",
+        "text": "What is the main goal of the service per team approach?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To align service ownership with team boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "To centralize all service management"
+            },
+            {
+                "letter": "C",
+                "text": "To reduce the number of teams"
+            },
+            {
+                "letter": "D",
+                "text": "To share services across all teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The goal is to align service ownership with team boundaries, promoting autonomy and accountability."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0003",
+        "text": "Which of the following is a key benefit of the service per team model?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved team autonomy and faster delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized decision-making"
+            },
+            {
+                "letter": "C",
+                "text": "Shared ownership of all services"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team improves autonomy and enables faster delivery by giving teams full control over their services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0004",
+        "text": "Which of the following best describes team ownership in the service per team model?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team is responsible for the full lifecycle of its services"
+            },
+            {
+                "letter": "B",
+                "text": "Teams share responsibility for all services"
+            },
+            {
+                "letter": "C",
+                "text": "Teams only handle deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Teams only handle testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In the service per team model, each team is responsible for the full lifecycle of its services, from design to operation."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0005",
+        "text": "Which of the following is a challenge of the service per team approach?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring consistent standards across teams"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized control"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced team autonomy"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified governance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A challenge is maintaining consistent standards and practices across multiple autonomous teams."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0006",
+        "text": "Which of the following is a benefit of service per team for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can scale their services independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires centralized approval"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team allows teams to scale their services independently based on demand."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0007",
+        "text": "Which of the following is a benefit of service per team for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within a team's services"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all teams"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team improves fault isolation by containing failures within a team's services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0008",
+        "text": "Which of the following is a benefit of service per team for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating team responsibilities"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all maintenance tasks"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team simplifies maintenance by isolating responsibilities and reducing inter-team dependencies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0009",
+        "text": "Which of the following is a benefit of service per team for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team can deploy its services independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must deploy together"
+            },
+            {
+                "letter": "C",
+                "text": "Deployment requires downtime"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment is centralized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team allows independent deployment, enabling faster and safer releases."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0010",
+        "text": "Which of the following is a key principle of service per team?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Autonomous teams with end-to-end ownership"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized governance"
+            },
+            {
+                "letter": "C",
+                "text": "Shared ownership of all services"
+            },
+            {
+                "letter": "D",
+                "text": "Tight coupling between teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team emphasizes autonomous teams with end-to-end ownership of their services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0011",
+        "text": "Which of the following is a benefit of service per team for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster delivery of features by independent teams"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down development"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team enables faster delivery by allowing teams to work independently on their services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0012",
+        "text": "Which of the following is a challenge of service per team?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cross-team communication and coordination"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified governance"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized ownership"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced autonomy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Cross-team communication and coordination can be challenging in a service per team model."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0013",
+        "text": "Which of the following is a benefit of service per team for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team can scale its services independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team allows independent scaling of services based on team-specific needs."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0014",
+        "text": "Which of the following is a benefit of service per team for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within a team's services"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all teams"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team improves fault isolation by containing failures within a team's services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0015",
+        "text": "Which of the following is a benefit of service per team for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new technologies independently"
+            },
+            {
+                "letter": "B",
+                "text": "Technology stack is fixed"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires system-wide changes"
+            },
+            {
+                "letter": "D",
+                "text": "All teams must use the same tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team fosters innovation by allowing teams to experiment independently with new technologies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0016",
+        "text": "Which of the following is a benefit of service per team for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables frequent and independent releases"
+            },
+            {
+                "letter": "B",
+                "text": "Requires redeploying the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team supports continuous delivery by enabling frequent and independent releases."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0017",
+        "text": "Which of the following is a benefit of service per team for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team builds modular services focused on specific business functions"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team promotes modularity by allowing teams to build services focused on specific business functions."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0018",
+        "text": "Which of the following is a benefit of service per team for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating team responsibilities"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all maintenance tasks"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team simplifies maintenance by isolating responsibilities and reducing inter-team dependencies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0019",
+        "text": "Which of the following is a benefit of service per team for ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clear ownership of services by specific teams"
+            },
+            {
+                "letter": "B",
+                "text": "Shared ownership across all teams"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized ownership"
+            },
+            {
+                "letter": "D",
+                "text": "No ownership boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team provides clear ownership of services by specific teams, improving accountability."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0020",
+        "text": "Which of the following best describes the outcome of service per team?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Autonomous teams managing independent services"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized management of all services"
+            },
+            {
+                "letter": "C",
+                "text": "Shared ownership of all services"
+            },
+            {
+                "letter": "D",
+                "text": "Single deployment unit for all teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team results in autonomous teams managing independent services with clear ownership."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0021",
+        "text": "Which of the following is a benefit of service per team for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team can scale its services independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team allows independent scaling of services based on team-specific performance needs."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0022",
+        "text": "Which of the following is a challenge of service per team for governance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring consistent standards across teams"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized decision-making"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced autonomy"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified compliance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Maintaining consistent standards and governance across multiple autonomous teams can be challenging."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0023",
+        "text": "Which of the following is a benefit of service per team for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within a team's services"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all teams"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team improves fault isolation by containing failures within a team's services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0024",
+        "text": "Which of the following is a benefit of service per team for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new technologies independently"
+            },
+            {
+                "letter": "B",
+                "text": "Technology stack is fixed"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires system-wide changes"
+            },
+            {
+                "letter": "D",
+                "text": "All teams must use the same tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team fosters innovation by allowing teams to experiment independently with new technologies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0025",
+        "text": "Which of the following is a benefit of service per team for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables frequent and independent releases"
+            },
+            {
+                "letter": "B",
+                "text": "Requires redeploying the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team supports continuous delivery by enabling frequent and independent releases."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0026",
+        "text": "Which of the following is a benefit of service per team for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team builds modular services focused on specific business functions"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team promotes modularity by allowing teams to build services focused on specific business functions."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0027",
+        "text": "Which of the following is a benefit of service per team for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating team responsibilities"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all maintenance tasks"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team simplifies maintenance by isolating responsibilities and reducing inter-team dependencies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0028",
+        "text": "Which of the following is a benefit of service per team for ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clear ownership of services by specific teams"
+            },
+            {
+                "letter": "B",
+                "text": "Shared ownership across all teams"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized ownership"
+            },
+            {
+                "letter": "D",
+                "text": "No ownership boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team provides clear ownership of services by specific teams, improving accountability."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0029",
+        "text": "Which of the following is a benefit of service per team for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can make independent decisions about their services"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all decisions"
+            },
+            {
+                "letter": "C",
+                "text": "Teams depend on centralized management"
+            },
+            {
+                "letter": "D",
+                "text": "Teams share all codebases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team enhances autonomy by allowing teams to make independent decisions about their services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0030",
+        "text": "Which of the following is a benefit of service per team for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster delivery of features by independent teams"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down development"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team enables faster delivery by allowing teams to work independently on their services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0031",
+        "text": "Which of the following is a benefit of service per team for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are isolated within a team's services"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all teams"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team improves fault tolerance by isolating failures within a team's services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0032",
+        "text": "Which of the following is a benefit of service per team for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new technologies independently"
+            },
+            {
+                "letter": "B",
+                "text": "Technology stack is fixed"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires system-wide changes"
+            },
+            {
+                "letter": "D",
+                "text": "All teams must use the same tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team fosters innovation by allowing teams to experiment independently with new technologies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0033",
+        "text": "Which of the following is a benefit of service per team for continuous integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports independent CI pipelines per team"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single CI pipeline for all teams"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents automation"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team supports independent CI pipelines, allowing faster and isolated builds."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0034",
+        "text": "Which of the following is a benefit of service per team for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk of breaking unrelated services"
+            },
+            {
+                "letter": "B",
+                "text": "Increases deployment risk"
+            },
+            {
+                "letter": "C",
+                "text": "Delays issue detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test coverage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team reduces risk by isolating changes to specific services owned by each team."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0035",
+        "text": "Which of the following is a benefit of service per team for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Optimizations can be applied to specific team services"
+            },
+            {
+                "letter": "B",
+                "text": "Performance tuning affects all services"
+            },
+            {
+                "letter": "C",
+                "text": "Performance is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "No performance isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team allows performance optimizations to target specific services owned by each team."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0036",
+        "text": "Which of the following is a benefit of service per team for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into team-owned services"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team improves transparency by providing visibility into team-owned services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0037",
+        "text": "Which of the following is a benefit of service per team for adaptability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows quick adaptation to business changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires system-wide updates"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team allows quick adaptation to business changes without affecting other teams."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0038",
+        "text": "Which of the following is a benefit of service per team for alignment with business strategy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures technical architecture supports business goals"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team ensures that technical architecture supports business goals and strategy."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0039",
+        "text": "Which of the following is a benefit of service per team for communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces inter-team communication by defining clear ownership"
+            },
+            {
+                "letter": "B",
+                "text": "Increases cross-team dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized messaging"
+            },
+            {
+                "letter": "D",
+                "text": "Encourages tight coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team reduces inter-team communication by defining clear ownership boundaries."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0040",
+        "text": "Which of the following is a benefit of service per team for clarity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear separation of responsibilities"
+            },
+            {
+                "letter": "B",
+                "text": "Blurs service boundaries"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Increases ambiguity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team provides clear separation of responsibilities and ownership boundaries."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0041",
+        "text": "Which of the following is a benefit of service per team for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team can handle failures independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team improves reliability by allowing independent failure handling per team."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0042",
+        "text": "Which of the following is a benefit of service per team for continuous improvement?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can iterate and improve their services independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams must coordinate improvements"
+            },
+            {
+                "letter": "C",
+                "text": "Improvements require system-wide updates"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized approval"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team allows teams to iterate and improve their services independently."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0043",
+        "text": "Which of the following is a benefit of service per team for accountability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team is accountable for its own services"
+            },
+            {
+                "letter": "B",
+                "text": "Accountability is shared across all teams"
+            },
+            {
+                "letter": "C",
+                "text": "Accountability is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "No accountability boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team ensures accountability by assigning responsibility for services to specific teams."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0044",
+        "text": "Which of the following is a benefit of service per team for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can optimize performance for their services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Performance tuning affects all services"
+            },
+            {
+                "letter": "C",
+                "text": "Performance is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "No performance isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team allows teams to optimize performance for their services independently."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0045",
+        "text": "Which of the following is a benefit of service per team for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into team-owned services"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team improves transparency by providing visibility into team-owned services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0046",
+        "text": "Which of the following is a benefit of service per team for business alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures services reflect business functions managed by teams"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team ensures that services reflect business functions managed by specific teams."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0047",
+        "text": "Which of the following is a benefit of service per team for independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team can operate independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams depend on each other"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share the same database"
+            },
+            {
+                "letter": "D",
+                "text": "Teams require orchestration for every call"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team allows each team to operate independently without relying on other teams."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0048",
+        "text": "Which of the following is a benefit of service per team for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team can scale its services independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team allows independent scaling of services based on team-specific performance needs."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0049",
+        "text": "Which of the following is a benefit of service per team for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each team can handle failures independently"
+            },
+            {
+                "letter": "B",
+                "text": "All teams fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Service per team improves reliability by allowing independent failure handling per team."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesServicePerTeam - Q0050",
+        "text": "Which of the following best describes the purpose of service per team?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To align microservices ownership with team boundaries for autonomy and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "To centralize all business logic"
+            },
+            {
+                "letter": "C",
+                "text": "To reduce the number of teams"
+            },
+            {
+                "letter": "D",
+                "text": "To share databases across services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The purpose of service per team is to align microservices ownership with team boundaries for autonomy and scalability."
+    }
+]

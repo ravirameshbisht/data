@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0001",
+        "text": "What is a monolithic architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single unified application where all components are tightly coupled"
+            },
+            {
+                "letter": "B",
+                "text": "A distributed system with independent services"
+            },
+            {
+                "letter": "C",
+                "text": "A cloud-native microservices design"
+            },
+            {
+                "letter": "D",
+                "text": "A serverless architecture"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architecture is a single unified application where all components are tightly coupled and deployed together."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0002",
+        "text": "Which of the following best describes the deployment model of a monolithic application?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "All components are deployed together as one unit"
+            },
+            {
+                "letter": "B",
+                "text": "Each component is deployed independently"
+            },
+            {
+                "letter": "C",
+                "text": "Components are deployed as containers"
+            },
+            {
+                "letter": "D",
+                "text": "Each service runs on a separate server"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In a monolithic architecture, all components are packaged and deployed together as a single unit."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0003",
+        "text": "Which of the following is a key characteristic of monolithic architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tightly coupled components"
+            },
+            {
+                "letter": "B",
+                "text": "Independent services"
+            },
+            {
+                "letter": "C",
+                "text": "Event-driven communication"
+            },
+            {
+                "letter": "D",
+                "text": "Service discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architectures have tightly coupled components that depend on each other within a single codebase."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0004",
+        "text": "Which of the following is a disadvantage of monolithic architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult to scale individual components"
+            },
+            {
+                "letter": "B",
+                "text": "Easier debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications are difficult to scale because all components are deployed together, limiting flexibility."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0005",
+        "text": "Which of the following is an advantage of monolithic architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simpler to develop and deploy initially"
+            },
+            {
+                "letter": "B",
+                "text": "Easier to scale individual modules"
+            },
+            {
+                "letter": "C",
+                "text": "Supports independent deployments"
+            },
+            {
+                "letter": "D",
+                "text": "Improves fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architectures are simpler to develop and deploy initially because everything is in one codebase."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0006",
+        "text": "What happens when one component fails in a monolithic application?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can cause the entire application to fail"
+            },
+            {
+                "letter": "B",
+                "text": "Only that component stops working"
+            },
+            {
+                "letter": "C",
+                "text": "Other components continue unaffected"
+            },
+            {
+                "letter": "D",
+                "text": "The system automatically restarts the component"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In monolithic systems, a failure in one component can bring down the entire application due to tight coupling."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0007",
+        "text": "Which of the following best describes scaling in monolithic architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Scaling the entire application as a whole"
+            },
+            {
+                "letter": "B",
+                "text": "Scaling individual components independently"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling only the database layer"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling through container orchestration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications can only be scaled as a whole, not by individual components."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0008",
+        "text": "Which of the following is a common challenge in monolithic architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Long build and deployment times"
+            },
+            {
+                "letter": "B",
+                "text": "Independent service scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified testing"
+            },
+            {
+                "letter": "D",
+                "text": "Loose coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications often have long build and deployment times due to their large, unified codebase."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0009",
+        "text": "Which of the following is true about monolithic architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "All modules share the same memory and resources"
+            },
+            {
+                "letter": "B",
+                "text": "Each module runs in its own process"
+            },
+            {
+                "letter": "C",
+                "text": "Modules communicate via APIs"
+            },
+            {
+                "letter": "D",
+                "text": "Modules are deployed independently"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In monolithic architecture, all modules share the same memory and resources within a single process."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0010",
+        "text": "Which of the following is a typical example of a monolithic application?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A traditional e-commerce web application built as one deployable unit"
+            },
+            {
+                "letter": "B",
+                "text": "A distributed system with multiple microservices"
+            },
+            {
+                "letter": "C",
+                "text": "A serverless function-based system"
+            },
+            {
+                "letter": "D",
+                "text": "A containerized microservice cluster"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A traditional e-commerce web application built as one deployable unit is an example of a monolithic application."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0011",
+        "text": "Which of the following is a disadvantage of monolithic architecture for large teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult collaboration due to shared codebase"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified communication"
+            },
+            {
+                "letter": "C",
+                "text": "Independent module ownership"
+            },
+            {
+                "letter": "D",
+                "text": "Faster development cycles"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Large teams face collaboration challenges in monolithic architectures due to shared codebases and dependencies."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0012",
+        "text": "Which of the following is a benefit of monolithic architecture for small projects?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simpler design and faster initial development"
+            },
+            {
+                "letter": "B",
+                "text": "Independent scaling of services"
+            },
+            {
+                "letter": "C",
+                "text": "Complex deployment pipelines"
+            },
+            {
+                "letter": "D",
+                "text": "High operational overhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architecture is ideal for small projects due to its simplicity and faster initial development."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0013",
+        "text": "Which of the following best describes the testing process in monolithic architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing is done on the entire application as a single unit"
+            },
+            {
+                "letter": "B",
+                "text": "Each service is tested independently"
+            },
+            {
+                "letter": "C",
+                "text": "Testing focuses only on APIs"
+            },
+            {
+                "letter": "D",
+                "text": "Testing is automated through service discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In monolithic architecture, testing is performed on the entire application as a single unit."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0014",
+        "text": "Which of the following is a limitation of monolithic architecture in continuous deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Requires redeploying the entire application for small changes"
+            },
+            {
+                "letter": "B",
+                "text": "Allows partial deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Supports independent service updates"
+            },
+            {
+                "letter": "D",
+                "text": "Enables zero-downtime deployments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In monolithic architecture, even small changes require redeploying the entire application."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0015",
+        "text": "Which of the following is a common technology stack for monolithic applications?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Java EE with a single relational database"
+            },
+            {
+                "letter": "B",
+                "text": "Microservices with NoSQL databases"
+            },
+            {
+                "letter": "C",
+                "text": "Serverless functions"
+            },
+            {
+                "letter": "D",
+                "text": "Event-driven architecture"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications often use Java EE or similar frameworks with a single relational database."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0016",
+        "text": "Which of the following is a challenge in scaling monolithic applications?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Scaling requires replicating the entire application"
+            },
+            {
+                "letter": "B",
+                "text": "Scaling can be done per module"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling is automatic"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is independent of the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Scaling monolithic applications requires replicating the entire application, not individual components."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0017",
+        "text": "Which of the following is a typical database design in monolithic architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Single shared database for all modules"
+            },
+            {
+                "letter": "B",
+                "text": "Separate databases for each module"
+            },
+            {
+                "letter": "C",
+                "text": "Distributed databases"
+            },
+            {
+                "letter": "D",
+                "text": "Event-sourced databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architectures typically use a single shared database for all modules."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0018",
+        "text": "Which of the following is a disadvantage of monolithic architecture for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cannot scale individual components independently"
+            },
+            {
+                "letter": "B",
+                "text": "Supports horizontal scaling easily"
+            },
+            {
+                "letter": "C",
+                "text": "Allows independent scaling of modules"
+            },
+            {
+                "letter": "D",
+                "text": "Uses distributed caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architectures cannot scale individual components independently, limiting scalability."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0019",
+        "text": "Which of the following is a benefit of monolithic architecture for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Easier debugging due to single codebase"
+            },
+            {
+                "letter": "B",
+                "text": "Requires distributed tracing"
+            },
+            {
+                "letter": "C",
+                "text": "Needs service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "Involves multiple logs across services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Debugging is easier in monolithic architectures because all code resides in a single codebase."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0020",
+        "text": "Which of the following best describes the coupling in monolithic architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tight coupling between components"
+            },
+            {
+                "letter": "B",
+                "text": "Loose coupling between services"
+            },
+            {
+                "letter": "C",
+                "text": "Event-based coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Asynchronous coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architectures have tightly coupled components that depend on each other within a single codebase."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0021",
+        "text": "Which of the following is a disadvantage of monolithic architecture for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Requires redeploying the entire application for small changes"
+            },
+            {
+                "letter": "B",
+                "text": "Allows partial deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Supports independent service updates"
+            },
+            {
+                "letter": "D",
+                "text": "Enables zero-downtime deployments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In monolithic architecture, even small changes require redeploying the entire application, making deployment slower."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0022",
+        "text": "Which of the following is a benefit of monolithic architecture for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster inter-module communication due to shared memory"
+            },
+            {
+                "letter": "B",
+                "text": "Slower communication due to network calls"
+            },
+            {
+                "letter": "C",
+                "text": "Requires message queues for communication"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on service discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications have faster inter-module communication because all modules share the same memory space."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0023",
+        "text": "Which of the following is a limitation of monolithic architecture for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single failure can affect the entire system"
+            },
+            {
+                "letter": "B",
+                "text": "Failures are isolated to individual modules"
+            },
+            {
+                "letter": "C",
+                "text": "Supports automatic recovery"
+            },
+            {
+                "letter": "D",
+                "text": "Uses circuit breakers for isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In monolithic systems, a single failure can bring down the entire application due to tight coupling."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0024",
+        "text": "Which of the following is a challenge in maintaining monolithic applications?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Codebase becomes large and complex over time"
+            },
+            {
+                "letter": "B",
+                "text": "Each service is small and independent"
+            },
+            {
+                "letter": "C",
+                "text": "Modules are loosely coupled"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment is automated per service"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications often become large and complex, making maintenance difficult as the system grows."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0025",
+        "text": "Which of the following is a benefit of monolithic architecture for small teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simpler coordination and development"
+            },
+            {
+                "letter": "B",
+                "text": "Requires multiple DevOps pipelines"
+            },
+            {
+                "letter": "C",
+                "text": "Needs distributed tracing"
+            },
+            {
+                "letter": "D",
+                "text": "Involves complex orchestration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architecture is easier for small teams to manage due to simpler coordination and development."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0026",
+        "text": "Which of the following is a disadvantage of monolithic architecture for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cannot scale individual components independently"
+            },
+            {
+                "letter": "B",
+                "text": "Supports horizontal scaling easily"
+            },
+            {
+                "letter": "C",
+                "text": "Allows independent scaling of modules"
+            },
+            {
+                "letter": "D",
+                "text": "Uses distributed caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architectures cannot scale individual components independently, limiting scalability."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0027",
+        "text": "Which of the following is a typical communication pattern in monolithic architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "In-process method calls"
+            },
+            {
+                "letter": "B",
+                "text": "RESTful API calls between services"
+            },
+            {
+                "letter": "C",
+                "text": "Message queues"
+            },
+            {
+                "letter": "D",
+                "text": "Event-driven messaging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications use in-process method calls for communication between components."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0028",
+        "text": "Which of the following is a disadvantage of monolithic architecture for technology diversity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult to use multiple technologies in one codebase"
+            },
+            {
+                "letter": "B",
+                "text": "Supports polyglot programming easily"
+            },
+            {
+                "letter": "C",
+                "text": "Allows independent technology stacks"
+            },
+            {
+                "letter": "D",
+                "text": "Encourages modular technology use"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architectures make it difficult to use multiple technologies because all components share the same stack."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0029",
+        "text": "Which of the following is a benefit of monolithic architecture for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simpler testing due to single deployment unit"
+            },
+            {
+                "letter": "B",
+                "text": "Requires distributed testing tools"
+            },
+            {
+                "letter": "C",
+                "text": "Needs service virtualization"
+            },
+            {
+                "letter": "D",
+                "text": "Involves multiple test environments"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Testing is simpler in monolithic architecture because the entire application is tested as one unit."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0030",
+        "text": "Which of the following is a disadvantage of monolithic architecture for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Small changes require redeploying the entire application"
+            },
+            {
+                "letter": "B",
+                "text": "Supports independent deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Allows partial rollouts"
+            },
+            {
+                "letter": "D",
+                "text": "Enables canary releases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In monolithic architecture, even small changes require redeploying the entire application, slowing delivery."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0031",
+        "text": "Which of the following is a benefit of monolithic architecture for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Optimizations can be applied globally across the application"
+            },
+            {
+                "letter": "B",
+                "text": "Optimizations are limited to individual services"
+            },
+            {
+                "letter": "C",
+                "text": "Requires distributed caching"
+            },
+            {
+                "letter": "D",
+                "text": "Depends on service orchestration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Performance optimizations can be applied globally in monolithic applications since all components share the same runtime."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0032",
+        "text": "Which of the following is a disadvantage of monolithic architecture for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single bug can crash the entire system"
+            },
+            {
+                "letter": "B",
+                "text": "Each module can recover independently"
+            },
+            {
+                "letter": "C",
+                "text": "Supports automatic failover"
+            },
+            {
+                "letter": "D",
+                "text": "Uses circuit breakers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In monolithic systems, a single bug can crash the entire system due to shared memory and process space."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0033",
+        "text": "Which of the following is a benefit of monolithic architecture for initial development?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster setup and simpler development process"
+            },
+            {
+                "letter": "B",
+                "text": "Requires complex orchestration"
+            },
+            {
+                "letter": "C",
+                "text": "Needs multiple repositories"
+            },
+            {
+                "letter": "D",
+                "text": "Involves distributed coordination"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architecture allows faster setup and simpler development for initial projects."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0034",
+        "text": "Which of the following is a disadvantage of monolithic architecture for large-scale systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Becomes difficult to manage and scale"
+            },
+            {
+                "letter": "B",
+                "text": "Simplifies scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Supports modular scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Improves fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "As systems grow, monolithic architectures become difficult to manage and scale due to tight coupling."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0035",
+        "text": "Which of the following is a benefit of monolithic architecture for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Easier debugging due to single process"
+            },
+            {
+                "letter": "B",
+                "text": "Requires distributed tracing"
+            },
+            {
+                "letter": "C",
+                "text": "Needs service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "Involves multiple logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Debugging is easier in monolithic architecture because all components run in a single process."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0036",
+        "text": "Which of the following is a disadvantage of monolithic architecture for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams cannot work independently on different modules"
+            },
+            {
+                "letter": "B",
+                "text": "Teams can deploy independently"
+            },
+            {
+                "letter": "C",
+                "text": "Teams have full ownership of services"
+            },
+            {
+                "letter": "D",
+                "text": "Teams can use different tech stacks"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In monolithic architecture, teams cannot work independently because all modules share the same codebase."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0037",
+        "text": "Which of the following is a benefit of monolithic architecture for resource utilization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Efficient resource usage due to shared runtime"
+            },
+            {
+                "letter": "B",
+                "text": "Requires multiple runtimes"
+            },
+            {
+                "letter": "C",
+                "text": "Consumes more memory"
+            },
+            {
+                "letter": "D",
+                "text": "Needs container orchestration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications use resources efficiently because all components share the same runtime environment."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0038",
+        "text": "Which of the following is a disadvantage of monolithic architecture for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult to adopt new technologies for specific modules"
+            },
+            {
+                "letter": "B",
+                "text": "Allows polyglot programming"
+            },
+            {
+                "letter": "C",
+                "text": "Supports independent upgrades"
+            },
+            {
+                "letter": "D",
+                "text": "Encourages modular design"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architectures are less flexible because adopting new technologies affects the entire system."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0039",
+        "text": "Which of the following is a benefit of monolithic architecture for deployment simplicity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Single deployment package for the entire application"
+            },
+            {
+                "letter": "B",
+                "text": "Multiple deployment pipelines"
+            },
+            {
+                "letter": "C",
+                "text": "Requires service orchestration"
+            },
+            {
+                "letter": "D",
+                "text": "Needs container clusters"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications are deployed as a single package, simplifying deployment."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0040",
+        "text": "Which of the following is a disadvantage of monolithic architecture for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Scaling requires replicating the entire application"
+            },
+            {
+                "letter": "B",
+                "text": "Scaling can be done per module"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling is automatic"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is independent of the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Scaling monolithic applications requires replicating the entire application, not individual components."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0041",
+        "text": "Which of the following is a benefit of monolithic architecture for transaction management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simpler transaction management due to single database"
+            },
+            {
+                "letter": "B",
+                "text": "Requires distributed transactions"
+            },
+            {
+                "letter": "C",
+                "text": "Needs event-driven consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Uses eventual consistency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications have simpler transaction management because they use a single database."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0042",
+        "text": "Which of the following is a disadvantage of monolithic architecture for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single failure can bring down the entire system"
+            },
+            {
+                "letter": "B",
+                "text": "Failures are isolated to individual modules"
+            },
+            {
+                "letter": "C",
+                "text": "Supports automatic recovery"
+            },
+            {
+                "letter": "D",
+                "text": "Uses circuit breakers for isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In monolithic systems, a single failure can bring down the entire system due to shared process space."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0043",
+        "text": "Which of the following is a benefit of monolithic architecture for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Easier debugging due to single process and logs"
+            },
+            {
+                "letter": "B",
+                "text": "Requires distributed tracing"
+            },
+            {
+                "letter": "C",
+                "text": "Needs service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "Involves multiple log aggregators"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Debugging is easier in monolithic architecture because all logs and processes are centralized."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0044",
+        "text": "Which of the following is a disadvantage of monolithic architecture for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Slower release cycles due to large codebase"
+            },
+            {
+                "letter": "B",
+                "text": "Supports independent releases"
+            },
+            {
+                "letter": "C",
+                "text": "Allows modular updates"
+            },
+            {
+                "letter": "D",
+                "text": "Encourages rapid iteration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architectures have slower release cycles because changes require redeploying the entire application."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0045",
+        "text": "Which of the following is a benefit of monolithic architecture for simplicity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simpler design and deployment process"
+            },
+            {
+                "letter": "B",
+                "text": "Requires complex orchestration"
+            },
+            {
+                "letter": "C",
+                "text": "Needs multiple repositories"
+            },
+            {
+                "letter": "D",
+                "text": "Involves distributed coordination"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architecture offers simplicity in design and deployment, making it ideal for small projects."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0046",
+        "text": "Which of the following is a disadvantage of monolithic architecture for modernization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult to refactor or migrate to new technologies"
+            },
+            {
+                "letter": "B",
+                "text": "Supports modular upgrades"
+            },
+            {
+                "letter": "C",
+                "text": "Allows partial modernization"
+            },
+            {
+                "letter": "D",
+                "text": "Encourages incremental updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architectures are difficult to modernize because all components are tightly coupled."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0047",
+        "text": "Which of the following is a benefit of monolithic architecture for deployment management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Single deployment artifact simplifies management"
+            },
+            {
+                "letter": "B",
+                "text": "Requires multiple deployment pipelines"
+            },
+            {
+                "letter": "C",
+                "text": "Needs container orchestration"
+            },
+            {
+                "letter": "D",
+                "text": "Involves distributed deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications have a single deployment artifact, simplifying deployment management."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0048",
+        "text": "Which of the following is a disadvantage of monolithic architecture for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Scaling requires replicating the entire application"
+            },
+            {
+                "letter": "B",
+                "text": "Scaling can be done per module"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling is automatic"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is independent of the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Scaling monolithic applications requires replicating the entire application, not individual components."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0049",
+        "text": "Which of the following is a benefit of monolithic architecture for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Strong consistency due to single database"
+            },
+            {
+                "letter": "B",
+                "text": "Eventual consistency across services"
+            },
+            {
+                "letter": "C",
+                "text": "Requires distributed transactions"
+            },
+            {
+                "letter": "D",
+                "text": "Uses asynchronous messaging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic applications maintain strong consistency because they use a single database for all operations."
+    },
+    {
+        "title": "MicroservicesMonolithicArchitecture - Q0050",
+        "text": "Which of the following best describes monolithic architecture in contrast to microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single deployable unit with tightly coupled components"
+            },
+            {
+                "letter": "B",
+                "text": "A distributed system with independent services"
+            },
+            {
+                "letter": "C",
+                "text": "A cloud-native architecture"
+            },
+            {
+                "letter": "D",
+                "text": "A serverless design"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monolithic architecture is a single deployable unit where all components are tightly coupled and interdependent."
+    }
+]

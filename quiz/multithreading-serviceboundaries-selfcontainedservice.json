@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0001",
+        "text": "What is a self-contained service in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A service that encapsulates its own logic, data, and UI"
+            },
+            {
+                "letter": "B",
+                "text": "A service that depends on multiple external systems"
+            },
+            {
+                "letter": "C",
+                "text": "A shared library used by multiple services"
+            },
+            {
+                "letter": "D",
+                "text": "A centralized database service"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A self-contained service encapsulates its own business logic, data, and sometimes UI, minimizing dependencies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0002",
+        "text": "What is the main goal of a self-contained service?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To reduce dependencies between services"
+            },
+            {
+                "letter": "B",
+                "text": "To share data across all services"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize business logic"
+            },
+            {
+                "letter": "D",
+                "text": "To simplify monolithic design"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The main goal of a self-contained service is to reduce dependencies and enable independent operation."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0003",
+        "text": "Which of the following best describes a self-contained service?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A service that can function independently without external dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "A service that relies on shared databases"
+            },
+            {
+                "letter": "C",
+                "text": "A service that requires orchestration for every operation"
+            },
+            {
+                "letter": "D",
+                "text": "A service that depends on other services for core logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A self-contained service is designed to function independently without relying on other services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0004",
+        "text": "Which of the following is a key characteristic of a self-contained service?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Loose coupling and high cohesion"
+            },
+            {
+                "letter": "B",
+                "text": "Tight coupling and shared state"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "D",
+                "text": "Shared business logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services are loosely coupled and highly cohesive, focusing on a single business function."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0005",
+        "text": "Which of the following is a benefit of self-contained services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Independent deployment and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Shared database access"
+            },
+            {
+                "letter": "D",
+                "text": "Tight integration with other services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services can be deployed and scaled independently, improving flexibility."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0006",
+        "text": "Which of the following is a challenge in designing self-contained services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Avoiding data duplication while maintaining independence"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizing all logic"
+            },
+            {
+                "letter": "C",
+                "text": "Sharing a single database"
+            },
+            {
+                "letter": "D",
+                "text": "Reducing modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Designing self-contained services requires balancing independence with minimal data duplication."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0007",
+        "text": "Which of the following is a benefit of self-contained services for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within the service"
+            },
+            {
+                "letter": "B",
+                "text": "Failures propagate to all services"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services improve fault isolation by containing failures within the service boundary."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0008",
+        "text": "Which of the following is a benefit of self-contained services for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services allow independent scaling based on their specific load and requirements."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0009",
+        "text": "Which of the following is a benefit of self-contained services for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating logic and data"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all logic in one service"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services simplify maintenance by isolating logic and data within each service."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0010",
+        "text": "Which of the following is a benefit of self-contained services for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be deployed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Deployment requires downtime"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment is centralized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services can be deployed independently, enabling faster and safer releases."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0011",
+        "text": "Which of the following is a key design principle of self-contained services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulation of business logic and data"
+            },
+            {
+                "letter": "B",
+                "text": "Shared data access"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized orchestration"
+            },
+            {
+                "letter": "D",
+                "text": "Tight coupling with other services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services encapsulate their business logic and data to ensure independence."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0012",
+        "text": "Which of the following is a benefit of self-contained services for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can own and manage their services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services allow teams to own and manage their services independently, improving autonomy."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0013",
+        "text": "Which of the following is a benefit of self-contained services for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster delivery of business features"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down development"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services enable faster delivery of business features by reducing dependencies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0014",
+        "text": "Which of the following is a common mistake when designing self-contained services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Creating dependencies between services for shared logic"
+            },
+            {
+                "letter": "B",
+                "text": "Encapsulating logic within the service"
+            },
+            {
+                "letter": "C",
+                "text": "Using independent databases"
+            },
+            {
+                "letter": "D",
+                "text": "Defining clear ownership"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A common mistake is creating dependencies between services for shared logic, reducing independence."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0015",
+        "text": "Which of the following is a benefit of self-contained services for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within the service boundary"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all services"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services improve fault isolation by containing failures within the service boundary."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0016",
+        "text": "Which of the following is a benefit of self-contained services for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services allow independent scaling based on their specific performance needs."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0017",
+        "text": "Which of the following is a benefit of self-contained services for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service is modular and focused on a single business function"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services promote modularity by focusing each service on a single business function."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0018",
+        "text": "Which of the following is a benefit of self-contained services for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating logic and data"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all logic in one service"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services simplify maintenance by isolating logic and data within each service."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0019",
+        "text": "Which of the following is a benefit of self-contained services for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can own and deploy their services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services allow teams to own and deploy their services independently, improving autonomy."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0020",
+        "text": "Which of the following best describes the outcome of designing self-contained services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services that are independently deployable and maintainable"
+            },
+            {
+                "letter": "B",
+                "text": "Services that depend on shared databases"
+            },
+            {
+                "letter": "C",
+                "text": "Services that require centralized orchestration"
+            },
+            {
+                "letter": "D",
+                "text": "Services that share business logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services are independently deployable and maintainable, reducing dependencies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0021",
+        "text": "Which of the following is a benefit of self-contained services for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are isolated within the service"
+            },
+            {
+                "letter": "B",
+                "text": "Failures propagate to all services"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services improve fault tolerance by isolating failures within the service boundary."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0022",
+        "text": "Which of the following is a challenge when designing self-contained services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Avoiding excessive data duplication"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizing all logic"
+            },
+            {
+                "letter": "C",
+                "text": "Sharing a single database"
+            },
+            {
+                "letter": "D",
+                "text": "Reducing modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A challenge in designing self-contained services is avoiding excessive data duplication while maintaining independence."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0023",
+        "text": "Which of the following is a benefit of self-contained services for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services allow independent scaling based on their specific performance needs."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0024",
+        "text": "Which of the following is a benefit of self-contained services for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service is modular and focused on a single business function"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services promote modularity by focusing each service on a single business function."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0025",
+        "text": "Which of the following is a benefit of self-contained services for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating logic and data"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all logic in one service"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services simplify maintenance by isolating logic and data within each service."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0026",
+        "text": "Which of the following is a benefit of self-contained services for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can own and deploy their services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services allow teams to own and deploy their services independently, improving autonomy."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0027",
+        "text": "Which of the following is a benefit of self-contained services for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster delivery of business features"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down development"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services enable faster delivery of business features by reducing dependencies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0028",
+        "text": "Which of the following is a benefit of self-contained services for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within specific services"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all services"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services improve fault isolation by containing failures within specific services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0029",
+        "text": "Which of the following is a benefit of self-contained services for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent evolution of services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services allow independent evolution of services without affecting others."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0030",
+        "text": "Which of the following is a benefit of self-contained services for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can recover independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services improve resilience by allowing independent recovery of services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0031",
+        "text": "Which of the following is a benefit of self-contained services for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new technologies independently"
+            },
+            {
+                "letter": "B",
+                "text": "Technology stack is fixed"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires system-wide changes"
+            },
+            {
+                "letter": "D",
+                "text": "All teams must use the same tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services foster innovation by allowing teams to experiment independently."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0032",
+        "text": "Which of the following is a benefit of self-contained services for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables frequent and independent releases"
+            },
+            {
+                "letter": "B",
+                "text": "Requires redeploying the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services support continuous delivery by enabling frequent and independent releases."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0033",
+        "text": "Which of the following is a benefit of self-contained services for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service is modular and focused on a single business function"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services promote modularity by focusing each service on a single business function."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0034",
+        "text": "Which of the following is a benefit of self-contained services for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into specific service operations"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services improve observability by providing visibility into specific service operations."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0035",
+        "text": "Which of the following is a benefit of self-contained services for alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aligns technical architecture with business functions"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services align technical architecture with business functions and goals."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0036",
+        "text": "Which of the following is a benefit of self-contained services for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing can focus on individual services"
+            },
+            {
+                "letter": "B",
+                "text": "Testing requires the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Testing is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Testing is manual only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services allow testing to focus on individual services, improving efficiency."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0037",
+        "text": "Which of the following is a benefit of self-contained services for continuous integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports independent CI pipelines per service"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single CI pipeline for all services"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents automation"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services support independent CI pipelines, allowing faster and isolated builds."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0038",
+        "text": "Which of the following is a benefit of self-contained services for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk of breaking unrelated services"
+            },
+            {
+                "letter": "B",
+                "text": "Increases deployment risk"
+            },
+            {
+                "letter": "C",
+                "text": "Delays issue detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test coverage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services reduce risk by isolating changes to specific services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0039",
+        "text": "Which of the following is a benefit of self-contained services for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Optimizations can be applied to specific services"
+            },
+            {
+                "letter": "B",
+                "text": "Performance tuning affects all services"
+            },
+            {
+                "letter": "C",
+                "text": "Performance is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "No performance isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services allow performance optimizations to target specific services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0040",
+        "text": "Which of the following is a benefit of self-contained services for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into service operations"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services improve transparency by providing visibility into service operations."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0041",
+        "text": "Which of the following is a benefit of self-contained services for adaptability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows quick adaptation to business changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires system-wide updates"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services allow quick adaptation to business changes without affecting other services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0042",
+        "text": "Which of the following is a benefit of self-contained services for ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clear ownership of service functionality"
+            },
+            {
+                "letter": "B",
+                "text": "Shared ownership across all teams"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized ownership"
+            },
+            {
+                "letter": "D",
+                "text": "No ownership boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services provide clear ownership of service functionality to specific teams."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0043",
+        "text": "Which of the following is a benefit of self-contained services for communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces inter-service communication by encapsulating logic"
+            },
+            {
+                "letter": "B",
+                "text": "Increases cross-service dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized messaging"
+            },
+            {
+                "letter": "D",
+                "text": "Encourages tight coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services reduce inter-service communication by encapsulating logic within the service."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0044",
+        "text": "Which of the following is a benefit of self-contained services for clarity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides clear separation of responsibilities"
+            },
+            {
+                "letter": "B",
+                "text": "Blurs service boundaries"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Increases ambiguity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services provide clear separation of responsibilities and boundaries."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0045",
+        "text": "Which of the following is a benefit of self-contained services for business alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures services reflect business functions"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services ensure that services reflect business functions and goals."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0046",
+        "text": "Which of the following is a benefit of self-contained services for independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can operate independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services depend on each other"
+            },
+            {
+                "letter": "C",
+                "text": "Services share the same database"
+            },
+            {
+                "letter": "D",
+                "text": "Services require orchestration for every call"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services are designed to operate independently without relying on other services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0047",
+        "text": "Which of the following is a benefit of self-contained services for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be deployed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Deployment requires downtime"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment is centralized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services can be deployed independently, enabling faster and safer releases."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0048",
+        "text": "Which of the following is a benefit of self-contained services for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services allow independent scaling based on their specific performance needs."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0049",
+        "text": "Which of the following is a benefit of self-contained services for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can handle failures independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Self-contained services improve reliability by allowing independent failure handling."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesSelfContainedService - Q0050",
+        "text": "Which of the following best describes the purpose of self-contained services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To create independently deployable, maintainable, and scalable services"
+            },
+            {
+                "letter": "B",
+                "text": "To centralize all business logic"
+            },
+            {
+                "letter": "C",
+                "text": "To reduce the number of services"
+            },
+            {
+                "letter": "D",
+                "text": "To share databases across services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The purpose of self-contained services is to create independently deployable, maintainable, and scalable services."
+    }
+]

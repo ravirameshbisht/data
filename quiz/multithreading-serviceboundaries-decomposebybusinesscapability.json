@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0001",
+        "text": "What does 'decompose by business capability' mean in microservice architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Dividing services based on distinct business functions or domains"
+            },
+            {
+                "letter": "B",
+                "text": "Splitting services by technical layers like UI and database"
+            },
+            {
+                "letter": "C",
+                "text": "Grouping all services into a single monolith"
+            },
+            {
+                "letter": "D",
+                "text": "Organizing services by programming language"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability means structuring services around distinct business functions or domains rather than technical layers."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0002",
+        "text": "What is the main goal of decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To align services with business functions for better autonomy"
+            },
+            {
+                "letter": "B",
+                "text": "To reduce the number of services"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize all business logic"
+            },
+            {
+                "letter": "D",
+                "text": "To simplify database design"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The goal is to align services with business functions, enabling autonomy and clear ownership."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0003",
+        "text": "Which of the following best describes a business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A high-level business function that delivers value"
+            },
+            {
+                "letter": "B",
+                "text": "A technical component like a database"
+            },
+            {
+                "letter": "C",
+                "text": "A user interface module"
+            },
+            {
+                "letter": "D",
+                "text": "A network configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A business capability represents a high-level business function that contributes to delivering value."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0004",
+        "text": "Which of the following is an example of a business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Order Management"
+            },
+            {
+                "letter": "B",
+                "text": "Database Connection Pooling"
+            },
+            {
+                "letter": "C",
+                "text": "Logging Service"
+            },
+            {
+                "letter": "D",
+                "text": "Authentication Middleware"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Order Management is a business capability because it represents a core business function."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0005",
+        "text": "Why is decomposing by business capability preferred over technical decomposition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It aligns services with business goals and reduces coupling"
+            },
+            {
+                "letter": "B",
+                "text": "It simplifies database queries"
+            },
+            {
+                "letter": "C",
+                "text": "It reduces the number of APIs"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability aligns services with business goals and reduces inter-service coupling."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0006",
+        "text": "What is a key benefit of decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved service autonomy and ownership"
+            },
+            {
+                "letter": "B",
+                "text": "Shared databases across services"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability improves autonomy and ownership by aligning services with business domains."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0007",
+        "text": "Which of the following is a challenge when decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Identifying clear business boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Reducing code duplication"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizing data access"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifying UI design"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Identifying clear business boundaries is often challenging when decomposing by business capability."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0008",
+        "text": "Which of the following best describes the relationship between business capabilities and microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each microservice should represent a single business capability"
+            },
+            {
+                "letter": "B",
+                "text": "Each microservice should represent multiple unrelated capabilities"
+            },
+            {
+                "letter": "C",
+                "text": "All microservices should share the same capability"
+            },
+            {
+                "letter": "D",
+                "text": "Capabilities are unrelated to microservices"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each microservice should represent a single business capability to maintain clear boundaries and focus."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0009",
+        "text": "What is the main advantage of aligning microservices with business capabilities?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It allows teams to work independently on specific business areas"
+            },
+            {
+                "letter": "B",
+                "text": "It reduces the number of APIs"
+            },
+            {
+                "letter": "C",
+                "text": "It centralizes deployment"
+            },
+            {
+                "letter": "D",
+                "text": "It simplifies database design"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Aligning microservices with business capabilities allows teams to work independently on specific business areas."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0010",
+        "text": "Which of the following is a sign that a service boundary is not aligned with a business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Frequent cross-service communication for basic operations"
+            },
+            {
+                "letter": "B",
+                "text": "Independent deployment of services"
+            },
+            {
+                "letter": "C",
+                "text": "Clear ownership of business logic"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal data sharing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Frequent cross-service communication indicates that service boundaries may not align with business capabilities."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0011",
+        "text": "Which of the following is a benefit of decomposing by business capability for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each business capability can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling is limited to the database"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling requires redeploying all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability allows independent scaling of services based on business needs."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0012",
+        "text": "Which of the following is a common approach to identifying business capabilities?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Analyzing business processes and value streams"
+            },
+            {
+                "letter": "B",
+                "text": "Grouping by database tables"
+            },
+            {
+                "letter": "C",
+                "text": "Organizing by programming language"
+            },
+            {
+                "letter": "D",
+                "text": "Splitting by UI components"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Business capabilities are identified by analyzing business processes and value streams."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0013",
+        "text": "Which of the following is a benefit of decomposing by business capability for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating business logic"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all logic in one service"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability simplifies maintenance by isolating business logic within each service."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0014",
+        "text": "Which of the following is a disadvantage of decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "It can be difficult to identify clear boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "It reduces modularity"
+            },
+            {
+                "letter": "C",
+                "text": "It increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "It centralizes data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Identifying clear boundaries between business capabilities can be challenging during decomposition."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0015",
+        "text": "Which of the following is a key principle when decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service should encapsulate a single business function"
+            },
+            {
+                "letter": "B",
+                "text": "Each service should handle multiple unrelated functions"
+            },
+            {
+                "letter": "C",
+                "text": "All services should share the same database"
+            },
+            {
+                "letter": "D",
+                "text": "Services should be grouped by technology"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service should encapsulate a single business function to maintain clear boundaries and autonomy."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0016",
+        "text": "Which of the following is a benefit of decomposing by business capability for team structure?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can own and manage specific business capabilities"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must share ownership of all services"
+            },
+            {
+                "letter": "C",
+                "text": "Teams are organized by technology stack"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability allows teams to own and manage specific business areas independently."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0017",
+        "text": "Which of the following is a benefit of decomposing by business capability for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster delivery of business features"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down development"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability enables faster delivery of business features by reducing dependencies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0018",
+        "text": "Which of the following is a common mistake when decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Splitting services by technical layers instead of business functions"
+            },
+            {
+                "letter": "B",
+                "text": "Aligning services with business domains"
+            },
+            {
+                "letter": "C",
+                "text": "Creating independent data stores"
+            },
+            {
+                "letter": "D",
+                "text": "Defining clear ownership"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A common mistake is splitting services by technical layers instead of aligning them with business functions."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0019",
+        "text": "Which of the following is a benefit of decomposing by business capability for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within specific business areas"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all services"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability improves fault isolation by containing failures within specific business areas."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0020",
+        "text": "Which of the following best describes the outcome of decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services aligned with business domains and independently deployable"
+            },
+            {
+                "letter": "B",
+                "text": "Services grouped by technical layers"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data and logic"
+            },
+            {
+                "letter": "D",
+                "text": "Single deployment unit"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability results in services aligned with business domains and independently deployable."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0021",
+        "text": "Which of the following is a benefit of decomposing by business capability for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each business capability can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability allows independent scaling of services based on business demand."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0022",
+        "text": "Which of the following is a disadvantage of decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Requires deep understanding of business domains"
+            },
+            {
+                "letter": "B",
+                "text": "Reduces modularity"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability requires a deep understanding of business domains, which can be complex."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0023",
+        "text": "Which of the following is a key indicator of a well-defined business capability boundary?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Minimal dependencies between services"
+            },
+            {
+                "letter": "B",
+                "text": "Frequent cross-service calls"
+            },
+            {
+                "letter": "C",
+                "text": "Shared database access"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A well-defined business capability boundary minimizes dependencies and cross-service communication."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0024",
+        "text": "Which of the following is a benefit of decomposing by business capability for team autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can own and deploy their services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Teams must coordinate all deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Teams share a single codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Teams depend on centralized management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability allows teams to own and deploy their services independently."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0025",
+        "text": "Which of the following is a common tool used to identify business capabilities?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Domain-Driven Design (DDD)"
+            },
+            {
+                "letter": "B",
+                "text": "Load Balancer"
+            },
+            {
+                "letter": "C",
+                "text": "API Gateway"
+            },
+            {
+                "letter": "D",
+                "text": "CI/CD Pipeline"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain-Driven Design (DDD) is commonly used to identify and define business capabilities and service boundaries."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0026",
+        "text": "Which of the following is a benefit of decomposing by business capability for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are isolated within specific business domains"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all services"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability improves fault tolerance by isolating failures within specific domains."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0027",
+        "text": "Which of the following is a benefit of decomposing by business capability for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables faster delivery of business features"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down development"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability enables faster delivery of business features by reducing dependencies."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0028",
+        "text": "Which of the following is a benefit of decomposing by business capability for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies maintenance by isolating business logic"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all logic in one service"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Increases coupling between services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability simplifies maintenance by isolating business logic within each service."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0029",
+        "text": "Which of the following is a benefit of decomposing by business capability for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each business capability can scale independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Scaling requires redeploying the entire system"
+            },
+            {
+                "letter": "D",
+                "text": "Scaling is limited to the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability allows independent scaling of services based on business demand."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0030",
+        "text": "Which of the following is a benefit of decomposing by business capability for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing can focus on individual business areas"
+            },
+            {
+                "letter": "B",
+                "text": "Testing requires the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Testing is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Testing is manual only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability allows testing to focus on individual business areas, improving efficiency."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0031",
+        "text": "Which of the following is a benefit of decomposing by business capability for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each business capability can be deployed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Deployment requires downtime"
+            },
+            {
+                "letter": "D",
+                "text": "Deployment is centralized"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability allows independent deployment of services, enabling faster releases."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0032",
+        "text": "Which of the following is a benefit of decomposing by business capability for ownership?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clear ownership of business functions"
+            },
+            {
+                "letter": "B",
+                "text": "Shared ownership across all teams"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized ownership"
+            },
+            {
+                "letter": "D",
+                "text": "No ownership boundaries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability provides clear ownership of business functions to specific teams."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0033",
+        "text": "Which of the following is a benefit of decomposing by business capability for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failures are contained within specific business areas"
+            },
+            {
+                "letter": "B",
+                "text": "Failures affect all services"
+            },
+            {
+                "letter": "C",
+                "text": "All services share the same process"
+            },
+            {
+                "letter": "D",
+                "text": "No fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability improves fault isolation by containing failures within specific business areas."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0034",
+        "text": "Which of the following is a benefit of decomposing by business capability for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent evolution of business areas"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability allows independent evolution of business areas without affecting others."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0035",
+        "text": "Which of the following is a benefit of decomposing by business capability for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each business capability can recover independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services fail together"
+            },
+            {
+                "letter": "C",
+                "text": "No fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability improves resilience by allowing independent recovery of services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0036",
+        "text": "Which of the following is a benefit of decomposing by business capability for innovation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams can experiment with new technologies independently"
+            },
+            {
+                "letter": "B",
+                "text": "Technology stack is fixed"
+            },
+            {
+                "letter": "C",
+                "text": "Innovation requires system-wide changes"
+            },
+            {
+                "letter": "D",
+                "text": "All teams must use the same tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability fosters innovation by allowing teams to experiment independently."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0037",
+        "text": "Which of the following is a benefit of decomposing by business capability for continuous delivery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables frequent and independent releases"
+            },
+            {
+                "letter": "B",
+                "text": "Requires redeploying the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Slows down release cycles"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes deployment"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability supports continuous delivery by enabling frequent and independent releases."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0038",
+        "text": "Which of the following is a benefit of decomposing by business capability for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service is modular and focused on a single business function"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability promotes modularity by designing each service around a single business function."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0039",
+        "text": "Which of the following is a benefit of decomposing by business capability for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into specific business areas"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability improves observability by providing visibility into specific business areas."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0040",
+        "text": "Which of the following is a benefit of decomposing by business capability for alignment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aligns technical architecture with business goals"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability aligns technical architecture with business goals and outcomes."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0041",
+        "text": "Which of the following is a benefit of decomposing by business capability for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Testing can focus on individual business areas"
+            },
+            {
+                "letter": "B",
+                "text": "Testing requires the entire system"
+            },
+            {
+                "letter": "C",
+                "text": "Testing is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "Testing is manual only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability allows testing to focus on individual business areas, improving efficiency."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0042",
+        "text": "Which of the following is a benefit of decomposing by business capability for continuous integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports independent CI pipelines per service"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single CI pipeline for all services"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents automation"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability supports independent CI pipelines, allowing faster and isolated builds."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0043",
+        "text": "Which of the following is a benefit of decomposing by business capability for risk reduction?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk of breaking unrelated business areas"
+            },
+            {
+                "letter": "B",
+                "text": "Increases deployment risk"
+            },
+            {
+                "letter": "C",
+                "text": "Delays issue detection"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces test coverage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability reduces risk by isolating changes to specific business areas."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0044",
+        "text": "Which of the following is a benefit of decomposing by business capability for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Optimizations can be applied to specific business services"
+            },
+            {
+                "letter": "B",
+                "text": "Performance tuning affects all services"
+            },
+            {
+                "letter": "C",
+                "text": "Performance is centralized"
+            },
+            {
+                "letter": "D",
+                "text": "No performance isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability allows performance optimizations to target specific business services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0045",
+        "text": "Which of the following is a benefit of decomposing by business capability for modular design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service is modular and focused on a single business function"
+            },
+            {
+                "letter": "B",
+                "text": "All modules are tightly coupled"
+            },
+            {
+                "letter": "C",
+                "text": "Modules share the same codebase"
+            },
+            {
+                "letter": "D",
+                "text": "Modules cannot be reused"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability promotes modular design by focusing each service on a single business function."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0046",
+        "text": "Which of the following is a benefit of decomposing by business capability for transparency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into business operations"
+            },
+            {
+                "letter": "B",
+                "text": "Hides service metrics"
+            },
+            {
+                "letter": "C",
+                "text": "Requires centralized logging only"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces monitoring granularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability improves transparency by providing visibility into business operations."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0047",
+        "text": "Which of the following best describes decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Structuring services around business functions rather than technical layers"
+            },
+            {
+                "letter": "B",
+                "text": "Grouping services by database schema"
+            },
+            {
+                "letter": "C",
+                "text": "Organizing services by programming language"
+            },
+            {
+                "letter": "D",
+                "text": "Combining all services into one monolith"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability structures services around business functions rather than technical layers."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0048",
+        "text": "Which of the following is a benefit of decomposing by business capability for alignment with business strategy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures technical architecture supports business goals"
+            },
+            {
+                "letter": "B",
+                "text": "Separates business and technical goals"
+            },
+            {
+                "letter": "C",
+                "text": "Focuses only on technical layers"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes decision-making"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability ensures that technical architecture supports business goals and strategy."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0049",
+        "text": "Which of the following is a benefit of decomposing by business capability for adaptability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows quick adaptation to business changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires system-wide updates"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents independent updates"
+            },
+            {
+                "letter": "D",
+                "text": "Increases dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Decomposing by business capability allows quick adaptation to business changes without affecting other services."
+    },
+    {
+        "title": "MicroservicesServiceBoundariesBusinessCapability - Q0050",
+        "text": "Which of the following best summarizes the purpose of decomposing by business capability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To align microservices with business functions for autonomy and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "To group services by technical layers"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize all business logic"
+            },
+            {
+                "letter": "D",
+                "text": "To reduce the number of services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The purpose of decomposing by business capability is to align microservices with business functions for autonomy and scalability."
+    }
+]
