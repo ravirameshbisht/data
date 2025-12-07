@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0001",
+        "text": "What is the primary purpose of an access token in microservices security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To authorize access to protected resources"
+            },
+            {
+                "letter": "B",
+                "text": "To store user passwords"
+            },
+            {
+                "letter": "C",
+                "text": "To encrypt database connections"
+            },
+            {
+                "letter": "D",
+                "text": "To manage service discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens are used to authorize clients to access protected resources in microservices."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0002",
+        "text": "Which of the following standards defines the use of access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "OAuth 2.0"
+            },
+            {
+                "letter": "B",
+                "text": "HTTP 1.1"
+            },
+            {
+                "letter": "C",
+                "text": "TLS 1.3"
+            },
+            {
+                "letter": "D",
+                "text": "DNS"
+            }
+        ],
+        "correct": "A",
+        "explanation": "OAuth 2.0 defines the use of access tokens for authorization in distributed systems."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0003",
+        "text": "Which of the following best describes an access token?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A credential that represents authorization granted to a client"
+            },
+            {
+                "letter": "B",
+                "text": "A user’s password"
+            },
+            {
+                "letter": "C",
+                "text": "A database connection string"
+            },
+            {
+                "letter": "D",
+                "text": "A service discovery key"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An access token is a credential that represents the authorization granted to a client by a resource owner."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0004",
+        "text": "Which of the following is a common format for access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JWT (JSON Web Token)"
+            },
+            {
+                "letter": "B",
+                "text": "XML"
+            },
+            {
+                "letter": "C",
+                "text": "CSV"
+            },
+            {
+                "letter": "D",
+                "text": "YAML"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JWT is a common format for access tokens because it is compact, URL-safe, and self-contained."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0005",
+        "text": "Which of the following is typically included in an access token?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "User identity and permissions"
+            },
+            {
+                "letter": "B",
+                "text": "Database schema"
+            },
+            {
+                "letter": "C",
+                "text": "Network configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Service registry details"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens usually contain user identity and permissions to authorize access to resources."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0006",
+        "text": "Which of the following is a key advantage of using access tokens in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decouples authentication from authorization"
+            },
+            {
+                "letter": "B",
+                "text": "Stores user passwords securely"
+            },
+            {
+                "letter": "C",
+                "text": "Improves database performance"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies service discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens decouple authentication from authorization, allowing services to validate tokens independently."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0007",
+        "text": "Which of the following is a common claim in a JWT access token?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "exp (expiration time)"
+            },
+            {
+                "letter": "B",
+                "text": "db_name"
+            },
+            {
+                "letter": "C",
+                "text": "service_port"
+            },
+            {
+                "letter": "D",
+                "text": "cache_key"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'exp' claim defines the expiration time of a JWT access token."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0008",
+        "text": "Which of the following is a security risk if access tokens are not properly protected?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Token theft leading to unauthorized access"
+            },
+            {
+                "letter": "B",
+                "text": "Database schema corruption"
+            },
+            {
+                "letter": "C",
+                "text": "Service discovery failure"
+            },
+            {
+                "letter": "D",
+                "text": "Network congestion"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If access tokens are stolen, attackers can use them to gain unauthorized access to protected resources."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0009",
+        "text": "Which of the following is a recommended practice for access token expiration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Use short-lived tokens"
+            },
+            {
+                "letter": "B",
+                "text": "Use tokens that never expire"
+            },
+            {
+                "letter": "C",
+                "text": "Use tokens valid for one year"
+            },
+            {
+                "letter": "D",
+                "text": "Use tokens shared across users"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Short-lived tokens reduce the risk of misuse if a token is compromised."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0010",
+        "text": "Which of the following is used to validate an access token in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Public key or shared secret"
+            },
+            {
+                "letter": "B",
+                "text": "Database password"
+            },
+            {
+                "letter": "C",
+                "text": "Service registry"
+            },
+            {
+                "letter": "D",
+                "text": "Network router"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens are validated using a public key (for asymmetric signing) or a shared secret (for symmetric signing)."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0011",
+        "text": "Which of the following is a common algorithm used to sign JWT access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HS256"
+            },
+            {
+                "letter": "B",
+                "text": "MD5"
+            },
+            {
+                "letter": "C",
+                "text": "SHA1"
+            },
+            {
+                "letter": "D",
+                "text": "DES"
+            }
+        ],
+        "correct": "A",
+        "explanation": "HS256 (HMAC with SHA-256) is a common algorithm used to sign JWT access tokens."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0012",
+        "text": "Which of the following is a benefit of stateless access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No need for centralized session storage"
+            },
+            {
+                "letter": "B",
+                "text": "Requires database lookups for every request"
+            },
+            {
+                "letter": "C",
+                "text": "Increases latency"
+            },
+            {
+                "letter": "D",
+                "text": "Requires shared memory"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Stateless tokens like JWTs do not require centralized session storage, improving scalability."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0013",
+        "text": "Which of the following is a common field in an access token?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "scope"
+            },
+            {
+                "letter": "B",
+                "text": "database_name"
+            },
+            {
+                "letter": "C",
+                "text": "network_id"
+            },
+            {
+                "letter": "D",
+                "text": "cache_size"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'scope' field defines the permissions or access levels granted by the token."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0014",
+        "text": "Which of the following is a common method for issuing access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Authorization server"
+            },
+            {
+                "letter": "B",
+                "text": "Database server"
+            },
+            {
+                "letter": "C",
+                "text": "Load balancer"
+            },
+            {
+                "letter": "D",
+                "text": "Cache server"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens are issued by an authorization server after successful authentication."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0015",
+        "text": "Which of the following is a common way to transmit access tokens between services?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "HTTP Authorization header"
+            },
+            {
+                "letter": "B",
+                "text": "URL query parameter"
+            },
+            {
+                "letter": "C",
+                "text": "Cookie header"
+            },
+            {
+                "letter": "D",
+                "text": "File upload"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens are typically transmitted in the HTTP Authorization header using the Bearer scheme."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0016",
+        "text": "Which of the following is a risk of using long-lived access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased exposure if compromised"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced latency"
+            },
+            {
+                "letter": "C",
+                "text": "Improved scalability"
+            },
+            {
+                "letter": "D",
+                "text": "Faster authentication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Long-lived tokens increase the risk of unauthorized access if they are compromised."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0017",
+        "text": "Which of the following is a recommended practice for token revocation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Use a token blacklist or revocation list"
+            },
+            {
+                "letter": "B",
+                "text": "Ignore expired tokens"
+            },
+            {
+                "letter": "C",
+                "text": "Allow tokens to remain valid indefinitely"
+            },
+            {
+                "letter": "D",
+                "text": "Store tokens in plain text"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A token blacklist or revocation list helps invalidate tokens before their expiration time."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0018",
+        "text": "Which of the following is a benefit of using refresh tokens with access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows obtaining new access tokens without re-authentication"
+            },
+            {
+                "letter": "B",
+                "text": "Extends token lifetime indefinitely"
+            },
+            {
+                "letter": "C",
+                "text": "Stores user passwords"
+            },
+            {
+                "letter": "D",
+                "text": "Improves encryption speed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Refresh tokens allow clients to obtain new access tokens without requiring the user to log in again."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0019",
+        "text": "Which of the following is a common claim used to identify the token issuer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "iss"
+            },
+            {
+                "letter": "B",
+                "text": "sub"
+            },
+            {
+                "letter": "C",
+                "text": "aud"
+            },
+            {
+                "letter": "D",
+                "text": "exp"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'iss' claim identifies the issuer of the token."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0020",
+        "text": "Which of the following best describes the 'aud' claim in a JWT access token?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Specifies the intended audience or recipient of the token"
+            },
+            {
+                "letter": "B",
+                "text": "Specifies the token expiration time"
+            },
+            {
+                "letter": "C",
+                "text": "Specifies the token issuer"
+            },
+            {
+                "letter": "D",
+                "text": "Specifies the user’s role"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'aud' claim identifies the intended audience or recipient of the token."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0021",
+        "text": "Which of the following is a common claim used to identify the subject of the token?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "sub"
+            },
+            {
+                "letter": "B",
+                "text": "iss"
+            },
+            {
+                "letter": "C",
+                "text": "aud"
+            },
+            {
+                "letter": "D",
+                "text": "exp"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'sub' claim identifies the subject or user associated with the token."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0022",
+        "text": "Which of the following is a recommended way to transmit access tokens securely?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Over HTTPS only"
+            },
+            {
+                "letter": "B",
+                "text": "Over HTTP"
+            },
+            {
+                "letter": "C",
+                "text": "Via email"
+            },
+            {
+                "letter": "D",
+                "text": "In plain text logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens should always be transmitted over HTTPS to prevent interception."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0023",
+        "text": "Which of the following is a benefit of using JWT access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They are self-contained and verifiable"
+            },
+            {
+                "letter": "B",
+                "text": "They require a central session store"
+            },
+            {
+                "letter": "C",
+                "text": "They cannot be signed"
+            },
+            {
+                "letter": "D",
+                "text": "They are not portable"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JWT tokens are self-contained and can be verified without a central session store."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0024",
+        "text": "Which of the following is a disadvantage of JWT access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "They cannot be revoked easily"
+            },
+            {
+                "letter": "B",
+                "text": "They require a database lookup"
+            },
+            {
+                "letter": "C",
+                "text": "They are not portable"
+            },
+            {
+                "letter": "D",
+                "text": "They cannot be signed"
+            }
+        ],
+        "correct": "A",
+        "explanation": "JWT tokens are stateless, making revocation difficult once issued."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0025",
+        "text": "Which of the following is a common header field in a JWT?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "alg"
+            },
+            {
+                "letter": "B",
+                "text": "exp"
+            },
+            {
+                "letter": "C",
+                "text": "sub"
+            },
+            {
+                "letter": "D",
+                "text": "aud"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'alg' field in the JWT header specifies the algorithm used to sign the token."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0026",
+        "text": "Which of the following is a common use of access tokens in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To authorize inter-service communication"
+            },
+            {
+                "letter": "B",
+                "text": "To store configuration data"
+            },
+            {
+                "letter": "C",
+                "text": "To manage service discovery"
+            },
+            {
+                "letter": "D",
+                "text": "To handle caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens are used to authorize communication between microservices."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0027",
+        "text": "Which of the following is a common type of access token?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Bearer token"
+            },
+            {
+                "letter": "B",
+                "text": "Session cookie"
+            },
+            {
+                "letter": "C",
+                "text": "API key"
+            },
+            {
+                "letter": "D",
+                "text": "Password hash"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Bearer tokens are a common type of access token used in OAuth 2.0."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0028",
+        "text": "Which of the following is a best practice for storing access tokens on the client side?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Store in secure storage like HTTP-only cookies"
+            },
+            {
+                "letter": "B",
+                "text": "Store in localStorage without encryption"
+            },
+            {
+                "letter": "C",
+                "text": "Store in plain text files"
+            },
+            {
+                "letter": "D",
+                "text": "Store in browser history"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens should be stored securely, such as in HTTP-only cookies, to prevent XSS attacks."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0029",
+        "text": "Which of the following is a common claim used to define token validity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "exp"
+            },
+            {
+                "letter": "B",
+                "text": "iss"
+            },
+            {
+                "letter": "C",
+                "text": "aud"
+            },
+            {
+                "letter": "D",
+                "text": "sub"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'exp' claim defines the expiration time of the token."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0030",
+        "text": "Which of the following is a benefit of short-lived access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces risk if token is compromised"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates need for refresh tokens"
+            },
+            {
+                "letter": "C",
+                "text": "Increases attack surface"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual renewal"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Short-lived tokens limit the time window for misuse if compromised."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0031",
+        "text": "Which of the following is a common way to verify access tokens in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Using a shared public key"
+            },
+            {
+                "letter": "B",
+                "text": "Using a database query"
+            },
+            {
+                "letter": "C",
+                "text": "Using a cache lookup"
+            },
+            {
+                "letter": "D",
+                "text": "Using a network ping"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Microservices verify tokens using a shared public key for signature validation."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0032",
+        "text": "Which of the following is a common risk of storing tokens in localStorage?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Exposure to XSS attacks"
+            },
+            {
+                "letter": "B",
+                "text": "Exposure to CSRF attacks"
+            },
+            {
+                "letter": "C",
+                "text": "Loss of encryption"
+            },
+            {
+                "letter": "D",
+                "text": "Increased latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Tokens stored in localStorage can be accessed by malicious scripts through XSS attacks."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0033",
+        "text": "Which of the following is a common claim used to define token issuance time?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "iat"
+            },
+            {
+                "letter": "B",
+                "text": "exp"
+            },
+            {
+                "letter": "C",
+                "text": "aud"
+            },
+            {
+                "letter": "D",
+                "text": "sub"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'iat' claim indicates the time at which the token was issued."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0034",
+        "text": "Which of the following is a benefit of using asymmetric signing for tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Public key can be shared safely for verification"
+            },
+            {
+                "letter": "B",
+                "text": "Private key must be shared with all services"
+            },
+            {
+                "letter": "C",
+                "text": "Tokens cannot be verified"
+            },
+            {
+                "letter": "D",
+                "text": "Increases token size"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Asymmetric signing allows public keys to be shared safely for token verification."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0035",
+        "text": "Which of the following is a common algorithm for asymmetric token signing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "RS256"
+            },
+            {
+                "letter": "B",
+                "text": "HS256"
+            },
+            {
+                "letter": "C",
+                "text": "MD5"
+            },
+            {
+                "letter": "D",
+                "text": "SHA1"
+            }
+        ],
+        "correct": "A",
+        "explanation": "RS256 uses RSA for asymmetric signing and is commonly used for JWT tokens."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0036",
+        "text": "Which of the following is a benefit of using access tokens in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables decentralized authorization"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all authentication logic"
+            },
+            {
+                "letter": "C",
+                "text": "Removes need for encryption"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies database queries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens enable decentralized authorization, allowing each service to validate tokens independently."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0037",
+        "text": "Which of the following is a common header used to send access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Authorization: Bearer "
+            },
+            {
+                "letter": "B",
+                "text": "Token: "
+            },
+            {
+                "letter": "C",
+                "text": "Access: "
+            },
+            {
+                "letter": "D",
+                "text": "Auth-Key: "
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens are typically sent in the Authorization header using the Bearer scheme."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0038",
+        "text": "Which of the following is a common claim used to define token audience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "aud"
+            },
+            {
+                "letter": "B",
+                "text": "iss"
+            },
+            {
+                "letter": "C",
+                "text": "sub"
+            },
+            {
+                "letter": "D",
+                "text": "iat"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'aud' claim defines the intended audience or recipient of the token."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0039",
+        "text": "Which of the following is a common method to refresh expired access tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Using a refresh token"
+            },
+            {
+                "letter": "B",
+                "text": "Using the same expired token"
+            },
+            {
+                "letter": "C",
+                "text": "Using a password reset"
+            },
+            {
+                "letter": "D",
+                "text": "Using a database query"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Refresh tokens are used to obtain new access tokens after expiration."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0040",
+        "text": "Which of the following is a benefit of using access tokens for inter-service communication?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides secure and verifiable authorization"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates need for encryption"
+            },
+            {
+                "letter": "C",
+                "text": "Removes authentication"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies service discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens provide secure and verifiable authorization between microservices."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0041",
+        "text": "Which of the following is a common claim used to define token issuer?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "iss"
+            },
+            {
+                "letter": "B",
+                "text": "aud"
+            },
+            {
+                "letter": "C",
+                "text": "sub"
+            },
+            {
+                "letter": "D",
+                "text": "exp"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'iss' claim identifies the issuer of the token."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0042",
+        "text": "Which of the following is a common risk if tokens are logged?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Token leakage leading to unauthorized access"
+            },
+            {
+                "letter": "B",
+                "text": "Increased latency"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Improved performance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Logging tokens can expose them to unauthorized users, leading to security breaches."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0043",
+        "text": "Which of the following is a best practice for token validation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Validate signature, issuer, audience, and expiration"
+            },
+            {
+                "letter": "B",
+                "text": "Validate only the signature"
+            },
+            {
+                "letter": "C",
+                "text": "Skip validation for internal services"
+            },
+            {
+                "letter": "D",
+                "text": "Validate only expiration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Proper validation includes checking signature, issuer, audience, and expiration claims."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0044",
+        "text": "Which of the following is a benefit of using access tokens for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Removes need for centralized session management"
+            },
+            {
+                "letter": "B",
+                "text": "Requires shared session storage"
+            },
+            {
+                "letter": "C",
+                "text": "Increases dependency coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens eliminate the need for centralized session management, improving scalability."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0045",
+        "text": "Which of the following is a common claim used to define token expiration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "exp"
+            },
+            {
+                "letter": "B",
+                "text": "iat"
+            },
+            {
+                "letter": "C",
+                "text": "aud"
+            },
+            {
+                "letter": "D",
+                "text": "sub"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'exp' claim defines when the token expires and becomes invalid."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0046",
+        "text": "Which of the following is a benefit of using access tokens for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides fine-grained access control"
+            },
+            {
+                "letter": "B",
+                "text": "Removes need for encryption"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies authentication"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates authorization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens enable fine-grained access control by defining scopes and permissions."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0047",
+        "text": "Which of the following is a common claim used to define token scopes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "scope"
+            },
+            {
+                "letter": "B",
+                "text": "aud"
+            },
+            {
+                "letter": "C",
+                "text": "iss"
+            },
+            {
+                "letter": "D",
+                "text": "iat"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The 'scope' claim defines the permissions or access levels granted by the token."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0048",
+        "text": "Which of the following is a benefit of using access tokens for interoperability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Standardized format allows cross-service validation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires custom parsing for each service"
+            },
+            {
+                "letter": "C",
+                "text": "Increases vendor lock-in"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces compatibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Standardized token formats like JWT enable cross-service validation and interoperability."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0049",
+        "text": "Which of the following is a common method to revoke tokens?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintain a token revocation list"
+            },
+            {
+                "letter": "B",
+                "text": "Delete user account"
+            },
+            {
+                "letter": "C",
+                "text": "Restart the server"
+            },
+            {
+                "letter": "D",
+                "text": "Change database schema"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A token revocation list allows invalidating tokens before their expiration."
+    },
+    {
+        "title": "MicroservicesSecurityAccessToken - Q0050",
+        "text": "Which of the following best describes the purpose of an access token?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To authorize access to protected resources"
+            },
+            {
+                "letter": "B",
+                "text": "To store user passwords"
+            },
+            {
+                "letter": "C",
+                "text": "To encrypt database connections"
+            },
+            {
+                "letter": "D",
+                "text": "To manage service discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Access tokens authorize clients to access protected resources securely in microservices."
+    }
+]
