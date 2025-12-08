@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0001",
+        "text": "What is the primary characteristic of a shared database architecture in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multiple services access the same database schema"
+            },
+            {
+                "letter": "B",
+                "text": "Each service has its own independent database"
+            },
+            {
+                "letter": "C",
+                "text": "Services communicate only through APIs"
+            },
+            {
+                "letter": "D",
+                "text": "Each service uses a different database technology"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In a shared database architecture, multiple services access and manipulate data within the same database schema."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0002",
+        "text": "Which of the following best describes the shared database pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multiple microservices share a single database for data consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Each microservice owns its own database"
+            },
+            {
+                "letter": "C",
+                "text": "Services communicate only through message queues"
+            },
+            {
+                "letter": "D",
+                "text": "Each service uses a separate schema in the same database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The shared database pattern allows multiple microservices to share a single database for data consistency and simplicity."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0003",
+        "text": "What is a major drawback of using a shared database in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tight coupling between services"
+            },
+            {
+                "letter": "B",
+                "text": "Improved scalability"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified data management"
+            },
+            {
+                "letter": "D",
+                "text": "Independent schema evolution"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database introduces tight coupling between services, making schema changes risky and coordination complex."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0004",
+        "text": "Which of the following is a common reason teams use a shared database?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To simplify data consistency across services"
+            },
+            {
+                "letter": "B",
+                "text": "To improve service isolation"
+            },
+            {
+                "letter": "C",
+                "text": "To enforce strict boundaries"
+            },
+            {
+                "letter": "D",
+                "text": "To reduce data duplication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Teams often use a shared database to simplify data consistency and avoid duplication across services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0005",
+        "text": "Which of the following is a risk of using a shared database?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Schema changes can break multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Improved fault isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Independent scaling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Schema changes in a shared database can break multiple services that depend on the same tables."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0006",
+        "text": "Which of the following is a benefit of a shared database?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplified data consistency and reporting"
+            },
+            {
+                "letter": "B",
+                "text": "Improved service autonomy"
+            },
+            {
+                "letter": "C",
+                "text": "Independent schema evolution"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database simplifies data consistency and reporting since all services access the same data source."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0007",
+        "text": "Which of the following is a common challenge in a shared database architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Coordinating schema changes across teams"
+            },
+            {
+                "letter": "B",
+                "text": "Independent data ownership"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified testing"
+            },
+            {
+                "letter": "D",
+                "text": "Improved fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Coordinating schema changes across multiple teams is a major challenge in a shared database setup."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0008",
+        "text": "Which of the following is a typical symptom of a shared database anti-pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Frequent coordination between teams for schema updates"
+            },
+            {
+                "letter": "B",
+                "text": "Independent deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Loose coupling between services"
+            },
+            {
+                "letter": "D",
+                "text": "Autonomous scaling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Frequent coordination for schema updates indicates tight coupling and dependency between services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0009",
+        "text": "Which of the following is a common mitigation strategy for shared database coupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Introduce database views or APIs as access boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Allow direct table access for all services"
+            },
+            {
+                "letter": "C",
+                "text": "Use shared stored procedures for all logic"
+            },
+            {
+                "letter": "D",
+                "text": "Centralize all business logic in the database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Using database views or APIs as access boundaries can reduce coupling between services sharing a database."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0010",
+        "text": "Which of the following is a major disadvantage of a shared database in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduced service autonomy"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified data access"
+            },
+            {
+                "letter": "C",
+                "text": "Improved consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified reporting"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database reduces service autonomy because services depend on a common schema and data model."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0011",
+        "text": "Which of the following is a common reason teams move away from a shared database?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To achieve independent deployments and scaling"
+            },
+            {
+                "letter": "B",
+                "text": "To simplify data consistency"
+            },
+            {
+                "letter": "C",
+                "text": "To centralize data management"
+            },
+            {
+                "letter": "D",
+                "text": "To reduce data duplication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Teams move away from shared databases to achieve independent deployments and scaling for each service."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0012",
+        "text": "Which of the following is a risk of shared database access?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "One service can accidentally corrupt data used by another"
+            },
+            {
+                "letter": "B",
+                "text": "Improved data isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified schema evolution"
+            },
+            {
+                "letter": "D",
+                "text": "Independent data ownership"
+            }
+        ],
+        "correct": "A",
+        "explanation": "When multiple services share a database, one service can accidentally corrupt or modify data used by another."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0013",
+        "text": "Which of the following is a benefit of a shared database for analytics?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized data access for reporting"
+            },
+            {
+                "letter": "B",
+                "text": "Improved service isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Independent schema evolution"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced data coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database provides centralized data access, making it easier to generate reports and analytics."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0014",
+        "text": "Which of the following is a common operational challenge with shared databases?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Coordinating database migrations across services"
+            },
+            {
+                "letter": "B",
+                "text": "Independent schema evolution"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Improved fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Coordinating database migrations across multiple services is a major operational challenge in shared databases."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0015",
+        "text": "Which of the following is a common anti-pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multiple services sharing the same database schema"
+            },
+            {
+                "letter": "B",
+                "text": "Each service owning its own database"
+            },
+            {
+                "letter": "C",
+                "text": "Using asynchronous messaging"
+            },
+            {
+                "letter": "D",
+                "text": "Implementing API gateways"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sharing the same database schema across multiple services is considered an anti-pattern in microservices."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0016",
+        "text": "Which of the following is a benefit of a shared database for legacy systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies integration with existing monolithic databases"
+            },
+            {
+                "letter": "B",
+                "text": "Improves service autonomy"
+            },
+            {
+                "letter": "C",
+                "text": "Enforces strict boundaries"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database can simplify integration with legacy systems that already use a monolithic database."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0017",
+        "text": "Which of the following is a common symptom of a shared database problem?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Frequent coordination between teams for schema changes"
+            },
+            {
+                "letter": "B",
+                "text": "Independent deployments"
+            },
+            {
+                "letter": "C",
+                "text": "Loose coupling between services"
+            },
+            {
+                "letter": "D",
+                "text": "Autonomous scaling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Frequent coordination for schema changes indicates tight coupling and dependency between services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0018",
+        "text": "Which of the following is a recommended alternative to a shared database?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Database per service pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared schema pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data warehouse"
+            },
+            {
+                "letter": "D",
+                "text": "Shared cache"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The database per service pattern is recommended to ensure service autonomy and reduce coupling."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0019",
+        "text": "Which of the following is a risk of shared database transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Distributed transaction complexity"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Improved consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Shared databases can lead to distributed transaction complexity when multiple services modify the same data."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0020",
+        "text": "Which of the following best describes the shared database pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multiple services share a single database for data consistency and simplicity"
+            },
+            {
+                "letter": "B",
+                "text": "Each service owns its own database"
+            },
+            {
+                "letter": "C",
+                "text": "Services communicate only through APIs"
+            },
+            {
+                "letter": "D",
+                "text": "Each service uses a different database technology"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The shared database pattern allows multiple services to share a single database for data consistency and simplicity."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0021",
+        "text": "Which of the following is a major operational risk of a shared database?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single database failure can impact multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Each service can recover independently"
+            },
+            {
+                "letter": "C",
+                "text": "Improved fault isolation"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database creates a single point of failure that can affect all dependent services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0022",
+        "text": "Which of the following is a common reason teams initially adopt a shared database?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To reduce initial development complexity"
+            },
+            {
+                "letter": "B",
+                "text": "To improve service autonomy"
+            },
+            {
+                "letter": "C",
+                "text": "To enforce strict boundaries"
+            },
+            {
+                "letter": "D",
+                "text": "To simplify distributed transactions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Teams often start with a shared database to reduce initial complexity and avoid data duplication."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0023",
+        "text": "Which of the following is a disadvantage of a shared database for scaling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult to scale services independently"
+            },
+            {
+                "letter": "B",
+                "text": "Improved horizontal scalability"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified load balancing"
+            },
+            {
+                "letter": "D",
+                "text": "Independent scaling per service"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database makes it difficult to scale services independently since they depend on the same data source."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0024",
+        "text": "Which of the following is a common governance issue with shared databases?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Lack of clear data ownership"
+            },
+            {
+                "letter": "B",
+                "text": "Improved data governance"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified auditing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized access control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Shared databases often suffer from unclear data ownership, leading to governance challenges."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0025",
+        "text": "Which of the following is a common performance issue in shared databases?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Contention for shared resources"
+            },
+            {
+                "letter": "B",
+                "text": "Independent query optimization"
+            },
+            {
+                "letter": "C",
+                "text": "Improved caching"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple services accessing the same tables can cause contention for shared resources like locks and connections."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0026",
+        "text": "Which of the following is a common security concern with shared databases?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Unauthorized access between services"
+            },
+            {
+                "letter": "B",
+                "text": "Improved isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified access control"
+            },
+            {
+                "letter": "D",
+                "text": "Independent authentication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "When multiple services share a database, one service may gain unauthorized access to another’s data."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0027",
+        "text": "Which of the following is a common maintenance challenge in shared databases?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Coordinating schema migrations"
+            },
+            {
+                "letter": "B",
+                "text": "Independent schema evolution"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified versioning"
+            },
+            {
+                "letter": "D",
+                "text": "Automated rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Schema migrations must be coordinated across all services using the shared database."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0028",
+        "text": "Which of the following is a benefit of a shared database for reporting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized data access for analytics"
+            },
+            {
+                "letter": "B",
+                "text": "Improved service isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Independent schema evolution"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced data duplication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database provides centralized access to data, simplifying analytics and reporting."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0029",
+        "text": "Which of the following is a common anti-pattern in microservices data management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multiple services sharing the same database schema"
+            },
+            {
+                "letter": "B",
+                "text": "Each service owning its own database"
+            },
+            {
+                "letter": "C",
+                "text": "Using asynchronous messaging"
+            },
+            {
+                "letter": "D",
+                "text": "Implementing API gateways"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sharing the same database schema across multiple services is considered an anti-pattern in microservices."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0030",
+        "text": "Which of the following is a common migration strategy away from a shared database?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Database per service pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared schema pattern"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data warehouse"
+            },
+            {
+                "letter": "D",
+                "text": "Shared cache"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Migrating to a database per service pattern helps achieve service autonomy and reduce coupling."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0031",
+        "text": "Which of the following is a benefit of a shared database for small teams?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies initial development and data sharing"
+            },
+            {
+                "letter": "B",
+                "text": "Improves service autonomy"
+            },
+            {
+                "letter": "C",
+                "text": "Enforces strict boundaries"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Small teams may use a shared database to simplify initial development and data sharing."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0032",
+        "text": "Which of the following is a disadvantage of shared databases for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult to isolate test data per service"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified test setup"
+            },
+            {
+                "letter": "C",
+                "text": "Independent test environments"
+            },
+            {
+                "letter": "D",
+                "text": "Improved test reliability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Shared databases make it difficult to isolate test data for each service, complicating testing."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0033",
+        "text": "Which of the following is a common performance bottleneck in shared databases?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Lock contention between services"
+            },
+            {
+                "letter": "B",
+                "text": "Independent query optimization"
+            },
+            {
+                "letter": "C",
+                "text": "Improved caching"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Lock contention occurs when multiple services attempt to modify the same data concurrently."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0034",
+        "text": "Which of the following is a benefit of a shared database for legacy integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows gradual migration from monolithic systems"
+            },
+            {
+                "letter": "B",
+                "text": "Improves service autonomy"
+            },
+            {
+                "letter": "C",
+                "text": "Enforces strict boundaries"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database can help integrate microservices with legacy systems during gradual migration."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0035",
+        "text": "Which of the following is a common data integrity issue in shared databases?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Conflicting updates from multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Improved referential integrity"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Independent transactions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Conflicting updates from multiple services can lead to data integrity issues in shared databases."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0036",
+        "text": "Which of the following is a benefit of a shared database for centralized reporting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "All data is available in one place for analytics"
+            },
+            {
+                "letter": "B",
+                "text": "Improved service isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Independent schema evolution"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced data duplication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database provides centralized access to data, simplifying analytics and reporting."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0037",
+        "text": "Which of the following is a disadvantage of shared databases for deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services cannot be deployed independently"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Improved fault isolation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced coordination"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Shared databases prevent independent deployments because schema changes affect multiple services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0038",
+        "text": "Which of the following is a common data access issue in shared databases?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tight coupling through shared tables"
+            },
+            {
+                "letter": "B",
+                "text": "Loose coupling through APIs"
+            },
+            {
+                "letter": "C",
+                "text": "Independent data ownership"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified access control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Shared tables create tight coupling between services, making changes risky and complex."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0039",
+        "text": "Which of the following is a recommended practice to reduce coupling in shared databases?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Use database views or stored procedures as access boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "Allow direct table access for all services"
+            },
+            {
+                "letter": "C",
+                "text": "Centralize all business logic in the database"
+            },
+            {
+                "letter": "D",
+                "text": "Use shared triggers for all updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Using views or stored procedures can help reduce coupling by abstracting direct table access."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0040",
+        "text": "Which of the following best summarizes the shared database pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multiple services share a single database for data consistency and simplicity"
+            },
+            {
+                "letter": "B",
+                "text": "Each service owns its own database"
+            },
+            {
+                "letter": "C",
+                "text": "Services communicate only through APIs"
+            },
+            {
+                "letter": "D",
+                "text": "Each service uses a different database technology"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The shared database pattern allows multiple services to share a single database for data consistency and simplicity."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0041",
+        "text": "Which of the following is a benefit of a shared database for small-scale systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies data management and reduces duplication"
+            },
+            {
+                "letter": "B",
+                "text": "Improves service autonomy"
+            },
+            {
+                "letter": "C",
+                "text": "Enforces strict boundaries"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "For small systems, a shared database can simplify data management and reduce duplication."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0042",
+        "text": "Which of the following is a disadvantage of shared databases for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A database failure affects all services"
+            },
+            {
+                "letter": "B",
+                "text": "Improved fault isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Independent recovery"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database creates a single point of failure that can affect all dependent services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0043",
+        "text": "Which of the following is a disadvantage of shared databases for schema evolution?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Schema changes require coordination across teams"
+            },
+            {
+                "letter": "B",
+                "text": "Independent schema evolution"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified migrations"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced coordination"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Schema changes in shared databases require coordination across all teams using the same schema."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0044",
+        "text": "Which of the following is a benefit of a shared database for centralized backups?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies backup and restore processes"
+            },
+            {
+                "letter": "B",
+                "text": "Improves service autonomy"
+            },
+            {
+                "letter": "C",
+                "text": "Enforces strict boundaries"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database simplifies backup and restore processes since all data resides in one place."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0045",
+        "text": "Which of the following is a disadvantage of shared databases for CI/CD?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Database changes can block independent deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified deployment pipelines"
+            },
+            {
+                "letter": "C",
+                "text": "Improved automation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced coordination"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Shared databases make independent deployments difficult because schema changes affect multiple services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0046",
+        "text": "Which of the following is a benefit of a shared database for data consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "All services read and write to the same data source"
+            },
+            {
+                "letter": "B",
+                "text": "Improved service autonomy"
+            },
+            {
+                "letter": "C",
+                "text": "Independent data ownership"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A shared database ensures strong consistency since all services access the same data source."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0047",
+        "text": "Which of the following is a disadvantage of shared databases for team independence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Teams must coordinate schema and data changes"
+            },
+            {
+                "letter": "B",
+                "text": "Improved team autonomy"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified collaboration"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced coordination"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Teams must coordinate schema and data changes, reducing independence and agility."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0048",
+        "text": "Which of the following is a disadvantage of shared databases for versioning?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult to manage multiple schema versions"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified version control"
+            },
+            {
+                "letter": "C",
+                "text": "Independent schema evolution"
+            },
+            {
+                "letter": "D",
+                "text": "Improved rollback"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing multiple schema versions is difficult when multiple services share the same database."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0049",
+        "text": "Which of the following is a disadvantage of shared databases for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Recovery operations can affect all services"
+            },
+            {
+                "letter": "B",
+                "text": "Independent recovery per service"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Improved fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Recovery operations in a shared database can affect all services that depend on it."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSharedDatabase - Q0050",
+        "text": "Which of the following best summarizes the shared database pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Multiple services share a single database for simplicity but at the cost of autonomy and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Each service owns its own database for isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Services communicate only through APIs"
+            },
+            {
+                "letter": "D",
+                "text": "Each service uses a different database technology"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The shared database pattern allows multiple services to share a single database for simplicity but reduces autonomy and scalability."
+    }
+]

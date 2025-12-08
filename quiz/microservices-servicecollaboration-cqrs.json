@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0001",
+        "text": "What does CQRS stand for in microservices architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Command Query Responsibility Segregation"
+            },
+            {
+                "letter": "B",
+                "text": "Central Query Request System"
+            },
+            {
+                "letter": "C",
+                "text": "Command Queue Replication Service"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized Query Routing Service"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS stands for Command Query Responsibility Segregation, a pattern that separates read and write operations."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0002",
+        "text": "What is the main goal of the CQRS pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To separate read and write responsibilities for scalability and performance"
+            },
+            {
+                "letter": "B",
+                "text": "To centralize all database operations"
+            },
+            {
+                "letter": "C",
+                "text": "To synchronize all services in real time"
+            },
+            {
+                "letter": "D",
+                "text": "To reduce the number of microservices"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS separates read and write responsibilities to improve scalability, performance, and maintainability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0003",
+        "text": "In CQRS, what does the Command side handle?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Write operations that modify data"
+            },
+            {
+                "letter": "B",
+                "text": "Read operations that query data"
+            },
+            {
+                "letter": "C",
+                "text": "Event subscriptions"
+            },
+            {
+                "letter": "D",
+                "text": "Cache invalidation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Command side handles write operations that modify the system’s state."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0004",
+        "text": "In CQRS, what does the Query side handle?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Read operations that retrieve data"
+            },
+            {
+                "letter": "B",
+                "text": "Write operations that modify data"
+            },
+            {
+                "letter": "C",
+                "text": "Transaction management"
+            },
+            {
+                "letter": "D",
+                "text": "Event publishing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Query side handles read operations that retrieve data from the system."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0005",
+        "text": "Which of the following is a key benefit of CQRS?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Improved scalability and performance for reads and writes"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified data model"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced number of services"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized database management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS improves scalability and performance by allowing independent optimization of read and write operations."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0006",
+        "text": "Which of the following is a common challenge in implementing CQRS?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maintaining eventual consistency between read and write models"
+            },
+            {
+                "letter": "B",
+                "text": "Handling synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Reducing data duplication"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizing all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Maintaining eventual consistency between the read and write models is a common challenge in CQRS."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0007",
+        "text": "Which of the following patterns is often used with CQRS?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event Sourcing"
+            },
+            {
+                "letter": "B",
+                "text": "Shared Database"
+            },
+            {
+                "letter": "C",
+                "text": "API Composition"
+            },
+            {
+                "letter": "D",
+                "text": "Saga"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing is often used with CQRS to maintain a history of state changes and synchronize read models."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0008",
+        "text": "What type of consistency does CQRS typically provide?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Eventual consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Strong consistency"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate consistency"
+            },
+            {
+                "letter": "D",
+                "text": "No consistency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS typically provides eventual consistency between the command and query sides."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0009",
+        "text": "Which of the following is a benefit of CQRS for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent scaling of read and write workloads"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows independent scaling of read and write workloads, improving scalability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0010",
+        "text": "Which of the following is a disadvantage of CQRS?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased complexity due to separate models"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified architecture"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced flexibility"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS increases complexity because it requires maintaining separate models for reads and writes."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0011",
+        "text": "Which of the following is a benefit of CQRS for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Optimizes read and write operations separately"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all operations into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces caching needs"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all queries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows separate optimization of read and write operations, improving performance."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0012",
+        "text": "Which of the following is a common data synchronization mechanism in CQRS?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event-driven updates"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronous API calls"
+            },
+            {
+                "letter": "C",
+                "text": "Shared database triggers"
+            },
+            {
+                "letter": "D",
+                "text": "Manual synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven updates are used to synchronize the read model with changes from the command side."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0013",
+        "text": "Which of the following is a benefit of CQRS for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies code by separating read and write logic"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all logic into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS improves maintainability by separating read and write logic into distinct models."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0014",
+        "text": "Which of the following is a common use case for CQRS?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Systems with high read-to-write ratios"
+            },
+            {
+                "letter": "B",
+                "text": "Static content delivery"
+            },
+            {
+                "letter": "C",
+                "text": "Simple CRUD applications"
+            },
+            {
+                "letter": "D",
+                "text": "Batch processing systems"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS is ideal for systems with high read-to-write ratios where read and write workloads differ significantly."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0015",
+        "text": "Which of the following is a benefit of CQRS for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows different data models for reads and writes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single unified model"
+            },
+            {
+                "letter": "C",
+                "text": "Forces synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Removes versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows different data models for reads and writes, providing flexibility in design."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0016",
+        "text": "Which of the following is a disadvantage of CQRS for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Eventual consistency between read and write models"
+            },
+            {
+                "letter": "B",
+                "text": "Strong consistency across all models"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "No data duplication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS introduces eventual consistency between the read and write models due to asynchronous updates."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0017",
+        "text": "Which of the following is a benefit of CQRS for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent scaling of read and write workloads"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows independent scaling of read and write workloads, improving scalability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0018",
+        "text": "Which of the following is a benefit of CQRS for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Optimizes read and write operations separately"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all operations into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces caching needs"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all queries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows separate optimization of read and write operations, improving performance."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0019",
+        "text": "Which of the following is a benefit of CQRS for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Isolates failures between read and write sides"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS improves reliability by isolating failures between the read and write sides."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0020",
+        "text": "Which of the following best summarizes the CQRS pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates read and write responsibilities to improve scalability and performance"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all operations into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Handles asynchronous messaging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS separates read and write responsibilities to improve scalability, performance, and maintainability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0021",
+        "text": "Which of the following is a common data propagation mechanism in CQRS?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event-driven messaging"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronous REST calls"
+            },
+            {
+                "letter": "C",
+                "text": "Shared database triggers"
+            },
+            {
+                "letter": "D",
+                "text": "Manual updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event-driven messaging is commonly used to propagate data changes from the command side to the query side."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0022",
+        "text": "Which of the following is a benefit of CQRS for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates read and write concerns into independent models"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all logic into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS decouples read and write concerns, allowing independent evolution and optimization."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0023",
+        "text": "Which of the following is a disadvantage of CQRS for complexity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increases architectural complexity due to separate models"
+            },
+            {
+                "letter": "B",
+                "text": "Simplifies data flow"
+            },
+            {
+                "letter": "C",
+                "text": "Removes synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS increases architectural complexity because it requires maintaining separate read and write models."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0024",
+        "text": "Which of the following is a benefit of CQRS for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows different data stores optimized for reads and writes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single database for all operations"
+            },
+            {
+                "letter": "C",
+                "text": "Forces synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Removes caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows using different data stores optimized for read and write workloads."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0025",
+        "text": "Which of the following is a common tool used to implement CQRS?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Axon Framework"
+            },
+            {
+                "letter": "B",
+                "text": "Redis"
+            },
+            {
+                "letter": "C",
+                "text": "Nginx"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Axon Framework provides built-in support for implementing CQRS and event sourcing."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0026",
+        "text": "Which of the following is a benefit of CQRS for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Isolates failures between read and write sides"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS improves reliability by isolating failures between the read and write sides."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0027",
+        "text": "Which of the following is a benefit of CQRS for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent scaling of read and write workloads"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows independent scaling of read and write workloads, improving scalability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0028",
+        "text": "Which of the following is a benefit of CQRS for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies code by separating read and write logic"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all logic into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS improves maintainability by separating read and write logic into distinct models."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0029",
+        "text": "Which of the following is a benefit of CQRS for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows different data models for reads and writes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single unified model"
+            },
+            {
+                "letter": "C",
+                "text": "Forces synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Removes versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows different data models for reads and writes, providing flexibility in design."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0030",
+        "text": "Which of the following is a disadvantage of CQRS for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Eventual consistency between read and write models"
+            },
+            {
+                "letter": "B",
+                "text": "Strong consistency across all models"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "No data duplication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS introduces eventual consistency between the read and write models due to asynchronous updates."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0031",
+        "text": "Which of the following is a benefit of CQRS for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Optimizes read and write operations separately"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all operations into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces caching needs"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all queries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows separate optimization of read and write operations, improving performance."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0032",
+        "text": "Which of the following is a benefit of CQRS for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent evolution of read and write models"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Increases synchronous dependencies"
+            },
+            {
+                "letter": "D",
+                "text": "Uses shared databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows independent evolution of read and write models, improving autonomy."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0033",
+        "text": "Which of the following is a benefit of CQRS for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Isolates failures between read and write sides"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS improves fault tolerance by isolating failures between the read and write sides."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0034",
+        "text": "Which of the following is a benefit of CQRS for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into separate read and write operations"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS provides visibility into separate read and write operations, improving observability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0035",
+        "text": "Which of the following is a benefit of CQRS for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent testing of read and write logic"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all logic into one test"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows independent testing of read and write logic, simplifying test coverage."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0036",
+        "text": "Which of the following is a benefit of CQRS for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows different security policies for reads and writes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single security model"
+            },
+            {
+                "letter": "C",
+                "text": "Removes authentication"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all access control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows applying different security policies for read and write operations."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0037",
+        "text": "Which of the following is a benefit of CQRS for data modeling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows different data models optimized for reads and writes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single unified schema"
+            },
+            {
+                "letter": "C",
+                "text": "Forces synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Removes versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows different data models optimized for read and write workloads."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0038",
+        "text": "Which of the following is a benefit of CQRS for performance tuning?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables separate optimization of read and write paths"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all operations into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces caching needs"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all queries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS enables separate optimization of read and write paths, improving performance tuning."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0039",
+        "text": "Which of the following is a benefit of CQRS for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows recovery of read models from event logs"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows rebuilding read models from event logs, improving resilience."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0040",
+        "text": "Which of the following best summarizes the CQRS pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates read and write responsibilities to improve scalability and performance"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all operations into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Handles asynchronous messaging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS separates read and write responsibilities to improve scalability, performance, and maintainability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0041",
+        "text": "Which of the following is a benefit of CQRS for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent evolution of read and write models"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Increases synchronous dependencies"
+            },
+            {
+                "letter": "D",
+                "text": "Uses shared databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows independent evolution of read and write models, improving autonomy."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0042",
+        "text": "Which of the following is a benefit of CQRS for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Isolates failures between read and write sides"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS improves reliability by isolating failures between the read and write sides."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0043",
+        "text": "Which of the following is a benefit of CQRS for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent scaling of read and write workloads"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows independent scaling of read and write workloads, improving scalability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0044",
+        "text": "Which of the following is a benefit of CQRS for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies code by separating read and write logic"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all logic into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS improves maintainability by separating read and write logic into distinct models."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0045",
+        "text": "Which of the following is a benefit of CQRS for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into separate read and write operations"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS provides visibility into separate read and write operations, improving observability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0046",
+        "text": "Which of the following is a benefit of CQRS for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows different data models for reads and writes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single unified model"
+            },
+            {
+                "letter": "C",
+                "text": "Forces synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Removes versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows different data models for reads and writes, providing flexibility in design."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0047",
+        "text": "Which of the following is a benefit of CQRS for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Optimizes read and write operations separately"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all operations into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces caching needs"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all queries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows separate optimization of read and write operations, improving performance."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0048",
+        "text": "Which of the following is a benefit of CQRS for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rebuilding read models from event logs"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS allows rebuilding read models from event logs, improving resilience."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0049",
+        "text": "Which of the following is a benefit of CQRS for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates read and write concerns into independent models"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all logic into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS decouples read and write concerns, allowing independent evolution and optimization."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationCQRS - Q0050",
+        "text": "Which of the following best summarizes the role of the CQRS pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates read and write responsibilities to improve scalability, performance, and maintainability"
+            },
+            {
+                "letter": "B",
+                "text": "Handles synchronous communication between services"
+            },
+            {
+                "letter": "C",
+                "text": "Replaces message brokers entirely"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The CQRS pattern separates read and write responsibilities to improve scalability, performance, and maintainability in microservices."
+    }
+]

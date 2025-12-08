@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0001",
+        "text": "What is the main idea behind the Event Sourcing pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Persisting the state of an entity as a sequence of events"
+            },
+            {
+                "letter": "B",
+                "text": "Storing only the latest state of an entity"
+            },
+            {
+                "letter": "C",
+                "text": "Using a shared database for all services"
+            },
+            {
+                "letter": "D",
+                "text": "Synchronizing data through API calls"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing stores all changes to an entity as a sequence of events rather than just the current state."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0002",
+        "text": "What does each event in Event Sourcing represent?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A state change that has occurred in the system"
+            },
+            {
+                "letter": "B",
+                "text": "A command to perform an action"
+            },
+            {
+                "letter": "C",
+                "text": "A snapshot of the entire database"
+            },
+            {
+                "letter": "D",
+                "text": "A system error"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each event represents a state change that has already occurred in the system."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0003",
+        "text": "Which of the following is a key benefit of Event Sourcing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a complete audit trail of all changes"
+            },
+            {
+                "letter": "B",
+                "text": "Reduces storage requirements"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies schema migrations"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates the need for event logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing provides a full audit trail by storing every change as an event."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0004",
+        "text": "How is the current state of an entity reconstructed in Event Sourcing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "By replaying all events for that entity"
+            },
+            {
+                "letter": "B",
+                "text": "By reading the latest snapshot only"
+            },
+            {
+                "letter": "C",
+                "text": "By querying a shared database"
+            },
+            {
+                "letter": "D",
+                "text": "By calling external APIs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The current state is reconstructed by replaying all events associated with the entity."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0005",
+        "text": "Which of the following is a common challenge in Event Sourcing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event versioning and schema evolution"
+            },
+            {
+                "letter": "B",
+                "text": "Lack of auditability"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronous dependencies"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized data management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing event versioning and schema evolution is a common challenge in Event Sourcing."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0006",
+        "text": "Which of the following is a benefit of Event Sourcing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rebuilding state after system failures"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows rebuilding state by replaying events after a failure."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0007",
+        "text": "Which of the following is a common storage mechanism for events?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event store or append-only log"
+            },
+            {
+                "letter": "B",
+                "text": "Relational database with shared tables"
+            },
+            {
+                "letter": "C",
+                "text": "In-memory cache only"
+            },
+            {
+                "letter": "D",
+                "text": "File system logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Events are typically stored in an event store or append-only log for durability and replay."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0008",
+        "text": "Which of the following is a benefit of Event Sourcing for auditability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a historical record of all state changes"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes old data automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing provides a historical record of all state changes, improving auditability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0009",
+        "text": "Which of the following is a disadvantage of Event Sourcing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Complexity in event replay and schema evolution"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced storage requirements"
+            },
+            {
+                "letter": "D",
+                "text": "Immediate consistency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing introduces complexity in replaying events and managing schema evolution."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0010",
+        "text": "Which of the following is a benefit of Event Sourcing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports asynchronous event-driven processing"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous updates"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing supports asynchronous event-driven processing, improving scalability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0011",
+        "text": "Which of the following is a benefit of Event Sourcing for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows replaying events to reproduce issues"
+            },
+            {
+                "letter": "B",
+                "text": "Removes all logs"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies synchronous tracing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all errors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows replaying events to reproduce and debug issues accurately."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0012",
+        "text": "Which of the following is a common pattern used with Event Sourcing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "CQRS (Command Query Responsibility Segregation)"
+            },
+            {
+                "letter": "B",
+                "text": "Shared Database"
+            },
+            {
+                "letter": "C",
+                "text": "API Composition"
+            },
+            {
+                "letter": "D",
+                "text": "Saga Orchestration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "CQRS is often used with Event Sourcing to separate read and write models."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0013",
+        "text": "Which of the following is a benefit of Event Sourcing for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rebuilding state from event history"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows rebuilding state from event history, improving resilience."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0014",
+        "text": "Which of the following is a benefit of Event Sourcing for traceability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a complete history of all changes"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes old events automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing provides a complete history of all changes, improving traceability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0015",
+        "text": "Which of the following is a common challenge in Event Sourcing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling large event streams efficiently"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified data storage"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced data duplication"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized schema management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Handling large event streams efficiently is a common challenge in Event Sourcing systems."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0016",
+        "text": "Which of the following is a benefit of Event Sourcing for auditability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a historical record of all state changes"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes old data automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing provides a historical record of all state changes, improving auditability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0017",
+        "text": "Which of the following is a benefit of Event Sourcing for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulates business logic in event definitions"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes logic across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing encapsulates business logic in event definitions, improving maintainability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0018",
+        "text": "Which of the following is a benefit of Event Sourcing for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows replaying events to reproduce issues"
+            },
+            {
+                "letter": "B",
+                "text": "Removes all logs"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies synchronous tracing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all errors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows replaying events to reproduce and debug issues accurately."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0019",
+        "text": "Which of the following is a benefit of Event Sourcing for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rebuilding new read models from existing events"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static data models"
+            },
+            {
+                "letter": "C",
+                "text": "Removes dynamic queries"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows rebuilding new read models from existing events, improving flexibility."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0020",
+        "text": "Which of the following best summarizes the Event Sourcing pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Stores all state changes as events to reconstruct current state and enable auditing"
+            },
+            {
+                "letter": "B",
+                "text": "Stores only the latest state of entities"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronizes data through API calls"
+            },
+            {
+                "letter": "D",
+                "text": "Uses shared databases for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing stores all state changes as events, enabling reconstruction and auditing of system state."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0021",
+        "text": "Which of the following is a benefit of Event Sourcing for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rebuilding system state after data loss"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows rebuilding system state from stored events, improving resilience after data loss."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0022",
+        "text": "Which of the following is a common tool used for implementing Event Sourcing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "EventStoreDB"
+            },
+            {
+                "letter": "B",
+                "text": "Redis Cache"
+            },
+            {
+                "letter": "C",
+                "text": "Nginx"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "EventStoreDB is a popular database designed specifically for Event Sourcing implementations."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0023",
+        "text": "Which of the following is a benefit of Event Sourcing for auditability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a chronological record of all business events"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes old events automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing provides a chronological record of all business events, improving auditability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0024",
+        "text": "Which of the following is a challenge in Event Sourcing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing event schema evolution"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified data storage"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced data duplication"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized schema management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing event schema evolution is a key challenge in maintaining long-lived Event Sourcing systems."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0025",
+        "text": "Which of the following is a benefit of Event Sourcing for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows replaying events to reproduce issues"
+            },
+            {
+                "letter": "B",
+                "text": "Removes all logs"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies synchronous tracing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all errors"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows replaying events to reproduce and debug issues accurately."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0026",
+        "text": "Which of the following is a benefit of Event Sourcing for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rebuilding new projections from existing events"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static data models"
+            },
+            {
+                "letter": "C",
+                "text": "Removes dynamic queries"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows rebuilding new projections or read models from existing events, improving flexibility."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0027",
+        "text": "Which of the following is a benefit of Event Sourcing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports asynchronous event-driven processing"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous updates"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing supports asynchronous event-driven processing, improving scalability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0028",
+        "text": "Which of the following is a benefit of Event Sourcing for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulates business logic in event definitions"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes logic across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing encapsulates business logic in event definitions, improving maintainability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0029",
+        "text": "Which of the following is a benefit of Event Sourcing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows replaying events to restore system state"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows replaying events to restore system state, improving reliability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0030",
+        "text": "Which of the following is a benefit of Event Sourcing for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into all state changes"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing provides visibility into all state changes, improving observability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0031",
+        "text": "Which of the following is a benefit of Event Sourcing for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows services to manage their own event streams independently"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Increases synchronous dependencies"
+            },
+            {
+                "letter": "D",
+                "text": "Uses shared databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows services to manage their own event streams independently, improving autonomy."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0032",
+        "text": "Which of the following is a benefit of Event Sourcing for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates event producers from consumers"
+            },
+            {
+                "letter": "B",
+                "text": "Couples all services tightly"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing separates event producers from consumers, enabling decoupled service collaboration."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0033",
+        "text": "Which of the following is a benefit of Event Sourcing for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows deterministic replay of events for testing"
+            },
+            {
+                "letter": "B",
+                "text": "Removes test data"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies synchronous testing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all test logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows deterministic replay of events, making testing more reliable."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0034",
+        "text": "Which of the following is a benefit of Event Sourcing for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Optimizes read models separately from write models"
+            },
+            {
+                "letter": "B",
+                "text": "Combines all operations into one model"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces caching needs"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all queries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows separate optimization of read and write models, improving performance."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0035",
+        "text": "Which of the following is a benefit of Event Sourcing for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows recovery by replaying events"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows recovery by replaying events, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0036",
+        "text": "Which of the following is a benefit of Event Sourcing for traceability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a complete history of all changes"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes old events automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing provides a complete history of all changes, improving traceability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0037",
+        "text": "Which of the following is a benefit of Event Sourcing for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rebuilding new projections from existing events"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static data models"
+            },
+            {
+                "letter": "C",
+                "text": "Removes dynamic queries"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows rebuilding new projections or read models from existing events, improving flexibility."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0038",
+        "text": "Which of the following is a benefit of Event Sourcing for auditability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a historical record of all state changes"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes old data automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing provides a historical record of all state changes, improving auditability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0039",
+        "text": "Which of the following is a benefit of Event Sourcing for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rebuilding system state after data loss"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows rebuilding system state from stored events, improving resilience after data loss."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0040",
+        "text": "Which of the following best summarizes the Event Sourcing pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Stores all state changes as events to reconstruct current state and enable auditing"
+            },
+            {
+                "letter": "B",
+                "text": "Stores only the latest state of entities"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronizes data through API calls"
+            },
+            {
+                "letter": "D",
+                "text": "Uses shared databases for all services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing stores all state changes as events, enabling reconstruction and auditing of system state."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0041",
+        "text": "Which of the following is a benefit of Event Sourcing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports asynchronous event-driven processing"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous updates"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing supports asynchronous event-driven processing, improving scalability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0042",
+        "text": "Which of the following is a benefit of Event Sourcing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows replaying events to restore system state"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows replaying events to restore system state, improving reliability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0043",
+        "text": "Which of the following is a benefit of Event Sourcing for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into all state changes"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing provides visibility into all state changes, improving observability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0044",
+        "text": "Which of the following is a benefit of Event Sourcing for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulates business logic in event definitions"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes logic across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing encapsulates business logic in event definitions, improving maintainability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0045",
+        "text": "Which of the following is a benefit of Event Sourcing for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rebuilding new projections from existing events"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static data models"
+            },
+            {
+                "letter": "C",
+                "text": "Removes dynamic queries"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows rebuilding new projections or read models from existing events, improving flexibility."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0046",
+        "text": "Which of the following is a benefit of Event Sourcing for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows rebuilding system state after data loss"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows rebuilding system state from stored events, improving resilience after data loss."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0047",
+        "text": "Which of the following is a benefit of Event Sourcing for auditability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a historical record of all state changes"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes old data automatically"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing provides a historical record of all state changes, improving auditability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0048",
+        "text": "Which of the following is a benefit of Event Sourcing for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates event producers from consumers"
+            },
+            {
+                "letter": "B",
+                "text": "Couples all services tightly"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing separates event producers from consumers, enabling decoupled service collaboration."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0049",
+        "text": "Which of the following is a benefit of Event Sourcing for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows deterministic replay of events for testing"
+            },
+            {
+                "letter": "B",
+                "text": "Removes test data"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies synchronous testing"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all test logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing allows deterministic replay of events, making testing more reliable."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationEventSourcing - Q0050",
+        "text": "Which of the following best summarizes the role of the Event Sourcing pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Stores all state changes as events to enable reconstruction, auditing, and asynchronous collaboration"
+            },
+            {
+                "letter": "B",
+                "text": "Handles synchronous communication between services"
+            },
+            {
+                "letter": "C",
+                "text": "Replaces message brokers entirely"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Event Sourcing pattern stores all state changes as events to enable reconstruction, auditing, and asynchronous collaboration in microservices."
+    }
+]

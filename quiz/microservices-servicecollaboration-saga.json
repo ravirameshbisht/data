@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0001",
+        "text": "What is the primary purpose of the Saga pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To manage distributed transactions across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "To handle synchronous API calls"
+            },
+            {
+                "letter": "C",
+                "text": "To replace message brokers"
+            },
+            {
+                "letter": "D",
+                "text": "To manage caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern coordinates distributed transactions across multiple services using a sequence of local transactions."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0002",
+        "text": "Which of the following best describes a Saga?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A sequence of local transactions coordinated to maintain data consistency"
+            },
+            {
+                "letter": "B",
+                "text": "A single global transaction across all services"
+            },
+            {
+                "letter": "C",
+                "text": "A synchronous API call chain"
+            },
+            {
+                "letter": "D",
+                "text": "A centralized transaction manager"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A Saga is a sequence of local transactions where each step updates data within a service and triggers the next step."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0003",
+        "text": "Which of the following is a key benefit of the Saga pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures eventual consistency without distributed transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Provides strong consistency across all services"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates the need for compensation logic"
+            },
+            {
+                "letter": "D",
+                "text": "Requires a single database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern ensures eventual consistency across services without using distributed transactions."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0004",
+        "text": "What is a compensating transaction in a Saga?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A transaction that undoes the effects of a previous step in case of failure"
+            },
+            {
+                "letter": "B",
+                "text": "A transaction that retries failed operations"
+            },
+            {
+                "letter": "C",
+                "text": "A transaction that commits all changes"
+            },
+            {
+                "letter": "D",
+                "text": "A transaction that logs audit data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A compensating transaction reverses the effects of a previous local transaction when a failure occurs."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0005",
+        "text": "Which of the following are the two main types of Saga implementations?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Choreography and Orchestration"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronous and Asynchronous"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized and Decentralized"
+            },
+            {
+                "letter": "D",
+                "text": "Transactional and Non-Transactional"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The two main Saga implementation styles are Choreography (event-driven) and Orchestration (centralized coordinator)."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0006",
+        "text": "In a choreography-based Saga, how do services communicate?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Through events published and subscribed by each service"
+            },
+            {
+                "letter": "B",
+                "text": "Through a central coordinator"
+            },
+            {
+                "letter": "C",
+                "text": "Through synchronous API calls"
+            },
+            {
+                "letter": "D",
+                "text": "Through shared database tables"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In choreography-based Sagas, services communicate by publishing and subscribing to domain events."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0007",
+        "text": "In an orchestration-based Saga, what component coordinates the workflow?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Saga orchestrator"
+            },
+            {
+                "letter": "B",
+                "text": "Message broker"
+            },
+            {
+                "letter": "C",
+                "text": "Database trigger"
+            },
+            {
+                "letter": "D",
+                "text": "API gateway"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In orchestration-based Sagas, a Saga orchestrator coordinates the sequence of local transactions."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0008",
+        "text": "Which of the following is a key advantage of choreography-based Sagas?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No central coordinator is required"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized control"
+            },
+            {
+                "letter": "D",
+                "text": "Easier compensation logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Choreography-based Sagas are decentralized and do not require a central coordinator."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0009",
+        "text": "Which of the following is a disadvantage of choreography-based Sagas?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Complex event coordination and potential cyclic dependencies"
+            },
+            {
+                "letter": "B",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized control"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Choreography-based Sagas can become complex due to event chains and cyclic dependencies."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0010",
+        "text": "Which of the following is a key advantage of orchestration-based Sagas?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Centralized control and visibility of the workflow"
+            },
+            {
+                "letter": "B",
+                "text": "No need for a coordinator"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified event handling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Orchestration-based Sagas provide centralized control and visibility through a Saga orchestrator."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0011",
+        "text": "Which of the following is a disadvantage of orchestration-based Sagas?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Introduces a single point of failure"
+            },
+            {
+                "letter": "B",
+                "text": "Lack of centralized control"
+            },
+            {
+                "letter": "C",
+                "text": "Difficult to monitor"
+            },
+            {
+                "letter": "D",
+                "text": "Requires complex event handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The orchestrator can become a single point of failure in orchestration-based Sagas."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0012",
+        "text": "What type of consistency does the Saga pattern provide?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Eventual consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Strong consistency"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate consistency"
+            },
+            {
+                "letter": "D",
+                "text": "No consistency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern provides eventual consistency across distributed services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0013",
+        "text": "Which of the following is a common use case for the Saga pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Order processing across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Static content delivery"
+            },
+            {
+                "letter": "C",
+                "text": "Cache invalidation"
+            },
+            {
+                "letter": "D",
+                "text": "Logging and monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern is commonly used for order processing workflows involving multiple services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0014",
+        "text": "Which of the following is a key challenge in implementing Sagas?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Designing compensation logic for failed transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Implementing synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizing all data"
+            },
+            {
+                "letter": "D",
+                "text": "Avoiding message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Designing compensation logic for failed transactions is one of the main challenges in implementing Sagas."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0015",
+        "text": "Which of the following is a benefit of using Sagas for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows recovery from partial failures through compensation"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees atomicity across services"
+            },
+            {
+                "letter": "D",
+                "text": "Removes the need for retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas improve reliability by allowing recovery from partial failures through compensating transactions."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0016",
+        "text": "Which of the following is a common communication mechanism used in Sagas?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Asynchronous messaging"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronous HTTP calls"
+            },
+            {
+                "letter": "C",
+                "text": "Shared database access"
+            },
+            {
+                "letter": "D",
+                "text": "File-based communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas typically use asynchronous messaging to coordinate transactions across services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0017",
+        "text": "Which of the following is a key difference between Sagas and two-phase commit (2PC)?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Sagas use compensation instead of locks for rollback"
+            },
+            {
+                "letter": "B",
+                "text": "Sagas require a global transaction manager"
+            },
+            {
+                "letter": "C",
+                "text": "Sagas provide strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Sagas block all participants until commit"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Unlike 2PC, Sagas use compensating transactions instead of locks to handle rollbacks."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0018",
+        "text": "Which of the following is a benefit of Sagas for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Avoids distributed locks and blocking"
+            },
+            {
+                "letter": "B",
+                "text": "Requires global coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Uses synchronous communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas improve scalability by avoiding distributed locks and blocking operations."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0019",
+        "text": "Which of the following is a common tool used to implement Sagas?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Axon Framework"
+            },
+            {
+                "letter": "B",
+                "text": "Redis"
+            },
+            {
+                "letter": "C",
+                "text": "Nginx"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Axon Framework provides support for implementing Sagas in event-driven microservices."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0020",
+        "text": "Which of the following best summarizes the Saga pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A sequence of local transactions coordinated to maintain eventual consistency across services"
+            },
+            {
+                "letter": "B",
+                "text": "A single global transaction across all services"
+            },
+            {
+                "letter": "C",
+                "text": "A synchronous API call chain"
+            },
+            {
+                "letter": "D",
+                "text": "A centralized transaction manager"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern coordinates local transactions across services to maintain eventual consistency."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0021",
+        "text": "Which of the following is a key responsibility of the Saga orchestrator?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Coordinating the execution and compensation of local transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Managing database connections"
+            },
+            {
+                "letter": "C",
+                "text": "Handling synchronous API calls"
+            },
+            {
+                "letter": "D",
+                "text": "Caching responses"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga orchestrator coordinates the execution and compensation of local transactions across services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0022",
+        "text": "Which of the following is a common challenge in Saga orchestration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling partial failures and retries"
+            },
+            {
+                "letter": "B",
+                "text": "Managing synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Avoiding message queues"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizing all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Handling partial failures and retries is a key challenge in Saga orchestration."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0023",
+        "text": "Which of the following is a benefit of Sagas for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows recovery through compensating transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees atomicity"
+            },
+            {
+                "letter": "D",
+                "text": "Removes the need for retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas improve fault tolerance by allowing recovery through compensating transactions."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0024",
+        "text": "Which of the following is a disadvantage of Sagas?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Complex compensation logic"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas require complex compensation logic to handle failures and maintain consistency."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0025",
+        "text": "Which of the following is a common communication pattern used in Sagas?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event-driven messaging"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronous REST calls"
+            },
+            {
+                "letter": "C",
+                "text": "Shared database access"
+            },
+            {
+                "letter": "D",
+                "text": "File-based integration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas typically use event-driven messaging to coordinate distributed transactions."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0026",
+        "text": "Which of the following is a benefit of Sagas for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Avoids distributed locks and blocking"
+            },
+            {
+                "letter": "B",
+                "text": "Requires global coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Uses synchronous communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas improve scalability by avoiding distributed locks and blocking operations."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0027",
+        "text": "Which of the following is a common tool for implementing Saga orchestration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Camunda"
+            },
+            {
+                "letter": "B",
+                "text": "Redis"
+            },
+            {
+                "letter": "C",
+                "text": "Nginx"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Camunda is a popular workflow engine used to implement Saga orchestration."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0028",
+        "text": "Which of the following is a benefit of Sagas for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures eventual consistency even after partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "Guarantees atomicity across services"
+            },
+            {
+                "letter": "C",
+                "text": "Removes the need for retries"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates compensation logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas ensure eventual consistency even after partial failures through compensation."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0029",
+        "text": "Which of the following is a key difference between choreography and orchestration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Choreography is decentralized, orchestration is centralized"
+            },
+            {
+                "letter": "B",
+                "text": "Choreography uses a coordinator, orchestration does not"
+            },
+            {
+                "letter": "C",
+                "text": "Choreography is synchronous, orchestration is asynchronous"
+            },
+            {
+                "letter": "D",
+                "text": "Choreography uses a shared database"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Choreography is decentralized and event-driven, while orchestration uses a central coordinator."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0030",
+        "text": "Which of the following is a common use case for Sagas?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "E-commerce order management"
+            },
+            {
+                "letter": "B",
+                "text": "Static content delivery"
+            },
+            {
+                "letter": "C",
+                "text": "Cache invalidation"
+            },
+            {
+                "letter": "D",
+                "text": "Logging and monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas are commonly used in e-commerce order management to coordinate multiple services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0031",
+        "text": "Which of the following is a benefit of Sagas for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services communicate through events rather than direct calls"
+            },
+            {
+                "letter": "B",
+                "text": "Services share the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Services use synchronous APIs"
+            },
+            {
+                "letter": "D",
+                "text": "Services are tightly coupled"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas promote decoupling by using event-driven communication between services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0032",
+        "text": "Which of the following is a disadvantage of Sagas for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult to trace events across multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized logging"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "Single point of failure"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Tracing events across multiple services in a Saga can be difficult, complicating debugging."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0033",
+        "text": "Which of the following is a benefit of Sagas for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can recover from partial failures using compensation"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees atomicity"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas improve resilience by allowing recovery from partial failures using compensating transactions."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0034",
+        "text": "Which of the following is a common challenge in Saga choreography?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing complex event chains"
+            },
+            {
+                "letter": "B",
+                "text": "Centralized control"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified compensation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing complex event chains is a challenge in choreography-based Sagas."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0035",
+        "text": "Which of the following is a benefit of Sagas for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into distributed transaction flows"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas provide visibility into distributed transaction flows, improving observability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0036",
+        "text": "Which of the following is a benefit of Sagas for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulates transaction logic within each service"
+            },
+            {
+                "letter": "B",
+                "text": "Centralizes all logic in one service"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Disables versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas encapsulate transaction logic within each service, improving maintainability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0037",
+        "text": "Which of the following is a benefit of Sagas for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates distributed transaction coordination"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas automate distributed transaction coordination across services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0038",
+        "text": "Which of the following is a benefit of Sagas for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows replaying failed transactions through compensation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas allow replaying failed transactions through compensation for fault recovery."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0039",
+        "text": "Which of the following is a benefit of Sagas for integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables integration through event-driven workflows"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual data exchange"
+            },
+            {
+                "letter": "C",
+                "text": "Removes integration capabilities"
+            },
+            {
+                "letter": "D",
+                "text": "Disables event streaming"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas enable integration through event-driven workflows across services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0040",
+        "text": "Which of the following best summarizes the Saga pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A distributed transaction pattern that ensures eventual consistency through local transactions and compensation"
+            },
+            {
+                "letter": "B",
+                "text": "A centralized transaction manager"
+            },
+            {
+                "letter": "C",
+                "text": "A synchronous API call chain"
+            },
+            {
+                "letter": "D",
+                "text": "A shared database pattern"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern ensures eventual consistency through local transactions and compensating actions."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0041",
+        "text": "Which of the following is a benefit of Sagas for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Services communicate asynchronously through events"
+            },
+            {
+                "letter": "B",
+                "text": "Services share the same database"
+            },
+            {
+                "letter": "C",
+                "text": "Services use synchronous APIs"
+            },
+            {
+                "letter": "D",
+                "text": "Services are tightly coupled"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas promote decoupling by using asynchronous event-based communication."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0042",
+        "text": "Which of the following is a disadvantage of Sagas for complexity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Requires complex compensation and coordination logic"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified rollback"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized control"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced coupling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas increase complexity due to the need for compensation and coordination logic."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0043",
+        "text": "Which of the following is a benefit of Sagas for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides metrics for transaction progress and failures"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas provide metrics for transaction progress and failures, improving monitoring."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0044",
+        "text": "Which of the following is a benefit of Sagas for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures eventual consistency even after partial failures"
+            },
+            {
+                "letter": "B",
+                "text": "Guarantees atomicity"
+            },
+            {
+                "letter": "C",
+                "text": "Removes retries"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates compensation logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas ensure eventual consistency even after partial failures through compensation."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0045",
+        "text": "Which of the following is a benefit of Sagas for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Avoids distributed locks and blocking"
+            },
+            {
+                "letter": "B",
+                "text": "Requires global coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Uses synchronous communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas improve scalability by avoiding distributed locks and blocking operations."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0046",
+        "text": "Which of the following is a benefit of Sagas for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows replaying failed transactions through compensation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas allow replaying failed transactions through compensation for fault recovery."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0047",
+        "text": "Which of the following is a benefit of Sagas for integration with event-driven systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Coordinates distributed transactions through events"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual event creation"
+            },
+            {
+                "letter": "C",
+                "text": "Removes event streaming"
+            },
+            {
+                "letter": "D",
+                "text": "Disables integration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas coordinate distributed transactions through events in event-driven systems."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0048",
+        "text": "Which of the following is a benefit of Sagas for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates distributed transaction coordination"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas automate distributed transaction coordination across services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0049",
+        "text": "Which of the following is a benefit of Sagas for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can recover from partial failures using compensation"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees atomicity"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Sagas improve resilience by allowing recovery from partial failures using compensating transactions."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationSaga - Q0050",
+        "text": "Which of the following best summarizes the role of the Saga pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Manages distributed transactions through local operations and compensations to ensure eventual consistency"
+            },
+            {
+                "letter": "B",
+                "text": "Handles synchronous communication between services"
+            },
+            {
+                "letter": "C",
+                "text": "Replaces message brokers entirely"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Saga pattern manages distributed transactions through local operations and compensations to ensure eventual consistency."
+    }
+]s

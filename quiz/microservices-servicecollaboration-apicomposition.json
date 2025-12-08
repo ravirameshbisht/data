@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0001",
+        "text": "What is the primary purpose of the API Composition pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To aggregate data from multiple services into a single API response"
+            },
+            {
+                "letter": "B",
+                "text": "To manage distributed transactions"
+            },
+            {
+                "letter": "C",
+                "text": "To replicate data across services"
+            },
+            {
+                "letter": "D",
+                "text": "To handle asynchronous messaging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The API Composition pattern aggregates data from multiple microservices into a single, unified API response."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0002",
+        "text": "Which of the following best describes the API Composition pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A service composes responses by calling multiple backend services"
+            },
+            {
+                "letter": "B",
+                "text": "A service stores all data in a shared database"
+            },
+            {
+                "letter": "C",
+                "text": "A service communicates only through events"
+            },
+            {
+                "letter": "D",
+                "text": "A service uses a message broker for all requests"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In API Composition, a service or gateway composes responses by calling multiple backend services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0003",
+        "text": "What problem does the API Composition pattern solve?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Combining data from multiple microservices for client consumption"
+            },
+            {
+                "letter": "B",
+                "text": "Managing distributed transactions"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronizing databases"
+            },
+            {
+                "letter": "D",
+                "text": "Handling message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition solves the problem of combining data from multiple microservices into a single response for clients."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0004",
+        "text": "Which component typically performs API composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "API Gateway or Aggregator Service"
+            },
+            {
+                "letter": "B",
+                "text": "Database"
+            },
+            {
+                "letter": "C",
+                "text": "Message Broker"
+            },
+            {
+                "letter": "D",
+                "text": "Cache Layer"
+            }
+        ],
+        "correct": "A",
+        "explanation": "An API Gateway or Aggregator Service typically performs API composition by calling multiple backend services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0005",
+        "text": "Which of the following is a key benefit of API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies client interactions by providing a unified API"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates the need for backend services"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all business logic"
+            },
+            {
+                "letter": "D",
+                "text": "Removes the need for caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition simplifies client interactions by aggregating data from multiple services into a unified API."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0006",
+        "text": "Which of the following is a common challenge in API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling partial failures from backend services"
+            },
+            {
+                "letter": "B",
+                "text": "Managing shared databases"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronizing message queues"
+            },
+            {
+                "letter": "D",
+                "text": "Avoiding caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Handling partial failures from backend services is a common challenge in API Composition."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0007",
+        "text": "Which of the following is a benefit of API Composition for clients?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces the number of client-to-service calls"
+            },
+            {
+                "letter": "B",
+                "text": "Increases client complexity"
+            },
+            {
+                "letter": "C",
+                "text": "Requires clients to call each service directly"
+            },
+            {
+                "letter": "D",
+                "text": "Removes caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition reduces the number of client-to-service calls by aggregating data in one response."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0008",
+        "text": "Which of the following is a disadvantage of API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased latency due to multiple backend calls"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified client logic"
+            },
+            {
+                "letter": "C",
+                "text": "Improved fault tolerance"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced network usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition can increase latency because it requires multiple backend calls to compose a response."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0009",
+        "text": "Which of the following is a common strategy to improve performance in API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Parallel calls to backend services"
+            },
+            {
+                "letter": "B",
+                "text": "Sequential calls only"
+            },
+            {
+                "letter": "C",
+                "text": "Synchronous blocking calls"
+            },
+            {
+                "letter": "D",
+                "text": "Single-threaded execution"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Parallel calls to backend services can improve performance in API Composition by reducing total response time."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0010",
+        "text": "Which of the following is a common tool used for API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "GraphQL"
+            },
+            {
+                "letter": "B",
+                "text": "Kafka"
+            },
+            {
+                "letter": "C",
+                "text": "Redis"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "GraphQL is often used for API Composition because it allows clients to query and aggregate data from multiple sources."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0011",
+        "text": "Which of the following is a benefit of API Composition for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulates data aggregation logic in one place"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes logic across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition encapsulates data aggregation logic in one place, improving maintainability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0012",
+        "text": "Which of the following is a common failure handling technique in API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Circuit Breaker pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database access"
+            },
+            {
+                "letter": "C",
+                "text": "Manual retries"
+            },
+            {
+                "letter": "D",
+                "text": "Synchronous blocking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Circuit Breaker pattern is commonly used in API Composition to handle backend service failures gracefully."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0013",
+        "text": "Which of the following is a benefit of API Composition for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows combining data from heterogeneous services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to use the same schema"
+            },
+            {
+                "letter": "C",
+                "text": "Forces synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Removes versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition allows combining data from heterogeneous services, providing flexibility in data aggregation."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0014",
+        "text": "Which of the following is a disadvantage of API Composition for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The aggregator can become a bottleneck"
+            },
+            {
+                "letter": "B",
+                "text": "Improved horizontal scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified load balancing"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced network usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The aggregator in API Composition can become a bottleneck if not properly scaled."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0015",
+        "text": "Which of the following is a benefit of API Composition for client simplicity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients interact with a single API endpoint"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must call each service directly"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manage data aggregation"
+            },
+            {
+                "letter": "D",
+                "text": "Clients handle retries manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition simplifies clients by providing a single API endpoint for aggregated data."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0016",
+        "text": "Which of the following is a common performance optimization in API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Caching aggregated responses"
+            },
+            {
+                "letter": "B",
+                "text": "Sequential backend calls"
+            },
+            {
+                "letter": "C",
+                "text": "Disabling retries"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizing all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Caching aggregated responses can improve performance in API Composition by reducing repeated backend calls."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0017",
+        "text": "Which of the following is a benefit of API Composition for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates client logic from backend service details"
+            },
+            {
+                "letter": "B",
+                "text": "Couples clients directly to services"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition decouples clients from backend service details by aggregating data centrally."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0018",
+        "text": "Which of the following is a common implementation approach for API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Using an API Gateway or dedicated aggregator service"
+            },
+            {
+                "letter": "B",
+                "text": "Using shared databases"
+            },
+            {
+                "letter": "C",
+                "text": "Using synchronous blocking calls only"
+            },
+            {
+                "letter": "D",
+                "text": "Using manual data synchronization"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition is often implemented using an API Gateway or a dedicated aggregator service."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0019",
+        "text": "Which of the following is a disadvantage of API Composition for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failure in one backend service can affect the entire response"
+            },
+            {
+                "letter": "B",
+                "text": "Improved fault isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced dependency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A failure in one backend service can affect the entire composed response, reducing reliability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0020",
+        "text": "Which of the following best summarizes the API Composition pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aggregates data from multiple services into a single API response for clients"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronizes databases across services"
+            },
+            {
+                "letter": "C",
+                "text": "Handles asynchronous messaging"
+            },
+            {
+                "letter": "D",
+                "text": "Manages distributed transactions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The API Composition pattern aggregates data from multiple services into a single API response for clients."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0021",
+        "text": "Which of the following is a benefit of API Composition for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows combining data from heterogeneous services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to use the same schema"
+            },
+            {
+                "letter": "C",
+                "text": "Forces synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Removes versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition allows combining data from heterogeneous services, providing flexibility in data aggregation."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0022",
+        "text": "Which of the following is a common performance issue in API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increased latency due to multiple backend calls"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced network usage"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified caching"
+            },
+            {
+                "letter": "D",
+                "text": "Improved throughput"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition can increase latency because it requires multiple backend calls to compose a response."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0023",
+        "text": "Which of the following is a common optimization technique for API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Parallelizing backend service calls"
+            },
+            {
+                "letter": "B",
+                "text": "Sequentially calling all services"
+            },
+            {
+                "letter": "C",
+                "text": "Using synchronous blocking calls"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizing all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Parallelizing backend service calls reduces total response time in API Composition."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0024",
+        "text": "Which of the following is a benefit of API Composition for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulates data aggregation logic in one place"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes logic across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition encapsulates data aggregation logic in one place, improving maintainability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0025",
+        "text": "Which of the following is a common failure handling mechanism in API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Circuit Breaker pattern"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database access"
+            },
+            {
+                "letter": "C",
+                "text": "Manual retries"
+            },
+            {
+                "letter": "D",
+                "text": "Synchronous blocking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Circuit Breaker pattern is commonly used in API Composition to handle backend service failures gracefully."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0026",
+        "text": "Which of the following is a disadvantage of API Composition for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The aggregator can become a bottleneck"
+            },
+            {
+                "letter": "B",
+                "text": "Improved horizontal scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified load balancing"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced network usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The aggregator in API Composition can become a bottleneck if not properly scaled."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0027",
+        "text": "Which of the following is a benefit of API Composition for client simplicity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Clients interact with a single API endpoint"
+            },
+            {
+                "letter": "B",
+                "text": "Clients must call each service directly"
+            },
+            {
+                "letter": "C",
+                "text": "Clients manage data aggregation"
+            },
+            {
+                "letter": "D",
+                "text": "Clients handle retries manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition simplifies clients by providing a single API endpoint for aggregated data."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0028",
+        "text": "Which of the following is a common tool used for API Composition?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "GraphQL"
+            },
+            {
+                "letter": "B",
+                "text": "Kafka"
+            },
+            {
+                "letter": "C",
+                "text": "Redis"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "GraphQL is often used for API Composition because it allows clients to query and aggregate data from multiple sources."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0029",
+        "text": "Which of the following is a benefit of API Composition for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates client logic from backend service details"
+            },
+            {
+                "letter": "B",
+                "text": "Couples clients directly to services"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition decouples clients from backend service details by aggregating data centrally."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0030",
+        "text": "Which of the following is a disadvantage of API Composition for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failure in one backend service can affect the entire response"
+            },
+            {
+                "letter": "B",
+                "text": "Improved fault isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified error handling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced dependency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A failure in one backend service can affect the entire composed response, reducing reliability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0031",
+        "text": "Which of the following is a benefit of API Composition for reusability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows reuse of existing service APIs"
+            },
+            {
+                "letter": "B",
+                "text": "Requires rewriting all services"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition allows reuse of existing service APIs without modifying them."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0032",
+        "text": "Which of the following is a benefit of API Composition for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into aggregated service calls"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition provides visibility into aggregated service calls, improving observability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0033",
+        "text": "Which of the following is a benefit of API Composition for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulates data aggregation logic in one place"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes logic across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition encapsulates data aggregation logic in one place, improving maintainability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0034",
+        "text": "Which of the following is a benefit of API Composition for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces client-side latency by aggregating data server-side"
+            },
+            {
+                "letter": "B",
+                "text": "Increases network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition reduces client-side latency by aggregating data on the server side."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0035",
+        "text": "Which of the following is a benefit of API Composition for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent scaling of backend services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition allows backend services to scale independently while the aggregator handles composition."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0036",
+        "text": "Which of the following is a disadvantage of API Composition for complexity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increases complexity in the aggregator logic"
+            },
+            {
+                "letter": "B",
+                "text": "Simplifies backend services"
+            },
+            {
+                "letter": "C",
+                "text": "Removes orchestration"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces dependencies"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition increases complexity in the aggregator logic due to multiple service integrations."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0037",
+        "text": "Which of the following is a benefit of API Composition for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can use fallback responses for failed services"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition can use fallback responses or cached data to handle service failures gracefully."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0038",
+        "text": "Which of the following is a benefit of API Composition for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows dynamic aggregation of data from multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static data sources"
+            },
+            {
+                "letter": "C",
+                "text": "Removes dynamic queries"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition allows dynamic aggregation of data from multiple services, improving flexibility."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0039",
+        "text": "Which of the following is a benefit of API Composition for reusability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows reuse of existing service APIs"
+            },
+            {
+                "letter": "B",
+                "text": "Requires rewriting all services"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition allows reuse of existing service APIs without modifying them."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0040",
+        "text": "Which of the following best summarizes the API Composition pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aggregates data from multiple services into a single API response for clients"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronizes databases across services"
+            },
+            {
+                "letter": "C",
+                "text": "Handles asynchronous messaging"
+            },
+            {
+                "letter": "D",
+                "text": "Manages distributed transactions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The API Composition pattern aggregates data from multiple services into a single API response for clients."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0041",
+        "text": "Which of the following is a benefit of API Composition for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows backend services to evolve independently"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Increases synchronous dependencies"
+            },
+            {
+                "letter": "D",
+                "text": "Uses shared databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition allows backend services to evolve independently while the aggregator handles integration."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0042",
+        "text": "Which of the following is a benefit of API Composition for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can use retries and fallbacks for failed service calls"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition can use retries and fallbacks to improve reliability when backend services fail."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0043",
+        "text": "Which of the following is a benefit of API Composition for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows independent scaling of backend services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to scale together"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition allows backend services to scale independently while the aggregator handles composition."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0044",
+        "text": "Which of the following is a benefit of API Composition for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces client-side latency by aggregating data server-side"
+            },
+            {
+                "letter": "B",
+                "text": "Increases network hops"
+            },
+            {
+                "letter": "C",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition reduces client-side latency by aggregating data on the server side."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0045",
+        "text": "Which of the following is a benefit of API Composition for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Separates client logic from backend service details"
+            },
+            {
+                "letter": "B",
+                "text": "Couples clients directly to services"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition decouples clients from backend service details by aggregating data centrally."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0046",
+        "text": "Which of the following is a benefit of API Composition for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulates data aggregation logic in one place"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes logic across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition encapsulates data aggregation logic in one place, improving maintainability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0047",
+        "text": "Which of the following is a benefit of API Composition for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into aggregated service calls"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition provides visibility into aggregated service calls, improving observability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0048",
+        "text": "Which of the following is a benefit of API Composition for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows dynamic aggregation of data from multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static data sources"
+            },
+            {
+                "letter": "C",
+                "text": "Removes dynamic queries"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition allows dynamic aggregation of data from multiple services, improving flexibility."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0049",
+        "text": "Which of the following is a benefit of API Composition for reusability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows reuse of existing service APIs"
+            },
+            {
+                "letter": "B",
+                "text": "Requires rewriting all services"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "API Composition allows reuse of existing service APIs without modifying them."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationAPIComposition - Q0050",
+        "text": "Which of the following best summarizes the role of the API Composition pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Aggregates data from multiple services into a single API response for clients, simplifying client interactions"
+            },
+            {
+                "letter": "B",
+                "text": "Handles synchronous communication between services"
+            },
+            {
+                "letter": "C",
+                "text": "Replaces message brokers entirely"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The API Composition pattern aggregates data from multiple services into a single API response for clients, simplifying client interactions."
+    }
+]

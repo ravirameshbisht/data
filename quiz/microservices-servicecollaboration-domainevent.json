@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0001",
+        "text": "What is a domain event in microservices architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "An event that represents something significant that happened within a domain"
+            },
+            {
+                "letter": "B",
+                "text": "A system log entry"
+            },
+            {
+                "letter": "C",
+                "text": "A database trigger"
+            },
+            {
+                "letter": "D",
+                "text": "A user interface action"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A domain event represents a meaningful change or occurrence within a business domain."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0002",
+        "text": "What is the primary purpose of domain events in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To enable asynchronous communication between services"
+            },
+            {
+                "letter": "B",
+                "text": "To store logs"
+            },
+            {
+                "letter": "C",
+                "text": "To manage database transactions"
+            },
+            {
+                "letter": "D",
+                "text": "To handle user authentication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events enable asynchronous communication between services by broadcasting business changes."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0003",
+        "text": "Which of the following best describes a domain event?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A message that indicates a business fact that has occurred"
+            },
+            {
+                "letter": "B",
+                "text": "A command requesting an action"
+            },
+            {
+                "letter": "C",
+                "text": "A system error notification"
+            },
+            {
+                "letter": "D",
+                "text": "A database update trigger"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A domain event is a message that communicates a business fact that has already occurred."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0004",
+        "text": "Which of the following is a key benefit of using domain events?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Loose coupling between services"
+            },
+            {
+                "letter": "B",
+                "text": "Tight integration between services"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized control"
+            },
+            {
+                "letter": "D",
+                "text": "Synchronous communication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events promote loose coupling by allowing services to react to events asynchronously."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0005",
+        "text": "Which of the following is a common mechanism for publishing domain events?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Message broker"
+            },
+            {
+                "letter": "B",
+                "text": "Shared database"
+            },
+            {
+                "letter": "C",
+                "text": "File system"
+            },
+            {
+                "letter": "D",
+                "text": "Synchronous API call"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events are typically published through a message broker such as Kafka or RabbitMQ."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0006",
+        "text": "Which of the following is a key characteristic of a domain event?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Immutable and represents a past occurrence"
+            },
+            {
+                "letter": "B",
+                "text": "Mutable and represents a future action"
+            },
+            {
+                "letter": "C",
+                "text": "Temporary and transactional"
+            },
+            {
+                "letter": "D",
+                "text": "Ephemeral and user-specific"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events are immutable and represent something that has already happened."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0007",
+        "text": "Which of the following is a common naming convention for domain events?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Past tense verbs (e.g., OrderPlaced, PaymentProcessed)"
+            },
+            {
+                "letter": "B",
+                "text": "Future tense verbs (e.g., PlaceOrder, ProcessPayment)"
+            },
+            {
+                "letter": "C",
+                "text": "Nouns only (e.g., Order, Payment)"
+            },
+            {
+                "letter": "D",
+                "text": "Random identifiers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events are named using past tense verbs to indicate that something has already occurred."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0008",
+        "text": "Which of the following is a benefit of domain events for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables asynchronous processing across services"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events enable asynchronous processing, improving scalability and responsiveness."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0009",
+        "text": "Which of the following is a disadvantage of domain events?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Eventual consistency issues"
+            },
+            {
+                "letter": "B",
+                "text": "Strong consistency"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified debugging"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events introduce eventual consistency because updates propagate asynchronously."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0010",
+        "text": "Which of the following is a benefit of domain events for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Producers and consumers are unaware of each other"
+            },
+            {
+                "letter": "B",
+                "text": "Producers directly call consumers"
+            },
+            {
+                "letter": "C",
+                "text": "Services share the same database"
+            },
+            {
+                "letter": "D",
+                "text": "All services are tightly integrated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events decouple producers and consumers, allowing independent service evolution."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0011",
+        "text": "Which of the following is a common tool used for domain event messaging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Apache Kafka"
+            },
+            {
+                "letter": "B",
+                "text": "Nginx"
+            },
+            {
+                "letter": "C",
+                "text": "Redis Cache"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Apache Kafka is a popular tool for handling domain event messaging in microservices."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0012",
+        "text": "Which of the following is a benefit of domain events for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows retry and replay mechanisms for failed events"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events can be retried or replayed to ensure reliable message delivery."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0013",
+        "text": "Which of the following is a benefit of domain events for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides traceability of business events across services"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events improve observability by providing traceability of business events across services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0014",
+        "text": "Which of the following is a common challenge in domain event handling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring idempotent event processing"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized data management"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Ensuring idempotent event processing is crucial to avoid duplicate side effects."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0015",
+        "text": "Which of the following is a benefit of domain events for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows services to operate independently"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Increases synchronous dependencies"
+            },
+            {
+                "letter": "D",
+                "text": "Uses shared databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events allow services to operate independently by reacting asynchronously to changes."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0016",
+        "text": "Which of the following is a benefit of domain events for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables asynchronous scaling of consumers"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events enable asynchronous scaling of consumers, improving system scalability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0017",
+        "text": "Which of the following is a benefit of domain events for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulates business changes in event definitions"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes logic across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events encapsulate business changes, improving maintainability and modularity."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0018",
+        "text": "Which of the following is a common pattern used with domain events?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event Sourcing"
+            },
+            {
+                "letter": "B",
+                "text": "Shared Database"
+            },
+            {
+                "letter": "C",
+                "text": "API Composition"
+            },
+            {
+                "letter": "D",
+                "text": "Saga Orchestration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Event Sourcing often uses domain events to reconstruct system state from event history."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0019",
+        "text": "Which of the following is a disadvantage of domain events for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult to trace asynchronous event flows"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified logging"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Asynchronous event flows can make debugging and tracing more complex."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0020",
+        "text": "Which of the following best summarizes the domain event pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Captures and publishes business events to enable asynchronous service collaboration"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronizes databases across services"
+            },
+            {
+                "letter": "C",
+                "text": "Handles synchronous API calls"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The domain event pattern captures and publishes business events to enable asynchronous service collaboration."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0021",
+        "text": "Which of the following is a benefit of domain events for extensibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "New services can subscribe to existing events without modifying producers"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be redeployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Events must be hardcoded into all services"
+            },
+            {
+                "letter": "D",
+                "text": "Producers must know all consumers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events allow new consumers to subscribe without changing the event producer, improving extensibility."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0022",
+        "text": "Which of the following is a common format for domain events?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "JSON or Avro"
+            },
+            {
+                "letter": "B",
+                "text": "Binary executable"
+            },
+            {
+                "letter": "C",
+                "text": "Plain text log"
+            },
+            {
+                "letter": "D",
+                "text": "HTML document"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events are often serialized in JSON or Avro for interoperability between services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0023",
+        "text": "Which of the following is a benefit of domain events for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Events can be replayed to recover system state"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events can be replayed to rebuild or recover system state, improving resilience."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0024",
+        "text": "Which of the following is a benefit of domain events for auditability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a historical record of business changes"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes all event history"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events provide a historical record of business changes, improving auditability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0025",
+        "text": "Which of the following is a common challenge in domain event design?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Defining event boundaries and granularity"
+            },
+            {
+                "letter": "B",
+                "text": "Using synchronous APIs"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizing all data"
+            },
+            {
+                "letter": "D",
+                "text": "Avoiding message brokers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Defining appropriate event boundaries and granularity is a key design challenge in domain events."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0026",
+        "text": "Which of the following is a benefit of domain events for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Prevents cascading failures by decoupling services"
+            },
+            {
+                "letter": "B",
+                "text": "Increases synchronous dependencies"
+            },
+            {
+                "letter": "C",
+                "text": "Requires shared databases"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events prevent cascading failures by decoupling services through asynchronous communication."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0027",
+        "text": "Which of the following is a benefit of domain events for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces synchronous blocking between services"
+            },
+            {
+                "letter": "B",
+                "text": "Increases latency"
+            },
+            {
+                "letter": "C",
+                "text": "Requires synchronous calls"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all data"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events reduce synchronous blocking by enabling asynchronous communication."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0028",
+        "text": "Which of the following is a benefit of domain events for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows new consumers to react to events without changing producers"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to be redeployed"
+            },
+            {
+                "letter": "C",
+                "text": "Forces synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Removes versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events allow new consumers to react to events without modifying existing producers."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0029",
+        "text": "Which of the following is a disadvantage of domain events for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Eventual consistency between services"
+            },
+            {
+                "letter": "B",
+                "text": "Strong consistency across all services"
+            },
+            {
+                "letter": "C",
+                "text": "Immediate synchronization"
+            },
+            {
+                "letter": "D",
+                "text": "No data duplication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events introduce eventual consistency because updates propagate asynchronously."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0030",
+        "text": "Which of the following is a benefit of domain events for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Producers and consumers are unaware of each other"
+            },
+            {
+                "letter": "B",
+                "text": "Producers directly call consumers"
+            },
+            {
+                "letter": "C",
+                "text": "Services share the same database"
+            },
+            {
+                "letter": "D",
+                "text": "All services are tightly integrated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events decouple producers and consumers, allowing independent service evolution."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0031",
+        "text": "Which of the following is a benefit of domain events for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulates business changes in event definitions"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes logic across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events encapsulate business changes, improving maintainability and modularity."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0032",
+        "text": "Which of the following is a benefit of domain events for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides traceability of business events across services"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events improve observability by providing traceability of business events across services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0033",
+        "text": "Which of the following is a benefit of domain events for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows retry and replay mechanisms for failed events"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events can be retried or replayed to ensure reliable message delivery."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0034",
+        "text": "Which of the following is a benefit of domain events for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables asynchronous scaling of consumers"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events enable asynchronous scaling of consumers, improving system scalability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0035",
+        "text": "Which of the following is a benefit of domain events for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows services to operate independently"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Increases synchronous dependencies"
+            },
+            {
+                "letter": "D",
+                "text": "Uses shared databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events allow services to operate independently by reacting asynchronously to changes."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0036",
+        "text": "Which of the following is a benefit of domain events for extensibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "New services can subscribe to existing events without modifying producers"
+            },
+            {
+                "letter": "B",
+                "text": "All services must be redeployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Events must be hardcoded into all services"
+            },
+            {
+                "letter": "D",
+                "text": "Producers must know all consumers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events allow new consumers to subscribe without changing the event producer, improving extensibility."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0037",
+        "text": "Which of the following is a benefit of domain events for auditability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a historical record of business changes"
+            },
+            {
+                "letter": "B",
+                "text": "Deletes all event history"
+            },
+            {
+                "letter": "C",
+                "text": "Removes traceability"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events provide a historical record of business changes, improving auditability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0038",
+        "text": "Which of the following is a benefit of domain events for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Events can be replayed to recover system state"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events can be replayed to rebuild or recover system state, improving resilience."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0039",
+        "text": "Which of the following is a benefit of domain events for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Producers and consumers are unaware of each other"
+            },
+            {
+                "letter": "B",
+                "text": "Producers directly call consumers"
+            },
+            {
+                "letter": "C",
+                "text": "Services share the same database"
+            },
+            {
+                "letter": "D",
+                "text": "All services are tightly integrated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events decouple producers and consumers, allowing independent service evolution."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0040",
+        "text": "Which of the following best summarizes the domain event pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Captures and publishes business events to enable asynchronous service collaboration"
+            },
+            {
+                "letter": "B",
+                "text": "Synchronizes databases across services"
+            },
+            {
+                "letter": "C",
+                "text": "Handles synchronous API calls"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The domain event pattern captures and publishes business events to enable asynchronous service collaboration."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0041",
+        "text": "Which of the following is a benefit of domain events for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables asynchronous scaling of consumers"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events enable asynchronous scaling of consumers, improving system scalability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0042",
+        "text": "Which of the following is a benefit of domain events for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows retry and replay mechanisms for failed events"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events can be retried or replayed to ensure reliable message delivery."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0043",
+        "text": "Which of the following is a benefit of domain events for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides traceability of business events across services"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events improve observability by providing traceability of business events across services."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0044",
+        "text": "Which of the following is a benefit of domain events for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Encapsulates business changes in event definitions"
+            },
+            {
+                "letter": "B",
+                "text": "Distributes logic across clients"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events encapsulate business changes, improving maintainability and modularity."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0045",
+        "text": "Which of the following is a benefit of domain events for autonomy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows services to operate independently"
+            },
+            {
+                "letter": "B",
+                "text": "Requires centralized coordination"
+            },
+            {
+                "letter": "C",
+                "text": "Increases synchronous dependencies"
+            },
+            {
+                "letter": "D",
+                "text": "Uses shared databases"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events allow services to operate independently by reacting asynchronously to changes."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0046",
+        "text": "Which of the following is a benefit of domain events for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows new consumers to react to events without changing producers"
+            },
+            {
+                "letter": "B",
+                "text": "Requires all services to be redeployed"
+            },
+            {
+                "letter": "C",
+                "text": "Forces synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Removes versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events allow new consumers to react to events without modifying existing producers."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0047",
+        "text": "Which of the following is a benefit of domain events for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Events can be replayed to recover system state"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates all failures"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees strong consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Removes retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events can be replayed to rebuild or recover system state, improving resilience."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0048",
+        "text": "Which of the following is a benefit of domain events for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Producers and consumers are unaware of each other"
+            },
+            {
+                "letter": "B",
+                "text": "Producers directly call consumers"
+            },
+            {
+                "letter": "C",
+                "text": "Services share the same database"
+            },
+            {
+                "letter": "D",
+                "text": "All services are tightly integrated"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events decouple producers and consumers, allowing independent service evolution."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0049",
+        "text": "Which of the following is a benefit of domain events for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables asynchronous scaling of consumers"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Centralizes all data"
+            },
+            {
+                "letter": "D",
+                "text": "Removes load balancing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Domain events enable asynchronous scaling of consumers, improving system scalability."
+    },
+    {
+        "title": "MicroservicesServiceCollaborationDomainEvent - Q0050",
+        "text": "Which of the following best summarizes the role of the domain event pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Captures and publishes business events to enable asynchronous, decoupled service collaboration"
+            },
+            {
+                "letter": "B",
+                "text": "Handles synchronous communication between services"
+            },
+            {
+                "letter": "C",
+                "text": "Replaces message brokers entirely"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The domain event pattern captures and publishes business events to enable asynchronous, decoupled service collaboration."
+    }
+]
