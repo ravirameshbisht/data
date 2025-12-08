@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0001",
+        "text": "What does the 'Service Instance per Container' deployment pattern describe?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Running one service instance per container"
+            },
+            {
+                "letter": "B",
+                "text": "Running multiple services in a single container"
+            },
+            {
+                "letter": "C",
+                "text": "Running services directly on the host OS"
+            },
+            {
+                "letter": "D",
+                "text": "Running services in virtual machines"
+            }
+        ],
+        "correct": "A",
+        "explanation": "This pattern deploys one service instance per container to ensure isolation and portability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0002",
+        "text": "Which of the following is a key advantage of this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Lightweight isolation between services"
+            },
+            {
+                "letter": "B",
+                "text": "Full OS virtualization"
+            },
+            {
+                "letter": "C",
+                "text": "Shared process space"
+            },
+            {
+                "letter": "D",
+                "text": "No resource limits"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers provide lightweight isolation, allowing multiple services to run efficiently on the same host."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0003",
+        "text": "Which of the following technologies is commonly used for this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Docker"
+            },
+            {
+                "letter": "B",
+                "text": "VMware"
+            },
+            {
+                "letter": "C",
+                "text": "Hyper-V"
+            },
+            {
+                "letter": "D",
+                "text": "Bare-metal servers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Docker is a popular containerization platform used to implement the Service Instance per Container pattern."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0004",
+        "text": "Which of the following is a benefit for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be started and stopped quickly"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require full OS boot"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot scale horizontally"
+            },
+            {
+                "letter": "D",
+                "text": "Containers are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers start quickly, enabling fast horizontal scaling of microservices."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0005",
+        "text": "Which of the following is a disadvantage of this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Weaker isolation compared to VMs"
+            },
+            {
+                "letter": "B",
+                "text": "High resource overhead"
+            },
+            {
+                "letter": "C",
+                "text": "Slow startup times"
+            },
+            {
+                "letter": "D",
+                "text": "Difficult to orchestrate"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers share the host OS kernel, providing weaker isolation than full virtual machines."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0006",
+        "text": "Which of the following is a benefit for portability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can run consistently across environments"
+            },
+            {
+                "letter": "B",
+                "text": "Containers depend on specific hardware"
+            },
+            {
+                "letter": "C",
+                "text": "Containers require OS-specific configurations"
+            },
+            {
+                "letter": "D",
+                "text": "Containers cannot be moved between hosts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers encapsulate dependencies, ensuring consistent behavior across environments."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0007",
+        "text": "Which of the following is a benefit for resource efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers share the host OS kernel"
+            },
+            {
+                "letter": "B",
+                "text": "Each container runs a full OS"
+            },
+            {
+                "letter": "C",
+                "text": "Containers require dedicated hardware"
+            },
+            {
+                "letter": "D",
+                "text": "Containers consume more memory than VMs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers share the host OS kernel, reducing overhead and improving resource efficiency."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0008",
+        "text": "Which of the following is a benefit for deployment speed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers start faster than VMs"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require full OS boot"
+            },
+            {
+                "letter": "C",
+                "text": "Containers are slower to deploy"
+            },
+            {
+                "letter": "D",
+                "text": "Containers need manual setup"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers start almost instantly, enabling rapid deployment and scaling."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0009",
+        "text": "Which of the following is a benefit for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A container crash does not affect other containers"
+            },
+            {
+                "letter": "B",
+                "text": "All containers share the same process space"
+            },
+            {
+                "letter": "C",
+                "text": "Containers crash together"
+            },
+            {
+                "letter": "D",
+                "text": "Containers share memory"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each container runs in isolation, so a crash in one does not affect others."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0010",
+        "text": "Which of the following is a common orchestration tool for this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Kubernetes"
+            },
+            {
+                "letter": "B",
+                "text": "VMware vSphere"
+            },
+            {
+                "letter": "C",
+                "text": "Hyper-V Manager"
+            },
+            {
+                "letter": "D",
+                "text": "AWS EC2"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Kubernetes is widely used to orchestrate and manage containerized microservices."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0011",
+        "text": "Which of the following is a benefit for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers ensure consistent environments across development and production"
+            },
+            {
+                "letter": "B",
+                "text": "Containers depend on host-specific configurations"
+            },
+            {
+                "letter": "C",
+                "text": "Containers vary by OS"
+            },
+            {
+                "letter": "D",
+                "text": "Containers require manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers package dependencies, ensuring consistent environments across all stages."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0012",
+        "text": "Which of the following is a disadvantage for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers share the host OS kernel"
+            },
+            {
+                "letter": "B",
+                "text": "Containers run separate OS instances"
+            },
+            {
+                "letter": "C",
+                "text": "Containers are fully isolated"
+            },
+            {
+                "letter": "D",
+                "text": "Containers cannot access the host"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers share the host OS kernel, which can increase security risks if not properly isolated."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0013",
+        "text": "Which of the following is a benefit for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be automatically deployed and scaled"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require manual deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be automated"
+            },
+            {
+                "letter": "D",
+                "text": "Containers must be configured manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Container orchestration tools automate deployment, scaling, and management."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0014",
+        "text": "Which of the following is a benefit for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each container can be updated independently"
+            },
+            {
+                "letter": "B",
+                "text": "All containers must be updated together"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be updated"
+            },
+            {
+                "letter": "D",
+                "text": "Containers share the same update process"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each container can be updated or replaced independently, improving maintainability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0015",
+        "text": "Which of the following is a benefit for portability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can run on any host with a container runtime"
+            },
+            {
+                "letter": "B",
+                "text": "Containers depend on specific hardware"
+            },
+            {
+                "letter": "C",
+                "text": "Containers require OS-specific configurations"
+            },
+            {
+                "letter": "D",
+                "text": "Containers cannot be moved between hosts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers can run on any host with a compatible runtime, ensuring portability across environments."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0016",
+        "text": "Which of the following is a benefit for resource utilization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers use fewer resources than VMs"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require full OS instances"
+            },
+            {
+                "letter": "C",
+                "text": "Containers consume more memory"
+            },
+            {
+                "letter": "D",
+                "text": "Containers are less efficient"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers share the host OS kernel, reducing overhead and improving resource utilization."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0017",
+        "text": "Which of the following is a benefit for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failed containers can be restarted automatically"
+            },
+            {
+                "letter": "B",
+                "text": "All containers restart together"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be restarted"
+            },
+            {
+                "letter": "D",
+                "text": "Containers require manual recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Orchestration tools can automatically restart failed containers, improving fault recovery."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0018",
+        "text": "Which of the following is a benefit for version control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each container image can represent a specific version"
+            },
+            {
+                "letter": "B",
+                "text": "All containers must use the same version"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be versioned"
+            },
+            {
+                "letter": "D",
+                "text": "Containers share a single version"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each container image can represent a specific version of a service, simplifying version control."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0019",
+        "text": "Which of the following is a disadvantage for networking?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Complex network configuration between containers"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified networking"
+            },
+            {
+                "letter": "C",
+                "text": "No network configuration required"
+            },
+            {
+                "letter": "D",
+                "text": "Automatic network discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing container networking can be complex, especially in large-scale deployments."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0020",
+        "text": "Which of the following best summarizes this deployment pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploying one service instance per container for isolation, portability, and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Running multiple services in a single container"
+            },
+            {
+                "letter": "C",
+                "text": "Running services directly on the host OS"
+            },
+            {
+                "letter": "D",
+                "text": "Running services in virtual machines"
+            }
+        ],
+        "correct": "A",
+        "explanation": "This pattern deploys one service instance per container to achieve isolation, portability, and scalability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0021",
+        "text": "Which of the following is a benefit for deployment automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be automatically deployed using orchestration tools"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require manual deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be automated"
+            },
+            {
+                "letter": "D",
+                "text": "Containers must be configured manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Container orchestration tools like Kubernetes automate deployment, scaling, and management."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0022",
+        "text": "Which of the following is a benefit for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each container can be updated or replaced independently"
+            },
+            {
+                "letter": "B",
+                "text": "All containers must be updated together"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be updated"
+            },
+            {
+                "letter": "D",
+                "text": "Containers share the same update process"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each container can be updated or replaced independently, improving maintainability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0023",
+        "text": "Which of the following is a benefit for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A container crash does not affect other containers"
+            },
+            {
+                "letter": "B",
+                "text": "All containers share the same process space"
+            },
+            {
+                "letter": "C",
+                "text": "Containers crash together"
+            },
+            {
+                "letter": "D",
+                "text": "Containers share memory"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each container runs in isolation, so a crash in one does not affect others."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0024",
+        "text": "Which of the following is a benefit for portability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can run on any host with a container runtime"
+            },
+            {
+                "letter": "B",
+                "text": "Containers depend on specific hardware"
+            },
+            {
+                "letter": "C",
+                "text": "Containers require OS-specific configurations"
+            },
+            {
+                "letter": "D",
+                "text": "Containers cannot be moved between hosts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers can run on any host with a compatible runtime, ensuring portability across environments."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0025",
+        "text": "Which of the following is a disadvantage for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers share the host OS kernel"
+            },
+            {
+                "letter": "B",
+                "text": "Containers run separate OS instances"
+            },
+            {
+                "letter": "C",
+                "text": "Containers are fully isolated"
+            },
+            {
+                "letter": "D",
+                "text": "Containers cannot access the host"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers share the host OS kernel, which can increase security risks if not properly isolated."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0026",
+        "text": "Which of the following is a benefit for resource efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers use fewer resources than VMs"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require full OS instances"
+            },
+            {
+                "letter": "C",
+                "text": "Containers consume more memory"
+            },
+            {
+                "letter": "D",
+                "text": "Containers are less efficient"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers share the host OS kernel, reducing overhead and improving resource utilization."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0027",
+        "text": "Which of the following is a benefit for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be started and stopped quickly"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require full OS boot"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot scale horizontally"
+            },
+            {
+                "letter": "D",
+                "text": "Containers are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers start quickly, enabling fast horizontal scaling of microservices."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0028",
+        "text": "Which of the following is a benefit for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be automatically deployed and scaled"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require manual deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be automated"
+            },
+            {
+                "letter": "D",
+                "text": "Containers must be configured manually"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Container orchestration tools automate deployment, scaling, and management."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0029",
+        "text": "Which of the following is a benefit for version control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each container image can represent a specific version"
+            },
+            {
+                "letter": "B",
+                "text": "All containers must use the same version"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be versioned"
+            },
+            {
+                "letter": "D",
+                "text": "Containers share a single version"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each container image can represent a specific version of a service, simplifying version control."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0030",
+        "text": "Which of the following is a disadvantage for networking?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Complex network configuration between containers"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified networking"
+            },
+            {
+                "letter": "C",
+                "text": "No network configuration required"
+            },
+            {
+                "letter": "D",
+                "text": "Automatic network discovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing container networking can be complex, especially in large-scale deployments."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0031",
+        "text": "Which of the following is a benefit for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each container can have dedicated monitoring and logging"
+            },
+            {
+                "letter": "B",
+                "text": "All containers share the same logs"
+            },
+            {
+                "letter": "C",
+                "text": "No monitoring required"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized metrics only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each container can have its own monitoring and logging setup, improving observability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0032",
+        "text": "Which of the following is a benefit for deployment consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Container images ensure consistent environments"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration per instance"
+            },
+            {
+                "letter": "C",
+                "text": "Different OS versions per service"
+            },
+            {
+                "letter": "D",
+                "text": "No version control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Container images ensure consistent environments across deployments, reducing configuration drift."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0033",
+        "text": "Which of the following is a benefit for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failed containers can be restarted automatically"
+            },
+            {
+                "letter": "B",
+                "text": "All containers restart together"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be restarted"
+            },
+            {
+                "letter": "D",
+                "text": "Containers require manual recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Orchestration tools can automatically restart failed containers, improving fault recovery."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0034",
+        "text": "Which of the following is a benefit for elasticity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can scale up or down quickly"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot scale"
+            },
+            {
+                "letter": "D",
+                "text": "Containers are static"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers can be scaled dynamically based on demand, improving elasticity."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0035",
+        "text": "Which of the following is a disadvantage for orchestration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing many containers increases orchestration complexity"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified orchestration"
+            },
+            {
+                "letter": "C",
+                "text": "No orchestration required"
+            },
+            {
+                "letter": "D",
+                "text": "Automatic scaling without tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing and orchestrating many containers can be complex and resource-intensive."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0036",
+        "text": "Which of the following is a benefit for CI/CD integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers integrate easily with CI/CD pipelines"
+            },
+            {
+                "letter": "B",
+                "text": "Containers cannot be automated"
+            },
+            {
+                "letter": "C",
+                "text": "Containers require manual deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Containers are incompatible with CI/CD"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers integrate seamlessly with CI/CD pipelines for automated testing and deployment."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0037",
+        "text": "Which of the following is a benefit for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers provide consistent test environments"
+            },
+            {
+                "letter": "B",
+                "text": "Containers vary by host"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be tested"
+            },
+            {
+                "letter": "D",
+                "text": "Containers require manual setup"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers provide consistent environments, making testing more reliable and reproducible."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0038",
+        "text": "Which of the following is a benefit for cost efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers maximize hardware utilization"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require dedicated hardware"
+            },
+            {
+                "letter": "C",
+                "text": "Containers increase idle time"
+            },
+            {
+                "letter": "D",
+                "text": "Containers reduce deployment density"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers maximize hardware utilization by sharing OS resources efficiently."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0039",
+        "text": "Which of the following is a disadvantage for persistence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers are ephemeral and lose data when stopped"
+            },
+            {
+                "letter": "B",
+                "text": "Containers store data permanently"
+            },
+            {
+                "letter": "C",
+                "text": "Containers automatically persist data"
+            },
+            {
+                "letter": "D",
+                "text": "Containers use shared storage by default"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers are ephemeral; persistent data must be stored externally using volumes."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0040",
+        "text": "Which of the following best summarizes this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploying one service instance per container for isolation, portability, and scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Running multiple services in a single container"
+            },
+            {
+                "letter": "C",
+                "text": "Running services directly on the host OS"
+            },
+            {
+                "letter": "D",
+                "text": "Running services in virtual machines"
+            }
+        ],
+        "correct": "A",
+        "explanation": "This pattern deploys one service instance per container to achieve isolation, portability, and scalability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0041",
+        "text": "Which of the following is a benefit for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers can be restarted independently"
+            },
+            {
+                "letter": "B",
+                "text": "All containers restart together"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be restarted"
+            },
+            {
+                "letter": "D",
+                "text": "Containers require manual recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers can be restarted independently, improving fault tolerance and uptime."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0042",
+        "text": "Which of the following is a benefit for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each container encapsulates a single service"
+            },
+            {
+                "letter": "B",
+                "text": "Containers combine multiple services"
+            },
+            {
+                "letter": "C",
+                "text": "Containers share dependencies"
+            },
+            {
+                "letter": "D",
+                "text": "Containers depend on host modules"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each container encapsulates a single service, promoting modularity and separation of concerns."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0043",
+        "text": "Which of the following is a benefit for reproducibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers ensure consistent builds and deployments"
+            },
+            {
+                "letter": "B",
+                "text": "Containers vary by environment"
+            },
+            {
+                "letter": "C",
+                "text": "Containers depend on host configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Containers require manual setup"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers ensure consistent builds and deployments across environments, improving reproducibility."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0044",
+        "text": "Which of the following is a disadvantage for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Debugging inside containers can be complex"
+            },
+            {
+                "letter": "B",
+                "text": "Containers provide full OS access"
+            },
+            {
+                "letter": "C",
+                "text": "Containers simplify debugging"
+            },
+            {
+                "letter": "D",
+                "text": "Containers have built-in debuggers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Debugging inside containers can be complex due to isolation and ephemeral nature."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0045",
+        "text": "Which of the following is a benefit for deployment speed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers start faster than VMs"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require full OS boot"
+            },
+            {
+                "letter": "C",
+                "text": "Containers are slower to deploy"
+            },
+            {
+                "letter": "D",
+                "text": "Containers need manual setup"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers start almost instantly, enabling rapid deployment and scaling."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0046",
+        "text": "Which of the following is a benefit for CI/CD pipelines?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers integrate seamlessly with CI/CD tools"
+            },
+            {
+                "letter": "B",
+                "text": "Containers cannot be automated"
+            },
+            {
+                "letter": "C",
+                "text": "Containers require manual deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Containers are incompatible with CI/CD"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers integrate seamlessly with CI/CD pipelines for automated testing and deployment."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0047",
+        "text": "Which of the following is a benefit for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers maximize hardware utilization"
+            },
+            {
+                "letter": "B",
+                "text": "Containers require dedicated hardware"
+            },
+            {
+                "letter": "C",
+                "text": "Containers increase idle time"
+            },
+            {
+                "letter": "D",
+                "text": "Containers reduce deployment density"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers maximize hardware utilization by sharing OS resources efficiently."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0048",
+        "text": "Which of the following is a disadvantage for persistence?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containers are ephemeral and lose data when stopped"
+            },
+            {
+                "letter": "B",
+                "text": "Containers store data permanently"
+            },
+            {
+                "letter": "C",
+                "text": "Containers automatically persist data"
+            },
+            {
+                "letter": "D",
+                "text": "Containers use shared storage by default"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers are ephemeral; persistent data must be stored externally using volumes."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0049",
+        "text": "Which of the following is a benefit for modular deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each container can be deployed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All containers must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Containers cannot be deployed separately"
+            },
+            {
+                "letter": "D",
+                "text": "Containers share deployment scripts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each container can be deployed independently, supporting modular and flexible deployments."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerContainer - Q0050",
+        "text": "Which of the following best summarizes the role of this pattern in microservices deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploys one service instance per container to ensure isolation, scalability, and portability"
+            },
+            {
+                "letter": "B",
+                "text": "Runs multiple services per container for efficiency"
+            },
+            {
+                "letter": "C",
+                "text": "Uses VMs for strong isolation"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates orchestration tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern deploys one service instance per container to ensure isolation, scalability, and portability in microservices."
+    }
+]

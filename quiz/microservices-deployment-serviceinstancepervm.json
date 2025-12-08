@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0001",
+        "text": "What does the 'Service Instance per VM' deployment pattern describe?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Running one service instance per virtual machine"
+            },
+            {
+                "letter": "B",
+                "text": "Running multiple services on a single VM"
+            },
+            {
+                "letter": "C",
+                "text": "Running services without virtualization"
+            },
+            {
+                "letter": "D",
+                "text": "Running services in containers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern describes deploying one service instance per virtual machine to ensure isolation and manageability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0002",
+        "text": "Which of the following is a key advantage of this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Strong isolation between service instances"
+            },
+            {
+                "letter": "B",
+                "text": "Minimal resource overhead"
+            },
+            {
+                "letter": "C",
+                "text": "Shared operating system kernel"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified orchestration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each service instance runs in its own VM, providing strong isolation and fault containment."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0003",
+        "text": "Which of the following is a disadvantage of this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "High resource overhead due to multiple OS instances"
+            },
+            {
+                "letter": "B",
+                "text": "Weak isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Difficult to scale horizontally"
+            },
+            {
+                "letter": "D",
+                "text": "Limited fault isolation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM runs its own OS, leading to higher memory and CPU overhead compared to containers."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0004",
+        "text": "Which of the following technologies is commonly used for this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VMware or KVM"
+            },
+            {
+                "letter": "B",
+                "text": "Docker"
+            },
+            {
+                "letter": "C",
+                "text": "Serverless functions"
+            },
+            {
+                "letter": "D",
+                "text": "Bare-metal servers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Virtualization technologies like VMware or KVM are used to create and manage VMs for this pattern."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0005",
+        "text": "Which of the following is a benefit for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failure in one VM does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same OS"
+            },
+            {
+                "letter": "C",
+                "text": "Shared memory space"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized failure handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM is isolated, so a failure in one service instance does not impact others."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0006",
+        "text": "Which of the following is a disadvantage for resource utilization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each VM consumes significant memory and CPU resources"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same kernel"
+            },
+            {
+                "letter": "C",
+                "text": "Minimal overhead"
+            },
+            {
+                "letter": "D",
+                "text": "No virtualization overhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM runs a full OS, consuming more resources than container-based deployments."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0007",
+        "text": "Which of the following is a benefit for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VMs provide strong isolation boundaries"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same OS kernel"
+            },
+            {
+                "letter": "C",
+                "text": "No isolation between services"
+            },
+            {
+                "letter": "D",
+                "text": "Shared file system access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VMs provide strong isolation, reducing the risk of cross-service security breaches."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0008",
+        "text": "Which of the following is a challenge for scaling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Slow VM startup times"
+            },
+            {
+                "letter": "B",
+                "text": "Instantaneous scaling"
+            },
+            {
+                "letter": "C",
+                "text": "No orchestration required"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal resource usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VMs take longer to start compared to containers, making scaling slower."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0009",
+        "text": "Which of the following is a benefit for manageability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each service can be managed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same management interface"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized configuration only"
+            },
+            {
+                "letter": "D",
+                "text": "No monitoring required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM can be managed, monitored, and updated independently, improving manageability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0010",
+        "text": "Which of the following is a disadvantage for cost efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Higher infrastructure costs due to VM overhead"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced hardware utilization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified resource sharing"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal virtualization overhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running one service per VM increases infrastructure costs due to higher resource overhead."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0011",
+        "text": "Which of the following is a benefit for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VM failures are isolated from other services"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same OS"
+            },
+            {
+                "letter": "C",
+                "text": "Shared process space"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized failure handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM is isolated, so a failure in one does not affect others, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0012",
+        "text": "Which of the following is a benefit for deployment automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VM templates can automate service deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment only"
+            },
+            {
+                "letter": "C",
+                "text": "No automation possible"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VM templates and orchestration tools can automate deployment and scaling of services."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0013",
+        "text": "Which of the following is a disadvantage for startup time?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VMs take longer to boot than containers"
+            },
+            {
+                "letter": "B",
+                "text": "Instantaneous startup"
+            },
+            {
+                "letter": "C",
+                "text": "No initialization required"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal boot overhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VMs require full OS boot, leading to slower startup compared to containers."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0014",
+        "text": "Which of the following is a benefit for isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each VM runs its own OS, ensuring strong isolation"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same kernel"
+            },
+            {
+                "letter": "C",
+                "text": "Shared memory space"
+            },
+            {
+                "letter": "D",
+                "text": "No isolation between services"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM runs its own OS, providing strong isolation between service instances."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0015",
+        "text": "Which of the following is a benefit for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VM boundaries prevent cross-service attacks"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same OS kernel"
+            },
+            {
+                "letter": "C",
+                "text": "No isolation between services"
+            },
+            {
+                "letter": "D",
+                "text": "Shared file system access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VM boundaries provide strong security isolation, reducing the risk of cross-service attacks."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0016",
+        "text": "Which of the following is a disadvantage for resource efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each VM consumes more resources than containers"
+            },
+            {
+                "letter": "B",
+                "text": "Minimal resource overhead"
+            },
+            {
+                "letter": "C",
+                "text": "Shared kernel reduces overhead"
+            },
+            {
+                "letter": "D",
+                "text": "No virtualization overhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM runs a full OS, consuming more resources than container-based deployments."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0017",
+        "text": "Which of the following is a benefit for manageability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each VM can be managed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same management interface"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized configuration only"
+            },
+            {
+                "letter": "D",
+                "text": "No monitoring required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM can be managed, monitored, and updated independently, improving manageability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0018",
+        "text": "Which of the following is a benefit for fault containment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failure in one VM does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same OS"
+            },
+            {
+                "letter": "C",
+                "text": "Shared process space"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized failure handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM is isolated, so a failure in one does not affect others, improving fault containment."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0019",
+        "text": "Which of the following is a disadvantage for scaling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Scaling requires provisioning new VMs, which is slower"
+            },
+            {
+                "letter": "B",
+                "text": "Instantaneous scaling"
+            },
+            {
+                "letter": "C",
+                "text": "No orchestration required"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal resource usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Provisioning new VMs takes time, making scaling slower compared to container-based approaches."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0020",
+        "text": "Which of the following best summarizes this deployment pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploying one service instance per virtual machine for isolation and manageability"
+            },
+            {
+                "letter": "B",
+                "text": "Running multiple services on a single VM"
+            },
+            {
+                "letter": "C",
+                "text": "Running services without virtualization"
+            },
+            {
+                "letter": "D",
+                "text": "Running services in containers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern focuses on deploying one service instance per VM to ensure isolation and manageability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0021",
+        "text": "Which of the following is a benefit for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each VM failure is contained and does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same OS kernel"
+            },
+            {
+                "letter": "C",
+                "text": "Shared memory space between services"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized failure handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VM-level isolation ensures that a failure in one service instance does not impact others."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0022",
+        "text": "Which of the following is a disadvantage for cost efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Higher infrastructure costs due to VM overhead"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced hardware utilization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified resource sharing"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal virtualization overhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running one service per VM increases infrastructure costs due to higher resource overhead."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0023",
+        "text": "Which of the following is a benefit for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VM boundaries prevent cross-service attacks"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same OS kernel"
+            },
+            {
+                "letter": "C",
+                "text": "No isolation between services"
+            },
+            {
+                "letter": "D",
+                "text": "Shared file system access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VM boundaries provide strong security isolation, reducing the risk of cross-service attacks."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0024",
+        "text": "Which of the following is a disadvantage for startup time?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VMs take longer to boot than containers"
+            },
+            {
+                "letter": "B",
+                "text": "Instantaneous startup"
+            },
+            {
+                "letter": "C",
+                "text": "No initialization required"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal boot overhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VMs require full OS boot, leading to slower startup compared to containers."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0025",
+        "text": "Which of the following is a benefit for manageability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each VM can be managed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same management interface"
+            },
+            {
+                "letter": "C",
+                "text": "Centralized configuration only"
+            },
+            {
+                "letter": "D",
+                "text": "No monitoring required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM can be managed, monitored, and updated independently, improving manageability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0026",
+        "text": "Which of the following is a benefit for fault containment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A failure in one VM does not affect others"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same OS"
+            },
+            {
+                "letter": "C",
+                "text": "Shared process space"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized failure handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM is isolated, so a failure in one does not affect others, improving fault containment."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0027",
+        "text": "Which of the following is a disadvantage for scaling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Scaling requires provisioning new VMs, which is slower"
+            },
+            {
+                "letter": "B",
+                "text": "Instantaneous scaling"
+            },
+            {
+                "letter": "C",
+                "text": "No orchestration required"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal resource usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Provisioning new VMs takes time, making scaling slower compared to container-based approaches."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0028",
+        "text": "Which of the following is a benefit for deployment automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VM templates can automate service deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment only"
+            },
+            {
+                "letter": "C",
+                "text": "No automation possible"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual configuration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VM templates and orchestration tools can automate deployment and scaling of services."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0029",
+        "text": "Which of the following is a benefit for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VM failures are isolated from other services"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same OS"
+            },
+            {
+                "letter": "C",
+                "text": "Shared process space"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized failure handling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM is isolated, so a failure in one does not affect others, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0030",
+        "text": "Which of the following is a disadvantage for resource efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each VM consumes more resources than containers"
+            },
+            {
+                "letter": "B",
+                "text": "Minimal resource overhead"
+            },
+            {
+                "letter": "C",
+                "text": "Shared kernel reduces overhead"
+            },
+            {
+                "letter": "D",
+                "text": "No virtualization overhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM runs a full OS, consuming more resources than container-based deployments."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0031",
+        "text": "Which of the following is a benefit for security hardening?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VMs can use separate OS-level security policies"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same kernel"
+            },
+            {
+                "letter": "C",
+                "text": "No isolation between services"
+            },
+            {
+                "letter": "D",
+                "text": "Shared file system access"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM can have its own OS-level security configuration, improving security hardening."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0032",
+        "text": "Which of the following is a disadvantage for orchestration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing many VMs increases orchestration complexity"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified orchestration"
+            },
+            {
+                "letter": "C",
+                "text": "No orchestration required"
+            },
+            {
+                "letter": "D",
+                "text": "Automatic scaling without tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing and orchestrating many VMs can be complex and resource-intensive."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0033",
+        "text": "Which of the following is a benefit for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each VM can be monitored independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same metrics"
+            },
+            {
+                "letter": "C",
+                "text": "No monitoring required"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized metrics only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM can be monitored independently, providing clear visibility into service performance."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0034",
+        "text": "Which of the following is a benefit for deployment consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VM images ensure consistent environments"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration per instance"
+            },
+            {
+                "letter": "C",
+                "text": "Different OS versions per service"
+            },
+            {
+                "letter": "D",
+                "text": "No version control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VM images ensure consistent environments across deployments, reducing configuration drift."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0035",
+        "text": "Which of the following is a disadvantage for elasticity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VMs take longer to scale up or down"
+            },
+            {
+                "letter": "B",
+                "text": "Instantaneous scaling"
+            },
+            {
+                "letter": "C",
+                "text": "No scaling required"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal resource usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VMs take longer to provision and deprovision, reducing elasticity compared to containers."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0036",
+        "text": "Which of the following is a benefit for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failed VMs can be restarted independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services restart together"
+            },
+            {
+                "letter": "C",
+                "text": "Shared recovery process"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized restart mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM can be restarted independently, improving fault recovery and uptime."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0037",
+        "text": "Which of the following is a disadvantage for resource sharing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VMs do not share OS resources efficiently"
+            },
+            {
+                "letter": "B",
+                "text": "Shared kernel improves efficiency"
+            },
+            {
+                "letter": "C",
+                "text": "Minimal overhead"
+            },
+            {
+                "letter": "D",
+                "text": "No virtualization overhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM runs a full OS, leading to inefficient resource sharing compared to containers."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0038",
+        "text": "Which of the following is a benefit for version control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each VM can run a different version of the service"
+            },
+            {
+                "letter": "B",
+                "text": "All services must use the same version"
+            },
+            {
+                "letter": "C",
+                "text": "No versioning supported"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized version enforcement"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM can run a different version of the service, allowing gradual rollouts and testing."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0039",
+        "text": "Which of the following is a disadvantage for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Higher infrastructure costs due to VM overhead"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced hardware utilization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified resource sharing"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal virtualization overhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running one service per VM increases infrastructure costs due to higher resource overhead."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0040",
+        "text": "Which of the following best summarizes this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploying one service instance per virtual machine for isolation and manageability"
+            },
+            {
+                "letter": "B",
+                "text": "Running multiple services on a single VM"
+            },
+            {
+                "letter": "C",
+                "text": "Running services without virtualization"
+            },
+            {
+                "letter": "D",
+                "text": "Running services in containers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern focuses on deploying one service instance per VM to ensure isolation and manageability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0041",
+        "text": "Which of the following is a benefit for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each VM can have dedicated monitoring and logging"
+            },
+            {
+                "letter": "B",
+                "text": "All services share the same logs"
+            },
+            {
+                "letter": "C",
+                "text": "No monitoring required"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized metrics only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM can have its own monitoring and logging setup, improving observability."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0042",
+        "text": "Which of the following is a disadvantage for deployment speed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VM provisioning is slower than container deployment"
+            },
+            {
+                "letter": "B",
+                "text": "Instantaneous deployment"
+            },
+            {
+                "letter": "C",
+                "text": "No provisioning required"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal setup time"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VM provisioning takes longer than container deployment, reducing deployment speed."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0043",
+        "text": "Which of the following is a benefit for configuration management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VM images can include preconfigured environments"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration required for each instance"
+            },
+            {
+                "letter": "C",
+                "text": "No configuration management"
+            },
+            {
+                "letter": "D",
+                "text": "Shared configuration files"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VM images can include preconfigured environments, simplifying configuration management."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0044",
+        "text": "Which of the following is a disadvantage for elasticity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VMs take longer to scale up or down"
+            },
+            {
+                "letter": "B",
+                "text": "Instantaneous scaling"
+            },
+            {
+                "letter": "C",
+                "text": "No scaling required"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal resource usage"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VMs take longer to provision and deprovision, reducing elasticity compared to containers."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0045",
+        "text": "Which of the following is a benefit for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Failed VMs can be restarted independently"
+            },
+            {
+                "letter": "B",
+                "text": "All services restart together"
+            },
+            {
+                "letter": "C",
+                "text": "Shared recovery process"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized restart mechanism"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM can be restarted independently, improving fault recovery and uptime."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0046",
+        "text": "Which of the following is a disadvantage for orchestration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing many VMs increases orchestration complexity"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified orchestration"
+            },
+            {
+                "letter": "C",
+                "text": "No orchestration required"
+            },
+            {
+                "letter": "D",
+                "text": "Automatic scaling without tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing and orchestrating many VMs can be complex and resource-intensive."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0047",
+        "text": "Which of the following is a benefit for version control?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each VM can run a different version of the service"
+            },
+            {
+                "letter": "B",
+                "text": "All services must use the same version"
+            },
+            {
+                "letter": "C",
+                "text": "No versioning supported"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized version enforcement"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each VM can run a different version of the service, allowing gradual rollouts and testing."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0048",
+        "text": "Which of the following is a disadvantage for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Higher infrastructure costs due to VM overhead"
+            },
+            {
+                "letter": "B",
+                "text": "Reduced hardware utilization"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified resource sharing"
+            },
+            {
+                "letter": "D",
+                "text": "Minimal virtualization overhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running one service per VM increases infrastructure costs due to higher resource overhead."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0049",
+        "text": "Which of the following is a benefit for deployment consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "VM images ensure consistent environments"
+            },
+            {
+                "letter": "B",
+                "text": "Manual configuration per instance"
+            },
+            {
+                "letter": "C",
+                "text": "Different OS versions per service"
+            },
+            {
+                "letter": "D",
+                "text": "No version control"
+            }
+        ],
+        "correct": "A",
+        "explanation": "VM images ensure consistent environments across deployments, reducing configuration drift."
+    },
+    {
+        "title": "MicroservicesDeploymentServiceInstancePerVM - Q0050",
+        "text": "Which of the following best summarizes the role of this pattern in microservices deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploys one service instance per virtual machine to ensure isolation, security, and manageability"
+            },
+            {
+                "letter": "B",
+                "text": "Runs multiple services per VM for efficiency"
+            },
+            {
+                "letter": "C",
+                "text": "Uses containers for lightweight deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates virtualization entirely"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern deploys one service instance per VM to ensure isolation, security, and manageability in microservices."
+    }
+]

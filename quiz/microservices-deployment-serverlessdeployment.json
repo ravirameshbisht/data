@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0001",
+        "text": "What does the 'Serverless Deployment' pattern describe?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Running microservices as functions managed by a cloud provider"
+            },
+            {
+                "letter": "B",
+                "text": "Running microservices on dedicated servers"
+            },
+            {
+                "letter": "C",
+                "text": "Running microservices in virtual machines"
+            },
+            {
+                "letter": "D",
+                "text": "Running microservices in containers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless deployment runs microservices as functions managed by a cloud provider, abstracting server management."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0002",
+        "text": "Which of the following is a key characteristic of serverless deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic scaling based on demand"
+            },
+            {
+                "letter": "B",
+                "text": "Manual provisioning of servers"
+            },
+            {
+                "letter": "C",
+                "text": "Fixed resource allocation"
+            },
+            {
+                "letter": "D",
+                "text": "Persistent server processes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless platforms automatically scale functions up or down based on incoming requests."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0003",
+        "text": "Which of the following is a common platform for serverless deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "AWS Lambda"
+            },
+            {
+                "letter": "B",
+                "text": "VMware vSphere"
+            },
+            {
+                "letter": "C",
+                "text": "Docker Swarm"
+            },
+            {
+                "letter": "D",
+                "text": "Kubernetes"
+            }
+        ],
+        "correct": "A",
+        "explanation": "AWS Lambda is one of the most widely used platforms for serverless deployments."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0004",
+        "text": "Which of the following best describes the pricing model of serverless computing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pay-per-execution"
+            },
+            {
+                "letter": "B",
+                "text": "Fixed monthly cost"
+            },
+            {
+                "letter": "C",
+                "text": "Pay-per-server"
+            },
+            {
+                "letter": "D",
+                "text": "Subscription-based only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless computing uses a pay-per-execution model, charging only for actual usage."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0005",
+        "text": "Which of the following is a benefit of serverless deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No need to manage infrastructure"
+            },
+            {
+                "letter": "B",
+                "text": "Manual scaling required"
+            },
+            {
+                "letter": "C",
+                "text": "Dedicated servers for each function"
+            },
+            {
+                "letter": "D",
+                "text": "Fixed resource allocation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless abstracts infrastructure management, allowing developers to focus on code."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0006",
+        "text": "Which of the following is a disadvantage of serverless deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cold start latency"
+            },
+            {
+                "letter": "B",
+                "text": "Manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "High fixed cost"
+            },
+            {
+                "letter": "D",
+                "text": "Persistent server management"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Cold start latency occurs when a function is invoked after being idle, causing a delay."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0007",
+        "text": "Which of the following is a benefit for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic scaling based on workload"
+            },
+            {
+                "letter": "B",
+                "text": "Manual scaling by administrators"
+            },
+            {
+                "letter": "C",
+                "text": "Fixed number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Static resource allocation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless platforms automatically scale functions based on incoming requests."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0008",
+        "text": "Which of the following is a common use case for serverless deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Event-driven microservices"
+            },
+            {
+                "letter": "B",
+                "text": "Long-running batch jobs"
+            },
+            {
+                "letter": "C",
+                "text": "Persistent database servers"
+            },
+            {
+                "letter": "D",
+                "text": "Static web hosting only"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless is ideal for event-driven microservices that respond to triggers like HTTP requests or messages."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0009",
+        "text": "Which of the following is a limitation of serverless deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Limited execution time per function"
+            },
+            {
+                "letter": "B",
+                "text": "Unlimited runtime"
+            },
+            {
+                "letter": "C",
+                "text": "Persistent background processes"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions have limited execution time, typically a few minutes per invocation."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0010",
+        "text": "Which of the following is a benefit for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pay only for actual usage"
+            },
+            {
+                "letter": "B",
+                "text": "Pay for idle resources"
+            },
+            {
+                "letter": "C",
+                "text": "Fixed monthly cost"
+            },
+            {
+                "letter": "D",
+                "text": "Prepaid resource allocation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless billing is based on actual usage, reducing costs for low-traffic workloads."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0011",
+        "text": "Which of the following is a benefit for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cloud provider manages redundancy and failover"
+            },
+            {
+                "letter": "B",
+                "text": "Manual failover configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "No redundancy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless platforms handle redundancy and failover automatically, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0012",
+        "text": "Which of the following is a disadvantage for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Limited visibility into runtime environment"
+            },
+            {
+                "letter": "B",
+                "text": "Full access to server logs"
+            },
+            {
+                "letter": "C",
+                "text": "Easy local debugging"
+            },
+            {
+                "letter": "D",
+                "text": "Persistent debugging sessions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless environments limit access to the underlying infrastructure, making debugging harder."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0013",
+        "text": "Which of the following is a benefit for deployment speed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Functions can be deployed instantly"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full VM provisioning"
+            },
+            {
+                "letter": "C",
+                "text": "Manual deployment only"
+            },
+            {
+                "letter": "D",
+                "text": "Slow startup times"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions can be deployed quickly without provisioning infrastructure."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0014",
+        "text": "Which of the following is a benefit for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No server maintenance required"
+            },
+            {
+                "letter": "B",
+                "text": "Manual patching required"
+            },
+            {
+                "letter": "C",
+                "text": "Frequent OS updates needed"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless abstracts server maintenance, reducing operational overhead."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0015",
+        "text": "Which of the following is a disadvantage for long-running processes?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Functions have execution time limits"
+            },
+            {
+                "letter": "B",
+                "text": "Functions can run indefinitely"
+            },
+            {
+                "letter": "C",
+                "text": "Functions persist in memory"
+            },
+            {
+                "letter": "D",
+                "text": "Functions support background threads"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions are designed for short-lived tasks and have execution time limits."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0016",
+        "text": "Which of the following is a benefit for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic scaling based on demand"
+            },
+            {
+                "letter": "B",
+                "text": "Manual scaling by administrators"
+            },
+            {
+                "letter": "C",
+                "text": "Fixed number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Static resource allocation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless platforms automatically scale functions based on incoming requests."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0017",
+        "text": "Which of the following is a benefit for cost efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pay only for actual usage"
+            },
+            {
+                "letter": "B",
+                "text": "Pay for idle resources"
+            },
+            {
+                "letter": "C",
+                "text": "Fixed monthly cost"
+            },
+            {
+                "letter": "D",
+                "text": "Prepaid resource allocation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless billing is based on actual usage, reducing costs for low-traffic workloads."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0018",
+        "text": "Which of the following is a disadvantage for vendor lock-in?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Functions are tightly coupled to provider APIs"
+            },
+            {
+                "letter": "B",
+                "text": "Functions are fully portable"
+            },
+            {
+                "letter": "C",
+                "text": "Functions run on any platform"
+            },
+            {
+                "letter": "D",
+                "text": "Functions are provider-independent"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions often depend on provider-specific APIs, leading to vendor lock-in."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0019",
+        "text": "Which of the following is a benefit for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cloud provider manages redundancy and failover"
+            },
+            {
+                "letter": "B",
+                "text": "Manual failover configuration"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "No redundancy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless platforms handle redundancy and failover automatically, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0020",
+        "text": "Which of the following best summarizes this deployment pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploying microservices as event-driven functions managed by a cloud provider"
+            },
+            {
+                "letter": "B",
+                "text": "Running microservices on dedicated servers"
+            },
+            {
+                "letter": "C",
+                "text": "Running microservices in virtual machines"
+            },
+            {
+                "letter": "D",
+                "text": "Running microservices in containers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless deployment runs microservices as event-driven functions managed by a cloud provider."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0021",
+        "text": "Which of the following is a benefit for operational simplicity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No need to manage servers or infrastructure"
+            },
+            {
+                "letter": "B",
+                "text": "Manual server provisioning required"
+            },
+            {
+                "letter": "C",
+                "text": "Requires OS-level maintenance"
+            },
+            {
+                "letter": "D",
+                "text": "Needs dedicated infrastructure teams"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless abstracts infrastructure management, simplifying operations for developers."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0022",
+        "text": "Which of the following is a disadvantage for performance consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cold starts can cause inconsistent response times"
+            },
+            {
+                "letter": "B",
+                "text": "Functions always run instantly"
+            },
+            {
+                "letter": "C",
+                "text": "Functions have fixed latency"
+            },
+            {
+                "letter": "D",
+                "text": "Functions never scale down"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Cold starts introduce latency when functions are invoked after being idle."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0023",
+        "text": "Which of the following is a benefit for elasticity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Functions scale automatically with demand"
+            },
+            {
+                "letter": "B",
+                "text": "Functions require manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Functions have fixed capacity"
+            },
+            {
+                "letter": "D",
+                "text": "Functions cannot scale"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions automatically scale up or down based on workload."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0024",
+        "text": "Which of the following is a benefit for cost management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pay only for execution time and resources used"
+            },
+            {
+                "letter": "B",
+                "text": "Pay for idle servers"
+            },
+            {
+                "letter": "C",
+                "text": "Fixed monthly cost regardless of usage"
+            },
+            {
+                "letter": "D",
+                "text": "Prepaid resource allocation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless billing is based on actual usage, reducing costs for variable workloads."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0025",
+        "text": "Which of the following is a disadvantage for state management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Functions are stateless by design"
+            },
+            {
+                "letter": "B",
+                "text": "Functions maintain in-memory state"
+            },
+            {
+                "letter": "C",
+                "text": "Functions persist state automatically"
+            },
+            {
+                "letter": "D",
+                "text": "Functions store state locally"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions are stateless; external storage must be used for state management."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0026",
+        "text": "Which of the following is a benefit for deployment speed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Functions can be deployed instantly"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full VM provisioning"
+            },
+            {
+                "letter": "C",
+                "text": "Manual deployment only"
+            },
+            {
+                "letter": "D",
+                "text": "Slow startup times"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions can be deployed quickly without provisioning infrastructure."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0027",
+        "text": "Which of the following is a benefit for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No server maintenance required"
+            },
+            {
+                "letter": "B",
+                "text": "Manual patching required"
+            },
+            {
+                "letter": "C",
+                "text": "Frequent OS updates needed"
+            },
+            {
+                "letter": "D",
+                "text": "Manual scaling required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless abstracts server maintenance, reducing operational overhead."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0028",
+        "text": "Which of the following is a disadvantage for vendor lock-in?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Functions are tightly coupled to provider APIs"
+            },
+            {
+                "letter": "B",
+                "text": "Functions are fully portable"
+            },
+            {
+                "letter": "C",
+                "text": "Functions run on any platform"
+            },
+            {
+                "letter": "D",
+                "text": "Functions are provider-independent"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions often depend on provider-specific APIs, leading to vendor lock-in."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0029",
+        "text": "Which of the following is a benefit for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cloud provider ensures high availability"
+            },
+            {
+                "letter": "B",
+                "text": "Manual failover required"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "No redundancy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless platforms ensure high availability and reliability through managed infrastructure."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0030",
+        "text": "Which of the following is a disadvantage for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Limited visibility into runtime environment"
+            },
+            {
+                "letter": "B",
+                "text": "Full access to server logs"
+            },
+            {
+                "letter": "C",
+                "text": "Easy local debugging"
+            },
+            {
+                "letter": "D",
+                "text": "Persistent debugging sessions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless environments limit access to the underlying infrastructure, making debugging harder."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0031",
+        "text": "Which of the following is a benefit for CI/CD integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Serverless functions integrate easily with CI/CD pipelines"
+            },
+            {
+                "letter": "B",
+                "text": "Serverless functions cannot be automated"
+            },
+            {
+                "letter": "C",
+                "text": "Serverless functions require manual deployment"
+            },
+            {
+                "letter": "D",
+                "text": "Serverless functions are incompatible with CI/CD"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions integrate seamlessly with CI/CD pipelines for automated testing and deployment."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0032",
+        "text": "Which of the following is a benefit for modularity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each function handles a single responsibility"
+            },
+            {
+                "letter": "B",
+                "text": "Functions combine multiple services"
+            },
+            {
+                "letter": "C",
+                "text": "Functions share dependencies"
+            },
+            {
+                "letter": "D",
+                "text": "Functions depend on host modules"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless promotes modular design by encouraging small, single-purpose functions."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0033",
+        "text": "Which of the following is a disadvantage for latency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cold starts can increase response time"
+            },
+            {
+                "letter": "B",
+                "text": "Functions always run instantly"
+            },
+            {
+                "letter": "C",
+                "text": "Functions have fixed latency"
+            },
+            {
+                "letter": "D",
+                "text": "Functions never scale down"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Cold starts introduce latency when functions are invoked after being idle."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0034",
+        "text": "Which of the following is a benefit for event-driven architecture?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Functions can be triggered by events like HTTP requests or messages"
+            },
+            {
+                "letter": "B",
+                "text": "Functions require manual invocation"
+            },
+            {
+                "letter": "C",
+                "text": "Functions cannot respond to events"
+            },
+            {
+                "letter": "D",
+                "text": "Functions run continuously"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions are event-driven, responding to triggers such as HTTP requests or queue messages."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0035",
+        "text": "Which of the following is a benefit for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pay only for execution time and resources used"
+            },
+            {
+                "letter": "B",
+                "text": "Pay for idle servers"
+            },
+            {
+                "letter": "C",
+                "text": "Fixed monthly cost regardless of usage"
+            },
+            {
+                "letter": "D",
+                "text": "Prepaid resource allocation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless billing is based on actual usage, reducing costs for variable workloads."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0036",
+        "text": "Which of the following is a disadvantage for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Limited access to infrastructure-level metrics"
+            },
+            {
+                "letter": "B",
+                "text": "Full visibility into servers"
+            },
+            {
+                "letter": "C",
+                "text": "Easy to monitor all layers"
+            },
+            {
+                "letter": "D",
+                "text": "Built-in OS-level monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless abstracts infrastructure, limiting access to low-level monitoring data."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0037",
+        "text": "Which of the following is a benefit for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cloud provider ensures high availability"
+            },
+            {
+                "letter": "B",
+                "text": "Manual failover required"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "No redundancy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless platforms ensure high availability and reliability through managed infrastructure."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0038",
+        "text": "Which of the following is a benefit for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Developers can focus on business logic instead of infrastructure"
+            },
+            {
+                "letter": "B",
+                "text": "Developers must manage servers"
+            },
+            {
+                "letter": "C",
+                "text": "Developers handle scaling manually"
+            },
+            {
+                "letter": "D",
+                "text": "Developers configure OS patches"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless allows developers to focus on business logic, improving agility and productivity."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0039",
+        "text": "Which of the following is a disadvantage for testing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult to replicate cloud environment locally"
+            },
+            {
+                "letter": "B",
+                "text": "Easy local testing"
+            },
+            {
+                "letter": "C",
+                "text": "Full access to runtime environment"
+            },
+            {
+                "letter": "D",
+                "text": "Simple integration testing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Testing serverless functions locally can be difficult due to dependency on cloud services."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0040",
+        "text": "Which of the following best summarizes this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploying microservices as event-driven functions managed by a cloud provider"
+            },
+            {
+                "letter": "B",
+                "text": "Running microservices on dedicated servers"
+            },
+            {
+                "letter": "C",
+                "text": "Running microservices in virtual machines"
+            },
+            {
+                "letter": "D",
+                "text": "Running microservices in containers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless deployment runs microservices as event-driven functions managed by a cloud provider."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0041",
+        "text": "Which of the following is a benefit for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatic scaling based on demand"
+            },
+            {
+                "letter": "B",
+                "text": "Manual scaling by administrators"
+            },
+            {
+                "letter": "C",
+                "text": "Fixed number of instances"
+            },
+            {
+                "letter": "D",
+                "text": "Static resource allocation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless platforms automatically scale functions based on incoming requests."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0042",
+        "text": "Which of the following is a benefit for cost efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Pay only for actual usage"
+            },
+            {
+                "letter": "B",
+                "text": "Pay for idle resources"
+            },
+            {
+                "letter": "C",
+                "text": "Fixed monthly cost"
+            },
+            {
+                "letter": "D",
+                "text": "Prepaid resource allocation"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless billing is based on actual usage, reducing costs for low-traffic workloads."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0043",
+        "text": "Which of the following is a disadvantage for cold starts?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Initial invocation delay after inactivity"
+            },
+            {
+                "letter": "B",
+                "text": "Functions always run instantly"
+            },
+            {
+                "letter": "C",
+                "text": "Functions have fixed latency"
+            },
+            {
+                "letter": "D",
+                "text": "Functions never scale down"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Cold starts occur when a function is invoked after being idle, causing a delay."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0044",
+        "text": "Which of the following is a benefit for modular deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Each function can be deployed independently"
+            },
+            {
+                "letter": "B",
+                "text": "All functions must be deployed together"
+            },
+            {
+                "letter": "C",
+                "text": "Functions cannot be deployed separately"
+            },
+            {
+                "letter": "D",
+                "text": "Functions share deployment scripts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Each serverless function can be deployed independently, supporting modular and flexible deployments."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0045",
+        "text": "Which of the following is a benefit for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cloud provider ensures high availability"
+            },
+            {
+                "letter": "B",
+                "text": "Manual failover required"
+            },
+            {
+                "letter": "C",
+                "text": "Single point of failure"
+            },
+            {
+                "letter": "D",
+                "text": "No redundancy"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless platforms ensure high availability and reliability through managed infrastructure."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0046",
+        "text": "Which of the following is a disadvantage for execution time?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Functions have limited execution duration"
+            },
+            {
+                "letter": "B",
+                "text": "Functions can run indefinitely"
+            },
+            {
+                "letter": "C",
+                "text": "Functions persist in memory"
+            },
+            {
+                "letter": "D",
+                "text": "Functions support background threads"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions are designed for short-lived tasks and have execution time limits."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0047",
+        "text": "Which of the following is a benefit for agility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Developers can focus on business logic instead of infrastructure"
+            },
+            {
+                "letter": "B",
+                "text": "Developers must manage servers"
+            },
+            {
+                "letter": "C",
+                "text": "Developers handle scaling manually"
+            },
+            {
+                "letter": "D",
+                "text": "Developers configure OS patches"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless allows developers to focus on business logic, improving agility and productivity."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0048",
+        "text": "Which of the following is a disadvantage for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Limited access to infrastructure-level metrics"
+            },
+            {
+                "letter": "B",
+                "text": "Full visibility into servers"
+            },
+            {
+                "letter": "C",
+                "text": "Easy to monitor all layers"
+            },
+            {
+                "letter": "D",
+                "text": "Built-in OS-level monitoring"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless abstracts infrastructure, limiting access to low-level monitoring data."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0049",
+        "text": "Which of the following is a benefit for performance optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Functions scale automatically to handle load"
+            },
+            {
+                "letter": "B",
+                "text": "Functions require manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Functions have fixed capacity"
+            },
+            {
+                "letter": "D",
+                "text": "Functions cannot scale"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Serverless functions automatically scale to handle varying workloads efficiently."
+    },
+    {
+        "title": "MicroservicesDeploymentServerlessDeployment - Q0050",
+        "text": "Which of the following best summarizes the role of this pattern in microservices deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploys microservices as event-driven, auto-scaling functions managed by a cloud provider"
+            },
+            {
+                "letter": "B",
+                "text": "Runs microservices on dedicated servers"
+            },
+            {
+                "letter": "C",
+                "text": "Uses VMs for strong isolation"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates cloud infrastructure"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The serverless deployment pattern runs microservices as event-driven, auto-scaling functions managed by a cloud provider."
+    }
+]

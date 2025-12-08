@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0001",
+        "text": "What does the 'Multiple Service Instances per Host' deployment pattern describe?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Running multiple service instances on a single physical or virtual host"
+            },
+            {
+                "letter": "B",
+                "text": "Running one service instance per host"
+            },
+            {
+                "letter": "C",
+                "text": "Running services only in containers"
+            },
+            {
+                "letter": "D",
+                "text": "Running services on separate physical machines"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern describes deploying multiple service instances on a single host to optimize resource usage."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0002",
+        "text": "Which of the following is a key advantage of running multiple service instances per host?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Better resource utilization"
+            },
+            {
+                "letter": "B",
+                "text": "Simpler debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Guaranteed isolation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced configuration complexity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running multiple instances per host improves resource utilization by sharing CPU and memory."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0003",
+        "text": "Which of the following is a potential drawback of this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Resource contention between instances"
+            },
+            {
+                "letter": "B",
+                "text": "Improved fault isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced deployment density"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple instances on one host can compete for CPU, memory, and I/O resources."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0004",
+        "text": "Which deployment technology commonly supports this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Containerization platforms like Docker"
+            },
+            {
+                "letter": "B",
+                "text": "Bare-metal servers only"
+            },
+            {
+                "letter": "C",
+                "text": "Single-tenant VMs"
+            },
+            {
+                "letter": "D",
+                "text": "Serverless functions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containerization platforms like Docker allow multiple isolated service instances to run on one host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0005",
+        "text": "What is a common risk when running multiple service instances per host?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "One instance consuming excessive resources"
+            },
+            {
+                "letter": "B",
+                "text": "Improved fault tolerance"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified monitoring"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced network latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If one instance consumes too many resources, it can degrade performance for others on the same host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0006",
+        "text": "Which of the following is a benefit of this pattern for cost efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maximizes hardware utilization"
+            },
+            {
+                "letter": "B",
+                "text": "Requires more physical servers"
+            },
+            {
+                "letter": "C",
+                "text": "Increases idle resource time"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces deployment density"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running multiple instances per host maximizes hardware utilization, reducing infrastructure costs."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0007",
+        "text": "Which of the following is a challenge in this deployment model?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensuring fair resource allocation among instances"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Improved isolation"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced monitoring needs"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Fair resource allocation is challenging when multiple instances share the same host resources."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0008",
+        "text": "Which of the following tools can help manage multiple service instances per host?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Kubernetes"
+            },
+            {
+                "letter": "B",
+                "text": "FTP"
+            },
+            {
+                "letter": "C",
+                "text": "SSH"
+            },
+            {
+                "letter": "D",
+                "text": "Telnet"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Kubernetes orchestrates multiple service instances across hosts efficiently."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0009",
+        "text": "Which of the following is a benefit of using containers for this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Lightweight isolation between instances"
+            },
+            {
+                "letter": "B",
+                "text": "Full hardware virtualization"
+            },
+            {
+                "letter": "C",
+                "text": "Shared process space"
+            },
+            {
+                "letter": "D",
+                "text": "No resource limits"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers provide lightweight isolation, allowing multiple instances to coexist efficiently."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0010",
+        "text": "Which of the following is a disadvantage of this pattern for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A host failure affects all instances on it"
+            },
+            {
+                "letter": "B",
+                "text": "Each instance runs independently"
+            },
+            {
+                "letter": "C",
+                "text": "Improved recovery time"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified failover"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If the host fails, all service instances running on it are affected, reducing fault isolation."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0011",
+        "text": "Which of the following is a common monitoring challenge in this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracking resource usage per instance"
+            },
+            {
+                "letter": "B",
+                "text": "Monitoring a single process"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified logging"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced metrics collection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monitoring resource usage per instance is complex when multiple instances share a host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0012",
+        "text": "Which of the following is a benefit of this pattern for deployment speed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster startup times due to shared host resources"
+            },
+            {
+                "letter": "B",
+                "text": "Slower deployment due to isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Requires full VM provisioning"
+            },
+            {
+                "letter": "D",
+                "text": "Increases boot time"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Shared host resources allow faster startup and deployment of multiple service instances."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0013",
+        "text": "Which of the following is a common use case for this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Running multiple lightweight microservices on a single server"
+            },
+            {
+                "letter": "B",
+                "text": "Running one monolithic application per host"
+            },
+            {
+                "letter": "C",
+                "text": "Deploying serverless functions"
+            },
+            {
+                "letter": "D",
+                "text": "Hosting static websites"
+            }
+        ],
+        "correct": "A",
+        "explanation": "This pattern is ideal for running multiple lightweight microservices on a single host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0014",
+        "text": "Which of the following is a disadvantage of this pattern for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Potential for cross-instance security breaches"
+            },
+            {
+                "letter": "B",
+                "text": "Improved isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified access control"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced attack surface"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If isolation is weak, one compromised instance could affect others on the same host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0015",
+        "text": "Which of the following is a benefit of this pattern for scaling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows horizontal scaling by adding more instances per host"
+            },
+            {
+                "letter": "B",
+                "text": "Requires vertical scaling only"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents dynamic scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple instances per host allow horizontal scaling by adding more instances as needed."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0016",
+        "text": "Which of the following is a common orchestration challenge?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing instance lifecycle and resource allocation"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced configuration"
+            },
+            {
+                "letter": "D",
+                "text": "Automatic scaling without tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing instance lifecycle and resource allocation is complex when multiple instances share a host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0017",
+        "text": "Which of the following is a benefit of container orchestration in this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automated scheduling and resource management"
+            },
+            {
+                "letter": "B",
+                "text": "Manual deployment only"
+            },
+            {
+                "letter": "C",
+                "text": "Static resource allocation"
+            },
+            {
+                "letter": "D",
+                "text": "No fault tolerance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Container orchestration automates scheduling and resource management for multiple instances per host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0018",
+        "text": "Which of the following is a benefit of this pattern for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces infrastructure costs by maximizing host utilization"
+            },
+            {
+                "letter": "B",
+                "text": "Requires more physical servers"
+            },
+            {
+                "letter": "C",
+                "text": "Increases idle resource time"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces deployment density"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running multiple instances per host reduces infrastructure costs by maximizing resource utilization."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0019",
+        "text": "Which of the following is a disadvantage of this pattern for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single host failure can impact multiple services"
+            },
+            {
+                "letter": "B",
+                "text": "Improved redundancy"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified recovery"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If a host fails, all service instances on that host are affected, reducing fault tolerance."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0020",
+        "text": "Which of the following best summarizes this deployment pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploying multiple isolated service instances on a single host to optimize resource usage"
+            },
+            {
+                "letter": "B",
+                "text": "Running one service per host for maximum isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Deploying services only on dedicated hardware"
+            },
+            {
+                "letter": "D",
+                "text": "Running services without orchestration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern focuses on deploying multiple isolated service instances on a single host to optimize resource usage."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0021",
+        "text": "Which of the following is a benefit of this pattern for deployment density?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Increases the number of services that can run on a single host"
+            },
+            {
+                "letter": "B",
+                "text": "Reduces the number of services per host"
+            },
+            {
+                "letter": "C",
+                "text": "Requires one service per host"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates resource sharing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running multiple service instances per host increases deployment density and resource efficiency."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0022",
+        "text": "Which of the following is a common monitoring requirement for this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Per-instance resource usage tracking"
+            },
+            {
+                "letter": "B",
+                "text": "Single host-level metric only"
+            },
+            {
+                "letter": "C",
+                "text": "No monitoring required"
+            },
+            {
+                "letter": "D",
+                "text": "Manual log inspection"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monitoring per-instance resource usage is essential to detect contention and performance issues."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0023",
+        "text": "Which of the following is a benefit of using containers in this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides process-level isolation between instances"
+            },
+            {
+                "letter": "B",
+                "text": "Requires full OS virtualization"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates orchestration needs"
+            },
+            {
+                "letter": "D",
+                "text": "Prevents scaling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Containers provide process-level isolation, allowing multiple instances to run safely on one host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0024",
+        "text": "Which of the following is a disadvantage for debugging?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Logs from multiple instances can be interleaved"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified log management"
+            },
+            {
+                "letter": "C",
+                "text": "Single log source"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized tracing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple instances on one host can produce interleaved logs, complicating debugging."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0025",
+        "text": "Which of the following is a benefit for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maximizes hardware utilization"
+            },
+            {
+                "letter": "B",
+                "text": "Requires more physical servers"
+            },
+            {
+                "letter": "C",
+                "text": "Increases idle time"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces deployment density"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running multiple instances per host maximizes hardware utilization, reducing infrastructure costs."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0026",
+        "text": "Which of the following is a disadvantage for fault isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A single host failure affects all instances"
+            },
+            {
+                "letter": "B",
+                "text": "Each instance runs independently"
+            },
+            {
+                "letter": "C",
+                "text": "Improved recovery time"
+            },
+            {
+                "letter": "D",
+                "text": "Simplified failover"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If the host fails, all service instances on that host are affected, reducing fault isolation."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0027",
+        "text": "Which of the following is a benefit for scaling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows horizontal scaling by adding more instances per host"
+            },
+            {
+                "letter": "B",
+                "text": "Requires vertical scaling only"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents dynamic scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces scalability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple instances per host allow horizontal scaling by adding more instances as needed."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0028",
+        "text": "Which of the following is a challenge for resource management?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Preventing one instance from monopolizing resources"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified resource allocation"
+            },
+            {
+                "letter": "C",
+                "text": "Static resource usage"
+            },
+            {
+                "letter": "D",
+                "text": "No contention"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Resource contention can occur if one instance consumes excessive CPU or memory."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0029",
+        "text": "Which of the following is a benefit for deployment speed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster startup due to shared host resources"
+            },
+            {
+                "letter": "B",
+                "text": "Slower deployment due to isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Requires full VM provisioning"
+            },
+            {
+                "letter": "D",
+                "text": "Increases boot time"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Shared host resources allow faster startup and deployment of multiple service instances."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0030",
+        "text": "Which of the following is a benefit for orchestration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies scheduling and resource allocation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates automation"
+            },
+            {
+                "letter": "D",
+                "text": "Prevents scaling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Orchestration tools simplify scheduling and resource allocation for multiple instances per host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0031",
+        "text": "Which of the following is a disadvantage for security?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Potential for cross-instance attacks"
+            },
+            {
+                "letter": "B",
+                "text": "Improved isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified access control"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced attack surface"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If isolation is weak, one compromised instance could affect others on the same host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0032",
+        "text": "Which of the following is a benefit for cost efficiency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces infrastructure costs by maximizing host utilization"
+            },
+            {
+                "letter": "B",
+                "text": "Requires more physical servers"
+            },
+            {
+                "letter": "C",
+                "text": "Increases idle resource time"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces deployment density"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running multiple instances per host reduces infrastructure costs by maximizing resource utilization."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0033",
+        "text": "Which of the following is a challenge for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Tracking per-instance metrics accurately"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Single metric collection"
+            },
+            {
+                "letter": "D",
+                "text": "No monitoring required"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Monitoring per-instance metrics is complex when multiple instances share a host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0034",
+        "text": "Which of the following is a benefit for flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows running different services on the same host"
+            },
+            {
+                "letter": "B",
+                "text": "Requires identical services per host"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents service diversity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple service instances per host allow running different services on the same machine."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0035",
+        "text": "Which of the following is a benefit for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Efficient use of CPU and memory resources"
+            },
+            {
+                "letter": "B",
+                "text": "Guaranteed isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Reduced throughput"
+            },
+            {
+                "letter": "D",
+                "text": "Increased latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Efficient resource sharing improves performance and throughput."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0036",
+        "text": "Which of the following is a disadvantage for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A host crash affects all instances"
+            },
+            {
+                "letter": "B",
+                "text": "Improved redundancy"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified recovery"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If a host fails, all service instances on that host are affected, reducing fault tolerance."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0037",
+        "text": "Which of the following is a benefit for deployment automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports automated scaling and scheduling"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual deployment"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates automation"
+            },
+            {
+                "letter": "D",
+                "text": "Prevents scaling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Automation tools like Kubernetes support automated scaling and scheduling for multiple instances per host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0038",
+        "text": "Which of the following is a benefit for resource optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Maximizes CPU and memory utilization"
+            },
+            {
+                "letter": "B",
+                "text": "Increases idle time"
+            },
+            {
+                "letter": "C",
+                "text": "Reduces efficiency"
+            },
+            {
+                "letter": "D",
+                "text": "Requires dedicated hardware"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running multiple instances per host maximizes CPU and memory utilization."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0039",
+        "text": "Which of the following is a disadvantage for troubleshooting?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Difficult to isolate instance-specific issues"
+            },
+            {
+                "letter": "B",
+                "text": "Simplified debugging"
+            },
+            {
+                "letter": "C",
+                "text": "Single log source"
+            },
+            {
+                "letter": "D",
+                "text": "Centralized tracing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple instances on one host make it harder to isolate and troubleshoot specific issues."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0040",
+        "text": "Which of the following best summarizes this pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploying multiple isolated service instances on a single host to optimize resource usage"
+            },
+            {
+                "letter": "B",
+                "text": "Running one service per host for maximum isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Deploying services only on dedicated hardware"
+            },
+            {
+                "letter": "D",
+                "text": "Running services without orchestration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern focuses on deploying multiple isolated service instances on a single host to optimize resource usage."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0041",
+        "text": "Which of the following is a benefit for elasticity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows dynamic scaling of instances on demand"
+            },
+            {
+                "letter": "B",
+                "text": "Requires static scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents scaling"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces flexibility"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple instances per host allow dynamic scaling of services based on demand."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0042",
+        "text": "Which of the following is a benefit for deployment speed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Faster deployment due to shared host resources"
+            },
+            {
+                "letter": "B",
+                "text": "Slower deployment due to isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Requires full VM provisioning"
+            },
+            {
+                "letter": "D",
+                "text": "Increases boot time"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Shared host resources allow faster startup and deployment of multiple service instances."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0043",
+        "text": "Which of the following is a disadvantage for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A host failure affects all instances"
+            },
+            {
+                "letter": "B",
+                "text": "Improved redundancy"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified recovery"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "If a host fails, all service instances on that host are affected, reducing reliability."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0044",
+        "text": "Which of the following is a benefit for orchestration tools?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates deployment and scaling of multiple instances"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual scaling"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates automation"
+            },
+            {
+                "letter": "D",
+                "text": "Prevents scaling"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Orchestration tools automate deployment and scaling of multiple service instances per host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0045",
+        "text": "Which of the following is a benefit for cost optimization?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reduces infrastructure costs by maximizing host utilization"
+            },
+            {
+                "letter": "B",
+                "text": "Requires more physical servers"
+            },
+            {
+                "letter": "C",
+                "text": "Increases idle resource time"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces deployment density"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Running multiple instances per host reduces infrastructure costs by maximizing resource utilization."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0046",
+        "text": "Which of the following is a disadvantage for isolation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Instances share the same OS kernel"
+            },
+            {
+                "letter": "B",
+                "text": "Each instance runs in a separate VM"
+            },
+            {
+                "letter": "C",
+                "text": "Improved isolation"
+            },
+            {
+                "letter": "D",
+                "text": "Dedicated hardware per instance"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Instances share the same OS kernel, which can reduce isolation compared to full VMs."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0047",
+        "text": "Which of the following is a benefit for resource sharing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows efficient sharing of CPU and memory"
+            },
+            {
+                "letter": "B",
+                "text": "Prevents resource sharing"
+            },
+            {
+                "letter": "C",
+                "text": "Requires dedicated hardware"
+            },
+            {
+                "letter": "D",
+                "text": "Reduces efficiency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple instances per host allow efficient sharing of CPU and memory resources."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0048",
+        "text": "Which of the following is a disadvantage for maintenance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Host maintenance affects all instances"
+            },
+            {
+                "letter": "B",
+                "text": "Each instance can be updated independently"
+            },
+            {
+                "letter": "C",
+                "text": "Simplified patching"
+            },
+            {
+                "letter": "D",
+                "text": "Reduced downtime"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Host maintenance can disrupt all service instances running on that host."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0049",
+        "text": "Which of the following is a benefit for deployment flexibility?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Supports running different versions of services on the same host"
+            },
+            {
+                "letter": "B",
+                "text": "Requires identical versions per host"
+            },
+            {
+                "letter": "C",
+                "text": "Prevents version diversity"
+            },
+            {
+                "letter": "D",
+                "text": "Centralizes all logic"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Multiple instances per host allow running different versions of services simultaneously."
+    },
+    {
+        "title": "MicroservicesDeploymentMultipleServiceInstancesPerHost - Q0050",
+        "text": "Which of the following best summarizes the role of this pattern in microservices deployment?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deploys multiple isolated service instances on a single host to optimize resource usage and cost efficiency"
+            },
+            {
+                "letter": "B",
+                "text": "Runs one service per host for maximum isolation"
+            },
+            {
+                "letter": "C",
+                "text": "Uses dedicated hardware for each service"
+            },
+            {
+                "letter": "D",
+                "text": "Eliminates orchestration tools"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern deploys multiple isolated service instances on a single host to optimize resource usage and cost efficiency."
+    }
+]
