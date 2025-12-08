@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0001",
+        "text": "What is the primary purpose of the Polling Publisher pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To reliably publish messages from a database to a message broker"
+            },
+            {
+                "letter": "B",
+                "text": "To handle synchronous API calls"
+            },
+            {
+                "letter": "C",
+                "text": "To manage distributed transactions"
+            },
+            {
+                "letter": "D",
+                "text": "To replace message brokers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern ensures reliable message publishing by polling a database for new events and sending them to a message broker."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0002",
+        "text": "Which of the following best describes the Polling Publisher pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A background process polls a database table for new messages to publish"
+            },
+            {
+                "letter": "B",
+                "text": "A service directly sends messages to a broker during a transaction"
+            },
+            {
+                "letter": "C",
+                "text": "A synchronous API call publishes messages"
+            },
+            {
+                "letter": "D",
+                "text": "A database trigger sends messages automatically"
+            }
+        ],
+        "correct": "A",
+        "explanation": "In the Polling Publisher pattern, a background process polls a database table for new messages and publishes them asynchronously."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0003",
+        "text": "Which problem does the Polling Publisher pattern primarily solve?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The dual-write problem between a database and a message broker"
+            },
+            {
+                "letter": "B",
+                "text": "The problem of message ordering"
+            },
+            {
+                "letter": "C",
+                "text": "The problem of schema evolution"
+            },
+            {
+                "letter": "D",
+                "text": "The problem of network latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern solves the dual-write problem by decoupling message publishing from the main transaction."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0004",
+        "text": "What component is responsible for detecting new messages in the Polling Publisher pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A background polling process"
+            },
+            {
+                "letter": "B",
+                "text": "A synchronous API call"
+            },
+            {
+                "letter": "C",
+                "text": "A database trigger"
+            },
+            {
+                "letter": "D",
+                "text": "A message consumer"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A background polling process periodically checks the database for new messages to publish."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0005",
+        "text": "Which of the following is a common data source for the Polling Publisher?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Outbox table"
+            },
+            {
+                "letter": "B",
+                "text": "Cache"
+            },
+            {
+                "letter": "C",
+                "text": "File system"
+            },
+            {
+                "letter": "D",
+                "text": "API Gateway"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher typically reads messages from an outbox table in the database."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0006",
+        "text": "Which of the following is a key advantage of the Polling Publisher pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures reliable message delivery without distributed transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates the need for message brokers"
+            },
+            {
+                "letter": "C",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern ensures reliable message delivery without requiring distributed transactions."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0007",
+        "text": "Which of the following is a common challenge in implementing the Polling Publisher pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing duplicate message delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Handling synchronous calls"
+            },
+            {
+                "letter": "C",
+                "text": "Managing UI state"
+            },
+            {
+                "letter": "D",
+                "text": "Handling schema migrations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Duplicate message delivery can occur if the polling process retries after a failure, requiring idempotent consumers."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0008",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures messages are not lost even if the service crashes"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates retries"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees message ordering"
+            },
+            {
+                "letter": "D",
+                "text": "Removes persistence"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Messages stored in the outbox table are persisted, ensuring they are not lost even if the service crashes."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0009",
+        "text": "Which of the following is a common strategy for marking messages as processed?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Updating a status column in the outbox table"
+            },
+            {
+                "letter": "B",
+                "text": "Deleting the entire table"
+            },
+            {
+                "letter": "C",
+                "text": "Using a cache flag"
+            },
+            {
+                "letter": "D",
+                "text": "Restarting the service"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Processed messages are typically marked by updating a status column in the outbox table."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0010",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures data and messages are consistent across systems"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern ensures consistency between database state and published messages."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0011",
+        "text": "Which of the following is a common polling interval strategy?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Fixed or exponential backoff intervals"
+            },
+            {
+                "letter": "B",
+                "text": "Random intervals"
+            },
+            {
+                "letter": "C",
+                "text": "Manual triggering"
+            },
+            {
+                "letter": "D",
+                "text": "Continuous blocking"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Polling intervals can be fixed or use exponential backoff to balance performance and load."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0012",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Messages are retried until successfully delivered"
+            },
+            {
+                "letter": "B",
+                "text": "Messages are discarded on failure"
+            },
+            {
+                "letter": "C",
+                "text": "Retries are disabled"
+            },
+            {
+                "letter": "D",
+                "text": "Failures are ignored"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern ensures messages are retried until successfully delivered, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0013",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows asynchronous message processing"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern supports asynchronous message processing, improving scalability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0014",
+        "text": "Which of the following is a common tool used to implement the Polling Publisher pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Spring Batch"
+            },
+            {
+                "letter": "B",
+                "text": "Redis"
+            },
+            {
+                "letter": "C",
+                "text": "Nginx"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Spring Batch can be used to implement polling jobs that read from the outbox and publish messages."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0015",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates message publishing after transaction commits"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual message publishing"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern automates message publishing after transaction commits."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0016",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decouples data persistence from message publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Couples all services tightly"
+            },
+            {
+                "letter": "C",
+                "text": "Removes asynchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern decouples data persistence from message publishing, improving modularity."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0017",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into message publishing and delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern provides visibility into message publishing and delivery for observability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0018",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies message handling logic by separating persistence and publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Increases code duplication"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Disables versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern separates persistence and publishing, simplifying maintenance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0019",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows replaying undelivered messages after failure"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern allows replaying undelivered messages after failure for recovery."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0020",
+        "text": "Which of the following best describes the purpose of the Polling Publisher pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To reliably publish messages from a database to a message broker using periodic polling"
+            },
+            {
+                "letter": "B",
+                "text": "To manage distributed transactions"
+            },
+            {
+                "letter": "C",
+                "text": "To handle synchronous API calls"
+            },
+            {
+                "letter": "D",
+                "text": "To replace message brokers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern reliably publishes messages from a database to a message broker using periodic polling."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0021",
+        "text": "Which of the following is a common scheduling mechanism for the Polling Publisher?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Cron-based scheduler"
+            },
+            {
+                "letter": "B",
+                "text": "Manual trigger"
+            },
+            {
+                "letter": "C",
+                "text": "User interface button"
+            },
+            {
+                "letter": "D",
+                "text": "Database trigger"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A cron-based scheduler is often used to periodically trigger the polling process."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0022",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically detects and publishes new messages"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual message publishing"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern automatically detects and publishes new messages without manual intervention."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0023",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can retry failed message deliveries"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern can retry failed message deliveries to ensure reliability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0024",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decouples data persistence from message publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Couples all services tightly"
+            },
+            {
+                "letter": "C",
+                "text": "Removes asynchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern decouples data persistence from message publishing, improving modularity."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0025",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into message publishing and delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern provides visibility into message publishing and delivery for observability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0026",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows asynchronous message publishing without blocking transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Increases latency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern allows asynchronous message publishing without blocking transactions."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0027",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures messages reflect the actual committed state of the database"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern ensures messages reflect the actual committed state of the database."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0028",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows multiple polling instances to scale horizontally"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single polling instance"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern supports horizontal scaling by allowing multiple polling instances."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0029",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures all committed transactions are captured"
+            },
+            {
+                "letter": "B",
+                "text": "Removes persistence"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates retries"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern ensures all committed transactions are captured and processed reliably."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0030",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically captures and publishes database changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual message publishing"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern automatically captures and publishes database changes without manual intervention."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0031",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can resume from the last processed message after failure"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern can resume from the last processed message, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0032",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decouples data persistence from event publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Couples all services tightly"
+            },
+            {
+                "letter": "C",
+                "text": "Removes asynchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern decouples data persistence from event publishing, improving modularity."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0033",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into message publishing and delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern provides visibility into message publishing and delivery for observability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0034",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows asynchronous message publishing without blocking transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Increases latency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern allows asynchronous message publishing without blocking transactions."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0035",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures messages reflect the actual committed state of the database"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern ensures messages reflect the actual committed state of the database."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0036",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows multiple polling instances to scale horizontally"
+            },
+            {
+                "letter": "B",
+                "text": "Requires a single polling instance"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern supports horizontal scaling by allowing multiple polling instances."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0037",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures all committed transactions are captured"
+            },
+            {
+                "letter": "B",
+                "text": "Removes persistence"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates retries"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern ensures all committed transactions are captured and processed reliably."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0038",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically captures and publishes database changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual message publishing"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern automatically captures and publishes database changes without manual intervention."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0039",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can resume from the last processed message after failure"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern can resume from the last processed message, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0040",
+        "text": "Which of the following best summarizes the role of the Polling Publisher pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reliably publishes messages from a database to a message broker using periodic polling"
+            },
+            {
+                "letter": "B",
+                "text": "Handles synchronous communication between services"
+            },
+            {
+                "letter": "C",
+                "text": "Replaces message brokers entirely"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern reliably publishes messages from a database to a message broker using periodic polling."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0041",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for durability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Messages are persisted until successfully delivered"
+            },
+            {
+                "letter": "B",
+                "text": "Messages are deleted immediately"
+            },
+            {
+                "letter": "C",
+                "text": "Messages are stored in memory only"
+            },
+            {
+                "letter": "D",
+                "text": "Messages are not persisted"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern ensures message durability by persisting messages until successful delivery."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0042",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables integration with external systems through event streaming"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual data export"
+            },
+            {
+                "letter": "C",
+                "text": "Removes integration capabilities"
+            },
+            {
+                "letter": "D",
+                "text": "Disables event streaming"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern enables integration with external systems through event streaming."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0043",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for real-time processing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides near real-time event propagation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires batch processing"
+            },
+            {
+                "letter": "C",
+                "text": "Increases latency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables streaming"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern provides near real-time event propagation for reactive systems."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0044",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Requires no changes to application logic"
+            },
+            {
+                "letter": "B",
+                "text": "Increases code complexity"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual event handling"
+            },
+            {
+                "letter": "D",
+                "text": "Disables modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern requires no changes to application logic, simplifying maintenance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0045",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for auditing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a complete record of all published messages"
+            },
+            {
+                "letter": "B",
+                "text": "Removes audit logs"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI auditing"
+            },
+            {
+                "letter": "D",
+                "text": "Disables traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern provides a complete record of all published messages for auditing."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0046",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for compliance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures traceability of all published messages"
+            },
+            {
+                "letter": "B",
+                "text": "Removes compliance checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI compliance"
+            },
+            {
+                "letter": "D",
+                "text": "Disables auditing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern ensures traceability of all published messages, aiding compliance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0047",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides metrics for message publishing and delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern provides metrics for message publishing and delivery for monitoring."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0048",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can recover from failures using message offsets or status flags"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern can recover from failures using message offsets or status flags, improving resilience."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0049",
+        "text": "Which of the following is a benefit of the Polling Publisher pattern for integration with event-driven systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Streams database changes directly to event brokers"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual event creation"
+            },
+            {
+                "letter": "C",
+                "text": "Removes event streaming"
+            },
+            {
+                "letter": "D",
+                "text": "Disables integration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern streams database changes directly to event brokers for event-driven integration."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingPollingPublisher - Q0050",
+        "text": "Which of the following best summarizes the role of the Polling Publisher pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reliably publishes messages from a database to a message broker using periodic polling for consistent, asynchronous communication"
+            },
+            {
+                "letter": "B",
+                "text": "Handles synchronous communication between services"
+            },
+            {
+                "letter": "C",
+                "text": "Replaces message brokers entirely"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Polling Publisher pattern reliably publishes messages from a database to a message broker using periodic polling for consistent, asynchronous communication."
+    }
+]

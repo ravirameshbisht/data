@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0001",
+        "text": "What is the primary purpose of the Transactional Outbox pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To ensure reliable message delivery between services using a single database transaction"
+            },
+            {
+                "letter": "B",
+                "text": "To batch process messages asynchronously"
+            },
+            {
+                "letter": "C",
+                "text": "To replace message brokers"
+            },
+            {
+                "letter": "D",
+                "text": "To handle UI updates"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures reliable message delivery by storing messages in the same transaction as the business data."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0002",
+        "text": "Which problem does the Transactional Outbox pattern primarily solve?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The dual-write problem between a database and a message broker"
+            },
+            {
+                "letter": "B",
+                "text": "The problem of message ordering"
+            },
+            {
+                "letter": "C",
+                "text": "The problem of schema evolution"
+            },
+            {
+                "letter": "D",
+                "text": "The problem of network latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern solves the dual-write problem by ensuring atomic writes to both the database and the outbox table."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0003",
+        "text": "What is typically stored in the outbox table?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Messages or events to be published to other services"
+            },
+            {
+                "letter": "B",
+                "text": "User session data"
+            },
+            {
+                "letter": "C",
+                "text": "Configuration settings"
+            },
+            {
+                "letter": "D",
+                "text": "Cache metadata"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The outbox table stores messages or events that need to be published to other services."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0004",
+        "text": "Which of the following best describes the dual-write problem?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Writing to a database and a message broker in separate transactions can cause inconsistencies"
+            },
+            {
+                "letter": "B",
+                "text": "Writing to multiple tables in a single transaction"
+            },
+            {
+                "letter": "C",
+                "text": "Writing to a cache and a database simultaneously"
+            },
+            {
+                "letter": "D",
+                "text": "Writing to multiple microservices at once"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The dual-write problem occurs when writing to a database and a message broker separately, risking inconsistency."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0005",
+        "text": "How does the Transactional Outbox pattern ensure atomicity?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "By writing both business data and messages in the same database transaction"
+            },
+            {
+                "letter": "B",
+                "text": "By using distributed transactions"
+            },
+            {
+                "letter": "C",
+                "text": "By using eventual consistency only"
+            },
+            {
+                "letter": "D",
+                "text": "By using message deduplication"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The pattern ensures atomicity by writing both business data and messages in the same database transaction."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0006",
+        "text": "What component is responsible for reading messages from the outbox table and publishing them?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Outbox relay or message relay process"
+            },
+            {
+                "letter": "B",
+                "text": "Database trigger"
+            },
+            {
+                "letter": "C",
+                "text": "API Gateway"
+            },
+            {
+                "letter": "D",
+                "text": "Load balancer"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The outbox relay process reads messages from the outbox table and publishes them to the message broker."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0007",
+        "text": "Which of the following is a key benefit of the Transactional Outbox pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Guarantees reliable message delivery without distributed transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates the need for message brokers"
+            },
+            {
+                "letter": "C",
+                "text": "Ensures synchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Simplifies UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures reliable message delivery without requiring distributed transactions."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0008",
+        "text": "Which of the following is a common challenge when implementing the Transactional Outbox pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Managing outbox table cleanup"
+            },
+            {
+                "letter": "B",
+                "text": "Handling synchronous calls"
+            },
+            {
+                "letter": "C",
+                "text": "Managing UI state"
+            },
+            {
+                "letter": "D",
+                "text": "Handling schema migrations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Managing cleanup of processed messages in the outbox table is a common challenge."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0009",
+        "text": "Which of the following is a common strategy for cleaning up the outbox table?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Deleting processed messages after successful publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Archiving all messages indefinitely"
+            },
+            {
+                "letter": "C",
+                "text": "Ignoring processed messages"
+            },
+            {
+                "letter": "D",
+                "text": "Manually truncating the table"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Processed messages are typically deleted after successful publishing to prevent table growth."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0010",
+        "text": "Which of the following is a common storage mechanism for the outbox?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "A dedicated database table"
+            },
+            {
+                "letter": "B",
+                "text": "A message queue"
+            },
+            {
+                "letter": "C",
+                "text": "A cache"
+            },
+            {
+                "letter": "D",
+                "text": "A file system"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The outbox is typically implemented as a dedicated database table within the same database as the business data."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0011",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures messages are not lost even if the service crashes"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates retries"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees message ordering"
+            },
+            {
+                "letter": "D",
+                "text": "Removes persistence"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Messages stored in the outbox table are persisted, ensuring they are not lost even if the service crashes."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0012",
+        "text": "Which of the following is a common pattern used alongside the Transactional Outbox?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Idempotent Consumer"
+            },
+            {
+                "letter": "B",
+                "text": "Saga Orchestration"
+            },
+            {
+                "letter": "C",
+                "text": "Circuit Breaker"
+            },
+            {
+                "letter": "D",
+                "text": "Bulkhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Idempotent Consumer pattern is often used with the Transactional Outbox to handle duplicate message deliveries."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0013",
+        "text": "Which of the following is a key advantage of the Transactional Outbox pattern over distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simpler implementation and better scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Stronger consistency guarantees"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates the need for message brokers"
+            },
+            {
+                "letter": "D",
+                "text": "Requires two-phase commit"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern avoids distributed transactions, offering simpler implementation and better scalability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0014",
+        "text": "Which of the following is a common way to publish messages from the outbox?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Polling the outbox table periodically"
+            },
+            {
+                "letter": "B",
+                "text": "Using synchronous API calls"
+            },
+            {
+                "letter": "C",
+                "text": "Using database triggers"
+            },
+            {
+                "letter": "D",
+                "text": "Using manual scripts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A background process typically polls the outbox table periodically to publish messages."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0015",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures data and messages are consistent across systems"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures consistency between database state and published messages."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0016",
+        "text": "Which of the following is a common challenge in implementing the Transactional Outbox pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling duplicate message delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Managing synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Handling UI rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Managing schema migrations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Duplicate message delivery can occur, requiring idempotent consumers to handle it safely."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0017",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Messages are persisted and retried until successfully delivered"
+            },
+            {
+                "letter": "B",
+                "text": "Messages are discarded on failure"
+            },
+            {
+                "letter": "C",
+                "text": "Retries are disabled"
+            },
+            {
+                "letter": "D",
+                "text": "Failures are ignored"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures messages are retried until successfully delivered, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0018",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows asynchronous message processing"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern supports asynchronous message processing, improving scalability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0019",
+        "text": "Which of the following is a common tool used to implement the Transactional Outbox pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Debezium"
+            },
+            {
+                "letter": "B",
+                "text": "Redis"
+            },
+            {
+                "letter": "C",
+                "text": "Nginx"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Debezium can be used to capture changes from the outbox table and publish them to message brokers."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0020",
+        "text": "Which of the following best describes the purpose of the Transactional Outbox pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To ensure reliable, atomic message publishing alongside database transactions"
+            },
+            {
+                "letter": "B",
+                "text": "To manage distributed transactions"
+            },
+            {
+                "letter": "C",
+                "text": "To handle synchronous API calls"
+            },
+            {
+                "letter": "D",
+                "text": "To replace message brokers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures reliable, atomic message publishing alongside database transactions."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0021",
+        "text": "Which of the following is a common approach to detect new messages in the outbox table?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Polling the outbox table periodically"
+            },
+            {
+                "letter": "B",
+                "text": "Using synchronous API calls"
+            },
+            {
+                "letter": "C",
+                "text": "Manual inspection"
+            },
+            {
+                "letter": "D",
+                "text": "Database triggers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A background process or relay polls the outbox table periodically to detect and publish new messages."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0022",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures data and messages are consistent across systems"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures consistency between database state and published messages."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0023",
+        "text": "Which of the following is a common challenge in implementing the Transactional Outbox pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling duplicate message delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Managing synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Handling UI rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Managing schema migrations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Duplicate message delivery can occur, requiring idempotent consumers to handle it safely."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0024",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Messages are persisted and retried until successfully delivered"
+            },
+            {
+                "letter": "B",
+                "text": "Messages are discarded on failure"
+            },
+            {
+                "letter": "C",
+                "text": "Retries are disabled"
+            },
+            {
+                "letter": "D",
+                "text": "Failures are ignored"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures messages are retried until successfully delivered, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0025",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows asynchronous message processing"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern supports asynchronous message processing, improving scalability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0026",
+        "text": "Which of the following is a common tool used to implement the Transactional Outbox pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Debezium"
+            },
+            {
+                "letter": "B",
+                "text": "Redis"
+            },
+            {
+                "letter": "C",
+                "text": "Nginx"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Debezium can be used to capture changes from the outbox table and publish them to message brokers."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0027",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures messages are not lost even if the service crashes"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates retries"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees message ordering"
+            },
+            {
+                "letter": "D",
+                "text": "Removes persistence"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Messages stored in the outbox table are persisted, ensuring they are not lost even if the service crashes."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0028",
+        "text": "Which of the following is a common pattern used alongside the Transactional Outbox?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Idempotent Consumer"
+            },
+            {
+                "letter": "B",
+                "text": "Saga Orchestration"
+            },
+            {
+                "letter": "C",
+                "text": "Circuit Breaker"
+            },
+            {
+                "letter": "D",
+                "text": "Bulkhead"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Idempotent Consumer pattern is often used with the Transactional Outbox to handle duplicate message deliveries."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0029",
+        "text": "Which of the following is a key advantage of the Transactional Outbox pattern over distributed transactions?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simpler implementation and better scalability"
+            },
+            {
+                "letter": "B",
+                "text": "Stronger consistency guarantees"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates the need for message brokers"
+            },
+            {
+                "letter": "D",
+                "text": "Requires two-phase commit"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern avoids distributed transactions, offering simpler implementation and better scalability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0030",
+        "text": "Which of the following is a common way to publish messages from the outbox?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Polling the outbox table periodically"
+            },
+            {
+                "letter": "B",
+                "text": "Using synchronous API calls"
+            },
+            {
+                "letter": "C",
+                "text": "Using database triggers"
+            },
+            {
+                "letter": "D",
+                "text": "Using manual scripts"
+            }
+        ],
+        "correct": "A",
+        "explanation": "A background process typically polls the outbox table periodically to publish messages."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0031",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures data and messages are consistent across systems"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures consistency between database state and published messages."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0032",
+        "text": "Which of the following is a common challenge in implementing the Transactional Outbox pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling duplicate message delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Managing synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Handling UI rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Managing schema migrations"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Duplicate message delivery can occur, requiring idempotent consumers to handle it safely."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0033",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Messages are persisted and retried until successfully delivered"
+            },
+            {
+                "letter": "B",
+                "text": "Messages are discarded on failure"
+            },
+            {
+                "letter": "C",
+                "text": "Retries are disabled"
+            },
+            {
+                "letter": "D",
+                "text": "Failures are ignored"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures messages are retried until successfully delivered, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0034",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows asynchronous message processing"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern supports asynchronous message processing, improving scalability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0035",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures messages are not lost even if the service crashes"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates retries"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees message ordering"
+            },
+            {
+                "letter": "D",
+                "text": "Removes persistence"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Messages stored in the outbox table are persisted, ensuring they are not lost even if the service crashes."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0036",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into message publishing and delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern provides visibility into message publishing and delivery for observability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0037",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Simplifies message handling logic by separating persistence and publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Increases code duplication"
+            },
+            {
+                "letter": "C",
+                "text": "Removes modularity"
+            },
+            {
+                "letter": "D",
+                "text": "Disables versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern separates persistence and publishing, simplifying maintenance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0038",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates message publishing after transaction commits"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual message publishing"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern automates message publishing after transaction commits."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0039",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures messages are retried until successful delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Removes error handling"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI recovery"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures messages are retried until successful delivery, improving resilience."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0040",
+        "text": "Which of the following best describes the purpose of the Transactional Outbox pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To ensure reliable, atomic message publishing alongside database transactions"
+            },
+            {
+                "letter": "B",
+                "text": "To manage distributed transactions"
+            },
+            {
+                "letter": "C",
+                "text": "To handle synchronous API calls"
+            },
+            {
+                "letter": "D",
+                "text": "To replace message brokers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures reliable, atomic message publishing alongside database transactions."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0041",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for message durability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Messages are persisted until successfully delivered"
+            },
+            {
+                "letter": "B",
+                "text": "Messages are deleted immediately after creation"
+            },
+            {
+                "letter": "C",
+                "text": "Messages are stored in memory only"
+            },
+            {
+                "letter": "D",
+                "text": "Messages are not persisted"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures message durability by persisting messages until successful delivery."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0042",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decouples message creation from message delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Couples all services tightly"
+            },
+            {
+                "letter": "C",
+                "text": "Removes asynchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern decouples message creation from delivery, improving system modularity."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0043",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into message publishing and delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern provides visibility into message publishing and delivery for observability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0044",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures data and messages are consistent across systems"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures consistency between database state and published messages."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0045",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows replaying undelivered messages after failure"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables versioning"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern allows replaying undelivered messages after failure for recovery."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0046",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides metrics for message publishing and delivery"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern provides metrics for message publishing and delivery for monitoring."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0047",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automates message publishing after transaction commits"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual message publishing"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern automates message publishing after transaction commits."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0048",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures messages are not lost even if the service crashes"
+            },
+            {
+                "letter": "B",
+                "text": "Eliminates retries"
+            },
+            {
+                "letter": "C",
+                "text": "Guarantees message ordering"
+            },
+            {
+                "letter": "D",
+                "text": "Removes persistence"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Messages stored in the outbox table are persisted, ensuring they are not lost even if the service crashes."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0049",
+        "text": "Which of the following is a benefit of using the Transactional Outbox pattern for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures data and messages are consistent across systems"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures consistency between database state and published messages."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionalOutbox - Q0050",
+        "text": "Which of the following best summarizes the role of the Transactional Outbox pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures reliable, atomic, and consistent message publishing without distributed transactions"
+            },
+            {
+                "letter": "B",
+                "text": "Handles synchronous communication between services"
+            },
+            {
+                "letter": "C",
+                "text": "Replaces message brokers entirely"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "The Transactional Outbox pattern ensures reliable, atomic, and consistent message publishing without distributed transactions."
+    }
+]

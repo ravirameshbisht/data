@@ -1,0 +1,1202 @@
+[
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0001",
+        "text": "What is the primary purpose of the Transaction Log Tailing pattern in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To capture and publish database changes as events"
+            },
+            {
+                "letter": "B",
+                "text": "To manage distributed transactions"
+            },
+            {
+                "letter": "C",
+                "text": "To handle synchronous API calls"
+            },
+            {
+                "letter": "D",
+                "text": "To replace message brokers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction Log Tailing captures database changes directly from the transaction log and publishes them as events."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0002",
+        "text": "Which of the following best describes transaction log tailing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Reading database transaction logs to detect and propagate data changes"
+            },
+            {
+                "letter": "B",
+                "text": "Polling the database tables for updates"
+            },
+            {
+                "letter": "C",
+                "text": "Using distributed transactions for consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Manually updating message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing reads database transaction logs to detect and propagate data changes efficiently."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0003",
+        "text": "Which of the following problems does transaction log tailing solve?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "The dual-write problem between a database and a message broker"
+            },
+            {
+                "letter": "B",
+                "text": "The problem of message ordering"
+            },
+            {
+                "letter": "C",
+                "text": "The problem of schema evolution"
+            },
+            {
+                "letter": "D",
+                "text": "The problem of network latency"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing solves the dual-write problem by reading committed changes directly from the database log."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0004",
+        "text": "Which of the following is a common tool used for transaction log tailing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Debezium"
+            },
+            {
+                "letter": "B",
+                "text": "Redis"
+            },
+            {
+                "letter": "C",
+                "text": "Nginx"
+            },
+            {
+                "letter": "D",
+                "text": "Elasticsearch"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Debezium is a popular open-source tool for implementing transaction log tailing using change data capture (CDC)."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0005",
+        "text": "Which of the following is a key advantage of transaction log tailing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "No changes are required in the application code"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual message publishing"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling between services"
+            },
+            {
+                "letter": "D",
+                "text": "Requires distributed transactions"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing works at the database level, requiring no changes to application code."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0006",
+        "text": "Which of the following is a common use case for transaction log tailing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Change Data Capture (CDC)"
+            },
+            {
+                "letter": "B",
+                "text": "UI rendering"
+            },
+            {
+                "letter": "C",
+                "text": "Load balancing"
+            },
+            {
+                "letter": "D",
+                "text": "Caching static assets"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing is commonly used for Change Data Capture (CDC) to detect and propagate data changes."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0007",
+        "text": "Which of the following is a benefit of transaction log tailing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures all committed changes are captured and published"
+            },
+            {
+                "letter": "B",
+                "text": "Removes persistence"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates retries"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing ensures all committed changes are captured and published reliably."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0008",
+        "text": "Which of the following is a common challenge in transaction log tailing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Handling schema changes in the database"
+            },
+            {
+                "letter": "B",
+                "text": "Managing synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Handling UI rendering"
+            },
+            {
+                "letter": "D",
+                "text": "Managing static assets"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Schema changes can complicate transaction log tailing because the log structure may change."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0009",
+        "text": "Which of the following is a benefit of transaction log tailing for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures data and events are consistent with the database state"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing ensures that events reflect the actual committed state of the database."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0010",
+        "text": "Which of the following is a key difference between transaction log tailing and the transactional outbox pattern?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Transaction log tailing reads from the database log, while outbox writes to a separate table"
+            },
+            {
+                "letter": "B",
+                "text": "Transaction log tailing requires code changes, while outbox does not"
+            },
+            {
+                "letter": "C",
+                "text": "Transaction log tailing uses distributed transactions"
+            },
+            {
+                "letter": "D",
+                "text": "Transactional outbox does not persist messages"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing reads directly from the database log, while the outbox pattern writes messages to a separate table."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0011",
+        "text": "Which of the following is a benefit of transaction log tailing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows asynchronous event propagation without impacting application performance"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing propagates events asynchronously, improving scalability and performance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0012",
+        "text": "Which of the following is a common database feature leveraged by transaction log tailing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Change Data Capture (CDC)"
+            },
+            {
+                "letter": "B",
+                "text": "Stored procedures"
+            },
+            {
+                "letter": "C",
+                "text": "Views"
+            },
+            {
+                "letter": "D",
+                "text": "Triggers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing often uses Change Data Capture (CDC) features to detect and stream changes."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0013",
+        "text": "Which of the following is a benefit of transaction log tailing for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can resume from the last processed log position after failure"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing can resume from the last processed log position, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0014",
+        "text": "Which of the following is a benefit of transaction log tailing for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically captures and publishes database changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual message publishing"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing automatically captures and publishes database changes without manual intervention."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0015",
+        "text": "Which of the following is a benefit of transaction log tailing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures all committed transactions are captured"
+            },
+            {
+                "letter": "B",
+                "text": "Removes persistence"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates retries"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing ensures all committed transactions are captured and processed reliably."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0016",
+        "text": "Which of the following is a benefit of transaction log tailing for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decouples data changes from event publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Couples all services tightly"
+            },
+            {
+                "letter": "C",
+                "text": "Removes asynchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing decouples data changes from event publishing, improving modularity."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0017",
+        "text": "Which of the following is a benefit of transaction log tailing for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into database changes and event publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing provides visibility into database changes and event publishing for observability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0018",
+        "text": "Which of the following is a benefit of transaction log tailing for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Avoids additional writes to the database"
+            },
+            {
+                "letter": "B",
+                "text": "Requires extra database writes"
+            },
+            {
+                "letter": "C",
+                "text": "Increases latency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing avoids additional writes by reading from the database log instead of application tables."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0019",
+        "text": "Which of the following is a benefit of transaction log tailing for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures events reflect the actual committed state of the database"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing ensures events reflect the actual committed state of the database."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0020",
+        "text": "Which of the following best describes the purpose of transaction log tailing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "To capture and publish database changes as events without modifying application code"
+            },
+            {
+                "letter": "B",
+                "text": "To manage distributed transactions"
+            },
+            {
+                "letter": "C",
+                "text": "To handle synchronous API calls"
+            },
+            {
+                "letter": "D",
+                "text": "To replace message brokers"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing captures and publishes database changes as events without modifying application code."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0021",
+        "text": "Which of the following is a common database that supports transaction log tailing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "PostgreSQL"
+            },
+            {
+                "letter": "B",
+                "text": "SQLite"
+            },
+            {
+                "letter": "C",
+                "text": "MongoDB"
+            },
+            {
+                "letter": "D",
+                "text": "Redis"
+            }
+        ],
+        "correct": "A",
+        "explanation": "PostgreSQL supports transaction log tailing through logical decoding and replication slots."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0022",
+        "text": "Which of the following is a benefit of transaction log tailing for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically detects and streams database changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual event publishing"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing automatically detects and streams database changes without manual intervention."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0023",
+        "text": "Which of the following is a benefit of transaction log tailing for fault recovery?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can resume from the last processed log position after failure"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing can resume from the last processed log position, improving fault recovery."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0024",
+        "text": "Which of the following is a benefit of transaction log tailing for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decouples data persistence from event publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Couples all services tightly"
+            },
+            {
+                "letter": "C",
+                "text": "Removes asynchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing decouples data persistence from event publishing, improving modularity."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0025",
+        "text": "Which of the following is a benefit of transaction log tailing for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into database changes and event publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing provides visibility into database changes and event publishing for observability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0026",
+        "text": "Which of the following is a benefit of transaction log tailing for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Avoids additional writes to the database"
+            },
+            {
+                "letter": "B",
+                "text": "Requires extra database writes"
+            },
+            {
+                "letter": "C",
+                "text": "Increases latency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing avoids additional writes by reading from the database log instead of application tables."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0027",
+        "text": "Which of the following is a benefit of transaction log tailing for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures events reflect the actual committed state of the database"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing ensures events reflect the actual committed state of the database."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0028",
+        "text": "Which of the following is a benefit of transaction log tailing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows asynchronous event propagation without impacting application performance"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing propagates events asynchronously, improving scalability and performance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0029",
+        "text": "Which of the following is a benefit of transaction log tailing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures all committed transactions are captured"
+            },
+            {
+                "letter": "B",
+                "text": "Removes persistence"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates retries"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing ensures all committed transactions are captured and processed reliably."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0030",
+        "text": "Which of the following is a benefit of transaction log tailing for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically captures and publishes database changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual message publishing"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing automatically captures and publishes database changes without manual intervention."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0031",
+        "text": "Which of the following is a benefit of transaction log tailing for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can resume from the last processed log position after failure"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing can resume from the last processed log position, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0032",
+        "text": "Which of the following is a benefit of transaction log tailing for decoupling?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Decouples data persistence from event publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Couples all services tightly"
+            },
+            {
+                "letter": "C",
+                "text": "Removes asynchronous communication"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing decouples data persistence from event publishing, improving modularity."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0033",
+        "text": "Which of the following is a benefit of transaction log tailing for observability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides visibility into database changes and event publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing provides visibility into database changes and event publishing for observability."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0034",
+        "text": "Which of the following is a benefit of transaction log tailing for performance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Avoids additional writes to the database"
+            },
+            {
+                "letter": "B",
+                "text": "Requires extra database writes"
+            },
+            {
+                "letter": "C",
+                "text": "Increases latency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables caching"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing avoids additional writes by reading from the database log instead of application tables."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0035",
+        "text": "Which of the following is a benefit of transaction log tailing for consistency?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures events reflect the actual committed state of the database"
+            },
+            {
+                "letter": "B",
+                "text": "Removes consistency checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI consistency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing ensures events reflect the actual committed state of the database."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0036",
+        "text": "Which of the following is a benefit of transaction log tailing for scalability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Allows asynchronous event propagation without impacting application performance"
+            },
+            {
+                "letter": "B",
+                "text": "Requires synchronous communication"
+            },
+            {
+                "letter": "C",
+                "text": "Increases coupling"
+            },
+            {
+                "letter": "D",
+                "text": "Disables message queues"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing propagates events asynchronously, improving scalability and performance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0037",
+        "text": "Which of the following is a benefit of transaction log tailing for reliability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures all committed transactions are captured"
+            },
+            {
+                "letter": "B",
+                "text": "Removes persistence"
+            },
+            {
+                "letter": "C",
+                "text": "Eliminates retries"
+            },
+            {
+                "letter": "D",
+                "text": "Requires manual recovery"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing ensures all committed transactions are captured and processed reliably."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0038",
+        "text": "Which of the following is a benefit of transaction log tailing for automation?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Automatically captures and publishes database changes"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual message publishing"
+            },
+            {
+                "letter": "C",
+                "text": "Removes automation"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing automatically captures and publishes database changes without manual intervention."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0039",
+        "text": "Which of the following is a benefit of transaction log tailing for fault tolerance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can resume from the last processed log position after failure"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing can resume from the last processed log position, improving fault tolerance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0040",
+        "text": "Which of the following best summarizes the role of transaction log tailing in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Captures and publishes database changes as events without modifying application code"
+            },
+            {
+                "letter": "B",
+                "text": "Handles synchronous communication between services"
+            },
+            {
+                "letter": "C",
+                "text": "Replaces message brokers entirely"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing captures and publishes database changes as events without modifying application code."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0041",
+        "text": "Which of the following is a benefit of transaction log tailing for durability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Changes are persisted in the database log until processed"
+            },
+            {
+                "letter": "B",
+                "text": "Changes are stored in memory only"
+            },
+            {
+                "letter": "C",
+                "text": "Changes are deleted immediately"
+            },
+            {
+                "letter": "D",
+                "text": "Changes are not persisted"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing ensures durability by persisting changes in the database log until processed."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0042",
+        "text": "Which of the following is a benefit of transaction log tailing for integration?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Enables integration with external systems through event streaming"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual data export"
+            },
+            {
+                "letter": "C",
+                "text": "Removes integration capabilities"
+            },
+            {
+                "letter": "D",
+                "text": "Disables event streaming"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing enables integration with external systems through event streaming."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0043",
+        "text": "Which of the following is a benefit of transaction log tailing for real-time processing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides near real-time event propagation"
+            },
+            {
+                "letter": "B",
+                "text": "Requires batch processing"
+            },
+            {
+                "letter": "C",
+                "text": "Increases latency"
+            },
+            {
+                "letter": "D",
+                "text": "Disables streaming"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing provides near real-time event propagation for reactive systems."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0044",
+        "text": "Which of the following is a benefit of transaction log tailing for maintainability?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Requires no changes to application logic"
+            },
+            {
+                "letter": "B",
+                "text": "Increases code complexity"
+            },
+            {
+                "letter": "C",
+                "text": "Requires manual event handling"
+            },
+            {
+                "letter": "D",
+                "text": "Disables modularity"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing requires no changes to application logic, simplifying maintenance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0045",
+        "text": "Which of the following is a benefit of transaction log tailing for auditing?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides a complete record of all database changes"
+            },
+            {
+                "letter": "B",
+                "text": "Removes audit logs"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI auditing"
+            },
+            {
+                "letter": "D",
+                "text": "Disables traceability"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing provides a complete record of all database changes for auditing."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0046",
+        "text": "Which of the following is a benefit of transaction log tailing for compliance?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Ensures traceability of all data changes"
+            },
+            {
+                "letter": "B",
+                "text": "Removes compliance checks"
+            },
+            {
+                "letter": "C",
+                "text": "Simplifies only UI compliance"
+            },
+            {
+                "letter": "D",
+                "text": "Disables auditing"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing ensures traceability of all data changes, aiding compliance."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0047",
+        "text": "Which of the following is a benefit of transaction log tailing for monitoring?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Provides metrics for change capture and event publishing"
+            },
+            {
+                "letter": "B",
+                "text": "Removes monitoring"
+            },
+            {
+                "letter": "C",
+                "text": "Hides message flow"
+            },
+            {
+                "letter": "D",
+                "text": "Disables logging"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing provides metrics for change capture and event publishing for monitoring."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0048",
+        "text": "Which of the following is a benefit of transaction log tailing for resilience?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Can recover from failures using log offsets"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual recovery"
+            },
+            {
+                "letter": "C",
+                "text": "Removes rollback"
+            },
+            {
+                "letter": "D",
+                "text": "Disables retries"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing can recover from failures using log offsets, improving resilience."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0049",
+        "text": "Which of the following is a benefit of transaction log tailing for integration with event-driven systems?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Streams database changes directly to event brokers"
+            },
+            {
+                "letter": "B",
+                "text": "Requires manual event creation"
+            },
+            {
+                "letter": "C",
+                "text": "Removes event streaming"
+            },
+            {
+                "letter": "D",
+                "text": "Disables integration"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing streams database changes directly to event brokers for event-driven integration."
+    },
+    {
+        "title": "MicroservicesTransactionalMessagingTransactionLogTailing - Q0050",
+        "text": "Which of the following best summarizes the role of transaction log tailing in microservices?",
+        "options": [
+            {
+                "letter": "A",
+                "text": "Captures and streams database changes as events for reliable, consistent, and asynchronous communication"
+            },
+            {
+                "letter": "B",
+                "text": "Handles synchronous communication between services"
+            },
+            {
+                "letter": "C",
+                "text": "Replaces message brokers entirely"
+            },
+            {
+                "letter": "D",
+                "text": "Manages UI rendering"
+            }
+        ],
+        "correct": "A",
+        "explanation": "Transaction log tailing captures and streams database changes as events for reliable, consistent, and asynchronous communication."
+    }
+]
