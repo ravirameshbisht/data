@@ -1199,4 +1199,4 @@
         "correct": "A",
         "explanation": "The Saga pattern manages distributed transactions through local operations and compensations to ensure eventual consistency."
     }
-]s
+]
