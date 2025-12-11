@@ -1,3 +1,3 @@
-{
+[{
     "SecondHighestSalary": 85000
-}
+}]
