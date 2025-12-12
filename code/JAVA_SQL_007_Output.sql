@@ -1,3 +1,5 @@
-{
-    "median_salary": 72000
-}
+[
+    {
+        "median_salary": 72000
+    }
+]
