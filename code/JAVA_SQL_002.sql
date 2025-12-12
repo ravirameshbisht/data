@@ -1,5 +1,5 @@
 {
     "id": 2,
-    "name": "Count Orders by Status",
-    "query": "SELECT status, COUNT(*) as count FROM orders GROUP BY status"
+    "name": "Find duplicate records in a table",
+    "query": "SELECT name, COUNT(*) FROM employees GROUP BY name HAVING COUNT(*) > 1;"
 }

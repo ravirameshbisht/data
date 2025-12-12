@@ -1,14 +1,10 @@
 [
     {
-        "status": "completed",
-        "count": 45
+        "name": "Alice",
+        "count": 2
     },
     {
-        "status": "pending",
-        "count": 12
-    },
-    {
-        "status": "cancelled",
+        "name": "Bob",
         "count": 3
     }
 ]

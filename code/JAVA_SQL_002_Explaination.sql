@@ -1,1 +1,1 @@
-This query retrieves all active users from the users table, sorted by their creation date in descending order (newest first). The WHERE clause filters for active users only, and ORDER BY ensures the most recent users appear at the top
+It groups employees by name and returns only those names that appear more than once, identifying duplicate records.
