@@ -1,5 +1,6 @@
-- The inner query sorts all employee salaries in ascending order.
-- It then skips rows until it reaches the middle position using the OFFSET value.
-- The LIMIT decides whether to pick 1 value (odd count) or 2 values (even count).
-- These selected middle salary values are returned as a temporary result.
-- The outer query takes the average of those values, giving the median salary.
+This query calculates a running total of salaries within each department.
+- SUM(salary) OVER (...) is a window function that performs a cumulative sum.
+- PARTITION BY department_id means the running total restarts for each department.
+- ORDER BY id means the cumulative sum is calculated in the order of employee IDs.
+- For each employee, the query returns: name, department_id, salary, and the running total salary so far for that department.
+So the result shows how salaries accumulate employee-by-employee inside each department.

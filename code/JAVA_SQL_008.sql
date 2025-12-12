@@ -1,5 +1,5 @@
 {
-  "id": 7,
-  "name": "Write a query to find the median salary",
-  "query": "SELECT AVG(salary) AS median_salary\nFROM (\n    SELECT salary\n    FROM employees\n    ORDER BY salary\n    LIMIT 2 - (SELECT COUNT(*) FROM employees) % 2\n    OFFSET (SELECT (COUNT(*) - 1) / 2 FROM employees)\n) AS median_subquery;"
+  "id": 8,
+  "name": "Running total of salaries by department",
+  "query": "SELECT name, department_id, salary, SUM(salary) OVER (PARTITION BY  department_id ORDER BY id) AS running_total FROM employees;"
 }
