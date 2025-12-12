@@ -1,0 +1,5 @@
+- The inner query sorts all employee salaries in ascending order.
+- It then skips rows until it reaches the middle position using the OFFSET value.
+- The LIMIT decides whether to pick 1 value (odd count) or 2 values (even count).
+- These selected middle salary values are returned as a temporary result.
+- The outer query takes the average of those values, giving the median salary.
