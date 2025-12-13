@@ -1,3 +1,5 @@
-1. This query retrieves all employees who joined the company within the last six months. 
-2. It compares each employee’s join_date with a calculated date that is exactly six months before today (CURRENT_DATE - INTERVAL '6 months'). 
-3. If the employee’s join_date is greater than or equal to that past date, meaning they joined recently, their record is included in the result.
+- The query selects all columns from the employees table.
+- It calculates the date that is exactly 6 months before today using CURRENT_DATE - INTERVAL '6 months'.
+- Each employee’s join_date is compared with this calculated date.
+- Only employees who joined on or after that date are considered.
+- The result contains employees who joined within the last 6 months.
