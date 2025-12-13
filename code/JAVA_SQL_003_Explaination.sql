@@ -1,3 +1,5 @@
-1. This query joins the employees table with itself to match each employee to their manager, 
-2. then checks whose salary is higher than their manager’s salary, 
-3. and finally returns only those employees along with their manager’s details.
+- The query joins the employees table with itself to link each employee to their manager.
+- e represents the employee and m represents the manager.
+- The join condition matches an employee’s manager_id with the manager’s id.
+- The WHERE clause compares salaries of employees and their managers.
+- Only employees who earn more than their managers are returned.
