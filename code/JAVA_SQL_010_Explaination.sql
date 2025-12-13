@@ -1,0 +1,5 @@
+- The recursive CTE starts by selecting top-level employees who have no manager and assigns them level 1.
+- The recursive part joins employees to the CTE using manager–employee relationships.
+- Each recursion step increases the level to show depth in the hierarchy.
+- This process continues until no more reporting employees are found.
+- The final query returns the full reporting hierarchy ordered by level and employee id.
