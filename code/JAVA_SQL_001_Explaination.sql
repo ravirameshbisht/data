@@ -1,1 +1,5 @@
-The query removes the highest salary and then finds the highest salary among the remaining ones — which is the second highest salary.
+- The inner query finds the highest salary in the employees table.
+- The WHERE clause filters out that highest salary from the results.
+- Only salaries lower than the maximum are considered.
+- The outer query then finds the maximum salary from this reduced set.
+- This resulting value is the second highest salary.

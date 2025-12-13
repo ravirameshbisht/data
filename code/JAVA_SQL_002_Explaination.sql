@@ -1,1 +1,5 @@
-It groups employees by name and returns only those names that appear more than once, identifying duplicate records.
+- The query groups all rows in the employees table by the name column.
+- COUNT(*) counts how many times each name appears.
+- Each group represents one unique employee name.
+- The HAVING clause filters out names that appear only once.
+- Only names that appear more than once (duplicates) are returned.
