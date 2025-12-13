@@ -1,0 +1,5 @@
+- The query checks each employee ID and looks for the next consecutive ID (id + 1).
+- It uses NOT EXISTS to verify that the next ID is missing in the table.
+- If the next ID does not exist, it is treated as a gap in the sequence.
+- The missing value is calculated as id + 1 and returned as missing_id.
+- Results are ordered to show missing IDs in ascending order.
