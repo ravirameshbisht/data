@@ -1,0 +1,5 @@
+- The inner query assigns a row number to each sale per customer_id.
+- PARTITION BY customer_id restarts numbering for each customer.
+- ORDER BY purchase_date DESC ranks the most recent purchase as rn = 1.
+- The outer query filters only rows where rn = 1.
+- The result returns each customer’s latest purchase.

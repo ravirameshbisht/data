@@ -1,0 +1,5 @@
+- The recursive CTE employee_depth builds an employee hierarchy.
+- The base query selects top-level employees with manager_id IS NULL and sets depth = 1.
+- The recursive part joins employees to their managers already in the CTE.
+- ed.depth + 1 increases the hierarchy level for each subordinate.
+- The final result shows all employees with their hierarchy depth in the organization.
