@@ -1,0 +1,5 @@
+- The query groups sales records by customer_id.
+- COUNT(DISTINCT category_id) counts how many unique categories each customer purchased from.
+- The subquery calculates the total number of distinct categories present in the sales table.
+- The HAVING clause compares both counts.
+- The result returns customers who have purchased from every available category.
