@@ -1,0 +1,5 @@
+- The query selects the project id from the projects table.
+- DATEDIFF(day, start_date, end_date) calculates the number of days between two dates.
+- day specifies that the difference should be calculated in days.
+- The result is aliased as days_difference.
+- Each row shows how long a project lasted in days.
