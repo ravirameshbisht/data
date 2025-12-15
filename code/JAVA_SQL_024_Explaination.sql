@@ -1,0 +1,5 @@
+- The query groups all records in the employees table by job_title.
+- Each unique job title forms one group.
+- COUNT(*) counts the number of employees in each job title group.
+- The result shows how many employees hold each job title.
+- This helps understand role-wise employee distribution.
