@@ -1,0 +1,5 @@
+- The query groups employees by department_id.
+- CASE WHEN job_title = 'Manager' THEN 1 ELSE 0 counts managers per department.
+- Similar CASE expressions count developers and testers separately.
+- SUM() adds these values to get totals for each role.
+- The result shows role-wise employee counts for every department.
