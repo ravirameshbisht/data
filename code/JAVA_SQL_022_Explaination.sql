@@ -1,0 +1,5 @@
+- The query groups all sales records by customer_id.
+- MIN(purchase_date) finds the earliest purchase date for each customer.
+- MAX(purchase_date) finds the most recent purchase date for each customer.
+- Each row represents one customer’s purchase history range.
+- The result shows the first and last purchase dates per customer.
