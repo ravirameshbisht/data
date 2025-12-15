@@ -1,0 +1,5 @@
+- The query performs a self-join on the employees table.
+- e1 and e2 represent two different employees.
+- e1.department_id = e2.department_id matches employees from the same department
+- e1.id < e2.id avoids duplicate and self-pairing combinations.
+- The result shows unique pairs of employees working in the same department.
