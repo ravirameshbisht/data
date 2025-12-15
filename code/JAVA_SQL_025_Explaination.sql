@@ -1,0 +1,5 @@
+- The query selects all columns from the employees table.
+- WHERE department_id IS NULL filters employees with no department assigned.
+- These rows represent employees not mapped to any department.
+- NULL indicates missing or undefined department information.
+- The result helps identify unassigned or orphan employee records.
