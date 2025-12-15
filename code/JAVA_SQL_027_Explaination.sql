@@ -1,0 +1,5 @@
+- The query selects each employee’s name, hire_date, and salary.
+- AVG(salary) OVER (...) is a window function that calculates a moving average.
+- ORDER BY hire_date defines the sequence based on hiring date.
+- ROWS BETWEEN 2 PRECEDING AND CURRENT ROW includes the current row and the two previous rows.
+- moving_avg_salary shows the rolling average salary over this 3-employee window.
