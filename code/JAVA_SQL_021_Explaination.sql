@@ -1,0 +1,5 @@
+- The query uses a self-join on the employees table.
+- e represents the employee, and m represents the manager.
+- Employees are joined to their managers using e.manager_id = m.id.
+- WHERE e.salary = m.salary filters employees whose salary equals their manager’s salary.
+- The result shows employees and managers earning the same amount.
